@@ -1,0 +1,1085 @@
+[
+  {
+    "FE": 100,
+    "phase": "init",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.19067172036324576,
+          "1.5": 0.5766581470531825,
+          "2.0": 2.3980038698445494
+        },
+        "IGDplus": 0.16113231002567135,
+        "objectiveMinima": [
+          295.7890673346769,
+          13008.536550831179,
+          12720.692768147766
+        ],
+        "archiveSize": 10,
+        "originCounts": {
+          "init": 10
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.19067172036324576,
+          "1.5": 0.5766581470531825,
+          "2.0": 2.3980038698445494
+        },
+        "IGDplus": 0.16113231002567135,
+        "objectiveMinima": [
+          295.7890673346769,
+          13008.536550831179,
+          12720.692768147766
+        ],
+        "archiveSize": 10,
+        "originCounts": {
+          "init": 10
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.0,
+    "special_vs_uniform_pct": 0.0,
+    "cSpecialUniform": 1.0,
+    "cUniformSpecial": 1.0,
+    "priorNsgaHV": 0.5766581470531825,
+    "special_vs_prior_nsga_pct": 0.0,
+    "uniform_vs_prior_nsga_pct": 0.0
+  },
+  {
+    "FE": 850,
+    "phase": "g1.MAKESPAN",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.215662217861261,
+          "1.5": 0.630390500002614,
+          "2.0": 2.540808936448381
+        },
+        "IGDplus": 0.11752578647467987,
+        "objectiveMinima": [
+          260.241750309944,
+          12420.092251290622,
+          12720.692768147766
+        ],
+        "archiveSize": 10,
+        "originCounts": {
+          "g1.MAKESPAN": 8,
+          "init": 2
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.22007343059345746,
+          "1.5": 0.6383944239595102,
+          "2.0": 2.5587767139369424
+        },
+        "IGDplus": 0.11171109205662984,
+        "objectiveMinima": [
+          271.61240122381537,
+          12217.644337586804,
+          12522.52502727763
+        ],
+        "archiveSize": 11,
+        "originCounts": {
+          "g1.MAKESPAN": 9,
+          "init": 2
+        }
+      }
+    },
+    "specialMinusUniformHV": -0.008003923956896197,
+    "special_vs_uniform_pct": -1.2537584378092603,
+    "cSpecialUniform": 0.45454545454545453,
+    "cUniformSpecial": 0.7
+  },
+  {
+    "FE": 3600,
+    "phase": "g1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.2458204049585298,
+          "1.5": 0.6900880272597054,
+          "2.0": 2.68877788961019
+        },
+        "IGDplus": 0.09044719273205609,
+        "objectiveMinima": [
+          260.241750309944,
+          11521.749206020393,
+          12283.420224846417
+        ],
+        "archiveSize": 26,
+        "originCounts": {
+          "g1.CENTER": 21,
+          "g1.MAKESPAN": 4,
+          "init": 1
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.2319179303829606,
+          "1.5": 0.6628492955136096,
+          "2.0": 2.6220042343195207
+        },
+        "IGDplus": 0.10243764329964046,
+        "objectiveMinima": [
+          259.37510892067326,
+          11888.173445327337,
+          12522.52502727763
+        ],
+        "archiveSize": 23,
+        "originCounts": {
+          "g1.CENTER": 17,
+          "g1.MAKESPAN": 6
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.027238731746095812,
+    "special_vs_uniform_pct": 4.109340076312495,
+    "cSpecialUniform": 0.391304347826087,
+    "cUniformSpecial": 0.38461538461538464
+  },
+  {
+    "FE": 4350,
+    "phase": "g1.ENERGY",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.2460627457534958,
+          "1.5": 0.6904205519781385,
+          "2.0": 2.689290782175557
+        },
+        "IGDplus": 0.09040109026840981,
+        "objectiveMinima": [
+          260.241750309944,
+          11521.749206020393,
+          12283.420224846417
+        ],
+        "archiveSize": 30,
+        "originCounts": {
+          "g1.CENTER": 18,
+          "g1.ENERGY": 7,
+          "g1.MAKESPAN": 4,
+          "init": 1
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.23208778838701366,
+          "1.5": 0.6631079292983939,
+          "2.0": 2.6224404196657676
+        },
+        "IGDplus": 0.10243764329964046,
+        "objectiveMinima": [
+          259.37510892067326,
+          11888.173445327337,
+          12522.52502727763
+        ],
+        "archiveSize": 25,
+        "originCounts": {
+          "g1.CENTER": 17,
+          "g1.ENERGY": 2,
+          "g1.MAKESPAN": 6
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.027312622679744547,
+    "special_vs_uniform_pct": 4.118880422474036,
+    "cSpecialUniform": 0.48,
+    "cUniformSpecial": 0.3333333333333333
+  },
+  {
+    "FE": 5100,
+    "phase": "g1.WORKER_COST",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.24613425953320717,
+          "1.5": 0.6905249580429931,
+          "2.0": 2.6894609728106977
+        },
+        "IGDplus": 0.09040109026840981,
+        "objectiveMinima": [
+          260.241750309944,
+          11521.749206020393,
+          12283.420224846417
+        ],
+        "archiveSize": 33,
+        "originCounts": {
+          "g1.CENTER": 17,
+          "g1.ENERGY": 7,
+          "g1.MAKESPAN": 4,
+          "g1.WORKER_COST": 4,
+          "init": 1
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.23228271227917785,
+          "1.5": 0.6634087842459593,
+          "2.0": 2.6229531367241354
+        },
+        "IGDplus": 0.10243764329964046,
+        "objectiveMinima": [
+          259.37510892067326,
+          11888.173445327337,
+          12522.52502727763
+        ],
+        "archiveSize": 28,
+        "originCounts": {
+          "g1.CENTER": 17,
+          "g1.ENERGY": 2,
+          "g1.MAKESPAN": 6,
+          "g1.WORKER_COST": 3
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.027116173797033793,
+    "special_vs_uniform_pct": 4.087400474784864,
+    "cSpecialUniform": 0.5357142857142857,
+    "cUniformSpecial": 0.3333333333333333
+  },
+  {
+    "FE": 15000,
+    "phase": "l1.MAKESPAN",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.25392035787440176,
+          "1.5": 0.708455898681666,
+          "2.0": 2.7401409110740116
+        },
+        "IGDplus": 0.08971276867547359,
+        "objectiveMinima": [
+          237.14297653158008,
+          11521.749206020393,
+          12283.420224846417
+        ],
+        "archiveSize": 40,
+        "originCounts": {
+          "g1.CENTER": 15,
+          "g1.ENERGY": 6,
+          "g1.MAKESPAN": 2,
+          "g1.WORKER_COST": 4,
+          "init": 1,
+          "l1.MAKESPAN": 12
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.2784664215531078,
+          "1.5": 0.7511415979208913,
+          "2.0": 2.8307311107584217
+        },
+        "IGDplus": 0.023902726908508795,
+        "objectiveMinima": [
+          259.37510892067326,
+          10356.939747912455,
+          12324.337338243928
+        ],
+        "archiveSize": 67,
+        "originCounts": {
+          "g1.CENTER": 1,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": -0.04268569923922527,
+    "special_vs_uniform_pct": -5.682776637238085,
+    "cSpecialUniform": 0.029850746268656716,
+    "cUniformSpecial": 0.75,
+    "priorNsgaHV": 0.7319516780351449,
+    "special_vs_prior_nsga_pct": -3.210017827481604,
+    "uniform_vs_prior_nsga_pct": 2.621746825864224
+  },
+  {
+    "FE": 50000,
+    "phase": "l1.MAKESPAN",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.2647644924695693,
+          "1.5": 0.7322100592354415,
+          "2.0": 2.804322211115788
+        },
+        "IGDplus": 0.0779028483391331,
+        "objectiveMinima": [
+          210.06236538115266,
+          11521.749206020393,
+          12283.420224846417
+        ],
+        "archiveSize": 49,
+        "originCounts": {
+          "g1.CENTER": 11,
+          "g1.ENERGY": 2,
+          "g1.WORKER_COST": 3,
+          "init": 1,
+          "l1.MAKESPAN": 32
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.2979743072914872,
+          "1.5": 0.788391556107106,
+          "2.0": 2.9200897806937736
+        },
+        "IGDplus": 0.011144370768355387,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          12041.75336521434
+        ],
+        "archiveSize": 130,
+        "originCounts": {
+          "l1.MAKESPAN": 130
+        }
+      }
+    },
+    "specialMinusUniformHV": -0.056181496871664516,
+    "special_vs_uniform_pct": -7.126090638143778,
+    "cSpecialUniform": 0.0,
+    "cUniformSpecial": 0.5306122448979592,
+    "priorNsgaHV": 0.7441110551461052,
+    "special_vs_prior_nsga_pct": -1.5993574921860265,
+    "uniform_vs_prior_nsga_pct": 5.950791975843761
+  },
+  {
+    "FE": 61149,
+    "phase": "l1.MAKESPAN",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.2647644924695693,
+          "1.5": 0.7322100592354415,
+          "2.0": 2.804322211115788
+        },
+        "IGDplus": 0.0779028483391331,
+        "objectiveMinima": [
+          210.06236538115266,
+          11521.749206020393,
+          12283.420224846417
+        ],
+        "archiveSize": 49,
+        "originCounts": {
+          "g1.CENTER": 11,
+          "g1.ENERGY": 2,
+          "g1.WORKER_COST": 3,
+          "init": 1,
+          "l1.MAKESPAN": 32
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.2979743072914872,
+          "1.5": 0.788391556107106,
+          "2.0": 2.9200897806937736
+        },
+        "IGDplus": 0.011144370768355387,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          12041.75336521434
+        ],
+        "archiveSize": 130,
+        "originCounts": {
+          "l1.MAKESPAN": 130
+        }
+      }
+    },
+    "specialMinusUniformHV": -0.056181496871664516,
+    "special_vs_uniform_pct": -7.126090638143778,
+    "cSpecialUniform": 0.0,
+    "cUniformSpecial": 0.5306122448979592
+  },
+  {
+    "FE": 100000,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.30744244957472094,
+          "1.5": 0.8110956574110055,
+          "2.0": 2.9866054063382492
+        },
+        "IGDplus": 0.00986305253047657,
+        "objectiveMinima": [
+          210.06236538115266,
+          10430.247874769759,
+          11943.757656568208
+        ],
+        "archiveSize": 118,
+        "originCounts": {
+          "l1.CENTER": 95,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.2982975552845042,
+          "1.5": 0.7888541924996209,
+          "2.0": 2.920831193885285
+        },
+        "IGDplus": 0.010248026824511529,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          12041.75336521434
+        ],
+        "archiveSize": 133,
+        "originCounts": {
+          "l1.CENTER": 38,
+          "l1.MAKESPAN": 95
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.02224146491138468,
+    "special_vs_uniform_pct": 2.8194646263980383,
+    "cSpecialUniform": 0.3082706766917293,
+    "cUniformSpecial": 0.2542372881355932,
+    "priorNsgaHV": 0.8132652667976998,
+    "special_vs_prior_nsga_pct": -0.2667775786413862,
+    "uniform_vs_prior_nsga_pct": -3.0016127940886483
+  },
+  {
+    "FE": 240000,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3146126228725497,
+          "1.5": 0.8251005965050224,
+          "2.0": 3.0208052937289267
+        },
+        "IGDplus": 0.005931935338390198,
+        "objectiveMinima": [
+          210.06236538115266,
+          10120.958021716648,
+          11943.757656568208
+        ],
+        "archiveSize": 147,
+        "originCounts": {
+          "l1.CENTER": 124,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30338172381184186,
+          "1.5": 0.7977938117466781,
+          "2.0": 2.9406319231280578
+        },
+        "IGDplus": 0.004985734263567985,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 210,
+        "originCounts": {
+          "l1.CENTER": 144,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.02730678475834436,
+    "special_vs_uniform_pct": 3.4227872360352407,
+    "cSpecialUniform": 0.44285714285714284,
+    "cUniformSpecial": 0.2653061224489796
+  },
+  {
+    "FE": 245000,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3146126228725497,
+          "1.5": 0.8251005965050224,
+          "2.0": 3.0208052937289267
+        },
+        "IGDplus": 0.005931935338390198,
+        "objectiveMinima": [
+          210.06236538115266,
+          10120.958021716648,
+          11943.757656568208
+        ],
+        "archiveSize": 147,
+        "originCounts": {
+          "l1.CENTER": 124,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30338172381184186,
+          "1.5": 0.7977938117466781,
+          "2.0": 2.9406319231280578
+        },
+        "IGDplus": 0.004985734263567985,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 210,
+        "originCounts": {
+          "l1.CENTER": 144,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.02730678475834436,
+    "special_vs_uniform_pct": 3.4227872360352407,
+    "cSpecialUniform": 0.44285714285714284,
+    "cUniformSpecial": 0.2653061224489796
+  },
+  {
+    "FE": 250000,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.31461984942659427,
+          "1.5": 0.8251107838385708,
+          "2.0": 3.020821402621483
+        },
+        "IGDplus": 0.005910646138613799,
+        "objectiveMinima": [
+          210.06236538115266,
+          10120.958021716648,
+          11943.757656568208
+        ],
+        "archiveSize": 152,
+        "originCounts": {
+          "l1.CENTER": 129,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30338172381184186,
+          "1.5": 0.7977938117466781,
+          "2.0": 2.9406319231280578
+        },
+        "IGDplus": 0.004985734263567985,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 210,
+        "originCounts": {
+          "l1.CENTER": 144,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.027316972091892766,
+    "special_vs_uniform_pct": 3.4240641741862365,
+    "cSpecialUniform": 0.44285714285714284,
+    "cUniformSpecial": 0.2565789473684211,
+    "priorNsgaHV": 0.8221044168170827,
+    "special_vs_prior_nsga_pct": 0.3656916274854538,
+    "uniform_vs_prior_nsga_pct": -2.957118897928712
+  },
+  {
+    "FE": 255000,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3146211370979886,
+          "1.5": 0.8251125731208634,
+          "2.0": 3.020824195125572
+        },
+        "IGDplus": 0.0058966475347449225,
+        "objectiveMinima": [
+          210.06236538115266,
+          10120.958021716648,
+          11943.757656568208
+        ],
+        "archiveSize": 157,
+        "originCounts": {
+          "l1.CENTER": 134,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30338172381184186,
+          "1.5": 0.7977938117466781,
+          "2.0": 2.9406319231280578
+        },
+        "IGDplus": 0.004985734263567985,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 210,
+        "originCounts": {
+          "l1.CENTER": 144,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.02731876137418532,
+    "special_vs_uniform_pct": 3.4242884529743334,
+    "cSpecialUniform": 0.44285714285714284,
+    "cUniformSpecial": 0.2611464968152866
+  },
+  {
+    "FE": 260000,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3146211370979886,
+          "1.5": 0.8251125731208634,
+          "2.0": 3.020824195125572
+        },
+        "IGDplus": 0.0058966475347449225,
+        "objectiveMinima": [
+          210.06236538115266,
+          10120.958021716648,
+          11943.757656568208
+        ],
+        "archiveSize": 157,
+        "originCounts": {
+          "l1.CENTER": 134,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30338172381184186,
+          "1.5": 0.7977938117466781,
+          "2.0": 2.9406319231280578
+        },
+        "IGDplus": 0.004985734263567985,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 210,
+        "originCounts": {
+          "l1.CENTER": 144,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.02731876137418532,
+    "special_vs_uniform_pct": 3.4242884529743334,
+    "cSpecialUniform": 0.44285714285714284,
+    "cUniformSpecial": 0.2611464968152866
+  },
+  {
+    "FE": 297524,
+    "phase": "l1.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3146211370979886,
+          "1.5": 0.8251125731208634,
+          "2.0": 3.020824195125572
+        },
+        "IGDplus": 0.0058966475347449225,
+        "objectiveMinima": [
+          210.06236538115266,
+          10120.958021716648,
+          11943.757656568208
+        ],
+        "archiveSize": 157,
+        "originCounts": {
+          "l1.CENTER": 134,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30338172381184186,
+          "1.5": 0.7977938117466781,
+          "2.0": 2.9406319231280578
+        },
+        "IGDplus": 0.004985734263567985,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 210,
+        "originCounts": {
+          "l1.CENTER": 144,
+          "l1.MAKESPAN": 66
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.02731876137418532,
+    "special_vs_uniform_pct": 3.4242884529743334,
+    "cSpecialUniform": 0.44285714285714284,
+    "cUniformSpecial": 0.2611464968152866
+  },
+  {
+    "FE": 367711,
+    "phase": "l1.ENERGY",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3186044116062978,
+          "1.5": 0.8333818988138091,
+          "2.0": 3.0421655937093592
+        },
+        "IGDplus": 0.004651449943486252,
+        "objectiveMinima": [
+          210.06236538115266,
+          9907.669693257018,
+          11943.757656568208
+        ],
+        "archiveSize": 193,
+        "originCounts": {
+          "l1.CENTER": 116,
+          "l1.ENERGY": 54,
+          "l1.MAKESPAN": 23
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.3033944702335531,
+          "1.5": 0.7978108438587308,
+          "2.0": 2.940657526620793
+        },
+        "IGDplus": 0.004701503455786605,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 224,
+        "originCounts": {
+          "l1.CENTER": 128,
+          "l1.ENERGY": 31,
+          "l1.MAKESPAN": 65
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.035571054955078285,
+    "special_vs_uniform_pct": 4.458582536059996,
+    "cSpecialUniform": 0.4732142857142857,
+    "cUniformSpecial": 0.19170984455958548
+  },
+  {
+    "FE": 439878,
+    "phase": "l1.WORKER_COST",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3242210758925358,
+          "1.5": 0.8440550652091972,
+          "2.0": 3.0677420143747787
+        },
+        "IGDplus": 0.0028692079571548106,
+        "objectiveMinima": [
+          210.06236538115266,
+          9907.669693257018,
+          11739.191464921962
+        ],
+        "archiveSize": 297,
+        "originCounts": {
+          "l1.CENTER": 116,
+          "l1.ENERGY": 54,
+          "l1.MAKESPAN": 23,
+          "l1.WORKER_COST": 104
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30341018824629107,
+          "1.5": 0.7978324268980934,
+          "2.0": 2.9406908397134046
+        },
+        "IGDplus": 0.00469962032603658,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 245,
+        "originCounts": {
+          "l1.CENTER": 125,
+          "l1.ENERGY": 31,
+          "l1.MAKESPAN": 65,
+          "l1.WORKER_COST": 24
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.046222638311103736,
+    "special_vs_uniform_pct": 5.793527155923406,
+    "cSpecialUniform": 0.5183673469387755,
+    "cUniformSpecial": 0.21885521885521886
+  },
+  {
+    "FE": 440628,
+    "phase": "g2.MAKESPAN",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3242210758925358,
+          "1.5": 0.8440550652091972,
+          "2.0": 3.0677420143747787
+        },
+        "IGDplus": 0.0028692079571548106,
+        "objectiveMinima": [
+          210.06236538115266,
+          9907.669693257018,
+          11739.191464921962
+        ],
+        "archiveSize": 297,
+        "originCounts": {
+          "l1.CENTER": 116,
+          "l1.ENERGY": 54,
+          "l1.MAKESPAN": 23,
+          "l1.WORKER_COST": 104
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30341018824629107,
+          "1.5": 0.7978324268980934,
+          "2.0": 2.9406908397134046
+        },
+        "IGDplus": 0.00469962032603658,
+        "objectiveMinima": [
+          252.5897296456592,
+          10056.0865974672,
+          11907.224653708703
+        ],
+        "archiveSize": 245,
+        "originCounts": {
+          "l1.CENTER": 125,
+          "l1.ENERGY": 31,
+          "l1.MAKESPAN": 65,
+          "l1.WORKER_COST": 24
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.046222638311103736,
+    "special_vs_uniform_pct": 5.793527155923406,
+    "cSpecialUniform": 0.5183673469387755,
+    "cUniformSpecial": 0.21885521885521886
+  },
+  {
+    "FE": 443378,
+    "phase": "g2.CENTER",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3243625974255134,
+          "1.5": 0.8442695635742958,
+          "2.0": 3.0681024664041194
+        },
+        "IGDplus": 0.00284496655419508,
+        "objectiveMinima": [
+          210.06236538115266,
+          9907.669693257018,
+          11739.191464921962
+        ],
+        "archiveSize": 290,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "l1.CENTER": 116,
+          "l1.ENERGY": 44,
+          "l1.MAKESPAN": 23,
+          "l1.WORKER_COST": 104
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30549319552609033,
+          "1.5": 0.8024307096225455,
+          "2.0": 2.953221982490194
+        },
+        "IGDplus": 0.004620210672592908,
+        "objectiveMinima": [
+          252.5897296456592,
+          9918.523769646694,
+          11907.224653708703
+        ],
+        "archiveSize": 248,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "l1.CENTER": 125,
+          "l1.ENERGY": 31,
+          "l1.MAKESPAN": 65,
+          "l1.WORKER_COST": 24
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.041838853951750354,
+    "special_vs_uniform_pct": 5.214014549795953,
+    "cSpecialUniform": 0.5161290322580645,
+    "cUniformSpecial": 0.22413793103448276
+  },
+  {
+    "FE": 444128,
+    "phase": "g2.ENERGY",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3243625974255134,
+          "1.5": 0.8442695635742958,
+          "2.0": 3.0681024664041194
+        },
+        "IGDplus": 0.00284496655419508,
+        "objectiveMinima": [
+          210.06236538115266,
+          9907.669693257018,
+          11739.191464921962
+        ],
+        "archiveSize": 290,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "l1.CENTER": 116,
+          "l1.ENERGY": 44,
+          "l1.MAKESPAN": 23,
+          "l1.WORKER_COST": 104
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30682195515882504,
+          "1.5": 0.8056964999831138,
+          "2.0": 2.962910126631475
+        },
+        "IGDplus": 0.004620210672592908,
+        "objectiveMinima": [
+          247.865357780442,
+          9918.523769646694,
+          11907.224653708703
+        ],
+        "archiveSize": 249,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "g2.ENERGY": 1,
+          "l1.CENTER": 125,
+          "l1.ENERGY": 31,
+          "l1.MAKESPAN": 65,
+          "l1.WORKER_COST": 24
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.038573063591182066,
+    "special_vs_uniform_pct": 4.787542653094623,
+    "cSpecialUniform": 0.5180722891566265,
+    "cUniformSpecial": 0.22413793103448276
+  },
+  {
+    "FE": 444878,
+    "phase": "g2.WORKER_COST",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3243625974255134,
+          "1.5": 0.8442695635742958,
+          "2.0": 3.0681024664041194
+        },
+        "IGDplus": 0.00284496655419508,
+        "objectiveMinima": [
+          210.06236538115266,
+          9907.669693257018,
+          11739.191464921962
+        ],
+        "archiveSize": 290,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "l1.CENTER": 116,
+          "l1.ENERGY": 44,
+          "l1.MAKESPAN": 23,
+          "l1.WORKER_COST": 104
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30682195515882504,
+          "1.5": 0.8056964999831138,
+          "2.0": 2.962910126631475
+        },
+        "IGDplus": 0.004620210672592908,
+        "objectiveMinima": [
+          247.865357780442,
+          9918.523769646694,
+          11907.224653708703
+        ],
+        "archiveSize": 249,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "g2.ENERGY": 1,
+          "l1.CENTER": 125,
+          "l1.ENERGY": 31,
+          "l1.MAKESPAN": 65,
+          "l1.WORKER_COST": 24
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.038573063591182066,
+    "special_vs_uniform_pct": 4.787542653094623,
+    "cSpecialUniform": 0.5180722891566265,
+    "cUniformSpecial": 0.22413793103448276
+  },
+  {
+    "FE": 500000,
+    "phase": "l2.MAKESPAN",
+    "arms": {
+      "SPECIAL": {
+        "HV": {
+          "1.25": 0.3264464015955433,
+          "1.5": 0.8479597525604313,
+          "2.0": 3.0760812933444757
+        },
+        "IGDplus": 0.0021262318649675847,
+        "objectiveMinima": [
+          208.0677739517384,
+          9907.669693257018,
+          11739.191464921962
+        ],
+        "archiveSize": 280,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "l1.CENTER": 116,
+          "l1.ENERGY": 44,
+          "l1.WORKER_COST": 104,
+          "l2.MAKESPAN": 13
+        }
+      },
+      "UNIFORM": {
+        "HV": {
+          "1.25": 0.30682823029255124,
+          "1.5": 0.8057043304064823,
+          "2.0": 2.962921067634128
+        },
+        "IGDplus": 0.004374084523658381,
+        "objectiveMinima": [
+          247.865357780442,
+          9918.523769646694,
+          11907.224653708703
+        ],
+        "archiveSize": 258,
+        "originCounts": {
+          "g2.CENTER": 3,
+          "g2.ENERGY": 1,
+          "l1.CENTER": 104,
+          "l1.ENERGY": 28,
+          "l1.MAKESPAN": 63,
+          "l1.WORKER_COST": 13,
+          "l2.MAKESPAN": 46
+        }
+      }
+    },
+    "specialMinusUniformHV": 0.04225542215394906,
+    "special_vs_uniform_pct": 5.2445320894118685,
+    "cSpecialUniform": 0.4418604651162791,
+    "cUniformSpecial": 0.24285714285714285,
+    "priorNsgaHV": 0.8534644073420377,
+    "special_vs_prior_nsga_pct": -0.64497766213234,
+    "uniform_vs_prior_nsga_pct": -5.596024453356597
+  }
+]

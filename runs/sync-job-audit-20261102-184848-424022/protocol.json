@@ -1,0 +1,221 @@
+{
+  "version": "sync-job-feedback-v1",
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "time_seconds": 3,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          695.2261449928639,
+          17774.143805827265,
+          16014.26252051863
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_8_3_1",
+      "time_seconds": 9,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          4094.975462668602,
+          286297.0397045699,
+          306847.68709819356
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_5_3_1",
+      "time_seconds": 12,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          9095.137724626977,
+          501783.1052188295,
+          367272.40817719966
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_8_5_1",
+      "time_seconds": 19,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3238.4513886676095,
+          586919.6672420613,
+          593103.1290649361
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "algorithm_seeds": [
+    8110103,
+    8110129,
+    8110151,
+    8110183,
+    8110211
+  ],
+  "model": {
+    "decoder": "dynamic-append-v1",
+    "objectives": [
+      "Cmax",
+      "TEC",
+      "TWC"
+    ],
+    "profile": "strong_fast",
+    "setup_seed": 314159,
+    "parameter_seed": 271828,
+    "standby": 1.0,
+    "incremental": true
+  },
+  "variants": {
+    "SO_JOB": {
+      "mode": "BASELINE_JOB_ALIGNED",
+      "profile": "SO"
+    },
+    "SYNC_JOB": {
+      "mode": "SYNC_JOB_ALIGNED",
+      "profile": "SO"
+    },
+    "SHARE_JOB": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "profile": "SO"
+    },
+    "NSGA": {
+      "mode": "NSGA2_4V",
+      "profile": "V2"
+    }
+  },
+  "runs": 120,
+  "planned_search_seconds": 1040,
+  "wall_cap_seconds": 2700,
+  "one_jvm_at_a_time": true,
+  "classic_setting": 0,
+  "main_endpoints": [
+    "SYNC_JOB/SO_JOB organization effect",
+    "SHARE_JOB/SYNC_JOB sharing increment",
+    "SHARE_JOB/SO_JOB total configuration effect"
+  ],
+  "locked": "Same JOB_ALIGNED, four target groups, QGS50/alpha1/gamma0.8/exploration0.8, localCap30,200-pool PDDR, original FA family80+4x5/compose/feedback; no strategy update",
+  "feedback_observer": "All4 paid callbacks stamp private paid-FE metadata; internal offers/refresh epochs and action2 teacher age observed only; no extra FE/RNG/archive admission",
+  "feedback_scope": "Paid snapshot occurrence (not first discovery of a genotype); first offers/insertions deduplicated by paidFE; external admission counts include transient front events; absence by cutoff is censored, not proof of permanent loss",
+  "feedback_capture": "First2+last completed generations plus partial, sampled QGS steps1/10/25/50; numeric only; NSGA internal-QGS timing not applicable",
+  "same_time": "T includes initialization, all search stages, shared pools, repair, archives, old and new observation costs; JVM/input/config/offline replay/export in process and campaign wall separately",
+  "fe_checkpoints": [
+    15000
+  ],
+  "time_fractions": [
+    0.5,
+    1.0
+  ],
+  "metrics": {
+    "primary_reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "sensitivity_references": [
+      [
+        1.25,
+        1.25,
+        1.25
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "igdplus_reference": "Per-instance ND union of all4 methods x all5 seeds final deadline-valid fronts; approximate, offline only",
+    "aggregation": "Five seeds averaged within each instance, then six instances equally",
+    "practical_win": ">=1% instance mean and>=3/5 seed differences positive; symmetric losses; not statistical significance"
+  },
+  "scope": "Development attribution only, no automatic new mechanism, parameter tuning or formal step6",
+  "continuation": "Complete120 before quality interpretation unless correctness/resource failure/original45min deadline; no quality-based extra runs"
+}

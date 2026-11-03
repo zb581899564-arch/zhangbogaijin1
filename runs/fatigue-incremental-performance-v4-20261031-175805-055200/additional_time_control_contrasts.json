@@ -1,0 +1,29 @@
+{
+  "scope": "post-hoc attribution contrasts, parent-level mean of three repeats; no new search/tuning",
+  "comparisons": [
+    {
+      "left": "cut_time",
+      "right": "local_time",
+      "metric": "gain",
+      "mean_difference": 0.011905994672546586,
+      "bootstrap_95_interval": [
+        0.005537176412916781,
+        0.019171419695037703
+      ],
+      "instance_clusters": 6,
+      "paired_parents": 30
+    },
+    {
+      "left": "cut_time",
+      "right": "random",
+      "metric": "gain",
+      "mean_difference": 0.04214561810545026,
+      "bootstrap_95_interval": [
+        0.017106146628216717,
+        0.06670632963088508
+      ],
+      "instance_clusters": 6,
+      "paired_parents": 30
+    }
+  ]
+}

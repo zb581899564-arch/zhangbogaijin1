@@ -1,0 +1,51 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\long-budget-bridge-20261103-082221-744929\source\LongBudgetRun.java
++++ LongBudgetRun.java
+@@ -35,6 +35,11 @@
+         long[] points = new long[args.length - 7];
+         for (int i = 0; i < points.length; i++) points[i] = Long.parseLong(args[i + 7]);
+         if (points[points.length - 1] != fe) throw new IllegalArgumentException("Final checkpoint must equal budget");
++        if (useStatic || mode.equals("BASELINE")) throw new IllegalArgumentException("Dynamic deep-local audit only");
++        List<String> options = Files.readAllLines(input.getParent().resolve("paired-audit.txt"), StandardCharsets.UTF_8);
++        System.setProperty("research.qgsAudit.mode", options.get(0));
++        System.setProperty("research.qgsAudit.guidance", options.get(1));
++        System.setProperty("research.qgsAudit.ledger", options.get(2));
+         EDHHFSPW source = load(input, setup);
+         Instance in = source.getSchedulingInstance();
+         if (!in.satisfiesDualResourceCondition()) throw new IllegalArgumentException("ESWA Eq(8) failure");
+@@ -50,14 +55,32 @@
+         cfg.paperResourceOperators = !classic;
+         DynamicSearch search = DynamicSearch.create(mode, in, fatigue, dynamic, context, cfg, false, 0, 0);
+         AnytimeRecorder recorder = new AnytimeRecorder(fe, Double.POSITIVE_INFINITY, new double[0], points);
+-        context.problem().setObserver((paid, seconds, changed, archive) -> {
+-            recorder.completed(paid, seconds, changed, archive);
+-            if (java.util.Arrays.binarySearch(points, paid) >= 0) {
+-                System.out.println("CHECKPOINT FE=" + paid + " seconds=" + seconds);
++        List<String> initial = new java.util.ArrayList<>();
++        context.problem().setObserver(new org.uma.jmetal.util.research.runtime.EvaluationObserver() {
++            @Override public void completed(long paid, double seconds, boolean changed,
++                    org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive<?> archive) {
++                recorder.completed(paid, seconds, changed, archive);
++                if (java.util.Arrays.binarySearch(points, paid) >= 0)
++                    System.out.println("CHECKPOINT FE=" + paid + " seconds=" + seconds);
++            }
++            @Override public void completedSolution(org.uma.jmetal.solution.Solution<?> s,
++                    long paid, double seconds, boolean changed,
++                    org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive<?> archive) {
++                if (paid <= 100) {
++                    PermutationSolution<?> p = (PermutationSolution<?>) s;
++                    Map<String, Object> row = new LinkedHashMap<>();
++                    row.put("fe", paid); row.put("JS", p.getVariables()); row.put("FA", p.getVariablesid());
++                    row.put("MA", p.getAttribute("machine")); row.put("WA", p.getVariablesworker());
++                    row.put("objectives", p.getObjectives()); initial.add(DynamicJson.encode(row));
++                }
++                completed(paid, seconds, changed, archive);
+             }
+         });
+         try { context.run(search.algorithm); }
+         finally { if (dynamic != null) dynamic.clearPrepared(); }
++        if (!"plain".equals(options.get(0)))
++            org.uma.jmetal.util.research.search.QgsLocalLedger.finish(out);
++        Files.write(out.resolve("initial-population.jsonl"), initial, StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+         Map<String, Object> receipt = receipt(context, useStatic, mode, search);
+         List<PermutationSolution<Integer>> results = context.result();
+         if (useStatic) {

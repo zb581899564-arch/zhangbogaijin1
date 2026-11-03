@@ -1,0 +1,135 @@
+{
+  "scope": "exploratory archived v1 observations; not held-out/causal evidence",
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\fatigue-mechanism-v1-20261031-160753-449593",
+  "new_decodes": 0,
+  "groups": [
+    {
+      "target": "Cmax",
+      "group": "later_topology_changed",
+      "method": "fatigue_adjoint",
+      "candidates": 1326,
+      "mae": 0.07963506485451849,
+      "wape": 4.774749882308592
+    },
+    {
+      "target": "Cmax",
+      "group": "later_topology_changed",
+      "method": "time_only",
+      "candidates": 1326,
+      "mae": 0.08102462232228826,
+      "wape": 4.858064806052492
+    },
+    {
+      "target": "TEC",
+      "group": "later_topology_changed",
+      "method": "fatigue_adjoint",
+      "candidates": 1326,
+      "mae": 0.02059402690229416,
+      "wape": 2.997212769323031
+    },
+    {
+      "target": "TEC",
+      "group": "later_topology_changed",
+      "method": "time_only",
+      "candidates": 1326,
+      "mae": 0.02341843807355325,
+      "wape": 3.4082718238964382
+    },
+    {
+      "target": "TWC",
+      "group": "later_topology_changed",
+      "method": "fatigue_adjoint",
+      "candidates": 1326,
+      "mae": 0.00848522282670866,
+      "wape": 3.7923837858630445
+    },
+    {
+      "target": "TWC",
+      "group": "later_topology_changed",
+      "method": "time_only",
+      "candidates": 1326,
+      "mae": 0.0025647026102495847,
+      "wape": 1.1462676694895837
+    },
+    {
+      "target": "balanced",
+      "group": "later_topology_changed",
+      "method": "fatigue_adjoint",
+      "candidates": 1326,
+      "mae": 0.032165236571760514,
+      "wape": 4.300831271146127
+    },
+    {
+      "target": "balanced",
+      "group": "later_topology_changed",
+      "method": "time_only",
+      "candidates": 1326,
+      "mae": 0.033586604662716305,
+      "wape": 4.490883171425292
+    },
+    {
+      "target": "Cmax",
+      "group": "later_graph_same",
+      "method": "fatigue_adjoint",
+      "candidates": 114,
+      "mae": 0.0030322225057251486,
+      "wape": 0.5345834721494201
+    },
+    {
+      "target": "Cmax",
+      "group": "later_graph_same",
+      "method": "time_only",
+      "candidates": 114,
+      "mae": 0.0019947115086864065,
+      "wape": 0.3516693785619716
+    },
+    {
+      "target": "TEC",
+      "group": "later_graph_same",
+      "method": "fatigue_adjoint",
+      "candidates": 114,
+      "mae": 0.0009948293659389222,
+      "wape": 0.5146240596548096
+    },
+    {
+      "target": "TEC",
+      "group": "later_graph_same",
+      "method": "time_only",
+      "candidates": 114,
+      "mae": 0.0007647600481946033,
+      "wape": 0.39560947247698913
+    },
+    {
+      "target": "TWC",
+      "group": "later_graph_same",
+      "method": "fatigue_adjoint",
+      "candidates": 114,
+      "mae": 0.000549398740179123,
+      "wape": 1.104147604610674
+    },
+    {
+      "target": "TWC",
+      "group": "later_graph_same",
+      "method": "time_only",
+      "candidates": 114,
+      "mae": 0.0004040932060156686,
+      "wape": 0.8121215300132987
+    },
+    {
+      "target": "balanced",
+      "group": "later_graph_same",
+      "method": "fatigue_adjoint",
+      "candidates": 114,
+      "mae": 0.0014754204225545043,
+      "wape": 0.5912158337108409
+    },
+    {
+      "target": "balanced",
+      "group": "later_graph_same",
+      "method": "time_only",
+      "candidates": 114,
+      "mae": 0.000973688069607685,
+      "wape": 0.39016662305021127
+    }
+  ]
+}

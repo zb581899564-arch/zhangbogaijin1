@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "cases": 90,
+  "chains": 1470,
+  "calls": {
+    "calibration_fast_stage0": 10080,
+    "calibration_reference_stage0": 10080,
+    "calibration_plain_full": 540,
+    "calibration_trace_full": 540,
+    "offline_candidate_regenerations": 70578,
+    "offline_final_QA_full": 1470,
+    "search_full": 72048,
+    "search_partial_stage0": 400096,
+    "search_cache_builds": 18705
+  },
+  "algorithm_elapsed_ns_sum": 288369740200,
+  "experiment_wall_ns": 389517744900,
+  "json_io_ns": 2105928800
+}

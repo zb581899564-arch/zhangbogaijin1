@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "parentAcceptance": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\search-mechanism-engineering-20261102-151820-296721\\acceptance.json",
+  "sourceChangesSinceParent": "Case ids include seed; no closure probes; explicit familyRestoreEdits and paid candidate FE",
+  "finalCaptureCases": 24,
+  "finalParentVariantIntegration": true,
+  "probe": {
+    "status": "passed",
+    "successfulFE": 70,
+    "failedFE": 0,
+    "cases": 2,
+    "candidateFE": 64,
+    "parentReplayFE": 6,
+    "searchSeconds": 0.1461294,
+    "offlineCandidateReplays": 64,
+    "offlineQASeconds": 0.0166891
+  },
+  "analysisChecks": "9 unit checks passed"
+}

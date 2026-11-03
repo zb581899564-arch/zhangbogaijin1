@@ -1,0 +1,188 @@
+{
+  "hypothesis": "H1",
+  "candidate": "SHARE_ELITE",
+  "baseline": "SHARE_STATIC",
+  "matched_control": "SHARE_RANDOM",
+  "strong_control": "TAIL",
+  "variants": {
+    "SYNC_STATIC": {
+      "mode": "SYNC_JOB_ALIGNED",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SHARE_STATIC": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SYNC_ELITE": {
+      "mode": "SYNC_JOB_ALIGNED_CONTEXT_ELITE",
+      "profile": "SO",
+      "setting": 0,
+      "observation": {
+        "schema": "context-renewal-v1"
+      },
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SHARE_ELITE": {
+      "mode": "SHARE_JOB_ALIGNED_CONTEXT_ELITE",
+      "profile": "SO",
+      "setting": 0,
+      "observation": {
+        "schema": "context-renewal-v1"
+      },
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SYNC_RANDOM": {
+      "mode": "SYNC_JOB_ALIGNED_CONTEXT_RANDOM",
+      "profile": "SO",
+      "setting": 0,
+      "observation": {
+        "schema": "context-renewal-v1"
+      },
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SHARE_RANDOM": {
+      "mode": "SHARE_JOB_ALIGNED_CONTEXT_RANDOM",
+      "profile": "SO",
+      "setting": 0,
+      "observation": {
+        "schema": "context-renewal-v1"
+      },
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "TAIL": {
+      "mode": "TAIL",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "NSGA2_4V": {
+      "mode": "NSGA2_4V",
+      "profile": "V2",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SPEA2_4V": {
+      "mode": "SPEA2_4V",
+      "profile": "V2",
+      "setting": 1,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "MOEAD_4V": {
+      "mode": "MOEAD_4V",
+      "profile": "V2",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "NSGA2_VNS_4V": {
+      "mode": "NSGA2_VNS_4V",
+      "profile": "V2",
+      "setting": 1,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    }
+  },
+  "algorithm_seeds": [
+    8111009,
+    8111031,
+    8111053,
+    8111087,
+    8111111
+  ],
+  "method_order_seed": 2026110301,
+  "absolute_stop_epoch": 1793660400,
+  "additional_pairs": [
+    [
+      "SHARE_ELITE",
+      "SYNC_ELITE"
+    ],
+    [
+      "SYNC_ELITE",
+      "SYNC_STATIC"
+    ],
+    [
+      "SYNC_ELITE",
+      "SYNC_RANDOM"
+    ],
+    [
+      "SHARE_RANDOM",
+      "SHARE_STATIC"
+    ],
+    [
+      "SYNC_RANDOM",
+      "SYNC_STATIC"
+    ],
+    [
+      "SHARE_RANDOM",
+      "SYNC_RANDOM"
+    ],
+    [
+      "SHARE_STATIC",
+      "SYNC_STATIC"
+    ]
+  ],
+  "interactions": [
+    {
+      "name": "ELITE_refresh_x_sharing",
+      "positive": [
+        "SHARE_ELITE",
+        "SYNC_STATIC"
+      ],
+      "negative": [
+        "SYNC_ELITE",
+        "SHARE_STATIC"
+      ],
+      "normalizer": "SYNC_STATIC"
+    },
+    {
+      "name": "RANDOM_refresh_x_sharing",
+      "positive": [
+        "SHARE_RANDOM",
+        "SYNC_STATIC"
+      ],
+      "negative": [
+        "SYNC_RANDOM",
+        "SHARE_STATIC"
+      ],
+      "normalizer": "SYNC_STATIC"
+    }
+  ],
+  "mechanism": {
+    "hypothesis": "Fixed-FA family contexts may under-cover useful free-population contexts; test refresh and its sharing interaction separately.",
+    "start": "At generation start from generation2; family=(generation-2)%4; exactly one family considered per generation.",
+    "candidate_pool": "Current80 free particles whose FA differs from all four old family FA vectors; no new candidate FA search.",
+    "ELITE": "Choose the CENTER-ranked best eligible current free particle.",
+    "RANDOM": "Uniform choice from the identical eligible pool; both variants compute ranking and retain one random draw; ELITE ignores the random choice.",
+    "rebind": "Rebind all5 selected-family particles to the chosen FA with legal MA/WA, evaluate each through the paid evaluator and rebuild personal histories.",
+    "retention": "Clear only that family's old shared pool; preserve the other family pools and global result archive.",
+    "skip": "No eligible candidate means a recorded skip; budget interruption keeps a partial event and never claims all5 evaluations completed.",
+    "disabled": "No DEMAND manager, no FeedbackAudit, no CooperationEvidence, no new learner or tuning.",
+    "observation": "Only context-renewal.jsonl bounded first4+last4 events and complete counters; RunContext clock/successful-FE suppliers; engineering schema must pass before performance.",
+    "baseline_anchor": "SHARE_STATIC is the contemporaneous current mainline baseline; no historical v2 score is mixed in.",
+    "claim_boundary": "Report ELITE and RANDOM refresh x sharing interactions independently; candidate-vs-baseline improvement alone cannot establish a sharing-specific gain."
+  }
+}

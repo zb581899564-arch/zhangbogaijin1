@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "realEntryChecks": [
+    {
+      "instance": "20_2_3_1",
+      "variant": "SO",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SO_JOB",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_JOB",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SO",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SO_JOB",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_JOB",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    }
+  ],
+  "fixedFE20000ControlsMatchPreviousFrozen": true,
+  "kernelAdapterMatchesPreviousProbeExactly": true,
+  "PDDRAndFamilyQuotasReplayed": true,
+  "sameModelAndBudget": true,
+  "timeInterruptions": [
+    "SO",
+    "SO_JOB",
+    "SHARE",
+    "SHARE_JOB",
+    "NSGA"
+  ],
+  "qualitySelectedParameters": false
+}

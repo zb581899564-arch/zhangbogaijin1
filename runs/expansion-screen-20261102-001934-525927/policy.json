@@ -1,0 +1,242 @@
+{
+  "version": "expansion-screen-v1",
+  "status": "STANDARD_DEFINED_NOT_EXECUTED",
+  "decision_rules_status": "Fixed before new screening results; execution manifest still required",
+  "purpose": "Resource-allocation screen for larger experiments; not significance, novelty, or journal qualification",
+  "execution_ready": false,
+  "execution_prerequisites": [
+    "Classical algorithms integrated and checked against their definitions",
+    "All algorithms use the common dynamic decoder, four-vector feasibility, guarded evaluation and result archive",
+    "Fixed-FE and time checkpoints captured in one run without future leakage",
+    "Screening report uses the new practical-win rule, not old strict-positive win counts or rounded displayed percentages",
+    "Execution manifest with exact source, legal operators, parameters, initialization, seeds and inputs frozen before new performance results"
+  ],
+  "model": {
+    "decoder": "dynamic-append-v1",
+    "objectives": [
+      "Cmax",
+      "TEC",
+      "TWC"
+    ],
+    "profile": "strong_fast",
+    "setup_seed": 314159,
+    "parameter_seed": 271828,
+    "standby": 1.0,
+    "incremental": true
+  },
+  "primary_candidate": "SHARE",
+  "secondary_candidate": "VALUE_SHARE",
+  "variants": [
+    "BASELINE",
+    "TAIL",
+    "SYNC",
+    "SHARE",
+    "VALUE_SHARE",
+    "NSGA2_4V",
+    "SPEA2_4V",
+    "MOEAD_4V",
+    "NSGA2_VNS_4V"
+  ],
+  "external_comparators": [
+    "NSGA2_4V",
+    "SPEA2_4V",
+    "MOEAD_4V",
+    "NSGA2_VNS_4V"
+  ],
+  "matched_parent": {
+    "SHARE": "SYNC",
+    "VALUE_SHARE": "SHARE"
+  },
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "time_seconds": 3
+    },
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5
+    },
+    {
+      "stem": "100_8_3_1",
+      "time_seconds": 9
+    },
+    {
+      "stem": "200_5_3_1",
+      "time_seconds": 12
+    },
+    {
+      "stem": "200_8_5_1",
+      "time_seconds": 19
+    }
+  ],
+  "algorithm_seeds": [
+    8110103,
+    8110129,
+    8110151,
+    8110183,
+    8110211
+  ],
+  "runs": 270,
+  "planned_search_seconds": 2340,
+  "clock_and_budget": {
+    "campaign_wall_cap_seconds": 5400,
+    "classic_calibration_wall_cap_seconds": 600,
+    "max_registered_configurations_per_external_method": 3,
+    "calibration_instances": [
+      "20_2_3_1",
+      "200_8_5_1"
+    ],
+    "calibration_seeds": [
+      8109001,
+      8109019
+    ],
+    "calibration_completion_rule": "Canonical configuration first; extra configurations in complete balanced rounds for all4 external methods; do not choose from partially completed rounds",
+    "time_fractions": [
+      0.5,
+      1.0
+    ],
+    "fe_checkpoints": [
+      15000
+    ],
+    "fe_role": "Diagnostic only; report unreachable checkpoints as censored, never impute or change the threshold",
+    "one_jvm_at_a_time": true,
+    "campaign_cap_excludes": [
+      "First-time classical implementation and engineering acceptance"
+    ],
+    "incomplete_campaign_verdict": "INSUFFICIENT_EVIDENCE",
+    "runtime_cap_must_not_be_extended_after_quality_results": true
+  },
+  "metrics": {
+    "normalization_lower": [
+      0,
+      0,
+      0
+    ],
+    "normalization_scale": "Reuse exact128 independent-parent maxima in the completed step45 protocol for these same six inputs; freeze copied numeric arrays in the new execution manifest",
+    "primary_reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "sensitivity_references": [
+      [
+        1.25,
+        1.25,
+        1.25
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "igdplus_reference": "Per instance nondominated union of all9 variants and all5 seeds final deadline-valid archives, fixed rule before runs; empirical reference only",
+    "seed_aggregation": "Mean of5 seeds per instance",
+    "hv_effect_percent": "100*(candidate_mean_HV/comparator_mean_HV-1)",
+    "practical_instance_win": "HV effect >=1 percent and positive paired-seed HV difference in >=3/5 seeds",
+    "practical_instance_loss": "HV effect <=-1 percent and negative paired-seed HV difference in >=3/5 seeds",
+    "practical_tie_band_percent": 1.0,
+    "igdplus_symmetric_worsening_percent": "200*(candidate_IGDplus-comparator_IGDplus)/(candidate_IGDplus+comparator_IGDplus); bothzero ->0",
+    "degenerate_ratio_rule": "Comparator meanHV <=1e-12 makes relative-HV gate unresolved; do not add an arbitrary denominator or call the candidate successful"
+  },
+  "strongest_external_rule": {
+    "scope": "One actual external algorithm for the whole screen, never an instance-wise oracle",
+    "score": "Mean over6 instances of (external meanHV / BASELINE meanHV) atT, primary reference",
+    "selection": "Largest score; tie within1e-12 resolved by larger median ratio, then label order",
+    "scope_limit": "Selected on development screen outputs; freeze its identity before followup; full external matrix still reported"
+  },
+  "green_all_required": {
+    "validity_and_complete_270_runs": true,
+    "versus_BASELINE": {
+      "mean_effect_min_percent": 2.0,
+      "median_effect_min_percent": 1.0,
+      "practical_wins_min": 4,
+      "mean_after_removing_best_instance_min_percent": 0.0
+    },
+    "versus_TAIL": {
+      "mean_effect_min_percent": -1.0,
+      "median_effect_min_percent": -1.0
+    },
+    "versus_strongest_external": {
+      "mean_effect_min_percent": -1.0,
+      "median_effect_min_percent": -1.0,
+      "instances_effect_at_least_minus1_percent_min": 4
+    },
+    "versus_matched_parent": {
+      "mean_effect_min_percent": 1.0,
+      "median_effect_min_percent": 1.0,
+      "practical_wins_min": 4
+    },
+    "tail_guard_each_BASELINE_and_strongest_external": {
+      "loss_greater_than5_percent_max_instances": 1,
+      "loss_greater_than10_percent_max_instances": 0
+    },
+    "igdplus_guard_each_BASELINE_and_strongest_external": {
+      "median_symmetric_worsening_max_percent": 5.0,
+      "instances_symmetric_worsening_greater_than5_percent_max": 3
+    },
+    "each_sensitivity_reference": {
+      "versus_BASELINE_mean_min_percent": 0.0,
+      "versus_BASELINE_median_min_percent": 0.0,
+      "versus_strongest_external_mean_min_percent": -2.0,
+      "versus_strongest_external_median_min_percent": -2.0
+    },
+    "p_value_threshold_required": false
+  },
+  "red_any_sufficient_after_validity": {
+    "strongest_external": {
+      "mean_effect_max_percent": -5.0,
+      "median_effect_max_percent": -5.0,
+      "practical_losses_min": 4
+    },
+    "either_BASELINE_or_TAIL": {
+      "mean_effect_max_percent": -3.0,
+      "median_effect_max_percent": -1.0,
+      "practical_losses_min": 4
+    },
+    "large_losses_to_strongest_external": {
+      "loss_greater_than10_percent_min_instances": 2
+    },
+    "scope": "Pause scaling this frozen configuration; not a verdict on four-subswarm research"
+  },
+  "yellow": "Valid and complete, neither red nor all green conditions met; at most one bounded followup, otherwise pause scaling",
+  "followup": {
+    "max_campaigns": 1,
+    "priority": "SHARE if yellow; otherwise VALUE_SHARE only ifSHARE green and VALUE_SHARE yellow",
+    "eligible_if": "No red condition or validity defect; initial matched-parent and TAIL green conditions already met; then either median FE15000 HV gain vs locked strongest external >=2percent with >=4 complete instance pairs (all5 seeds on both sides reached15000), or median_i(g_i(T)-g_i(0.5T)) >=2 percentagepoints",
+    "variants": [
+      "one locked candidate",
+      "BASELINE",
+      "locked strongest external"
+    ],
+    "seeds": [
+      8110241,
+      8110271,
+      8110307
+    ],
+    "time_multiplier": 2,
+    "runs": 54,
+    "planned_search_seconds": 936,
+    "no_parameter_or_instance_change": true,
+    "analysis": "New3 seeds at2T only; do not mix their terminal results with first5 atT",
+    "igdplus_reference": "Reuse the frozen empirical reference from the completed initial270 runs; never use it for search guidance",
+    "bounded_continue_if_all": {
+      "versus_BASELINE_mean_min_percent": 2.0,
+      "versus_BASELINE_median_min_percent": 1.0,
+      "versus_BASELINE_practical_wins_min": 4,
+      "paired_positive_seed_count_per_win": 2,
+      "versus_locked_external_mean_min_percent": -1.0,
+      "versus_locked_external_median_min_percent": -1.0,
+      "same_tail_igdplus_and_sensitivity_guards": true,
+      "matched_parent_green_in_original_screen": true
+    },
+    "positive_followup_scope": "Limited scaling warranted; late-time superiority over all classical algorithms remains untested",
+    "failure_or_ambiguous_followup": "Pause scaling; no second extension"
+  },
+  "old_step45_results_role": "Development context and cost/reference design only; never retroactively classified with this standard or mixed with the new timed screen",
+  "statistical_scope": "6 development instances with5 repeats; effect sizes and uncertainty only; no claim of significance, unseen-instance generalization, or ESWA qualification"
+}

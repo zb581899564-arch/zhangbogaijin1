@@ -1,0 +1,381 @@
+{
+  "status": "RED",
+  "color": "RED",
+  "admitted": false,
+  "candidate": "SHARE_ELITE",
+  "locked_classic": "NSGA2_4V",
+  "control_mapping": {
+    "BASELINE": "SHARE_STATIC",
+    "TAIL": "TAIL",
+    "matched_parent": "SHARE_RANDOM",
+    "strongest_external": "NSGA2_4V"
+  },
+  "green_conditions": {
+    "versus_BASELINE": {
+      "conditions": {
+        "mean_effect_min_percent": {
+          "value": 1.2319861598098736,
+          "operator": ">=",
+          "threshold": 2.0,
+          "resolved": true,
+          "pass": false
+        },
+        "median_effect_min_percent": {
+          "value": 1.2675711133345522,
+          "operator": ">=",
+          "threshold": 1.0,
+          "resolved": true,
+          "pass": true
+        },
+        "practical_wins_min": {
+          "value": 4,
+          "operator": ">=",
+          "threshold": 4,
+          "resolved": true,
+          "pass": true
+        },
+        "mean_after_removing_best_instance_min_percent": {
+          "value": 0.6035591719451393,
+          "operator": ">=",
+          "threshold": 0.0,
+          "resolved": true,
+          "pass": true
+        }
+      },
+      "pass": false
+    },
+    "versus_TAIL": {
+      "conditions": {
+        "mean_effect_min_percent": {
+          "value": 4.819363861682585,
+          "operator": ">=",
+          "threshold": -1.0,
+          "resolved": true,
+          "pass": true
+        },
+        "median_effect_min_percent": {
+          "value": 4.733660765768321,
+          "operator": ">=",
+          "threshold": -1.0,
+          "resolved": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "versus_strongest_external": {
+      "conditions": {
+        "mean_effect_min_percent": {
+          "value": -6.2689368869437585,
+          "operator": ">=",
+          "threshold": -1.0,
+          "resolved": true,
+          "pass": false
+        },
+        "median_effect_min_percent": {
+          "value": -6.250823008390201,
+          "operator": ">=",
+          "threshold": -1.0,
+          "resolved": true,
+          "pass": false
+        },
+        "instances_effect_at_least_minus1_percent_min": {
+          "value": 1,
+          "operator": ">=",
+          "threshold": 4,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "versus_matched_parent": {
+      "conditions": {
+        "mean_effect_min_percent": {
+          "value": 0.9978241221776943,
+          "operator": ">=",
+          "threshold": 1.0,
+          "resolved": true,
+          "pass": false
+        },
+        "median_effect_min_percent": {
+          "value": 1.1188191538508026,
+          "operator": ">=",
+          "threshold": 1.0,
+          "resolved": true,
+          "pass": true
+        },
+        "practical_wins_min": {
+          "value": 3,
+          "operator": ">=",
+          "threshold": 4,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "tail_guard_BASELINE": {
+      "conditions": {
+        "loss_greater_than5_percent_max_instances": {
+          "value": 0,
+          "operator": "<=",
+          "threshold": 1,
+          "resolved": true,
+          "pass": true
+        },
+        "loss_greater_than10_percent_max_instances": {
+          "value": 0,
+          "operator": "<=",
+          "threshold": 0,
+          "resolved": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "igdplus_guard_BASELINE": {
+      "conditions": {
+        "median_symmetric_worsening_max_percent": {
+          "value": -20.480362509381493,
+          "operator": "<=",
+          "threshold": 5.0,
+          "resolved": true,
+          "pass": true
+        },
+        "instances_symmetric_worsening_greater_than5_percent_max": {
+          "value": 1,
+          "operator": "<=",
+          "threshold": 3,
+          "resolved": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "tail_guard_strongest_external": {
+      "conditions": {
+        "loss_greater_than5_percent_max_instances": {
+          "value": 4,
+          "operator": "<=",
+          "threshold": 1,
+          "resolved": true,
+          "pass": false
+        },
+        "loss_greater_than10_percent_max_instances": {
+          "value": 1,
+          "operator": "<=",
+          "threshold": 0,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "igdplus_guard_strongest_external": {
+      "conditions": {
+        "median_symmetric_worsening_max_percent": {
+          "value": 46.05477098216145,
+          "operator": "<=",
+          "threshold": 5.0,
+          "resolved": true,
+          "pass": false
+        },
+        "instances_symmetric_worsening_greater_than5_percent_max": {
+          "value": 5,
+          "operator": "<=",
+          "threshold": 3,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "sensitivity_1.25": {
+      "conditions": {
+        "versus_BASELINE_mean_min_percent": {
+          "value": 2.139925484854144,
+          "operator": ">=",
+          "threshold": 0.0,
+          "resolved": true,
+          "pass": true
+        },
+        "versus_BASELINE_median_min_percent": {
+          "value": 2.31631626986673,
+          "operator": ">=",
+          "threshold": 0.0,
+          "resolved": true,
+          "pass": true
+        },
+        "versus_strongest_external_mean_min_percent": {
+          "value": -9.464326918050398,
+          "operator": ">=",
+          "threshold": -2.0,
+          "resolved": true,
+          "pass": false
+        },
+        "versus_strongest_external_median_min_percent": {
+          "value": -9.879418120335746,
+          "operator": ">=",
+          "threshold": -2.0,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "sensitivity_2.0": {
+      "conditions": {
+        "versus_BASELINE_mean_min_percent": {
+          "value": 0.64694451673116,
+          "operator": ">=",
+          "threshold": 0.0,
+          "resolved": true,
+          "pass": true
+        },
+        "versus_BASELINE_median_min_percent": {
+          "value": 0.6512095399127384,
+          "operator": ">=",
+          "threshold": 0.0,
+          "resolved": true,
+          "pass": true
+        },
+        "versus_strongest_external_mean_min_percent": {
+          "value": -3.8223831921024747,
+          "operator": ">=",
+          "threshold": -2.0,
+          "resolved": true,
+          "pass": false
+        },
+        "versus_strongest_external_median_min_percent": {
+          "value": -3.6810032227940948,
+          "operator": ">=",
+          "threshold": -2.0,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "validity_and_complete_campaign": {
+      "conditions": {
+        "valid_complete": {
+          "value": true,
+          "operator": "==",
+          "threshold": true,
+          "resolved": true,
+          "pass": true
+        }
+      },
+      "pass": true,
+      "expectedOwners": 330
+    }
+  },
+  "red_conditions": {
+    "strongest_external": {
+      "conditions": {
+        "mean_effect_max_percent": {
+          "value": -6.2689368869437585,
+          "operator": "<=",
+          "threshold": -5.0,
+          "resolved": true,
+          "pass": true
+        },
+        "median_effect_max_percent": {
+          "value": -6.250823008390201,
+          "operator": "<=",
+          "threshold": -5.0,
+          "resolved": true,
+          "pass": true
+        },
+        "practical_losses_min": {
+          "value": 5,
+          "operator": ">=",
+          "threshold": 4,
+          "resolved": true,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "versus_BASELINE": {
+      "conditions": {
+        "mean_effect_max_percent": {
+          "value": 1.2319861598098736,
+          "operator": "<=",
+          "threshold": -3.0,
+          "resolved": true,
+          "pass": false
+        },
+        "median_effect_max_percent": {
+          "value": 1.2675711133345522,
+          "operator": "<=",
+          "threshold": -1.0,
+          "resolved": true,
+          "pass": false
+        },
+        "practical_losses_min": {
+          "value": 1,
+          "operator": ">=",
+          "threshold": 4,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "versus_TAIL": {
+      "conditions": {
+        "mean_effect_max_percent": {
+          "value": 4.819363861682585,
+          "operator": "<=",
+          "threshold": -3.0,
+          "resolved": true,
+          "pass": false
+        },
+        "median_effect_max_percent": {
+          "value": 4.733660765768321,
+          "operator": "<=",
+          "threshold": -1.0,
+          "resolved": true,
+          "pass": false
+        },
+        "practical_losses_min": {
+          "value": 0,
+          "operator": ">=",
+          "threshold": 4,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    },
+    "large_losses_to_strongest_external": {
+      "conditions": {
+        "loss_greater_than10_percent_min_instances": {
+          "value": 1,
+          "operator": ">=",
+          "threshold": 2,
+          "resolved": true,
+          "pass": false
+        }
+      },
+      "pass": false
+    }
+  },
+  "triggered_red_conditions": [
+    "strongest_external"
+  ],
+  "unmet_green_conditions": [
+    "versus_BASELINE",
+    "versus_strongest_external",
+    "versus_matched_parent",
+    "tail_guard_strongest_external",
+    "igdplus_guard_strongest_external",
+    "sensitivity_1.25",
+    "sensitivity_2.0"
+  ],
+  "automaticFollowup": false,
+  "formalStep6Started": false,
+  "scope": "Current frozen configuration resource decision only; smaller mechanism effects do not grant scale-up qualification"
+}

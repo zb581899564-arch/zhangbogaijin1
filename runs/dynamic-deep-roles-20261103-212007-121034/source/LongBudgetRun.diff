@@ -1,0 +1,46 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-deep-local-20261103-184901-271850\source\LongBudgetRun.java
++++ LongBudgetRun.java
+@@ -28,14 +28,13 @@
+         boolean useStatic = args[2].equals("STATIC");
+         String mode = args[4];
+         long fe = Long.parseLong(args[5]), seed = Long.parseLong(args[6]);
+-        if (!mode.equals("BASELINE") && !mode.equals("NSGA2_4V")
+-                && !(mode.equals("SHARE_JOB_ALIGNED") && !useStatic))
++        if (useStatic || (!mode.equals("SHARE_JOB_ALIGNED")
++                && !mode.equals("SHARE_JOB_ALIGNED_UNIFORM")))
+             throw new IllegalArgumentException("Unsupported model/search pairing");
+         if (args.length < 8) throw new IllegalArgumentException("Explicit FE checkpoints required");
+         long[] points = new long[args.length - 7];
+         for (int i = 0; i < points.length; i++) points[i] = Long.parseLong(args[i + 7]);
+         if (points[points.length - 1] != fe) throw new IllegalArgumentException("Final checkpoint must equal budget");
+-        if (useStatic || mode.equals("BASELINE")) throw new IllegalArgumentException("Dynamic deep-local audit only");
+         List<String> options = Files.readAllLines(input.getParent().resolve("paired-audit.txt"), StandardCharsets.UTF_8);
+         System.setProperty("research.qgsAudit.mode", options.get(0));
+         System.setProperty("research.qgsAudit.guidance", options.get(1));
+@@ -56,6 +55,8 @@
+         DynamicSearch search = DynamicSearch.create(mode, in, fatigue, dynamic, context, cfg, false, 0, 0);
+         AnytimeRecorder recorder = new AnytimeRecorder(fe, Double.POSITIVE_INFINITY, new double[0], points);
+         List<String> initial = new java.util.ArrayList<>();
++        List<String> admissions = new java.util.ArrayList<>();
++        admissions.add("fe,cmax,tec,twc");
+         context.problem().setObserver(new org.uma.jmetal.util.research.runtime.EvaluationObserver() {
+             @Override public void completed(long paid, double seconds, boolean changed,
+                     org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive<?> archive) {
+@@ -66,6 +67,8 @@
+             @Override public void completedSolution(org.uma.jmetal.solution.Solution<?> s,
+                     long paid, double seconds, boolean changed,
+                     org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive<?> archive) {
++                if (changed)
++                    admissions.add(paid + "," + s.getObjective(0) + "," + s.getObjective(1) + "," + s.getObjective(2));
+                 if (paid <= 100) {
+                     PermutationSolution<?> p = (PermutationSolution<?>) s;
+                     Map<String, Object> row = new LinkedHashMap<>();
+@@ -82,6 +85,8 @@
+             org.uma.jmetal.util.research.search.QgsLocalLedger.finish(out);
+         Files.write(out.resolve("initial-population.jsonl"), initial, StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+         Map<String, Object> receipt = receipt(context, useStatic, mode, search);
++        receipt.put("cooperation", search.cooperation.diagnostics());
++        Files.write(out.resolve("archive-admissions.csv"), admissions, StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+         List<PermutationSolution<Integer>> results = context.result();
+         if (useStatic) {
+             RunOutput.write(out, in, context, results, context.clock().elapsedSeconds(), false, search.configuration);

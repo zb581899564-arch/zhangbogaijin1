@@ -1,0 +1,53 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\algorithms\classic\ClassicAlgorithm.java
++++ ClassicAlgorithm.java
+@@ -14,6 +14,7 @@
+ import org.uma.jmetal.util.research.runtime.BudgetedProblem;
+ import org.uma.jmetal.util.research.runtime.SeededRandom;
+ import org.uma.jmetal.util.research.search.OrdinaryVns;
++import org.uma.jmetal.util.research.search.DeepLocalVisits;
+ import org.uma.jmetal.util.research.search.SemanticAudit;
+ import org.uma.jmetal.util.research.search.MechanismCapture;
+ 
+@@ -32,6 +33,7 @@
+     private final Map<String, Long> counts = new LinkedHashMap<>();
+     private List<PermutationSolution<Integer>> population = new ArrayList<>(), archive = new ArrayList<>();
+     private OrdinaryVns vns;
++    private DeepLocalVisits deep;
+     private MoeadDecomposition decomposition;
+     private double[] speaScale;
+     private boolean started;
+@@ -63,8 +65,13 @@
+     @Override public void run() {
+         if (started) throw new IllegalStateException("Classic algorithm may run only once");
+         started = true;
++        if (!"NSGA2_4V".equals(config.mode)) throw new IllegalStateException("Deep NSGA-II control only");
++        deep = new DeepLocalVisits(problem, instance, checkpoint);
+         for (int i = 0; i < ClassicConfig.POPULATION; i++) {
+-            checkpoint.run(); population.add(evaluate(problem.createSolution(), "initialization"));
++            checkpoint.run();
++            PermutationSolution<Integer> initial = problem.createSolution();
++            deep.prepareInitial(initial, i);
++            population.add(evaluate(initial, "initialization"));
+         }
+         if ("MOEAD_4V".equals(config.mode)) runMoead();
+         else if ("SPEA2_4V".equals(config.mode)) runSpea();
+@@ -93,6 +100,11 @@
+             if (mechanism != null) mechanism.classicEnd(offspring, next.population);
+             population = next.population; scores = next.scores;
+             count("generations");
++            if (deep.due(globalOffspring)) {
++                List<PermutationSolution<Integer>> local = deep.improve(population);
++                next = selection.environmental(ClassicTools.union(population, local), ClassicConfig.POPULATION);
++                population = next.population; scores = next.scores;
++            }
+         }
+     }
+ 
+@@ -178,6 +190,7 @@
+         result.put("globalOffspring", globalOffspring); result.put("populationSize", population.size());
+         result.put("internalArchiveSize", archive.size()); result.put("maximumReplacementsPerChild", maximumReplacements);
+         result.put("externalArchive", "RunContext-independent");
++        if (deep != null) result.putAll(deep.diagnostics());
+         if (vns != null) { result.put("ordinaryVns", vns.diagnostics()); result.put("localProposalCapScope", "intra-only; inter-additional-paid"); }
+         if (decomposition != null) {
+             result.put("objectiveScaleFrozen", numbers(decomposition.scale)); result.put("paidIdeal", numbers(decomposition.ideal));

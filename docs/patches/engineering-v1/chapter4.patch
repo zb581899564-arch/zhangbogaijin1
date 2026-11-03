@@ -1,0 +1,203 @@
+--- original/jmetal-algorithm/pom.xml
++++ chapter4/jmetal-algorithm/pom.xml
+@@ -81,10 +81,6 @@
+             <version>5.0</version>
+         </dependency>
+         <dependency>
+-            <groupId>org.uma.jmetal</groupId>
+-            <artifactId>jmetal-exec</artifactId>
+-        </dependency>
+-        <dependency>
+             <groupId>org.testng</groupId>
+             <artifactId>testng</artifactId>
+             <version>RELEASE</version>
+--- original/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/mypso/MOPSODivSubDE.java
++++ chapter4/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/mypso/MOPSODivSubDE.java
+@@ -6017,7 +6017,7 @@
+         int numberOfMachine = numberOfMachines[tempfactory][0];
+ 
+         int temp = r.nextInt(numberOfMachine);
+-        machine.set(numberOfMachine, temp);
++        machine.set(i, temp);
+         particle.setAttribute("machine", machine);
+     }
+ 
+--- original/jmetal-core/src/main/java/org/uma/jmetal/solution/impl/AbstractGenericSolutionWithid.java
++++ chapter4/jmetal-core/src/main/java/org/uma/jmetal/solution/impl/AbstractGenericSolutionWithid.java
+@@ -19,7 +19,7 @@
+ 
+ 
+     //这里也要改
+-    private int stage=8;
++    private int stage;
+ 
+     private double[] objectives1;
+     private List<T> variables;
+@@ -41,6 +41,7 @@
+      */
+     protected AbstractGenericSolutionWithid(P problem) {
+         this.problem = problem ;
++        this.stage = ((org.uma.jmetal.util.research.InstanceFileProvider) problem).getWorkerVectorLength() / problem.getNumberOfVariables();
+         attributes = new HashMap<>() ;
+         randomGenerator = JMetalRandom.getInstance() ;
+ 
+@@ -100,6 +101,13 @@
+ 
+     @Override
+     public void setAttribute(Object id, Object value) {
++        if ("machine".equals(id)) {
++            variablesmachine = new ArrayList<>((List<T>) value);
++            value = variablesmachine;
++        } else if ("worker".equals(id)) {
++            variablesworker = new ArrayList<>((List<T>) value);
++            value = variablesworker;
++        }
+         attributes.put(id, value) ;
+     }
+ 
+--- original/jmetal-core/src/main/java/org/uma/jmetal/solution/impl/DefaultIntegerPermutationSolution.java
++++ chapter4/jmetal-core/src/main/java/org/uma/jmetal/solution/impl/DefaultIntegerPermutationSolution.java
+@@ -29,13 +29,14 @@
+ //  protected int[][] jobindex = new int[500][500];
+ 
+ 
+-  static String filename = "E:/DHFSP-4/EADHFSP/150_8_5_1.txt";
++
+ 
+ 
+   /** Constructor */
+   public DefaultIntegerPermutationSolution(PermutationProblem<?> problem) {
+     super(problem);
+ 
++    String filename = org.uma.jmetal.util.research.SchedulingInstanceFiles.forProblem(problem);
+     int[][] ints = readFactoryData(filename);//读取文件中的工厂阶段中的机器数
+ 
+     int[][] workerstage = new int[ints.length][];
+@@ -321,7 +322,12 @@
+       setVariableValueworker(i,solution.getVariableValueworker(i));
+     }
+     getVariablesworker().removeIf(item->item==null);
++    for (int i = 0; i < solution.getVariablesmachine().size(); i++) {
++      setVariableValuemachine(i, solution.getVariableValuemachine(i));
++    }
+     attributes = new HashMap<Object, Object>(solution.attributes) ;
++    attributes.put("worker", getVariablesworker());
++    attributes.put("machine", getVariablesmachine());
+   }
+ 
+ 
+--- original/jmetal-core/src/main/java/org/uma/jmetal/util/research/InstanceFileProvider.java
++++ chapter4/jmetal-core/src/main/java/org/uma/jmetal/util/research/InstanceFileProvider.java
+@@ -0,0 +1,7 @@
++package org.uma.jmetal.util.research;
++
++/** Associates an encoded solution with the exact instance loaded by its problem. */
++public interface InstanceFileProvider {
++    String getInstanceFile();
++    int getWorkerVectorLength();
++}
+--- original/jmetal-core/src/main/java/org/uma/jmetal/util/research/SchedulingInstanceFiles.java
++++ chapter4/jmetal-core/src/main/java/org/uma/jmetal/util/research/SchedulingInstanceFiles.java
+@@ -0,0 +1,39 @@
++package org.uma.jmetal.util.research;
++
++import java.io.BufferedReader;
++import java.io.IOException;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.Files;
++import java.nio.file.Path;
++import java.nio.file.Paths;
++
++/** Resolves local instances and rejects mismatched dimensions before decoding. */
++public final class SchedulingInstanceFiles {
++    private SchedulingInstanceFiles() { }
++
++    public static String resolve(int jobs, int stages, int factories, int instanceId) throws IOException {
++        String directory = System.getProperty("dhfsp.dataDir");
++        if (directory == null || directory.trim().isEmpty()) {
++            throw new IllegalArgumentException("Specify -Ddhfsp.dataDir=<chapter instance directory>");
++        }
++        Path file = Paths.get(directory, jobs + "_" + stages + "_" + factories + "_" + instanceId + ".txt")
++                .toAbsolutePath().normalize();
++        try (BufferedReader reader = Files.newBufferedReader(file, StandardCharsets.UTF_8)) {
++            String header = reader.readLine();
++            String[] dimensions = header == null ? new String[0] : header.trim().split("\\s+");
++            if (dimensions.length != 3 || Integer.parseInt(dimensions[0]) != factories
++                    || Integer.parseInt(dimensions[1]) != stages || Integer.parseInt(dimensions[2]) != jobs) {
++                throw new IOException("Instance dimensions do not match requested problem: " + file);
++            }
++        }
++        return file.toString();
++    }
++
++    public static String forProblem(Object problem) {
++        if (!(problem instanceof InstanceFileProvider)) {
++            throw new IllegalArgumentException("Scheduling solution requires an InstanceFileProvider problem: "
++                    + problem.getClass().getName());
++        }
++        return ((InstanceFileProvider) problem).getInstanceFile();
++    }
++}
+--- original/jmetal-exec/pom.xml
++++ chapter4/jmetal-exec/pom.xml
+@@ -16,6 +16,13 @@
+ 
+     <build>
+         <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <excludes><exclude>org/uma/jmetal/runner/myalgorithm/**</exclude></excludes>
++                </configuration>
++            </plugin>
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-gpg-plugin</artifactId>
+@@ -74,9 +81,5 @@
+             <artifactId>xchart</artifactId>
+             <version>3.2.2</version>
+         </dependency>
+-        <dependency>
+-            <groupId>org.uma.jmetal</groupId>
+-            <artifactId>jmetal-algorithm</artifactId>
+-        </dependency>
+     </dependencies>
+ </project>
+--- original/jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/dfsp/EDHHFSPW.java
++++ chapter4/jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/dfsp/EDHHFSPW.java
+@@ -36,7 +36,12 @@
+ //
+ 
+ 
+-public class EDHHFSPW extends AbstractIntegerPermutationProblem{
++public class EDHHFSPW extends AbstractIntegerPermutationProblem implements org.uma.jmetal.util.research.InstanceFileProvider {
++    private final String instanceFile;
++
++    @Override public String getInstanceFile() { return instanceFile; }
++    @Override public int getWorkerVectorLength() { return numberOfJobs_ * numberOfStages; }
++
+     protected int numberOfWorker = 0;
+     protected int numberOfJobs_;
+     protected int numberOfStages;
+@@ -375,17 +380,9 @@
+ //        sleep();
+         //idleflag = new int[numberOfMachines_];
+ 
+-        StringBuffer sbInputFileName = new StringBuffer();
+-        //String strFolderName = new String("/Users/mumumu/Desktop/EADHFSP-能耗数据集/"); //TODO 修改输入数据目录
+-        String strFolderName = new String("E:/DHFSP-4/EADHFSP/"); //TODO 修改输入数据目录
+-        //init("C:\\LocalDisk\\0.research\\journal-proposal-ZhangLiHouYangGen-PSO-DE-DFSP\\data-FSP\\" + numberOfJobs_ + "_" + numberOfMachines_ + "_"+snumber+".txt");
+-        sbInputFileName.append(strFolderName);
+-        sbInputFileName.append(numberOfJobs).append("_");
+-        sbInputFileName.append(numberOfStages).append("_");
+-        sbInputFileName.append(numberOfFactories);
+-        sbInputFileName.append("_").append(problemId);
+-        sbInputFileName.append(".txt");
+-        init(sbInputFileName.toString());
++        instanceFile = org.uma.jmetal.util.research.SchedulingInstanceFiles.resolve(
++                numberOfJobs, numberOfStages, numberOfFactories, problemId);
++        init(instanceFile);
+     }
+ 
+ 

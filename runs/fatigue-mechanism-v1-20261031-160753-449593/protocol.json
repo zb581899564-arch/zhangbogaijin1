@@ -1,0 +1,94 @@
+{
+  "version": "fatigue-mechanism-v1",
+  "scope": "independent Python mechanism diagnosis; no optimizer changes or HV claims",
+  "instances": [
+    "20_2_3_1.txt",
+    "20_5_3_1.txt",
+    "20_8_3_1.txt",
+    "50_2_4_1.txt",
+    "50_5_3_1.txt",
+    "100_2_3_1.txt"
+  ],
+  "parent_seeds": [
+    7,
+    19,
+    43,
+    101,
+    271
+  ],
+  "setup_seed_base": 314159,
+  "candidate_seed_offset": 1000003,
+  "profile_seed_base": 271828,
+  "profiles": [
+    {
+      "name": "weak",
+      "beta": 0.1,
+      "alpha_per_base": 0.1,
+      "mu_per_base": 0.8
+    },
+    {
+      "name": "strong_slow_recovery",
+      "beta": 0.7,
+      "alpha_per_base": 0.45,
+      "mu_per_base": 0.08
+    },
+    {
+      "name": "strong_fast_recovery",
+      "beta": 0.7,
+      "alpha_per_base": 0.45,
+      "mu_per_base": 0.8
+    }
+  ],
+  "profile_rule": "rates divided by nominal median base; independent per-worker U[.85,1.15]; h0=0; synthetic only",
+  "targets": {
+    "Cmax": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "TEC": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "TWC": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "balanced": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ]
+  },
+  "normalization": "one frozen parent objective vector for all candidates and methods in a case",
+  "candidate_count": 16,
+  "max_direct_defects": 16,
+  "candidates": "same-factory two-job worker/resource/order/insert/joint edits, FA fixed; job-owned resources follow JS",
+  "prediction": "changed stage0 modules including directly rewired successors at OLD cached states; old costates plus direct cost defects; later topology frozen",
+  "methods": [
+    "fatigue_adjoint",
+    "time_only",
+    "random"
+  ],
+  "time_only": "stop fatigue-state derivatives on same dynamic forward; ordinary critical path for Cmax, generalized time-channel for TEC/TWC",
+  "ties_and_random": "exact uniform expectation on minimum-score ties; random uniform on entire identical pool, no truth-based choice",
+  "truth": "all candidates fully decoded and validated only after scores/choices fixed; no feedback to prediction or pool",
+  "metrics": [
+    "rank_spearman",
+    "sign_accuracy",
+    "selected_raw_gain",
+    "accepted_gain",
+    "improvement_probability",
+    "oracle_regret",
+    "tie_count"
+  ],
+  "accepted_gain": "mean(max(0,-actual normalized scalar delta)) for uniform selected ties; same reject-if-worse rule",
+  "bootstrap": "2000 hierarchical paired resamples, instance then parent seed; separately per profile and target; descriptive with six instances",
+  "timing_repeats": 5,
+  "timing": "single thread, warmed perf_counter_ns; components measured separately; all repeats and full decode calls retained",
+  "decision_cost_proxy": "guided: 2*trace_decode+pool+adjoint+defects+scores+choice; random: 2*plain_decode+pool+random_choice; one target/one child, not a full optimizer benchmark",
+  "success": "correct dynamics/derivatives, same legal pools, complete truth and cost accounting; superiority is NOT a completion criterion",
+  "no_tuning": "do not change cases, profiles, pools or thresholds after results; preserve failed runs"
+}

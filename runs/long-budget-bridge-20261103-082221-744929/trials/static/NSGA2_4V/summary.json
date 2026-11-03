@@ -1,0 +1,14 @@
+{
+"baseline":"A0-sourced-reconstruction-v2",
+"modelProvenance":"benchmark=G:\\ai\\limingzhegaijin\\张博改进\\runs\\long-budget-bridge-20261103-082221-744929\\inputs\\20_2_3_1.txt; standbyPower=1.0 (EXPLICIT RECONSTRUCTION ASSUMPTION, absent from instance); RECONSTRUCTED NOT AUTHOR DATA; numpy PCG64 discrete U[1,9]; seed=314159; file=G:\\ai\\limingzhegaijin\\张博改进\\runs\\long-budget-bridge-20261103-082221-744929\\inputs\\RECONSTRUCTED-setup.txt; stage worker counts: thesis sec4.3, M=2 completed by supplied source code",
+"seed":8111009,
+"searchFeLimit":500000,
+"searchDecoderAttempts":500000,
+"successfulSearchEvaluations":500000,
+"failedSearchEvaluations":0,
+"offlineValidationDecodes":308,
+"archiveSize":308,
+"searchSecondsIncludingArchive":12.3363577,
+"diagnosticOnly":false,
+"searchConfig":"mode=NSGA2_4V;setting=0;population=100;SPEA2Archive=100;PC=0.9;mutationScale=1.0;variation=OX_JS+job-aligned-uniform_FA_MA_WA;mutation=per-JS-position-swap-and-per-job-per-resource-resample,p=min(1,scale/jobs);repair=shared-deterministic;all-proposals=guarded-paid;SPEA2Distance=frozen-mean-normalized-objective-Euclidean;k=floor(sqrt(union-size)),self-excluded;MOEAD=normalized-Tchebycheff;weights=100-deterministic-maximin-H30-simplex;neighbors=20;delta=.9;maxReplacement=2;zeroWeight=1e-6;SPEA2-and-MOEAD-scale=initial-100-absolute-mean-frozen,zero-to-1;ideal=own-paid-minimum;VNS=chapter4-ordinary-inter+intra,CENTER,support-null,every-50-global-offspring;localProposalCap=30-intra-only;inter=additional-paid-proposals;selectionTie=stable-index;NSGATournamentTie=seeded-random;NSGACrowding=retain-union-front,constant-objective-interior-zero;sources=10.1109/4235.996017,TIK103,10.1109/TEVC.2007.892759;status=explicit-discrete-adaptation,not-author-score-reproduction"
+}

@@ -1,0 +1,53 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "seedRule": "First registered H1 seed; not quality-selected",
+  "budget": 500000,
+  "checkpoints": [
+    100,
+    15000,
+    50000,
+    100000,
+    250000,
+    500000
+  ],
+  "designAndOrder": {
+    "static": [
+      "NSGA2_4V",
+      "BASELINE"
+    ],
+    "append_beta0": [
+      "BASELINE",
+      "NSGA2_4V"
+    ],
+    "fatigue": [
+      "NSGA2_4V",
+      "BASELINE",
+      "SHARE_JOB_ALIGNED"
+    ]
+  },
+  "frozenSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\night-research-H1-20261103-010138-848045",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "standby": 1,
+  "algorithmScope": "Frozen SO QGS, setting-0 NSGA2_4V and frozen SO SHARE_JOB_ALIGNED",
+  "staticScope": "Reconstructed canonical-v1, not author binary or original-data reproduction",
+  "reference": "Within each condition, ND union of its completed 500000-FE fronts for empirical IGD+",
+  "scope": "Exploratory single instance and seed; no tuning, original-paper NSGA port or expansion decision"
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "NSGA2_4V": 0,
+    "SPEA2_4V": 1,
+    "MOEAD_4V": 0,
+    "NSGA2_VNS_4V": 1
+  },
+  "completedRounds": 3,
+  "wallSeconds": 560.5779999999795,
+  "roundSeconds": [
+    186.31199999997625,
+    186.46799999999348,
+    186.375
+  ],
+  "selection": [
+    {
+      "method": "NSGA2_4V",
+      "selectedSetting": 0,
+      "scoresVsCanonical": [
+        1.0,
+        0.9980411943770893,
+        0.9694805082298936
+      ]
+    },
+    {
+      "method": "SPEA2_4V",
+      "selectedSetting": 1,
+      "scoresVsCanonical": [
+        1.0,
+        1.0018578059221261,
+        0.967747760790214
+      ]
+    },
+    {
+      "method": "MOEAD_4V",
+      "selectedSetting": 0,
+      "scoresVsCanonical": [
+        1.0,
+        0.990584333556759,
+        0.9904168080525053
+      ]
+    },
+    {
+      "method": "NSGA2_VNS_4V",
+      "selectedSetting": 1,
+      "scoresVsCanonical": [
+        1.0,
+        1.00821144304439,
+        0.9764130241976052
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "thresholdMeanPercent": 1.0,
+  "thresholdPositiveInstances": 4,
+  "aggregation": "captured generations within run, seeds within instance, six instances equally",
+  "scope": "Oracle diagnostic determines a bounded branch; does not estimate closed-loop gain",
+  "variants": {
+    "SO": {
+      "status": "RESOLVED",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.9718767927769129
+        },
+        {
+          "instance": "20_8_5_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 1.0471751116369905
+        },
+        {
+          "instance": "100_2_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.8099580158259354
+        },
+        {
+          "instance": "100_8_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.42549072114679715
+        },
+        {
+          "instance": "200_5_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.3228362883472309
+        },
+        {
+          "instance": "200_8_5_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 1.095148167201074
+        }
+      ],
+      "meanOracleParentGainPercentOfGL": 0.7787475161558235,
+      "positiveInstances": 6,
+      "triggered": false
+    },
+    "SHARE": {
+      "status": "RESOLVED",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.8951888091177198
+        },
+        {
+          "instance": "20_8_5_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.996530930512508
+        },
+        {
+          "instance": "100_2_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.29775231509652395
+        },
+        {
+          "instance": "100_8_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.514396216345598
+        },
+        {
+          "instance": "200_5_3_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 0.3433276450689485
+        },
+        {
+          "instance": "200_8_5_1",
+          "runs": 3,
+          "meanOracleParentGainPercentOfGL": 1.1406599122084966
+        }
+      ],
+      "meanOracleParentGainPercentOfGL": 0.6979759713916325,
+      "positiveInstances": 6,
+      "triggered": false
+    }
+  },
+  "status": "RESOLVED",
+  "triggered": false
+}

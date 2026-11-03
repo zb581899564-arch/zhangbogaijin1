@@ -1,0 +1,47 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "FE": 500000,
+  "checkpoints": [
+    100,
+    5100,
+    15000,
+    50000,
+    100000,
+    250000,
+    500000
+  ],
+  "common": "frozen static canonical-v1, S/O QGS, reconstructed SUT and standby, four groups",
+  "actions": [
+    "reuse previous gbest",
+    "current-group best",
+    "binary tournament in search archive"
+  ],
+  "intervention": "Use Q-table epsilon-greedy or draw uniformly from exactly the same three actions",
+  "order": [
+    "allocation-record",
+    "Q-guided",
+    "uniform-actions"
+  ],
+  "allocationAnchor": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\static-qgs-paper-ls-audit-20261103-171052-582206",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "allocation": "Extra record run must exactly replay prior QGS. Then freeze every local visit, round, factory and paid quota for both arms; repeat same neighborhood pass on natural early finish until slot credits are spent.",
+  "scope": "Single seed; conditional on QGS-derived allocation; no production changes or new tuning"
+}

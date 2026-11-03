@@ -1,0 +1,175 @@
+{
+  "version": "fatigue-expansion-v5",
+  "scope": "standalone scalar local chains; no Java, population algorithm or HV changes",
+  "instances": [
+    "20_2_3_1.txt",
+    "20_5_3_1.txt",
+    "20_8_3_1.txt",
+    "50_2_4_1.txt",
+    "50_5_3_1.txt",
+    "100_2_3_1.txt",
+    "100_5_3_1.txt",
+    "100_5_4_1.txt",
+    "100_5_5_1.txt",
+    "100_8_3_1.txt",
+    "100_8_4_1.txt",
+    "100_8_5_1.txt",
+    "150_5_3_1.txt",
+    "150_5_4_1.txt",
+    "150_5_5_1.txt",
+    "150_8_3_1.txt",
+    "150_8_4_1.txt",
+    "150_8_5_1.txt",
+    "200_5_3_1.txt",
+    "200_5_4_1.txt",
+    "200_5_5_1.txt",
+    "200_8_3_1.txt",
+    "200_8_4_1.txt",
+    "200_8_5_1.txt",
+    "20_2_4_1.txt",
+    "20_2_5_1.txt",
+    "20_5_4_1.txt",
+    "20_5_5_1.txt",
+    "20_8_4_1.txt",
+    "20_8_5_1.txt",
+    "50_2_5_1.txt",
+    "50_5_4_1.txt",
+    "50_5_5_1.txt",
+    "50_8_3_1.txt",
+    "50_8_4_1.txt",
+    "50_8_5_1.txt"
+  ],
+  "parent_seeds": [
+    1009,
+    2027,
+    4057
+  ],
+  "setup_seed_base": 314159,
+  "profile_seed_base": 271828,
+  "profiles": [
+    {
+      "name": "weak",
+      "beta": 0.1,
+      "alpha_per_base": 0.1,
+      "mu_per_base": 0.8
+    },
+    {
+      "name": "strong_slow_recovery",
+      "beta": 0.7,
+      "alpha_per_base": 0.45,
+      "mu_per_base": 0.08
+    },
+    {
+      "name": "strong_fast_recovery",
+      "beta": 0.7,
+      "alpha_per_base": 0.45,
+      "mu_per_base": 0.8
+    }
+  ],
+  "targets": {
+    "TEC": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "balanced": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ]
+  },
+  "methods": [
+    "cut_time",
+    "cut_time_full",
+    "local_time",
+    "cut_fatigue",
+    "random"
+  ],
+  "candidate_count": 16,
+  "pool_seed_base": 20261110,
+  "choice_seed_base": 20261111,
+  "decisions": 24,
+  "time_budget_seconds": 0.25,
+  "primary_cell": {
+    "profile": "strong_fast_recovery",
+    "target": "TEC",
+    "budgets": [
+      0.5,
+      2.0
+    ],
+    "left": "cut_time",
+    "controls": [
+      "cut_time_full",
+      "local_time",
+      "cut_fatigue",
+      "random"
+    ]
+  },
+  "normalization": "initial parent objective vector fixed for the whole chain and all paired methods",
+  "acceptance": "strict normalized scalar improvement >1e-10; true full decode only; FA fixed",
+  "pool": "exactly v2 legal_local distribution/order, but materialize only the chosen 16 descriptors; verified equal",
+  "controls": "cut_time shares exact dynamic-fatigue stage0, stops downstream fatigue adjoints; local_time is v1 cheap time-channel; random uniform on identical pool rule",
+  "candidate_truth": "one selected child fully decoded per decision, including rejected children; no all-candidate oracle",
+  "cache": "lazy keyed by parent version+genome; invalidate on every acceptance, reuse on rejection only; all construction and hit costs timed",
+  "reuse_definition": "q counts first use plus subsequent scored pools; accepted epochs and terminal right-censored epochs reported separately",
+  "time_measurement": "perf_counter_ns around initialization, trace/minimal decode, RNG, generation, cache setup, exact stage0 or defects, selection, selected decode, acceptance and in-memory audit logging",
+  "excluded_time": "common instance loading, output JSON serialization/disk I/O, offline final QA and separate component calibration; separately accounted, no oracle data in search",
+  "deadline": "non-preemptive decisions; only accept children whose full decode finishes on/before deadline; report overrun and actual elapsed, include overrun in measured gain/second",
+  "equal_FE": "24 decisions => 25 adaptive full evaluations incl initial for all primary methods; partial stage0 calls and their time count separately",
+  "run_order": "deterministic rotating method order in each profile/target/budget block; sequential single-thread",
+  "paired_randomness": "same initial genome, step-indexed pool seeds and choice RNG; pools may differ after accepted parents diverge",
+  "calibration": "none: unchanged kernels already timed in v4; expanded numerical gate and all108 full/incremental fixed controls retained",
+  "ablation": "cut_time_full is FULL first-stage scoring with the same downstream time boundary; every selector still fully decodes selected children",
+  "statistics": {
+    "bootstrap_samples": 10000,
+    "sign_flip_samples": 100000,
+    "seed": 20261112,
+    "primary_family": "8 directional contrasts: 2 budgets x 4 controls; one-sided instance-mean paired sign-flip p values with Holm adjustment across all8",
+    "intervals": "hierarchical instance->seed paired bootstrap95, unadjusted effect intervals; instance wins/ties/losses with tolerance1e-10",
+    "strata": "N=20/50/100/150/200 and prior6 versus new30 instances, descriptive, no threshold/seed/budget selection",
+    "secondary": "all positive and negative cells reported; exploratory, no adjusted superiority assertion"
+  },
+  "no_tuning": true,
+  "incremental": "same-factory tokens (job,machine,worker); reuse exact identical prefix and all unaffected factories; recompute every changed-factory suffix op; no convergence approximation",
+  "cache_cost": "build checkpoint lists from paid parent trace, no extra parent decode; include build, all candidate validation/copies/scans/sums and projections in online wall clock",
+  "numerical_contract": "C/v and direct-cost addition order exactly match v3 full stage0; fixed-budget score/choice/accept trajectories must match full references",
+  "validation": {
+    "seeds": [
+      23,
+      53,
+      97
+    ],
+    "parents_per_case": 3,
+    "candidates_per_parent": 16,
+    "expected_comparisons": 15552,
+    "expected_parent_schedules": 972
+  },
+  "primary_time_repeats": 1,
+  "repeat_statistics": "one timing run per method/case/budget; 108 paired parents in 36 independent instance clusters, not 108 independent instances",
+  "expected_chains": 2916,
+  "main_primary_runs": 90,
+  "preservation": "new validation then performance directories, protocol and all five packages frozen; no Java/full algorithm changes",
+  "main_budgets_seconds": [
+    0.5,
+    2.0
+  ],
+  "secondary_cells": [
+    [
+      "weak",
+      "TEC"
+    ],
+    [
+      "strong_slow_recovery",
+      "TEC"
+    ],
+    [
+      "strong_fast_recovery",
+      "balanced"
+    ]
+  ],
+  "secondary_budget_seconds": 0.5,
+  "fixed_control": "24 decisions, cut_time versus cut_time_full, all 108 strong-fast TEC new-seed parents; bitwise score/choice/accept/final equality required before time trials for that parent",
+  "expected_time_chains": 2700,
+  "expected_fixed_pairs": 108,
+  "data_mapping": "original6 keep v1-v4 setup/profile seed indices; remaining30 append in sorted manifest order; preserve old data, no cherry-picked new SUT"
+}

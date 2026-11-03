@@ -1,0 +1,12 @@
+{
+  "conditions": {
+    "DEMANDvsSHAMMeanTAtLeast1Percent": false,
+    "DEMANDvsSHAMAtLeast3PracticalInstanceWins": false,
+    "DEMANDvsSHAMMeanFEPositive": false,
+    "DEMANDvsOriginalMeanTNonnegative": true,
+    "DEMANDvsOriginalMedianTNonnegative": true
+  },
+  "supportedDescriptiveSignal": false,
+  "scope": "Predeclared fixed rule once; no new cap/frequency/thresholds or RL; no formal scale-up/publication verdict",
+  "NSGA": "Not run in step3; no historical wall-clock scores mixed into this campaign"
+}

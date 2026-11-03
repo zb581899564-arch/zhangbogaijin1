@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "cases": 90,
+  "chains": 1800,
+  "calls": {
+    "calibration_parent_trace_full": 90,
+    "calibration_prefix_build": 630,
+    "calibration_incremental_stage0": 10080,
+    "calibration_full_stage0": 10080,
+    "calibration_plain_full": 540,
+    "calibration_trace_full": 540,
+    "offline_final_QA_full": 1800,
+    "offline_candidate_regenerations": 93022,
+    "search_full": 94822,
+    "search_partial_stage0": 627456,
+    "search_cache_builds": 26393,
+    "incremental_exact_ops": 3744306,
+    "reference_exact_ops": 2186880
+  },
+  "algorithm_elapsed_ns_sum": 358188957000,
+  "experiment_wall_ns": 497581966300,
+  "json_io_ns": 3072634400
+}

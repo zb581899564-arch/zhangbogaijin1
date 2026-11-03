@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "realEntryChecks": [
+    {
+      "instance": "20_2_3_1",
+      "variant": "SYNC_SPECIAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SYNC_UNIFORM",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_SPECIAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_UNIFORM",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SYNC_SPECIAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SYNC_UNIFORM",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_SPECIAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_UNIFORM",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    }
+  ],
+  "physicalGroupsAndQuotasRetained": true,
+  "uniformPreferencesVerified": true,
+  "originalControlsMatchFrozen": true,
+  "poolObservationFEAndRNGZero": true,
+  "boundedPaidPoolProvenance": true,
+  "timeInterruptions": [
+    "SYNC_SPECIAL",
+    "SYNC_UNIFORM",
+    "SHARE_SPECIAL",
+    "SHARE_UNIFORM",
+    "NSGA"
+  ],
+  "qualitySelectedParameters": false
+}

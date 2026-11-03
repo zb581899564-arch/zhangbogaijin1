@@ -1,0 +1,106 @@
+{
+  "kind": "STRUCTURAL_COUNTEREXAMPLE_NO_DECODING",
+  "instance_shape": {
+    "jobs": 3,
+    "factories": 3,
+    "stages_example": 2,
+    "first_stage_resource_dims": [
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "parent_queues": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ]
+  ],
+  "parent_resources": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "parent_factory_assignment": [
+    0,
+    1,
+    2
+  ],
+  "n1_labelled_moves": 15,
+  "n2_labelled_two_distinct_job_paths": 150,
+  "all_n1_preserve_assignment": true,
+  "all_n2_preserve_assignment": true,
+  "atomic_swap_queues": [
+    [
+      2
+    ],
+    [
+      1
+    ],
+    [
+      0
+    ]
+  ],
+  "atomic_swap_resources": [
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "atomic_swap_descriptor": {
+    "family": "swap_rebind",
+    "jobs": [
+      0,
+      2
+    ],
+    "resources": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "atomic_swap_changes_assignment": true,
+  "atomic_swap_keeps_factories_nonempty": true,
+  "notes": [
+    "No objective evaluation or decoder call.",
+    "All factories start singleton. Cross-factory N1 removes the sole source job and is rejected by segments().",
+    "Within-factory resource edits remain legal but cannot change FA.",
+    "This is a representation/search-support boundary, not a fatigue novelty result."
+  ]
+}

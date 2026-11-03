@@ -1,0 +1,38 @@
+{
+  "distinct_checks_passed": 6,
+  "scope": "v2 diagnostic paths only; shared v1 core unchanged and not re-tested",
+  "executions": [
+    {
+      "command": "python -m unittest research.fatigue_topology.checks.test_diagnosis -v",
+      "tests_at_that_time": 5,
+      "passed": 4,
+      "failed": 1,
+      "elapsed_seconds": 0.262
+    },
+    {
+      "command": "python -m unittest research.fatigue_topology.checks.test_diagnosis.DiagnosisChecks.test_identity_fixed_later_and_boundary -v",
+      "passed": 1,
+      "elapsed_seconds": 0.078
+    },
+    {
+      "command": "python -m unittest research.fatigue_topology.checks.test_diagnosis.DiagnosisChecks.test_one_synthetic_pool_end_to_end_serializes -v",
+      "passed": 1,
+      "elapsed_seconds": 0.113
+    }
+  ],
+  "development_failure": {
+    "assertion": "identity cut prediction equals exact zero",
+    "observed": 8.816010231363486e-17,
+    "resolution": "use 1e-14 floating accumulation tolerance, physics code unchanged"
+  },
+  "coverage": [
+    "identity and boundary direct-cost exclusion",
+    "new stage0 matches common decoder",
+    "fixed-later feasible for all synthetic legal edits",
+    "probe fixed-later matches independent old replay",
+    "tiny-probe cut derivative",
+    "truth-independent generation/scoring",
+    "synthetic full pipeline and serialization"
+  ],
+  "real_run_audit": "audit.json; all 5760 adaptive and 5760 fixed-route schedules validated; no optimizer run"
+}

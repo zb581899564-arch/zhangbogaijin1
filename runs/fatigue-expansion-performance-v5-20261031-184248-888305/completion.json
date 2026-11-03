@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "parents": 108,
+  "instances": 36,
+  "chains": 2916,
+  "calls": {
+    "offline_final_QA_full": 2916,
+    "offline_candidate_regenerations": 331842,
+    "search_full": 334758,
+    "search_partial_stage0": 2434384,
+    "search_cache_builds": 48609,
+    "incremental_exact_ops": 12634943,
+    "reference_exact_ops": 32178560
+  },
+  "algorithm_elapsed_ns_sum": 2303064225900,
+  "experiment_wall_ns": 2905256560600,
+  "json_serialization_write_ns": 12550956100
+}

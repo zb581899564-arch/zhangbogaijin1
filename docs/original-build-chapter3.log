@@ -1,0 +1,20 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.uma.jmetal:jmetal-algorithm:jar:5.8
+[WARNING] 'dependencies.dependency.version' for org.testng:testng:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 90, column 22
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.uma.jmetal:jmetal-exec:jar:5.8
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.uma.jmetal:jmetal-algorithm:jar -> duplicate declaration of version (?) @ line 77, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[ERROR] [ERROR] The projects in the reactor contain a cyclic reference: Edge between 'Vertex{label='org.uma.jmetal:jmetal-exec:5.8'}' and 'Vertex{label='org.uma.jmetal:jmetal-algorithm:5.8'}' introduces to cycle in the graph org.uma.jmetal:jmetal-algorithm:5.8 --> org.uma.jmetal:jmetal-exec:5.8 --> org.uma.jmetal:jmetal-algorithm:5.8 @ 
+[ERROR] The projects in the reactor contain a cyclic reference: Edge between 'Vertex{label='org.uma.jmetal:jmetal-exec:5.8'}' and 'Vertex{label='org.uma.jmetal:jmetal-algorithm:5.8'}' introduces to cycle in the graph org.uma.jmetal:jmetal-algorithm:5.8 --> org.uma.jmetal:jmetal-exec:5.8 --> org.uma.jmetal:jmetal-algorithm:5.8 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectCycleException

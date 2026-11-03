@@ -1,0 +1,2925 @@
+{
+  "status": "complete",
+  "posthoc": true,
+  "new_decoder_calls": 0,
+  "scope": "explain frozen v7 outcomes, no reselected seeds/parents or tuned sampling rules",
+  "dynamic_strict_distributions": [
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 137,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2323100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 137,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2570900,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 137,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2658900,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 137,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2697100,
+      "fallback": true,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 137,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2293500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 137,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2530400,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 137,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2599200,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 137,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2653400,
+      "fallback": true,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 420,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2336800,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 420,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2561300,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 420,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3281500,
+      "fallback": false,
+      "one_draw_success": 0.008888888888888889,
+      "budget_success": 0.1331229229613543,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 420,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2708600,
+      "fallback": true,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 420,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2415400,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 420,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2572600,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 420,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2650700,
+      "fallback": false,
+      "one_draw_success": 0.008888888888888889,
+      "budget_success": 0.1331229229613543,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 420,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2556600,
+      "fallback": true,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 530,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2450100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 530,
+      "method": "plain_composite",
+      "gain": 0.026849768443979127,
+      "elapsed_ns": 2959000,
+      "fallback": false,
+      "one_draw_success": 0.059259259259259255,
+      "budget_success": 0.6237129784740656,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 39,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 530,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2694500,
+      "fallback": false,
+      "one_draw_success": 0.008888888888888889,
+      "budget_success": 0.1331229229613543,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 530,
+      "method": "worker_pair",
+      "gain": 0.026849768443979127,
+      "elapsed_ns": 2665600,
+      "fallback": true,
+      "one_draw_success": 0.059259259259259255,
+      "budget_success": 0.6237129784740656,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 39,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 530,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2323700,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 530,
+      "method": "plain_composite",
+      "gain": 0.026262592129578266,
+      "elapsed_ns": 2803500,
+      "fallback": false,
+      "one_draw_success": 0.059259259259259255,
+      "budget_success": 0.6237129784740656,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 39,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 530,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2929300,
+      "fallback": false,
+      "one_draw_success": 0.008888888888888889,
+      "budget_success": 0.1331229229613543,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 530,
+      "method": "worker_pair",
+      "gain": 0.026262592129578266,
+      "elapsed_ns": 2635800,
+      "fallback": true,
+      "one_draw_success": 0.059259259259259255,
+      "budget_success": 0.6237129784740656,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 39,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 383,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2494300,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 383,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3223800,
+      "fallback": false,
+      "one_draw_success": 0.013333333333333332,
+      "budget_success": 0.19327168294149094,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 9,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 383,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2624000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 383,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2952400,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 383,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2824800,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 383,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2569000,
+      "fallback": false,
+      "one_draw_success": 0.013333333333333332,
+      "budget_success": 0.19327168294149094,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 9,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 383,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2650300,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 383,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2641700,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 511,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2489200,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 511,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2783000,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 511,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2703100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 511,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2538500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 511,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2391600,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 511,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3177100,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 511,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2628400,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 511,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2601200,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 390,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2614100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 390,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2717000,
+      "fallback": false,
+      "one_draw_success": 0.0014814814814814814,
+      "budget_success": 0.023442141342728817,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 390,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3257700,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 390,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4243800,
+      "fallback": true,
+      "one_draw_success": 0.0014814814814814814,
+      "budget_success": 0.023442141342728817,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 390,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2659500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 390,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3084000,
+      "fallback": false,
+      "one_draw_success": 0.0014814814814814814,
+      "budget_success": 0.023442141342728817,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 390,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2977900,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 390,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2608100,
+      "fallback": true,
+      "one_draw_success": 0.0014814814814814814,
+      "budget_success": 0.023442141342728817,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 536,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2433500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 536,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2676500,
+      "fallback": false,
+      "one_draw_success": 0.010370370370370372,
+      "budget_success": 0.1536245956000816,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 6,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 536,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2797100,
+      "fallback": false,
+      "one_draw_success": 0.008888888888888889,
+      "budget_success": 0.1331229229613543,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 536,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2689200,
+      "fallback": true,
+      "one_draw_success": 0.010370370370370372,
+      "budget_success": 0.1536245956000816,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 6,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 536,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2889100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 536,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2810400,
+      "fallback": false,
+      "one_draw_success": 0.010370370370370372,
+      "budget_success": 0.1536245956000816,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 6,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 536,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2666100,
+      "fallback": false,
+      "one_draw_success": 0.008888888888888889,
+      "budget_success": 0.1331229229613543,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 536,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2513000,
+      "fallback": true,
+      "one_draw_success": 0.010370370370370372,
+      "budget_success": 0.1536245956000816,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 6,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 422,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2363500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 422,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2571100,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 422,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2762000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 422,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2760000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 422,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2336600,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 422,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2787000,
+      "fallback": false,
+      "one_draw_success": 0.002962962962962963,
+      "budget_success": 0.04636833706854747,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 422,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2859600,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 422,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2582000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 538,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2526000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 538,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2903500,
+      "fallback": false,
+      "one_draw_success": 0.014814814814814814,
+      "budget_success": 0.21243581234199777,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 10,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 538,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2976500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 538,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3121100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 538,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2910900,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 32,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 538,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2574000,
+      "fallback": false,
+      "one_draw_success": 0.014814814814814814,
+      "budget_success": 0.21243581234199777,
+      "unique_endpoints": 246,
+      "unique_improving_endpoints": 10,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 538,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2636900,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 538,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 2698800,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 95,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 712,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2636000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 712,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3211000,
+      "fallback": false,
+      "one_draw_success": 0.011080332409972301,
+      "budget_success": 0.1632875574850995,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 23,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 712,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3281100,
+      "fallback": false,
+      "one_draw_success": 0.002770083102493075,
+      "budget_success": 0.04341232321266226,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 712,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3292400,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 5314,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 3149000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 5314,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3697900,
+      "fallback": false,
+      "one_draw_success": 0.008310249307479227,
+      "budget_success": 0.12498963844272219,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 18,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 5314,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4288000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 5314,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3054600,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 5314,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2741100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 5314,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2842300,
+      "fallback": false,
+      "one_draw_success": 0.010156971375807941,
+      "budget_success": 0.15069973478711085,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 21,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 5314,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4014400,
+      "fallback": false,
+      "one_draw_success": 0.002770083102493075,
+      "budget_success": 0.04341232321266226,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 5314,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3036500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 10636,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2601300,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 10636,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2874400,
+      "fallback": false,
+      "one_draw_success": 0.004155124653739612,
+      "budget_success": 0.0644498235614064,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 4,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 10636,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3391000,
+      "fallback": false,
+      "one_draw_success": 0.0069252077562326885,
+      "budget_success": 0.10523017512252203,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 3,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 10636,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4090400,
+      "fallback": false,
+      "one_draw_success": 0.0069252077562326885,
+      "budget_success": 0.10523017512252203,
+      "unique_endpoints": 589,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 3626,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 4330900,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 3626,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 4973400,
+      "fallback": false,
+      "one_draw_success": 0.013388734995383194,
+      "budget_success": 0.19399614682163158,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 26,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 3626,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4614400,
+      "fallback": false,
+      "one_draw_success": 0.0048476454293628814,
+      "budget_success": 0.07480516755610059,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 3626,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4881200,
+      "fallback": false,
+      "one_draw_success": 0.004155124653739612,
+      "budget_success": 0.0644498235614064,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 3626,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 4083100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 3626,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 4704400,
+      "fallback": false,
+      "one_draw_success": 0.010156971375807941,
+      "budget_success": 0.15069973478711085,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 22,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 3626,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4863100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 3626,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 5099600,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 16778,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 3566500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 16778,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 5623000,
+      "fallback": false,
+      "one_draw_success": 0.0013850415512465374,
+      "budget_success": 0.021931945241875826,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 16778,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4855600,
+      "fallback": false,
+      "one_draw_success": 0.004155124653739612,
+      "budget_success": 0.0644498235614064,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 2,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 16778,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4597500,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 589,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 7457,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 4069000,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 7457,
+      "method": "plain_composite",
+      "gain": 0.027966427905486313,
+      "elapsed_ns": 4551800,
+      "fallback": false,
+      "one_draw_success": 0.10433979686057253,
+      "budget_success": 0.8284888170946832,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 223,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 7457,
+      "method": "machine_pair",
+      "gain": 0.11045759874072958,
+      "elapsed_ns": 4298400,
+      "fallback": false,
+      "one_draw_success": 0.2423822714681441,
+      "budget_success": 0.9882184600504407,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 174,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 7457,
+      "method": "worker_pair",
+      "gain": 0.06374557346138765,
+      "elapsed_ns": 3879400,
+      "fallback": false,
+      "one_draw_success": 0.1329639889196676,
+      "budget_success": 0.8980014095268102,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 47,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 7457,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 3370600,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 7457,
+      "method": "plain_composite",
+      "gain": 0.11469441870133723,
+      "elapsed_ns": 3959400,
+      "fallback": false,
+      "one_draw_success": 0.12049861495844877,
+      "budget_success": 0.8718305727599136,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 258,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 7457,
+      "method": "machine_pair",
+      "gain": 0.13762871040110347,
+      "elapsed_ns": 3923300,
+      "fallback": false,
+      "one_draw_success": 0.257617728531856,
+      "budget_success": 0.991487806764933,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 185,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 7457,
+      "method": "worker_pair",
+      "gain": 0.09232179357301151,
+      "elapsed_ns": 3863500,
+      "fallback": false,
+      "one_draw_success": 0.1966759002770083,
+      "budget_success": 0.9699217381447569,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 70,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 10181,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 3844300,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 10181,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3862500,
+      "fallback": false,
+      "one_draw_success": 0.003231763619575254,
+      "budget_success": 0.05047360733904004,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 7,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 10181,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4160300,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 10181,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4281100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 9943,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2949700,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 9943,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3162400,
+      "fallback": false,
+      "one_draw_success": 0.0110803324099723,
+      "budget_success": 0.1632875574850995,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 21,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 9943,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3126600,
+      "fallback": false,
+      "one_draw_success": 0.002770083102493075,
+      "budget_success": 0.04341232321266226,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 9943,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3143500,
+      "fallback": false,
+      "one_draw_success": 0.00554016620498615,
+      "budget_success": 0.0850529804495209,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 9943,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2943800,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 9943,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 3224700,
+      "fallback": false,
+      "one_draw_success": 0.012927054478301015,
+      "budget_success": 0.18794026448012843,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 24,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 9943,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3647300,
+      "fallback": false,
+      "one_draw_success": 0.008310249307479227,
+      "budget_success": 0.12498963844272219,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 4,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 9943,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3288700,
+      "fallback": false,
+      "one_draw_success": 0.00554016620498615,
+      "budget_success": 0.0850529804495209,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 12279,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2768800,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 12279,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2847100,
+      "fallback": false,
+      "one_draw_success": 0.0004616805170821791,
+      "budget_success": 0.007361365430485759,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 1,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 12279,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3172700,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 12279,
+      "method": "worker_pair",
+      "gain": 0.0,
+      "elapsed_ns": 3595200,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 16223,
+      "method": "single_job",
+      "gain": 0.0,
+      "elapsed_ns": 2648100,
+      "fallback": false,
+      "one_draw_success": 0.0,
+      "budget_success": 0.0,
+      "unique_endpoints": 58,
+      "unique_improving_endpoints": 0,
+      "noop_endpoint_in_pool": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 16223,
+      "method": "plain_composite",
+      "gain": 0.0,
+      "elapsed_ns": 2901600,
+      "fallback": false,
+      "one_draw_success": 0.043397968605724854,
+      "budget_success": 0.5082993521065213,
+      "unique_endpoints": 1155,
+      "unique_improving_endpoints": 90,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 16223,
+      "method": "machine_pair",
+      "gain": 0.0,
+      "elapsed_ns": 4327100,
+      "fallback": false,
+      "one_draw_success": 0.09141274238227143,
+      "budget_success": 0.7842919916853011,
+      "unique_endpoints": 600,
+      "unique_improving_endpoints": 64,
+      "noop_endpoint_in_pool": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 16223,
+      "method": "worker_pair",
+      "gain": 0.005553280047006837,
+      "elapsed_ns": 3138900,
+      "fallback": false,
+      "one_draw_success": 0.0775623268698061,
+      "budget_success": 0.7252153265439649,
+      "unique_endpoints": 297,
+      "unique_improving_endpoints": 27,
+      "noop_endpoint_in_pool": false
+    }
+  ],
+  "improving_pair_coverage": [
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 137,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 137,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 420,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 420,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 530,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 3,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 530,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 383,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 383,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 511,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 511,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 390,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 390,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 536,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 3,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 536,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 422,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 422,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 538,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 3,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 538,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 712,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_fast",
+      "parent": 5314,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 5314,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 17417,
+      "model": "strong_slow",
+      "parent": 10636,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 3626,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_slow",
+      "parent": 3626,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 4,
+      "seed": 34841,
+      "model": "strong_fast",
+      "parent": 16778,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cross_factory_pairs": [],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 7457,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          2,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_slow",
+      "parent": 7457,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          2,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 69709,
+      "model": "strong_fast",
+      "parent": 10181,
+      "improving_directed_job_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 9943,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 9943,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "all_improving_pairs_cross_factory": false
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_fast",
+      "parent": 12279,
+      "improving_directed_job_pairs": [
+        [
+          2,
+          0
+        ]
+      ],
+      "cross_factory_pairs": [
+        [
+          2,
+          0
+        ]
+      ],
+      "all_improving_pairs_cross_factory": true
+    },
+    {
+      "jobs": 4,
+      "seed": 139429,
+      "model": "strong_slow",
+      "parent": 16223,
+      "improving_directed_job_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "cross_factory_pairs": [],
+      "all_improving_pairs_cross_factory": false
+    }
+  ],
+  "example_beta0_best_N1_counterfactual": {
+    "state": 169,
+    "genome": {
+      "js": [
+        0,
+        2,
+        1
+      ],
+      "fa": [
+        0,
+        1,
+        1
+      ],
+      "ma": [
+        1,
+        0,
+        0
+      ],
+      "wa": [
+        0,
+        1,
+        1
+      ]
+    },
+    "objectives_by_model": [
+      [
+        18.035839804332742,
+        195.94752530332556,
+        307.08830848428585
+      ],
+      [
+        18.80599108842704,
+        200.54314216031503,
+        313.04026491177046
+      ],
+      [
+        18.80599108842704,
+        200.54314216031503,
+        313.04026491177046
+      ]
+    ],
+    "reference": [
+      18.96191623688803,
+      214.96112227343008,
+      359.67625540379737
+    ]
+  },
+  "wall_ns": 89784600
+}

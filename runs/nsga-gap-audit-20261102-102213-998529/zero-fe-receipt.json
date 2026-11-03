@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "newFE": 0,
+  "optimizerRuns": 0,
+  "frozenMethods": [
+    "CanonicalHmopso.select",
+    "ParetoTools.fitness",
+    "ParticleOperators.moveJobSequence"
+  ],
+  "costs": "synthetic immutable values; no Problem or Decoder",
+  "compileClasspath": "first five frozen class directories; excluded unrelated POM copied as .jar",
+  "runClasspath": "probe-classes plus unchanged frozen complete classpath",
+  "sourceCopy": "audit-source/ZeroFeSearchAudit.java",
+  "log": "zero-fe-probe.log"
+}

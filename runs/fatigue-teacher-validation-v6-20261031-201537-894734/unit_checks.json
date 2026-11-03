@@ -1,0 +1,15 @@
+{
+  "command": "E:/conda/python.exe -m unittest research.fatigue_teacher.checks.test_teacher -v",
+  "final": {
+    "tests": 10,
+    "failures": 0,
+    "wall_test_seconds": 0.243
+  },
+  "initial_attempt": {
+    "tests": 10,
+    "failures": 1,
+    "test": "test_neutral_global_interleaving_dropped_without_truth",
+    "message": "AssertionError: False is not true (expected fallback_noop)",
+    "cause": "Test fixture incorrectly assumed a partial block preserves all per-factory orders; partial inheritance may pass unselected same-factory jobs. Corrected the pure-global-interleaving fixture to use all20 jobs. Candidate/scoring mechanism not changed after seeing performance outcomes; no performance had run."
+  }
+}

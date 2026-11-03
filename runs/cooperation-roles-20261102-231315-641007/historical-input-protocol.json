@@ -1,0 +1,278 @@
+{
+  "version": "semantic-repair-v1",
+  "purpose": "Predeclared repair factorial and fixed-SO cooperation diagnosis",
+  "historical_input_protocol": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\expansion-screen-20261102-001934-525927\\protocol.json",
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "time_seconds": 3,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          695.2261449928639,
+          17774.143805827265,
+          16014.26252051863
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_8_3_1",
+      "time_seconds": 9,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          4094.975462668602,
+          286297.0397045699,
+          306847.68709819356
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_5_3_1",
+      "time_seconds": 12,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          9095.137724626977,
+          501783.1052188295,
+          367272.40817719966
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_8_5_1",
+      "time_seconds": 19,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3238.4513886676095,
+          586919.6672420613,
+          593103.1290649361
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "algorithm_seeds": [
+    8110103,
+    8110129,
+    8110151,
+    8110183,
+    8110211
+  ],
+  "model": {
+    "decoder": "dynamic-append-v1",
+    "objectives": [
+      "Cmax",
+      "TEC",
+      "TWC"
+    ],
+    "profile": "strong_fast",
+    "setup_seed": 314159,
+    "parameter_seed": 271828,
+    "standby": 1.0,
+    "incremental": true
+  },
+  "variants": {
+    "V2": {
+      "mode": "BASELINE",
+      "profile": "V2",
+      "phase": "factorial"
+    },
+    "S_ONLY": {
+      "mode": "BASELINE",
+      "profile": "S",
+      "phase": "factorial"
+    },
+    "O_ONLY": {
+      "mode": "BASELINE",
+      "profile": "O",
+      "phase": "factorial"
+    },
+    "SO": {
+      "mode": "BASELINE",
+      "profile": "SO",
+      "phase": "factorial"
+    },
+    "NSGA2_CONTROL": {
+      "mode": "NSGA2_4V",
+      "profile": "V2",
+      "phase": "factorial"
+    },
+    "SYNC_FIX": {
+      "mode": "SYNC",
+      "profile": "SO",
+      "phase": "cooperation"
+    },
+    "SHARE_FIX": {
+      "mode": "SHARE",
+      "profile": "SO",
+      "phase": "cooperation"
+    }
+  },
+  "phases": {
+    "factorial": [
+      "V2",
+      "S_ONLY",
+      "O_ONLY",
+      "SO",
+      "NSGA2_CONTROL"
+    ],
+    "cooperation": [
+      "SYNC_FIX",
+      "SHARE_FIX"
+    ]
+  },
+  "runs": 210,
+  "campaign_wall_cap_seconds": 5400,
+  "one_jvm_at_a_time": true,
+  "classic_setting": 0,
+  "classic_calibration": "None; NSGA2_4V setting0 locked before runs",
+  "time_fractions": [
+    0.5,
+    1.0
+  ],
+  "fe_checkpoints": [
+    15000
+  ],
+  "fe_role": "Diagnostic; censored checkpoints stay null and empty",
+  "common_diagnostics": true,
+  "semantic_contract": {
+    "S": "Snapshot global-post N before local search; pool global-post then local-post (2N records), one whole-pool PDDR; no initial parents",
+    "stable_ties": "Original candidate order; global-post block before local-post; no new diversity tie-break",
+    "O": "Per guide six independent pre-drawn triggers; three closed segments; FA event always redraws MA/WA; invalid resources uniformly redrawn",
+    "segments": "Two independent uniform endpoints0..N-1, equality allowed, sorted inclusive; donor read-only",
+    "resource_sampling": "Uniform valid identifiers; original value allowed; FA mutation draws position, factory, machine, worker in that order",
+    "common_feasibility": "Unchanged final SchedulingEncoding.repair; nonempty-factory rule/model/decoder/objectives unchanged",
+    "cooperation": "Whole200-pool PDDR scores then category truncation [free80,family0:5,family1:5,family2:5,family3:5] in both SYNC_FIX and SHARE_FIX",
+    "history": "Independent global snapshot; descend forks branch while retaining lineage; both branches may survive with separate ND personal histories",
+    "diagnostics": "All7 versions paid observer; distinctness after restore/repair sampled every256 global proposals; exact shared origins capped4096",
+    "pool_capture": "First2 and last immutable paid pools, at most3; reference/numeric capture insideT, full encoding export outsideT but within campaign cap"
+  },
+  "diagnostic_cost_boundary": {
+    "auditSeconds": "Search-internal bounded numeric/reference capture; included in each registered T",
+    "poolExportSeconds": "Post-search encoding/JSON materialization; offline cost, included in the original campaign wall cap",
+    "wrapperWallSeconds": "JVM startup, search, replay and export measured together; controller validation measured separately"
+  },
+  "run_arguments": {
+    "incremental": true,
+    "small": false,
+    "compact": true,
+    "traceLimit": 0,
+    "checkpointPolicy": "SCREEN"
+  },
+  "metrics": {
+    "primary_reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "sensitivity_references": [
+      [
+        1.25,
+        1.25,
+        1.25
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "igdplus_reference": "Per-instance nondominated union of all7 variants x all5 seeds deadline-valid T archives; approximate, offline only",
+    "seed_aggregation": "Mean of five repeats per instance; six instances are the paired units",
+    "practical_win": "mean-HV effect >=1% and >=3/5 positive paired seed differences",
+    "practical_loss": "mean-HV effect <=-1% and >=3/5 negative paired seed differences",
+    "interaction": "HV_SO-HV_S_ONLY-HV_O_ONLY+HV_V2; seed percent uses that seed's V2 denominator",
+    "p_value_gate": false,
+    "denominator_floor": 1e-12
+  },
+  "scope": "Development repair evidence only; no original270 traffic-light decision and no step6 qualification",
+  "continuation_rule": "Complete and correct factorial phase -> predeclared cooperation phase; never select by quality",
+  "fixed_repaired_baseline": "SO",
+  "historical_results": "Context only; no historical outcomes enter metrics or timing comparisons",
+  "planned_search_seconds": 1820
+}

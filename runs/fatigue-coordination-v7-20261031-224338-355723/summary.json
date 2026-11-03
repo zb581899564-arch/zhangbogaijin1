@@ -1,0 +1,2240 @@
+{
+  "census": [
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "target": "Cmax",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 167,
+      "weak_N2_states": 142,
+      "strict_N2_states": 58,
+      "weak_with_neutral_exit": 84,
+      "strict_components": 17,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "target": "TEC",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 12,
+      "weak_N2_states": 8,
+      "strict_N2_states": 8,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 8,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "target": "TWC",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 8,
+      "weak_N2_states": 4,
+      "strict_N2_states": 4,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 4,
+      "instances_with_strict": 2
+    },
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "target": "balanced",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 44,
+      "weak_N2_states": 38,
+      "strict_N2_states": 38,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 21,
+      "instances_with_strict": 3
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "target": "Cmax",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 182,
+      "weak_N2_states": 158,
+      "strict_N2_states": 66,
+      "weak_with_neutral_exit": 92,
+      "strict_components": 18,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "target": "TEC",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 18,
+      "weak_N2_states": 14,
+      "strict_N2_states": 14,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 14,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "target": "TWC",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 8,
+      "weak_N2_states": 4,
+      "strict_N2_states": 4,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 4,
+      "instances_with_strict": 2
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "target": "balanced",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 59,
+      "weak_N2_states": 48,
+      "strict_N2_states": 48,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 25,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "target": "Cmax",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 182,
+      "weak_N2_states": 158,
+      "strict_N2_states": 66,
+      "weak_with_neutral_exit": 92,
+      "strict_components": 18,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "target": "TEC",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 18,
+      "weak_N2_states": 14,
+      "strict_N2_states": 14,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 14,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "target": "TWC",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 8,
+      "weak_N2_states": 4,
+      "strict_N2_states": 4,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 4,
+      "instances_with_strict": 2
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "target": "balanced",
+      "instances": 4,
+      "states": 3072,
+      "N1_local_states": 59,
+      "weak_N2_states": 48,
+      "strict_N2_states": 48,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 25,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "target": "Cmax",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 1824,
+      "weak_N2_states": 1653,
+      "strict_N2_states": 485,
+      "weak_with_neutral_exit": 1168,
+      "strict_components": 72,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "target": "TEC",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 36,
+      "weak_N2_states": 32,
+      "strict_N2_states": 32,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 32,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "target": "TWC",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 44,
+      "weak_N2_states": 38,
+      "strict_N2_states": 38,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 33,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "target": "balanced",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 236,
+      "weak_N2_states": 220,
+      "strict_N2_states": 220,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 89,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "target": "Cmax",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 1633,
+      "weak_N2_states": 1514,
+      "strict_N2_states": 657,
+      "weak_with_neutral_exit": 857,
+      "strict_components": 103,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "target": "TEC",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 88,
+      "weak_N2_states": 84,
+      "strict_N2_states": 84,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 84,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "target": "TWC",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 65,
+      "weak_N2_states": 60,
+      "strict_N2_states": 60,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 59,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "target": "balanced",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 464,
+      "weak_N2_states": 442,
+      "strict_N2_states": 442,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 150,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "target": "Cmax",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 1662,
+      "weak_N2_states": 1545,
+      "strict_N2_states": 665,
+      "weak_with_neutral_exit": 880,
+      "strict_components": 105,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "target": "TEC",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 81,
+      "weak_N2_states": 77,
+      "strict_N2_states": 77,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 77,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "target": "TWC",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 38,
+      "weak_N2_states": 34,
+      "strict_N2_states": 34,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 34,
+      "instances_with_strict": 4
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "target": "balanced",
+      "instances": 4,
+      "states": 73728,
+      "N1_local_states": 477,
+      "weak_N2_states": 452,
+      "strict_N2_states": 452,
+      "weak_with_neutral_exit": 0,
+      "strict_components": 150,
+      "instances_with_strict": 4
+    }
+  ],
+  "paired": [
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_fast",
+      "target": "Cmax",
+      "weak": {
+        "beta0_only": 0,
+        "dynamic_only": 16,
+        "both": 142,
+        "neither": 2914
+      },
+      "strict": {
+        "beta0_only": 0,
+        "dynamic_only": 8,
+        "both": 58,
+        "neither": 3006
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_fast",
+      "target": "TEC",
+      "weak": {
+        "beta0_only": 5,
+        "dynamic_only": 11,
+        "both": 3,
+        "neither": 3053
+      },
+      "strict": {
+        "beta0_only": 5,
+        "dynamic_only": 11,
+        "both": 3,
+        "neither": 3053
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_fast",
+      "target": "TWC",
+      "weak": {
+        "beta0_only": 1,
+        "dynamic_only": 1,
+        "both": 3,
+        "neither": 3067
+      },
+      "strict": {
+        "beta0_only": 1,
+        "dynamic_only": 1,
+        "both": 3,
+        "neither": 3067
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_fast",
+      "target": "balanced",
+      "weak": {
+        "beta0_only": 4,
+        "dynamic_only": 14,
+        "both": 34,
+        "neither": 3020
+      },
+      "strict": {
+        "beta0_only": 4,
+        "dynamic_only": 14,
+        "both": 34,
+        "neither": 3020
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_slow",
+      "target": "Cmax",
+      "weak": {
+        "beta0_only": 0,
+        "dynamic_only": 16,
+        "both": 142,
+        "neither": 2914
+      },
+      "strict": {
+        "beta0_only": 0,
+        "dynamic_only": 8,
+        "both": 58,
+        "neither": 3006
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_slow",
+      "target": "TEC",
+      "weak": {
+        "beta0_only": 5,
+        "dynamic_only": 11,
+        "both": 3,
+        "neither": 3053
+      },
+      "strict": {
+        "beta0_only": 5,
+        "dynamic_only": 11,
+        "both": 3,
+        "neither": 3053
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_slow",
+      "target": "TWC",
+      "weak": {
+        "beta0_only": 1,
+        "dynamic_only": 1,
+        "both": 3,
+        "neither": 3067
+      },
+      "strict": {
+        "beta0_only": 1,
+        "dynamic_only": 1,
+        "both": 3,
+        "neither": 3067
+      }
+    },
+    {
+      "jobs": 3,
+      "dynamic_model": "strong_slow",
+      "target": "balanced",
+      "weak": {
+        "beta0_only": 4,
+        "dynamic_only": 14,
+        "both": 34,
+        "neither": 3020
+      },
+      "strict": {
+        "beta0_only": 4,
+        "dynamic_only": 14,
+        "both": 34,
+        "neither": 3020
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_fast",
+      "target": "Cmax",
+      "weak": {
+        "beta0_only": 679,
+        "dynamic_only": 540,
+        "both": 974,
+        "neither": 71535
+      },
+      "strict": {
+        "beta0_only": 93,
+        "dynamic_only": 265,
+        "both": 392,
+        "neither": 72978
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_fast",
+      "target": "TEC",
+      "weak": {
+        "beta0_only": 32,
+        "dynamic_only": 84,
+        "both": 0,
+        "neither": 73612
+      },
+      "strict": {
+        "beta0_only": 32,
+        "dynamic_only": 84,
+        "both": 0,
+        "neither": 73612
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_fast",
+      "target": "TWC",
+      "weak": {
+        "beta0_only": 27,
+        "dynamic_only": 49,
+        "both": 11,
+        "neither": 73641
+      },
+      "strict": {
+        "beta0_only": 27,
+        "dynamic_only": 49,
+        "both": 11,
+        "neither": 73641
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_fast",
+      "target": "balanced",
+      "weak": {
+        "beta0_only": 100,
+        "dynamic_only": 322,
+        "both": 120,
+        "neither": 73186
+      },
+      "strict": {
+        "beta0_only": 100,
+        "dynamic_only": 322,
+        "both": 120,
+        "neither": 73186
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_slow",
+      "target": "Cmax",
+      "weak": {
+        "beta0_only": 693,
+        "dynamic_only": 585,
+        "both": 960,
+        "neither": 71490
+      },
+      "strict": {
+        "beta0_only": 93,
+        "dynamic_only": 273,
+        "both": 392,
+        "neither": 72970
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_slow",
+      "target": "TEC",
+      "weak": {
+        "beta0_only": 32,
+        "dynamic_only": 77,
+        "both": 0,
+        "neither": 73619
+      },
+      "strict": {
+        "beta0_only": 32,
+        "dynamic_only": 77,
+        "both": 0,
+        "neither": 73619
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_slow",
+      "target": "TWC",
+      "weak": {
+        "beta0_only": 30,
+        "dynamic_only": 26,
+        "both": 8,
+        "neither": 73664
+      },
+      "strict": {
+        "beta0_only": 30,
+        "dynamic_only": 26,
+        "both": 8,
+        "neither": 73664
+      }
+    },
+    {
+      "jobs": 4,
+      "dynamic_model": "strong_slow",
+      "target": "balanced",
+      "weak": {
+        "beta0_only": 101,
+        "dynamic_only": 333,
+        "both": 119,
+        "neither": 73175
+      },
+      "strict": {
+        "beta0_only": 101,
+        "dynamic_only": 333,
+        "both": 119,
+        "neither": 73175
+      }
+    }
+  ],
+  "controls": [
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "method": "single_job",
+      "trials": 13,
+      "actual_successes": 2,
+      "median_ms": 2.4532,
+      "mean_gain": 0.0012137510223460075,
+      "mean_exact_p16": 0.1972153230730229,
+      "strict_trials": 7,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "method": "plain_composite",
+      "trials": 13,
+      "actual_successes": 1,
+      "median_ms": 2.7095,
+      "mean_gain": 0.0007962938255062779,
+      "mean_exact_p16": 0.22260842214255414,
+      "strict_trials": 7,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.17360411770559517
+    },
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "method": "machine_pair",
+      "trials": 13,
+      "actual_successes": 0,
+      "median_ms": 2.7655,
+      "mean_gain": 0.0,
+      "mean_exact_p16": 0.08001369782638212,
+      "strict_trials": 7,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 3,
+      "model": "beta0",
+      "method": "worker_pair",
+      "trials": 13,
+      "actual_successes": 1,
+      "median_ms": 2.7067,
+      "mean_gain": 0.0007962938255062779,
+      "mean_exact_p16": 0.12912928183954137,
+      "strict_trials": 7,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "method": "single_job",
+      "trials": 13,
+      "actual_successes": 3,
+      "median_ms": 2.4501,
+      "mean_gain": 0.007483385289339442,
+      "mean_exact_p16": 0.21114097617896713,
+      "strict_trials": 9,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "method": "plain_composite",
+      "trials": 13,
+      "actual_successes": 3,
+      "median_ms": 2.783,
+      "mean_gain": 0.012378385582031056,
+      "mean_exact_p16": 0.2696835149970259,
+      "strict_trials": 9,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.15466228433050608
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "method": "machine_pair",
+      "trials": 13,
+      "actual_successes": 2,
+      "median_ms": 2.7493,
+      "mean_gain": 0.00454836706662364,
+      "mean_exact_p16": 0.14527599118496767,
+      "strict_trials": 9,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.04437430765378477
+    },
+    {
+      "jobs": 3,
+      "model": "strong_fast",
+      "method": "worker_pair",
+      "trials": 13,
+      "actual_successes": 3,
+      "median_ms": 2.6971,
+      "mean_gain": 0.00661373387000665,
+      "mean_exact_p16": 0.18328734662111443,
+      "strict_trials": 9,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.0992795988393301
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "method": "single_job",
+      "trials": 13,
+      "actual_successes": 2,
+      "median_ms": 2.4409,
+      "mean_gain": 0.003069245581653497,
+      "mean_exact_p16": 0.21114097617896713,
+      "strict_trials": 9,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "method": "plain_composite",
+      "trials": 13,
+      "actual_successes": 4,
+      "median_ms": 2.8035,
+      "mean_gain": 0.011686225457922741,
+      "mean_exact_p16": 0.2696835149970259,
+      "strict_trials": 9,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.15466228433050608
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "method": "machine_pair",
+      "trials": 13,
+      "actual_successes": 3,
+      "median_ms": 2.6507,
+      "mean_gain": 0.004784804047557835,
+      "mean_exact_p16": 0.14527599118496767,
+      "strict_trials": 9,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.04437430765378477
+    },
+    {
+      "jobs": 3,
+      "model": "strong_slow",
+      "method": "worker_pair",
+      "trials": 13,
+      "actual_successes": 4,
+      "median_ms": 2.6358,
+      "mean_gain": 0.006805003442140778,
+      "mean_exact_p16": 0.18328734662111443,
+      "strict_trials": 9,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.0992795988393301
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "method": "single_job",
+      "trials": 16,
+      "actual_successes": 6,
+      "median_ms": 3.36115,
+      "mean_gain": 0.00464751150460075,
+      "mean_exact_p16": 0.2784967550940365,
+      "strict_trials": 6,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "method": "plain_composite",
+      "trials": 16,
+      "actual_successes": 7,
+      "median_ms": 3.34125,
+      "mean_gain": 0.02420087445624703,
+      "mean_exact_p16": 0.3577295751187502,
+      "strict_trials": 6,
+      "strict_actual_successes": 3,
+      "strict_mean_exact_p16": 0.386049687385364
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "method": "machine_pair",
+      "trials": 16,
+      "actual_successes": 10,
+      "median_ms": 3.3651999999999997,
+      "mean_gain": 0.027141437812469756,
+      "mean_exact_p16": 0.3800736058545837,
+      "strict_trials": 6,
+      "strict_actual_successes": 3,
+      "strict_mean_exact_p16": 0.4384011670342547
+    },
+    {
+      "jobs": 4,
+      "model": "beta0",
+      "method": "worker_pair",
+      "trials": 16,
+      "actual_successes": 6,
+      "median_ms": 3.479,
+      "mean_gain": 0.021288241981485045,
+      "mean_exact_p16": 0.3209948392765338,
+      "strict_trials": 6,
+      "strict_actual_successes": 3,
+      "strict_mean_exact_p16": 0.4308885287546369
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "method": "single_job",
+      "trials": 16,
+      "actual_successes": 4,
+      "median_ms": 3.54655,
+      "mean_gain": 0.005829430756111698,
+      "mean_exact_p16": 0.27478575203600347,
+      "strict_trials": 8,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "method": "plain_composite",
+      "trials": 16,
+      "actual_successes": 7,
+      "median_ms": 3.76305,
+      "mean_gain": 0.02104800597413791,
+      "mean_exact_p16": 0.37308564420964235,
+      "strict_trials": 8,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.19422707941757972
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "method": "machine_pair",
+      "trials": 16,
+      "actual_successes": 6,
+      "median_ms": 3.9662500000000005,
+      "mean_gain": 0.026095768151988025,
+      "mean_exact_p16": 0.37509790637191814,
+      "strict_trials": 8,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.151787262199159
+    },
+    {
+      "jobs": 4,
+      "model": "strong_fast",
+      "method": "worker_pair",
+      "trials": 16,
+      "actual_successes": 5,
+      "median_ms": 3.7373000000000003,
+      "mean_gain": 0.021609524530418665,
+      "mean_exact_p16": 0.3521566439969789,
+      "strict_trials": 8,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.13093802669221719
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "method": "single_job",
+      "trials": 16,
+      "actual_successes": 7,
+      "median_ms": 3.3100500000000004,
+      "mean_gain": 0.006622980864013188,
+      "mean_exact_p16": 0.38531255339045845,
+      "strict_trials": 6,
+      "strict_actual_successes": 0,
+      "strict_mean_exact_p16": 0.0
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "method": "plain_composite",
+      "trials": 16,
+      "actual_successes": 6,
+      "median_ms": 3.2683,
+      "mean_gain": 0.023625940142154377,
+      "mean_exact_p16": 0.4304448351924779,
+      "strict_trials": 6,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.3223199137470319
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "method": "machine_pair",
+      "trials": 16,
+      "actual_successes": 4,
+      "median_ms": 3.81785,
+      "mean_gain": 0.023131371857743818,
+      "mean_exact_p16": 0.4402803860989801,
+      "strict_trials": 6,
+      "strict_actual_successes": 1,
+      "strict_mean_exact_p16": 0.3415686558713567
+    },
+    {
+      "jobs": 4,
+      "model": "strong_slow",
+      "method": "worker_pair",
+      "trials": 16,
+      "actual_successes": 6,
+      "median_ms": 3.74155,
+      "mean_gain": 0.017132724791345054,
+      "mean_exact_p16": 0.42791028979008583,
+      "strict_trials": 6,
+      "strict_actual_successes": 2,
+      "strict_mean_exact_p16": 0.3142367033767941
+    }
+  ],
+  "witnesses": 136,
+  "example": {
+    "jobs": 3,
+    "seed": 17417,
+    "target": "TEC",
+    "dynamic_model": "strong_fast",
+    "category": "dynamic_only",
+    "parent": 137,
+    "middle": 325,
+    "endpoint": 390,
+    "first_job": 1,
+    "second_job": 0,
+    "genomes": [
+      {
+        "js": [
+          0,
+          2,
+          1
+        ],
+        "fa": [
+          0,
+          1,
+          1
+        ],
+        "ma": [
+          1,
+          0,
+          0
+        ],
+        "wa": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "js": [
+          1,
+          0,
+          2
+        ],
+        "fa": [
+          0,
+          0,
+          1
+        ],
+        "ma": [
+          1,
+          1,
+          0
+        ],
+        "wa": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "js": [
+          1,
+          2,
+          0
+        ],
+        "fa": [
+          0,
+          1,
+          1
+        ],
+        "ma": [
+          1,
+          0,
+          0
+        ],
+        "wa": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "models": [
+      {
+        "model": "beta0",
+        "scalar_values": [
+          0.9160941816489656,
+          0.926037973831863,
+          0.9135844921559115
+        ],
+        "joint_gain": 0.002509689493054079,
+        "N1_has_improvement": true,
+        "weak": false,
+        "strict": false,
+        "parent_relations": {
+          "worker_adjacent_stages": [],
+          "machine_adjacent_stages": [],
+          "same_worker_stages": []
+        },
+        "N1_pareto_improving_neighbors": 1,
+        "joint_pareto_dominates_parent": false,
+        "traces": [
+          {
+            "objectives": [
+              18.1995873653771,
+              196.92463339542115,
+              322.4310027531832
+            ],
+            "C": [
+              8.27511679628082,
+              11.825340547509466,
+              3.451613900314195,
+              15.271026142803318,
+              18.1995873653771,
+              9.962709442016791
+            ],
+            "fatigue": [
+              0.3896725224731211,
+              0.3308817850912754,
+              0.15708539620785245,
+              0.28483304700815726,
+              0.2530238113447867,
+              0.2783681255425101
+            ],
+            "operations": [
+              {
+                "completion": 8.27511679628082,
+                "v": 0.3896725224731211,
+                "energy": 27.87359835262869,
+                "labor": 74.64102400025462,
+                "base": 8.27511679628082,
+                "duration": 8.27511679628082,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 0,
+                "job": 0,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 11.825340547509466,
+                "v": 0.3308817850912754,
+                "energy": 49.96737670953568,
+                "labor": 64.71463096810288,
+                "base": 8.373726647195271,
+                "duration": 8.373726647195271,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 1,
+                "job": 1,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 1,
+                "machine_uid": 5,
+                "worker_uid": 5,
+                "parents": [
+                  -1,
+                  2,
+                  -1
+                ],
+                "active_branch": 1,
+                "tie_roles": [
+                  1
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 3.451613900314195,
+                "v": 0.15708539620785245,
+                "energy": 20.596336527254117,
+                "labor": 40.75229572627969,
+                "base": 3.451613900314195,
+                "duration": 3.451613900314195,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 2,
+                "job": 2,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 5,
+                "worker_uid": 4,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 15.271026142803318,
+                "v": 0.28483304700815726,
+                "energy": 50.74844017450994,
+                "labor": 80.68532651177259,
+                "base": 6.995909346522498,
+                "duration": 6.995909346522498,
+                "u": 0.0,
+                "start": 8.27511679628082,
+                "op_id": 3,
+                "job": 0,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 2,
+                "worker_uid": 2,
+                "parents": [
+                  0,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 18.1995873653771,
+                "v": 0.2530238113447867,
+                "energy": 12.955294136897317,
+                "labor": 28.622478144394684,
+                "base": 6.3742468178676335,
+                "duration": 6.3742468178676335,
+                "u": 0.0,
+                "start": 11.825340547509466,
+                "op_id": 4,
+                "job": 1,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 1,
+                "worker_id": 1,
+                "machine_uid": 8,
+                "worker_uid": 7,
+                "parents": [
+                  1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 9.962709442016791,
+                "v": 0.2783681255425101,
+                "energy": 34.783587494595416,
+                "labor": 33.01524740237868,
+                "base": 6.511095541702596,
+                "duration": 6.511095541702596,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 5,
+                "job": 2,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 7,
+                "worker_uid": 6,
+                "parents": [
+                  2,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              }
+            ]
+          },
+          {
+            "objectives": [
+              24.73235777314771,
+              199.06216212271056,
+              385.5763467791663
+            ],
+            "C": [
+              17.104451138985496,
+              8.829334342704676,
+              3.451613900314195,
+              24.73235777314771,
+              15.932752837764891,
+              9.962709442016791
+            ],
+            "fatigue": [
+              0.6396171296872853,
+              0.40952540466794995,
+              0.15708539620785245,
+              0.3037896146129221,
+              0.28850794554354997,
+              0.2783681255425101
+            ],
+            "operations": [
+              {
+                "completion": 17.104451138985496,
+                "v": 0.6396171296872853,
+                "energy": 27.87359835262869,
+                "labor": 74.64102400025462,
+                "base": 8.27511679628082,
+                "duration": 8.27511679628082,
+                "u": 0.40952540466794995,
+                "start": 8.829334342704676,
+                "op_id": 0,
+                "job": 0,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  1,
+                  1
+                ],
+                "active_branch": 1,
+                "tie_roles": [
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 8.829334342704676,
+                "v": 0.40952540466794995,
+                "energy": 29.740404304653552,
+                "labor": 79.64003080612562,
+                "base": 8.829334342704676,
+                "duration": 8.829334342704676,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 1,
+                "job": 1,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 3.451613900314195,
+                "v": 0.15708539620785245,
+                "energy": 20.596336527254117,
+                "labor": 40.75229572627969,
+                "base": 3.451613900314195,
+                "duration": 3.451613900314195,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 2,
+                "job": 2,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 5,
+                "worker_uid": 4,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 24.73235777314771,
+                "v": 0.3037896146129221,
+                "energy": 34.53992215714939,
+                "labor": 75.60249620937296,
+                "base": 7.627906634162217,
+                "duration": 7.627906634162217,
+                "u": 0.0,
+                "start": 17.104451138985496,
+                "op_id": 3,
+                "job": 0,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 1,
+                "worker_id": 1,
+                "machine_uid": 3,
+                "worker_uid": 3,
+                "parents": [
+                  0,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 15.932752837764891,
+                "v": 0.28850794554354997,
+                "energy": 51.52831328642937,
+                "labor": 81.92525263475474,
+                "base": 7.103418495060214,
+                "duration": 7.103418495060214,
+                "u": 0.0,
+                "start": 8.829334342704676,
+                "op_id": 4,
+                "job": 1,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 2,
+                "worker_uid": 2,
+                "parents": [
+                  1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 9.962709442016791,
+                "v": 0.2783681255425101,
+                "energy": 34.783587494595416,
+                "labor": 33.01524740237868,
+                "base": 6.511095541702596,
+                "duration": 6.511095541702596,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 5,
+                "job": 2,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 7,
+                "worker_uid": 6,
+                "parents": [
+                  2,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              }
+            ]
+          },
+          {
+            "objectives": [
+              17.675242358714613,
+              196.3851477254364,
+              324.5704781552809
+            ],
+            "C": [
+              11.286429425508782,
+              8.829334342704676,
+              3.451613900314195,
+              17.675242358714613,
+              15.932752837764891,
+              9.962709442016791
+            ],
+            "fatigue": [
+              0.31335378246595136,
+              0.40952540466794995,
+              0.15708539620785245,
+              0.25352160117104805,
+              0.28850794554354997,
+              0.2783681255425101
+            ],
+            "operations": [
+              {
+                "completion": 11.286429425508782,
+                "v": 0.31335378246595136,
+                "energy": 46.75160717459558,
+                "labor": 60.54976676196573,
+                "base": 7.834815525194588,
+                "duration": 7.834815525194588,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 0,
+                "job": 0,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 1,
+                "machine_uid": 5,
+                "worker_uid": 5,
+                "parents": [
+                  -1,
+                  2,
+                  -1
+                ],
+                "active_branch": 1,
+                "tie_roles": [
+                  1
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 8.829334342704676,
+                "v": 0.40952540466794995,
+                "energy": 29.740404304653552,
+                "labor": 79.64003080612562,
+                "base": 8.829334342704676,
+                "duration": 8.829334342704676,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 1,
+                "job": 1,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 3.451613900314195,
+                "v": 0.15708539620785245,
+                "energy": 20.596336527254117,
+                "labor": 40.75229572627969,
+                "base": 3.451613900314195,
+                "duration": 3.451613900314195,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 2,
+                "job": 2,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 5,
+                "worker_uid": 4,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 17.675242358714613,
+                "v": 0.25352160117104805,
+                "energy": 12.984898937908367,
+                "labor": 28.687884823776404,
+                "base": 6.388812933205829,
+                "duration": 6.388812933205829,
+                "u": 0.0,
+                "start": 11.286429425508782,
+                "op_id": 3,
+                "job": 0,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 1,
+                "worker_id": 1,
+                "machine_uid": 8,
+                "worker_uid": 7,
+                "parents": [
+                  0,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 15.932752837764891,
+                "v": 0.28850794554354997,
+                "energy": 51.52831328642937,
+                "labor": 81.92525263475474,
+                "base": 7.103418495060214,
+                "duration": 7.103418495060214,
+                "u": 0.0,
+                "start": 8.829334342704676,
+                "op_id": 4,
+                "job": 1,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 2,
+                "worker_uid": 2,
+                "parents": [
+                  1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 9.962709442016791,
+                "v": 0.2783681255425101,
+                "energy": 34.783587494595416,
+                "labor": 33.01524740237868,
+                "base": 6.511095541702596,
+                "duration": 6.511095541702596,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 5,
+                "job": 2,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 7,
+                "worker_uid": 6,
+                "parents": [
+                  2,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "strong_fast",
+        "scalar_values": [
+          0.9160941816489656,
+          0.9668615067145603,
+          0.9135844921559115
+        ],
+        "joint_gain": 0.002509689493054079,
+        "N1_has_improvement": false,
+        "weak": true,
+        "strict": true,
+        "parent_relations": {
+          "worker_adjacent_stages": [],
+          "machine_adjacent_stages": [],
+          "same_worker_stages": []
+        },
+        "N1_pareto_improving_neighbors": 0,
+        "joint_pareto_dominates_parent": false,
+        "traces": [
+          {
+            "objectives": [
+              18.1995873653771,
+              196.92463339542115,
+              322.4310027531832
+            ],
+            "C": [
+              8.27511679628082,
+              11.825340547509466,
+              3.451613900314195,
+              15.271026142803318,
+              18.1995873653771,
+              9.962709442016791
+            ],
+            "fatigue": [
+              0.3896725224731211,
+              0.3308817850912754,
+              0.15708539620785245,
+              0.28483304700815726,
+              0.2530238113447867,
+              0.2783681255425101
+            ],
+            "operations": [
+              {
+                "completion": 8.27511679628082,
+                "v": 0.3896725224731211,
+                "energy": 27.87359835262869,
+                "labor": 74.64102400025462,
+                "base": 8.27511679628082,
+                "duration": 8.27511679628082,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 0,
+                "job": 0,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 11.825340547509466,
+                "v": 0.3308817850912754,
+                "energy": 49.96737670953568,
+                "labor": 64.71463096810288,
+                "base": 8.373726647195271,
+                "duration": 8.373726647195271,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 1,
+                "job": 1,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 1,
+                "machine_uid": 5,
+                "worker_uid": 5,
+                "parents": [
+                  -1,
+                  2,
+                  -1
+                ],
+                "active_branch": 1,
+                "tie_roles": [
+                  1
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 3.451613900314195,
+                "v": 0.15708539620785245,
+                "energy": 20.596336527254117,
+                "labor": 40.75229572627969,
+                "base": 3.451613900314195,
+                "duration": 3.451613900314195,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 2,
+                "job": 2,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 5,
+                "worker_uid": 4,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 15.271026142803318,
+                "v": 0.28483304700815726,
+                "energy": 50.74844017450994,
+                "labor": 80.68532651177259,
+                "base": 6.995909346522498,
+                "duration": 6.995909346522498,
+                "u": 0.0,
+                "start": 8.27511679628082,
+                "op_id": 3,
+                "job": 0,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 2,
+                "worker_uid": 2,
+                "parents": [
+                  0,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 18.1995873653771,
+                "v": 0.2530238113447867,
+                "energy": 12.955294136897317,
+                "labor": 28.622478144394684,
+                "base": 6.3742468178676335,
+                "duration": 6.3742468178676335,
+                "u": 0.0,
+                "start": 11.825340547509466,
+                "op_id": 4,
+                "job": 1,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 1,
+                "worker_id": 1,
+                "machine_uid": 8,
+                "worker_uid": 7,
+                "parents": [
+                  1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 9.962709442016791,
+                "v": 0.2783681255425101,
+                "energy": 34.783587494595416,
+                "labor": 33.01524740237868,
+                "base": 6.511095541702596,
+                "duration": 6.511095541702596,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 5,
+                "job": 2,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 7,
+                "worker_uid": 6,
+                "parents": [
+                  2,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              }
+            ]
+          },
+          {
+            "objectives": [
+              27.337620950685775,
+              207.83763456634142,
+              409.07565393686053
+            ],
+            "C": [
+              19.70971431652356,
+              8.829334342704676,
+              3.451613900314195,
+              27.337620950685775,
+              15.932752837764891,
+              9.962709442016791
+            ],
+            "fatigue": [
+              0.6915017508701508,
+              0.40952540466794995,
+              0.15708539620785245,
+              0.3037896146129221,
+              0.28850794554354997,
+              0.2783681255425101
+            ],
+            "operations": [
+              {
+                "completion": 19.70971431652356,
+                "v": 0.6915017508701508,
+                "energy": 36.649070796259544,
+                "labor": 98.14033115794892,
+                "base": 8.27511679628082,
+                "duration": 10.880379973818883,
+                "u": 0.40952540466794995,
+                "start": 8.829334342704676,
+                "op_id": 0,
+                "job": 0,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  1,
+                  1
+                ],
+                "active_branch": 1,
+                "tie_roles": [
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 8.829334342704676,
+                "v": 0.40952540466794995,
+                "energy": 29.740404304653552,
+                "labor": 79.64003080612562,
+                "base": 8.829334342704676,
+                "duration": 8.829334342704676,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 1,
+                "job": 1,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 3.451613900314195,
+                "v": 0.15708539620785245,
+                "energy": 20.596336527254117,
+                "labor": 40.75229572627969,
+                "base": 3.451613900314195,
+                "duration": 3.451613900314195,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 2,
+                "job": 2,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 5,
+                "worker_uid": 4,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 27.337620950685775,
+                "v": 0.3037896146129221,
+                "energy": 34.53992215714939,
+                "labor": 75.60249620937296,
+                "base": 7.627906634162217,
+                "duration": 7.627906634162217,
+                "u": 0.0,
+                "start": 19.70971431652356,
+                "op_id": 3,
+                "job": 0,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 1,
+                "worker_id": 1,
+                "machine_uid": 3,
+                "worker_uid": 3,
+                "parents": [
+                  0,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 15.932752837764891,
+                "v": 0.28850794554354997,
+                "energy": 51.52831328642937,
+                "labor": 81.92525263475474,
+                "base": 7.103418495060214,
+                "duration": 7.103418495060214,
+                "u": 0.0,
+                "start": 8.829334342704676,
+                "op_id": 4,
+                "job": 1,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 2,
+                "worker_uid": 2,
+                "parents": [
+                  1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 9.962709442016791,
+                "v": 0.2783681255425101,
+                "energy": 34.783587494595416,
+                "labor": 33.01524740237868,
+                "base": 6.511095541702596,
+                "duration": 6.511095541702596,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 5,
+                "job": 2,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 7,
+                "worker_uid": 6,
+                "parents": [
+                  2,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              }
+            ]
+          },
+          {
+            "objectives": [
+              17.675242358714613,
+              196.3851477254364,
+              324.5704781552809
+            ],
+            "C": [
+              11.286429425508782,
+              8.829334342704676,
+              3.451613900314195,
+              17.675242358714613,
+              15.932752837764891,
+              9.962709442016791
+            ],
+            "fatigue": [
+              0.31335378246595136,
+              0.40952540466794995,
+              0.15708539620785245,
+              0.25352160117104805,
+              0.28850794554354997,
+              0.2783681255425101
+            ],
+            "operations": [
+              {
+                "completion": 11.286429425508782,
+                "v": 0.31335378246595136,
+                "energy": 46.75160717459558,
+                "labor": 60.54976676196573,
+                "base": 7.834815525194588,
+                "duration": 7.834815525194588,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 0,
+                "job": 0,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 1,
+                "machine_uid": 5,
+                "worker_uid": 5,
+                "parents": [
+                  -1,
+                  2,
+                  -1
+                ],
+                "active_branch": 1,
+                "tie_roles": [
+                  1
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 8.829334342704676,
+                "v": 0.40952540466794995,
+                "energy": 29.740404304653552,
+                "labor": 79.64003080612562,
+                "base": 8.829334342704676,
+                "duration": 8.829334342704676,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 1,
+                "job": 1,
+                "factory": 0,
+                "stage": 0,
+                "machine_id": 1,
+                "worker_id": 0,
+                "machine_uid": 1,
+                "worker_uid": 0,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 3.451613900314195,
+                "v": 0.15708539620785245,
+                "energy": 20.596336527254117,
+                "labor": 40.75229572627969,
+                "base": 3.451613900314195,
+                "duration": 3.451613900314195,
+                "u": 0.0,
+                "start": 0.0,
+                "op_id": 2,
+                "job": 2,
+                "factory": 1,
+                "stage": 0,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 5,
+                "worker_uid": 4,
+                "parents": [
+                  -1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0,
+                  1,
+                  2
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 17.675242358714613,
+                "v": 0.25352160117104805,
+                "energy": 12.984898937908367,
+                "labor": 28.687884823776404,
+                "base": 6.388812933205829,
+                "duration": 6.388812933205829,
+                "u": 0.0,
+                "start": 11.286429425508782,
+                "op_id": 3,
+                "job": 0,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 1,
+                "worker_id": 1,
+                "machine_uid": 8,
+                "worker_uid": 7,
+                "parents": [
+                  0,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 15.932752837764891,
+                "v": 0.28850794554354997,
+                "energy": 51.52831328642937,
+                "labor": 81.92525263475474,
+                "base": 7.103418495060214,
+                "duration": 7.103418495060214,
+                "u": 0.0,
+                "start": 8.829334342704676,
+                "op_id": 4,
+                "job": 1,
+                "factory": 0,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 2,
+                "worker_uid": 2,
+                "parents": [
+                  1,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              },
+              {
+                "completion": 9.962709442016791,
+                "v": 0.2783681255425101,
+                "energy": 34.783587494595416,
+                "labor": 33.01524740237868,
+                "base": 6.511095541702596,
+                "duration": 6.511095541702596,
+                "u": 0.0,
+                "start": 3.451613900314195,
+                "op_id": 5,
+                "job": 2,
+                "factory": 1,
+                "stage": 1,
+                "machine_id": 0,
+                "worker_id": 0,
+                "machine_uid": 7,
+                "worker_uid": 6,
+                "parents": [
+                  2,
+                  -1,
+                  -1
+                ],
+                "active_branch": 0,
+                "tie_roles": [
+                  0
+                ],
+                "negative_start_slope": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "completion": {
+    "status": "complete",
+    "counts": {
+      "snapshot_ns": 84290700,
+      "graph_ns": 1773509600,
+      "reference_full": 8,
+      "census_full": 230400,
+      "census_ns": 27473785800,
+      "sample_QA_full": 192,
+      "sample_QA_ns": 81103900,
+      "landscapes": 96,
+      "landscape_ns": 4992536400,
+      "witness_full": 816,
+      "witnesses": 136,
+      "witness_QA_ns": 700918800,
+      "control_parent_full": 348,
+      "control_child_full": 5568,
+      "control_online_ns": 1134971800,
+      "control_final_QA_full": 348,
+      "control_QA_ns": 326999100,
+      "probability_ns": 225554100,
+      "control_trials": 348,
+      "instances": 8,
+      "total_full_calls": 237680
+    },
+    "wall_ns": 37428563300
+  }
+}

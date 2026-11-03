@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "distinct_checks_passed": 8,
+  "scope": "v3 numeric stage0, exact candidate-stream equivalence, scorer scales/staleness, actual cache paths, deadlines, ledger and paired sampling; unchanged core not re-tested",
+  "executions": [
+    {
+      "command": "python -m unittest research.fatigue_reuse.checks.test_reuse -v",
+      "tests_at_that_time": 6,
+      "passed": 6,
+      "elapsed_seconds": 0.271
+    },
+    {
+      "command": "python -m unittest research.fatigue_reuse.checks.test_reuse.ReuseChecks.test_offline_ledger_audit_reconstructs_actual_updates research.fatigue_reuse.checks.test_reuse.ReuseChecks.test_paired_bootstrap_preserves_instance_seed_units research.fatigue_reuse.checks.test_reuse.ReuseChecks.test_cache_and_fresh_paths_match_and_gain_telescopes -v",
+      "passed": 3,
+      "new_distinct_checks": 2,
+      "elapsed_seconds": 0.218
+    }
+  ],
+  "experiment_evidence": {
+    "calibration_candidates_verified": 1440,
+    "chains": 1470,
+    "trajectory_steps_audited": 70578,
+    "final_schedules_checked": 1470,
+    "identical_cache_vs_fresh_pairs": 30
+  },
+  "test_decode_calls": "outside recorded search/calibration/QA counts; no replay of the actual experiment"
+}

@@ -1,0 +1,108 @@
+{
+  "posthoc": true,
+  "new_decoder_calls": 0,
+  "strict_parents": 65,
+  "missed_by_rebind_and_swap_rebind": [
+    {
+      "instance_seed": 271003,
+      "parent": 18346,
+      "improving_N2_endpoints": 2,
+      "same_factory_counts_improving_endpoints": 2,
+      "every_N2_improvement_changes_factory_counts": false
+    },
+    {
+      "instance_seed": 1084069,
+      "parent": 1426,
+      "improving_N2_endpoints": 1,
+      "same_factory_counts_improving_endpoints": 1,
+      "every_N2_improvement_changes_factory_counts": false
+    },
+    {
+      "instance_seed": 1084069,
+      "parent": 2430,
+      "improving_N2_endpoints": 111,
+      "same_factory_counts_improving_endpoints": 0,
+      "every_N2_improvement_changes_factory_counts": true
+    },
+    {
+      "instance_seed": 1084069,
+      "parent": 2518,
+      "improving_N2_endpoints": 110,
+      "same_factory_counts_improving_endpoints": 0,
+      "every_N2_improvement_changes_factory_counts": true
+    },
+    {
+      "instance_seed": 1084069,
+      "parent": 3610,
+      "improving_N2_endpoints": 9,
+      "same_factory_counts_improving_endpoints": 9,
+      "every_N2_improvement_changes_factory_counts": false
+    },
+    {
+      "instance_seed": 1084069,
+      "parent": 8218,
+      "improving_N2_endpoints": 3,
+      "same_factory_counts_improving_endpoints": 3,
+      "every_N2_improvement_changes_factory_counts": false
+    },
+    {
+      "instance_seed": 2168143,
+      "parent": 15353,
+      "improving_N2_endpoints": 1,
+      "same_factory_counts_improving_endpoints": 1,
+      "every_N2_improvement_changes_factory_counts": false
+    }
+  ],
+  "uniform_parent_fixed_count_bounds": [
+    {
+      "instance_seed": 271003,
+      "uniform_parent": 15005,
+      "F0_job_count": 2,
+      "initial_TEC": 274.7173029584998,
+      "global_min_TEC": 198.02343915162348,
+      "fixed_counts_min_TEC": 229.75892465964696,
+      "global_gain_ceiling_pct": 27.91737651066779,
+      "fixed_counts_gain_ceiling_pct": 16.365324577187067,
+      "barrier_panel_parent": 6826,
+      "barrier_panel_is_strict_under_fast": true
+    },
+    {
+      "instance_seed": 542027,
+      "uniform_parent": 17581,
+      "F0_job_count": 3,
+      "initial_TEC": 229.27549158908772,
+      "global_min_TEC": 187.27041662240282,
+      "fixed_counts_min_TEC": 200.50877145400457,
+      "global_gain_ceiling_pct": 18.320787222197854,
+      "fixed_counts_gain_ceiling_pct": 12.546792479084267,
+      "barrier_panel_parent": 14147,
+      "barrier_panel_is_strict_under_fast": true
+    },
+    {
+      "instance_seed": 1084069,
+      "uniform_parent": 6782,
+      "F0_job_count": 3,
+      "initial_TEC": 192.08612557248924,
+      "global_min_TEC": 163.74134292454443,
+      "fixed_counts_min_TEC": 163.74134292454443,
+      "global_gain_ceiling_pct": 14.756288390671967,
+      "fixed_counts_gain_ceiling_pct": 14.756288390671967,
+      "barrier_panel_parent": 18417,
+      "barrier_panel_is_strict_under_fast": false
+    },
+    {
+      "instance_seed": 2168143,
+      "uniform_parent": 4928,
+      "F0_job_count": 2,
+      "initial_TEC": 418.0707921309756,
+      "global_min_TEC": 242.55113721232658,
+      "fixed_counts_min_TEC": 260.4573200867855,
+      "global_gain_ceiling_pct": 41.98323782056059,
+      "fixed_counts_gain_ceiling_pct": 37.70018738711889,
+      "barrier_panel_parent": 6845,
+      "barrier_panel_is_strict_under_fast": false
+    }
+  ],
+  "shared_core_files_still_byte_equal": 17,
+  "wall_ns": 130295600
+}

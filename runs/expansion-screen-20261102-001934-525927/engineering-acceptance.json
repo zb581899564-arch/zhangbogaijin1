@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "scope": "Step4 engineering only, no optimizer quality selection",
+  "engineeringRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\expansion-step4-20261102-000900-290794",
+  "moduleChecks": [
+    "RuntimeChecks",
+    "DynamicRuntimeChecks",
+    "AnytimeChecks",
+    "SearchChecks",
+    "JointChecks",
+    "CooperationChecks",
+    "ClassicChecks"
+  ],
+  "commonInitializationModes": [
+    "BASELINE",
+    "TAIL",
+    "NSGA2_4V",
+    "SPEA2_4V",
+    "MOEAD_4V",
+    "NSGA2_VNS_4V"
+  ],
+  "initializationFE": 100,
+  "realIntegration": [
+    {
+      "instance": "20_2_3_1",
+      "mode": "BASELINE",
+      "FE": 1500,
+      "archiveSize": 18,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "TAIL",
+      "FE": 1500,
+      "archiveSize": 27,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SYNC",
+      "FE": 1500,
+      "archiveSize": 17,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE",
+      "FE": 1500,
+      "archiveSize": 25,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "VALUE_SHARE",
+      "FE": 1500,
+      "archiveSize": 26,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "NSGA2_4V",
+      "FE": 1500,
+      "archiveSize": 32,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SPEA2_4V",
+      "FE": 1500,
+      "archiveSize": 25,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "MOEAD_4V",
+      "FE": 1500,
+      "archiveSize": 39,
+      "replay": "passed"
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "NSGA2_VNS_4V",
+      "FE": 1500,
+      "archiveSize": 27,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "BASELINE",
+      "FE": 1500,
+      "archiveSize": 45,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "TAIL",
+      "FE": 1500,
+      "archiveSize": 41,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SYNC",
+      "FE": 1500,
+      "archiveSize": 50,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE",
+      "FE": 1500,
+      "archiveSize": 51,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "VALUE_SHARE",
+      "FE": 1500,
+      "archiveSize": 51,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "NSGA2_4V",
+      "FE": 1500,
+      "archiveSize": 51,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SPEA2_4V",
+      "FE": 1500,
+      "archiveSize": 62,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "MOEAD_4V",
+      "FE": 1500,
+      "archiveSize": 48,
+      "replay": "passed"
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "NSGA2_VNS_4V",
+      "FE": 1500,
+      "archiveSize": 43,
+      "replay": "passed"
+    }
+  ],
+  "dualTimeIntegrationModes": [
+    "BASELINE",
+    "TAIL",
+    "SYNC",
+    "SHARE",
+    "VALUE_SHARE",
+    "NSGA2_4V",
+    "SPEA2_4V",
+    "MOEAD_4V",
+    "NSGA2_VNS_4V"
+  ],
+  "dualTimeIntegrationSeconds": 0.3,
+  "classicSettings": "0=mutationScale1; 1=.5; 2=2; all else fixed",
+  "SPEAUnits": "initial100 paid absolute means frozen; density/truncation normalized; dominance unchanged",
+  "VNS": "ordinary chapter4 CENTER every50 global children; cap30 intra only; inter additionally paid",
+  "metricParserCheck": "parser-check.json",
+  "decisionChecks": "21 synthetic screen/followup checks passed"
+}

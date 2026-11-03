@@ -1,0 +1,30 @@
+--- frozen
++++ static-outer-round-probe
+@@ -39,9 +39,15 @@
+                 current = next; // Each action continues from the previous action's result.
+             }
+         } else {
+-            int factory = SeededRandom.current().nextInt(instance.factories());
+-            factory = state.localFactory(current, direction, factory);
+-            current = vns(current, factory, direction, reference);
++            state.count("audit.paperLS.particlesStarted");
++            for (int round = 0; round < config.localProposalCap; round++) {
++                int factory = SeededRandom.current().nextInt(instance.factories());
++                factory = state.localFactory(current, direction, factory);
++                state.count("audit.paperLS.roundsStarted");
++                current = vns(current, factory, direction, reference);
++                state.count("audit.paperLS.roundsCompleted");
++            }
++            state.count("audit.paperLS.particlesCompleted");
+         }
+         return particle.descend(current);
+     }
+@@ -64,7 +70,7 @@
+             Direction direction, List<PermutationSolution<Integer>> reference) {
+         PermutationSolution<Integer> incumbent = parent;
+         int operator = 0;
+-        int[] remaining = {config.localProposalCap};
++        int[] remaining = {chapter == 4 ? Integer.MAX_VALUE : config.localProposalCap};
+         while (operator < IntraNeighborhoods.COUNT && remaining[0] > 0) {
+             PermutationSolution<Integer> shaken = evaluateNeighborhood(incumbent, factory, operator, direction, remaining);
+             PermutationSolution<Integer> improved = descent(shaken, factory, direction, reference, remaining);

@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "distinct_checks_passed": 14,
+  "execution_scope": "9 core + 4 prediction checks before the experiment; 1 extra residual-direction check after the experiment; no experiment rerun",
+  "commands": [
+    {
+      "command": "python -m unittest research.fatigue_mechanism.checks.test_core -v",
+      "passed": 9,
+      "elapsed_seconds": 3.424
+    },
+    {
+      "command": "python -m unittest research.fatigue_mechanism.checks.test_prediction -v",
+      "passed_at_that_time": 4,
+      "elapsed_seconds": 0.11
+    },
+    {
+      "command": "python -m unittest research.fatigue_mechanism.checks.test_prediction.PredictionChecks.test_defect_score_is_frozen_graph_residual_directional_derivative -v",
+      "passed": 1,
+      "elapsed_seconds": 0.058
+    }
+  ],
+  "finite_difference": {
+    "cases": 40,
+    "objective_directions": 4,
+    "full_compared": 2400,
+    "full_max_scaled_error": 1.1511721714763112e-09,
+    "full_branch_or_topology_changes": 0,
+    "replay_compared": 2400,
+    "replay_max_scaled_error": 1.439659358999279e-09,
+    "replay_branch_changes": 0
+  },
+  "residual_direction_check": {
+    "candidate_count": 16,
+    "directions": 4,
+    "theta": 1e-07,
+    "atol": 1e-07,
+    "rtol": 1e-07
+  },
+  "source": "actual terminal test results in this task; mathematical check decode calls are outside the 2610 experiment calls"
+}

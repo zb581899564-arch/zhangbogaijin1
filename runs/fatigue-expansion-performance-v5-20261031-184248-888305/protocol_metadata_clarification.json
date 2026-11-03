@@ -1,0 +1,17 @@
+{
+  "scope": "Protocol metadata clarification only; no method, seed, data, budget or outcome changes. Recorded before inspecting trial outcomes.",
+  "inherited_unused_fields": {
+    "main_primary_runs": 90,
+    "time_budget_seconds": 0.25
+  },
+  "effective_values": {
+    "paired_parents_per_time_cell": 108,
+    "main_budgets_seconds": [
+      0.5,
+      2.0
+    ],
+    "secondary_budget_seconds": 0.5
+  },
+  "authority": "frozen main_budgets_seconds, secondary_budget_seconds, chain_protocol(budget) and per-chain budget_seconds/deadline_ns; main_primary_runs is never read by the v5 harness",
+  "action": "Preserve frozen protocol/source bytes; audit actual counts and deadlines against effective schedule."
+}

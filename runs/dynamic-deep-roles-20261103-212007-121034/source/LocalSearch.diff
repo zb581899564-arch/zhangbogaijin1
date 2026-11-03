@@ -1,0 +1,20 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-deep-local-20261103-184901-271850\source\LocalSearch.java
++++ LocalSearch.java
+@@ -22,7 +22,7 @@
+         return improveIntra(improveInter(particle, direction, reference), direction, reference);
+     }
+     Particle improveInter(Particle particle, Direction direction, List<PermutationSolution<Integer>> reference) {
+-        QgsLocalLedger.Slot slot = ledger.inter(direction.id());
++        QgsLocalLedger.Slot slot = ledger.inter(state.ledgerGroup(direction));
+         try { return particle.descend(inter(particle.current, direction, reference, slot)); }
+         finally { ledger.end(slot); }
+     }
+@@ -47,7 +47,7 @@
+                 int factory = SeededRandom.current().nextInt(instance.factories());
+                 factory = state.localFactory(current, direction, factory);
+                 state.count("audit.paperLS.roundsStarted");
+-                QgsLocalLedger.Slot slot = ledger.round(direction.id(), round, factory);
++                QgsLocalLedger.Slot slot = ledger.round(state.ledgerGroup(direction), round, factory);
+                 int[] remaining = {slot.limit};
+                 try {
+                     do {

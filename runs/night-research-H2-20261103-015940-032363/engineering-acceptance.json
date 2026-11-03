@@ -1,0 +1,283 @@
+{
+  "status": "passed",
+  "realEntryChecks": [
+    {
+      "instance": "20_2_3_1",
+      "mode": "SYNC_JOB_ALIGNED",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 1.562000000034459,
+      "checkpointPoints": 38
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 1.5,
+      "checkpointPoints": 48
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SYNC_JOB_ALIGNED_CONTEXT_ELITE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 4.030999999959022,
+      "checkpointPoints": 28
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED_CONTEXT_ELITE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 1.6560000000172295,
+      "checkpointPoints": 38
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SYNC_JOB_ALIGNED_CONTEXT_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 1.4689999999827705,
+      "checkpointPoints": 50
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED_CONTEXT_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 3.3280000000377186,
+      "checkpointPoints": 48
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "TAIL",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 1.5469999999622814,
+      "checkpointPoints": 57
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "NSGA2_4V",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 1.7339999999967404,
+      "checkpointPoints": 51
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SPEA2_4V",
+      "setting": 1,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 1.8589999999967404,
+      "checkpointPoints": 85
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "MOEAD_4V",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 1.3439999999827705,
+      "checkpointPoints": 55
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "NSGA2_VNS_4V",
+      "setting": 1,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 2.702999999979511,
+      "checkpointPoints": 91
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED_PACKET_ROLE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 2.39000000001397,
+      "checkpointPoints": 67
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_ROLE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 1.5309999999590218,
+      "checkpointPoints": 31
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED_PACKET_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 1.6100000000442378,
+      "checkpointPoints": 44
+    },
+    {
+      "instance": "20_2_3_1",
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 1.5619999999762513,
+      "checkpointPoints": 43
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SYNC_JOB_ALIGNED",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 9.0,
+      "checkpointPoints": 157
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 9.046999999962281,
+      "checkpointPoints": 96
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SYNC_JOB_ALIGNED_CONTEXT_ELITE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 9.09299999999348,
+      "checkpointPoints": 143
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED_CONTEXT_ELITE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 9.15700000000652,
+      "checkpointPoints": 66
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SYNC_JOB_ALIGNED_CONTEXT_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 9.280999999959022,
+      "checkpointPoints": 150
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED_CONTEXT_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 9.969000000040978,
+      "checkpointPoints": 124
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "TAIL",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 9.46899999998277,
+      "checkpointPoints": 138
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "NSGA2_4V",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 11.14100000000326,
+      "checkpointPoints": 302
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SPEA2_4V",
+      "setting": 1,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 12.577999999979511,
+      "checkpointPoints": 213
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "MOEAD_4V",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 9.35999999998603,
+      "checkpointPoints": 139
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "NSGA2_VNS_4V",
+      "setting": 1,
+      "FE": 20000,
+      "originalControlByteExact": true,
+      "processAndValidationSeconds": 8.84299999999348,
+      "checkpointPoints": 224
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED_PACKET_ROLE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 12.28100000001723,
+      "checkpointPoints": 80
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_ROLE",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 11.15700000000652,
+      "checkpointPoints": 137
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED_PACKET_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 9.59299999999348,
+      "checkpointPoints": 137
+    },
+    {
+      "instance": "200_8_5_1",
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_RANDOM",
+      "setting": 0,
+      "FE": 20000,
+      "originalControlByteExact": false,
+      "processAndValidationSeconds": 11.03200000000652,
+      "checkpointPoints": 146
+    }
+  ],
+  "defaultControlsMatchFrozen": true,
+  "H1ContextRenewalAndHistoryReset": true,
+  "H2FactoryTransferAndSameMarginalControls": true,
+  "checkpointGenomeCoverageAndFullReplay": true,
+  "newAndOriginalClassicalSettingIdentities": true,
+  "timeInterruptionAndNightLoader": true,
+  "qualitySelectedParameters": false,
+  "performanceEvidence": false
+}

@@ -1,0 +1,40 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "actualFE": 500000,
+  "checkpoints": [
+    100,
+    15000,
+    50000,
+    100000,
+    250000,
+    500000
+  ],
+  "control": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\long-budget-bridge-20261103-082221-744929",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "reference": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\historical-nsga-comparison-20261103-155556-328249",
+  "decoder": "canonical-v1; frozen reconstructed SUT; standby=1",
+  "order": [
+    "frozenQGS",
+    "outerLS30"
+  ],
+  "intervention": "Ch4 per-particle outer loop of up to 30 VNS sweeps; redraw factory each sweep; retain existing shake/descent/reset/acceptance; no local proposal cap. Actual shared 500000 FE still binds.",
+  "scope": "One operational reading of paper Algorithm 5; not complete paper semantics, no production changes, no parameter selection"
+}

@@ -1,0 +1,102 @@
+{
+  "SPECIAL": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "decoder": {
+      "dynamic.evaluations": 500000,
+      "dynamic.reusedOperations": 15044837,
+      "dynamic.recomputedOperations": 4955163,
+      "dynamic.decodeNanos": 1985017158,
+      "dynamic.preparedChildren": 0
+    },
+    "cooperation": {
+      "paidObservations": 107855,
+      "observed.initialization": 20,
+      "groupings": 2,
+      "observed.global": 2000,
+      "assemblyRequests": 200,
+      "infeasibleCap": 20,
+      "feasibleAssemblies": 180,
+      "assembliesProposed": 180,
+      "assembliesValidated": 180,
+      "observed.inter": 75,
+      "observed.intra": 105760,
+      "sharing": true,
+      "poolAccepted": 66981,
+      "poolRejected": 256584,
+      "poolTruncated": 65209,
+      "poolRecords": 96,
+      "cooperationSeconds": 0.268169315,
+      "contexts": "4 fixed FA families x5; 80 free; no refresh",
+      "globalOrder": "MAKESPAN,CENTER,ENERGY,WORKER_COST",
+      "eligibleCenterOpportunities": 800,
+      "targetSpecialization": true,
+      "rolePreferenceMap": {
+        "MAKESPAN": "MAKESPAN",
+        "CENTER": "CENTER",
+        "ENERGY": "ENERGY",
+        "WORKER_COST": "WORKER_COST"
+      }
+    },
+    "configuration": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED",
+    "quotaContinuations": 0,
+    "archiveAdmissions": 1667,
+    "offlineArchiveReplays": 280,
+    "searchSeconds": 13.859997701,
+    "wallSeconds": 14.313000000081956
+  },
+  "UNIFORM": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "decoder": {
+      "dynamic.evaluations": 500000,
+      "dynamic.reusedOperations": 15021772,
+      "dynamic.recomputedOperations": 4978228,
+      "dynamic.decodeNanos": 1987424095,
+      "dynamic.preparedChildren": 0
+    },
+    "cooperation": {
+      "paidObservations": 107855,
+      "observed.initialization": 20,
+      "groupings": 2,
+      "observed.global": 2000,
+      "assemblyRequests": 200,
+      "feasibleAssemblies": 183,
+      "assembliesProposed": 183,
+      "assembliesValidated": 183,
+      "infeasibleCap": 17,
+      "observed.inter": 75,
+      "observed.intra": 105760,
+      "sharing": true,
+      "poolAccepted": 135026,
+      "poolRejected": 188539,
+      "poolTruncated": 132594,
+      "poolRecords": 96,
+      "cooperationSeconds": 0.291885076,
+      "contexts": "4 fixed FA families x5; 80 free; no refresh",
+      "globalOrder": "MAKESPAN,CENTER,ENERGY,WORKER_COST",
+      "eligibleCenterOpportunities": 800,
+      "targetSpecialization": false,
+      "rolePreferenceMap": {
+        "MAKESPAN": "CENTER",
+        "CENTER": "CENTER",
+        "ENERGY": "CENTER",
+        "WORKER_COST": "CENTER"
+      }
+    },
+    "configuration": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED;allPhysicalGroupsPreference=CENTER",
+    "quotaContinuations": 1765,
+    "archiveAdmissions": 1740,
+    "offlineArchiveReplays": 258,
+    "searchSeconds": 21.997163799,
+    "wallSeconds": 22.39000000001397
+  }
+}

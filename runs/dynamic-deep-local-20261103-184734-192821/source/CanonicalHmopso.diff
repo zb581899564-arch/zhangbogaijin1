@@ -1,0 +1,10 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\java\search\CanonicalHmopso.java
++++ CanonicalHmopso.java
+@@ -113,6 +113,7 @@
+                     state.observationGroup(direction);
+                     Direction preference = preference(direction);
+                     state.count("local.g" + direction.id() + ".preference." + preference.name());
++                    guarded.checkpoint();
+                     offspring.add(local.improve(particle, preference, reference));
+                 }
+             }

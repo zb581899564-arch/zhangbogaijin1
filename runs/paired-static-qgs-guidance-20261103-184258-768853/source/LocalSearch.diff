@@ -1,0 +1,89 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\static-qgs-paper-ls-audit-20261103-171052-582206\source\LocalSearch.java
++++ LocalSearch.java
+@@ -13,6 +13,7 @@
+     private final SearchConfig config;
+     private final SearchState state;
+     private final IntraNeighborhoods neighborhoods;
++    private final QgsLocalLedger ledger = QgsLocalLedger.instance();
+     LocalSearch(Instance instance, int chapter, SearchConfig config, SearchState state) {
+         this.instance = instance; this.chapter = chapter; this.config = config; this.state = state;
+         neighborhoods = new IntraNeighborhoods(instance);
+@@ -21,7 +22,9 @@
+         return improveIntra(improveInter(particle, direction, reference), direction, reference);
+     }
+     Particle improveInter(Particle particle, Direction direction, List<PermutationSolution<Integer>> reference) {
+-        return particle.descend(inter(particle.current, direction, reference));
++        QgsLocalLedger.Slot slot = ledger.inter(direction.id());
++        try { return particle.descend(inter(particle.current, direction, reference, slot)); }
++        finally { ledger.end(slot); }
+     }
+     Particle improveIntra(Particle particle, Direction direction, List<PermutationSolution<Integer>> reference) {
+         PermutationSolution<Integer> current = particle.current;
+@@ -40,11 +43,21 @@
+             }
+         } else {
+             state.count("audit.paperLS.particlesStarted");
+-            for (int round = 0; round < config.localProposalCap; round++) {
++            for (int round = 0; round < config.localProposalCap && ledger.hasRound(); round++) {
+                 int factory = SeededRandom.current().nextInt(instance.factories());
+                 factory = state.localFactory(current, direction, factory);
+                 state.count("audit.paperLS.roundsStarted");
+-                current = vns(current, factory, direction, reference);
++                QgsLocalLedger.Slot slot = ledger.round(direction.id(), round, factory);
++                int[] remaining = {slot.limit};
++                try {
++                    do {
++                        current = vns(current, slot.factory, direction, reference, remaining);
++                        if (slot.fixed && remaining[0] > 0) slot.restarts++;
++                    } while (slot.fixed && remaining[0] > 0);
++                } finally {
++                    slot.paid = slot.limit - remaining[0];
++                    ledger.end(slot);
++                }
+                 state.count("audit.paperLS.roundsCompleted");
+             }
+             state.count("audit.paperLS.particlesCompleted");
+@@ -52,13 +65,15 @@
+         return particle.descend(current);
+     }
+     private PermutationSolution<Integer> inter(PermutationSolution<Integer> parent, Direction direction,
+-            List<PermutationSolution<Integer>> reference) {
++            List<PermutationSolution<Integer>> reference, QgsLocalLedger.Slot slot) {
+         PermutationSolution<Integer> current = parent;
+         int operator = 0;
+-        while (operator < 2) {
++        while (slot.paid < slot.limit && (operator < 2 || slot.fixed)) {
++            if (operator == 2) { operator = 0; slot.restarts++; }
+             PermutationSolution<Integer> child = FactoryNeighborhoods.move(current, direction.id(), operator == 0, instance);
+             state.count("inter.operator" + operator + ".proposals");
+             state.evaluate(child, "inter", direction);
++            slot.paid++;
+             if (direction.better(child, current, reference)) {
+                 current = child; operator = 0;
+                 state.count("inter.accepted");
+@@ -68,9 +83,12 @@
+     }
+     private PermutationSolution<Integer> vns(PermutationSolution<Integer> parent, int factory,
+             Direction direction, List<PermutationSolution<Integer>> reference) {
++        return vns(parent, factory, direction, reference, new int[] {config.localProposalCap});
++    }
++    private PermutationSolution<Integer> vns(PermutationSolution<Integer> parent, int factory,
++            Direction direction, List<PermutationSolution<Integer>> reference, int[] remaining) {
+         PermutationSolution<Integer> incumbent = parent;
+         int operator = 0;
+-        int[] remaining = {chapter == 4 ? Integer.MAX_VALUE : config.localProposalCap};
+         while (operator < IntraNeighborhoods.COUNT && remaining[0] > 0) {
+             PermutationSolution<Integer> shaken = evaluateNeighborhood(incumbent, factory, operator, direction, remaining);
+             PermutationSolution<Integer> improved = descent(shaken, factory, direction, reference, remaining);
+@@ -93,8 +111,9 @@
+     }
+     private PermutationSolution<Integer> evaluateNeighborhood(PermutationSolution<Integer> parent, int factory,
+             int operator, Direction direction, int[] remaining) {
++        state.count("intra.neighborhood" + operator + ".proposals");
++        PermutationSolution<Integer> evaluated = state.evaluate(neighborhoods.propose(parent, factory, operator), "intra", direction);
+         remaining[0]--;
+-        state.count("intra.neighborhood" + operator + ".proposals");
+-        return state.evaluate(neighborhoods.propose(parent, factory, operator), "intra", direction);
++        return evaluated;
+     }
+ }

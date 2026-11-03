@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "scope": "post-hoc record audit and descriptive summaries; no new experiment",
+  "record_counts": {
+    "inputs": 90,
+    "predictions": 90,
+    "candidates": 1440,
+    "selections": 1080,
+    "timing": 90
+  },
+  "selection_metrics_recomputed": 1080,
+  "same_fatigue_vs_control_choice_support": 241,
+  "choice_comparisons": 360,
+  "direction_means_across_profiles_descriptive_only": {
+    "Cmax": {
+      "fatigue_adjoint:rank_spearman": 0.06803358061460582,
+      "fatigue_adjoint:sign_accuracy": 0.8194444444444444,
+      "fatigue_adjoint:accepted_gain": 0.02471764798334003,
+      "fatigue_adjoint:improvement_probability": 0.4292185592185592,
+      "time_only:rank_spearman": 0.057861969937338345,
+      "time_only:sign_accuracy": 0.8256944444444444,
+      "time_only:accepted_gain": 0.024426037069745644,
+      "time_only:improvement_probability": 0.4381074481074481,
+      "random:accepted_gain": 0.0064671368324436575,
+      "random:improvement_probability": 0.21319444444444444
+    },
+    "TEC": {
+      "fatigue_adjoint:rank_spearman": 0.22440896208832178,
+      "fatigue_adjoint:sign_accuracy": 0.6104166666666667,
+      "fatigue_adjoint:accepted_gain": 0.010747728314514461,
+      "fatigue_adjoint:improvement_probability": 0.7444444444444445,
+      "time_only:rank_spearman": 0.22358348674968653,
+      "time_only:sign_accuracy": 0.5979166666666667,
+      "time_only:accepted_gain": 0.010720411233550949,
+      "time_only:improvement_probability": 0.7333333333333333,
+      "random:accepted_gain": 0.0037868099768693614,
+      "random:improvement_probability": 0.5145833333333333
+    },
+    "TWC": {
+      "fatigue_adjoint:rank_spearman": 0.2211648587707999,
+      "fatigue_adjoint:sign_accuracy": 0.6111111111111112,
+      "fatigue_adjoint:accepted_gain": 0.0027309627748277284,
+      "fatigue_adjoint:improvement_probability": 0.6111111111111112,
+      "time_only:rank_spearman": 0.1787338269183632,
+      "time_only:sign_accuracy": 0.6,
+      "time_only:accepted_gain": 0.002324802586294807,
+      "time_only:improvement_probability": 0.6111111111111112,
+      "random:accepted_gain": 0.001007873666390395,
+      "random:improvement_probability": 0.45625
+    },
+    "balanced": {
+      "fatigue_adjoint:rank_spearman": 0.13758872657917126,
+      "fatigue_adjoint:sign_accuracy": 0.5979166666666667,
+      "fatigue_adjoint:accepted_gain": 0.011091047766922974,
+      "fatigue_adjoint:improvement_probability": 0.7,
+      "time_only:rank_spearman": 0.12402541642412622,
+      "time_only:sign_accuracy": 0.5847222222222223,
+      "time_only:accepted_gain": 0.01091472640655315,
+      "time_only:improvement_probability": 0.7333333333333333,
+      "random:accepted_gain": 0.003231625914663717,
+      "random:improvement_probability": 0.5027777777777778
+    }
+  },
+  "timing_descriptions": {
+    "plain_decode_ms": {
+      "mean": 0.9499066666666667,
+      "median": 0.9410000000000001,
+      "min": 0.2755,
+      "max": 1.9215
+    },
+    "trace_decode_ms": {
+      "mean": 1.8257044444444444,
+      "median": 1.7607,
+      "min": 0.4958,
+      "max": 3.5416
+    },
+    "pool_generation_ms": {
+      "mean": 3.618941111111112,
+      "median": 3.253,
+      "min": 1.6575,
+      "max": 8.4404
+    },
+    "defects_ms": {
+      "mean": 0.7506955555555554,
+      "median": 0.6992499999999999,
+      "min": 0.4595,
+      "max": 1.3307
+    },
+    "random_choice_ms": {
+      "mean": 0.0017811111111111111,
+      "median": 0.0017,
+      "min": 0.0016,
+      "max": 0.0037
+    },
+    "fatigue_adjoint_adjoint_ms": {
+      "mean": 2.3651947222222223,
+      "median": 2.3123,
+      "min": 0.6673,
+      "max": 5.134
+    },
+    "fatigue_adjoint_combine_ms": {
+      "mean": 0.1202402777777778,
+      "median": 0.1177,
+      "min": 0.1135,
+      "max": 0.2225
+    },
+    "fatigue_adjoint_choice_ms": {
+      "mean": 0.013848888888888888,
+      "median": 0.0133,
+      "min": 0.0128,
+      "max": 0.0298
+    },
+    "time_only_adjoint_ms": {
+      "mean": 1.9168458333333331,
+      "median": 1.8844500000000002,
+      "min": 0.5441,
+      "max": 4.1408
+    },
+    "time_only_combine_ms": {
+      "mean": 0.12094555555555557,
+      "median": 0.11754999999999999,
+      "min": 0.1143,
+      "max": 0.2581
+    },
+    "time_only_choice_ms": {
+      "mean": 0.013639166666666666,
+      "median": 0.0132,
+      "min": 0.0127,
+      "max": 0.0305
+    },
+    "random": {
+      "mean": 5.520535555555556,
+      "median": 5.19115,
+      "min": 2.3299,
+      "max": 11.075199999999999
+    },
+    "fatigue_adjoint": {
+      "mean": 10.520329444444444,
+      "median": 9.305250000000001,
+      "min": 4.1469000000000005,
+      "max": 19.8816
+    },
+    "fatigue_adjoint_guidance_ms": {
+      "mean": 3.2499794444444445,
+      "median": 3.1289499999999997,
+      "min": 1.3244,
+      "max": 6.596500000000001
+    },
+    "fatigue_adjoint_guidance_in_plain_decodes": {
+      "mean": 3.7004679862635355,
+      "median": 3.454635271525095,
+      "min": 1.7177725735102782,
+      "max": 6.080331412103747
+    },
+    "fatigue_adjoint_cost_over_random": {
+      "mean": 1.9446718323557466,
+      "median": 1.8840156521649218,
+      "min": 1.5441617307136668,
+      "max": 2.441047814104023
+    },
+    "time_only": {
+      "mean": 10.072476111111111,
+      "median": 8.88805,
+      "min": 4.0166,
+      "max": 19.0947
+    },
+    "time_only_guidance_ms": {
+      "mean": 2.8021261111111113,
+      "median": 2.6657,
+      "min": 1.1983000000000001,
+      "max": 5.1094
+    },
+    "time_only_guidance_in_plain_decodes": {
+      "mean": 3.2215741532045326,
+      "median": 2.976149814808622,
+      "min": 1.4587561800676554,
+      "max": 5.53682310469314
+    },
+    "time_only_cost_over_random": {
+      "mean": 1.8618551509789092,
+      "median": 1.8251545345135867,
+      "min": 1.4830793123374748,
+      "max": 2.6606110021148113
+    },
+    "trace_over_plain": {
+      "mean": 1.9203827377608804,
+      "median": 1.9149128310611734,
+      "min": 1.1583138173302108,
+      "max": 2.9288785974197813
+    }
+  },
+  "candidates_with_later_topology_change": 1326,
+  "mean_later_topology_changed_ops": 20.770138888888887,
+  "max_direct_defects": 9,
+  "parent_negative_start_slopes": 101,
+  "candidate_negative_start_slopes": 1598,
+  "full_decode_calls": 2610,
+  "source_of_truth": "saved JSON/JSONL only"
+}

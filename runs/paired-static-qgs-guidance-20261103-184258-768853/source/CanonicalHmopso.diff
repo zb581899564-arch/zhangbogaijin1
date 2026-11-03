@@ -1,0 +1,19 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\java\search\CanonicalHmopso.java
++++ CanonicalHmopso.java
+@@ -113,6 +113,7 @@
+                     state.observationGroup(direction);
+                     Direction preference = preference(direction);
+                     state.count("local.g" + direction.id() + ".preference." + preference.name());
++                    guarded.checkpoint();
+                     offspring.add(local.improve(particle, preference, reference));
+                 }
+             }
+@@ -160,7 +161,7 @@
+         int observation = 1;
+         List<Particle> current = group;
+         for (int step = 0; step < config.qIterations; step++) {
+-            int action = table.choose(observation, config.exploration);
++            int action = QgsLocalLedger.choose(table, observation, config.exploration);
+             PermutationSolution<Integer> leader = chooseLeader(action, direction, current);
+             if (audit != null) audit.feedbackQgs(direction, step, action, leader);
+             if (audit != null) audit.teacherSelected(leader);

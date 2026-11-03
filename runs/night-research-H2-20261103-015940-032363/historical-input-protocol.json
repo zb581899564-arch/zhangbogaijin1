@@ -1,0 +1,241 @@
+{
+  "version": "cooperation-roles-v1",
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "time_seconds": 3,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          695.2261449928639,
+          17774.143805827265,
+          16014.26252051863
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_8_3_1",
+      "time_seconds": 9,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          4094.975462668602,
+          286297.0397045699,
+          306847.68709819356
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_5_3_1",
+      "time_seconds": 12,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          9095.137724626977,
+          501783.1052188295,
+          367272.40817719966
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_8_5_1",
+      "time_seconds": 19,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3238.4513886676095,
+          586919.6672420613,
+          593103.1290649361
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "algorithm_seeds": [
+    8110301,
+    8110319,
+    8110341,
+    8110367,
+    8110393
+  ],
+  "model": {
+    "decoder": "dynamic-append-v1",
+    "objectives": [
+      "Cmax",
+      "TEC",
+      "TWC"
+    ],
+    "profile": "strong_fast",
+    "setup_seed": 314159,
+    "parameter_seed": 271828,
+    "standby": 1.0,
+    "incremental": true
+  },
+  "variants": {
+    "SYNC_SPECIAL": {
+      "mode": "SYNC_JOB_ALIGNED",
+      "profile": "SO"
+    },
+    "SYNC_UNIFORM": {
+      "mode": "SYNC_JOB_ALIGNED_UNIFORM",
+      "profile": "SO"
+    },
+    "SHARE_SPECIAL": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "profile": "SO"
+    },
+    "SHARE_UNIFORM": {
+      "mode": "SHARE_JOB_ALIGNED_UNIFORM",
+      "profile": "SO"
+    },
+    "NSGA": {
+      "mode": "NSGA2_4V",
+      "profile": "V2"
+    }
+  },
+  "runs": 150,
+  "wall_cap_seconds": 2700,
+  "planned_search_seconds": 1300,
+  "one_jvm_at_a_time": true,
+  "classic_setting": 0,
+  "method_order_seed": 202611026,
+  "time_fractions": [
+    0.5,
+    1.0
+  ],
+  "fe_checkpoints": [
+    15000
+  ],
+  "intervention": "SPECIAL versus all-CENTER preference, crossed with shared pool/composition on/off",
+  "unchanged": "JOB_ALIGNED;SO;100 particles;four physical groups15/55/15/15;independent Q tables50 steps;original M,C,E,W order;4 FA families x5;80 free;pool8;original cycles;local neighborhoods;G/L;quotas;generation-end guide refresh",
+  "observation": "Feedback/composition provenance plus first8+last8 retained-pool requests and full counters; all capture costs inside T; no additional FE/RNG",
+  "producer": "Physical source group; retained paid occurrence, not unique inventor or preferred local objective",
+  "metrics": {
+    "primary_reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "sensitivity_references": [
+      [
+        1.25,
+        1.25,
+        1.25
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "igdplus_reference": "Each instance all5 methods x all5 seeds deadline-valid T ND union; approximate offline only",
+    "aggregation": "Five paired seed HV means per instance, then six instances equally",
+    "practical_win": ">=1% instance effect and>=3/5 positive paired seeds; symmetric losses; not significance"
+  },
+  "interaction": "(SHARE_SPECIAL-SYNC_SPECIAL)-(SHARE_UNIFORM-SYNC_UNIFORM); raw seed HV differences; instance mean normalized by instance mean SYNC_UNIFORM",
+  "specialization_signal": {
+    "meanTPercentAtLeast": 1.0,
+    "practicalInstanceWinsAtLeast": 3,
+    "meanFEPositive": true,
+    "meanTInteractionPositive": true
+  },
+  "knowledge_gate": {
+    "variant": "SHARE_SPECIAL",
+    "normalRequestsAtLeast": 10,
+    "tightRequestsAtLeast": 3,
+    "missingFactoryPerTightAtLeast": 0.2,
+    "complementaritySnapshotsAtLeast": 1,
+    "distinctChosenPaidFEAtLeast": 2,
+    "weightedRelativeGainAtLeast": 0.001,
+    "seedsPerInstanceAtLeast": 3,
+    "instancesAtLeast": 3,
+    "wholeBaseline": "Best score among all retained records' paid wholeObjectives with wholeC<=same cap; missing baseline cannot pass",
+    "sourceWithdrawal": "Retained producer labels only; no whole-group causal interpretation"
+  },
+  "continuation": "All150 required before quality interpretation; stop on correctness/resources/original45min cap; never rerun an incomplete owner; step3 decision only, no automatic optimizer",
+  "cost_boundary": "Original45min includes freeze/start/search/QA/export/main analysis; T contains all search/observation; nested counters not summed as disjoint costs",
+  "scope": "Development-factor and knowledge-gap evidence; original36 instances remain development; no formal step6 or publication verdict"
+}

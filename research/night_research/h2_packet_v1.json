@@ -1,0 +1,257 @@
+{
+  "hypothesis": "H2",
+  "candidate": "ROLE_PACKET",
+  "baseline": "SHARE_STATIC",
+  "matched_control": "ROLE_MOSAIC",
+  "strong_control": "TAIL",
+  "variants": {
+    "ROLE_PACKET": {
+      "mode": "SHARE_JOB_ALIGNED_PACKET_ROLE",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "ROLE_MOSAIC": {
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_ROLE",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "RANDOM_PACKET": {
+      "mode": "SHARE_JOB_ALIGNED_PACKET_RANDOM",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "RANDOM_MOSAIC": {
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_RANDOM",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "SHARE_STATIC": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "TAIL": {
+      "mode": "TAIL",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "NSGA2_4V": {
+      "mode": "NSGA2_4V",
+      "profile": "V2",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SPEA2_4V": {
+      "mode": "SPEA2_4V",
+      "profile": "V2",
+      "setting": 1,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "MOEAD_4V": {
+      "mode": "MOEAD_4V",
+      "profile": "V2",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "NSGA2_VNS_4V": {
+      "mode": "NSGA2_VNS_4V",
+      "profile": "V2",
+      "setting": 1,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    }
+  },
+  "algorithm_seeds": [
+    8112003,
+    8112027,
+    8112059,
+    8112081,
+    8112113
+  ],
+  "method_order_seed": 2026110302,
+  "absolute_stop_epoch": 1793660400,
+  "additional_pairs": [
+    [
+      "ROLE_PACKET",
+      "ROLE_MOSAIC"
+    ],
+    [
+      "RANDOM_PACKET",
+      "RANDOM_MOSAIC"
+    ],
+    [
+      "ROLE_PACKET",
+      "RANDOM_PACKET"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "RANDOM_MOSAIC"
+    ],
+    [
+      "ROLE_PACKET",
+      "SHARE_STATIC"
+    ],
+    [
+      "ROLE_PACKET",
+      "TAIL"
+    ],
+    [
+      "ROLE_PACKET",
+      "NSGA2_4V"
+    ],
+    [
+      "ROLE_PACKET",
+      "SPEA2_4V"
+    ],
+    [
+      "ROLE_PACKET",
+      "MOEAD_4V"
+    ],
+    [
+      "ROLE_PACKET",
+      "NSGA2_VNS_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "SHARE_STATIC"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "TAIL"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "NSGA2_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "SPEA2_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "MOEAD_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "NSGA2_VNS_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "SHARE_STATIC"
+    ],
+    [
+      "RANDOM_PACKET",
+      "TAIL"
+    ],
+    [
+      "RANDOM_PACKET",
+      "NSGA2_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "SPEA2_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "MOEAD_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "NSGA2_VNS_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "SHARE_STATIC"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "TAIL"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "NSGA2_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "SPEA2_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "MOEAD_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "NSGA2_VNS_4V"
+    ]
+  ],
+  "interactions": [
+    {
+      "name": "packet_integrity_x_role_source_scoring",
+      "positive": [
+        "ROLE_PACKET",
+        "RANDOM_MOSAIC"
+      ],
+      "negative": [
+        "ROLE_MOSAIC",
+        "RANDOM_PACKET"
+      ],
+      "normalizer": "RANDOM_MOSAIC"
+    }
+  ],
+  "mechanism": {
+    "hypothesis": "Factory knowledge may fragment under component-by-component genetic transmission; isolate packet integrity and role-dependent source scoring in a fixed 2x2.",
+    "scope": "Keep fixed FA contexts; never enable H1 context renewal or combine the two mechanisms.",
+    "routing": "Three boundary physical groups, family particles only; separate opportunity counter for each family x direction; invoke every fourth opportunity. CENTER retains the original composition.",
+    "frequency": "No forced constant per-generation invocation count. With50 opportunities per counter the first full generation produces12 invocations and the next13; publish actual counters including partial generations.",
+    "target_factory": "Choose the parent factory with maximal direction-specific local c/e/w objective; ties use the smallest factory id.",
+    "shared_draws": "From the same target-factory pool draw three pairs of records, six nextInt calls. All four variants consume the same number of draws.",
+    "ROLE": "For each pair choose the record with smaller direction-specific local objective; a tie keeps the first record.",
+    "RANDOM": "Keep the first record of each drawn pair while still consuming all six draws.",
+    "PACKET": "Transfer the first selected record complete JS/MA/WA tuple.",
+    "MOSAIC": "Transfer JS, MA and WA respectively from the three selected records and align by job.",
+    "marginal_control": "For a fixed eligible prefix and pool, component source marginals match across PACKET/MOSAIC; only their correlation changes.",
+    "cost": "Every invoked proposal consumes one ordinary successful evaluation if completed, including repeated encodings; no greedy acceptance, proposal filtering or changed invocation rate.",
+    "unchanged": "Preserve FA, all other factories, the old sharing path, four physical roles, Q settings, and every common search/budget/QA rule.",
+    "observation": "Bounded factory-transfer.jsonl and complete summary.cooperation.factoryTransfer counters; exact schema must be installed before performance.",
+    "common_checkpoint_evidence": "SNAPSHOT_GENOMES enabled identically for every method; all reached checkpoints have a whole-model replayed four-vector witness.",
+    "claim_boundary": "Report both ordinary packet-integrity effects and direction-dependent source-scoring effects plus their interaction. Any single candidate-vs-baseline win cannot establish synergy.",
+    "continuation": "No parameter tuning, second version, H1+H2 combined mechanism, or automatic broad matrix."
+  }
+}

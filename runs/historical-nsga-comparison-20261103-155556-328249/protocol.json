@@ -1,0 +1,43 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "model": "canonical-v1 static insertion and right-shift",
+  "setupAndStandby": "Same reconstructed SUT and standby=1.0 as completed 500k bridge",
+  "referenceBridge": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\long-budget-bridge-20261103-082221-744929",
+  "probeNominalFE": 5000,
+  "actualFE": 500000,
+  "checkpoints": [
+    100,
+    1000,
+    15000,
+    50000,
+    100000,
+    250000,
+    500000
+  ],
+  "order": [
+    "NSGA2_HISTORICAL_ADAPTED",
+    "BASELINE",
+    "NSGA2_4V"
+  ],
+  "historical": {
+    "implementation": "Supplied snapshot NSGAII, PMX and swap; not the certified paper executable",
+    "population": 100,
+    "PMX": 0.4,
+    "JSswap": 0.2,
+    "FAcross": 0.2,
+    "FAmut": 0.04,
+    "WAcross": 0.3,
+    "MAcross": 0.4,
+    "WAmut": 0.1,
+    "MAmut": 0.15,
+    "rates": "As passed by the supplied ALLAlgorithmRun to lc_psode/NSGAIIRun",
+    "adaptations": [
+      "common decoder, deterministic repair and seeded initialization",
+      "redirect active local Random constructors to shared seeded stream",
+      "remove legacy debug print reading objective index 6",
+      "count calls independently at decoder entry; exact stop only in performance arm",
+      "common external paid archive; legacy reproduction and replacement preserved"
+    ]
+  }
+}

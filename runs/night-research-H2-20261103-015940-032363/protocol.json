@@ -1,0 +1,501 @@
+{
+  "hypothesis": "H2",
+  "candidate": "ROLE_PACKET",
+  "baseline": "SHARE_STATIC",
+  "matched_control": "ROLE_MOSAIC",
+  "strong_control": "TAIL",
+  "variants": {
+    "ROLE_PACKET": {
+      "mode": "SHARE_JOB_ALIGNED_PACKET_ROLE",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "ROLE_MOSAIC": {
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_ROLE",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "RANDOM_PACKET": {
+      "mode": "SHARE_JOB_ALIGNED_PACKET_RANDOM",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "RANDOM_MOSAIC": {
+      "mode": "SHARE_JOB_ALIGNED_MOSAIC_RANDOM",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ],
+      "observation": {
+        "schema": "factory-transfer-v1"
+      }
+    },
+    "SHARE_STATIC": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "TAIL": {
+      "mode": "TAIL",
+      "profile": "SO",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "NSGA2_4V": {
+      "mode": "NSGA2_4V",
+      "profile": "V2",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "SPEA2_4V": {
+      "mode": "SPEA2_4V",
+      "profile": "V2",
+      "setting": 1,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "MOEAD_4V": {
+      "mode": "MOEAD_4V",
+      "profile": "V2",
+      "setting": 0,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    },
+    "NSGA2_VNS_4V": {
+      "mode": "NSGA2_VNS_4V",
+      "profile": "V2",
+      "setting": 1,
+      "extra_args": [
+        "SNAPSHOT_GENOMES"
+      ]
+    }
+  },
+  "algorithm_seeds": [
+    8112003,
+    8112027,
+    8112059,
+    8112081,
+    8112113
+  ],
+  "method_order_seed": 2026110302,
+  "absolute_stop_epoch": 1793660400,
+  "additional_pairs": [
+    [
+      "ROLE_PACKET",
+      "ROLE_MOSAIC"
+    ],
+    [
+      "RANDOM_PACKET",
+      "RANDOM_MOSAIC"
+    ],
+    [
+      "ROLE_PACKET",
+      "RANDOM_PACKET"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "RANDOM_MOSAIC"
+    ],
+    [
+      "ROLE_PACKET",
+      "SHARE_STATIC"
+    ],
+    [
+      "ROLE_PACKET",
+      "TAIL"
+    ],
+    [
+      "ROLE_PACKET",
+      "NSGA2_4V"
+    ],
+    [
+      "ROLE_PACKET",
+      "SPEA2_4V"
+    ],
+    [
+      "ROLE_PACKET",
+      "MOEAD_4V"
+    ],
+    [
+      "ROLE_PACKET",
+      "NSGA2_VNS_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "SHARE_STATIC"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "TAIL"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "NSGA2_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "SPEA2_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "MOEAD_4V"
+    ],
+    [
+      "ROLE_MOSAIC",
+      "NSGA2_VNS_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "SHARE_STATIC"
+    ],
+    [
+      "RANDOM_PACKET",
+      "TAIL"
+    ],
+    [
+      "RANDOM_PACKET",
+      "NSGA2_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "SPEA2_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "MOEAD_4V"
+    ],
+    [
+      "RANDOM_PACKET",
+      "NSGA2_VNS_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "SHARE_STATIC"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "TAIL"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "NSGA2_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "SPEA2_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "MOEAD_4V"
+    ],
+    [
+      "RANDOM_MOSAIC",
+      "NSGA2_VNS_4V"
+    ]
+  ],
+  "interactions": [
+    {
+      "name": "packet_integrity_x_role_source_scoring",
+      "positive": [
+        "ROLE_PACKET",
+        "RANDOM_MOSAIC"
+      ],
+      "negative": [
+        "ROLE_MOSAIC",
+        "RANDOM_PACKET"
+      ],
+      "normalizer": "RANDOM_MOSAIC"
+    }
+  ],
+  "mechanism": {
+    "hypothesis": "Factory knowledge may fragment under component-by-component genetic transmission; isolate packet integrity and role-dependent source scoring in a fixed 2x2.",
+    "scope": "Keep fixed FA contexts; never enable H1 context renewal or combine the two mechanisms.",
+    "routing": "Three boundary physical groups, family particles only; separate opportunity counter for each family x direction; invoke every fourth opportunity. CENTER retains the original composition.",
+    "frequency": "No forced constant per-generation invocation count. With50 opportunities per counter the first full generation produces12 invocations and the next13; publish actual counters including partial generations.",
+    "target_factory": "Choose the parent factory with maximal direction-specific local c/e/w objective; ties use the smallest factory id.",
+    "shared_draws": "From the same target-factory pool draw three pairs of records, six nextInt calls. All four variants consume the same number of draws.",
+    "ROLE": "For each pair choose the record with smaller direction-specific local objective; a tie keeps the first record.",
+    "RANDOM": "Keep the first record of each drawn pair while still consuming all six draws.",
+    "PACKET": "Transfer the first selected record complete JS/MA/WA tuple.",
+    "MOSAIC": "Transfer JS, MA and WA respectively from the three selected records and align by job.",
+    "marginal_control": "For a fixed eligible prefix and pool, component source marginals match across PACKET/MOSAIC; only their correlation changes.",
+    "cost": "Every invoked proposal consumes one ordinary successful evaluation if completed, including repeated encodings; no greedy acceptance, proposal filtering or changed invocation rate.",
+    "unchanged": "Preserve FA, all other factories, the old sharing path, four physical roles, Q settings, and every common search/budget/QA rule.",
+    "observation": "Bounded factory-transfer.jsonl and complete summary.cooperation.factoryTransfer counters; exact schema must be installed before performance.",
+    "common_checkpoint_evidence": "SNAPSHOT_GENOMES enabled identically for every method; all reached checkpoints have a whole-model replayed four-vector witness.",
+    "claim_boundary": "Report both ordinary packet-integrity effects and direction-dependent source-scoring effects plus their interaction. Any single candidate-vs-baseline win cannot establish synergy.",
+    "continuation": "No parameter tuning, second version, H1+H2 combined mechanism, or automatic broad matrix."
+  },
+  "version": "night-research-v1",
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "time_seconds": 3,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          695.2261449928639,
+          17774.143805827265,
+          16014.26252051863
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_8_3_1",
+      "time_seconds": 9,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          4094.975462668602,
+          286297.0397045699,
+          306847.68709819356
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_5_3_1",
+      "time_seconds": 12,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          9095.137724626977,
+          501783.1052188295,
+          367272.40817719966
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_8_5_1",
+      "time_seconds": 19,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3238.4513886676095,
+          586919.6672420613,
+          593103.1290649361
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "model": {
+    "decoder": "dynamic-append-v1",
+    "objectives": [
+      "Cmax",
+      "TEC",
+      "TWC"
+    ],
+    "profile": "strong_fast",
+    "setup_seed": 314159,
+    "parameter_seed": 271828,
+    "standby": 1.0,
+    "incremental": true
+  },
+  "external_comparators": [
+    "NSGA2_4V",
+    "SPEA2_4V",
+    "MOEAD_4V",
+    "NSGA2_VNS_4V"
+  ],
+  "runs": 300,
+  "wall_cap_seconds": 3600,
+  "one_jvm_at_a_time": true,
+  "time_fractions": [
+    0.5,
+    1.0
+  ],
+  "fe_checkpoints": [
+    15000
+  ],
+  "checkpoint_evidence_schema": "snapshot-genomes-v1",
+  "planned_search_seconds": 2600,
+  "metrics": {
+    "primary_reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "sensitivity_references": [
+      [
+        1.25,
+        1.25,
+        1.25
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "igdplus_reference": "Per instance all current methods and all five new seeds deadline-valid T ND union; offline empirical reference only",
+    "aggregation": "Five seed means within instance; six instances equally weighted",
+    "practical_win": ">=1% instance mean and >=3/5 positive paired seed differences; symmetric losses"
+  },
+  "continuation": "All owners required before classification; no incomplete-owner retry, tuning, seed replacement or automatic followup",
+  "scope": "Development evidence and resource decision only; not novelty, formal step6 or publication qualification",
+  "green_all_required": {
+    "validity_and_complete_270_runs": true,
+    "versus_BASELINE": {
+      "mean_effect_min_percent": 2.0,
+      "median_effect_min_percent": 1.0,
+      "practical_wins_min": 4,
+      "mean_after_removing_best_instance_min_percent": 0.0
+    },
+    "versus_TAIL": {
+      "mean_effect_min_percent": -1.0,
+      "median_effect_min_percent": -1.0
+    },
+    "versus_strongest_external": {
+      "mean_effect_min_percent": -1.0,
+      "median_effect_min_percent": -1.0,
+      "instances_effect_at_least_minus1_percent_min": 4
+    },
+    "versus_matched_parent": {
+      "mean_effect_min_percent": 1.0,
+      "median_effect_min_percent": 1.0,
+      "practical_wins_min": 4
+    },
+    "tail_guard_each_BASELINE_and_strongest_external": {
+      "loss_greater_than5_percent_max_instances": 1,
+      "loss_greater_than10_percent_max_instances": 0
+    },
+    "igdplus_guard_each_BASELINE_and_strongest_external": {
+      "median_symmetric_worsening_max_percent": 5.0,
+      "instances_symmetric_worsening_greater_than5_percent_max": 3
+    },
+    "each_sensitivity_reference": {
+      "versus_BASELINE_mean_min_percent": 0.0,
+      "versus_BASELINE_median_min_percent": 0.0,
+      "versus_strongest_external_mean_min_percent": -2.0,
+      "versus_strongest_external_median_min_percent": -2.0
+    },
+    "p_value_threshold_required": false
+  },
+  "red_any_sufficient_after_validity": {
+    "strongest_external": {
+      "mean_effect_max_percent": -5.0,
+      "median_effect_max_percent": -5.0,
+      "practical_losses_min": 4
+    },
+    "either_BASELINE_or_TAIL": {
+      "mean_effect_max_percent": -3.0,
+      "median_effect_max_percent": -1.0,
+      "practical_losses_min": 4
+    },
+    "large_losses_to_strongest_external": {
+      "loss_greater_than10_percent_min_instances": 2
+    },
+    "scope": "Pause scaling this frozen configuration; not a verdict on four-subswarm research"
+  }
+}

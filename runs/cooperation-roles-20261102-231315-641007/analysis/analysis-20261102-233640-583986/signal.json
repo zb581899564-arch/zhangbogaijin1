@@ -1,0 +1,10 @@
+{
+  "conditions": {
+    "meanTAtLeast1Percent": true,
+    "atLeast3PracticalInstanceWins": true,
+    "meanFEPositive": true,
+    "meanTInteractionPositive": false
+  },
+  "supportedDescriptiveSignal": false,
+  "scope": "Entire target-specialization factor: grouping, teacher/pbest, Q reward and local preference; not only Q reward; no scale-up or publication qualification"
+}

@@ -1,0 +1,111 @@
+{
+  "version": "fatigue-incremental-v4",
+  "scope": "standalone scalar local chains; no Java, population algorithm or HV changes",
+  "instances": [
+    "20_2_3_1.txt",
+    "20_5_3_1.txt",
+    "20_8_3_1.txt",
+    "50_2_4_1.txt",
+    "50_5_3_1.txt",
+    "100_2_3_1.txt"
+  ],
+  "parent_seeds": [
+    23,
+    53,
+    97,
+    193,
+    389
+  ],
+  "setup_seed_base": 314159,
+  "profile_seed_base": 271828,
+  "profiles": [
+    {
+      "name": "weak",
+      "beta": 0.1,
+      "alpha_per_base": 0.1,
+      "mu_per_base": 0.8
+    },
+    {
+      "name": "strong_slow_recovery",
+      "beta": 0.7,
+      "alpha_per_base": 0.45,
+      "mu_per_base": 0.08
+    },
+    {
+      "name": "strong_fast_recovery",
+      "beta": 0.7,
+      "alpha_per_base": 0.45,
+      "mu_per_base": 0.8
+    }
+  ],
+  "targets": {
+    "TEC": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "balanced": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ]
+  },
+  "methods": [
+    "cut_fatigue",
+    "cut_time",
+    "local_time",
+    "random"
+  ],
+  "candidate_count": 16,
+  "pool_seed_base": 20261106,
+  "choice_seed_base": 20261107,
+  "decisions": 24,
+  "time_budget_seconds": 0.25,
+  "primary_cell": {
+    "mode": "time",
+    "profile": "strong_fast_recovery",
+    "target": "TEC",
+    "metric": "deadline final normalized gain",
+    "controls": [
+      "cut_time",
+      "random"
+    ]
+  },
+  "normalization": "initial parent objective vector fixed for the whole chain and all paired methods",
+  "acceptance": "strict normalized scalar improvement >1e-10; true full decode only; FA fixed",
+  "pool": "exactly v2 legal_local distribution/order, but materialize only the chosen 16 descriptors; verified equal",
+  "controls": "cut_time shares exact dynamic-fatigue stage0, stops downstream fatigue adjoints; local_time is v1 cheap time-channel; random uniform on identical pool rule",
+  "candidate_truth": "one selected child fully decoded per decision, including rejected children; no all-candidate oracle",
+  "cache": "lazy keyed by parent version+genome; invalidate on every acceptance, reuse on rejection only; all construction and hit costs timed",
+  "reuse_definition": "q counts first use plus subsequent scored pools; accepted epochs and terminal right-censored epochs reported separately",
+  "time_measurement": "perf_counter_ns around initialization, trace/minimal decode, RNG, generation, cache setup, exact stage0 or defects, selection, selected decode, acceptance and in-memory audit logging",
+  "excluded_time": "common instance loading, output JSON serialization/disk I/O, offline final QA and separate component calibration; separately accounted, no oracle data in search",
+  "deadline": "non-preemptive decisions; only accept children whose full decode finishes on/before deadline; report overrun and actual elapsed, include overrun in measured gain/second",
+  "equal_FE": "24 decisions => 25 adaptive full evaluations incl initial for all primary methods; partial stage0 calls and their time count separately",
+  "run_order": "deterministic rotating method order in each profile/target/budget block; sequential single-thread",
+  "paired_randomness": "same initial genome, step-indexed pool seeds and choice RNG; pools may differ after accepted parents diverge",
+  "calibration": "initial 16 candidates fast numeric stage0 vs v2 traced reference, all C/v/costs checked; 1 warmup +5 batch timings; no result tuning",
+  "ablation": "cut_fatigue_full and cut_time_full on all30 strong-fast TEC parents, fixed24 and primary time repeat0; only implementation differs",
+  "statistics": "2000 instance->seed paired resamples, separately profile/target/budget; gain at deadline and actual gain/sec; descriptive six clusters, no multiple-test superiority claim",
+  "no_tuning": true,
+  "incremental": "same-factory tokens (job,machine,worker); reuse exact identical prefix and all unaffected factories; recompute every changed-factory suffix op; no convergence approximation",
+  "cache_cost": "build checkpoint lists from paid parent trace, no extra parent decode; include build, all candidate validation/copies/scans/sums and projections in online wall clock",
+  "numerical_contract": "C/v and direct-cost addition order exactly match v3 full stage0; fixed-budget score/choice/accept trajectories must match full references",
+  "validation": {
+    "seeds": [
+      17,
+      41,
+      83,
+      173,
+      347
+    ],
+    "parents_per_case": 6,
+    "candidates_per_parent": 16,
+    "scope": "90 old-seed scenarios, deterministic legal walks; do before performance, no outcome tuning"
+  },
+  "primary_time_repeats": 3,
+  "repeat_statistics": "same RNG per initial parent; average timing repeats within parent before 6-instance/5-seed paired bootstrap, never count 90 repeats as independent parents",
+  "expected_chains": 1800,
+  "main_primary_runs": 90,
+  "preservation": "new validation artifact then new performance artifact; old results and Java untouched"
+}

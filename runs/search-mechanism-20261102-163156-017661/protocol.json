@@ -1,0 +1,255 @@
+{
+  "version": "search-mechanism-v1",
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "time_seconds": 3,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          695.2261449928639,
+          17774.143805827265,
+          16014.26252051863
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_8_3_1",
+      "time_seconds": 9,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          4094.975462668602,
+          286297.0397045699,
+          306847.68709819356
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_5_3_1",
+      "time_seconds": 12,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          9095.137724626977,
+          501783.1052188295,
+          367272.40817719966
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_8_5_1",
+      "time_seconds": 19,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3238.4513886676095,
+          586919.6672420613,
+          593103.1290649361
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "algorithm_seeds": [
+    8110103,
+    8110129,
+    8110151
+  ],
+  "model": {
+    "decoder": "dynamic-append-v1",
+    "objectives": [
+      "Cmax",
+      "TEC",
+      "TWC"
+    ],
+    "profile": "strong_fast",
+    "setup_seed": 314159,
+    "parameter_seed": 271828,
+    "standby": 1.0,
+    "incremental": true
+  },
+  "variants": {
+    "SO": {
+      "mode": "BASELINE",
+      "profile": "SO",
+      "parents": false
+    },
+    "SHARE": {
+      "mode": "SHARE",
+      "profile": "SO",
+      "parents": false
+    },
+    "NSGA": {
+      "mode": "NSGA2_4V",
+      "profile": "V2",
+      "parents": false
+    },
+    "SO_PARENT": {
+      "mode": "BASELINE",
+      "profile": "SO",
+      "parents": true
+    },
+    "SHARE_PARENT": {
+      "mode": "SHARE",
+      "profile": "SO",
+      "parents": true
+    }
+  },
+  "phases": {
+    "capture": [
+      "SO",
+      "SHARE",
+      "NSGA"
+    ],
+    "closure": [
+      "SO_PARENT",
+      "SHARE_PARENT"
+    ]
+  },
+  "initial_runs": 54,
+  "conditional_runs": 36,
+  "campaign_wall_cap_seconds": 5400,
+  "one_jvm_at_a_time": true,
+  "classic_setting": 0,
+  "primary_reference": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "sensitivity_references": [
+    [
+      1.25,
+      1.25,
+      1.25
+    ],
+    [
+      2.0,
+      2.0,
+      2.0
+    ]
+  ],
+  "kernel_names": [
+    "PAPER",
+    "JOB_ALIGNED",
+    "CLASSIC_GLOBAL",
+    "CLASSIC_PERSONAL"
+  ],
+  "kernel_replicates": 8,
+  "kernel_case_anchors": {
+    "early": 250,
+    "middle": 5000,
+    "late": 10000
+  },
+  "kernel_cases_per_anchor": 8,
+  "kernel_phase_scope": "Fixed global proposal counts, not equal relative search maturity; unreached anchors remain absent",
+  "kernel_parent_sources": "Each kernel sees the same frozen triple. NSGA triple=(parentA,parentA,parentB); CLASSIC_PERSONAL self-cross is auxiliary there",
+  "kernel_main_comparison": "CLASSIC_GLOBAL versus PAPER; JOB_ALIGNED is a single explicit representation variant; CLASSIC_PERSONAL auxiliary",
+  "kernel_reference": "Frozen generation-start parent population plus the three actual parent/teacher objective vectors; identical across kernels",
+  "kernel_seed_policy": "910000000+trial_index*10000+case_index*100+rep; reset per candidate; same seed is not identical random draws",
+  "kernel_constraints": "Common parent fixed-FA family restored by job for all kernels, then common repair; family restore edits separate from final repair",
+  "kernel_cost": "Generation includes family restore and final repair; guarded evaluation includes shared archive overhead; rotated kernel execution order; startup/export/QA separate",
+  "parent_replay_cost": "All three parents per case receive charged replay and bit-exact objective checks; every probe child fully replayed offline",
+  "capture": "First2 and last completed generations plus partial-generation record; P/G/L/S and QGS steps1/10/25/50; no RNG and no additional search FE",
+  "closure_gate": {
+    "variants": [
+      "SO",
+      "SHARE"
+    ],
+    "meanOracleParentGainPercentOfGL_at_least": 1.0,
+    "positive_instances_at_least": 4,
+    "aggregation": "Generation mean per run, seed mean per instance, equal weight across six instances; either variant triggers both fixed closure variants"
+  },
+  "parent_variant": "Keep original G then L and append P (300 records), same whole-pool PDDR, stable order and existing family quotas; no free evaluation",
+  "fe_checkpoints": [
+    15000
+  ],
+  "time_fractions": [
+    0.5,
+    1.0
+  ],
+  "scope": "Two mechanism diagnostics on development cases; original v2/SO unchanged, no formal step6 or tuning"
+}

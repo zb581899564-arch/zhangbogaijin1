@@ -1,0 +1,91 @@
+{
+  "current-share": {
+    "FE": {
+      "initialization": 100,
+      "global": 299042,
+      "inter": 23858,
+      "intra": 177000
+    },
+    "decoder": {
+      "dynamic.evaluations": 500000,
+      "dynamic.reusedOperations": 7487386,
+      "dynamic.recomputedOperations": 12512614,
+      "dynamic.decodeNanos": 2919417532,
+      "dynamic.preparedChildren": 0
+    },
+    "offlineArchiveReplays": 218,
+    "searchSeconds": 18.307888499,
+    "wallSeconds": 18.67200000002049,
+    "globalGenerationsCompleted": null,
+    "completedOuterOrLocalBlocks": 59
+  },
+  "allocation-record": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "decoder": {
+      "dynamic.evaluations": 500000,
+      "dynamic.reusedOperations": 15044837,
+      "dynamic.recomputedOperations": 4955163,
+      "dynamic.decodeNanos": 2048808794,
+      "dynamic.preparedChildren": 0
+    },
+    "offlineArchiveReplays": 280,
+    "searchSeconds": 13.5658088,
+    "wallSeconds": 13.906000000075437,
+    "globalGenerationsCompleted": null,
+    "completedOuterOrLocalBlocks": 1,
+    "visits": 115,
+    "slots": 3551,
+    "quotaContinuations": 0
+  },
+  "deep-share": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "decoder": {
+      "dynamic.evaluations": 500000,
+      "dynamic.reusedOperations": 15044837,
+      "dynamic.recomputedOperations": 4955163,
+      "dynamic.decodeNanos": 2008817784,
+      "dynamic.preparedChildren": 0
+    },
+    "offlineArchiveReplays": 280,
+    "searchSeconds": 12.9907063,
+    "wallSeconds": 13.359000000054948,
+    "globalGenerationsCompleted": null,
+    "completedOuterOrLocalBlocks": 1,
+    "visits": 115,
+    "slots": 3551,
+    "quotaContinuations": 0
+  },
+  "deep-nsga": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "decoder": {
+      "dynamic.evaluations": 500000,
+      "dynamic.reusedOperations": 15131794,
+      "dynamic.recomputedOperations": 4868206,
+      "dynamic.decodeNanos": 1877539721,
+      "dynamic.preparedChildren": 0
+    },
+    "offlineArchiveReplays": 320,
+    "searchSeconds": 11.774870999,
+    "wallSeconds": 12.109000000054948,
+    "globalGenerationsCompleted": 100,
+    "completedOuterOrLocalBlocks": 1,
+    "visits": 115,
+    "slots": 3551,
+    "quotaContinuations": 1667
+  }
+}

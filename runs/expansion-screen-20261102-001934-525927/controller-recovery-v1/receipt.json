@@ -1,0 +1,17 @@
+{
+  "reason": "Windows PermissionError replacing mutable status projection; no evaluation failure",
+  "faultEvidence": "failure.json",
+  "completedOwnersPreserved": 23,
+  "rerunCompletedOwners": false,
+  "originalStartedEpoch": 1793549974.5259278,
+  "elapsedAtRecoverySeconds": 985.2972346725292,
+  "remainingAtRecoverySeconds": 4414.702765327471,
+  "capUnchangedSeconds": 5400,
+  "changedControllerSources": [
+    "research/expansion_screen/__main__.py",
+    "research/expansion_screen/campaign.py",
+    "research/expansion_screen/execution.py"
+  ],
+  "algorithmMetricDecisionAndInputsUnchanged": true,
+  "controllerChecks": "simulated reader-lock fallback, recovery, original-deadline preservation passed"
+}

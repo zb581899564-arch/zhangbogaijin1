@@ -1,0 +1,88 @@
+{
+  "scope": "post-hoc descriptive summaries from frozen logs only; no new trials or threshold tuning",
+  "primary_time_pool_size_hist": {
+    "cheap": {
+      "2": 2738,
+      "3": 2795,
+      "1": 1404
+    },
+    "time": {
+      "2": 2769,
+      "3": 2968,
+      "1": 1309
+    },
+    "fatigue": {
+      "2": 2778,
+      "3": 2774,
+      "1": 1290
+    },
+    "random": {
+      "2": 5778,
+      "3": 5685,
+      "1": 2555
+    },
+    "direct": {
+      "2": 5646,
+      "3": 5725,
+      "1": 2290
+    }
+  },
+  "time_fatigue_support_agreement": [
+    {
+      "target": "TEC",
+      "regime": "fixed_FA",
+      "block_size": 2,
+      "same_support": 53,
+      "pools": 65
+    },
+    {
+      "target": "balanced",
+      "regime": "fixed_FA",
+      "block_size": 2,
+      "same_support": 47,
+      "pools": 65
+    },
+    {
+      "target": "balanced",
+      "regime": "fixed_FA",
+      "block_size": 6,
+      "same_support": 35,
+      "pools": 65
+    },
+    {
+      "target": "TEC",
+      "regime": "fixed_FA",
+      "block_size": 6,
+      "same_support": 41,
+      "pools": 65
+    },
+    {
+      "target": "TEC",
+      "regime": "transfer_FA",
+      "block_size": 2,
+      "same_support": 49,
+      "pools": 65
+    },
+    {
+      "target": "balanced",
+      "regime": "transfer_FA",
+      "block_size": 2,
+      "same_support": 45,
+      "pools": 65
+    },
+    {
+      "target": "balanced",
+      "regime": "transfer_FA",
+      "block_size": 6,
+      "same_support": 35,
+      "pools": 65
+    },
+    {
+      "target": "TEC",
+      "regime": "transfer_FA",
+      "block_size": 6,
+      "same_support": 36,
+      "pools": 65
+    }
+  ]
+}

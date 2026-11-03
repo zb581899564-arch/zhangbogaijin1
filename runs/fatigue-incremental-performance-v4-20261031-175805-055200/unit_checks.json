@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "new_distinct_checks": 8,
+  "shared_chain_regression_checks": 2,
+  "executions": [
+    {
+      "command": "python -m unittest research.fatigue_incremental.checks.test_prefix research.fatigue_reuse.checks.test_reuse.ReuseChecks.test_cache_and_fresh_paths_match_and_gain_telescopes research.fatigue_reuse.checks.test_reuse.ReuseChecks.test_late_improving_child_cannot_enter_deadline_result -v",
+      "checks_at_that_time": 8,
+      "new_checks": 6,
+      "shared_regressions": 2,
+      "elapsed_seconds": 0.331
+    },
+    {
+      "command": "python -m unittest research.fatigue_incremental.checks.test_prefix.PrefixChecks.test_repeated_times_do_not_inflate_independent_parent_count research.fatigue_incremental.checks.test_prefix.PrefixChecks.test_synthetic_runner_logs_and_audits_plugin_work -v",
+      "passed": 2,
+      "elapsed_seconds": 0.068
+    }
+  ],
+  "numerical_validation_source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\fatigue-incremental-validation-v4-20261031-175339-612108",
+  "C_v_direct_bitwise_comparisons": 8640,
+  "validation_parent_schedules": 540,
+  "performance": {
+    "chains": 1800,
+    "audited_steps": 93022,
+    "identical_fixed_budget_pairs": 60,
+    "final_schedules_checked": 1800,
+    "primary_clock_repeats": 3,
+    "primary_independent_parents": 30
+  },
+  "no_extra_optimizer_run": true
+}

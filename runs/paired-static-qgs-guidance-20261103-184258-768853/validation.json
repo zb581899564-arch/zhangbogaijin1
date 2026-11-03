@@ -1,0 +1,59 @@
+{
+  "allocation-record": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "visits": 124,
+    "slots": 3818,
+    "quotaContinuations": 0,
+    "completedOuterGenerations": 1,
+    "guideActionCounts": {
+      "0": 148,
+      "1": 123,
+      "2": 129
+    },
+    "archiveReplays": 252,
+    "searchSeconds": 14.8898409
+  },
+  "Q-guided": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "visits": 124,
+    "slots": 3818,
+    "quotaContinuations": 0,
+    "completedOuterGenerations": 1,
+    "guideActionCounts": {
+      "0": 148,
+      "1": 123,
+      "2": 129
+    },
+    "archiveReplays": 252,
+    "searchSeconds": 15.612658101
+  },
+  "uniform-actions": {
+    "FE": {
+      "initialization": 100,
+      "global": 10000,
+      "inter": 586,
+      "intra": 489314
+    },
+    "visits": 124,
+    "slots": 3818,
+    "quotaContinuations": 1961,
+    "completedOuterGenerations": 1,
+    "guideActionCounts": {
+      "0": 124,
+      "1": 135,
+      "2": 141
+    },
+    "archiveReplays": 333,
+    "searchSeconds": 14.158629899
+  }
+}

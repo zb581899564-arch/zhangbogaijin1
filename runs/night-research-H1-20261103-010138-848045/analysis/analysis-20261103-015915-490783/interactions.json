@@ -1,0 +1,2268 @@
+{
+  "ELITE_refresh_x_sharing": {
+    "T": {
+      "name": "ELITE_refresh_x_sharing",
+      "formula": {
+        "name": "ELITE_refresh_x_sharing",
+        "positive": [
+          "SHARE_ELITE",
+          "SYNC_STATIC"
+        ],
+        "negative": [
+          "SYNC_ELITE",
+          "SHARE_STATIC"
+        ],
+        "normalizer": "SYNC_STATIC"
+      },
+      "field": "T",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.01603721341141644,
+          "normalizerMeanHV": 0.741166930674517,
+          "interactionPercent": 2.1637788664992628,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.8193845395691848,
+                "SYNC_STATIC": 0.7543909280601898,
+                "SYNC_ELITE": 0.7495197821861543,
+                "SHARE_STATIC": 0.7813346474558991
+              },
+              "rawInteractionHV": 0.042921037987321276
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.8171182937992982,
+                "SYNC_STATIC": 0.7243137323036786,
+                "SYNC_ELITE": 0.7472574988119225,
+                "SHARE_STATIC": 0.7696029480580239
+              },
+              "rawInteractionHV": 0.02457157923303055
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.8040974928491635,
+                "SYNC_STATIC": 0.7407112101418425,
+                "SYNC_ELITE": 0.7325336957446742,
+                "SHARE_STATIC": 0.7897356351965473
+              },
+              "rawInteractionHV": 0.0225393720497844
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.798759361414401,
+                "SYNC_STATIC": 0.7618155673164339,
+                "SYNC_ELITE": 0.7752497689226727,
+                "SHARE_STATIC": 0.7967989601341723
+              },
+              "rawInteractionHV": -0.011473800326010197
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.8095847245005209,
+                "SYNC_STATIC": 0.72460321555044,
+                "SYNC_ELITE": 0.7466322263623406,
+                "SHARE_STATIC": 0.7859278355756641
+              },
+              "rawInteractionHV": 0.0016278781129561715
+            }
+          ]
+        },
+        {
+          "instance": "20_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.019667491721418684,
+          "normalizerMeanHV": 0.4984385032695913,
+          "interactionPercent": 3.945821117832282,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.5324564983246535,
+                "SYNC_STATIC": 0.4992612007578344,
+                "SYNC_ELITE": 0.5075964267659746,
+                "SHARE_STATIC": 0.5027137379104595
+              },
+              "rawInteractionHV": 0.021407534406053808
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.518637884789402,
+                "SYNC_STATIC": 0.5019136427764116,
+                "SYNC_ELITE": 0.4988496971068094,
+                "SHARE_STATIC": 0.4964931525001204
+              },
+              "rawInteractionHV": 0.025208677958883707
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.5134015206821361,
+                "SYNC_STATIC": 0.5020374225860402,
+                "SYNC_ELITE": 0.5010313506349746,
+                "SHARE_STATIC": 0.49230203958133617
+              },
+              "rawInteractionHV": 0.022105553051865456
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.498027928309769,
+                "SYNC_STATIC": 0.48818842571869103,
+                "SYNC_ELITE": 0.5014698786381634,
+                "SHARE_STATIC": 0.4834154905114688
+              },
+              "rawInteractionHV": 0.0013309848788278789
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.5225503718449124,
+                "SYNC_STATIC": 0.5007918245089791,
+                "SYNC_ELITE": 0.49324325271024083,
+                "SHARE_STATIC": 0.5018142353321879
+              },
+              "rawInteractionHV": 0.02828470831146257
+            }
+          ]
+        },
+        {
+          "instance": "100_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.01725680998498249,
+          "normalizerMeanHV": 0.5474047562402978,
+          "interactionPercent": -3.1524771731079286,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.5862192861479679,
+                "SYNC_STATIC": 0.5427039435158811,
+                "SYNC_ELITE": 0.5447370813477703,
+                "SHARE_STATIC": 0.6291248787889919
+              },
+              "rawInteractionHV": -0.04493873047291297
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.6182334356925245,
+                "SYNC_STATIC": 0.5571597193276272,
+                "SYNC_ELITE": 0.536212821254973,
+                "SHARE_STATIC": 0.6321728145260219
+              },
+              "rawInteractionHV": 0.0070075192391567676
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.5939012374296792,
+                "SYNC_STATIC": 0.5405389629618682,
+                "SYNC_ELITE": 0.5473825198673227,
+                "SHARE_STATIC": 0.5756351983013526
+              },
+              "rawInteractionHV": 0.011422482222872343
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.610036176657957,
+                "SYNC_STATIC": 0.5512109736401315,
+                "SYNC_ELITE": 0.5516148413233624,
+                "SHARE_STATIC": 0.6253312723014199
+              },
+              "rawInteractionHV": -0.015698963326693738
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.5905219464466124,
+                "SYNC_STATIC": 0.5454101817559811,
+                "SYNC_ELITE": 0.5540894572464419,
+                "SHARE_STATIC": 0.6259190285434865
+              },
+              "rawInteractionHV": -0.04407635758733486
+            }
+          ]
+        },
+        {
+          "instance": "100_8_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.012064139964295562,
+          "normalizerMeanHV": 0.40357047215069286,
+          "interactionPercent": 2.989351500372114,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.40609187005618674,
+                "SYNC_STATIC": 0.39853434254830034,
+                "SYNC_ELITE": 0.3873838799759938,
+                "SHARE_STATIC": 0.39013664137823406
+              },
+              "rawInteractionHV": 0.0271056912502593
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.39924138323389546,
+                "SYNC_STATIC": 0.40697147177460735,
+                "SYNC_ELITE": 0.40144771776503224,
+                "SHARE_STATIC": 0.39875118284938166
+              },
+              "rawInteractionHV": 0.006013954394088916
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.4026713975959377,
+                "SYNC_STATIC": 0.4045539208858341,
+                "SYNC_ELITE": 0.3966613930107858,
+                "SHARE_STATIC": 0.39868900001081065
+              },
+              "rawInteractionHV": 0.011874925460175323
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.40058603761061806,
+                "SYNC_STATIC": 0.4059238346102545,
+                "SYNC_ELITE": 0.3955673962974704,
+                "SHARE_STATIC": 0.40500865059617286
+              },
+              "rawInteractionHV": 0.005933825327229303
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.4079727287466581,
+                "SYNC_STATIC": 0.40186879093446815,
+                "SYNC_ELITE": 0.4031366335384041,
+                "SHARE_STATIC": 0.397312582752997
+              },
+              "rawInteractionHV": 0.009392303389724965
+            }
+          ]
+        },
+        {
+          "instance": "200_5_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.0011115592852438017,
+          "normalizerMeanHV": 0.361408196783498,
+          "interactionPercent": -0.3075633854286051,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.35568467942821935,
+                "SYNC_STATIC": 0.3492433756020922,
+                "SYNC_ELITE": 0.35873365814952446,
+                "SHARE_STATIC": 0.35471591450305623
+              },
+              "rawInteractionHV": -0.008521517622269159
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.36506710650989477,
+                "SYNC_STATIC": 0.3602408351757912,
+                "SYNC_ELITE": 0.3601581515730369,
+                "SHARE_STATIC": 0.3597047468994854
+              },
+              "rawInteractionHV": 0.005445043213163747
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.34985699240788015,
+                "SYNC_STATIC": 0.3656583862621276,
+                "SYNC_ELITE": 0.3664305763163848,
+                "SHARE_STATIC": 0.35817499791365126
+              },
+              "rawInteractionHV": -0.009090195560028436
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.3654376275931624,
+                "SYNC_STATIC": 0.3592001604326386,
+                "SYNC_ELITE": 0.3622882339484239,
+                "SHARE_STATIC": 0.35669874219045394
+              },
+              "rawInteractionHV": 0.005650811886923179
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.3597148583253349,
+                "SYNC_STATIC": 0.3726982264448406,
+                "SYNC_ELITE": 0.36809838303604314,
+                "SHARE_STATIC": 0.3633566400781407
+              },
+              "rawInteractionHV": 0.0009580616559916599
+            }
+          ]
+        },
+        {
+          "instance": "200_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.006467404735074611,
+          "normalizerMeanHV": 0.32502804662492857,
+          "interactionPercent": 1.9897989734214472,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.3246546129820774,
+                "SYNC_STATIC": 0.3204781147861079,
+                "SYNC_ELITE": 0.32292612420860806,
+                "SHARE_STATIC": 0.3265985413535249
+              },
+              "rawInteractionHV": -0.004391937793947642
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.32091118047279765,
+                "SYNC_STATIC": 0.3222225675122955,
+                "SYNC_ELITE": 0.3250150137207478,
+                "SHARE_STATIC": 0.3213253895748359
+              },
+              "rawInteractionHV": -0.0032066553104905804
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.33471030897613785,
+                "SYNC_STATIC": 0.3275641178007462,
+                "SYNC_ELITE": 0.32054554318939316,
+                "SHARE_STATIC": 0.3312155703997029
+              },
+              "rawInteractionHV": 0.010513313187788031
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.3320260314818176,
+                "SYNC_STATIC": 0.3333231387263951,
+                "SYNC_ELITE": 0.32225731908088984,
+                "SHARE_STATIC": 0.3225073030609418
+              },
+              "rawInteractionHV": 0.020584548066380992
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.32601522708092634,
+                "SYNC_STATIC": 0.3215522942990981,
+                "SYNC_ELITE": 0.32140760063003526,
+                "SHARE_STATIC": 0.3173221652243469
+              },
+              "rawInteractionHV": 0.008837755525642255
+            }
+          ]
+        }
+      ],
+      "resolved": true,
+      "meanInteractionPercent": 1.2714516499314288,
+      "medianInteractionPercent": 2.076788919960355,
+      "positiveInstances": 4,
+      "scope": "Descriptive interaction on six development instances; separate from candidate admission"
+    },
+    "halfTime": {
+      "name": "ELITE_refresh_x_sharing",
+      "formula": {
+        "name": "ELITE_refresh_x_sharing",
+        "positive": [
+          "SHARE_ELITE",
+          "SYNC_STATIC"
+        ],
+        "negative": [
+          "SYNC_ELITE",
+          "SHARE_STATIC"
+        ],
+        "normalizer": "SYNC_STATIC"
+      },
+      "field": "halfTime",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.009370815514777097,
+          "normalizerMeanHV": 0.718383942828873,
+          "interactionPercent": 1.3044299790271523,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.7922519355449578,
+                "SYNC_STATIC": 0.7159467466176629,
+                "SYNC_ELITE": 0.7222905747298817,
+                "SHARE_STATIC": 0.7507512978171064
+              },
+              "rawInteractionHV": 0.03515680961563272
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.7741078064827492,
+                "SYNC_STATIC": 0.7116426236076718,
+                "SYNC_ELITE": 0.7284284312655516,
+                "SHARE_STATIC": 0.737155776473856
+              },
+              "rawInteractionHV": 0.020166222351013285
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.7688460116188691,
+                "SYNC_STATIC": 0.7208864071959463,
+                "SYNC_ELITE": 0.7075519335520253,
+                "SHARE_STATIC": 0.7580623011530493
+              },
+              "rawInteractionHV": 0.02411818410974087
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.7407733854314189,
+                "SYNC_STATIC": 0.7313237510184458,
+                "SYNC_ELITE": 0.7348416835595569,
+                "SHARE_STATIC": 0.7606980394948855
+              },
+              "rawInteractionHV": -0.023442586604577764
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.7659333160172664,
+                "SYNC_STATIC": 0.7121201857046379,
+                "SYNC_ELITE": 0.732308989629668,
+                "SHARE_STATIC": 0.75488906399016
+              },
+              "rawInteractionHV": -0.009144551897923625
+            }
+          ]
+        },
+        {
+          "instance": "20_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.012288060110881793,
+          "normalizerMeanHV": 0.4803066653003777,
+          "interactionPercent": 2.5583780110977634,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.5076639977025889,
+                "SYNC_STATIC": 0.48098749995781126,
+                "SYNC_ELITE": 0.4784413497395693,
+                "SHARE_STATIC": 0.4917758164756507
+              },
+              "rawInteractionHV": 0.01843433144518014
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.5051718149661314,
+                "SYNC_STATIC": 0.48052052323410666,
+                "SYNC_ELITE": 0.47565274267725083,
+                "SHARE_STATIC": 0.4900037548520334
+              },
+              "rawInteractionHV": 0.020035840670953764
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.49453268950484136,
+                "SYNC_STATIC": 0.48741941259075083,
+                "SYNC_ELITE": 0.4847141427393409,
+                "SHARE_STATIC": 0.48396027077253945
+              },
+              "rawInteractionHV": 0.01327768858371181
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.48241369888730845,
+                "SYNC_STATIC": 0.46627136681119774,
+                "SYNC_ELITE": 0.48507197852271,
+                "SHARE_STATIC": 0.4750930753282833
+              },
+              "rawInteractionHV": -0.011479988152487186
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.49408414816755547,
+                "SYNC_STATIC": 0.4863345239080216,
+                "SYNC_ELITE": 0.4750159067656094,
+                "SHARE_STATIC": 0.48423033730291726
+              },
+              "rawInteractionHV": 0.021172428007050437
+            }
+          ]
+        },
+        {
+          "instance": "100_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.01153919698550574,
+          "normalizerMeanHV": 0.5101552451395992,
+          "interactionPercent": -2.261899117071343,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.5800258995964337,
+                "SYNC_STATIC": 0.5107288957068968,
+                "SYNC_ELITE": 0.5121401966553261,
+                "SHARE_STATIC": 0.5849140232224992
+              },
+              "rawInteractionHV": -0.0062994245744947275
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.5680752295515552,
+                "SYNC_STATIC": 0.524520855473021,
+                "SYNC_ELITE": 0.5139070450946549,
+                "SHARE_STATIC": 0.5857176455045042
+              },
+              "rawInteractionHV": -0.007028605574582958
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.5490832722377587,
+                "SYNC_STATIC": 0.5095743058065392,
+                "SYNC_ELITE": 0.516901363159106,
+                "SHARE_STATIC": 0.5463736415875529
+              },
+              "rawInteractionHV": -0.004617426702360872
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.5771280978972183,
+                "SYNC_STATIC": 0.49769700862691246,
+                "SYNC_ELITE": 0.5173798027692225,
+                "SHARE_STATIC": 0.5720157012151765
+              },
+              "rawInteractionHV": -0.014570397460268225
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.5621900916067871,
+                "SYNC_STATIC": 0.5082551600846266,
+                "SYNC_ELITE": 0.5217369888100232,
+                "SHARE_STATIC": 0.5738883934972124
+              },
+              "rawInteractionHV": -0.025180130615821916
+            }
+          ]
+        },
+        {
+          "instance": "100_8_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.00847181869921867,
+          "normalizerMeanHV": 0.3845817707649247,
+          "interactionPercent": 2.202865383444568,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.3851935819221964,
+                "SYNC_STATIC": 0.3783951620313088,
+                "SYNC_ELITE": 0.36926175583407606,
+                "SHARE_STATIC": 0.3779083305204436
+              },
+              "rawInteractionHV": 0.01641865759898553
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.3823626575683385,
+                "SYNC_STATIC": 0.3897344814967334,
+                "SYNC_ELITE": 0.39408055412379456,
+                "SHARE_STATIC": 0.37972521846444773
+              },
+              "rawInteractionHV": -0.0017086335231704108
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.38172496635204356,
+                "SYNC_STATIC": 0.3896253858147882,
+                "SYNC_ELITE": 0.38069356256038545,
+                "SHARE_STATIC": 0.37643725834307207
+              },
+              "rawInteractionHV": 0.014219531263374274
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.386434819185388,
+                "SYNC_STATIC": 0.3812260675898641,
+                "SYNC_ELITE": 0.37561621079364094,
+                "SHARE_STATIC": 0.38438717225183466
+              },
+              "rawInteractionHV": 0.0076575037297765824
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.38924257150134967,
+                "SYNC_STATIC": 0.38392775689192915,
+                "SYNC_ELITE": 0.384258530536927,
+                "SHARE_STATIC": 0.3831397634292245
+              },
+              "rawInteractionHV": 0.0057720344271273705
+            }
+          ]
+        },
+        {
+          "instance": "200_5_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.001429286177314615,
+          "normalizerMeanHV": 0.3370996119088493,
+          "interactionPercent": 0.42399520106866495,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.33492583804669285,
+                "SYNC_STATIC": 0.33042812437533065,
+                "SYNC_ELITE": 0.33366473796127605,
+                "SHARE_STATIC": 0.3351323302894074
+              },
+              "rawInteractionHV": -0.0034431058286599203
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.3375114650960733,
+                "SYNC_STATIC": 0.32988802976000275,
+                "SYNC_ELITE": 0.3372135300247905,
+                "SHARE_STATIC": 0.33424848617899927
+              },
+              "rawInteractionHV": -0.004062521347713677
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.32929260268504346,
+                "SYNC_STATIC": 0.34006293436166474,
+                "SYNC_ELITE": 0.3428241885070279,
+                "SHARE_STATIC": 0.33463934977564735
+              },
+              "rawInteractionHV": -0.00810800123596711
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.344716930970474,
+                "SYNC_STATIC": 0.33668806466301837,
+                "SYNC_ELITE": 0.3332983266331798,
+                "SHARE_STATIC": 0.3364004051005398
+              },
+              "rawInteractionHV": 0.011706263899772806
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.34215298679856504,
+                "SYNC_STATIC": 0.3484309063842298,
+                "SYNC_ELITE": 0.34074486692112743,
+                "SHARE_STATIC": 0.3387852308625263
+              },
+              "rawInteractionHV": 0.011053795399140975
+            }
+          ]
+        },
+        {
+          "instance": "200_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.0016053677562523072,
+          "normalizerMeanHV": 0.31039333110912953,
+          "interactionPercent": 0.5172043324886657,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.31545693559217236,
+                "SYNC_STATIC": 0.30610506274604626,
+                "SYNC_ELITE": 0.31315472884017437,
+                "SHARE_STATIC": 0.3157508665676678
+              },
+              "rawInteractionHV": -0.00734359706962362
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.3112233474300984,
+                "SYNC_STATIC": 0.31081829843096154,
+                "SYNC_ELITE": 0.3104378286436309,
+                "SHARE_STATIC": 0.3087764199424886
+              },
+              "rawInteractionHV": 0.002827397274940413
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.3181781169246055,
+                "SYNC_STATIC": 0.3149560158093881,
+                "SYNC_ELITE": 0.3108796893415073,
+                "SHARE_STATIC": 0.32255836677318456
+              },
+              "rawInteractionHV": -0.0003039233806981789
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.32041315840280465,
+                "SYNC_STATIC": 0.311653594670418,
+                "SYNC_ELITE": 0.31236103109874364,
+                "SHARE_STATIC": 0.3106660329234622
+              },
+              "rawInteractionHV": 0.00903968905101693
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.31045557902903664,
+                "SYNC_STATIC": 0.30843368388883374,
+                "SYNC_ELITE": 0.310359617082155,
+                "SHARE_STATIC": 0.3047223729300894
+              },
+              "rawInteractionHV": 0.0038072729056259913
+            }
+          ]
+        }
+      ],
+      "resolved": true,
+      "meanInteractionPercent": 0.7908289650092453,
+      "medianInteractionPercent": 0.910817155757909,
+      "positiveInstances": 5,
+      "scope": "Descriptive interaction on six development instances; separate from candidate admission"
+    },
+    "FE15000": {
+      "name": "ELITE_refresh_x_sharing",
+      "formula": {
+        "name": "ELITE_refresh_x_sharing",
+        "positive": [
+          "SHARE_ELITE",
+          "SYNC_STATIC"
+        ],
+        "negative": [
+          "SYNC_ELITE",
+          "SHARE_STATIC"
+        ],
+        "normalizer": "SYNC_STATIC"
+      },
+      "field": "FE15000",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.0018047501544564248,
+          "normalizerMeanHV": 0.6954824760091121,
+          "interactionPercent": -0.2594961363818431,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.7527760681892633,
+                "SYNC_STATIC": 0.681572195873494,
+                "SYNC_ELITE": 0.6883929913933855,
+                "SHARE_STATIC": 0.7293520029411731
+              },
+              "rawInteractionHV": 0.01660326972819881
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.7164406425155284,
+                "SYNC_STATIC": 0.6945384107590824,
+                "SYNC_ELITE": 0.7087082161467542,
+                "SHARE_STATIC": 0.729411821553745
+              },
+              "rawInteractionHV": -0.027140984425888526
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.7407592266751108,
+                "SYNC_STATIC": 0.6909345141457566,
+                "SYNC_ELITE": 0.6871826297402991,
+                "SHARE_STATIC": 0.7445877151486934
+              },
+              "rawInteractionHV": -7.660406812504128e-05
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.7059764980739324,
+                "SYNC_STATIC": 0.7250157519008809,
+                "SYNC_ELITE": 0.7229913908437589,
+                "SHARE_STATIC": 0.6981147064383626
+              },
+              "rawInteractionHV": 0.009886152692691663
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.7300359342780298,
+                "SYNC_STATIC": 0.6853515073663465,
+                "SYNC_ELITE": 0.6836152039352242,
+                "SHARE_STATIC": 0.7400678224083111
+              },
+              "rawInteractionHV": -0.008295584699159031
+            }
+          ]
+        },
+        {
+          "instance": "20_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.005254980322942715,
+          "normalizerMeanHV": 0.470355779474812,
+          "interactionPercent": 1.1172351977497332,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.4970298276082064,
+                "SYNC_STATIC": 0.46556490581341203,
+                "SYNC_ELITE": 0.4693232349080151,
+                "SHARE_STATIC": 0.4821617983251435
+              },
+              "rawInteractionHV": 0.011109700188459914
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.4863236301680707,
+                "SYNC_STATIC": 0.47511647816260183,
+                "SYNC_ELITE": 0.47402692180169237,
+                "SHARE_STATIC": 0.4831905286466542
+              },
+              "rawInteractionHV": 0.0042226578823258976
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.4740522476277842,
+                "SYNC_STATIC": 0.4788793939837219,
+                "SYNC_ELITE": 0.4748822182651321,
+                "SHARE_STATIC": 0.47547445218259876
+              },
+              "rawInteractionHV": 0.0025749711637752526
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.4762931526216767,
+                "SYNC_STATIC": 0.46288483141871717,
+                "SYNC_ELITE": 0.4645112208470634,
+                "SHARE_STATIC": 0.4707893391858238
+              },
+              "rawInteractionHV": 0.00387742400750668
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.47770591782242705,
+                "SYNC_STATIC": 0.46933328799560703,
+                "SYNC_ELITE": 0.46880006940891816,
+                "SHARE_STATIC": 0.47374898803647014
+              },
+              "rawInteractionHV": 0.00449014837264583
+            }
+          ]
+        },
+        {
+          "instance": "100_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.005213128374699716,
+          "normalizerMeanHV": 0.50557742428334,
+          "interactionPercent": -1.031123646806296,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.5711746130435901,
+                "SYNC_STATIC": 0.49933582836149815,
+                "SYNC_ELITE": 0.4909506404363241,
+                "SHARE_STATIC": 0.5680377084484713
+              },
+              "rawInteractionHV": 0.01152209252029257
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.5555969054808239,
+                "SYNC_STATIC": 0.5179638733053977,
+                "SYNC_ELITE": 0.5131192271364332,
+                "SHARE_STATIC": 0.5617436001651652
+              },
+              "rawInteractionHV": -0.0013020485153767414
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.5331479047565925,
+                "SYNC_STATIC": 0.5075237558121866,
+                "SYNC_ELITE": 0.5161133007648444,
+                "SHARE_STATIC": 0.5380466992982487
+              },
+              "rawInteractionHV": -0.013488339494314161
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.5584450104234235,
+                "SYNC_STATIC": 0.4957172831308014,
+                "SYNC_ELITE": 0.5121602369515806,
+                "SHARE_STATIC": 0.5565139246566748
+              },
+              "rawInteractionHV": -0.014511868054030375
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.5432935550256442,
+                "SYNC_STATIC": 0.5073463808068157,
+                "SYNC_ELITE": 0.504445097019789,
+                "SHARE_STATIC": 0.5544803171427407
+              },
+              "rawInteractionHV": -0.008285478330069873
+            }
+          ]
+        },
+        {
+          "instance": "100_8_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.0034946998761801627,
+          "normalizerMeanHV": 0.37504039362533564,
+          "interactionPercent": 0.9318195947904637,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.37403084113310336,
+                "SYNC_STATIC": 0.36857566752341525,
+                "SYNC_ELITE": 0.36439533551869435,
+                "SHARE_STATIC": 0.3689078187714203
+              },
+              "rawInteractionHV": 0.009303354366403838
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.37239302235870914,
+                "SYNC_STATIC": 0.37933905765422327,
+                "SYNC_ELITE": 0.38092953110175765,
+                "SHARE_STATIC": 0.3755215897017274
+              },
+              "rawInteractionHV": -0.004719040790552631
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.3732948895206344,
+                "SYNC_STATIC": 0.37807976372853946,
+                "SYNC_ELITE": 0.37427365376622596,
+                "SHARE_STATIC": 0.3739247246673305
+              },
+              "rawInteractionHV": 0.0031762748156174414
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.3784901256084917,
+                "SYNC_STATIC": 0.3784290370392174,
+                "SYNC_ELITE": 0.37096723151409516,
+                "SHARE_STATIC": 0.37520358867857423
+              },
+              "rawInteractionHV": 0.01074834245503975
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.3734473876594431,
+                "SYNC_STATIC": 0.370778442181283,
+                "SYNC_ELITE": 0.37037668988587347,
+                "SHARE_STATIC": 0.3748845714204602
+              },
+              "rawInteractionHV": -0.0010354314656075836
+            }
+          ]
+        },
+        {
+          "instance": "200_5_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 4.292189479804254e-05,
+          "normalizerMeanHV": 0.32432340760022776,
+          "interactionPercent": 0.013234288303651998,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.32105193198168525,
+                "SYNC_STATIC": 0.3221164141582866,
+                "SYNC_ELITE": 0.32040852102309825,
+                "SHARE_STATIC": 0.3228175302091919
+              },
+              "rawInteractionHV": -5.7705092318283135e-05
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.3219820843875897,
+                "SYNC_STATIC": 0.31842381980329376,
+                "SYNC_ELITE": 0.32001859712903313,
+                "SHARE_STATIC": 0.3206982560157296
+              },
+              "rawInteractionHV": -0.00031094895387928645
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.31772782166429536,
+                "SYNC_STATIC": 0.3236322059346627,
+                "SYNC_ELITE": 0.3297590026249328,
+                "SHARE_STATIC": 0.3205112806451905
+              },
+              "rawInteractionHV": -0.008910255671165213
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.32679479415346074,
+                "SYNC_STATIC": 0.3235552087459603,
+                "SYNC_ELITE": 0.32672128471812123,
+                "SHARE_STATIC": 0.3239091232240017
+              },
+              "rawInteractionHV": -0.0002804050427019922
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.33001974747413815,
+                "SYNC_STATIC": 0.3338893893589355,
+                "SYNC_ELITE": 0.32981274009464845,
+                "SHARE_STATIC": 0.3243224725043702
+              },
+              "rawInteractionHV": 0.009773924234054987
+            }
+          ]
+        },
+        {
+          "instance": "200_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.0018231254052109014,
+          "normalizerMeanHV": 0.3045677275786834,
+          "interactionPercent": -0.5985944143539985,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_ELITE": 0.308306076493034,
+                "SYNC_STATIC": 0.3002709452342148,
+                "SYNC_ELITE": 0.30689990718059734,
+                "SHARE_STATIC": 0.3109079706073101
+              },
+              "rawInteractionHV": -0.009230856060658654
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_ELITE": 0.29894568642844727,
+                "SYNC_STATIC": 0.30522079880135594,
+                "SYNC_ELITE": 0.30323427332722774,
+                "SHARE_STATIC": 0.30031206591791115
+              },
+              "rawInteractionHV": 0.0006201459846643109
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_ELITE": 0.3123589797636366,
+                "SYNC_STATIC": 0.30488527728473974,
+                "SYNC_ELITE": 0.30837267546559266,
+                "SHARE_STATIC": 0.3138833838663887
+              },
+              "rawInteractionHV": -0.0050118022836050935
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_ELITE": 0.30326490355196173,
+                "SYNC_STATIC": 0.3062678444314861,
+                "SYNC_ELITE": 0.3070450557532193,
+                "SHARE_STATIC": 0.3053822002630895
+              },
+              "rawInteractionHV": -0.002894508032860954
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_ELITE": 0.30319666980889254,
+                "SYNC_STATIC": 0.30619377214162025,
+                "SYNC_ELITE": 0.30303298766044956,
+                "SHARE_STATIC": 0.29895606092365723
+              },
+              "rawInteractionHV": 0.007401393366405884
+            }
+          ]
+        }
+      ],
+      "resolved": true,
+      "meanInteractionPercent": 0.02884581388361854,
+      "medianInteractionPercent": -0.12313092403909555,
+      "positiveInstances": 3,
+      "scope": "Descriptive interaction on six development instances; separate from candidate admission"
+    }
+  },
+  "RANDOM_refresh_x_sharing": {
+    "T": {
+      "name": "RANDOM_refresh_x_sharing",
+      "formula": {
+        "name": "RANDOM_refresh_x_sharing",
+        "positive": [
+          "SHARE_RANDOM",
+          "SYNC_STATIC"
+        ],
+        "negative": [
+          "SYNC_RANDOM",
+          "SHARE_STATIC"
+        ],
+        "normalizer": "SYNC_STATIC"
+      },
+      "field": "T",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.0013100971919281612,
+          "normalizerMeanHV": 0.741166930674517,
+          "interactionPercent": 0.17676142009410423,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.786790534365335,
+                "SYNC_STATIC": 0.7543909280601898,
+                "SYNC_RANDOM": 0.7477486152507458,
+                "SHARE_STATIC": 0.7813346474558991
+              },
+              "rawInteractionHV": 0.012098199718880043
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.7930959894263734,
+                "SYNC_STATIC": 0.7243137323036786,
+                "SYNC_RANDOM": 0.7375652888857089,
+                "SHARE_STATIC": 0.7696029480580239
+              },
+              "rawInteractionHV": 0.010241484786319255
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.7932989218638297,
+                "SYNC_STATIC": 0.7407112101418425,
+                "SYNC_RANDOM": 0.7259897813990678,
+                "SHARE_STATIC": 0.7897356351965473
+              },
+              "rawInteractionHV": 0.01828471541005694
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.7755840522665305,
+                "SYNC_STATIC": 0.7618155673164339,
+                "SYNC_RANDOM": 0.7635623629164047,
+                "SHARE_STATIC": 0.7967989601341723
+              },
+              "rawInteractionHV": -0.022961703467612615
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.7989817927756349,
+                "SYNC_STATIC": 0.72460321555044,
+                "SYNC_RANDOM": 0.7487693832384136,
+                "SHARE_STATIC": 0.7859278355756641
+              },
+              "rawInteractionHV": -0.011112210488002816
+            }
+          ]
+        },
+        {
+          "instance": "20_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.010417468256812867,
+          "normalizerMeanHV": 0.4984385032695913,
+          "interactionPercent": 2.0900207725682765,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.515414900307432,
+                "SYNC_STATIC": 0.4992612007578344,
+                "SYNC_RANDOM": 0.4987483342913368,
+                "SHARE_STATIC": 0.5027137379104595
+              },
+              "rawInteractionHV": 0.01321402886347034
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.5149043752531475,
+                "SYNC_STATIC": 0.5019136427764116,
+                "SYNC_RANDOM": 0.5055632590261562,
+                "SHARE_STATIC": 0.4964931525001204
+              },
+              "rawInteractionHV": 0.014761606503282287
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.49885980058395285,
+                "SYNC_STATIC": 0.5020374225860402,
+                "SYNC_RANDOM": 0.4951883728948153,
+                "SHARE_STATIC": 0.49230203958133617
+              },
+              "rawInteractionHV": 0.013406810693841642
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.5070906450103612,
+                "SYNC_STATIC": 0.48818842571869103,
+                "SYNC_RANDOM": 0.4987133241651655,
+                "SHARE_STATIC": 0.4834154905114688
+              },
+              "rawInteractionHV": 0.01315025605241793
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.5055264202377353,
+                "SYNC_STATIC": 0.5007918245089791,
+                "SYNC_RANDOM": 0.5069493702434742,
+                "SHARE_STATIC": 0.5018142353321879
+              },
+              "rawInteractionHV": -0.0024453608289478623
+            }
+          ]
+        },
+        {
+          "instance": "100_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.027303132264025677,
+          "normalizerMeanHV": 0.5474047562402978,
+          "interactionPercent": -4.987741146341126,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.5832968543358995,
+                "SYNC_STATIC": 0.5427039435158811,
+                "SYNC_RANDOM": 0.546497775304671,
+                "SHARE_STATIC": 0.6291248787889919
+              },
+              "rawInteractionHV": -0.04962185624188242
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.6079899319245783,
+                "SYNC_STATIC": 0.5571597193276272,
+                "SYNC_RANDOM": 0.5558739675022466,
+                "SHARE_STATIC": 0.6321728145260219
+              },
+              "rawInteractionHV": -0.022897130776063035
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.5798814022832215,
+                "SYNC_STATIC": 0.5405389629618682,
+                "SYNC_RANDOM": 0.538955900870261,
+                "SHARE_STATIC": 0.5756351983013526
+              },
+              "rawInteractionHV": 0.005829266073476225
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.6047449177507785,
+                "SYNC_STATIC": 0.5512109736401315,
+                "SYNC_RANDOM": 0.5548183803840576,
+                "SHARE_STATIC": 0.6253312723014199
+              },
+              "rawInteractionHV": -0.024193761294567517
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.5789209322957344,
+                "SYNC_STATIC": 0.5454101817559811,
+                "SYNC_RANDOM": 0.5440442645893205,
+                "SHARE_STATIC": 0.6259190285434865
+              },
+              "rawInteractionHV": -0.04563217908109163
+            }
+          ]
+        },
+        {
+          "instance": "100_8_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.008584217240317993,
+          "normalizerMeanHV": 0.40357047215069286,
+          "interactionPercent": 2.1270677199378087,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.4089643543999494,
+                "SYNC_STATIC": 0.39853434254830034,
+                "SYNC_RANDOM": 0.396381612954752,
+                "SHARE_STATIC": 0.39013664137823406
+              },
+              "rawInteractionHV": 0.02098044261526366
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.402302477817288,
+                "SYNC_STATIC": 0.40697147177460735,
+                "SYNC_RANDOM": 0.40694862707470936,
+                "SHARE_STATIC": 0.39875118284938166
+              },
+              "rawInteractionHV": 0.003574139667804288
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.40093704213863185,
+                "SYNC_STATIC": 0.4045539208858341,
+                "SYNC_RANDOM": 0.4046547751441327,
+                "SHARE_STATIC": 0.39868900001081065
+              },
+              "rawInteractionHV": 0.0021471878695227264
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.4012021162531744,
+                "SYNC_STATIC": 0.4059238346102545,
+                "SYNC_RANDOM": 0.4035824312847473,
+                "SHARE_STATIC": 0.40500865059617286
+              },
+              "rawInteractionHV": -0.001465131017491128
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.4067198384264531,
+                "SYNC_STATIC": 0.40186879093446815,
+                "SYNC_RANDOM": 0.3935915995414338,
+                "SHARE_STATIC": 0.397312582752997
+              },
+              "rawInteractionHV": 0.017684447066490416
+            }
+          ]
+        },
+        {
+          "instance": "200_5_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.0013242759163769602,
+          "normalizerMeanHV": 0.361408196783498,
+          "interactionPercent": -0.36642110725846905,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.3584783224496272,
+                "SYNC_STATIC": 0.3492433756020922,
+                "SYNC_RANDOM": 0.3561661650365767,
+                "SHARE_STATIC": 0.35471591450305623
+              },
+              "rawInteractionHV": -0.003160381487913533
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.3590988985680298,
+                "SYNC_STATIC": 0.3602408351757912,
+                "SYNC_RANDOM": 0.36135539430755687,
+                "SHARE_STATIC": 0.3597047468994854
+              },
+              "rawInteractionHV": -0.0017204074632213295
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.365540929353425,
+                "SYNC_STATIC": 0.3656583862621276,
+                "SYNC_RANDOM": 0.36776376332106103,
+                "SHARE_STATIC": 0.35817499791365126
+              },
+              "rawInteractionHV": 0.005260554380840277
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.3596159198179828,
+                "SYNC_STATIC": 0.3592001604326386,
+                "SYNC_RANDOM": 0.3695905715846825,
+                "SHARE_STATIC": 0.35669874219045394
+              },
+              "rawInteractionHV": -0.007473233524515122
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.35915930213069625,
+                "SYNC_STATIC": 0.3726982264448406,
+                "SYNC_RANDOM": 0.36802879998447124,
+                "SHARE_STATIC": 0.3633566400781407
+              },
+              "rawInteractionHV": 0.0004720885129249064
+            }
+          ]
+        },
+        {
+          "instance": "200_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.004284999736822881,
+          "normalizerMeanHV": 0.32502804662492857,
+          "interactionPercent": 1.3183476876282085,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.3255875588979098,
+                "SYNC_STATIC": 0.3204781147861079,
+                "SYNC_RANDOM": 0.3236648082249051,
+                "SHARE_STATIC": 0.3265985413535249
+              },
+              "rawInteractionHV": -0.004197675894412334
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.3219329018738815,
+                "SYNC_STATIC": 0.3222225675122955,
+                "SYNC_RANDOM": 0.32562390726697843,
+                "SHARE_STATIC": 0.3213253895748359
+              },
+              "rawInteractionHV": -0.0027938274556372766
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.33358723762548104,
+                "SYNC_STATIC": 0.3275641178007462,
+                "SYNC_RANDOM": 0.3175803908037982,
+                "SHARE_STATIC": 0.3312155703997029
+              },
+              "rawInteractionHV": 0.012355394222726135
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.3233223597288782,
+                "SYNC_STATIC": 0.3333231387263951,
+                "SYNC_RANDOM": 0.32394099822864597,
+                "SHARE_STATIC": 0.3225073030609418
+              },
+              "rawInteractionHV": 0.010197197165685457
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.32175737952521416,
+                "SYNC_STATIC": 0.3215522942990981,
+                "SYNC_RANDOM": 0.3201235979542129,
+                "SHARE_STATIC": 0.3173221652243469
+              },
+              "rawInteractionHV": 0.005863910645752424
+            }
+          ]
+        }
+      ],
+      "resolved": true,
+      "meanInteractionPercent": 0.05967255777146721,
+      "medianInteractionPercent": 0.7475545538611563,
+      "positiveInstances": 4,
+      "scope": "Descriptive interaction on six development instances; separate from candidate admission"
+    },
+    "halfTime": {
+      "name": "RANDOM_refresh_x_sharing",
+      "formula": {
+        "name": "RANDOM_refresh_x_sharing",
+        "positive": [
+          "SHARE_RANDOM",
+          "SYNC_STATIC"
+        ],
+        "negative": [
+          "SYNC_RANDOM",
+          "SHARE_STATIC"
+        ],
+        "normalizer": "SYNC_STATIC"
+      },
+      "field": "halfTime",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.009565598111038432,
+          "normalizerMeanHV": 0.718383942828873,
+          "interactionPercent": 1.3315439754082954,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.7335302378390395,
+                "SYNC_STATIC": 0.7159467466176629,
+                "SYNC_RANDOM": 0.7153701930141898,
+                "SHARE_STATIC": 0.7507512978171064
+              },
+              "rawInteractionHV": -0.016644506374593915
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.7522741311867195,
+                "SYNC_STATIC": 0.7116426236076718,
+                "SYNC_RANDOM": 0.712494994984757,
+                "SHARE_STATIC": 0.737155776473856
+              },
+              "rawInteractionHV": 0.01426598333577811
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.782587758718787,
+                "SYNC_STATIC": 0.7208864071959463,
+                "SYNC_RANDOM": 0.6886822895539686,
+                "SHARE_STATIC": 0.7580623011530493
+              },
+              "rawInteractionHV": 0.05672957520771549
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.7510175920797155,
+                "SYNC_STATIC": 0.7313237510184458,
+                "SYNC_RANDOM": 0.7515831254676558,
+                "SHARE_STATIC": 0.7606980394948855
+              },
+              "rawInteractionHV": -0.029939821864379823
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.7802022320812375,
+                "SYNC_STATIC": 0.7121201857046379,
+                "SYNC_RANDOM": 0.7140165935450432,
+                "SHARE_STATIC": 0.75488906399016
+              },
+              "rawInteractionHV": 0.023416760250672297
+            }
+          ]
+        },
+        {
+          "instance": "20_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.00289017149991182,
+          "normalizerMeanHV": 0.4803066653003777,
+          "interactionPercent": 0.6017346226299698,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.4909179218778741,
+                "SYNC_STATIC": 0.48098749995781126,
+                "SYNC_RANDOM": 0.48588554784270505,
+                "SHARE_STATIC": 0.4917758164756507
+              },
+              "rawInteractionHV": -0.0057559424826705285
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.5002762995698918,
+                "SYNC_STATIC": 0.48052052323410666,
+                "SYNC_RANDOM": 0.48497304291412363,
+                "SHARE_STATIC": 0.4900037548520334
+              },
+              "rawInteractionHV": 0.005820025037841514
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.480674344161807,
+                "SYNC_STATIC": 0.48741941259075083,
+                "SYNC_RANDOM": 0.4826643943307264,
+                "SHARE_STATIC": 0.48396027077253945
+              },
+              "rawInteractionHV": 0.001469091649291987
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.4874518986133969,
+                "SYNC_STATIC": 0.46627136681119774,
+                "SYNC_RANDOM": 0.47761903981861786,
+                "SHARE_STATIC": 0.4750930753282833
+              },
+              "rawInteractionHV": 0.0010111502776934955
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.4864943435696152,
+                "SYNC_STATIC": 0.4863345239080216,
+                "SYNC_RANDOM": 0.4766919971573169,
+                "SHARE_STATIC": 0.48423033730291726
+              },
+              "rawInteractionHV": 0.011906533017402632
+            }
+          ]
+        },
+        {
+          "instance": "100_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.018476823681234756,
+          "normalizerMeanHV": 0.5101552451395992,
+          "interactionPercent": -3.621804118896934,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.5748186826287811,
+                "SYNC_STATIC": 0.5107288957068968,
+                "SYNC_RANDOM": 0.5173641599818803,
+                "SHARE_STATIC": 0.5849140232224992
+              },
+              "rawInteractionHV": -0.016730604868701482
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.5682699525579663,
+                "SYNC_STATIC": 0.524520855473021,
+                "SYNC_RANDOM": 0.5154108075062377,
+                "SHARE_STATIC": 0.5857176455045042
+              },
+              "rawInteractionHV": -0.008337644979754533
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.5425963119206324,
+                "SYNC_STATIC": 0.5095743058065392,
+                "SYNC_RANDOM": 0.5299041449102126,
+                "SHARE_STATIC": 0.5463736415875529
+              },
+              "rawInteractionHV": -0.024107168770594045
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.5641183949190571,
+                "SYNC_STATIC": 0.49769700862691246,
+                "SYNC_RANDOM": 0.5101213232844757,
+                "SHARE_STATIC": 0.5720157012151765
+              },
+              "rawInteractionHV": -0.020321620953682507
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.5624849234365528,
+                "SYNC_STATIC": 0.5082551600846266,
+                "SYNC_RANDOM": 0.519738768857408,
+                "SHARE_STATIC": 0.5738883934972124
+              },
+              "rawInteractionHV": -0.02288707883344121
+            }
+          ]
+        },
+        {
+          "instance": "100_8_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.005554728501478467,
+          "normalizerMeanHV": 0.3845817707649247,
+          "interactionPercent": 1.4443556413061998,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.38509128662717174,
+                "SYNC_STATIC": 0.3783951620313088,
+                "SYNC_RANDOM": 0.3824233998071339,
+                "SHARE_STATIC": 0.3779083305204436
+              },
+              "rawInteractionHV": 0.0031547183309029725
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.3849280180783653,
+                "SYNC_STATIC": 0.3897344814967334,
+                "SYNC_RANDOM": 0.38633013028083324,
+                "SHARE_STATIC": 0.37972521846444773
+              },
+              "rawInteractionHV": 0.008607150829817667
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.380316860413382,
+                "SYNC_STATIC": 0.3896253858147882,
+                "SYNC_RANDOM": 0.38665299727918573,
+                "SHARE_STATIC": 0.37643725834307207
+              },
+              "rawInteractionHV": 0.00685199060591235
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.38054949418465317,
+                "SYNC_STATIC": 0.3812260675898641,
+                "SYNC_RANDOM": 0.37478852816339847,
+                "SHARE_STATIC": 0.38438717225183466
+              },
+              "rawInteractionHV": 0.002599861359284139
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.38486106457247726,
+                "SYNC_STATIC": 0.38392775689192915,
+                "SYNC_RANDOM": 0.37908913665370675,
+                "SHARE_STATIC": 0.3831397634292245
+              },
+              "rawInteractionHV": 0.006559921381475209
+            }
+          ]
+        },
+        {
+          "instance": "200_5_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.007808499936703206,
+          "normalizerMeanHV": 0.3370996119088493,
+          "interactionPercent": -2.3163776109046963,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.3302872896192495,
+                "SYNC_STATIC": 0.33042812437533065,
+                "SYNC_RANDOM": 0.3310865026746455,
+                "SHARE_STATIC": 0.3351323302894074
+              },
+              "rawInteractionHV": -0.0055034189694728175
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.3325579451732438,
+                "SYNC_STATIC": 0.32988802976000275,
+                "SYNC_RANDOM": 0.34104804258037236,
+                "SHARE_STATIC": 0.33424848617899927
+              },
+              "rawInteractionHV": -0.0128505538261251
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.3314630054060641,
+                "SYNC_STATIC": 0.34006293436166474,
+                "SYNC_RANDOM": 0.3457656304861131,
+                "SHARE_STATIC": 0.33463934977564735
+              },
+              "rawInteractionHV": -0.008879040494031543
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.3306830918177581,
+                "SYNC_STATIC": 0.33668806466301837,
+                "SYNC_RANDOM": 0.3460972402617194,
+                "SHARE_STATIC": 0.3364004051005398
+              },
+              "rawInteractionHV": -0.015126488881482714
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.337720564938507,
+                "SYNC_STATIC": 0.3484309063842298,
+                "SYNC_RANDOM": 0.34404923797261433,
+                "SHARE_STATIC": 0.3387852308625263
+              },
+              "rawInteractionHV": 0.0033170024875961435
+            }
+          ]
+        },
+        {
+          "instance": "200_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.0004426895455251989,
+          "normalizerMeanHV": 0.31039333110912953,
+          "interactionPercent": 0.14262211882688808,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.31758740532898555,
+                "SYNC_STATIC": 0.30610506274604626,
+                "SYNC_RANDOM": 0.3036102222649401,
+                "SHARE_STATIC": 0.3157508665676678
+              },
+              "rawInteractionHV": 0.004331379242423772
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.30985140568022124,
+                "SYNC_STATIC": 0.31081829843096154,
+                "SYNC_RANDOM": 0.3093518046657075,
+                "SHARE_STATIC": 0.3087764199424886
+              },
+              "rawInteractionHV": 0.0025414795029867765
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.3176791852879878,
+                "SYNC_STATIC": 0.3149560158093881,
+                "SYNC_RANDOM": 0.311013829903925,
+                "SHARE_STATIC": 0.32255836677318456
+              },
+              "rawInteractionHV": -0.0009369955797335905
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.3076195492675218,
+                "SYNC_STATIC": 0.311653594670418,
+                "SYNC_RANDOM": 0.3127382522158363,
+                "SHARE_STATIC": 0.3106660329234622
+              },
+              "rawInteractionHV": -0.004131141201358712
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.31035447455486664,
+                "SYNC_STATIC": 0.30843368388883374,
+                "SYNC_RANDOM": 0.3136570597503032,
+                "SHARE_STATIC": 0.3047223729300894
+              },
+              "rawInteractionHV": 0.000408725763307749
+            }
+          ]
+        }
+      ],
+      "resolved": true,
+      "meanInteractionPercent": -0.4029875619383796,
+      "medianInteractionPercent": 0.37217837072842896,
+      "positiveInstances": 4,
+      "scope": "Descriptive interaction on six development instances; separate from candidate admission"
+    },
+    "FE15000": {
+      "name": "RANDOM_refresh_x_sharing",
+      "formula": {
+        "name": "RANDOM_refresh_x_sharing",
+        "positive": [
+          "SHARE_RANDOM",
+          "SYNC_STATIC"
+        ],
+        "negative": [
+          "SYNC_RANDOM",
+          "SHARE_STATIC"
+        ],
+        "normalizer": "SYNC_STATIC"
+      },
+      "field": "FE15000",
+      "instances": [
+        {
+          "instance": "20_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 5.008834442397081e-05,
+          "normalizerMeanHV": 0.6954824760091121,
+          "interactionPercent": 0.007201956361487757,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.7264262258929213,
+                "SYNC_STATIC": 0.681572195873494,
+                "SYNC_RANDOM": 0.6842939480447627,
+                "SHARE_STATIC": 0.7293520029411731
+              },
+              "rawInteractionHV": -0.005647529219520608
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.7146396658359153,
+                "SYNC_STATIC": 0.6945384107590824,
+                "SYNC_RANDOM": 0.6794676860309632,
+                "SHARE_STATIC": 0.729411821553745
+              },
+              "rawInteractionHV": 0.00029856901028946226
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.7452533988122385,
+                "SYNC_STATIC": 0.6909345141457566,
+                "SYNC_RANDOM": 0.6866934036848806,
+                "SHARE_STATIC": 0.7445877151486934
+              },
+              "rawInteractionHV": 0.004906794124421188
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.6968682295803892,
+                "SYNC_STATIC": 0.7250157519008809,
+                "SYNC_RANDOM": 0.7188670139674898,
+                "SHARE_STATIC": 0.6981147064383626
+              },
+              "rawInteractionHV": 0.004902261075417691
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.7292241480720542,
+                "SYNC_STATIC": 0.6853515073663465,
+                "SYNC_RANDOM": 0.6787174862985773,
+                "SHARE_STATIC": 0.7400678224083111
+              },
+              "rawInteractionHV": -0.0042096532684878785
+            }
+          ]
+        },
+        {
+          "instance": "20_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": 5.915970211423094e-05,
+          "normalizerMeanHV": 0.470355779474812,
+          "interactionPercent": 0.01257764966347118,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.48558212084449026,
+                "SYNC_STATIC": 0.46556490581341203,
+                "SYNC_RANDOM": 0.4685507987281426,
+                "SHARE_STATIC": 0.4821617983251435
+              },
+              "rawInteractionHV": 0.0004344296046161489
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.4861928406747188,
+                "SYNC_STATIC": 0.47511647816260183,
+                "SYNC_RANDOM": 0.4776843655844919,
+                "SHARE_STATIC": 0.4831905286466542
+              },
+              "rawInteractionHV": 0.0004344246061745993
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.4705620719008784,
+                "SYNC_STATIC": 0.4788793939837219,
+                "SYNC_RANDOM": 0.48017155433955283,
+                "SHARE_STATIC": 0.47547445218259876
+              },
+              "rawInteractionHV": -0.00620454063755127
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.4696839451696234,
+                "SYNC_STATIC": 0.46288483141871717,
+                "SYNC_RANDOM": 0.4610868865110835,
+                "SHARE_STATIC": 0.4707893391858238
+              },
+              "rawInteractionHV": 0.0006925508914332745
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.476672487865963,
+                "SYNC_STATIC": 0.46933328799560703,
+                "SYNC_RANDOM": 0.46731785377920154,
+                "SHARE_STATIC": 0.47374898803647014
+              },
+              "rawInteractionHV": 0.004938934045898402
+            }
+          ]
+        },
+        {
+          "instance": "100_2_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.007122837336786603,
+          "normalizerMeanHV": 0.50557742428334,
+          "interactionPercent": -1.4088519373433814,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.5736713852586349,
+                "SYNC_STATIC": 0.49933582836149815,
+                "SYNC_RANDOM": 0.4928253117337562,
+                "SHARE_STATIC": 0.5680377084484713
+              },
+              "rawInteractionHV": 0.012144193437905626
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.5502293157469847,
+                "SYNC_STATIC": 0.5179638733053977,
+                "SYNC_RANDOM": 0.511474091764918,
+                "SHARE_STATIC": 0.5617436001651652
+              },
+              "rawInteractionHV": -0.00502450287770051
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.535615095675677,
+                "SYNC_STATIC": 0.5075237558121866,
+                "SYNC_RANDOM": 0.5293011781488542,
+                "SHARE_STATIC": 0.5380466992982487
+              },
+              "rawInteractionHV": -0.024209025959239128
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.5400464641141911,
+                "SYNC_STATIC": 0.4957172831308014,
+                "SYNC_RANDOM": 0.5041769299100405,
+                "SHARE_STATIC": 0.5565139246566748
+              },
+              "rawInteractionHV": -0.024927107321722763
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.5572426579065017,
+                "SYNC_STATIC": 0.5073463808068157,
+                "SYNC_RANDOM": 0.503706465533753,
+                "SHARE_STATIC": 0.5544803171427407
+              },
+              "rawInteractionHV": 0.006402256036823761
+            }
+          ]
+        },
+        {
+          "instance": "100_8_3_1",
+          "available": true,
+          "rawMeanInteractionHV": 0.004958682771032263,
+          "normalizerMeanHV": 0.37504039362533564,
+          "interactionPercent": 1.3221729859813378,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.37422818939309077,
+                "SYNC_STATIC": 0.36857566752341525,
+                "SYNC_RANDOM": 0.36875210058994284,
+                "SHARE_STATIC": 0.3689078187714203
+              },
+              "rawInteractionHV": 0.0051439375551429745
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.37994170845221387,
+                "SYNC_STATIC": 0.37933905765422327,
+                "SYNC_RANDOM": 0.3756496990343806,
+                "SHARE_STATIC": 0.3755215897017274
+              },
+              "rawInteractionHV": 0.008109477370329188
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.3732117761848487,
+                "SYNC_STATIC": 0.37807976372853946,
+                "SYNC_RANDOM": 0.37703627029128284,
+                "SHARE_STATIC": 0.3739247246673305
+              },
+              "rawInteractionHV": 0.00033054495477480295
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.372377331920858,
+                "SYNC_STATIC": 0.3784290370392174,
+                "SYNC_RANDOM": 0.3723098369496949,
+                "SHARE_STATIC": 0.37520358867857423
+              },
+              "rawInteractionHV": 0.0032929433318061863
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.37910662207643603,
+                "SYNC_STATIC": 0.370778442181283,
+                "SYNC_RANDOM": 0.36708398219415067,
+                "SHARE_STATIC": 0.3748845714204602
+              },
+              "rawInteractionHV": 0.007916510643108166
+            }
+          ]
+        },
+        {
+          "instance": "200_5_3_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.0034551541671066443,
+          "normalizerMeanHV": 0.32432340760022776,
+          "interactionPercent": -1.0653422127845877,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.31696027506855745,
+                "SYNC_STATIC": 0.3221164141582866,
+                "SYNC_RANDOM": 0.3183740960589093,
+                "SHARE_STATIC": 0.3228175302091919
+              },
+              "rawInteractionHV": -0.0021149370412572033
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.3163949274468233,
+                "SYNC_STATIC": 0.31842381980329376,
+                "SYNC_RANDOM": 0.3204495595197326,
+                "SHARE_STATIC": 0.3206982560157296
+              },
+              "rawInteractionHV": -0.006329068285345185
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.31875919174798306,
+                "SYNC_STATIC": 0.3236322059346627,
+                "SYNC_RANDOM": 0.3272383088577683,
+                "SHARE_STATIC": 0.3205112806451905
+              },
+              "rawInteractionHV": -0.005358191820313052
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.3197491154990912,
+                "SYNC_STATIC": 0.3235552087459603,
+                "SYNC_RANDOM": 0.3274273158381129,
+                "SHARE_STATIC": 0.3239091232240017
+              },
+              "rawInteractionHV": -0.008032114817063118
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.32391422529375924,
+                "SYNC_STATIC": 0.3338893893589355,
+                "SYNC_RANDOM": 0.32892260101987914,
+                "SHARE_STATIC": 0.3243224725043702
+              },
+              "rawInteractionHV": 0.004558541128445337
+            }
+          ]
+        },
+        {
+          "instance": "200_8_5_1",
+          "available": true,
+          "rawMeanInteractionHV": -0.0008261429727960401,
+          "normalizerMeanHV": 0.3045677275786834,
+          "interactionPercent": -0.271250988856858,
+          "paired_seeds": [
+            {
+              "seed": 8111009,
+              "values": {
+                "SHARE_RANDOM": 0.3112208407269764,
+                "SYNC_STATIC": 0.3002709452342148,
+                "SYNC_RANDOM": 0.2993017741342304,
+                "SHARE_STATIC": 0.3109079706073101
+              },
+              "rawInteractionHV": 0.001282041219650698
+            },
+            {
+              "seed": 8111031,
+              "values": {
+                "SHARE_RANDOM": 0.30109344126556475,
+                "SYNC_STATIC": 0.30522079880135594,
+                "SYNC_RANDOM": 0.302529254017906,
+                "SHARE_STATIC": 0.30031206591791115
+              },
+              "rawInteractionHV": 0.003472920131103563
+            },
+            {
+              "seed": 8111053,
+              "values": {
+                "SHARE_RANDOM": 0.308998093231014,
+                "SYNC_STATIC": 0.30488527728473974,
+                "SYNC_RANDOM": 0.3080518919017664,
+                "SHARE_STATIC": 0.3138833838663887
+              },
+              "rawInteractionHV": -0.008051905252401292
+            },
+            {
+              "seed": 8111087,
+              "values": {
+                "SHARE_RANDOM": 0.30146762956638484,
+                "SYNC_STATIC": 0.3062678444314861,
+                "SYNC_RANDOM": 0.3046118661709837,
+                "SHARE_STATIC": 0.3053822002630895
+              },
+              "rawInteractionHV": -0.0022585924362023
+            },
+            {
+              "seed": 8111111,
+              "values": {
+                "SHARE_RANDOM": 0.30209791516918505,
+                "SYNC_STATIC": 0.30619377214162025,
+                "SYNC_RANDOM": 0.30791080491327893,
+                "SHARE_STATIC": 0.29895606092365723
+              },
+              "rawInteractionHV": 0.0014248214738691312
+            }
+          ]
+        }
+      ],
+      "resolved": true,
+      "meanInteractionPercent": -0.23391542449642175,
+      "medianInteractionPercent": -0.13202451624768513,
+      "positiveInstances": 3,
+      "scope": "Descriptive interaction on six development instances; separate from candidate admission"
+    }
+  }
+}

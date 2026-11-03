@@ -1,0 +1,229 @@
+{
+  "methods": [
+    {
+      "variant": "RANDOM_MOSAIC",
+      "mode": "MOSAIC_RANDOM",
+      "owners": 30,
+      "eligibleOpportunities": 118492,
+      "scheduledAttempts": 29528,
+      "sourceRandomDraws": 177168,
+      "paidTransfers": 29528,
+      "deadlineValidPaidTransfers": 29528,
+      "source0EncodingPreserved": 3883,
+      "source0TimelineMatched": 3883,
+      "otherFactoriesPreserved": 29528,
+      "pendingTransfers": 0,
+      "pooledLocalEncodingPreservedRate": 0.13150230289894338,
+      "pooledSourceTimelineMatchedRate": 0.13150230289894338,
+      "instanceMeanLocalEncodingPreservedRate": 0.13605881447821067,
+      "instanceMeanSourceTimelineMatchedRate": 0.13605881447821067,
+      "instances": [
+        {
+          "instance": "100_2_3_1",
+          "paidTransfers": 4232,
+          "localEncodingPreservedRate": 0.05458412098298677,
+          "sourceTimelineMatchedRate": 0.05458412098298677
+        },
+        {
+          "instance": "100_8_3_1",
+          "paidTransfers": 3984,
+          "localEncodingPreservedRate": 0.3017068273092369,
+          "sourceTimelineMatchedRate": 0.3017068273092369
+        },
+        {
+          "instance": "200_5_3_1",
+          "paidTransfers": 4220,
+          "localEncodingPreservedRate": 0.13744075829383887,
+          "sourceTimelineMatchedRate": 0.13744075829383887
+        },
+        {
+          "instance": "200_8_5_1",
+          "paidTransfers": 4116,
+          "localEncodingPreservedRate": 0.0847910592808552,
+          "sourceTimelineMatchedRate": 0.0847910592808552
+        },
+        {
+          "instance": "20_2_3_1",
+          "paidTransfers": 6716,
+          "localEncodingPreservedRate": 0.07057772483621202,
+          "sourceTimelineMatchedRate": 0.07057772483621202
+        },
+        {
+          "instance": "20_8_5_1",
+          "paidTransfers": 6260,
+          "localEncodingPreservedRate": 0.1672523961661342,
+          "sourceTimelineMatchedRate": 0.1672523961661342
+        }
+      ]
+    },
+    {
+      "variant": "RANDOM_PACKET",
+      "mode": "PACKET_RANDOM",
+      "owners": 30,
+      "eligibleOpportunities": 120720,
+      "scheduledAttempts": 30092,
+      "sourceRandomDraws": 180552,
+      "paidTransfers": 30092,
+      "deadlineValidPaidTransfers": 30092,
+      "source0EncodingPreserved": 30092,
+      "source0TimelineMatched": 30092,
+      "otherFactoriesPreserved": 30092,
+      "pendingTransfers": 0,
+      "pooledLocalEncodingPreservedRate": 1.0,
+      "pooledSourceTimelineMatchedRate": 1.0,
+      "instanceMeanLocalEncodingPreservedRate": 1.0,
+      "instanceMeanSourceTimelineMatchedRate": 1.0,
+      "instances": [
+        {
+          "instance": "100_2_3_1",
+          "paidTransfers": 4300,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "100_8_3_1",
+          "paidTransfers": 4028,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "200_5_3_1",
+          "paidTransfers": 4420,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "200_8_5_1",
+          "paidTransfers": 4228,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "20_2_3_1",
+          "paidTransfers": 6736,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "20_8_5_1",
+          "paidTransfers": 6380,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        }
+      ]
+    },
+    {
+      "variant": "ROLE_MOSAIC",
+      "mode": "MOSAIC_ROLE",
+      "owners": 30,
+      "eligibleOpportunities": 119426,
+      "scheduledAttempts": 29772,
+      "sourceRandomDraws": 178632,
+      "paidTransfers": 29772,
+      "deadlineValidPaidTransfers": 29772,
+      "source0EncodingPreserved": 4697,
+      "source0TimelineMatched": 4697,
+      "otherFactoriesPreserved": 29772,
+      "pendingTransfers": 0,
+      "pooledLocalEncodingPreservedRate": 0.15776568587934972,
+      "pooledSourceTimelineMatchedRate": 0.15776568587934972,
+      "instanceMeanLocalEncodingPreservedRate": 0.16519403316123124,
+      "instanceMeanSourceTimelineMatchedRate": 0.16519403316123124,
+      "instances": [
+        {
+          "instance": "100_2_3_1",
+          "paidTransfers": 4320,
+          "localEncodingPreservedRate": 0.09513888888888888,
+          "sourceTimelineMatchedRate": 0.09513888888888888
+        },
+        {
+          "instance": "100_8_3_1",
+          "paidTransfers": 3980,
+          "localEncodingPreservedRate": 0.3193467336683417,
+          "sourceTimelineMatchedRate": 0.3193467336683417
+        },
+        {
+          "instance": "200_5_3_1",
+          "paidTransfers": 4164,
+          "localEncodingPreservedRate": 0.1882804995196926,
+          "sourceTimelineMatchedRate": 0.1882804995196926
+        },
+        {
+          "instance": "200_8_5_1",
+          "paidTransfers": 4224,
+          "localEncodingPreservedRate": 0.12665719696969696,
+          "sourceTimelineMatchedRate": 0.12665719696969696
+        },
+        {
+          "instance": "20_2_3_1",
+          "paidTransfers": 6832,
+          "localEncodingPreservedRate": 0.10275175644028103,
+          "sourceTimelineMatchedRate": 0.10275175644028103
+        },
+        {
+          "instance": "20_8_5_1",
+          "paidTransfers": 6252,
+          "localEncodingPreservedRate": 0.15898912348048624,
+          "sourceTimelineMatchedRate": 0.15898912348048624
+        }
+      ]
+    },
+    {
+      "variant": "ROLE_PACKET",
+      "mode": "PACKET_ROLE",
+      "owners": 30,
+      "eligibleOpportunities": 120490,
+      "scheduledAttempts": 30028,
+      "sourceRandomDraws": 180168,
+      "paidTransfers": 30028,
+      "deadlineValidPaidTransfers": 30028,
+      "source0EncodingPreserved": 30028,
+      "source0TimelineMatched": 30028,
+      "otherFactoriesPreserved": 30028,
+      "pendingTransfers": 0,
+      "pooledLocalEncodingPreservedRate": 1.0,
+      "pooledSourceTimelineMatchedRate": 1.0,
+      "instanceMeanLocalEncodingPreservedRate": 1.0,
+      "instanceMeanSourceTimelineMatchedRate": 1.0,
+      "instances": [
+        {
+          "instance": "100_2_3_1",
+          "paidTransfers": 4336,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "100_8_3_1",
+          "paidTransfers": 3964,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "200_5_3_1",
+          "paidTransfers": 4224,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "200_8_5_1",
+          "paidTransfers": 4064,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "20_2_3_1",
+          "paidTransfers": 7084,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        },
+        {
+          "instance": "20_8_5_1",
+          "paidTransfers": 6356,
+          "localEncodingPreservedRate": 1.0,
+          "sourceTimelineMatchedRate": 1.0
+        }
+      ]
+    }
+  ],
+  "scope": "Full-search counts include late events; deadline-valid counts are separate. Preservation rates are descriptive witnesses, not quality or significance. Local encodings replayed independently; atomic timelines and other factories witnessed by accepted Java checks."
+}

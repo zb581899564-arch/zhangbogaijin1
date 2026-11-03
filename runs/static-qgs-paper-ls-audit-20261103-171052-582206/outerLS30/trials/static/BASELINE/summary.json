@@ -1,0 +1,14 @@
+{
+"baseline":"A0-sourced-reconstruction-v2",
+"modelProvenance":"benchmark=G:\\ai\\limingzhegaijin\\张博改进\\runs\\static-qgs-paper-ls-audit-20261103-171052-582206\\outerLS30\\inputs\\20_2_3_1.txt; standbyPower=1.0 (EXPLICIT RECONSTRUCTION ASSUMPTION, absent from instance); RECONSTRUCTED NOT AUTHOR DATA; numpy PCG64 discrete U[1,9]; seed=314159; file=G:\\ai\\limingzhegaijin\\张博改进\\runs\\static-qgs-paper-ls-audit-20261103-171052-582206\\outerLS30\\inputs\\RECONSTRUCTED-setup.txt; stage worker counts: thesis sec4.3, M=2 completed by supplied source code",
+"seed":8111009,
+"searchFeLimit":500000,
+"searchDecoderAttempts":500000,
+"successfulSearchEvaluations":500000,
+"failedSearchEvaluations":0,
+"offlineValidationDecodes":252,
+"archiveSize":252,
+"searchSecondsIncludingArchive":14.3184977,
+"diagnosticOnly":false,
+"searchConfig":"population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true"
+}

@@ -1,0 +1,53 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "FEPerTrial": 500000,
+  "checkpoints": [
+    100,
+    15000,
+    50000,
+    100000,
+    250000,
+    500000
+  ],
+  "formal": [
+    "current-share",
+    "deep-share",
+    "deep-nsga"
+  ],
+  "allocationRun": "allocation-record",
+  "inputs": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\long-budget-bridge-20261103-082221-744929\\inputs",
+  "localKernelSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\static-qgs-paper-ls-audit-20261103-171052-582206\\source\\LocalSearch.java",
+  "decoder": "frozen dynamic-append-v1 with exact incremental decoder; no evaluation cache bypass",
+  "matching": "Identical first 100 evaluated four vectors. Every 5000 global FE, 100 local visits with matched preference, factory, per-round paid quotas; repeat a naturally exhausted pass until its quota is used.",
+  "nsga": "Original 4V variation and NSGA-II selection; local preference slots only, no persistent families or sharing. At each block retain NSGA-II selection from the union of pre-local survivors and local results.",
+  "scope": "Single instance and seed, schedule frozen from deep SHARE allocation replay. Comparison of algorithm packages, not a separate causal contrast for four swarms. Record wall time, not a wall-time-controlled race.",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "HVReference": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "HVSensitivity": [
+    1.25,
+    2.0
+  ],
+  "IGDplusReference": "Nondominated union of the three formal terminal archives"
+}

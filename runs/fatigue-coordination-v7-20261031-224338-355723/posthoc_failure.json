@@ -1,0 +1,7 @@
+{
+  "phase": "posthoc interpretation, before any output committed",
+  "exception": "FileNotFoundError: N3-seed30416796/strong_fast_TEC_landscape.npz",
+  "cause": "controls seed field contained RNG seed rather than instance seed",
+  "action": "retain original controls; validate formula inversion with events and all5568 child objective mappings; write corrected parallel log; fix future return key to rng_seed",
+  "primary_experiment_failed": false
+}

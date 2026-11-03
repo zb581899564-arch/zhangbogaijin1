@@ -1,0 +1,27 @@
+{
+  "v8_run": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\fatigue-exchange-v8-20261031-230127-858222",
+  "byte_equal_sources": [
+    "fatigue_mechanism\\adjoint.py",
+    "fatigue_mechanism\\audit.py",
+    "fatigue_mechanism\\candidates.py",
+    "fatigue_mechanism\\case.py",
+    "fatigue_mechanism\\decoder.py",
+    "fatigue_mechanism\\experiment.py",
+    "fatigue_mechanism\\instances.py",
+    "fatigue_mechanism\\model.py",
+    "fatigue_mechanism\\prediction.py",
+    "fatigue_mechanism\\protocol.py",
+    "fatigue_mechanism\\reporting.py",
+    "fatigue_mechanism\\statistics.py",
+    "fatigue_mechanism\\timing.py",
+    "fatigue_mechanism\\validation.py",
+    "fatigue_mechanism\\__main__.py",
+    "fatigue_mechanism\\checks\\test_core.py",
+    "fatigue_mechanism\\checks\\test_prediction.py",
+    "fatigue_coordination\\instances.py",
+    "fatigue_coordination\\space.py",
+    "fatigue_coordination\\protocol.py",
+    "fatigue_exchange\\operators.py"
+  ],
+  "single_use_controls": "both rerun in v9 runner, not compared against v8 timing"
+}

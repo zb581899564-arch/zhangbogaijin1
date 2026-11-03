@@ -1,0 +1,577 @@
+{
+  "posthoc": true,
+  "new_decoder_calls": 0,
+  "counterexample": {
+    "parent": {
+      "queues": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "resources": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "atomic_swap": {
+      "queues": [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ],
+      "resources": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "N2_unique_endpoints": 27,
+    "all_N2_FA_unchanged": true,
+    "atomic_swap_outside_N2": true
+  },
+  "groups": [
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 3456,
+      "plain_components": 6912,
+      "empty_N1_components": 0,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 6912,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 3227,
+      "plain_components": 7370,
+      "empty_N1_components": 2,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 13824,
+      "empty_N1_components": 9
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 66574,
+      "empty_N1_components": 325
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 48,
+      "swap_attempts": 15989,
+      "plain_components": 33760,
+      "empty_N1_components": 150,
+      "atomic_singleton_accepted": 3
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 34375,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 29,
+      "swap_attempts": 16473,
+      "plain_components": 32924,
+      "empty_N1_components": 142,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 137716,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 267328,
+      "empty_N1_components": 1201
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 167,
+      "swap_attempts": 66078,
+      "plain_components": 132164,
+      "empty_N1_components": 592,
+      "atomic_singleton_accepted": 2
+    },
+    {
+      "model": "beta0",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 225,
+      "swap_attempts": 64833,
+      "plain_components": 134074,
+      "empty_N1_components": 514,
+      "atomic_singleton_accepted": 12
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 13824,
+      "empty_N1_components": 2
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 3227,
+      "plain_components": 7370,
+      "empty_N1_components": 3,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 6912,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 3456,
+      "plain_components": 6912,
+      "empty_N1_components": 0,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 66642,
+      "empty_N1_components": 92
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 16063,
+      "plain_components": 33900,
+      "empty_N1_components": 41,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 16484,
+      "plain_components": 32988,
+      "empty_N1_components": 14,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 34681,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 66124,
+      "plain_components": 132260,
+      "empty_N1_components": 108,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 266708,
+      "empty_N1_components": 624
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 138376,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 64917,
+      "plain_components": 134276,
+      "empty_N1_components": 167,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 6912,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 3456,
+      "atomic_singleton_accepted": 0,
+      "plain_components": 6912,
+      "empty_N1_components": 2
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 3227,
+      "atomic_singleton_accepted": 0,
+      "plain_components": 7370,
+      "empty_N1_components": 4
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "FE",
+      "seconds": null,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 13824,
+      "empty_N1_components": 3
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 16059,
+      "atomic_singleton_accepted": 0,
+      "plain_components": 33826,
+      "empty_N1_components": 24
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 34533,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 66630,
+      "empty_N1_components": 19
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 16479,
+      "atomic_singleton_accepted": 0,
+      "plain_components": 32968,
+      "empty_N1_components": 36
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 64923,
+      "atomic_singleton_accepted": 0,
+      "plain_components": 134186,
+      "empty_N1_components": 117
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 138267,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 266966,
+      "empty_N1_components": 116
+    },
+    {
+      "model": "strong_slow_recovery",
+      "target": "TEC",
+      "mode": "time",
+      "seconds": 2.0,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 65943,
+      "atomic_singleton_accepted": 0,
+      "plain_components": 131886,
+      "empty_N1_components": 131
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "balanced",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "plain",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "plain_components": 66174,
+      "empty_N1_components": 19
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "balanced",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_alternate",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 16402,
+      "plain_components": 32820,
+      "empty_N1_components": 7,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "balanced",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "mix_iid",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 15970,
+      "plain_components": 33672,
+      "empty_N1_components": 4,
+      "atomic_singleton_accepted": 0
+    },
+    {
+      "model": "strong_fast_recovery",
+      "target": "balanced",
+      "mode": "time",
+      "seconds": 0.5,
+      "method": "swap_rebind",
+      "initial_two_singletons": 0,
+      "runs": 108,
+      "atomic_singleton_attempts": 0,
+      "swap_attempts": 34519,
+      "atomic_singleton_accepted": 0
+    }
+  ],
+  "wall_ns": 14772325100,
+  "interpretation": "v9 subset only in audited tiny domain; counts do not imply novelty or causal gain"
+}

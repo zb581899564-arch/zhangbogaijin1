@@ -1,0 +1,76 @@
+{
+  "no_gains_used": true,
+  "rows": [
+    {
+      "instance": "20_2_3_1.txt",
+      "jobs": 20,
+      "family": "plain",
+      "median_generation_ns": 87050,
+      "median_decode_ns": 383750
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "jobs": 20,
+      "family": "swap_rebind",
+      "median_generation_ns": 40800,
+      "median_decode_ns": 306600
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "jobs": 50,
+      "family": "plain",
+      "median_generation_ns": 76050,
+      "median_decode_ns": 692750
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "jobs": 50,
+      "family": "swap_rebind",
+      "median_generation_ns": 44750,
+      "median_decode_ns": 682650
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "jobs": 100,
+      "family": "plain",
+      "median_generation_ns": 85850,
+      "median_decode_ns": 1332200
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "jobs": 100,
+      "family": "swap_rebind",
+      "median_generation_ns": 57600,
+      "median_decode_ns": 1287250
+    },
+    {
+      "instance": "150_5_3_1.txt",
+      "jobs": 150,
+      "family": "plain",
+      "median_generation_ns": 99700,
+      "median_decode_ns": 4962600
+    },
+    {
+      "instance": "150_5_3_1.txt",
+      "jobs": 150,
+      "family": "swap_rebind",
+      "median_generation_ns": 60800,
+      "median_decode_ns": 4947600
+    },
+    {
+      "instance": "200_5_3_1.txt",
+      "jobs": 200,
+      "family": "plain",
+      "median_generation_ns": 107750,
+      "median_decode_ns": 6431700
+    },
+    {
+      "instance": "200_5_3_1.txt",
+      "jobs": 200,
+      "family": "swap_rebind",
+      "median_generation_ns": 68650,
+      "median_decode_ns": 6606700
+    }
+  ],
+  "full_calls": 80
+}

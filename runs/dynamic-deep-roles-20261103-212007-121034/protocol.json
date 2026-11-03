@@ -1,0 +1,138 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "FEPerTrial": 500000,
+  "modes": {
+    "SPECIAL": "SHARE_JOB_ALIGNED",
+    "UNIFORM": "SHARE_JOB_ALIGNED_UNIFORM"
+  },
+  "allocation": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\dynamic-deep-local-20261103-184901-271850\\deep-share\\trials\\fatigue\\SHARE_JOB_ALIGNED\\local-ledger.csv",
+  "checkpoints": [
+    100,
+    850,
+    3600,
+    4350,
+    5100,
+    15000,
+    50000,
+    61149,
+    100000,
+    240000,
+    245000,
+    250000,
+    255000,
+    260000,
+    297524,
+    367711,
+    439878,
+    440628,
+    443378,
+    444128,
+    444878,
+    500000
+  ],
+  "phases": [
+    {
+      "phase": "init",
+      "start": 0,
+      "end": 100
+    },
+    {
+      "phase": "g1.MAKESPAN",
+      "start": 100,
+      "end": 850
+    },
+    {
+      "phase": "g1.CENTER",
+      "start": 850,
+      "end": 3600
+    },
+    {
+      "phase": "g1.ENERGY",
+      "start": 3600,
+      "end": 4350
+    },
+    {
+      "phase": "g1.WORKER_COST",
+      "start": 4350,
+      "end": 5100
+    },
+    {
+      "phase": "l1.MAKESPAN",
+      "start": 5100,
+      "end": 61149
+    },
+    {
+      "phase": "l1.CENTER",
+      "start": 61149,
+      "end": 297524
+    },
+    {
+      "phase": "l1.ENERGY",
+      "start": 297524,
+      "end": 367711
+    },
+    {
+      "phase": "l1.WORKER_COST",
+      "start": 367711,
+      "end": 439878
+    },
+    {
+      "phase": "g2.MAKESPAN",
+      "start": 439878,
+      "end": 440628
+    },
+    {
+      "phase": "g2.CENTER",
+      "start": 440628,
+      "end": 443378
+    },
+    {
+      "phase": "g2.ENERGY",
+      "start": 443378,
+      "end": 444128
+    },
+    {
+      "phase": "g2.WORKER_COST",
+      "start": 444128,
+      "end": 444878
+    },
+    {
+      "phase": "l2.MAKESPAN",
+      "start": 444878,
+      "end": 500000
+    }
+  ],
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "HVReference": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "HVSensitivity": [
+    1.25,
+    2.0
+  ],
+  "IGDplusReference": "Nondominated union of the two formal terminal archives",
+  "comparison": "Only the registered objective-role switch changes. Both retain four physical subgroups, independent QGS tables, fixed families, sharing and per-slot local FE and factories.",
+  "scope": "Joint effect of objective roles across grouping, guidance, reward and local selection. One seed on frozen SPECIAL quotas, not an isolated component effect within a particular stage.",
+  "contextComparator": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\dynamic-deep-local-20261103-184901-271850\\deep-nsga\\trials\\fatigue\\NSGA2_4V",
+  "contextComparatorNewFE": 0
+}

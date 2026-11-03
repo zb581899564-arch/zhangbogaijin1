@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "realEntryChecks": [
+    {
+      "instance": "20_2_3_1",
+      "variant": "SYNC_ORIGINAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SYNC_LAST",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_ORIGINAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_LAST",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SYNC_ORIGINAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SYNC_LAST",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_ORIGINAL",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_LAST",
+      "FE": 20000,
+      "frozenControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "frozenControlByteExact": true
+    }
+  ],
+  "metadataDoesNotAffectPoolChoice": true,
+  "originalControlsMatchFrozen": true,
+  "centerOffsetsVerified": true,
+  "fullGenerationOpportunitiesVerified": true,
+  "PDDRAndFamilyQuotasReplayed": true,
+  "paidFragmentProvenanceVerified": true,
+  "timeInterruptions": [
+    "SYNC_ORIGINAL",
+    "SYNC_LAST",
+    "SHARE_ORIGINAL",
+    "SHARE_LAST",
+    "NSGA"
+  ],
+  "qualitySelectedParameters": false
+}

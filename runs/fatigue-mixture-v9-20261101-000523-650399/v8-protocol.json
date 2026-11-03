@@ -1,0 +1,98 @@
+{
+  "version": "fatigue-exchange-v8",
+  "prior_run": "fatigue-coordination-v7-20261031-224338-355723",
+  "development": {
+    "jobs": [
+      3,
+      4
+    ],
+    "seeds": [
+      17417,
+      34841,
+      69709,
+      139429
+    ]
+  },
+  "confirmation": {
+    "jobs": [
+      4
+    ],
+    "seeds": [
+      271003,
+      542027,
+      1084069,
+      2168143
+    ]
+  },
+  "model_generation": "v7 numeric/fatigue generator unchanged, seed+1000003*N, heterogeneity+271828",
+  "models": [
+    "beta0",
+    "strong_fast",
+    "strong_slow"
+  ],
+  "target": "TEC",
+  "epsilon": 1e-10,
+  "coverage": "all states in union of TEC strict barriers across three models; exact N2 and four ordinary families, offline saved tables only",
+  "panel": "two parents per instance: fixed-seed uniform draw from union TEC strict barriers (fallback all states), plus uniform all-space draw; no redraw when coincident; same parents across models",
+  "panel_seed": 20261201,
+  "search_seeds": [
+    92821,
+    185681,
+    371387
+  ],
+  "snapshot_pool_size": 8,
+  "methods": [
+    "plain",
+    "rebind",
+    "swap",
+    "swap_rebind",
+    "pool_random",
+    "pool_cheap",
+    "pool_time",
+    "pool_fatigue"
+  ],
+  "operators": {
+    "plain": "uniform directed different-job pair, uniform strong N1 of first then second; same as v7 ordinary composite",
+    "rebind": "uniform unordered job pair, uniform15 resource-tuples excluding both unchanged, factories/order fixed",
+    "swap": "uniform cross-factory unordered job pair, exchange exact queue positions; keep each job's own local machine/worker ids",
+    "swap_rebind": "same position exchange plus independent uniform4 first-stage resource choices per moved job"
+  },
+  "scoring": "pool_* all draw8 swap_rebind candidates with replacement and no filtering; same pool seed per step; time/fatigue use same exact full-stage0 reconstruction and receiver-boundary engine, only fatigue costates differ; cheap uses existing local_time defects; random pays same8 proposals",
+  "parent_trace": "minimal for plain/rebind/swap/swap_rebind/pool_random; full trace for all scoring methods, cost paid",
+  "FE": "one paid parent+32 paid full child calls=33FE for every method; partial-stage0 calls separately counted; duplicates/noops still paid",
+  "time_seconds": [
+    0.02,
+    0.08
+  ],
+  "deadline": "starts before RNG/parent decode; generation/cache/scoring/true child/decision bookkeeping count; late child charged but cannot improve returned solution; record overrun and calls",
+  "acceptance": "strict TEC improvement in initial-parent normalized units >1e-10; invalidate parent scoring cache only after acceptance",
+  "snapshot": "all3 seeds at same fixed parent and8 exact same legal proposals; three scorers+random; pay all8 true children once, no feedback to search; report ranking/regret independently from search cost",
+  "primary": "confirmation N4 strong_fast TEC; same-FE and .02/.08s separate; barriers/uniform strata separate",
+  "comparisons": [
+    [
+      "swap_rebind",
+      "plain"
+    ],
+    [
+      "swap_rebind",
+      "swap"
+    ],
+    [
+      "pool_fatigue",
+      "pool_time"
+    ],
+    [
+      "pool_fatigue",
+      "pool_random"
+    ],
+    [
+      "pool_fatigue",
+      "pool_cheap"
+    ]
+  ],
+  "statistics": "average3 seeds within each parent then two parents within each instance; paired effect across4 confirmation instances, win/tie/loss, no state-level p-values or significance claim; development descriptive only",
+  "ordering": "shuffle method order by fixed independent scheduling seed per matched block; modes FE,.02,.08 interleaved per block; one process, BLAS threads1",
+  "cost_boundary": "input loading/offline coverage/snapshot/QA/JSON file writes separately counted, never feed online chain; in-memory decision records paid, disk serialization outside clocks for all methods",
+  "preservation": "fresh directory, protocol/source/input/graphs/tables/coverage/snapshots/full decision streams/all failures/costs; no Java/shared decoder edits",
+  "no_tuning": true
+}

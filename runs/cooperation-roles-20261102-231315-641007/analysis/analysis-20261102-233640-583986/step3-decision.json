@@ -1,0 +1,1016 @@
+{
+  "status": "ELIGIBLE_FIXED_DEMAND_VALIDATION",
+  "gateSatisfied": true,
+  "passingInstances": 5,
+  "requiredInstances": 3,
+  "instances": [
+    {
+      "instance": "20_2_3_1",
+      "passingSeeds": 1,
+      "requiredSeeds": 3,
+      "passesInstanceGate": false,
+      "seeds": [
+        8110301
+      ]
+    },
+    {
+      "instance": "20_8_5_1",
+      "passingSeeds": 5,
+      "requiredSeeds": 3,
+      "passesInstanceGate": true,
+      "seeds": [
+        8110301,
+        8110319,
+        8110341,
+        8110367,
+        8110393
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "passingSeeds": 3,
+      "requiredSeeds": 3,
+      "passesInstanceGate": true,
+      "seeds": [
+        8110301,
+        8110319,
+        8110393
+      ]
+    },
+    {
+      "instance": "100_8_3_1",
+      "passingSeeds": 5,
+      "requiredSeeds": 3,
+      "passesInstanceGate": true,
+      "seeds": [
+        8110301,
+        8110319,
+        8110341,
+        8110367,
+        8110393
+      ]
+    },
+    {
+      "instance": "200_5_3_1",
+      "passingSeeds": 5,
+      "requiredSeeds": 3,
+      "passesInstanceGate": true,
+      "seeds": [
+        8110301,
+        8110319,
+        8110341,
+        8110367,
+        8110393
+      ]
+    },
+    {
+      "instance": "200_8_5_1",
+      "passingSeeds": 5,
+      "requiredSeeds": 3,
+      "passesInstanceGate": true,
+      "seeds": [
+        8110301,
+        8110319,
+        8110341,
+        8110367,
+        8110393
+      ]
+    }
+  ],
+  "seedConditions": [
+    {
+      "instance": "20_2_3_1",
+      "seed": 8110301,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_2_3_1\\8110301\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 1000,
+      "tightRequests": 336,
+      "tightRequestsMissingFactory": 69,
+      "missingPerTight": 0.20535714285714285,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "seed": 8110319,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_2_3_1\\8110319\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 1000,
+      "tightRequests": 336,
+      "tightRequestsMissingFactory": 65,
+      "missingPerTight": 0.19345238095238096,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        993,
+        995,
+        996,
+        997,
+        998,
+        999,
+        1000
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": false,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "seed": 8110341,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_2_3_1\\8110341\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 900,
+      "tightRequests": 300,
+      "tightRequestsMissingFactory": 46,
+      "missingPerTight": 0.15333333333333332,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        893,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": false,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "seed": 8110367,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_2_3_1\\8110367\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 19,
+      "missingPerTight": 0.09313725490196079,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": false,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "seed": 8110393,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_2_3_1\\8110393\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 900,
+      "tightRequests": 300,
+      "tightRequestsMissingFactory": 13,
+      "missingPerTight": 0.043333333333333335,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        893,
+        894,
+        896,
+        897,
+        898,
+        900
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": false,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": false
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 8110301,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_8_5_1\\8110301\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 800,
+      "tightRequests": 272,
+      "tightRequestsMissingFactory": 138,
+      "missingPerTight": 0.5073529411764706,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 8110319,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_8_5_1\\8110319\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 900,
+      "tightRequests": 300,
+      "tightRequestsMissingFactory": 212,
+      "missingPerTight": 0.7066666666666667,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        4,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 8110341,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_8_5_1\\8110341\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 740,
+      "tightRequests": 252,
+      "tightRequestsMissingFactory": 175,
+      "missingPerTight": 0.6944444444444444,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        4,
+        5,
+        8,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 8110367,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_8_5_1\\8110367\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 116,
+      "missingPerTight": 0.5686274509803921,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        2,
+        5,
+        593,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 8110393,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\20_8_5_1\\8110393\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 800,
+      "tightRequests": 272,
+      "tightRequestsMissingFactory": 200,
+      "missingPerTight": 0.7352941176470589,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        7,
+        799
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 8110301,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_2_3_1\\8110301\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 45,
+      "missingPerTight": 0.22058823529411764,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        593,
+        594,
+        595,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 8110319,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_2_3_1\\8110319\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 44,
+      "missingPerTight": 0.21568627450980393,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        593,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 8110341,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_2_3_1\\8110341\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 686,
+      "tightRequests": 230,
+      "tightRequestsMissingFactory": 31,
+      "missingPerTight": 0.13478260869565217,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        679,
+        681,
+        682,
+        684,
+        685,
+        686
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": false,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": false
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 8110367,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_2_3_1\\8110367\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 620,
+      "tightRequests": 212,
+      "tightRequestsMissingFactory": 34,
+      "missingPerTight": 0.16037735849056603,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        4,
+        5,
+        613,
+        614,
+        615,
+        616,
+        618,
+        620
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": false,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": false
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 8110393,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_2_3_1\\8110393\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 44,
+      "missingPerTight": 0.21568627450980393,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        593,
+        594,
+        595,
+        596,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_8_3_1",
+      "seed": 8110301,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_8_3_1\\8110301\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        594,
+        595,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_8_3_1",
+      "seed": 8110319,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_8_3_1\\8110319\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        595,
+        597,
+        598,
+        599
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_8_3_1",
+      "seed": 8110341,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_8_3_1\\8110341\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_8_3_1",
+      "seed": 8110367,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_8_3_1\\8110367\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 560,
+      "tightRequests": 192,
+      "tightRequestsMissingFactory": 192,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "100_8_3_1",
+      "seed": 8110393,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\100_8_3_1\\8110393\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 500,
+      "tightRequests": 168,
+      "tightRequestsMissingFactory": 168,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_5_3_1",
+      "seed": 8110301,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_5_3_1\\8110301\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        597,
+        598
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_5_3_1",
+      "seed": 8110319,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_5_3_1\\8110319\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_5_3_1",
+      "seed": 8110341,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_5_3_1\\8110341\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_5_3_1",
+      "seed": 8110367,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_5_3_1\\8110367\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_5_3_1",
+      "seed": 8110393,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_5_3_1\\8110393\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 204,
+      "missingPerTight": 1.0,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        593,
+        594,
+        596,
+        597,
+        598,
+        599
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "seed": 8110301,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_8_5_1\\8110301\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 131,
+      "missingPerTight": 0.6421568627450981,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        7,
+        8,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "seed": 8110319,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_8_5_1\\8110319\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 700,
+      "tightRequests": 240,
+      "tightRequestsMissingFactory": 135,
+      "missingPerTight": 0.5625,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        3,
+        4,
+        694,
+        697,
+        698,
+        699,
+        700
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "seed": 8110341,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_8_5_1\\8110341\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 124,
+      "missingPerTight": 0.6078431372549019,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        1,
+        2,
+        6,
+        593,
+        594,
+        595,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "seed": 8110367,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_8_5_1\\8110367\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 118,
+      "missingPerTight": 0.5784313725490197,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        2,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "seed": 8110393,
+      "variant": "SHARE_SPECIAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\cooperation-roles-20261102-231315-641007\\trials\\roles\\200_8_5_1\\8110393\\SHARE_SPECIAL/cooperation-evidence.jsonl",
+      "counterEvidenceAvailable": true,
+      "normalRequests": 600,
+      "tightRequests": 204,
+      "tightRequestsMissingFactory": 131,
+      "missingPerTight": 0.6421568627450981,
+      "snapshotEvidenceAvailable": true,
+      "capturedSnapshots": 16,
+      "genuineComplementarityRequests": [
+        4,
+        5,
+        593,
+        595,
+        597,
+        599
+      ],
+      "conditions": {
+        "normalRequestsAtLeast10": true,
+        "tightRequestsAtLeast3": true,
+        "missingFactoryPerTightAtLeast20Percent": true,
+        "genuineComplementaritySnapshotObserved": true
+      },
+      "passesAllConditions": true
+    }
+  ],
+  "step3PerformanceStarted": false,
+  "automaticDispatch": false,
+  "baselineRequirement": "A sample must beat parent and best cap-feasible paid whole source by>=0.1%; at least two chosen paidFE",
+  "scope": "resource-investment gate; bounded retained pools only; no final HV or whole-group causal attribution",
+  "missingEvidence": "Never imputed as zero or used as a passing denominator"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "chapter": 3,
+      "status": "PASS",
+      "log": "SearchChecks-chapter3.log"
+    },
+    {
+      "chapter": 4,
+      "status": "PASS",
+      "log": "SearchChecks-chapter4.log"
+    }
+  ],
+  "scope": "Default factory hook and shared search regression only"
+}

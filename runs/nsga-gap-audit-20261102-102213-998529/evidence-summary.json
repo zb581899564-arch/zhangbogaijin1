@@ -1,0 +1,91 @@
+{
+  "instanceComparisons": [
+    {
+      "instance": "20_2_3_1",
+      "BASELINE_meanFE": 98365.6,
+      "SHARE_meanFE": 92201.2,
+      "NSGA2_4V_meanFE": 124732.2,
+      "SHARE_FE_vs_NSGA2_percent": -26.080675238631244,
+      "BASELINE_NSGA2_coverage_percent": 93.44700460829493,
+      "BASELINE_reverse_coverage_percent": 4.024390243902439,
+      "SHARE_NSGA2_coverage_percent": 75.43326942902424,
+      "SHARE_reverse_coverage_percent": 8.931623263337423,
+      "VALUE_SHARE_NSGA2_coverage_percent": 62.72714792655343,
+      "VALUE_SHARE_reverse_coverage_percent": 9.607669414702563
+    },
+    {
+      "instance": "20_8_5_1",
+      "BASELINE_meanFE": 88048.8,
+      "SHARE_meanFE": 86068,
+      "NSGA2_4V_meanFE": 87673.6,
+      "SHARE_FE_vs_NSGA2_percent": -1.8313380538725554,
+      "BASELINE_NSGA2_coverage_percent": 100.0,
+      "BASELINE_reverse_coverage_percent": 0.0,
+      "SHARE_NSGA2_coverage_percent": 99.70588235294117,
+      "SHARE_reverse_coverage_percent": 0.0,
+      "VALUE_SHARE_NSGA2_coverage_percent": 100.0,
+      "VALUE_SHARE_reverse_coverage_percent": 0.0
+    },
+    {
+      "instance": "100_2_3_1",
+      "BASELINE_meanFE": 55316,
+      "SHARE_meanFE": 56364,
+      "NSGA2_4V_meanFE": 66416,
+      "SHARE_FE_vs_NSGA2_percent": -15.134907251264751,
+      "BASELINE_NSGA2_coverage_percent": 99.90783410138249,
+      "BASELINE_reverse_coverage_percent": 0.0,
+      "SHARE_NSGA2_coverage_percent": 53.59862631921456,
+      "SHARE_reverse_coverage_percent": 38.85081723762613,
+      "VALUE_SHARE_NSGA2_coverage_percent": 42.10363220665296,
+      "VALUE_SHARE_reverse_coverage_percent": 45.82068835337555
+    },
+    {
+      "instance": "100_8_3_1",
+      "BASELINE_meanFE": 56340,
+      "SHARE_meanFE": 55973.6,
+      "NSGA2_4V_meanFE": 53467.8,
+      "SHARE_FE_vs_NSGA2_percent": 4.686559013088232,
+      "BASELINE_NSGA2_coverage_percent": 100.0,
+      "BASELINE_reverse_coverage_percent": 0.0,
+      "SHARE_NSGA2_coverage_percent": 100.0,
+      "SHARE_reverse_coverage_percent": 0.0,
+      "VALUE_SHARE_NSGA2_coverage_percent": 100.0,
+      "VALUE_SHARE_reverse_coverage_percent": 0.0
+    },
+    {
+      "instance": "200_5_3_1",
+      "BASELINE_meanFE": 61630.2,
+      "SHARE_meanFE": 58851.6,
+      "NSGA2_4V_meanFE": 53822.8,
+      "SHARE_FE_vs_NSGA2_percent": 9.343252301998394,
+      "BASELINE_NSGA2_coverage_percent": 100.0,
+      "BASELINE_reverse_coverage_percent": 0.0,
+      "SHARE_NSGA2_coverage_percent": 100.0,
+      "SHARE_reverse_coverage_percent": 0.0,
+      "VALUE_SHARE_NSGA2_coverage_percent": 100.0,
+      "VALUE_SHARE_reverse_coverage_percent": 0.0
+    },
+    {
+      "instance": "200_8_5_1",
+      "BASELINE_meanFE": 57115.8,
+      "SHARE_meanFE": 58602.6,
+      "NSGA2_4V_meanFE": 55546.2,
+      "SHARE_FE_vs_NSGA2_percent": 5.502446612009471,
+      "BASELINE_NSGA2_coverage_percent": 98.55530860214657,
+      "BASELINE_reverse_coverage_percent": 0.411522633744856,
+      "SHARE_NSGA2_coverage_percent": 97.80229134664619,
+      "SHARE_reverse_coverage_percent": 0.041152263374485604,
+      "VALUE_SHARE_NSGA2_coverage_percent": 97.55502561384914,
+      "VALUE_SHARE_reverse_coverage_percent": 0.0
+    }
+  ],
+  "newFE": 0,
+  "newOptimizerRuns": 0,
+  "sourceRun": "runs\\expansion-screen-20261102-001934-525927",
+  "zeroFeProbe": "SELECT100_OF100_KEEP_ALL; ND_FRONT100_PDDR_ALL1; SELECT100_OF200_FILTERS_DOMINATED\nJS_GUIDANCE=[1, 0, 2, 3];POSITION_FA_UNCHANGED=[0,1,0,1];JOB_FA_REBOUND=2\nZERO_FE_SEARCH_AUDIT_PASS newFE=0 optimizerRuns=0\n",
+  "frozenClassesMatchAcceptedEngineering": [
+    "org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+    "org/uma/jmetal/util/research/classic/ClassicAlgorithm.class",
+    "research/dynamic/DynamicRun.class"
+  ]
+}
