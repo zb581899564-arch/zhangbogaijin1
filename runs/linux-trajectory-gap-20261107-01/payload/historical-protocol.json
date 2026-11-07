@@ -1,0 +1,112 @@
+{
+  "version": "CTX_GOM_COMPLETE_CAPABILITY-v1",
+  "registered": "2026-11-06",
+  "engineeringAccepted": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-050127-857497",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    14910003,
+    14910037
+  ],
+  "arms": [
+    "SHARE_CTX_GOM",
+    "SYNC_CTX_GOM",
+    "UNIFORM_CTX_GOM",
+    "NSGA_CTX_GOM",
+    "FULL_SHARED_DEEP",
+    "LI_RECON_DEEP",
+    "NSGA2_PLAIN",
+    "NSGA2_DEEP",
+    "PA_JOINT",
+    "PA_EQUAL"
+  ],
+  "primary": "SHARE_CTX_GOM fixed across instances/budgets; never promote a better ablation/control posthoc",
+  "architecture": "Original QGS/four physical roles/fixed families/conditional sharing/outer retention; context-aware fullGOM replaces entire local phase, with live compatible donors and ordinary strict-boundary PA acceptance",
+  "unchanged": "No new selector, Q table, FI, quota/phase-ratio/threshold scan, operator or seed replacement; protected default files unchanged",
+  "light": "Only disable detailed events, paid/view full QA and source-provenance bookkeeping; keep model/genome/RNG/acceptance/archive/legality/clock operations",
+  "engineeringSeed": 14810003,
+  "fixedLightEngineeringFE": 392936,
+  "maximumLightEngineeringAttempts": 412936,
+  "engineering": "Eight full two-pass light traces equal old heavy paidSHA/initial100/front; all six complete control entries old-vs-new5102FE in bothinstances; four real0.2s clock tests capped5000attempts each",
+  "fixedFE": 500000,
+  "plannedFixedScienceFE": 20000000,
+  "timeSafetyFE": 5000000,
+  "phases": [
+    "Complete all40 FE500K runs",
+    "Complete all40 TIME runs iff competitivePass for BOTH instances"
+  ],
+  "timeRule": "Previous registered4s/5s, separate sequential fresh JVMs, common observer/archives, constructors and all algorithm costs insideclock; checkpoint QA outside",
+  "initialization": "Exactly same100 canonical fourvectors/objectives in all ten arms paired per newseed; no reused objective feedback",
+  "indicators": "HV1.5 plus1.25/2 sensitivity; common per-instance per-phase NDunion of all10arms/all2seeds as empirical IGD+reference; exactdeduplicated weak bidirectionalC includingequal, report coveredcounts and front sizes",
+  "improvementControls": [
+    "FULL_SHARED_DEEP",
+    "LI_RECON_DEEP",
+    "NSGA2_PLAIN"
+  ],
+  "improvementRule": "For eachinstance vs each listed control: medianHV1.5>=1%, HV1.25/2>=0; medianIGD+symmetricworsening<=0 and median(CAB-CBA)>=0. Everyseed HV>=-1%, IGD+worsening<=5%, Cdelta>=-.02",
+  "noninferiorityControls": [
+    "NSGA2_DEEP",
+    "NSGA_CTX_GOM",
+    "PA_JOINT",
+    "PA_EQUAL"
+  ],
+  "noninferiorityRule": "For eachinstance vs each strongcontrol: medianHV>=-1%atall3references, medianIGD+worsening<=5%, medianCdelta>=-.02. Everyseed HV1.5>=-3%, IGD+worsening<=10%, Cdelta>=-.05. This is an exploration screen, not a superiority claim",
+  "mechanismControls": [
+    "SYNC_CTX_GOM",
+    "UNIFORM_CTX_GOM"
+  ],
+  "mechanismRule": "Separately eachinstance vs each ablation: medianHV1.5>=.5%, HV1.25/2>=0, medianIGD+worsening<=0, medianCdelta>=0, everyseed HV>=-1%, IGD+worsening<=5%, Cdelta>=-.02. No 2of3vote",
+  "competitivePass": "All registered improvement and strongcontrol noninferiority conditions on bothinstances; independent mechanisms recorded separately, cannot substitute for competition",
+  "progression": "Only if FEcompetitive pass start allTIME. Bothbudgetscompetitive plus bothmechanism checks permits a new heldout-confirmation protocol, never claims final goal achieved",
+  "order": "Rotate fixed ten-arm list by(instanceIndex+seedIndex), complete all40 before result-dependent decision; stagecurves descriptive only",
+  "failure": "Preserve failures/costs/front and stop engineering or phase on unexpected fault. Negative/metric-conflicting fixed primary stops this version, no parameter/seed/horizon rescue",
+  "scope": "Same two reused eligible development instances, two fresh seeds. No multi-instance expansion, manuscript novelty assertion or default integration",
+  "oldStopsUnchanged": true,
+  "externalTransfers": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

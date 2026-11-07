@@ -1,0 +1,4066 @@
+{
+  "sourceGenomes": 237,
+  "observedAssignments": 100,
+  "localDistinctJobSetsByFactory": [
+    89,
+    90,
+    95,
+    93,
+    90
+  ],
+  "localDistinctEncodedBlocksByFactory": [
+    150,
+    156,
+    205,
+    207,
+    157
+  ],
+  "enrichedAssignments": 27,
+  "enrichedAssignmentFraction": 0.27,
+  "assignmentEnrichment": [
+    {
+      "assignmentByJob": [
+        4,
+        4,
+        0,
+        2,
+        1,
+        0,
+        3,
+        0,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        4,
+        2,
+        3,
+        4,
+        2,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        3,
+        1,
+        4,
+        3,
+        1,
+        2,
+        3,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        4,
+        1,
+        2,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1,
+        4,
+        3,
+        1,
+        3,
+        1,
+        3,
+        4,
+        4,
+        0,
+        3,
+        3,
+        3,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        0,
+        0,
+        3,
+        0,
+        1,
+        2,
+        0,
+        2,
+        1,
+        2,
+        2,
+        4,
+        3,
+        4,
+        4,
+        0,
+        1,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        1,
+        0,
+        1,
+        0,
+        4,
+        3,
+        4,
+        3,
+        2,
+        2,
+        0,
+        4,
+        2,
+        0,
+        2,
+        4,
+        2,
+        4,
+        3
+      ],
+      "extraFactories": [
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              1,
+              3
+            ],
+            "machines": [
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0
+            ],
+            "sourceIndex": 37
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        0,
+        2,
+        0,
+        2,
+        4,
+        1,
+        1,
+        4,
+        0,
+        0,
+        1,
+        1,
+        1,
+        3,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        4,
+        4,
+        4,
+        2,
+        1,
+        0,
+        1,
+        4,
+        4,
+        4,
+        3,
+        2,
+        3,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        1,
+        3,
+        4,
+        1,
+        0,
+        2,
+        2,
+        4,
+        4,
+        1,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              13,
+              5
+            ],
+            "machines": [
+              2,
+              1
+            ],
+            "workers": [
+              1,
+              1
+            ],
+            "sourceIndex": 84
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        3,
+        1,
+        3,
+        4,
+        1,
+        0,
+        0,
+        4,
+        3,
+        1,
+        0,
+        0,
+        2,
+        4,
+        1,
+        3,
+        2,
+        4,
+        3,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        2,
+        4,
+        1,
+        0,
+        0,
+        4,
+        1,
+        4,
+        2,
+        2,
+        1,
+        3,
+        4,
+        3,
+        4,
+        3,
+        0,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        2,
+        3,
+        0,
+        1,
+        1,
+        0,
+        3,
+        3,
+        3,
+        3,
+        1,
+        0,
+        3,
+        1,
+        0,
+        0,
+        2,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        2,
+        2,
+        3,
+        0,
+        4,
+        4,
+        0,
+        0,
+        4,
+        4,
+        4,
+        4,
+        3,
+        1,
+        3,
+        2,
+        1,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        3,
+        2,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        1,
+        2,
+        3,
+        3,
+        1,
+        0,
+        4,
+        4,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        2,
+        2,
+        4,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        3,
+        3
+      ],
+      "extraFactories": [
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              3
+            ],
+            "machines": [
+              2
+            ],
+            "workers": [
+              2
+            ],
+            "sourceIndex": 72
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        4,
+        3,
+        0,
+        0,
+        3,
+        4,
+        0,
+        3,
+        3,
+        1,
+        3,
+        4,
+        3,
+        2,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        0,
+        4,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1,
+        1,
+        3,
+        2,
+        4,
+        2,
+        3,
+        1,
+        2,
+        0,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        3,
+        4,
+        4,
+        1,
+        4,
+        1,
+        2,
+        3,
+        0,
+        0,
+        4,
+        2,
+        1,
+        2,
+        1,
+        1,
+        3,
+        0,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        4,
+        4,
+        3,
+        2,
+        4,
+        2,
+        4,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        4,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        4,
+        4,
+        2,
+        2,
+        3,
+        4,
+        4,
+        3,
+        2,
+        2,
+        0,
+        3,
+        1,
+        4,
+        1,
+        4,
+        4,
+        1,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        1,
+        0,
+        3,
+        1,
+        3,
+        1,
+        2,
+        4,
+        1,
+        4,
+        2,
+        0,
+        1,
+        4,
+        2,
+        1,
+        4,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        0,
+        3,
+        1,
+        3,
+        1,
+        2,
+        0,
+        0,
+        4,
+        4,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        1,
+        4,
+        1,
+        3,
+        3,
+        4,
+        0,
+        2,
+        3,
+        3,
+        2,
+        2,
+        4,
+        2,
+        0,
+        3,
+        2,
+        4,
+        0
+      ],
+      "extraFactories": [
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              3,
+              1
+            ],
+            "machines": [
+              0,
+              0
+            ],
+            "workers": [
+              1,
+              0
+            ],
+            "sourceIndex": 20
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        2,
+        2,
+        1,
+        4,
+        3,
+        2,
+        1,
+        2,
+        3,
+        0,
+        4,
+        0,
+        1,
+        3,
+        0,
+        3,
+        1,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0,
+        1,
+        4,
+        0,
+        1,
+        3,
+        3,
+        0,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              13
+            ],
+            "machines": [
+              2
+            ],
+            "workers": [
+              2
+            ],
+            "sourceIndex": 64
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        1,
+        3,
+        2,
+        4,
+        1,
+        0,
+        1,
+        4,
+        4,
+        4,
+        4,
+        3,
+        0,
+        4,
+        2,
+        0,
+        1,
+        2,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        3,
+        1,
+        1,
+        3,
+        0,
+        0,
+        0,
+        3,
+        1,
+        4,
+        4,
+        0,
+        4,
+        0,
+        1,
+        2,
+        4,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        3,
+        0,
+        3,
+        2,
+        0,
+        0,
+        4,
+        2,
+        0,
+        2,
+        2,
+        2,
+        1,
+        3,
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        0,
+        3,
+        1,
+        3,
+        2,
+        1,
+        0,
+        2,
+        1,
+        4,
+        0,
+        1,
+        3,
+        1,
+        1,
+        2,
+        3,
+        3,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        2,
+        1,
+        3,
+        4,
+        4,
+        0,
+        2,
+        1,
+        0,
+        1,
+        2,
+        0,
+        3,
+        4,
+        1,
+        4,
+        2,
+        0,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        1,
+        3,
+        4,
+        2,
+        1,
+        3,
+        3,
+        0,
+        4,
+        0,
+        2,
+        1,
+        3,
+        4,
+        4,
+        2,
+        1,
+        3,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        2,
+        0,
+        2,
+        3,
+        4,
+        1,
+        1,
+        4,
+        1,
+        0,
+        0,
+        2,
+        3,
+        3,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        3,
+        0,
+        3,
+        4,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        4,
+        1,
+        1,
+        3,
+        1,
+        3,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        3,
+        2,
+        2,
+        4,
+        3,
+        1,
+        0,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        4,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              0,
+              13,
+              14,
+              7
+            ],
+            "machines": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1,
+              1
+            ],
+            "sourceIndex": 135
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 5,
+          "firstWitness": {
+            "jobs": [
+              9,
+              6,
+              2,
+              10,
+              18
+            ],
+            "machines": [
+              1,
+              2,
+              0,
+              0,
+              0
+            ],
+            "workers": [
+              1,
+              0,
+              3,
+              0,
+              1
+            ],
+            "sourceIndex": 128
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              5,
+              15
+            ],
+            "machines": [
+              3,
+              1
+            ],
+            "workers": [
+              1,
+              2
+            ],
+            "sourceIndex": 135
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        2,
+        1,
+        4,
+        3,
+        2,
+        2,
+        1,
+        3,
+        2,
+        0,
+        0,
+        3,
+        0,
+        4,
+        1,
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        3,
+        4,
+        3,
+        2,
+        0,
+        2,
+        4,
+        1,
+        2,
+        1,
+        3,
+        4,
+        3,
+        2,
+        3,
+        3,
+        0,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        4,
+        4,
+        0,
+        2,
+        1,
+        4,
+        1,
+        4,
+        3,
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        1,
+        2,
+        3,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        3,
+        4,
+        3,
+        0,
+        2,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        3,
+        3,
+        3,
+        3,
+        1,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1,
+        4,
+        0,
+        4,
+        1,
+        4,
+        2,
+        1,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        2,
+        3,
+        0,
+        3,
+        4,
+        1,
+        3,
+        4,
+        0,
+        4,
+        3,
+        0,
+        3,
+        0,
+        4,
+        1,
+        4,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        2,
+        2,
+        3,
+        4,
+        2,
+        4,
+        4,
+        0,
+        0,
+        3,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        1,
+        2,
+        2,
+        3,
+        0,
+        1,
+        0,
+        4,
+        4,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        2,
+        0,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        0,
+        4,
+        4,
+        2,
+        1,
+        0,
+        0,
+        4,
+        4,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        0,
+        1,
+        0,
+        2,
+        1,
+        2,
+        4,
+        0,
+        1,
+        0,
+        3,
+        4,
+        3,
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        1,
+        4,
+        3,
+        4,
+        1,
+        0,
+        3,
+        2,
+        2,
+        1,
+        0,
+        4,
+        0,
+        4,
+        3,
+        1,
+        0,
+        0,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        2,
+        4,
+        2,
+        3,
+        4,
+        0,
+        2,
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        3,
+        2,
+        2,
+        0,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        4,
+        4,
+        0,
+        0,
+        4,
+        2,
+        1,
+        1,
+        3,
+        2,
+        2,
+        3,
+        0,
+        3,
+        2,
+        1,
+        4,
+        0,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        4,
+        3,
+        1,
+        4,
+        1,
+        2,
+        2,
+        1,
+        4,
+        2,
+        4,
+        1,
+        3,
+        2,
+        3,
+        0,
+        2,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        0,
+        1,
+        2,
+        0,
+        4,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        4,
+        0,
+        2,
+        0,
+        3,
+        1,
+        4,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        1,
+        0,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1,
+        4,
+        1,
+        2,
+        0,
+        3,
+        1,
+        1
+      ],
+      "extraFactories": [
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              17,
+              0
+            ],
+            "machines": [
+              3,
+              2
+            ],
+            "workers": [
+              3,
+              3
+            ],
+            "sourceIndex": 69
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              13
+            ],
+            "machines": [
+              2
+            ],
+            "workers": [
+              0
+            ],
+            "sourceIndex": 39
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        4,
+        3,
+        4,
+        1,
+        3,
+        2,
+        1,
+        2,
+        1,
+        0,
+        3,
+        4,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        2,
+        3,
+        1,
+        2,
+        2,
+        4,
+        2,
+        0,
+        3,
+        3,
+        4,
+        2,
+        1,
+        4,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        2,
+        4,
+        4,
+        1,
+        3,
+        0,
+        1,
+        0,
+        3,
+        0,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        4,
+        1,
+        2,
+        4,
+        0,
+        0,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        0,
+        4,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        1,
+        4,
+        1,
+        4,
+        1,
+        0,
+        4,
+        2,
+        3,
+        4,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              0,
+              17
+            ],
+            "machines": [
+              4,
+              0
+            ],
+            "workers": [
+              1,
+              2
+            ],
+            "sourceIndex": 64
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        4,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        1,
+        0,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        4,
+        0,
+        0,
+        3,
+        3,
+        0,
+        1,
+        2,
+        0,
+        4,
+        2,
+        2,
+        1,
+        4,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        2,
+        0,
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0
+      ],
+      "extraFactories": [
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              3
+            ],
+            "machines": [
+              0
+            ],
+            "workers": [
+              2
+            ],
+            "sourceIndex": 29
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        4,
+        2,
+        0,
+        2,
+        0,
+        3,
+        2,
+        2,
+        3,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        0,
+        3,
+        4,
+        4,
+        3,
+        4,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        3,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        1,
+        3,
+        1,
+        0,
+        2,
+        2,
+        2,
+        4,
+        0,
+        3,
+        4,
+        4,
+        2,
+        0,
+        1,
+        3,
+        2,
+        2,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        2,
+        3,
+        0,
+        4,
+        1,
+        1,
+        3,
+        0,
+        2,
+        1,
+        4,
+        0,
+        1,
+        3,
+        4,
+        4,
+        0,
+        1,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        2,
+        1,
+        3,
+        4,
+        3,
+        2,
+        2,
+        3,
+        0,
+        2,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        1,
+        0,
+        0,
+        0,
+        4,
+        1,
+        4,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        0,
+        1,
+        2,
+        0,
+        3,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        4,
+        1,
+        0,
+        3,
+        4,
+        0,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        4,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1,
+        4,
+        2,
+        0,
+        0,
+        4,
+        2,
+        1,
+        3,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        3,
+        2,
+        0,
+        4,
+        2,
+        3,
+        3,
+        4,
+        1,
+        2,
+        2,
+        2,
+        4,
+        3,
+        2,
+        1,
+        2,
+        4,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        2,
+        4,
+        1,
+        4,
+        2,
+        1,
+        1,
+        0,
+        3,
+        3,
+        0,
+        0,
+        3,
+        3,
+        0,
+        2,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        4,
+        3,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        4,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        2,
+        3,
+        1,
+        1,
+        0,
+        4,
+        4,
+        1,
+        1,
+        1,
+        4,
+        4,
+        0,
+        2,
+        4,
+        3,
+        2,
+        3,
+        3
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              5,
+              13
+            ],
+            "machines": [
+              1,
+              2
+            ],
+            "workers": [
+              1,
+              0
+            ],
+            "sourceIndex": 23
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        0,
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        4,
+        1,
+        4,
+        2,
+        1,
+        4,
+        2,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        3,
+        1,
+        2,
+        0,
+        4,
+        4,
+        4,
+        2,
+        0,
+        4,
+        1,
+        3,
+        2,
+        1,
+        4,
+        2,
+        1,
+        3,
+        3
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              4,
+              0,
+              9
+            ],
+            "machines": [
+              0,
+              0,
+              2
+            ],
+            "workers": [
+              1,
+              0,
+              0
+            ],
+            "sourceIndex": 132
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              14,
+              11,
+              17,
+              2
+            ],
+            "machines": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "workers": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "sourceIndex": 132
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              19,
+              1,
+              12,
+              18
+            ],
+            "machines": [
+              4,
+              0,
+              4,
+              2
+            ],
+            "workers": [
+              0,
+              1,
+              3,
+              1
+            ],
+            "sourceIndex": 130
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        2,
+        1,
+        0,
+        3,
+        2,
+        1,
+        0,
+        3,
+        3,
+        1,
+        2,
+        4,
+        0,
+        0,
+        3,
+        4,
+        3,
+        0,
+        4,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        4,
+        1,
+        1,
+        4,
+        2,
+        0,
+        0,
+        3,
+        4,
+        0,
+        2,
+        0,
+        3,
+        0,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        4,
+        0,
+        3,
+        3,
+        4,
+        1,
+        0,
+        1,
+        0,
+        4,
+        4,
+        1,
+        4,
+        2,
+        1,
+        3,
+        2,
+        0,
+        1,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        3,
+        2,
+        1,
+        3,
+        1,
+        0,
+        0,
+        3,
+        4,
+        3,
+        4,
+        0,
+        3,
+        3,
+        4,
+        1,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        3,
+        3,
+        3,
+        4,
+        1,
+        1,
+        2,
+        4,
+        0,
+        2,
+        1,
+        2,
+        0,
+        4,
+        4,
+        3,
+        4,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        2,
+        2,
+        0,
+        3,
+        0,
+        3,
+        1,
+        3,
+        2,
+        2,
+        1,
+        3,
+        0,
+        3,
+        1,
+        4,
+        4,
+        4,
+        0
+      ],
+      "extraFactories": [
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 10,
+          "firstWitness": {
+            "jobs": [
+              1,
+              2,
+              9,
+              10
+            ],
+            "machines": [
+              1,
+              2,
+              2,
+              0
+            ],
+            "workers": [
+              2,
+              1,
+              1,
+              2
+            ],
+            "sourceIndex": 125
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 11,
+          "firstWitness": {
+            "jobs": [
+              4,
+              8,
+              14,
+              6,
+              12
+            ],
+            "machines": [
+              4,
+              3,
+              1,
+              4,
+              2
+            ],
+            "workers": [
+              3,
+              2,
+              2,
+              0,
+              3
+            ],
+            "sourceIndex": 116
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 4,
+          "firstWitness": {
+            "jobs": [
+              17,
+              18,
+              16
+            ],
+            "machines": [
+              0,
+              0,
+              0
+            ],
+            "workers": [
+              2,
+              2,
+              0
+            ],
+            "sourceIndex": 110
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        4,
+        2,
+        4,
+        3,
+        4,
+        4,
+        4,
+        0,
+        1,
+        2,
+        0,
+        2,
+        2,
+        2,
+        3,
+        2,
+        1,
+        3,
+        3
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        1,
+        0,
+        3,
+        1,
+        1,
+        4,
+        4,
+        2,
+        1,
+        3,
+        0,
+        4,
+        3,
+        1
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        4,
+        3,
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        4,
+        0,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        2,
+        1,
+        0,
+        3,
+        3,
+        0,
+        3,
+        2,
+        3,
+        0,
+        0,
+        4,
+        1,
+        1,
+        2,
+        0,
+        2,
+        4,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        3,
+        1,
+        2,
+        3,
+        1,
+        4,
+        0,
+        0,
+        1,
+        3,
+        3,
+        4,
+        2,
+        0,
+        0,
+        4,
+        4,
+        0,
+        4
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        3,
+        0,
+        0,
+        1,
+        4,
+        0,
+        4,
+        3,
+        4,
+        1,
+        4,
+        2,
+        4,
+        3,
+        2,
+        2,
+        3,
+        3,
+        0,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        4,
+        4,
+        3,
+        1,
+        2,
+        3,
+        1,
+        3,
+        0,
+        3,
+        0,
+        4,
+        4,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        0,
+        2,
+        2,
+        1,
+        3,
+        0,
+        3,
+        1,
+        3,
+        2,
+        2,
+        1,
+        3,
+        0,
+        3,
+        1,
+        4,
+        4,
+        4,
+        0
+      ],
+      "extraFactories": [
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              10,
+              9,
+              1,
+              2
+            ],
+            "machines": [
+              0,
+              4,
+              1,
+              2
+            ],
+            "workers": [
+              0,
+              1,
+              3,
+              2
+            ],
+            "sourceIndex": 92
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 4,
+          "firstWitness": {
+            "jobs": [
+              4,
+              8,
+              14,
+              6,
+              12
+            ],
+            "machines": [
+              4,
+              3,
+              1,
+              4,
+              2
+            ],
+            "workers": [
+              3,
+              2,
+              2,
+              0,
+              3
+            ],
+            "sourceIndex": 116
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              17,
+              16,
+              18
+            ],
+            "machines": [
+              2,
+              0,
+              3
+            ],
+            "workers": [
+              2,
+              0,
+              2
+            ],
+            "sourceIndex": 92
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        1,
+        2,
+        1,
+        3,
+        0,
+        3,
+        1,
+        3,
+        2,
+        2,
+        1,
+        3,
+        0,
+        3,
+        1,
+        4,
+        4,
+        4,
+        0
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 6,
+          "firstWitness": {
+            "jobs": [
+              0,
+              13,
+              5,
+              19
+            ],
+            "machines": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "workers": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "sourceIndex": 126
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 9,
+          "firstWitness": {
+            "jobs": [
+              8,
+              4,
+              12,
+              6,
+              14
+            ],
+            "machines": [
+              3,
+              4,
+              2,
+              2,
+              1
+            ],
+            "workers": [
+              2,
+              3,
+              3,
+              0,
+              2
+            ],
+            "sourceIndex": 119
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 4,
+          "firstWitness": {
+            "jobs": [
+              17,
+              16,
+              18
+            ],
+            "machines": [
+              2,
+              0,
+              3
+            ],
+            "workers": [
+              2,
+              0,
+              2
+            ],
+            "sourceIndex": 92
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        1,
+        3,
+        2,
+        1,
+        4,
+        3,
+        4,
+        0,
+        3,
+        3,
+        0,
+        2,
+        1,
+        1,
+        4,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 5,
+          "firstWitness": {
+            "jobs": [
+              2,
+              10,
+              18,
+              9,
+              6
+            ],
+            "machines": [
+              1,
+              0,
+              2,
+              1,
+              3
+            ],
+            "workers": [
+              1,
+              1,
+              2,
+              1,
+              2
+            ],
+            "sourceIndex": 48
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              5,
+              7,
+              15
+            ],
+            "machines": [
+              2,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              1,
+              2
+            ],
+            "sourceIndex": 154
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        3,
+        1,
+        2,
+        0,
+        2,
+        4,
+        4,
+        2,
+        0,
+        4,
+        1,
+        3,
+        2,
+        1,
+        4,
+        2,
+        1,
+        3,
+        3
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              4,
+              9,
+              0
+            ],
+            "machines": [
+              0,
+              2,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              0
+            ],
+            "sourceIndex": 86
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              11,
+              17,
+              2,
+              14
+            ],
+            "machines": [
+              1,
+              1,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 86
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              12,
+              1,
+              19,
+              18
+            ],
+            "machines": [
+              4,
+              0,
+              4,
+              2
+            ],
+            "workers": [
+              0,
+              3,
+              3,
+              1
+            ],
+            "sourceIndex": 86
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        4,
+        3,
+        2,
+        0,
+        2,
+        1,
+        1,
+        3,
+        1,
+        3,
+        4,
+        3,
+        2,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 9,
+          "firstWitness": {
+            "jobs": [
+              5,
+              1,
+              17
+            ],
+            "machines": [
+              2,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1
+            ],
+            "sourceIndex": 204
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 18,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              1,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 182
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 41,
+          "firstWitness": {
+            "jobs": [
+              0,
+              6,
+              14,
+              19,
+              4,
+              16
+            ],
+            "machines": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "workers": [
+              1,
+              2,
+              1,
+              0,
+              3,
+              2
+            ],
+            "sourceIndex": 173
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        3,
+        2,
+        2,
+        4,
+        3,
+        1,
+        0,
+        3,
+        3,
+        0,
+        2,
+        1,
+        1,
+        4,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              11,
+              8,
+              17,
+              1
+            ],
+            "machines": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "workers": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "sourceIndex": 196
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              14,
+              13,
+              0,
+              7
+            ],
+            "machines": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "sourceIndex": 48
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              3,
+              12,
+              16,
+              4,
+              19
+            ],
+            "machines": [
+              1,
+              1,
+              2,
+              0,
+              1
+            ],
+            "workers": [
+              0,
+              3,
+              3,
+              1,
+              2
+            ],
+            "sourceIndex": 154
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 4,
+          "firstWitness": {
+            "jobs": [
+              2,
+              10,
+              18,
+              9,
+              6
+            ],
+            "machines": [
+              1,
+              0,
+              2,
+              1,
+              3
+            ],
+            "workers": [
+              1,
+              1,
+              2,
+              1,
+              2
+            ],
+            "sourceIndex": 48
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              5,
+              15
+            ],
+            "machines": [
+              0,
+              1
+            ],
+            "workers": [
+              0,
+              1
+            ],
+            "sourceIndex": 48
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        3,
+        1,
+        2,
+        3,
+        2,
+        4,
+        0,
+        2,
+        1,
+        4,
+        1,
+        3,
+        3,
+        1,
+        4,
+        2,
+        3,
+        3,
+        2
+      ],
+      "extraFactories": []
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        4,
+        3,
+        2,
+        0,
+        2,
+        1,
+        1,
+        3,
+        1,
+        4,
+        4,
+        3,
+        2,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 10,
+          "firstWitness": {
+            "jobs": [
+              7,
+              10,
+              8
+            ],
+            "machines": [
+              0,
+              1,
+              0
+            ],
+            "workers": [
+              1,
+              1,
+              0
+            ],
+            "sourceIndex": 181
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 4,
+          "firstWitness": {
+            "jobs": [
+              6,
+              16,
+              0,
+              14,
+              4,
+              19
+            ],
+            "machines": [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "workers": [
+              2,
+              0,
+              1,
+              1,
+              3,
+              0
+            ],
+            "sourceIndex": 140
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        1,
+        0,
+        3,
+        2,
+        2,
+        4,
+        3,
+        4,
+        0,
+        3,
+        3,
+        0,
+        2,
+        1,
+        1,
+        4,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              11,
+              17,
+              8,
+              1
+            ],
+            "machines": [
+              1,
+              2,
+              1,
+              0
+            ],
+            "workers": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "sourceIndex": 149
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              3,
+              12,
+              16,
+              19,
+              4
+            ],
+            "machines": [
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "workers": [
+              0,
+              3,
+              3,
+              2,
+              1
+            ],
+            "sourceIndex": 149
+          }
+        },
+        {
+          "factory": 3,
+          "extraDistinctBlocks": 4,
+          "firstWitness": {
+            "jobs": [
+              2,
+              10,
+              18,
+              9,
+              6
+            ],
+            "machines": [
+              1,
+              0,
+              2,
+              1,
+              3
+            ],
+            "workers": [
+              1,
+              1,
+              2,
+              1,
+              2
+            ],
+            "sourceIndex": 48
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              5,
+              15,
+              7
+            ],
+            "machines": [
+              0,
+              2,
+              1
+            ],
+            "workers": [
+              1,
+              2,
+              1
+            ],
+            "sourceIndex": 128
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        2,
+        3,
+        2,
+        0,
+        3,
+        1,
+        1,
+        3,
+        1,
+        3,
+        4,
+        3,
+        2,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 8,
+          "firstWitness": {
+            "jobs": [
+              5,
+              0,
+              17,
+              1
+            ],
+            "machines": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "sourceIndex": 171
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 21,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              0,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 142
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 16,
+          "firstWitness": {
+            "jobs": [
+              2,
+              4,
+              19,
+              16,
+              14
+            ],
+            "machines": [
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "workers": [
+              2,
+              3,
+              0,
+              3,
+              1
+            ],
+            "sourceIndex": 171
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        2,
+        3,
+        2,
+        0,
+        3,
+        1,
+        1,
+        3,
+        1,
+        3,
+        4,
+        4,
+        2,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 1,
+          "firstWitness": {
+            "jobs": [
+              17,
+              0,
+              5,
+              1
+            ],
+            "machines": [
+              0,
+              2,
+              2,
+              2
+            ],
+            "workers": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 210
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 10,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              1,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 182
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 2,
+          "firstWitness": {
+            "jobs": [
+              14,
+              4,
+              19,
+              2,
+              16
+            ],
+            "machines": [
+              4,
+              4,
+              2,
+              2,
+              0
+            ],
+            "workers": [
+              2,
+              3,
+              0,
+              1,
+              0
+            ],
+            "sourceIndex": 210
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        4,
+        3,
+        2,
+        0,
+        2,
+        1,
+        1,
+        3,
+        1,
+        4,
+        4,
+        3,
+        2,
+        3,
+        3,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 10,
+          "firstWitness": {
+            "jobs": [
+              5,
+              1,
+              17
+            ],
+            "machines": [
+              2,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1
+            ],
+            "sourceIndex": 204
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 19,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              0,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 142
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 14,
+          "firstWitness": {
+            "jobs": [
+              11,
+              2,
+              12
+            ],
+            "machines": [
+              0,
+              0,
+              1
+            ],
+            "workers": [
+              2,
+              2,
+              0
+            ],
+            "sourceIndex": 163
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        4,
+        3,
+        2,
+        0,
+        2,
+        1,
+        1,
+        3,
+        1,
+        3,
+        4,
+        4,
+        2,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 8,
+          "firstWitness": {
+            "jobs": [
+              5,
+              0,
+              17,
+              1
+            ],
+            "machines": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "sourceIndex": 171
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 20,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              0,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 142
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        0,
+        0,
+        2,
+        3,
+        2,
+        0,
+        3,
+        1,
+        1,
+        3,
+        1,
+        3,
+        4,
+        4,
+        2,
+        1,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 8,
+          "firstWitness": {
+            "jobs": [
+              5,
+              0,
+              17,
+              1
+            ],
+            "machines": [
+              2,
+              0,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "sourceIndex": 171
+          }
+        },
+        {
+          "factory": 2,
+          "extraDistinctBlocks": 16,
+          "firstWitness": {
+            "jobs": [
+              2,
+              4,
+              19,
+              16,
+              14
+            ],
+            "machines": [
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "workers": [
+              2,
+              3,
+              0,
+              3,
+              1
+            ],
+            "sourceIndex": 171
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 3,
+          "firstWitness": {
+            "jobs": [
+              13,
+              12
+            ],
+            "machines": [
+              0,
+              1
+            ],
+            "workers": [
+              0,
+              0
+            ],
+            "sourceIndex": 178
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        4,
+        3,
+        2,
+        0,
+        2,
+        1,
+        1,
+        3,
+        1,
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 11,
+          "firstWitness": {
+            "jobs": [
+              5,
+              1,
+              17
+            ],
+            "machines": [
+              2,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1
+            ],
+            "sourceIndex": 204
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 21,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              0,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 142
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 16,
+          "firstWitness": {
+            "jobs": [
+              11,
+              2,
+              12
+            ],
+            "machines": [
+              0,
+              0,
+              1
+            ],
+            "workers": [
+              1,
+              1,
+              0
+            ],
+            "sourceIndex": 173
+          }
+        }
+      ]
+    },
+    {
+      "assignmentByJob": [
+        2,
+        0,
+        4,
+        3,
+        2,
+        0,
+        3,
+        1,
+        1,
+        3,
+        1,
+        4,
+        4,
+        3,
+        2,
+        3,
+        2,
+        0,
+        3,
+        2
+      ],
+      "extraFactories": [
+        {
+          "factory": 0,
+          "extraDistinctBlocks": 11,
+          "firstWitness": {
+            "jobs": [
+              5,
+              1,
+              17
+            ],
+            "machines": [
+              2,
+              0,
+              0
+            ],
+            "workers": [
+              0,
+              1,
+              1
+            ],
+            "sourceIndex": 204
+          }
+        },
+        {
+          "factory": 1,
+          "extraDistinctBlocks": 21,
+          "firstWitness": {
+            "jobs": [
+              7,
+              8,
+              10
+            ],
+            "machines": [
+              0,
+              1,
+              1
+            ],
+            "workers": [
+              1,
+              0,
+              1
+            ],
+            "sourceIndex": 142
+          }
+        },
+        {
+          "factory": 4,
+          "extraDistinctBlocks": 16,
+          "firstWitness": {
+            "jobs": [
+              11,
+              2,
+              12
+            ],
+            "machines": [
+              0,
+              0,
+              1
+            ],
+            "workers": [
+              1,
+              1,
+              0
+            ],
+            "sourceIndex": 173
+          }
+        }
+      ]
+    }
+  ],
+  "novelCoverWitnesses": [
+    [
+      8,
+      18948,
+      987315,
+      8448,
+      33856
+    ],
+    [
+      8,
+      298273,
+      541264,
+      196736,
+      12294
+    ]
+  ],
+  "nodesExamined": 250000,
+  "nodeLimitReached": true,
+  "witnessLimitReached": false,
+  "exhaustive": false,
+  "seed": 11730007,
+  "step": 49,
+  "paidFE": 3545,
+  "localContextCapacity": true,
+  "novelAssignmentCapacity": false
+}

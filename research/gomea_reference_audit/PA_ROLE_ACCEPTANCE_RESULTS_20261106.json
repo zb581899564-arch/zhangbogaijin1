@@ -1,0 +1,54 @@
+{
+  "runDirectory": "runs\\pa-role-acceptance-probe-20261106-011839-887122",
+  "actualSuccessfulFE": 1095600,
+  "failedFE": 0,
+  "extraFullDecoderQA": 103267,
+  "decision": {
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "tests": [
+          {
+            "A": "FOUR_JOINT",
+            "B": "CENTER_JOINT",
+            "pass": false
+          },
+          {
+            "A": "FOUR_RELABEL",
+            "B": "CENTER_RELABEL",
+            "pass": false
+          }
+        ],
+        "pass": false
+      },
+      {
+        "stem": "100_2_3_1",
+        "tests": [
+          {
+            "A": "FOUR_JOINT",
+            "B": "CENTER_JOINT",
+            "pass": false
+          },
+          {
+            "A": "FOUR_RELABEL",
+            "B": "CENTER_RELABEL",
+            "pass": false
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "consistentRoleAcceptanceSignal": false,
+    "oldQualificationRevived": false,
+    "goalAchieved": false
+  },
+  "postAudit": "runs\\pa-role-acceptance-probe-20261106-011839-887122\\post-audit.json",
+  "structureDiagnosis": "runs/pa-role-context-audit-20261106-005943-864946",
+  "shadowRootCapacity": "runs/pa-center-shadow-capacity-20261106-012901-000952",
+  "shadowRootCapacityMet": false,
+  "newRootMechanismImplemented": false,
+  "roleConditionedModelImplemented": false,
+  "sourceReference": "research/gomea_reference_audit/QGOMEA_SOURCE_IDENTITY_20261106.json",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

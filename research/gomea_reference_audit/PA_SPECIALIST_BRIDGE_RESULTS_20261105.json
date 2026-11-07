@@ -1,0 +1,87 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-specialist-bridge-probe-20261105-212900-801483",
+  "independentAudit": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-specialist-bridge-review-20261105-213529-864323",
+  "report": "docs/专业群中间状态供给与受控闭环-2026-11-05.md",
+  "successfulFE": 764800,
+  "attemptedFE": 764800,
+  "failedAttempts": 0,
+  "offlineFullDecoderQA": 7585,
+  "scientificRuns": 28,
+  "engineeringRuns": 4,
+  "mechanismComparisons": [
+    {
+      "stem": "20_8_5_1",
+      "A": "JOINT_FREE",
+      "B": "JOINT_BLOCKED",
+      "medianHVEffectPct": {
+        "1.25": -0.6315477328981356,
+        "1.5": -0.32803570649491687,
+        "2.0": -0.17411364331905155
+      },
+      "medianIGDplusSymmetricWorseningPct": -0.3393398331548063,
+      "medianC_A_B": 0.32344517184942717,
+      "medianC_B_A": 0.5877192982456141,
+      "pairDirections": [
+        "ALIGNED_TOWARD_B",
+        "ALIGNED_TOWARD_A"
+      ]
+    },
+    {
+      "stem": "20_8_5_1",
+      "A": "RELABEL_FREE",
+      "B": "RELABEL_BLOCKED",
+      "medianHVEffectPct": {
+        "1.25": 5.601712976665629,
+        "1.5": 3.682316156291743,
+        "2.0": 2.1904918876065493
+      },
+      "medianIGDplusSymmetricWorseningPct": -51.53208755901865,
+      "medianC_A_B": 0.4743421052631579,
+      "medianC_B_A": 0.19170673076923078,
+      "pairDirections": [
+        "ALIGNED_TOWARD_A",
+        "ALIGNED_TOWARD_A"
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "A": "JOINT_FREE",
+      "B": "JOINT_BLOCKED",
+      "medianHVEffectPct": {
+        "1.25": 6.672097543107801,
+        "1.5": 4.861620990500281,
+        "2.0": 3.2085991228202215
+      },
+      "medianIGDplusSymmetricWorseningPct": -46.94232504379981,
+      "medianC_A_B": 0.5024398178269356,
+      "medianC_B_A": 0.31811017089762733,
+      "pairDirections": [
+        "ALIGNED_TOWARD_A",
+        "ALIGNED_TOWARD_A"
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "A": "RELABEL_FREE",
+      "B": "RELABEL_BLOCKED",
+      "medianHVEffectPct": {
+        "1.25": 10.699295567051358,
+        "1.5": 7.54317410184181,
+        "2.0": 4.873969773045294
+      },
+      "medianIGDplusSymmetricWorseningPct": -52.89578135791391,
+      "medianC_A_B": 0.4660287081339713,
+      "medianC_B_A": 0.36900889807866555,
+      "pairDirections": [
+        "ALIGNED_TOWARD_A",
+        "ALIGNED_TOWARD_A"
+      ]
+    }
+  ],
+  "originalWorkspacePopulationAndEntryUnchanged": true,
+  "directCrossRoleCausalBenefitIsolated": false,
+  "longBudgetQualified": false,
+  "sameTimeProved": false,
+  "oldStoppedDecisionsReopened": false,
+  "goalAchieved": false
+}

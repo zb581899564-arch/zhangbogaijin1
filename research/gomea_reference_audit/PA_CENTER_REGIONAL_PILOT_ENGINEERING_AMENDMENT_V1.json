@@ -1,0 +1,12 @@
+{
+  "previousFailure": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-pilot-20261106-112554-617561",
+  "previousStatusSHA256": "12d805752f94b418c4e89b78bd3c1577e22b40a622d91966cd76cf397d574ffc",
+  "previousAttemptedFE": 0,
+  "cause": "Wrapper referenced PaInitialBridge under modelglobal instead of its actual search package, and used an unimported row helper; javac failed before any search launch.",
+  "correction": "Use actual org.uma.jmetal.util.research.search.PaInitialBridge in adapter/capture/identity checks, and existing package-local NeutralProbeSupport.row. No algorithm, initialization rule, policy, source, seed or numeric protocol change.",
+  "effectiveIdentity": "Original PA_CENTER_REGIONAL_PILOT_V1 plus this zero-FE mechanical engineering correction; old failed directory retained.",
+  "plannedNewAttemptedFE": 3866664,
+  "cumulativePlannedAttemptedFE": 3866664,
+  "maximumActualAttemptedFE": 3900000,
+  "goalAchieved": false
+}

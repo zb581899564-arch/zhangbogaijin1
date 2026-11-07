@@ -1,0 +1,103 @@
+{
+  "accounting": {
+    "gains": [],
+    "groupAccounting": {},
+    "topCases": [],
+    "totalHVPctA0": 0.0,
+    "matchedParentComparisons": [],
+    "finalArchiveReconstructed": true
+  },
+  "entry": [
+    {
+      "slot": 11,
+      "role": "MAKESPAN",
+      "objectives": [
+        1099.9785916358774,
+        66182.20203666286,
+        78657.009975208
+      ],
+      "equalA0Point": false,
+      "strictDominators": 169,
+      "normalizedUniformEscapeDepth": 0.03175564767232014,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 62,
+      "role": "CENTER",
+      "objectives": [
+        1649.0456370858394,
+        68910.08820905529,
+        66409.3285867535
+      ],
+      "equalA0Point": false,
+      "strictDominators": 75,
+      "normalizedUniformEscapeDepth": 0.022259097057544416,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 63,
+      "role": "CENTER",
+      "objectives": [
+        1514.3519642579056,
+        66870.97508318962,
+        66965.54872326404
+      ],
+      "equalA0Point": false,
+      "strictDominators": 101,
+      "normalizedUniformEscapeDepth": 0.01837166055978046,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 81,
+      "role": "ENERGY",
+      "objectives": [
+        1486.3789347017255,
+        65967.01427629094,
+        66646.03079191232
+      ],
+      "equalA0Point": false,
+      "strictDominators": 60,
+      "normalizedUniformEscapeDepth": 0.013798661675961632,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 96,
+      "role": "WORKER_COST",
+      "objectives": [
+        1625.1827300162095,
+        67182.23817158554,
+        65934.0306381824
+      ],
+      "equalA0Point": false,
+      "strictDominators": 41,
+      "normalizedUniformEscapeDepth": 0.01605448899959996,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "local": {
+    "localChanged": 4095,
+    "localParetoImproved": 18,
+    "localParetoImprovedButCoveredA0": 18,
+    "zeroLocalCostCertifiedBlocked": 0
+  }
+}

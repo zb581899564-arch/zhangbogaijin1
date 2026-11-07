@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.IllegalStateException: Incomplete local replay
+	at org.uma.jmetal.util.research.search.QgsLocalLedger.finish(QgsLocalLedger.java:68)
+	at research.dynamic.PddrIsolationRun.main(PddrIsolationRun.java:68)

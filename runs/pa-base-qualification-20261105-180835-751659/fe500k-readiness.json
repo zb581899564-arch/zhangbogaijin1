@@ -1,0 +1,28 @@
+{
+  "phase": "FE500K",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "controlPass": {
+        "NSGA2_PLAIN": false,
+        "NSGA2_DEEP": false,
+        "FULL_SHARED_DEEP": true,
+        "LI_RECON_DEEP": true
+      },
+      "pass": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "controlPass": {
+        "NSGA2_PLAIN": true,
+        "NSGA2_DEEP": true,
+        "FULL_SHARED_DEEP": true,
+        "LI_RECON_DEEP": true
+      },
+      "pass": true
+    }
+  ],
+  "pass": false,
+  "learningClaimReopened": false,
+  "scope": "Ordinary unchanged search-base qualification only, not proposed innovation"
+}

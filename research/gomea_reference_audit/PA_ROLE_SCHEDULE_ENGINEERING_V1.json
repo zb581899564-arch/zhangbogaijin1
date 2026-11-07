@@ -1,0 +1,57 @@
+{
+  "version": "PA_ROLE_SCHEDULE_ENGINEERING-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "semanticsRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-semantics-20261106-100749-719414",
+  "semanticsAuditSHA256": "77303b880d5f7b24f3b23a2b4b9cb4984c10aaf1a704f792b00e640b38a36ba4",
+  "sourceEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339",
+  "sourceBase": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-first-local-fork-pilot-20261106-094125-457253",
+  "privateSeed": 15530003,
+  "modes": [
+    "NATIVE",
+    "TASK_ONLY",
+    "ORDER_ONLY",
+    "FULL",
+    "RANDOM",
+    "CENTER_MATCHED"
+  ],
+  "maximumActualAttemptedFE": 350000,
+  "plannedFixedFE": 311646,
+  "implementation": "CopyfrozenPaPopulationonly; callrolelabelplanbeforeexistingREENCODING,andreplaceonlymixingforloopwithvisitpermutation. Keepstorage/reencoder/modelrows/donorindexspace,all100activeindividuals,initialsources,completeFOS,archive/evaluation/acceptunchanged. Addrole-eventobserverbeforephysicalreencode. No productionedit.",
+  "factors": "TASK_ONLYtargetlabels/nativestoragevisit; ORDER_ONLYnativepersistentlabels/rankvisit; FULLboth; RANDOMprivategrouping/visitquotas; CENTER_MATCHEDallCENTER/fullrankvisit; NATIVEunmodifiedlogicalbehavior. PrivateRANDOMseedfixedperJVMcontinuousacrossgenerations. UnchangedphysicalstateIDs/paidFE/point/genome/key/objectivebits; relabelisnotnewstatebirth ornewFE.",
+  "cases": [
+    {
+      "stem": "20_8_5_1",
+      "masterFE": 7900,
+      "firstGenerationEnd": 4000,
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        139,
+        4000
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "masterFE": 39900,
+      "firstGenerationEnd": 20000,
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        299,
+        20000
+      ]
+    }
+  ],
+  "execution": "2instancesx6modestwocompletegenerations286800FE; FULLsixcutoffsperinstance24846FE,actualtotal311646. Reuseexactsourceprovided100engineeringvectors/rolesandseedfromoldcommand,notfreshoptimizationperformance. SingleJVMXms32mXmx2gsequential,allfailuresretainedandcounted.",
+  "acceptance": "NATIVEwholepaidSHA/front exactoldsource. Everymodelfirstgenerationkeys/resources/affinity/FOSidenticalallmodesbeforeanymix. EverypaidcandidatefulltimelineQAandindependent source-move/archive/acceptreplay. Roletransition/objectives/genome/id/RNGmappingandvisitorderindependentlyrebuild. ForFULLcutswholepaiddigest equalsmasterprefix. Lastprogramslotnotnecessarily99; cannotfakecontiguousslotproof. Init/duplicate/fallbackfeealwayspaid; attempts=successful=DynamicEvaluationbackendcount,0fail.",
+  "gate": "Allengineeringsemantic/identity/physics/cutoffchecks required,noqualitycomputedhere. OnlythenregisterfreshseedmatrixwithNATIVE/TASK_ONLY/ORDER_ONLY/RANDOM/CENTERandstrongclassics/shared/Li controls. NooldFOUR/CENTERfailureoverturn orclaimmatureextremeroleassignmentnovel.",
+  "failure": "Retainfailure/usedFEandfixmechanicalissuesonlyviaexplicitamendmentwithremainingcap; noseedreplacement. No performanceclaimsorparameterrescues.",
+  "defaultMainlineChanged": false,
+  "externalTransfers": false,
+  "goalAchieved": false
+}

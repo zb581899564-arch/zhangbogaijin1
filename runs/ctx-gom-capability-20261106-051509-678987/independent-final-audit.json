@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "phases": [
+    {
+      "phase": "FE500K",
+      "checks": [
+        {
+          "instance": "20_8_5_1",
+          "fronts": 20,
+          "referenceSize": 1242,
+          "maximumIndependentHVError": 2.6645352591003757e-15,
+          "allScalarIGDAndCoveredCountsAgree": true,
+          "competitivePass": false,
+          "independentRoleAndSharingPass": false
+        },
+        {
+          "instance": "100_2_3_1",
+          "fronts": 20,
+          "referenceSize": 2637,
+          "maximumIndependentHVError": 1.3322676295501878e-15,
+          "allScalarIGDAndCoveredCountsAgree": true,
+          "competitivePass": false,
+          "independentRoleAndSharingPass": false
+        }
+      ]
+    }
+  ],
+  "fees": {
+    "attempted": 20394175,
+    "successful": 20394175,
+    "failed": 0,
+    "receipts": 76
+  },
+  "originalSourcesAndInputsRetained": true,
+  "defaultProtectedSourcesUnchanged": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "goalAchieved": false
+}

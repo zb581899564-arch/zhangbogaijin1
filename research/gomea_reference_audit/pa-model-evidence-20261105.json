@@ -1,0 +1,338 @@
+{
+  "status": "COMPLETE",
+  "sourcePaper": {
+    "landingPage": "https://research.vu.nl/en/publications/model-based-optimization-in-home-healthcare/",
+    "advertisedSize": "14.6MB",
+    "actualBytes": 15582533,
+    "sha256": "01f2bd5f5aa1069a67f2123d6ea102d2127b9d13e4bf89f3de8261ea775e1530",
+    "requestedURL": "https://research.vu.nl/ws/portalfiles/portal/360510178/proefschriftyoramclapper%20-%2066fdb0c4047b7.pdf",
+    "resolvedURL": "https://research.vu.nl/ws/portalfiles/portal/360510178/proefschriftyoramclapper%20-%2066fdb0c4047b7.pdf",
+    "statusCode": 200,
+    "contentType": "application/pdf",
+    "contentLength": null,
+    "downloadedAtUTC": "2026-11-05T07:50:44.786125+00:00",
+    "pdfPages": 191,
+    "version": "Author2024dissertation, Chapter3 based on COR2023paper; not assumed identical typesetting/version",
+    "purpose": "Private research, no public redistribution",
+    "uploadedBytes": 0,
+    "networkConfigurationChanged": false,
+    "directRouteVerified": false,
+    "optimizationFE": 0
+  },
+  "evidence": {
+    "contexts": [
+      {
+        "componentPairs": 190,
+        "maximumComponentError": 7.438494264988549e-15,
+        "branchCounts": {
+          "repulsion": 135,
+          "attraction": 55
+        },
+        "binomial": {
+          "tailValues": 6668,
+          "maximumError": 1.0325074129013956e-14
+        },
+        "hierarchy": {
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        },
+        "receipt": {
+          "status": "COMPLETE",
+          "optimizationFE": 0,
+          "decoderCalls": 160,
+          "sourceGenomes": 80,
+          "neutralViewExactKeyMatches": 80,
+          "rawGlobalOrderChanges": 80,
+          "componentPairs": 190,
+          "defaultMainlineChanged": false,
+          "goalAchieved": false
+        },
+        "modelSeconds": 0.0015098,
+        "hierarchySeconds": 0.0020206,
+        "scope": "Engineering/model mathematics only; no performance or innovation evidence",
+        "stem": "20_8_5_1",
+        "seed": 11730007
+      },
+      {
+        "componentPairs": 190,
+        "maximumComponentError": 3.9968028886505635e-15,
+        "branchCounts": {
+          "attraction": 65,
+          "repulsion": 125
+        },
+        "binomial": {
+          "tailValues": 6668,
+          "maximumError": 1.0325074129013956e-14
+        },
+        "hierarchy": {
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        },
+        "receipt": {
+          "status": "COMPLETE",
+          "optimizationFE": 0,
+          "decoderCalls": 160,
+          "sourceGenomes": 80,
+          "neutralViewExactKeyMatches": 80,
+          "rawGlobalOrderChanges": 80,
+          "componentPairs": 190,
+          "defaultMainlineChanged": false,
+          "goalAchieved": false
+        },
+        "modelSeconds": 0.0015102,
+        "hierarchySeconds": 0.0020337,
+        "scope": "Engineering/model mathematics only; no performance or innovation evidence",
+        "stem": "20_8_5_1",
+        "seed": 11730037
+      },
+      {
+        "componentPairs": 4950,
+        "maximumComponentError": 5.218048215738236e-15,
+        "branchCounts": {
+          "repulsion": 2610,
+          "attraction": 2340
+        },
+        "binomial": {
+          "tailValues": 6668,
+          "maximumError": 1.0325074129013956e-14
+        },
+        "hierarchy": {
+          "merges": 99,
+          "maximumChosenMeanDeficit": 0.0
+        },
+        "receipt": {
+          "status": "COMPLETE",
+          "optimizationFE": 0,
+          "decoderCalls": 160,
+          "sourceGenomes": 80,
+          "neutralViewExactKeyMatches": 80,
+          "rawGlobalOrderChanges": 80,
+          "componentPairs": 4950,
+          "defaultMainlineChanged": false,
+          "goalAchieved": false
+        },
+        "modelSeconds": 0.0068733,
+        "hierarchySeconds": 0.0093239,
+        "scope": "Engineering/model mathematics only; no performance or innovation evidence",
+        "stem": "100_2_3_1",
+        "seed": 11730007
+      },
+      {
+        "componentPairs": 4950,
+        "maximumComponentError": 5.218048215738236e-15,
+        "branchCounts": {
+          "attraction": 2238,
+          "repulsion": 2712
+        },
+        "binomial": {
+          "tailValues": 6668,
+          "maximumError": 1.0325074129013956e-14
+        },
+        "hierarchy": {
+          "merges": 99,
+          "maximumChosenMeanDeficit": 0.0
+        },
+        "receipt": {
+          "status": "COMPLETE",
+          "optimizationFE": 0,
+          "decoderCalls": 160,
+          "sourceGenomes": 80,
+          "neutralViewExactKeyMatches": 80,
+          "rawGlobalOrderChanges": 80,
+          "componentPairs": 4950,
+          "defaultMainlineChanged": false,
+          "goalAchieved": false
+        },
+        "modelSeconds": 0.006453,
+        "hierarchySeconds": 0.007558,
+        "scope": "Engineering/model mathematics only; no performance or innovation evidence",
+        "stem": "100_2_3_1",
+        "seed": 11730037
+      }
+    ],
+    "optimizationFE": 0,
+    "decoderCalls": 640,
+    "sourceGenomes": 320,
+    "neutralViewExactKeyMatches": 320,
+    "rawGlobalOrderChanges": 320,
+    "componentPairs": 10280,
+    "allEngineeringChecksPass": true,
+    "newOptimizerImplemented": false,
+    "performanceEvidence": false,
+    "goalAchieved": false
+  },
+  "loadedClassChecks": [
+    {
+      "context": "100_2_3_1\\11730007",
+      "loaded": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaModelAuditRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/research/dynamic/PaModelAuditRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "bc94ebfcc27b2a7db4878702387d90b883cf5baa2ad68bcc8b419a906176b2dc"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.BinomialAttraction": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/BinomialAttraction.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "423c7d90ed5b5567a6a220a87c125741000d8bb279e8c58718073820c39f695c"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    },
+    {
+      "context": "100_2_3_1\\11730037",
+      "loaded": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaModelAuditRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/research/dynamic/PaModelAuditRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "bc94ebfcc27b2a7db4878702387d90b883cf5baa2ad68bcc8b419a906176b2dc"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.BinomialAttraction": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/BinomialAttraction.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "423c7d90ed5b5567a6a220a87c125741000d8bb279e8c58718073820c39f695c"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\11730007",
+      "loaded": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaModelAuditRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/research/dynamic/PaModelAuditRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "bc94ebfcc27b2a7db4878702387d90b883cf5baa2ad68bcc8b419a906176b2dc"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.BinomialAttraction": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/BinomialAttraction.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "423c7d90ed5b5567a6a220a87c125741000d8bb279e8c58718073820c39f695c"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\11730037",
+      "loaded": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaModelAuditRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/research/dynamic/PaModelAuditRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "bc94ebfcc27b2a7db4878702387d90b883cf5baa2ad68bcc8b419a906176b2dc"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.BinomialAttraction": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/BinomialAttraction.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "423c7d90ed5b5567a6a220a87c125741000d8bb279e8c58718073820c39f695c"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-model-audit-20261105-160326-565953/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    }
+  ],
+  "nextEngineeringProtocol": "research/gomea_reference_audit/PA_MO_ENGINEERING_V1.json",
+  "nextProtocolExecuted": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,1149 @@
+{
+  "engineeringExecution": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-typed-basis-engineering-20261105-223547-202723",
+  "engineeringEffectiveAcceptance": {
+    "engineeringPass": true,
+    "postAuditReview": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-typed-basis-review-20261105-224213-159720\\analysis.json",
+    "effectiveIdentity": "Original execution plus explicit post-audit reference correction; old status and frozen sources untouched",
+    "newSearchFE": 0,
+    "decoderCalls": 0,
+    "goalAchieved": false
+  },
+  "pilot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-typed-basis-pilot-20261105-231059-489346",
+  "actualSuccessfulFE": 3871614,
+  "failedEvaluations": 0,
+  "extraFullDecoderQA": 359270,
+  "engineeringAuditReferenceErrorRetained": true,
+  "all38PilotDelegatesAndRecordedClassesVerified": true,
+  "frozenTriIndicatorGateRecomputedEqual": true,
+  "timeStageRun": false,
+  "decision": "STOP_FIXED_TYPED_BASIS_PILOT",
+  "readiness": {
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "componentBeyondMoreVisits": false,
+        "preservesOriginal": false,
+        "classicNoninferiority": {
+          "NSGA2_PLAIN": true,
+          "NSGA2_DEEP": true
+        },
+        "oldControlsImproved": {
+          "FULL_SHARED_DEEP": true,
+          "LI_RECON_DEEP": true
+        },
+        "pass": false
+      },
+      {
+        "stem": "100_2_3_1",
+        "componentBeyondMoreVisits": false,
+        "preservesOriginal": false,
+        "classicNoninferiority": {
+          "NSGA2_PLAIN": true,
+          "NSGA2_DEEP": false
+        },
+        "oldControlsImproved": {
+          "FULL_SHARED_DEEP": false,
+          "LI_RECON_DEEP": true
+        },
+        "pass": false
+      }
+    ],
+    "pass": false,
+    "scope": "Allocation of further study budget for this fixed ordinary basis only; no novel-method/paper qualification"
+  },
+  "primaryEffects": [
+    {
+      "stem": "20_8_5_1",
+      "comparisons": [
+        {
+          "A": "TYPED",
+          "B": "ATOM",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 0.6175308089282572,
+                "1.5": 0.4021762692041575,
+                "2.0": 0.2320050434044596
+              },
+              "IGDplusSymmetricWorseningPct": -9.33948148120939,
+              "coverage": {
+                "C_A_B": 0.4230769230769231,
+                "C_B_A": 0.3870967741935484,
+                "coveredB": 121,
+                "totalB": 286,
+                "coveredA": 132,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": -0.6761555910959061,
+                "1.5": -0.5543635754237775,
+                "2.0": -0.3954154987986236
+              },
+              "IGDplusSymmetricWorseningPct": 40.13305832780115,
+              "coverage": {
+                "C_A_B": 0.18181818181818182,
+                "C_B_A": 0.3848797250859107,
+                "coveredB": 48,
+                "totalB": 264,
+                "coveredA": 112,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -0.02931239108382444,
+            "1.5": -0.07609365310980998,
+            "2.0": -0.081705227697082
+          },
+          "medianIGDplusSymmetricWorseningPct": 15.396788423295881,
+          "medianC_A_B": 0.30244755244755245,
+          "medianC_B_A": 0.38598824963972955,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": -1,
+              "IGDplus": -1,
+              "coverageAsymmetry": -1
+            },
+            "label": "ALIGNED_TOWARD_B",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "SHAM_BLOCK",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": -0.7991602998265845,
+                "1.5": -0.615346004319206,
+                "2.0": -0.4337452159210109
+              },
+              "IGDplusSymmetricWorseningPct": 23.375263347220873,
+              "coverage": {
+                "C_A_B": 0.3167701863354037,
+                "C_B_A": 0.3812316715542522,
+                "coveredB": 102,
+                "totalB": 322,
+                "coveredA": 130,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": -1.3201999625225058,
+                "1.5": -0.9047737853595139,
+                "2.0": -0.5565079524765371
+              },
+              "IGDplusSymmetricWorseningPct": 20.71406656336237,
+              "coverage": {
+                "C_A_B": 0.1951219512195122,
+                "C_B_A": 0.5979381443298969,
+                "coveredB": 72,
+                "totalB": 369,
+                "coveredA": 174,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -1.0596801311745452,
+            "1.5": -0.76005989483936,
+            "2.0": -0.495126584198774
+          },
+          "medianIGDplusSymmetricWorseningPct": 22.044664955291623,
+          "medianC_A_B": 0.25594606877745796,
+          "medianC_B_A": 0.48958490794207454,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": -1,
+              "IGDplus": -1,
+              "coverageAsymmetry": -1
+            },
+            "label": "ALIGNED_TOWARD_B",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "TYPED_RELABEL",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 0.684044528444927,
+                "1.5": 0.5231863562483285,
+                "2.0": 0.3572494330362108
+              },
+              "IGDplusSymmetricWorseningPct": 30.503069388295497,
+              "coverage": {
+                "C_A_B": 0.26382978723404255,
+                "C_B_A": 0.5513196480938416,
+                "coveredB": 62,
+                "totalB": 235,
+                "coveredA": 188,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": -1.5040556395187754,
+                "1.5": -1.1739089479497644,
+                "2.0": -0.8044840908420836
+              },
+              "IGDplusSymmetricWorseningPct": -2.3412599301945045,
+              "coverage": {
+                "C_A_B": 0.3283582089552239,
+                "C_B_A": 0.46048109965635736,
+                "coveredB": 110,
+                "totalB": 335,
+                "coveredA": 134,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -0.4100055555369242,
+            "1.5": -0.32536129585071794,
+            "2.0": -0.2236173289029364
+          },
+          "medianIGDplusSymmetricWorseningPct": 14.080904729050497,
+          "medianC_A_B": 0.2960939980946332,
+          "medianC_B_A": 0.5059003738750995,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": -1,
+              "IGDplus": -1,
+              "coverageAsymmetry": -1
+            },
+            "label": "ALIGNED_TOWARD_B",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "NSGA2_PLAIN",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 4.06221010792629,
+                "1.5": 2.604085241069254,
+                "2.0": 1.523538114786227
+              },
+              "IGDplusSymmetricWorseningPct": -76.73394943978745,
+              "coverage": {
+                "C_A_B": 0.8100558659217877,
+                "C_B_A": 0.020527859237536656,
+                "coveredB": 145,
+                "totalB": 179,
+                "coveredA": 7,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 2.2849560112665923,
+                "1.5": 1.6055375895781987,
+                "2.0": 1.0391491053419077
+              },
+              "IGDplusSymmetricWorseningPct": -26.70173104789106,
+              "coverage": {
+                "C_A_B": 0.5841584158415841,
+                "C_B_A": 0.23367697594501718,
+                "coveredB": 118,
+                "totalB": 202,
+                "coveredA": 68,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 3.173583059596441,
+            "1.5": 2.1048114153237263,
+            "2.0": 1.2813436100640674
+          },
+          "medianIGDplusSymmetricWorseningPct": -51.717840243839255,
+          "medianC_A_B": 0.6971071408816859,
+          "medianC_B_A": 0.1271024175912769,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": 1
+            },
+            "label": "ALIGNED_TOWARD_A",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "NSGA2_DEEP",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 10.237751942391494,
+                "1.5": 6.583071981469946,
+                "2.0": 3.8420807954907765
+              },
+              "IGDplusSymmetricWorseningPct": -133.30553477477756,
+              "coverage": {
+                "C_A_B": 0.5912408759124088,
+                "C_B_A": 0.04105571847507331,
+                "coveredB": 81,
+                "totalB": 137,
+                "coveredA": 14,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 6.1548006623877605,
+                "1.5": 4.047483392138873,
+                "2.0": 2.400146351909882
+              },
+              "IGDplusSymmetricWorseningPct": -69.76667086781524,
+              "coverage": {
+                "C_A_B": 0.3047619047619048,
+                "C_B_A": 0.3539518900343643,
+                "coveredB": 32,
+                "totalB": 105,
+                "coveredA": 103,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 8.196276302389627,
+            "1.5": 5.315277686804409,
+            "2.0": 3.1211135737003293
+          },
+          "medianIGDplusSymmetricWorseningPct": -101.5361028212964,
+          "medianC_A_B": 0.4480013903371568,
+          "medianC_B_A": 0.1975038042547188,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": 1
+            },
+            "label": "ALIGNED_TOWARD_A",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "FULL_SHARED_DEEP",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 11.436387644410239,
+                "1.5": 7.58401972554299,
+                "2.0": 4.600651457645877
+              },
+              "IGDplusSymmetricWorseningPct": -138.94387929055384,
+              "coverage": {
+                "C_A_B": 1.0,
+                "C_B_A": 0.0,
+                "coveredB": 165,
+                "totalB": 165,
+                "coveredA": 0,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 11.961574909583428,
+                "1.5": 8.028552483847262,
+                "2.0": 4.9481996192869415
+              },
+              "IGDplusSymmetricWorseningPct": -131.96966234354448,
+              "coverage": {
+                "C_A_B": 1.0,
+                "C_B_A": 0.0,
+                "coveredB": 164,
+                "totalB": 164,
+                "coveredA": 0,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 11.698981276996832,
+            "1.5": 7.8062861046951255,
+            "2.0": 4.774425538466409
+          },
+          "medianIGDplusSymmetricWorseningPct": -135.45677081704918,
+          "medianC_A_B": 1.0,
+          "medianC_B_A": 0.0,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": 1
+            },
+            "label": "ALIGNED_TOWARD_A",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "LI_RECON_DEEP",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 16.452032448005816,
+                "1.5": 10.46390724988997,
+                "2.0": 6.105152276272041
+              },
+              "IGDplusSymmetricWorseningPct": -157.4283972497355,
+              "coverage": {
+                "C_A_B": 1.0,
+                "C_B_A": 0.0,
+                "coveredB": 119,
+                "totalB": 119,
+                "coveredA": 0,
+                "totalA": 341,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 19.511988659257273,
+                "1.5": 12.75347467643575,
+                "2.0": 7.647280836685799
+              },
+              "IGDplusSymmetricWorseningPct": -146.9600136073668,
+              "coverage": {
+                "C_A_B": 1.0,
+                "C_B_A": 0.0,
+                "coveredB": 104,
+                "totalB": 104,
+                "coveredA": 0,
+                "totalA": 291,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 17.982010553631547,
+            "1.5": 11.60869096316286,
+            "2.0": 6.87621655647892
+          },
+          "medianIGDplusSymmetricWorseningPct": -152.19420542855113,
+          "medianC_A_B": 1.0,
+          "medianC_B_A": 0.0,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": 1
+            },
+            "label": "ALIGNED_TOWARD_A",
+            "coverageUninformative": false
+          }
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "comparisons": [
+        {
+          "A": "TYPED",
+          "B": "ATOM",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": -7.8422913506255405,
+                "1.5": -5.618937417310232,
+                "2.0": -3.6566738271874177
+              },
+              "IGDplusSymmetricWorseningPct": 34.34759913148676,
+              "coverage": {
+                "C_A_B": 0.18985270049099837,
+                "C_B_A": 0.44607843137254904,
+                "coveredB": 116,
+                "totalB": 611,
+                "coveredA": 182,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": -1.1781668530194578,
+                "1.5": -0.8602341307931582,
+                "2.0": -0.5629429172243516
+              },
+              "IGDplusSymmetricWorseningPct": -17.04688287189185,
+              "coverage": {
+                "C_A_B": 0.6212121212121212,
+                "C_B_A": 0.3150684931506849,
+                "coveredB": 287,
+                "totalB": 462,
+                "coveredA": 138,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -4.5102291018225,
+            "1.5": -3.2395857740516956,
+            "2.0": -2.109808372205885
+          },
+          "medianIGDplusSymmetricWorseningPct": 8.650358129797455,
+          "medianC_A_B": 0.4055324108515598,
+          "medianC_B_A": 0.380573462261617,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": -1,
+              "IGDplus": -1,
+              "coverageAsymmetry": 1
+            },
+            "label": "MIXED_DIRECTIONS",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "SHAM_BLOCK",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": -4.140212124320952,
+                "1.5": -2.881390544975704,
+                "2.0": -1.8244886374026437
+              },
+              "IGDplusSymmetricWorseningPct": 26.95923705166556,
+              "coverage": {
+                "C_A_B": 0.25918367346938775,
+                "C_B_A": 0.4852941176470588,
+                "coveredB": 127,
+                "totalB": 490,
+                "coveredA": 198,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": -3.1142706713420787,
+                "1.5": -2.0351471356639173,
+                "2.0": -1.2353272876726384
+              },
+              "IGDplusSymmetricWorseningPct": 50.63316342987684,
+              "coverage": {
+                "C_A_B": 0.1691542288557214,
+                "C_B_A": 0.7146118721461188,
+                "coveredB": 68,
+                "totalB": 402,
+                "coveredA": 313,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -3.627241397831515,
+            "1.5": -2.4582688403198105,
+            "2.0": -1.529907962537641
+          },
+          "medianIGDplusSymmetricWorseningPct": 38.7962002407712,
+          "medianC_A_B": 0.21416895116255458,
+          "medianC_B_A": 0.5999529948965888,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": -1,
+              "IGDplus": -1,
+              "coverageAsymmetry": -1
+            },
+            "label": "ALIGNED_TOWARD_B",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "TYPED_RELABEL",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": -0.9352759683004974,
+                "1.5": -0.5561479719506712,
+                "2.0": -0.28476148374319
+              },
+              "IGDplusSymmetricWorseningPct": 15.480050889725993,
+              "coverage": {
+                "C_A_B": 0.3075117370892019,
+                "C_B_A": 0.5049019607843137,
+                "coveredB": 131,
+                "totalB": 426,
+                "coveredA": 206,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 0.14344924484110955,
+                "1.5": 0.05382496553123506,
+                "2.0": 0.002077400567013221
+              },
+              "IGDplusSymmetricWorseningPct": 19.33201338002588,
+              "coverage": {
+                "C_A_B": 0.22686567164179106,
+                "C_B_A": 0.5205479452054794,
+                "coveredB": 76,
+                "totalB": 335,
+                "coveredA": 228,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -0.39591336172969394,
+            "1.5": -0.2511615032097181,
+            "2.0": -0.14134204158808839
+          },
+          "medianIGDplusSymmetricWorseningPct": 17.406032134875936,
+          "medianC_A_B": 0.26718870436549647,
+          "medianC_B_A": 0.5127249529948965,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": -1,
+              "IGDplus": -1,
+              "coverageAsymmetry": -1
+            },
+            "label": "ALIGNED_TOWARD_B",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "NSGA2_PLAIN",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 15.056829714976194,
+                "1.5": 10.277940157263687,
+                "2.0": 6.4498822595568495
+              },
+              "IGDplusSymmetricWorseningPct": -95.75514507309687,
+              "coverage": {
+                "C_A_B": 0.9295774647887324,
+                "C_B_A": 0.07352941176470588,
+                "coveredB": 396,
+                "totalB": 426,
+                "coveredA": 30,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 17.49270045244835,
+                "1.5": 12.036948819954961,
+                "2.0": 7.602535388802334
+              },
+              "IGDplusSymmetricWorseningPct": -78.70766491104081,
+              "coverage": {
+                "C_A_B": 0.8631578947368421,
+                "C_B_A": 0.0730593607305936,
+                "coveredB": 246,
+                "totalB": 285,
+                "coveredA": 32,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 16.27476508371227,
+            "1.5": 11.157444488609325,
+            "2.0": 7.026208824179592
+          },
+          "medianIGDplusSymmetricWorseningPct": -87.23140499206883,
+          "medianC_A_B": 0.8963676797627873,
+          "medianC_B_A": 0.07329438624764975,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": 1
+            },
+            "label": "ALIGNED_TOWARD_A",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "NSGA2_DEEP",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 7.500458324698456,
+                "1.5": 5.683979437378195,
+                "2.0": 3.892410711276617
+              },
+              "IGDplusSymmetricWorseningPct": 23.60781940431373,
+              "coverage": {
+                "C_A_B": 0.125,
+                "C_B_A": 0.6470588235294118,
+                "coveredB": 28,
+                "totalB": 224,
+                "coveredA": 264,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 15.742741253214486,
+                "1.5": 11.129861538444619,
+                "2.0": 7.1754761161550995
+              },
+              "IGDplusSymmetricWorseningPct": -28.466446667175312,
+              "coverage": {
+                "C_A_B": 0.4265402843601896,
+                "C_B_A": 0.2785388127853881,
+                "coveredB": 90,
+                "totalB": 211,
+                "coveredA": 122,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 11.621599788956471,
+            "1.5": 8.406920487911407,
+            "2.0": 5.533943413715859
+          },
+          "medianIGDplusSymmetricWorseningPct": -2.429313631430791,
+          "medianC_A_B": 0.27577014218009477,
+          "medianC_B_A": 0.4627988181574,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": -1
+            },
+            "label": "MIXED_DIRECTIONS",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "FULL_SHARED_DEEP",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 11.363438310914598,
+                "1.5": 8.308106477099697,
+                "2.0": 5.506919362086249
+              },
+              "IGDplusSymmetricWorseningPct": -21.09314947473451,
+              "coverage": {
+                "C_A_B": 0.32098765432098764,
+                "C_B_A": 0.30392156862745096,
+                "coveredB": 78,
+                "totalB": 243,
+                "coveredA": 124,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 2.7641783974027945,
+                "1.5": 2.6346603847642536,
+                "2.0": 2.0483265145537333
+              },
+              "IGDplusSymmetricWorseningPct": 47.353087228171496,
+              "coverage": {
+                "C_A_B": 0.18666666666666668,
+                "C_B_A": 0.5570776255707762,
+                "coveredB": 42,
+                "totalB": 225,
+                "coveredA": 244,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 7.063808354158696,
+            "1.5": 5.471383430931976,
+            "2.0": 3.777622938319991
+          },
+          "medianIGDplusSymmetricWorseningPct": 13.129968876718493,
+          "medianC_A_B": 0.25382716049382714,
+          "medianC_B_A": 0.43049959709911356,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": -1,
+              "coverageAsymmetry": -1
+            },
+            "label": "MIXED_DIRECTIONS",
+            "coverageUninformative": false
+          }
+        },
+        {
+          "A": "TYPED",
+          "B": "LI_RECON_DEEP",
+          "pairs": [
+            {
+              "seed": 14230003,
+              "HVEffectPct": {
+                "1.25": 2.1748476243039105,
+                "1.5": 2.69029159115477,
+                "2.0": 2.395753768145781
+              },
+              "IGDplusSymmetricWorseningPct": -17.782347594675493,
+              "coverage": {
+                "C_A_B": 0.31868131868131866,
+                "C_B_A": 0.3602941176470588,
+                "coveredB": 58,
+                "totalB": 182,
+                "coveredA": 147,
+                "totalA": 408,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "seed": 14230037,
+              "HVEffectPct": {
+                "1.25": 8.78488717221504,
+                "1.5": 6.751382251007798,
+                "2.0": 4.577739906114209
+              },
+              "IGDplusSymmetricWorseningPct": -54.52563788687867,
+              "coverage": {
+                "C_A_B": 0.4444444444444444,
+                "C_B_A": 0.24885844748858446,
+                "coveredB": 76,
+                "totalB": 171,
+                "coveredA": 109,
+                "totalA": 438,
+                "sharedObjectiveVectors": 0
+              },
+              "directions": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 5.479867398259476,
+            "1.5": 4.720836921081284,
+            "2.0": 3.486746837129995
+          },
+          "medianIGDplusSymmetricWorseningPct": -36.153992740777085,
+          "medianC_A_B": 0.38156288156288154,
+          "medianC_B_A": 0.30457628256782165,
+          "medianDirections": {
+            "signsFavouringA": {
+              "HV": 1,
+              "IGDplus": 1,
+              "coverageAsymmetry": 1
+            },
+            "label": "ALIGNED_TOWARD_A",
+            "coverageUninformative": false
+          }
+        }
+      ]
+    }
+  ],
+  "nextScope": "research/gomea_reference_audit/MO_LIFECYCLE_SCOPE_20261105.md",
+  "ordinaryTypedBasisImplementedAndTested": true,
+  "nextMechanismImplemented": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

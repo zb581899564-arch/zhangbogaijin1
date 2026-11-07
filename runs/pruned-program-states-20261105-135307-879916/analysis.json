@@ -1,0 +1,139 @@
+{
+  "trajectories": [
+    {
+      "stem": "20_8_5_1",
+      "method": "FULL",
+      "independentInnerComparisons": 87174,
+      "completeCenterPrograms": 3530,
+      "centerProgramsWithUnexpandedWitness": 333,
+      "centerProgramCoverage": 0.0943342776203966,
+      "unexpandedCenterWitnesses": 491,
+      "unexpandedCenterWitnessSequentialGain": 0.009125038698465426,
+      "allCompleteCenterDescentSequentialGain": 0.014467558781443957,
+      "witnessShareOfCenterDescentGain": 0.6307241488570394,
+      "gate": false,
+      "independentPaidArchiveAcceptance": {
+        "paidRows": 100000,
+        "intraRows": 94837,
+        "phaseRows": {
+          "OUTSIDE": 5163,
+          "SHAKE": 7663,
+          "DESCENT": 87174
+        },
+        "archiveAdmissionsIndependentlyVerified": 1347,
+        "checkedFEFronts": [
+          1,
+          2,
+          100,
+          5100,
+          15000,
+          50000,
+          100000
+        ],
+        "maxIndependentHVError": 2.220446049250313e-16
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA",
+      "independentInnerComparisons": 87403,
+      "completeCenterPrograms": 3178,
+      "centerProgramsWithUnexpandedWitness": 229,
+      "centerProgramCoverage": 0.07205789804908748,
+      "unexpandedCenterWitnesses": 354,
+      "unexpandedCenterWitnessSequentialGain": 0.014481877045335767,
+      "allCompleteCenterDescentSequentialGain": 0.017365623311469347,
+      "witnessShareOfCenterDescentGain": 0.8339393746823374,
+      "gate": false,
+      "independentPaidArchiveAcceptance": {
+        "paidRows": 100000,
+        "intraRows": 94843,
+        "phaseRows": {
+          "OUTSIDE": 5157,
+          "SHAKE": 7440,
+          "DESCENT": 87403
+        },
+        "archiveAdmissionsIndependentlyVerified": 1320,
+        "checkedFEFronts": [
+          1,
+          2,
+          100,
+          5100,
+          15000,
+          50000,
+          100000
+        ],
+        "maxIndependentHVError": 3.885780586188048e-16
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "FULL",
+      "independentInnerComparisons": 88018,
+      "completeCenterPrograms": 2477,
+      "centerProgramsWithUnexpandedWitness": 820,
+      "centerProgramCoverage": 0.3310456197012515,
+      "unexpandedCenterWitnesses": 1848,
+      "unexpandedCenterWitnessSequentialGain": 0.08120853480490997,
+      "allCompleteCenterDescentSequentialGain": 0.12923611753779618,
+      "witnessShareOfCenterDescentGain": 0.6283733707890122,
+      "gate": true,
+      "independentPaidArchiveAcceptance": {
+        "paidRows": 100000,
+        "intraRows": 94764,
+        "phaseRows": {
+          "OUTSIDE": 5236,
+          "SHAKE": 6746,
+          "DESCENT": 88018
+        },
+        "archiveAdmissionsIndependentlyVerified": 3948,
+        "checkedFEFronts": [
+          1,
+          2,
+          100,
+          5100,
+          15000,
+          50000,
+          100000
+        ],
+        "maxIndependentHVError": 2.220446049250313e-16
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA",
+      "independentInnerComparisons": 87937,
+      "completeCenterPrograms": 2703,
+      "centerProgramsWithUnexpandedWitness": 867,
+      "centerProgramCoverage": 0.32075471698113206,
+      "unexpandedCenterWitnesses": 1897,
+      "unexpandedCenterWitnessSequentialGain": 0.07164189384866326,
+      "allCompleteCenterDescentSequentialGain": 0.13210592940444787,
+      "witnessShareOfCenterDescentGain": 0.5423064216090452,
+      "gate": true,
+      "independentPaidArchiveAcceptance": {
+        "paidRows": 100000,
+        "intraRows": 94840,
+        "phaseRows": {
+          "OUTSIDE": 5160,
+          "SHAKE": 6903,
+          "DESCENT": 87937
+        },
+        "archiveAdmissionsIndependentlyVerified": 4505,
+        "checkedFEFronts": [
+          1,
+          2,
+          100,
+          5100,
+          15000,
+          50000,
+          100000
+        ],
+        "maxIndependentHVError": 5.551115123125783e-16
+      }
+    }
+  ],
+  "worthWholeGenomeWitnessCapture": false,
+  "searchQueueImplemented": false,
+  "goalAchieved": false
+}

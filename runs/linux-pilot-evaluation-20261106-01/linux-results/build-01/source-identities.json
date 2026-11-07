@@ -1,0 +1,91 @@
+{
+  "sources": [
+    {
+      "name": "CanonicalHmopso",
+      "original": "anchor/overrides/CanonicalHmopso.java",
+      "originalSHA256": "2af9181473716acea38a25eb9aa8410ed5478e12570ed3d1cf26016bd78d0ac4",
+      "output": "CanonicalHmopso.java",
+      "outputSHA256": "e025b7b3dc275881f1d03b7f022137e42ede84182262a85c2b846b39c2376637",
+      "kind": "isolated_override"
+    },
+    {
+      "name": "SearchState",
+      "original": "anchor/extra/SearchState.java",
+      "originalSHA256": "b3b2f05a092950632bef38b07359f4e11febd9a0f587f289cca039b5f37b3210",
+      "output": "SearchState.java",
+      "outputSHA256": "31d583cc5594d9a087b4fe4512be4f7ff74b5112f7906c6cd1f8cb67f7b7f581",
+      "kind": "isolated_override"
+    },
+    {
+      "name": "GomLocalProgram",
+      "original": "anchor/source/GomLocalProgram.java",
+      "originalSHA256": "12a69b327cca02e5cffe8e9e85c7386a5f5b206e33a6ad0fc416a1ed768e4c6a",
+      "output": "GomLocalProgram.java",
+      "outputSHA256": "f9016f601a60ea52b52f5feed8fcf7881b293b392ca20c73c0bd03c8113fabd0",
+      "kind": "isolated_override"
+    },
+    {
+      "name": "PilotEvidence",
+      "original": "new-java/PilotEvidence.java",
+      "originalSHA256": "18a2a51936f6b8b7f9dd3810411bc1ee1a8d3435bc2f04c9d640b914b885d00a",
+      "output": "new/PilotEvidence.java",
+      "outputSHA256": "18a2a51936f6b8b7f9dd3810411bc1ee1a8d3435bc2f04c9d640b914b885d00a",
+      "kind": "supplied_pilot"
+    },
+    {
+      "name": "PilotPhysics",
+      "original": "new-java/PilotPhysics.java",
+      "originalSHA256": "91118355174e9e05097e37e277b38fc9794e2fe4e1b9cd9cae939f98a11fca4c",
+      "output": "new/PilotPhysics.java",
+      "outputSHA256": "91118355174e9e05097e37e277b38fc9794e2fe4e1b9cd9cae939f98a11fca4c",
+      "kind": "supplied_pilot"
+    },
+    {
+      "name": "PilotRun",
+      "original": "new-java/PilotRun.java",
+      "originalSHA256": "aae2793e1a40290b9b47580b6dcef898e8fe5946916559115bdf78351f264c57",
+      "output": "new/PilotRun.java",
+      "outputSHA256": "aae2793e1a40290b9b47580b6dcef898e8fe5946916559115bdf78351f264c57",
+      "kind": "supplied_pilot"
+    },
+    {
+      "name": "PilotTrace",
+      "original": "new-java/PilotTrace.java",
+      "originalSHA256": "3c77a9a7509502e52f313eb4d1f872a0390dcb45b25f722b84e6bc7ef40c6e35",
+      "output": "new/PilotTrace.java",
+      "outputSHA256": "3c77a9a7509502e52f313eb4d1f872a0390dcb45b25f722b84e6bc7ef40c6e35",
+      "kind": "supplied_pilot"
+    }
+  ],
+  "frozenProviders": [
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso",
+      "provider": "dependencies/cp-000",
+      "resource": "org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+      "sha256": "bada12915649c67fd3ff456d375f29fa015ee19b83a1e8015c18de28c9ac2a50"
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.SearchState",
+      "provider": "dependencies/cp-013",
+      "resource": "org/uma/jmetal/util/research/search/SearchState.class",
+      "sha256": "274427e8f5f1507d539509aab649b76323a8c806648e6e4cf2914b8055c4abcb"
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.GomLocalProgram",
+      "provider": "dependencies/cp-001",
+      "resource": "org/uma/jmetal/util/research/search/GomLocalProgram.class",
+      "sha256": "aa812751be578180fa82e201a7c90b7fb364d49328f002c53f29b36e65a7e9ad"
+    }
+  ],
+  "extraSourceIdentity": {
+    "className": "org.uma.jmetal.util.research.search.SearchState",
+    "originalSource": "G:/ai/limingzhegaijin/张博改进/runs/batch-survival-study-20261104-222516-378030/source/SearchState.java",
+    "sourceSHA256": "b3b2f05a092950632bef38b07359f4e11febd9a0f587f289cca039b5f37b3210",
+    "provider": "dependencies/cp-013",
+    "classResource": "org/uma/jmetal/util/research/search/SearchState.class",
+    "classSHA256": "274427e8f5f1507d539509aab649b76323a8c806648e6e4cf2914b8055c4abcb",
+    "originalProvider": "G:/ai/limingzhegaijin/张博改进/runs/batch-survival-study-20261104-222516-378030/classes",
+    "reason": "First provider in frozen capability classpath; includes ledgerGroup and batch-survival lifecycle"
+  },
+  "observerMode": "Runtime OBS_OFF affects PilotTrace observations only; phase gates remain active"
+}

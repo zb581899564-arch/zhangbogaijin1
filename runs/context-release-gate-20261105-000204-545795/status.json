@@ -1,0 +1,5 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "completed": [],
+  "error": "Command failed (1); see G:\\ai\\limingzhegaijin\\张博改进\\runs\\context-release-gate-20261105-000204-545795\\checks.log\nException in thread \"main\" java.lang.IllegalStateException: Call SeededRandom.reset(seed) on the run's sole thread first\n\tat org.uma.jmetal.util.research.runtime.SeededRandom.current(SeededRandom.java:26)\n\tat org.uma.jmetal.util.research.SchedulingEncoding.initialize(SchedulingEncoding.java:18)\n\tat org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>(DefaultIntegerPermutationSolution.java:41)\n\tat org.uma.jmetal.problem.impl.AbstractIntegerPermutationProblem.createSolution(AbstractIntegerPermutationProblem.java:27)\n\tat org.uma.jmetal.util.research.cooperation.ContextReleaseChecks.main(ContextReleaseChecks.java:17)\n"
+}

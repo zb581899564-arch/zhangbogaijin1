@@ -1,0 +1,73 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "sourceSeeds": [
+    10060007,
+    10060031
+  ],
+  "continuationSeeds": [
+    10840003,
+    10840033
+  ],
+  "arms": [
+    "STRICT",
+    "FACTORY_LEX",
+    "COST_LEX"
+  ],
+  "hypothesis": "A neutral makespan move improving noncritical factory completion can support later global Cmax reduction. New hypothesis from fixed-timeline observations, not rescue of failed CENTER tie/reward/sweep or personal-memory mechanisms.",
+  "sources": "Reuse all eight outcome-independently captured free MAKESPAN parents from each of two paid original FULL source cohorts per instance. Same parents, construction seed and eight factory slots for all three rules. No new source selection based on outcome.",
+  "candidate": "Only exact MAKESPAN ties use decreasing sorted physical factory completion vector lexicographic order. COST_LEX control uses TEC then TWC; STRICT is original. All other decisions/operators unchanged. Cached paid schedules only, no adjoint or new decoder.",
+  "budget": "2instances x2sourceSeeds x8parents x2reps x3rules x(1paid parent+514continuationFE)=98880FE; engineering original STRICT500000FE, full return and retained QA separate. Each continuation inter2FE +8factory slots64FE. No free starts or duplicate/cached-call exemptions.",
+  "gate": "Each instance mean relative best-paid Cmax improvement >=1.1x STRICT, >COST_LEX; >=9/16 parents beat each control after averaging their two reps. Mean conditional addedHV against own pre-existing paid background >=STRICT. Zero reference improvement is inconclusive. Failure stops this secondary order without lex-order/tolerance/seed scan.",
+  "engineering": "STRICT original full500k paid sequence and frozen evidence replay first. Zero-decoder descending-lex checks. Every trial exact515 paidFE zero failures, physically identical factory slots and full decoder QA for all returned and retained points.",
+  "literature": [
+    "https://arxiv.org/abs/2212.09077",
+    "https://arxiv.org/abs/1805.03437"
+  ],
+  "novelty": "Lexicographic makespan minimization is established; this is a feasibility/continuation control, not a standalone novel contribution. A pass only motivates fresh closed-loop comparison including generic and matched classical enhancements.",
+  "limits": "Local role mechanism, not complete-search, same-time, fatigue specificity or independent confirmation. No mainline or sharing changes."
+}

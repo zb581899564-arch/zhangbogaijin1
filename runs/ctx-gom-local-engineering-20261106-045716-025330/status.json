@@ -1,0 +1,13 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "error": "RuntimeError('Command failed (1); see G:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\ctx-gom-local-engineering-20261106-045716-025330\\\\20_8_5_1\\\\OFF-OLD-SHARE_CTX_GOM\\\\run.log\\nException in thread \"main\" java.lang.IllegalArgumentException: Non-finite JSON number\\n\\tat research.dynamic.DynamicJson.encode(DynamicJson.java:13)\\n\\tat research.dynamic.DynamicJson.encode(DynamicJson.java:22)\\n\\tat research.dynamic.NeutralProbeSupport.append(NeutralProbeSupport.java:22)\\n\\tat research.dynamic.GomEngineeringRun.main(GomEngineeringRun.java:71)\\n')",
+  "successfulFE": 0,
+  "attemptedFE": 0,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "paidFullTimelineQA": 0,
+  "viewFullTimelineQA": 0,
+  "checkpointOfflineQA": 0,
+  "receiptCount": 0,
+  "goalAchieved": false
+}

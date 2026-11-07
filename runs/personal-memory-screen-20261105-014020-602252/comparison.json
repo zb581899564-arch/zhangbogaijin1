@@ -1,0 +1,1217 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "effectsPct": {
+        "OLD_FULL": [
+          -0.9696258128696789,
+          -0.39378171095270087,
+          1.1132990919845653
+        ],
+        "CURRENT_FULL": [
+          -1.0769975718165181,
+          -0.13032594798658703,
+          1.2158686409244668
+        ],
+        "RANDOM_FULL": [
+          -0.3453227486244881,
+          0.9923198051160487,
+          -0.6859546748118839
+        ],
+        "LATEST_SYNC": [
+          -1.9337205364395427,
+          -0.6895563536341909,
+          0.3301482787597676
+        ],
+        "LATEST_UNIFORM": [
+          -0.8833945912895991,
+          -0.12757477702595166,
+          1.2657680195755416
+        ],
+        "LI_MATCHED_DEEP": [
+          2.743468386412262,
+          3.6186903299956663,
+          3.9615848537790432
+        ],
+        "LI_LATEST": [
+          2.116320274707717,
+          2.6213898581929795,
+          4.020563759024487
+        ],
+        "NSGA": [
+          -4.11636864663818,
+          -4.283591112376451,
+          -2.676528538113754
+        ],
+        "OLD_FORCE": [
+          -0.4269384022530964,
+          3.198334052994123,
+          1.5734263347800148
+        ]
+      },
+      "medianEffectsPct": {
+        "OLD_FULL": -0.39378171095270087,
+        "CURRENT_FULL": -0.13032594798658703,
+        "RANDOM_FULL": -0.3453227486244881,
+        "LATEST_SYNC": -0.6895563536341909,
+        "LATEST_UNIFORM": -0.12757477702595166,
+        "LI_MATCHED_DEEP": 3.6186903299956663,
+        "LI_LATEST": 2.6213898581929795,
+        "NSGA": -4.11636864663818,
+        "OLD_FORCE": 1.5734263347800148
+      },
+      "efficacyPrimaryPass": false,
+      "fourRoleMedianBenefit": -0.12757477702595166,
+      "compositionMedianBenefit": -0.6895563536341909
+    },
+    {
+      "stem": "100_2_3_1",
+      "effectsPct": {
+        "OLD_FULL": [
+          0.38816033624740065,
+          -0.5677194400366403,
+          -0.305831714248328
+        ],
+        "CURRENT_FULL": [
+          0.009040763276213504,
+          -0.07743684942571605,
+          -0.39161391552156033
+        ],
+        "RANDOM_FULL": [
+          0.4702187226597987,
+          -0.7557440730697862,
+          -1.1147669734768773
+        ],
+        "LATEST_SYNC": [
+          -0.09450327956485038,
+          0.6084557562277215,
+          -0.7304340788196639
+        ],
+        "LATEST_UNIFORM": [
+          6.675030236686408,
+          8.711088043969273,
+          6.9219653251064495
+        ],
+        "LI_MATCHED_DEEP": [
+          3.639662719504777,
+          3.0106135917082,
+          1.7285519672036065
+        ],
+        "LI_LATEST": [
+          0.7387154178892352,
+          0.9851518433128481,
+          1.8155675717873132
+        ],
+        "NSGA": [
+          0.5426409846642999,
+          -1.1654217306896975,
+          1.189287372308656
+        ],
+        "OLD_FORCE": [
+          1.1411859095244115,
+          1.949365029458483,
+          1.6876326897166782
+        ]
+      },
+      "medianEffectsPct": {
+        "OLD_FULL": -0.305831714248328,
+        "CURRENT_FULL": -0.07743684942571605,
+        "RANDOM_FULL": -0.7557440730697862,
+        "LATEST_SYNC": -0.09450327956485038,
+        "LATEST_UNIFORM": 6.9219653251064495,
+        "LI_MATCHED_DEEP": 3.0106135917082,
+        "LI_LATEST": 0.9851518433128481,
+        "NSGA": 0.5426409846642999,
+        "OLD_FORCE": 1.6876326897166782
+      },
+      "efficacyPrimaryPass": false,
+      "fourRoleMedianBenefit": 6.9219653251064495,
+      "compositionMedianBenefit": -0.09450327956485038
+    }
+  ],
+  "cells": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "OLD_FULL",
+      "HV": {
+        "1.25": 0.1595473404889814,
+        "1.5": 0.5247754424888648,
+        "2": 2.2937869407677245
+      },
+      "IGDplus": 0.019519728733760875,
+      "timeHV": 0.5034530599628955,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 22154,
+        "nontrivialHistoryCalls": 4655
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LATEST_FULL",
+      "HV": {
+        "1.25": 0.15735181192570125,
+        "1.5": 0.5196870843388917,
+        "2": 2.279921789693816
+      },
+      "IGDplus": 0.018378867690837693,
+      "timeHV": 0.501339323471922,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 19017,
+        "nontrivialHistoryCalls": 4714
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "CURRENT_FULL",
+      "HV": {
+        "1.25": 0.1596920859622773,
+        "1.5": 0.5253450376379105,
+        "2": 2.2961330571415024
+      },
+      "IGDplus": 0.009321453381823443,
+      "timeHV": 0.508781991038777,
+      "memory": {
+        "mode": "CURRENT",
+        "centerCalls": 5500,
+        "historySizeSum": 25459,
+        "nontrivialHistoryCalls": 5071
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "RANDOM_FULL",
+      "HV": {
+        "1.25": 0.157748100460441,
+        "1.5": 0.521487900691303,
+        "2": 2.2863803836372916
+      },
+      "IGDplus": 0.022326212974439864,
+      "timeHV": 0.49498022794689905,
+      "memory": {
+        "mode": "UNIFORM",
+        "centerCalls": 5500,
+        "historySizeSum": 17994,
+        "nontrivialHistoryCalls": 4531
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LATEST_SYNC",
+      "HV": {
+        "1.25": 0.1612858332926666,
+        "1.5": 0.52993453731667,
+        "2": 2.3109074227703625
+      },
+      "IGDplus": 0.012056820067437702,
+      "timeHV": 0.5093277910064371,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 17285,
+        "nontrivialHistoryCalls": 4282
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LATEST_UNIFORM",
+      "HV": {
+        "1.25": 0.15989806436298065,
+        "1.5": 0.5243188890458322,
+        "2": 2.2897300459982404
+      },
+      "IGDplus": 0.006266431038795925,
+      "timeHV": 0.5081367272729583,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 10000,
+        "historySizeSum": 37139,
+        "nontrivialHistoryCalls": 8452
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.15175707959656465,
+        "1.5": 0.5058103376307859,
+        "2": 2.2381776831573035
+      },
+      "IGDplus": 0.030887616705665092,
+      "timeHV": 0.47888476130856816,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 31151,
+        "nontrivialHistoryCalls": 5100
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LI_LATEST",
+      "HV": {
+        "1.25": 0.15281456421383946,
+        "1.5": 0.5089167754388897,
+        "2": 2.248912808865432
+      },
+      "IGDplus": 0.02829795976624515,
+      "timeHV": 0.486133803705419,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 32519,
+        "nontrivialHistoryCalls": 5085
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.1671390303614259,
+        "1.5": 0.5419977080589269,
+        "2": 2.341327304305649
+      },
+      "IGDplus": 0.0044920049520951934,
+      "timeHV": 0.5161408912340122,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 0,
+        "historySizeSum": 0,
+        "nontrivialHistoryCalls": 0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "OLD_FORCE",
+      "HV": {
+        "1.25": 0.15816141950531354,
+        "1.5": 0.521915341358401,
+        "2": 2.286855943174339
+      },
+      "IGDplus": 0.022008354450874096,
+      "timeHV": 0.4867851670705675,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 30748,
+        "nontrivialHistoryCalls": 4827
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "OLD_FULL",
+      "HV": {
+        "1.25": 0.1603787040715582,
+        "1.5": 0.5274980883381413,
+        "2": 2.302762815984313
+      },
+      "IGDplus": 0.015324110426694694,
+      "timeHV": 0.5140661887470396,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 18843,
+        "nontrivialHistoryCalls": 4671
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LATEST_FULL",
+      "HV": {
+        "1.25": 0.159733500208471,
+        "1.5": 0.5254208973406406,
+        "2": 2.295451926209322
+      },
+      "IGDplus": 0.018952144929717033,
+      "timeHV": 0.5032450536349082,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 20233,
+        "nontrivialHistoryCalls": 4715
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "CURRENT_FULL",
+      "HV": {
+        "1.25": 0.15955396406314867,
+        "1.5": 0.5261065506902471,
+        "2": 2.2995334160703615
+      },
+      "IGDplus": 0.023000622846877674,
+      "timeHV": 0.4940394279008162,
+      "memory": {
+        "mode": "CURRENT",
+        "centerCalls": 5500,
+        "historySizeSum": 21231,
+        "nontrivialHistoryCalls": 4948
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "RANDOM_FULL",
+      "HV": {
+        "1.25": 0.15710609899064037,
+        "1.5": 0.5202582714750393,
+        "2": 2.283844441146364
+      },
+      "IGDplus": 0.014904914429525984,
+      "timeHV": 0.5072117724211497,
+      "memory": {
+        "mode": "UNIFORM",
+        "centerCalls": 5500,
+        "historySizeSum": 19101,
+        "nontrivialHistoryCalls": 4548
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LATEST_SYNC",
+      "HV": {
+        "1.25": 0.161574683447529,
+        "1.5": 0.5290691271218261,
+        "2": 2.3043429453921096
+      },
+      "IGDplus": 0.01107447339767749,
+      "timeHV": 0.5150334268218983,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 20466,
+        "nontrivialHistoryCalls": 4721
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LATEST_UNIFORM",
+      "HV": {
+        "1.25": 0.16021133180645675,
+        "1.5": 0.5260920581107266,
+        "2": 2.2968497343169023
+      },
+      "IGDplus": 0.010558319492035634,
+      "timeHV": 0.5050761417022058,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 10000,
+        "historySizeSum": 34321,
+        "nontrivialHistoryCalls": 8057
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.15205041994094515,
+        "1.5": 0.5070715482576805,
+        "2": 2.2431552729825786
+      },
+      "IGDplus": 0.029130934053127184,
+      "timeHV": 0.48222454773618484,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 31905,
+        "nontrivialHistoryCalls": 4919
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LI_LATEST",
+      "HV": {
+        "1.25": 0.15404756134218325,
+        "1.5": 0.5119993970717914,
+        "2": 2.2576159562685123
+      },
+      "IGDplus": 0.022553490836906102,
+      "timeHV": 0.4932675787690145,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 30655,
+        "nontrivialHistoryCalls": 4857
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.17037043109742694,
+        "1.5": 0.5489350294759954,
+        "2": 2.359197845015024
+      },
+      "IGDplus": 0.0069839507111377035,
+      "timeHV": 0.5208431225967008,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 0,
+        "historySizeSum": 0,
+        "nontrivialHistoryCalls": 0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "OLD_FORCE",
+      "HV": {
+        "1.25": 0.15300830967979392,
+        "1.5": 0.50913699543912,
+        "2": 2.2490550210681057
+      },
+      "IGDplus": 0.022838542324404403,
+      "timeHV": 0.49241507397330575,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 29663,
+        "nontrivialHistoryCalls": 4648
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "OLD_FULL",
+      "HV": {
+        "1.25": 0.15585416528828824,
+        "1.5": 0.5164198307809781,
+        "2": 2.2708353654877693
+      },
+      "IGDplus": 0.014265843457412804,
+      "timeHV": 0.5022836480958282,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 17700,
+        "nontrivialHistoryCalls": 4665
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LATEST_FULL",
+      "HV": {
+        "1.25": 0.15823676517572893,
+        "1.5": 0.522169128067891,
+        "2": 2.2873700879698635
+      },
+      "IGDplus": 0.014142251586080946,
+      "timeHV": 0.5028955278999695,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 16326,
+        "nontrivialHistoryCalls": 4316
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "CURRENT_FULL",
+      "HV": {
+        "1.25": 0.15531905238845348,
+        "1.5": 0.5158965042530526,
+        "2": 2.27110197827583
+      },
+      "IGDplus": 0.01617176898044162,
+      "timeHV": 0.49963219115574264,
+      "memory": {
+        "mode": "CURRENT",
+        "centerCalls": 5500,
+        "historySizeSum": 21685,
+        "nontrivialHistoryCalls": 4713
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "RANDOM_FULL",
+      "HV": {
+        "1.25": 0.1597361902117623,
+        "1.5": 0.5257757111374638,
+        "2": 2.2968762374993124
+      },
+      "IGDplus": 0.013573276473201914,
+      "timeHV": 0.5001148730012268,
+      "memory": {
+        "mode": "UNIFORM",
+        "centerCalls": 5500,
+        "historySizeSum": 18101,
+        "nontrivialHistoryCalls": 4669
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LATEST_SYNC",
+      "HV": {
+        "1.25": 0.15730149616945266,
+        "1.5": 0.5204508684838014,
+        "2": 2.283148479967388
+      },
+      "IGDplus": 0.01738331441423601,
+      "timeHV": 0.5045998699791873,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 17399,
+        "nontrivialHistoryCalls": 4220
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LATEST_UNIFORM",
+      "HV": {
+        "1.25": 0.15561372390301118,
+        "1.5": 0.5156422928298448,
+        "2": 2.2682326173152574
+      },
+      "IGDplus": 0.009704269777491033,
+      "timeHV": 0.506218952319117,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 10000,
+        "historySizeSum": 33587,
+        "nontrivialHistoryCalls": 8482
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.14959958027184736,
+        "1.5": 0.5022712272060076,
+        "2": 2.232125306589046
+      },
+      "IGDplus": 0.021839824052654146,
+      "timeHV": 0.487292895198991,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 34118,
+        "nontrivialHistoryCalls": 5151
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LI_LATEST",
+      "HV": {
+        "1.25": 0.14951722888105015,
+        "1.5": 0.5019864430628884,
+        "2": 2.231268148129458
+      },
+      "IGDplus": 0.025916977755380186,
+      "timeHV": 0.4922805102846759,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 33464,
+        "nontrivialHistoryCalls": 5015
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.16468599855570434,
+        "1.5": 0.5365294930651775,
+        "2": 2.3265513115621466
+      },
+      "IGDplus": 0.009658524592541975,
+      "timeHV": 0.50773530151594,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 0,
+        "historySizeSum": 0,
+        "nontrivialHistoryCalls": 0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "OLD_FORCE",
+      "HV": {
+        "1.25": 0.15486311593713406,
+        "1.5": 0.5140804508719163,
+        "2": 2.264224669116095
+      },
+      "IGDplus": 0.021822162935582312,
+      "timeHV": 0.4851416336934453,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 30394,
+        "nontrivialHistoryCalls": 4721
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "OLD_FULL",
+      "HV": {
+        "1.25": 0.28817379193131604,
+        "1.5": 0.7883822290677913,
+        "2": 2.9623635121521565
+      },
+      "IGDplus": 0.010526801738497595,
+      "timeHV": 0.7186655263646425,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 15701,
+        "nontrivialHistoryCalls": 3860
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LATEST_FULL",
+      "HV": {
+        "1.25": 0.28923976374469024,
+        "1.5": 0.7914424161790556,
+        "2": 2.9726992140990043
+      },
+      "IGDplus": 0.011083427167180927,
+      "timeHV": 0.7033390334327252,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 20754,
+        "nontrivialHistoryCalls": 4556
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "CURRENT_FULL",
+      "HV": {
+        "1.25": 0.2893291135941108,
+        "1.5": 0.7913708702120428,
+        "2": 2.9713644150669887
+      },
+      "IGDplus": 0.01135166405233103,
+      "timeHV": 0.7048165150832288,
+      "memory": {
+        "mode": "CURRENT",
+        "centerCalls": 5500,
+        "historySizeSum": 18706,
+        "nontrivialHistoryCalls": 4421
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "RANDOM_FULL",
+      "HV": {
+        "1.25": 0.2871481583290842,
+        "1.5": 0.7877383230982812,
+        "2": 2.964502538978088
+      },
+      "IGDplus": 0.01595786368759309,
+      "timeHV": 0.693139616104216,
+      "memory": {
+        "mode": "UNIFORM",
+        "centerCalls": 5500,
+        "historySizeSum": 19762,
+        "nontrivialHistoryCalls": 4264
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LATEST_SYNC",
+      "HV": {
+        "1.25": 0.28895605413312697,
+        "1.5": 0.7921910627137397,
+        "2": 2.9773210370886622
+      },
+      "IGDplus": 0.019334681821621937,
+      "timeHV": 0.704725575539221,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 17455,
+        "nontrivialHistoryCalls": 4064
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LATEST_UNIFORM",
+      "HV": {
+        "1.25": 0.26636298624978466,
+        "1.5": 0.7419190924277538,
+        "2": 2.839489577860511
+      },
+      "IGDplus": 0.014614696121975726,
+      "timeHV": 0.6887709347722419,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 10000,
+        "historySizeSum": 36783,
+        "nontrivialHistoryCalls": 7485
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.2774084877702705,
+        "1.5": 0.7636481974290599,
+        "2": 2.893015848085804
+      },
+      "IGDplus": 0.02764020530545098,
+      "timeHV": 0.6973778990611198,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 25867,
+        "nontrivialHistoryCalls": 4511
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LI_LATEST",
+      "HV": {
+        "1.25": 0.28692814738996647,
+        "1.5": 0.7856387813721426,
+        "2": 2.955393799010686
+      },
+      "IGDplus": 0.018720667901598435,
+      "timeHV": 0.686250403866292,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 24957,
+        "nontrivialHistoryCalls": 4299
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.2874808355745749,
+        "1.5": 0.787170904233333,
+        "2": 2.9594736775198083
+      },
+      "IGDplus": 0.012256505068074117,
+      "timeHV": 0.6828375544922537,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 0,
+        "historySizeSum": 0,
+        "nontrivialHistoryCalls": 0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "OLD_FORCE",
+      "HV": {
+        "1.25": 0.28842973323206833,
+        "1.5": 0.7825124938588701,
+        "2": 2.932861478652056
+      },
+      "IGDplus": 0.02136653661795483,
+      "timeHV": 0.686691168540935,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 27179,
+        "nontrivialHistoryCalls": 4129
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "OLD_FULL",
+      "HV": {
+        "1.25": 0.29019609042988814,
+        "1.5": 0.792999899490946,
+        "2": 2.9759406638352126
+      },
+      "IGDplus": 0.016047358756586937,
+      "timeHV": 0.6941326449146041,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 17450,
+        "nontrivialHistoryCalls": 4073
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LATEST_FULL",
+      "HV": {
+        "1.25": 0.28834116148976086,
+        "1.5": 0.7884978849020648,
+        "2": 2.9623107483764253
+      },
+      "IGDplus": 0.013188876053131798,
+      "timeHV": 0.698418725073156,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 18341,
+        "nontrivialHistoryCalls": 4313
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "CURRENT_FULL",
+      "HV": {
+        "1.25": 0.28814303572694777,
+        "1.5": 0.7891089460083902,
+        "2": 2.966800519130822
+      },
+      "IGDplus": 0.017278530786564786,
+      "timeHV": 0.6920561981387815,
+      "memory": {
+        "mode": "CURRENT",
+        "centerCalls": 5500,
+        "historySizeSum": 23504,
+        "nontrivialHistoryCalls": 4800
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "RANDOM_FULL",
+      "HV": {
+        "1.25": 0.2910493200780496,
+        "1.5": 0.7945022888605321,
+        "2": 2.978657449508757
+      },
+      "IGDplus": 0.015233028466808062,
+      "timeHV": 0.6854848589774623,
+      "memory": {
+        "mode": "UNIFORM",
+        "centerCalls": 5500,
+        "historySizeSum": 17635,
+        "nontrivialHistoryCalls": 4314
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LATEST_SYNC",
+      "HV": {
+        "1.25": 0.28517066674091684,
+        "1.5": 0.7837292392327138,
+        "2": 2.9538589173589958
+      },
+      "IGDplus": 0.01765909462422663,
+      "timeHV": 0.6813127515644811,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 22585,
+        "nontrivialHistoryCalls": 4469
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LATEST_UNIFORM",
+      "HV": {
+        "1.25": 0.2592237352725462,
+        "1.5": 0.7253150521160722,
+        "2": 2.792579400325864
+      },
+      "IGDplus": 0.017632041662283604,
+      "timeHV": 0.6899148225520366,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 10000,
+        "historySizeSum": 32389,
+        "nontrivialHistoryCalls": 7348
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.27903453418738977,
+        "1.5": 0.7654530513014386,
+        "2": 2.894155587236923
+      },
+      "IGDplus": 0.023475985896045767,
+      "timeHV": 0.6820148960214533,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 25322,
+        "nontrivialHistoryCalls": 4526
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LI_LATEST",
+      "HV": {
+        "1.25": 0.2856256597346778,
+        "1.5": 0.7808057625397119,
+        "2": 2.937853761622219
+      },
+      "IGDplus": 0.021145839861781635,
+      "timeHV": 0.6860536920423514,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 27854,
+        "nontrivialHistoryCalls": 4701
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.2930032014637585,
+        "1.5": 0.7977955678158702,
+        "2": 2.9858469106373966
+      },
+      "IGDplus": 0.012959192428175548,
+      "timeHV": 0.7131139899108808,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 0,
+        "historySizeSum": 0,
+        "nontrivialHistoryCalls": 0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "OLD_FORCE",
+      "HV": {
+        "1.25": 0.2835141494347271,
+        "1.5": 0.7734210847455761,
+        "2": 2.9125770027441176
+      },
+      "IGDplus": 0.02609243340894313,
+      "timeHV": 0.7064275920998482,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 27980,
+        "nontrivialHistoryCalls": 4797
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "OLD_FULL",
+      "HV": {
+        "1.25": 0.288584621922453,
+        "1.5": 0.7893725219799742,
+        "2": 2.9653567907393015
+      },
+      "IGDplus": 0.013022729686474856,
+      "timeHV": 0.7034723965062174,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 17675,
+        "nontrivialHistoryCalls": 4019
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LATEST_FULL",
+      "HV": {
+        "1.25": 0.28842001082546875,
+        "1.5": 0.7869583704641976,
+        "2": 2.9544067290486575
+      },
+      "IGDplus": 0.012925279275093255,
+      "timeHV": 0.7057606608435515,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 15525,
+        "nontrivialHistoryCalls": 3803
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "CURRENT_FULL",
+      "HV": {
+        "1.25": 0.2882024480323423,
+        "1.5": 0.7900523253100132,
+        "2": 2.9703396246305513
+      },
+      "IGDplus": 0.012797944415840829,
+      "timeHV": 0.7084187081637701,
+      "memory": {
+        "mode": "CURRENT",
+        "centerCalls": 5500,
+        "historySizeSum": 17266,
+        "nontrivialHistoryCalls": 3919
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "RANDOM_FULL",
+      "HV": {
+        "1.25": 0.291241766577262,
+        "1.5": 0.7958300206999751,
+        "2": 2.9839890152578743
+      },
+      "IGDplus": 0.018923936791005805,
+      "timeHV": 0.7049655061744211,
+      "memory": {
+        "mode": "UNIFORM",
+        "centerCalls": 5500,
+        "historySizeSum": 17319,
+        "nontrivialHistoryCalls": 4022
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LATEST_SYNC",
+      "HV": {
+        "1.25": 0.29062391930769454,
+        "1.5": 0.7927488784317236,
+        "2": 2.972387863211949
+      },
+      "IGDplus": 0.012139546516255397,
+      "timeHV": 0.711991968429899,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 16507,
+        "nontrivialHistoryCalls": 4033
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LATEST_UNIFORM",
+      "HV": {
+        "1.25": 0.26472348567194987,
+        "1.5": 0.7360118831255819,
+        "2": 2.818518815211619
+      },
+      "IGDplus": 0.019700687667135036,
+      "timeHV": 0.6905500520739752,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 10000,
+        "historySizeSum": 31135,
+        "nontrivialHistoryCalls": 7324
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.28120962285592366,
+        "1.5": 0.7735865253620302,
+        "2": 2.9235507138409713
+      },
+      "IGDplus": 0.021150663646519657,
+      "timeHV": 0.7062049737849546,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 21343,
+        "nontrivialHistoryCalls": 4076
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LI_LATEST",
+      "HV": {
+        "1.25": 0.28142165881927284,
+        "1.5": 0.7729253877697388,
+        "2": 2.919927692784875
+      },
+      "IGDplus": 0.02078717857318245,
+      "timeHV": 0.6967308891678287,
+      "memory": {
+        "mode": "LATEST",
+        "centerCalls": 5500,
+        "historySizeSum": 21636,
+        "nontrivialHistoryCalls": 4147
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.284811676006854,
+        "1.5": 0.777709173470823,
+        "2": 2.9266943923615214
+      },
+      "IGDplus": 0.01460756950964346,
+      "timeHV": 0.6769830467259605,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 0,
+        "historySizeSum": 0,
+        "nontrivialHistoryCalls": 0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "OLD_FORCE",
+      "HV": {
+        "1.25": 0.28352659505381705,
+        "1.5": 0.7738978179042416,
+        "2": 2.9140595969504286
+      },
+      "IGDplus": 0.018341135838714825,
+      "timeHV": 0.6973687125694165,
+      "memory": {
+        "mode": "OLDEST",
+        "centerCalls": 5500,
+        "historySizeSum": 26168,
+        "nontrivialHistoryCalls": 4248
+      }
+    }
+  ],
+  "efficacyPrimaryPass": false,
+  "conditionalCooperationScreenPass": false,
+  "decision": "STOP_LATEST_MEMORY_SCREEN"
+}

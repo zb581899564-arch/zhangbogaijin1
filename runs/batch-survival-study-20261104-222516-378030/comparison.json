@@ -1,0 +1,1187 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "candidateEffectsPct": {
+        "FORCE": [
+          4.519839721961216,
+          2.570985826396366,
+          2.254257498642853
+        ],
+        "ROLE_GREEDY": [
+          2.4623142739935044,
+          0.7020685706540908,
+          0.1286875662890541
+        ],
+        "ROLE_RANK": [
+          0.5609984413445845,
+          1.0067384270148194,
+          -0.15257840499084407
+        ],
+        "ALL_CROWD": [
+          3.0617634605186517,
+          1.1835253804716395,
+          0.9929454185996001
+        ],
+        "NSGA": [
+          -1.5907886881652011,
+          -3.957016347353537,
+          -4.3718690704459995
+        ],
+        "LI_MATCHED_DEEP": [
+          5.53404143152183,
+          2.246429864561028,
+          2.8181914104904005
+        ]
+      },
+      "medianEffectsPct": {
+        "FORCE": 2.570985826396366,
+        "ROLE_GREEDY": 0.7020685706540908,
+        "ROLE_RANK": 0.5609984413445845,
+        "ALL_CROWD": 1.1835253804716395,
+        "NSGA": -3.957016347353537,
+        "LI_MATCHED_DEEP": 2.8181914104904005
+      },
+      "primaryPass": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "candidateEffectsPct": {
+        "FORCE": [
+          0.9248464409118196,
+          3.4324867319736274,
+          0.7729736843749224
+        ],
+        "ROLE_GREEDY": [
+          1.0421933035526854,
+          1.7152064536034572,
+          -0.42770852020755923
+        ],
+        "ROLE_RANK": [
+          0.3691103777754723,
+          0.3324298380977808,
+          -0.3471808202160531
+        ],
+        "ALL_CROWD": [
+          -1.6272945836414143,
+          -0.6067526313288218,
+          1.1827079423080145
+        ],
+        "NSGA": [
+          0.7979004032186099,
+          -0.16298225944370026,
+          -1.9501338900797638
+        ],
+        "LI_MATCHED_DEEP": [
+          4.110473012722848,
+          3.2528696873235674,
+          1.549199461424644
+        ]
+      },
+      "medianEffectsPct": {
+        "FORCE": 0.9248464409118196,
+        "ROLE_GREEDY": 1.0421933035526854,
+        "ROLE_RANK": 0.3324298380977808,
+        "ALL_CROWD": -0.6067526313288218,
+        "NSGA": -0.16298225944370026,
+        "LI_MATCHED_DEEP": 3.2528696873235674
+      },
+      "primaryPass": false
+    }
+  ],
+  "cells": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "FORCE",
+      "HV": {
+        "1.25": 0.15208889039609444,
+        "1.5": 0.5073526214872177,
+        "2": 2.245368318827839
+      },
+      "timeHV": 0.4867002544550553,
+      "timeFE": 191485,
+      "IGDplus": 0.015150787726925213,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ROLE_GREEDY",
+      "HV": {
+        "1.25": 0.15604010979486596,
+        "1.5": 0.5175406690362084,
+        "2": 2.2757163088293524
+      },
+      "timeHV": 0.49567693363925763,
+      "timeFE": 184872,
+      "IGDplus": 0.012346758446636354,
+      "batch": {
+        "mode": "ROLE_GREEDY",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1441,
+          "accepted.MAKESPAN": 59,
+          "paid.CENTER": 5500,
+          "accepted.CENTER": 537,
+          "rejected.CENTER": 4963,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1398,
+          "accepted.ENERGY": 102,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1408,
+          "accepted.WORKER_COST": 92
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ROLE_RANK",
+      "HV": {
+        "1.25": 0.1603473261508128,
+        "1.5": 0.5273258569652266,
+        "2": 2.3020172285101093
+      },
+      "timeHV": 0.4993161753574935,
+      "timeFE": 198185,
+      "IGDplus": 0.00893550585964974,
+      "batch": {
+        "mode": "ROLE_RANK",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1446,
+          "accepted.MAKESPAN": 54,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 814,
+          "rejected.CENTER": 5102,
+          "accepted.CENTER": 398,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1407,
+          "accepted.ENERGY": 93,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1415,
+          "accepted.WORKER_COST": 85
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ROLE_CROWD",
+      "HV": {
+        "1.25": 0.16180203890910066,
+        "1.5": 0.5302841468036085,
+        "2": 2.30926736272239
+      },
+      "timeHV": 0.5028781243360584,
+      "timeFE": 187662,
+      "IGDplus": 0.00971679851158008,
+      "batch": {
+        "mode": "ROLE_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1438,
+          "accepted.MAKESPAN": 62,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 784,
+          "rejected.CENTER": 4785,
+          "accepted.CENTER": 715,
+          "crowdingAccepted.CENTER": 296,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1390,
+          "accepted.ENERGY": 110,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1402,
+          "accepted.WORKER_COST": 98
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ALL_CROWD",
+      "HV": {
+        "1.25": 0.15490725782147505,
+        "1.5": 0.5145304417450144,
+        "2": 2.2664905362334604
+      },
+      "timeHV": 0.49963626958456625,
+      "timeFE": 183462,
+      "IGDplus": 0.012288148796792497,
+      "batch": {
+        "mode": "ALL_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1317,
+          "rankTie.MAKESPAN": 399,
+          "accepted.MAKESPAN": 183,
+          "crowdingAccepted.MAKESPAN": 107,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 756,
+          "crowdingAccepted.CENTER": 263,
+          "accepted.CENTER": 678,
+          "rejected.CENTER": 4822,
+          "paid.ENERGY": 1500,
+          "rankTie.ENERGY": 484,
+          "rejected.ENERGY": 1309,
+          "crowdingAccepted.ENERGY": 100,
+          "accepted.ENERGY": 191,
+          "paid.WORKER_COST": 1500,
+          "rankTie.WORKER_COST": 423,
+          "rejected.WORKER_COST": 1304,
+          "crowdingAccepted.WORKER_COST": 107,
+          "accepted.WORKER_COST": 196
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.1656037714528967,
+        "1.5": 0.5388562104448407,
+        "2": 2.333342466705322
+      },
+      "timeHV": 0.510221099489801,
+      "timeFE": 169865,
+      "IGDplus": 0.005279211496614729,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.1496081133061476,
+        "1.5": 0.5024768687056256,
+        "2": 2.232796326989769
+      },
+      "timeHV": 0.4824143484247666,
+      "timeFE": 192126,
+      "IGDplus": 0.022400383843019747,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "FORCE",
+      "HV": {
+        "1.25": 0.1539058074805813,
+        "1.5": 0.5120397069008955,
+        "2": 2.2584887914241487
+      },
+      "timeHV": 0.48713843387192457,
+      "timeFE": 190181,
+      "IGDplus": 0.016794701924283447,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ROLE_GREEDY",
+      "HV": {
+        "1.25": 0.15771850066322327,
+        "1.5": 0.5215425885937466,
+        "2": 2.2867086362925435
+      },
+      "timeHV": 0.4888582845338824,
+      "timeFE": 171701,
+      "IGDplus": 0.014172879004657126,
+      "batch": {
+        "mode": "ROLE_GREEDY",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1429,
+          "accepted.MAKESPAN": 71,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 4920,
+          "accepted.CENTER": 580,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1370,
+          "accepted.ENERGY": 130,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1396,
+          "accepted.WORKER_COST": 104
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ROLE_RANK",
+      "HV": {
+        "1.25": 0.15690451982498443,
+        "1.5": 0.5199694429994289,
+        "2": 2.283055811316678
+      },
+      "timeHV": 0.500642300273873,
+      "timeFE": 186741,
+      "IGDplus": 0.014684068658116119,
+      "batch": {
+        "mode": "ROLE_RANK",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1435,
+          "accepted.MAKESPAN": 65,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5058,
+          "accepted.CENTER": 442,
+          "rankTie.CENTER": 738,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1409,
+          "accepted.ENERGY": 91,
+          "paid.WORKER_COST": 1500,
+          "accepted.WORKER_COST": 93,
+          "rejected.WORKER_COST": 1407
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ROLE_CROWD",
+      "HV": {
+        "1.25": 0.15971520966773725,
+        "1.5": 0.5252041751908391,
+        "2": 2.2951258839144764
+      },
+      "timeHV": 0.5016794930723489,
+      "timeFE": 181207,
+      "IGDplus": 0.01048184240323264,
+      "batch": {
+        "mode": "ROLE_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1429,
+          "accepted.MAKESPAN": 71,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 4752,
+          "accepted.CENTER": 748,
+          "rankTie.CENTER": 874,
+          "crowdingAccepted.CENTER": 319,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1398,
+          "accepted.ENERGY": 102,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1394,
+          "accepted.WORKER_COST": 106
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ALL_CROWD",
+      "HV": {
+        "1.25": 0.15687807905926235,
+        "1.5": 0.5190609570243371,
+        "2": 2.279192720702664
+      },
+      "timeHV": 0.49924249171412605,
+      "timeFE": 172787,
+      "IGDplus": 0.012471365698882513,
+      "batch": {
+        "mode": "ALL_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "accepted.MAKESPAN": 111,
+          "rejected.MAKESPAN": 1389,
+          "rankTie.MAKESPAN": 279,
+          "crowdingAccepted.MAKESPAN": 35,
+          "paid.CENTER": 5500,
+          "accepted.CENTER": 781,
+          "rankTie.CENTER": 873,
+          "crowdingAccepted.CENTER": 316,
+          "rejected.CENTER": 4719,
+          "paid.ENERGY": 1500,
+          "rankTie.ENERGY": 367,
+          "crowdingAccepted.ENERGY": 81,
+          "accepted.ENERGY": 172,
+          "rejected.ENERGY": 1328,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1315,
+          "accepted.WORKER_COST": 185,
+          "rankTie.WORKER_COST": 444,
+          "crowdingAccepted.WORKER_COST": 106
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.16930123202260308,
+        "1.5": 0.546842835589445,
+        "2": 2.354159689159301
+      },
+      "timeHV": 0.5141409519890482,
+      "timeFE": 179890,
+      "IGDplus": 0.0023348116000617577,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.15482838237055654,
+        "1.5": 0.5136650501015456,
+        "2": 2.2621265362025476
+      },
+      "timeHV": 0.48442844315593075,
+      "timeFE": 193680,
+      "IGDplus": 0.019095750856252366,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "FORCE",
+      "HV": {
+        "1.25": 0.15423151479684286,
+        "1.5": 0.5111933312264338,
+        "2": 2.2526653433524646
+      },
+      "timeHV": 0.4859796547918684,
+      "timeFE": 198293,
+      "IGDplus": 0.01382937675640223,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ROLE_GREEDY",
+      "HV": {
+        "1.25": 0.1581374772739152,
+        "1.5": 0.5220451380450873,
+        "2": 2.286939986719256
+      },
+      "timeHV": 0.4958049115294497,
+      "timeFE": 182776,
+      "IGDplus": 0.016485747820188097,
+      "batch": {
+        "mode": "ROLE_GREEDY",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1440,
+          "accepted.MAKESPAN": 60,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5015,
+          "accepted.CENTER": 485,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1398,
+          "accepted.ENERGY": 102,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1423,
+          "accepted.WORKER_COST": 77
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ROLE_RANK",
+      "HV": {
+        "1.25": 0.15911004862041384,
+        "1.5": 0.5235157171592859,
+        "2": 2.2898818179606093
+      },
+      "timeHV": 0.49389180874182487,
+      "timeFE": 175150,
+      "IGDplus": 0.010867691523097162,
+      "batch": {
+        "mode": "ROLE_RANK",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1437,
+          "accepted.MAKESPAN": 63,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5151,
+          "rankTie.CENTER": 734,
+          "accepted.CENTER": 349,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1395,
+          "accepted.ENERGY": 105,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1417,
+          "accepted.WORKER_COST": 83
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ROLE_CROWD",
+      "HV": {
+        "1.25": 0.15871814051849084,
+        "1.5": 0.5227169452281679,
+        "2": 2.2876479603266398
+      },
+      "timeHV": 0.4977332115747598,
+      "timeFE": 189461,
+      "IGDplus": 0.012053311025820437,
+      "batch": {
+        "mode": "ROLE_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1433,
+          "accepted.MAKESPAN": 67,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 4783,
+          "rankTie.CENTER": 825,
+          "crowdingAccepted.CENTER": 301,
+          "accepted.CENTER": 717,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1389,
+          "accepted.ENERGY": 111,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1407,
+          "accepted.WORKER_COST": 93
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ALL_CROWD",
+      "HV": {
+        "1.25": 0.15652643506483738,
+        "1.5": 0.5175776813534746,
+        "2": 2.2730705391366044
+      },
+      "timeHV": 0.4996094823228703,
+      "timeFE": 170444,
+      "IGDplus": 0.011409830128379548,
+      "batch": {
+        "mode": "ALL_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1334,
+          "rankTie.MAKESPAN": 395,
+          "crowdingAccepted.MAKESPAN": 89,
+          "accepted.MAKESPAN": 166,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 865,
+          "crowdingAccepted.CENTER": 337,
+          "accepted.CENTER": 796,
+          "rejected.CENTER": 4704,
+          "paid.ENERGY": 1500,
+          "rankTie.ENERGY": 483,
+          "crowdingAccepted.ENERGY": 110,
+          "accepted.ENERGY": 196,
+          "rejected.ENERGY": 1304,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1205,
+          "accepted.WORKER_COST": 295,
+          "rankTie.WORKER_COST": 547,
+          "crowdingAccepted.WORKER_COST": 158
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.16928643801941745,
+        "1.5": 0.5466142024811044,
+        "2": 2.353081800590607
+      },
+      "timeHV": 0.5194158219691709,
+      "timeFE": 188922,
+      "IGDplus": 0.0019215911997882194,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.15260892719691815,
+        "1.5": 0.5083895544722019,
+        "2": 2.247437103524883
+      },
+      "timeHV": 0.4853532369796564,
+      "timeFE": 190198,
+      "IGDplus": 0.020508245880554436,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "FORCE",
+      "HV": {
+        "1.25": 0.28441096355098233,
+        "1.5": 0.7780372228295264,
+        "2": 2.930622554174803
+      },
+      "timeHV": 0.7024842124424854,
+      "timeFE": 146550,
+      "IGDplus": 0.01611563552012119,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ROLE_GREEDY",
+      "HV": {
+        "1.25": 0.28369921531948955,
+        "1.5": 0.7771336376624607,
+        "2": 2.9283134444083254
+      },
+      "timeHV": 0.664453491860515,
+      "timeFE": 135449,
+      "IGDplus": 0.014517426665346278,
+      "batch": {
+        "mode": "ROLE_GREEDY",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1399,
+          "accepted.MAKESPAN": 101,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5056,
+          "accepted.CENTER": 444,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1375,
+          "accepted.ENERGY": 125,
+          "paid.WORKER_COST": 1500,
+          "accepted.WORKER_COST": 63,
+          "rejected.WORKER_COST": 1437
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ROLE_RANK",
+      "HV": {
+        "1.25": 0.28594044521689377,
+        "1.5": 0.7823451552358351,
+        "2": 2.94329283927009
+      },
+      "timeHV": 0.6943330489932963,
+      "timeFE": 140925,
+      "IGDplus": 0.016412632442993128,
+      "batch": {
+        "mode": "ROLE_RANK",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1398,
+          "accepted.MAKESPAN": 102,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 522,
+          "rejected.CENTER": 5177,
+          "accepted.CENTER": 323,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1390,
+          "accepted.ENERGY": 110,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1432,
+          "accepted.WORKER_COST": 68
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ROLE_CROWD",
+      "HV": {
+        "1.25": 0.28788323146408945,
+        "1.5": 0.7852328723938343,
+        "2": 2.9487453275866833
+      },
+      "timeHV": 0.7005881072960972,
+      "timeFE": 142949,
+      "IGDplus": 0.01299437928329581,
+      "batch": {
+        "mode": "ROLE_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1401,
+          "accepted.MAKESPAN": 99,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 612,
+          "rejected.CENTER": 4930,
+          "crowdingAccepted.CENTER": 226,
+          "accepted.CENTER": 570,
+          "paid.ENERGY": 1500,
+          "accepted.ENERGY": 129,
+          "rejected.ENERGY": 1371,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1441,
+          "accepted.WORKER_COST": 59
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ALL_CROWD",
+      "HV": {
+        "1.25": 0.2936621230500087,
+        "1.5": 0.7982223006578575,
+        "2": 2.984822500725111
+      },
+      "timeHV": 0.7061054741001123,
+      "timeFE": 139791,
+      "IGDplus": 0.0104334716265245,
+      "batch": {
+        "mode": "ALL_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1343,
+          "rankTie.MAKESPAN": 322,
+          "accepted.MAKESPAN": 157,
+          "crowdingAccepted.MAKESPAN": 81,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 4937,
+          "accepted.CENTER": 563,
+          "rankTie.CENTER": 600,
+          "crowdingAccepted.CENTER": 222,
+          "paid.ENERGY": 1500,
+          "rankTie.ENERGY": 334,
+          "rejected.ENERGY": 1319,
+          "accepted.ENERGY": 181,
+          "crowdingAccepted.ENERGY": 103,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1265,
+          "accepted.WORKER_COST": 235,
+          "rankTie.WORKER_COST": 355,
+          "crowdingAccepted.WORKER_COST": 106
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.28335223956807776,
+        "1.5": 0.7790170918766091,
+        "2": 2.939107164244881
+      },
+      "timeHV": 0.6807307681097761,
+      "timeFE": 132095,
+      "IGDplus": 0.016500579876820732,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.2730665215734772,
+        "1.5": 0.7542304339524754,
+        "2": 2.8680455843335775
+      },
+      "timeHV": 0.670720051623305,
+      "timeFE": 141218,
+      "IGDplus": 0.02174652760806917,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "FORCE",
+      "HV": {
+        "1.25": 0.2766701697881808,
+        "1.5": 0.7607235687173028,
+        "2": 2.8826531423840467
+      },
+      "timeHV": 0.6803280351579309,
+      "timeFE": 130203,
+      "IGDplus": 0.021174527594697356,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ROLE_GREEDY",
+      "HV": {
+        "1.25": 0.28162641277215306,
+        "1.5": 0.7735670326141735,
+        "2": 2.92148032016302
+      },
+      "timeHV": 0.6998932489501262,
+      "timeFE": 137526,
+      "IGDplus": 0.015355131402622194,
+      "batch": {
+        "mode": "ROLE_GREEDY",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1391,
+          "accepted.MAKESPAN": 109,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5060,
+          "accepted.CENTER": 440,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1376,
+          "accepted.ENERGY": 124,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1441,
+          "accepted.WORKER_COST": 59
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ROLE_RANK",
+      "HV": {
+        "1.25": 0.28684009778449704,
+        "1.5": 0.7842282954277131,
+        "2": 2.9487710361108577
+      },
+      "timeHV": 0.6915272769591061,
+      "timeFE": 129358,
+      "IGDplus": 0.011494003834605658,
+      "batch": {
+        "mode": "ROLE_RANK",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1398,
+          "accepted.MAKESPAN": 102,
+          "paid.CENTER": 5500,
+          "accepted.CENTER": 329,
+          "rejected.CENTER": 5171,
+          "rankTie.CENTER": 563,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1341,
+          "accepted.ENERGY": 159,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1438,
+          "accepted.WORKER_COST": 62
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ROLE_CROWD",
+      "HV": {
+        "1.25": 0.2883351335120441,
+        "1.5": 0.7868353042805205,
+        "2": 2.9549320734712206
+      },
+      "timeHV": 0.6960675826815633,
+      "timeFE": 122604,
+      "IGDplus": 0.011846999262610083,
+      "batch": {
+        "mode": "ROLE_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1397,
+          "accepted.MAKESPAN": 103,
+          "paid.CENTER": 5500,
+          "accepted.CENTER": 591,
+          "rejected.CENTER": 4909,
+          "rankTie.CENTER": 595,
+          "crowdingAccepted.CENTER": 230,
+          "paid.ENERGY": 1500,
+          "accepted.ENERGY": 126,
+          "rejected.ENERGY": 1374,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1430,
+          "accepted.WORKER_COST": 70
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ALL_CROWD",
+      "HV": {
+        "1.25": 0.29104298211074076,
+        "1.5": 0.7916385922697315,
+        "2": 2.965258183993671
+      },
+      "timeHV": 0.6902864852678234,
+      "timeFE": 114852,
+      "IGDplus": 0.009437683442858924,
+      "batch": {
+        "mode": "ALL_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rankTie.MAKESPAN": 331,
+          "rejected.MAKESPAN": 1311,
+          "accepted.MAKESPAN": 189,
+          "crowdingAccepted.MAKESPAN": 102,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 562,
+          "rejected.CENTER": 4909,
+          "accepted.CENTER": 591,
+          "crowdingAccepted.CENTER": 229,
+          "paid.ENERGY": 1500,
+          "rankTie.ENERGY": 287,
+          "crowdingAccepted.ENERGY": 81,
+          "accepted.ENERGY": 154,
+          "rejected.ENERGY": 1346,
+          "paid.WORKER_COST": 1500,
+          "rankTie.WORKER_COST": 330,
+          "rejected.WORKER_COST": 1294,
+          "accepted.WORKER_COST": 206,
+          "crowdingAccepted.WORKER_COST": 105
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.2889051837467822,
+        "1.5": 0.7881197997372554,
+        "2": 2.9580081874067536
+      },
+      "timeHV": 0.716437002431539,
+      "timeFE": 128261,
+      "IGDplus": 0.006961190972155706,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.2776000077038193,
+        "1.5": 0.7620469112996682,
+        "2": 2.8844616016808278
+      },
+      "timeHV": 0.6916984733208369,
+      "timeFE": 133089,
+      "IGDplus": 0.018967089143481566,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "FORCE",
+      "HV": {
+        "1.25": 0.2861068482596374,
+        "1.5": 0.7794010810993832,
+        "2": 2.9286408229389633
+      },
+      "timeHV": 0.6975080323849219,
+      "timeFE": 132437,
+      "IGDplus": 0.017039207407016758,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ROLE_GREEDY",
+      "HV": {
+        "1.25": 0.2890884793465883,
+        "1.5": 0.7887994086300727,
+        "2": 2.9602721163601964
+      },
+      "timeHV": 0.6988950002815264,
+      "timeFE": 140722,
+      "IGDplus": 0.015117541831525768,
+      "batch": {
+        "mode": "ROLE_GREEDY",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1404,
+          "accepted.MAKESPAN": 96,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5004,
+          "accepted.CENTER": 496,
+          "paid.ENERGY": 1500,
+          "accepted.ENERGY": 98,
+          "rejected.ENERGY": 1402,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1417,
+          "accepted.WORKER_COST": 83
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ROLE_RANK",
+      "HV": {
+        "1.25": 0.28797691448139395,
+        "1.5": 0.7881619936261174,
+        "2": 2.9622144104682984
+      },
+      "timeHV": 0.6922788593569267,
+      "timeFE": 134449,
+      "IGDplus": 0.017651081112635567,
+      "batch": {
+        "mode": "ROLE_RANK",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1407,
+          "accepted.MAKESPAN": 93,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 5143,
+          "rankTie.CENTER": 586,
+          "accepted.CENTER": 357,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1396,
+          "accepted.ENERGY": 104,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1428,
+          "accepted.WORKER_COST": 72
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ROLE_CROWD",
+      "HV": {
+        "1.25": 0.28716870868780486,
+        "1.5": 0.7854256463520151,
+        "2": 2.953076138582365
+      },
+      "timeHV": 0.6905032512846438,
+      "timeFE": 122475,
+      "IGDplus": 0.016637315343167924,
+      "batch": {
+        "mode": "ROLE_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rejected.MAKESPAN": 1403,
+          "accepted.MAKESPAN": 97,
+          "paid.CENTER": 5500,
+          "rejected.CENTER": 4958,
+          "rankTie.CENTER": 588,
+          "crowdingAccepted.CENTER": 213,
+          "accepted.CENTER": 542,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1382,
+          "accepted.ENERGY": 118,
+          "paid.WORKER_COST": 1500,
+          "rejected.WORKER_COST": 1413,
+          "accepted.WORKER_COST": 87
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ALL_CROWD",
+      "HV": {
+        "1.25": 0.28325936883713654,
+        "1.5": 0.776244935844024,
+        "2": 2.9265875555181546
+      },
+      "timeHV": 0.7007203659946142,
+      "timeFE": 129837,
+      "IGDplus": 0.015882992018411174,
+      "batch": {
+        "mode": "ALL_CROWD",
+        "counts": {
+          "paid.MAKESPAN": 1500,
+          "rankTie.MAKESPAN": 284,
+          "rejected.MAKESPAN": 1357,
+          "accepted.MAKESPAN": 143,
+          "crowdingAccepted.MAKESPAN": 71,
+          "paid.CENTER": 5500,
+          "rankTie.CENTER": 537,
+          "rejected.CENTER": 4960,
+          "accepted.CENTER": 540,
+          "crowdingAccepted.CENTER": 189,
+          "paid.ENERGY": 1500,
+          "rejected.ENERGY": 1290,
+          "accepted.ENERGY": 210,
+          "rankTie.ENERGY": 340,
+          "crowdingAccepted.ENERGY": 125,
+          "paid.WORKER_COST": 1500,
+          "accepted.WORKER_COST": 209,
+          "rejected.WORKER_COST": 1291,
+          "rankTie.WORKER_COST": 377,
+          "crowdingAccepted.WORKER_COST": 112
+        }
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "NSGA",
+      "HV": {
+        "1.25": 0.29466450504660724,
+        "1.5": 0.8010471380669731,
+        "2": 2.994077729960827
+      },
+      "timeHV": 0.6887859316169279,
+      "timeFE": 128563,
+      "IGDplus": 0.01566989578987281,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "LI_MATCHED_DEEP",
+      "HV": {
+        "1.25": 0.2834115073442608,
+        "1.5": 0.773443464367608,
+        "2": 2.9126478007276386
+      },
+      "timeHV": 0.7073311301512968,
+      "timeFE": 142374,
+      "IGDplus": 0.019313293636355634,
+      "batch": {
+        "mode": "FORCE",
+        "counts": {}
+      }
+    }
+  ],
+  "primaryGate": "STOP_ROLE_CROWD_SCREEN"
+}

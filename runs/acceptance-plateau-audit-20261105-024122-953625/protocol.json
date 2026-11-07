@@ -1,0 +1,60 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9940003,
+  "arms": [
+    "OFF",
+    "ON"
+  ],
+  "replayFE": 2000000,
+  "hypothesis": "Original fixed-reference local PDDR may reject materially different incomparable alternatives by tied scores, limiting continuation. No change to acceptance or proposals in this observation.",
+  "sampling": "Every257th CENTER comparison starting at1, independent of quality and without RNG. Count all comparisons exactly. Score child gain against reference plus incumbent only; do not call this gain against the up-to-date external archive.",
+  "gate": "On each instance at least20% of objective-changing comparisons must be rejected incomparable ties and >=20 systematically sampled ties must add >=0.0001% of normalized reference box. This permits only a new paired continuation hypothesis, not long-budget efficacy.",
+  "engineering": "OFF and ON must reproduce frozen500k full paid sequence digest, front checkpoints, final genes, initial population, physical ledger and search counts. Failure stops interpretation.",
+  "preserved": "Oldest ND personal guide, serial/stale QGS, FULL_ROLE/group reward, original roles/families/sharing, exact local PDDR and all ledger slots; no search RNG or evaluations added.",
+  "limits": "Costs include all four500k replays, return fullQA separately. Trace overhead disqualifies these runs as performance timing evidence."
+}

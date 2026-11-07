@@ -1,0 +1,3455 @@
+{
+  "stem": "20_8_5_1",
+  "recipientClusters": 48,
+  "informativeClusters": 31,
+  "meanSingleAddedHV": {
+    "PAID_ND": 3.328613950933634e-06,
+    "HISTORY_ND": 6.744015829819944e-06,
+    "CURRENT_ND": 2.122674655888517e-06,
+    "INITIAL_ND": 4.852092350311445e-06,
+    "RANDOM_KNOWN": 1.276862039409506e-06
+  },
+  "candidateEffectsPct": {
+    "HISTORY_ND": -50.64344398161795,
+    "CURRENT_ND": 56.812252961127015,
+    "INITIAL_ND": -31.3983801087385,
+    "RANDOM_KNOWN": 160.68704748031942
+  },
+  "strictParentWins": {
+    "HISTORY_ND": 10,
+    "RANDOM_KNOWN": 14
+  },
+  "strata": [
+    {
+      "key": "sourceSeed",
+      "value": 11730007,
+      "means": {
+        "PAID_ND": 2.511741021865639e-07,
+        "HISTORY_ND": 1.3173377669525507e-06,
+        "CURRENT_ND": 1.2332980618623043e-06,
+        "INITIAL_ND": 4.250779931777765e-06,
+        "RANDOM_KNOWN": 1.663175800069065e-07
+      }
+    },
+    {
+      "key": "sourceSeed",
+      "value": 11730037,
+      "means": {
+        "PAID_ND": 6.4060537996807055e-06,
+        "HISTORY_ND": 1.2170693892687336e-05,
+        "CURRENT_ND": 3.0120512499147287e-06,
+        "INITIAL_ND": 5.453404768845123e-06,
+        "RANDOM_KNOWN": 2.387406498812105e-06
+      }
+    },
+    {
+      "key": "step",
+      "value": 0,
+      "means": {
+        "PAID_ND": 1.5283126920800633e-07,
+        "HISTORY_ND": 0.0,
+        "CURRENT_ND": 3.0346888806844037e-06,
+        "INITIAL_ND": 0.0,
+        "RANDOM_KNOWN": 0.0
+      }
+    },
+    {
+      "key": "step",
+      "value": 24,
+      "means": {
+        "PAID_ND": 8.085263139320766e-06,
+        "HISTORY_ND": 8.289267662828559e-06,
+        "CURRENT_ND": 6.746989847788942e-07,
+        "INITIAL_ND": 8.628616560081481e-06,
+        "RANDOM_KNOWN": 2.843283795532244e-06
+      }
+    },
+    {
+      "key": "step",
+      "value": 49,
+      "means": {
+        "PAID_ND": 1.7477474442721307e-06,
+        "HISTORY_ND": 1.1942779826631274e-05,
+        "CURRENT_ND": 2.658636102202252e-06,
+        "INITIAL_ND": 5.9276604908528525e-06,
+        "RANDOM_KNOWN": 9.873023226962734e-07
+      }
+    }
+  ],
+  "referenceSensitivity": {
+    "1.25": {
+      "PAID_ND": 1.7598688777158065e-06,
+      "HISTORY_ND": 2.8979564798189176e-06,
+      "CURRENT_ND": 1.0785416238827649e-06,
+      "INITIAL_ND": 2.426456528808335e-06,
+      "RANDOM_KNOWN": 7.067530775385056e-07
+    },
+    "2.0": {
+      "PAID_ND": 7.862185928082311e-06,
+      "HISTORY_ND": 1.9277527533173786e-05,
+      "CURRENT_ND": 5.221189973929674e-06,
+      "INITIAL_ND": 1.2147349857192281e-05,
+      "RANDOM_KNOWN": 2.8816003930713546e-06
+    }
+  },
+  "necessaryCallCostRatios": {
+    "HISTORY_ND": 0.9566872261212804,
+    "INITIAL_ND": 1.053086611693189
+  },
+  "qualityGate": false,
+  "coverageGate": false,
+  "robustnessGate": false,
+  "referenceGate": false,
+  "necessaryCostGate": true,
+  "worthNativeClosedLoopDesign": false,
+  "maxIndependentHVError": 6.661338147750939e-16,
+  "contexts": [
+    {
+      "id": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "preBatchFE": 850,
+      "commonInputFE": 142,
+      "sourcePoolSizes": {
+        "PAID_ND": 23,
+        "HISTORY_ND": 16,
+        "CURRENT_ND": 8,
+        "INITIAL_ND": 10,
+        "RANDOM_KNOWN": 142
+      },
+      "commonReconstructionEvaluationSeconds": 0.1307441,
+      "offlineQASeconds": 0.08861540000000023
+    },
+    {
+      "id": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "preBatchFE": 2170,
+      "commonInputFE": 227,
+      "sourcePoolSizes": {
+        "PAID_ND": 30,
+        "HISTORY_ND": 26,
+        "CURRENT_ND": 26,
+        "INITIAL_ND": 10,
+        "RANDOM_KNOWN": 227
+      },
+      "commonReconstructionEvaluationSeconds": 0.03449349999999999,
+      "offlineQASeconds": 0.05458069999999999
+    },
+    {
+      "id": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "preBatchFE": 3545,
+      "commonInputFE": 237,
+      "sourcePoolSizes": {
+        "PAID_ND": 23,
+        "HISTORY_ND": 22,
+        "CURRENT_ND": 22,
+        "INITIAL_ND": 10,
+        "RANDOM_KNOWN": 237
+      },
+      "commonReconstructionEvaluationSeconds": 0.04069100000000001,
+      "offlineQASeconds": 0.0531431
+    },
+    {
+      "id": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "preBatchFE": 850,
+      "commonInputFE": 144,
+      "sourcePoolSizes": {
+        "PAID_ND": 26,
+        "HISTORY_ND": 11,
+        "CURRENT_ND": 11,
+        "INITIAL_ND": 13,
+        "RANDOM_KNOWN": 144
+      },
+      "commonReconstructionEvaluationSeconds": 0.023929500000000003,
+      "offlineQASeconds": 0.04232960000000001
+    },
+    {
+      "id": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "preBatchFE": 2170,
+      "commonInputFE": 234,
+      "sourcePoolSizes": {
+        "PAID_ND": 52,
+        "HISTORY_ND": 51,
+        "CURRENT_ND": 47,
+        "INITIAL_ND": 13,
+        "RANDOM_KNOWN": 234
+      },
+      "commonReconstructionEvaluationSeconds": 0.030778000000000007,
+      "offlineQASeconds": 0.04542359999999997
+    },
+    {
+      "id": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "preBatchFE": 3545,
+      "commonInputFE": 256,
+      "sourcePoolSizes": {
+        "PAID_ND": 67,
+        "HISTORY_ND": 58,
+        "CURRENT_ND": 49,
+        "INITIAL_ND": 13,
+        "RANDOM_KNOWN": 256
+      },
+      "commonReconstructionEvaluationSeconds": 0.033241,
+      "offlineQASeconds": 0.05364010000000006
+    }
+  ],
+  "cases": [
+    {
+      "context": "c0",
+      "recipient": 0,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 0.00018566796875000001,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 2,
+            "MAKESPAN": 14
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.875078125000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "MAKESPAN": 7
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.019296875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.270234374999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.98140625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 13,
+            "MAKESPAN": 2,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 1,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.8295680188445281e-06,
+            "1.5": 2.4453003073281012e-06,
+            "2.0": 3.6767648842952467e-06
+          },
+          "necessaryCallSeconds": 0.00014120546875,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.917578125000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 8,
+            "MAKESPAN": 8
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.388046875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "MAKESPAN": 7
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.157734375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.311406250000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "MAKESPAN": 6
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 2,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.506796875000001e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 13,
+            "INITIALIZATION": 3
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.521328125e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 10,
+            "INITIALIZATION": 6
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.084296875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 7,
+            "INITIALIZATION": 9
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.823359375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.042656250000001e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 6,
+            "INITIALIZATION": 10
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 3,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.174296875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 14,
+            "INITIALIZATION": 2
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.448828125000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 8,
+            "MAKESPAN": 8
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.164296875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "MAKESPAN": 7
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.319609375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.795156249999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "MAKESPAN": 6
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 4,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.931171875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 15,
+            "INITIALIZATION": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.263828125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 6,
+            "MAKESPAN": 10
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.468046875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "MAKESPAN": 6
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.555859375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.002031250000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 5,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.819296875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 14,
+            "INITIALIZATION": 2
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.625078125e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 9,
+            "INITIALIZATION": 7
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.048671875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 6,
+            "INITIALIZATION": 10
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.589609375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.743281250000001e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 6,
+            "INITIALIZATION": 10
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 6,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.400546875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 2,
+            "MAKESPAN": 14
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.005078124999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 6,
+            "MAKESPAN": 10
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.836796875000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 8,
+            "MAKESPAN": 8
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.645859375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.57953125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 4,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "recipient": 7,
+      "sourceSeed": 11730007,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.315546874999998e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 15,
+            "INITIALIZATION": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 0.00010673203125,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 7,
+            "MAKESPAN": 9
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.086796875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "MAKESPAN": 7
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 0.00010839609375,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 9.300781249999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 13,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 0,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 6.386338565574386e-08,
+            "1.5": 1.0271471284631476e-07,
+            "2.0": 1.804173672274565e-07
+          },
+          "necessaryCallSeconds": 7.768359375e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 1,
+            "CENTER": 15
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 6.386338565574386e-08,
+            "1.5": 1.0271471284631476e-07,
+            "2.0": 1.804173672274565e-07
+          },
+          "necessaryCallSeconds": 9.454531250000001e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 8.307669655563453e-08,
+            "1.5": 1.3354953858831467e-07,
+            "2.0": 2.3449522265367488e-07
+          },
+          "necessaryCallSeconds": 9.56203125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.940078125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.327196930230731e-07,
+            "1.5": 2.1439322098180813e-07,
+            "2.0": 3.777402768992782e-07
+          },
+          "necessaryCallSeconds": 8.324375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 5,
+            "CENTER": 4,
+            "MAKESPAN": 6,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 1,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.279609375e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.89390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 3
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 2.848384462410725e-10,
+            "1.5": 2.848384462410725e-10,
+            "2.0": 2.848384462410725e-10
+          },
+          "necessaryCallSeconds": 7.336406249999999e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 3
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 1.283199410292535e-07,
+            "1.5": 1.7932598432784007e-07,
+            "2.0": 2.813380709250132e-07
+          },
+          "necessaryCallSeconds": 7.943203125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.17625e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 2,
+            "UNKNOWN_CURRENT_ONLY": 2,
+            "CENTER": 3,
+            "INITIALIZATION": 9
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 2,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.4434944312561238e-06,
+            "1.5": 1.9090050567771684e-06,
+            "2.0": 2.8400263078192576e-06
+          },
+          "necessaryCallSeconds": 0.00017189609375,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 3,
+            "CENTER": 13
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.9496036250207035e-06,
+            "1.5": 2.559260665807597e-06,
+            "2.0": 3.778574747381383e-06
+          },
+          "necessaryCallSeconds": 0.0002535890625,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 3.3575359850013426e-07,
+            "1.5": 4.529043695833265e-07,
+            "2.0": 6.872059117497111e-07
+          },
+          "necessaryCallSeconds": 0.0001421328125,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 2,
+            "CENTER": 14
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 9.462212514674614e-06,
+            "1.5": 1.2330240618320216e-05,
+            "2.0": 1.806629682561142e-05
+          },
+          "necessaryCallSeconds": 9.663828125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.81108613018228e-06,
+            "1.5": 2.3551773172620196e-06,
+            "2.0": 3.4433596914214983e-06
+          },
+          "necessaryCallSeconds": 6.214375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 6,
+            "MAKESPAN": 4,
+            "CENTER": 5,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 3,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.213359375000001e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 5,
+            "CENTER": 11
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 7.34515625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 2.7030985296063222e-08,
+            "1.5": 4.4593310086987015e-08,
+            "2.0": 7.971795966883456e-08
+          },
+          "necessaryCallSeconds": 8.48265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.4244531249999996e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.674375000000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "CENTER": 5,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 4,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.7364843750000005e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.988906249999999e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.858281250000001e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.865078125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.73e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 10,
+            "MAKESPAN": 3,
+            "INITIALIZATION": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 5,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 4.246637177371824e-08,
+            "1.5": 6.794036879822927e-08,
+            "2.0": 1.1888836284725136e-07
+          },
+          "necessaryCallSeconds": 7.884609374999999e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 3
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 4.246637177371824e-08,
+            "1.5": 6.794036879822927e-08,
+            "2.0": 1.1888836284725136e-07
+          },
+          "necessaryCallSeconds": 6.88515625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 4.246637177371824e-08,
+            "1.5": 6.794036879822927e-08,
+            "2.0": 1.1888836284725136e-07
+          },
+          "necessaryCallSeconds": 7.39140625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 3
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.825078125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 4.246637177371824e-08,
+            "1.5": 6.794036879822927e-08,
+            "2.0": 1.1888836284725136e-07
+          },
+          "necessaryCallSeconds": 9.4325e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 1,
+            "INITIALIZATION": 9,
+            "CENTER": 4,
+            "UNKNOWN_CURRENT_ONLY": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 6,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.1199204525369567e-08,
+            "1.5": 1.5184626558616918e-08,
+            "2.0": 2.315547062511162e-08
+          },
+          "necessaryCallSeconds": 5.896484375e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 5,
+            "CENTER": 11
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.164311501009267e-08,
+            "1.5": 1.580886135865436e-08,
+            "2.0": 2.414035405577775e-08
+          },
+          "necessaryCallSeconds": 8.77390625e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 3,
+            "CENTER": 13
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 2.026366255608875e-08,
+            "1.5": 2.949926114178081e-08,
+            "2.0": 4.7970458313164934e-08
+          },
+          "necessaryCallSeconds": 0.00012403906250000002,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 3,
+            "CENTER": 13
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 1.1199204525369567e-08,
+            "1.5": 1.5184626558616918e-08,
+            "2.0": 2.315547062511162e-08
+          },
+          "necessaryCallSeconds": 5.872578125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.1199204525369567e-08,
+            "1.5": 1.5184626558616918e-08,
+            "2.0": 2.315547062511162e-08
+          },
+          "necessaryCallSeconds": 6.076249999999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 12,
+            "CENTER": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "recipient": 7,
+      "sourceSeed": 11730007,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 0.00012347109375,
+          "guideFirstRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 3
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 8.388906250000002e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 0.0001315015625,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.233828125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 3.162214699261471e-07,
+            "1.5": 5.006328053377698e-07,
+            "2.0": 8.694554761610152e-07
+          },
+          "necessaryCallSeconds": 8.530625e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 6,
+            "INITIALIZATION": 8,
+            "CENTER": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 0,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.586562499999999e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.620390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.5785156249999994e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.998828125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.24453125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "CENTER": 4,
+            "MAKESPAN": 1,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 1,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 6.061559610712188e-11,
+            "1.5": 6.061559610712188e-11,
+            "2.0": 6.061559610712188e-11
+          },
+          "necessaryCallSeconds": 5.2446875000000006e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 6.061559610712188e-11,
+            "1.5": 6.061559610712188e-11,
+            "2.0": 6.061559610712188e-11
+          },
+          "necessaryCallSeconds": 5.4616406249999996e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 6.061559610712188e-11,
+            "1.5": 6.061559610712188e-11,
+            "2.0": 6.061559610712188e-11
+          },
+          "necessaryCallSeconds": 6.542890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 3.9845377660240214e-05,
+            "1.5": 8.882173839569381e-05,
+            "2.0": 0.00024128973428406522
+          },
+          "necessaryCallSeconds": 0.00010590078125000001,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 4.147564122659166e-07,
+            "1.5": 7.785503330657412e-07,
+            "2.0": 1.8432851489388472e-06
+          },
+          "necessaryCallSeconds": 0.0001182453125,
+          "guideFirstRoleCounts": {
+            "CENTER": 5,
+            "INITIALIZATION": 9,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 2,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.1001834286473735e-07,
+            "1.5": 1.4205017976104467e-07,
+            "2.0": 2.0611385355365937e-07
+          },
+          "necessaryCallSeconds": 7.4609375e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.0597544250407543e-07,
+            "1.5": 1.3800727940038274e-07,
+            "2.0": 2.0207095319299743e-07
+          },
+          "necessaryCallSeconds": 0.00010653515625,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.0597544250407543e-07,
+            "1.5": 1.3800727940038274e-07,
+            "2.0": 2.0207095319299743e-07
+          },
+          "necessaryCallSeconds": 5.662890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 7.432137659999843e-10,
+            "1.5": 7.432137659999843e-10,
+            "2.0": 7.432137659999843e-10
+          },
+          "necessaryCallSeconds": 5.396328125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.85703125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "CENTER": 3,
+            "UNKNOWN_CURRENT_ONLY": 1,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 3,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 8.530841296527668e-07,
+            "1.5": 1.3346555559966265e-06,
+            "2.0": 2.60551949696952e-06
+          },
+          "necessaryCallSeconds": 8.1746875e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 7.565749768072039e-07,
+            "1.5": 1.0656725115057392e-06,
+            "2.0": 1.6838675809028094e-06
+          },
+          "necessaryCallSeconds": 7.267265624999999e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 7.565749768072039e-07,
+            "1.5": 1.0656725115057392e-06,
+            "2.0": 1.6838675809028094e-06
+          },
+          "necessaryCallSeconds": 0.00010634765625,
+          "guideFirstRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 5.127701488711546e-07,
+            "1.5": 6.649351006545013e-07,
+            "2.0": 9.692650042211951e-07
+          },
+          "necessaryCallSeconds": 6.998203124999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 3.093115624386589e-08,
+            "1.5": 4.124307230154223e-08,
+            "2.0": 6.186690441689492e-08
+          },
+          "necessaryCallSeconds": 4.96515625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 6,
+            "INITIALIZATION": 10
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 4,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 9.761315667642321e-09,
+            "1.5": 1.1267028815325553e-08,
+            "2.0": 1.4278455110692018e-08
+          },
+          "necessaryCallSeconds": 0.000143109375,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 4.9167520943577405e-09,
+            "1.5": 6.422465242040972e-09,
+            "2.0": 9.433891537407437e-09
+          },
+          "necessaryCallSeconds": 5.530390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 4.9167520943577405e-09,
+            "1.5": 6.422465242040972e-09,
+            "2.0": 9.433891537407437e-09
+          },
+          "necessaryCallSeconds": 5.552890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 5.044710197699827e-09,
+            "1.5": 6.550423345383058e-09,
+            "2.0": 9.561849640749522e-09
+          },
+          "necessaryCallSeconds": 7.195078125000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 5.342484649240241e-09,
+            "1.5": 6.848197796923473e-09,
+            "2.0": 9.859624092289937e-09
+          },
+          "necessaryCallSeconds": 0.00010456406249999999,
+          "guideFirstRoleCounts": {
+            "CENTER": 6,
+            "INITIALIZATION": 8,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 5,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.8828125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.320390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.385390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.5875781250000005e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.460156249999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 6,
+            "CENTER": 7,
+            "MAKESPAN": 2,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 6,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.2271875e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 6.465390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.4760156249999997e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.821953125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.27765625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 9,
+            "INITIALIZATION": 7
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "recipient": 7,
+      "sourceSeed": 11730007,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.9878125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.3131181070010746e-05,
+            "1.5": 2.7660218926306153e-05,
+            "2.0": 7.164910677123212e-05
+          },
+          "necessaryCallSeconds": 8.506015625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.3131181070010746e-05,
+            "1.5": 2.7660218926306153e-05,
+            "2.0": 7.164910677123212e-05
+          },
+          "necessaryCallSeconds": 5.517265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.790078125e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.165197806310527e-08,
+            "1.5": 1.165197806310527e-08,
+            "2.0": 1.165197806310527e-08
+          },
+          "necessaryCallSeconds": 6.93140625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 7,
+            "CENTER": 6,
+            "MAKESPAN": 1,
+            "UNKNOWN_CURRENT_ONLY": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 0,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.0807812499999996e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 15,
+            "INITIALIZATION": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.80734375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 6.19222522513925e-08,
+            "1.5": 8.225472610473994e-08,
+            "2.0": 1.2291967381143482e-07
+          },
+          "necessaryCallSeconds": 7.853125000000001e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.61421875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.822265625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 1,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.3426562499999995e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.03734375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 8,
+            "MAKESPAN": 8
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 2.0358432069079097e-05,
+            "1.5": 4.847276736484572e-05,
+            "2.0": 0.00013826259001746717
+          },
+          "necessaryCallSeconds": 6.2975e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 8,
+            "MAKESPAN": 8
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.60484375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.301640625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 2,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.75953125e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 13,
+            "INITIALIZATION": 3
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.55296875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "MAKESPAN": 6
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.075e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 10,
+            "MAKESPAN": 6
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.05109375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.479765625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 3,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.51953125e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.82796875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "MAKESPAN": 7
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.160625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "MAKESPAN": 7
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.14921875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.692890625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 4,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.68640625e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.51546875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 8,
+            "INITIALIZATION": 8
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.44e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 8,
+            "INITIALIZATION": 8
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.32671875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.206640625e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 6,
+            "INITIALIZATION": 9,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 5,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.72265625e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 15,
+            "INITIALIZATION": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.6085937500000004e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.764999999999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.66171875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.183515624999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 12,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 6,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.03453125e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.13859375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.3125000000000004e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.69359375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.124140625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 13,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "recipient": 7,
+      "sourceSeed": 11730037,
+      "step": 0,
+      "informative": false,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.29328125e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 15,
+            "INITIALIZATION": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.04609375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.193124999999999e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 11,
+            "MAKESPAN": 5
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.8873437500000005e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.314765625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 12,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 0,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.7360156250000006e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.803347959812771e-07,
+            "1.5": 3.304583729962909e-07,
+            "2.0": 6.307055270263184e-07
+          },
+          "necessaryCallSeconds": 5.69953125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.822654513179813e-07,
+            "1.5": 3.3406371040324335e-07,
+            "2.0": 6.376602285737675e-07
+          },
+          "necessaryCallSeconds": 4.99515625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 2.9507728749782373e-08,
+            "1.5": 4.450504447644292e-08,
+            "2.0": 7.449967592976398e-08
+          },
+          "necessaryCallSeconds": 4.482734375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 3.6986193579425457e-07,
+            "1.5": 5.863990359578845e-07,
+            "2.0": 1.0194732362851444e-06
+          },
+          "necessaryCallSeconds": 4.368671875e-05,
+          "guideFirstRoleCounts": {
+            "MAKESPAN": 2,
+            "CENTER": 4,
+            "INITIALIZATION": 10
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 1,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.0112036722652926e-06,
+            "1.5": 1.339488916715962e-06,
+            "2.0": 1.9960594056173014e-06
+          },
+          "necessaryCallSeconds": 6.764765625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 2.1908244311480957e-06,
+            "1.5": 2.915563184937563e-06,
+            "2.0": 4.3650406925164965e-06
+          },
+          "necessaryCallSeconds": 6.40890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 8.902388104007361e-07,
+            "1.5": 1.1818496715082443e-06,
+            "2.0": 1.7650713937232606e-06
+          },
+          "necessaryCallSeconds": 5.64890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 4.440937769968355e-05,
+            "1.5": 9.354246736984463e-05,
+            "2.0": 0.00024291470917708424
+          },
+          "necessaryCallSeconds": 0.00010072109375000002,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 6.084076668912867e-07,
+            "1.5": 7.747958033661243e-07,
+            "2.0": 1.1075720763157992e-06
+          },
+          "necessaryCallSeconds": 5.477421875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "CENTER": 6,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 2,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 3.6766406249999996e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.1740912368190906e-09,
+            "1.5": 1.1740912368190906e-09,
+            "2.0": 1.1740912368190906e-09
+          },
+          "necessaryCallSeconds": 6.16265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 4.045350070671086e-09,
+            "1.5": 4.045350070671086e-09,
+            "2.0": 4.045350070671086e-09
+          },
+          "necessaryCallSeconds": 5.58015625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 2.7906304612581715e-10,
+            "1.5": 2.7906304612581715e-10,
+            "2.0": 2.7906304612581715e-10
+          },
+          "necessaryCallSeconds": 5.493984375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 7.55770954834969e-09,
+            "1.5": 7.55770954834969e-09,
+            "2.0": 7.55770954834969e-09
+          },
+          "necessaryCallSeconds": 4.167421875e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 10,
+            "INITIALIZATION": 5,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 3,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 5.391243877862336e-06,
+            "1.5": 7.071290683594615e-06,
+            "2.0": 1.0431384295059173e-05
+          },
+          "necessaryCallSeconds": 8.474140625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 7.833229181995135e-06,
+            "1.5": 1.0247276413081982e-05,
+            "2.0": 1.5075370875255676e-05
+          },
+          "necessaryCallSeconds": 7.937656250000001e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 2.6951577542301455e-06,
+            "1.5": 3.576065767262844e-06,
+            "2.0": 5.337881793328242e-06
+          },
+          "necessaryCallSeconds": 4.83390625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 7.2510086469918535e-06,
+            "1.5": 9.467868856295368e-06,
+            "2.0": 1.39015892749024e-05
+          },
+          "necessaryCallSeconds": 9.830859375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 2.77221071003381e-07,
+            "1.5": 3.3949739667503313e-07,
+            "2.0": 4.6405004801833746e-07
+          },
+          "necessaryCallSeconds": 5.5255468749999996e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 7,
+            "UNKNOWN_CURRENT_ONLY": 1,
+            "INITIALIZATION": 5,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 4,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 2.457387536094618e-06,
+            "1.5": 3.8573789249626215e-06,
+            "2.0": 6.657361702698628e-06
+          },
+          "necessaryCallSeconds": 7.683515625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.041473818004507e-06,
+            "1.5": 1.6161241205706168e-06,
+            "2.0": 2.7654247257028375e-06
+          },
+          "necessaryCallSeconds": 7.11578125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.3677380502075616e-06,
+            "1.5": 2.0858083578811376e-06,
+            "2.0": 3.5219489732282904e-06
+          },
+          "necessaryCallSeconds": 5.69765625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 3.908323795662693e-08,
+            "1.5": 3.908323795662693e-08,
+            "2.0": 3.908323795662693e-08
+          },
+          "necessaryCallSeconds": 6.438984375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.5065730840354397e-07,
+            "1.5": 2.1281738475373649e-07,
+            "2.0": 3.3713753745412155e-07
+          },
+          "necessaryCallSeconds": 6.477421875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 4,
+            "CENTER": 9,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 5,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 5.253972933899743e-05,
+            "1.5": 0.00011425754663908431,
+            "2.0": 0.0003043973880251979
+          },
+          "necessaryCallSeconds": 7.422890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 5.2778767516287506e-05,
+            "1.5": 0.00011456380174045019,
+            "2.0": 0.0003048380769747154
+          },
+          "necessaryCallSeconds": 5.65953125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 7.89890186716085e-09,
+            "1.5": 7.89890186716085e-09,
+            "2.0": 7.89890186716085e-09
+          },
+          "necessaryCallSeconds": 5.2020312500000005e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 9.524130683508286e-10,
+            "1.5": 9.524130683508286e-10,
+            "2.0": 9.524130683508286e-10
+          },
+          "necessaryCallSeconds": 4.006484375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.0081650211587584e-09,
+            "1.5": 1.0081650211587584e-09,
+            "2.0": 1.0081650211587584e-09
+          },
+          "necessaryCallSeconds": 4.499921875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 9,
+            "CENTER": 5,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 6,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.706640625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.5936156783232683e-07,
+            "1.5": 2.0816007317266815e-07,
+            "2.0": 3.0575708385335077e-07
+          },
+          "necessaryCallSeconds": 6.13265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.5150348406381694e-08,
+            "1.5": 2.0124505828619855e-08,
+            "2.0": 3.007282067309617e-08
+          },
+          "necessaryCallSeconds": 5.04328125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 1.0107624630715571e-05,
+            "1.5": 2.1409369304304698e-05,
+            "2.0": 5.570284323308287e-05
+          },
+          "necessaryCallSeconds": 4.842734375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.088046875e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 9,
+            "INITIALIZATION": 6,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "recipient": 7,
+      "sourceSeed": 11730037,
+      "step": 24,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 4.917267431669927e-07,
+            "1.5": 7.436602997944099e-07,
+            "2.0": 1.2475274130492443e-06
+          },
+          "necessaryCallSeconds": 4.596015625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 5.37578125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.7947059551569682e-06,
+            "1.5": 2.856555804995508e-06,
+            "2.0": 4.980255504672588e-06
+          },
+          "necessaryCallSeconds": 6.73265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 6.387827336869762e-07,
+            "1.5": 1.028588443104795e-06,
+            "2.0": 1.808199861940432e-06
+          },
+          "necessaryCallSeconds": 5.379609375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.9143133685639672e-05,
+            "1.5": 4.041713689425517e-05,
+            "2.0": 0.00010492497697336546
+          },
+          "necessaryCallSeconds": 0.00010795546875,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 3,
+            "CENTER": 12,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 0,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 3.8337309936218744e-08,
+            "1.5": 7.075530708493815e-08,
+            "2.0": 1.3559130138237692e-07
+          },
+          "necessaryCallSeconds": 5.182890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 5.114030579411902e-05,
+            "1.5": 0.00014954847511324245,
+            "2.0": 0.0004971166589941002
+          },
+          "necessaryCallSeconds": 6.279609375e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.9233909242053604e-08,
+            "1.5": 3.012294750532208e-08,
+            "2.0": 5.190102403185903e-08
+          },
+          "necessaryCallSeconds": 6.21328125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 3.870745841512355e-08,
+            "1.5": 6.034455679527388e-08,
+            "2.0": 1.0361875355557452e-07
+          },
+          "necessaryCallSeconds": 4.41109375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.544140625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 5,
+            "CENTER": 11
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 1,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 3.1618386480151737e-07,
+            "1.5": 4.187888011626103e-07,
+            "2.0": 6.239986738847961e-07
+          },
+          "necessaryCallSeconds": 3.7241406249999994e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 3.1782166294812e-07,
+            "1.5": 4.2042659930921294e-07,
+            "2.0": 6.256364720313987e-07
+          },
+          "necessaryCallSeconds": 4.825234375e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 6.231607770321781e-07,
+            "1.5": 8.048217851666689e-07,
+            "2.0": 1.1681438014356505e-06
+          },
+          "necessaryCallSeconds": 4.24265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 7.782810200724835e-07,
+            "1.5": 1.0308412656299615e-06,
+            "2.0": 1.5359617567449174e-06
+          },
+          "necessaryCallSeconds": 4.43984375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 3.225980529245295e-07,
+            "1.5": 4.2704966409430134e-07,
+            "2.0": 6.35952886433845e-07
+          },
+          "necessaryCallSeconds": 5.462265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 7,
+            "INITIALIZATION": 8,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 2,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 3.545452808639596e-07,
+            "1.5": 5.609662095517881e-07,
+            "2.0": 9.738080669274455e-07
+          },
+          "necessaryCallSeconds": 5.472265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 2.694700538179681e-07,
+            "1.5": 4.236432750855857e-07,
+            "2.0": 7.31989717620821e-07
+          },
+          "necessaryCallSeconds": 5.7383593749999995e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.323141178775959e-07,
+            "1.5": 2.079327784823447e-07,
+            "2.0": 3.5917009969184237e-07
+          },
+          "necessaryCallSeconds": 4.46328125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 8.542704717226633e-08,
+            "1.5": 1.376747545924773e-07,
+            "2.0": 2.421701694328993e-07
+          },
+          "necessaryCallSeconds": 4.74671875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 8.542704717226633e-08,
+            "1.5": 1.376747545924773e-07,
+            "2.0": 2.421701694328993e-07
+          },
+          "necessaryCallSeconds": 4.643515625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 5,
+            "MAKESPAN": 2,
+            "CENTER": 9
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 3,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.6766443113190665e-09,
+            "1.5": 1.6766443113190665e-09,
+            "2.0": 1.6766443113190665e-09
+          },
+          "necessaryCallSeconds": 4.346015625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.5621093749999994e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.6766443113190665e-09,
+            "1.5": 1.6766443113190665e-09,
+            "2.0": 1.6766443113190665e-09
+          },
+          "necessaryCallSeconds": 5.08265625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 0.0,
+            "1.5": 0.0,
+            "2.0": 0.0
+          },
+          "necessaryCallSeconds": 4.65296875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 4.726537354333586e-10,
+            "1.5": 4.726537354333586e-10,
+            "2.0": 4.726537354333586e-10
+          },
+          "necessaryCallSeconds": 4.587890625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 9,
+            "INITIALIZATION": 4,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 4,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 4.3126904168869405e-07,
+            "1.5": 6.005090083820057e-07,
+            "2.0": 9.389889417686292e-07
+          },
+          "necessaryCallSeconds": 6.661015625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.0584665379244998e-06,
+            "1.5": 1.6499017833632074e-06,
+            "2.0": 2.8327722742406232e-06
+          },
+          "necessaryCallSeconds": 5.8046093750000004e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 3.353410784492611e-06,
+            "1.5": 5.2285021165872594e-06,
+            "2.0": 8.978684780776553e-06
+          },
+          "necessaryCallSeconds": 5.7426562500000004e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 1.3044430588455822e-07,
+            "1.5": 1.3044430588455822e-07,
+            "2.0": 1.3044430588455822e-07
+          },
+          "necessaryCallSeconds": 6.55359375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 3.1188136448661726e-06,
+            "1.5": 4.868127501411249e-06,
+            "2.0": 8.366755214501398e-06
+          },
+          "necessaryCallSeconds": 6.736640625000001e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 9,
+            "INITIALIZATION": 7
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 5,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.1872537610571592e-05,
+            "1.5": 1.5527751962804062e-05,
+            "2.0": 2.2838180667269008e-05
+          },
+          "necessaryCallSeconds": 9.886015625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.8021744876428838e-06,
+            "1.5": 2.3470954163034278e-06,
+            "2.0": 3.4369372736245166e-06
+          },
+          "necessaryCallSeconds": 8.108984375e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 5.6469623506983426e-06,
+            "1.5": 7.261893098204134e-06,
+            "2.0": 1.0491754593215717e-05
+          },
+          "necessaryCallSeconds": 8.37578125e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 2.663782738152015e-06,
+            "1.5": 3.476476763928494e-06,
+            "2.0": 5.101864815481451e-06
+          },
+          "necessaryCallSeconds": 4.5067187500000004e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 5.919174614194048e-06,
+            "1.5": 7.76672579687512e-06,
+            "2.0": 1.1461828162237268e-05
+          },
+          "necessaryCallSeconds": 7.030390625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 5,
+            "CENTER": 9,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 6,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 4.149640984023848e-06,
+            "1.5": 7.650288349147602e-06,
+            "2.0": 1.4651583079395106e-05
+          },
+          "necessaryCallSeconds": 5.0978906249999996e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 4.149640984023848e-06,
+            "1.5": 7.650288349147602e-06,
+            "2.0": 1.4651583079395106e-05
+          },
+          "necessaryCallSeconds": 5.0546093750000005e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 1.0389369730710339e-07,
+            "1.5": 1.2864075464551116e-07,
+            "2.0": 1.7813486932232664e-07
+          },
+          "necessaryCallSeconds": 0.00011152656249999999,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 2.907951915869834e-09,
+            "1.5": 2.907951915869834e-09,
+            "2.0": 2.907951915869834e-09
+          },
+          "necessaryCallSeconds": 3.96671875e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 9.29365683463406e-08,
+            "1.5": 1.1750947774686354e-07,
+            "2.0": 1.666552965479094e-07
+          },
+          "necessaryCallSeconds": 4.963515625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 7,
+            "INITIALIZATION": 9
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "recipient": 7,
+      "sourceSeed": 11730037,
+      "step": 49,
+      "informative": true,
+      "methods": {
+        "PAID_ND": {
+          "singleGain": {
+            "1.25": 1.0547084099381673e-06,
+            "1.5": 1.645189445740663e-06,
+            "2.0": 2.8261515173456554e-06
+          },
+          "necessaryCallSeconds": 4.911640625e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "HISTORY_ND": {
+          "singleGain": {
+            "1.25": 1.1258075387328022e-07,
+            "1.5": 1.74264891598464e-07,
+            "2.0": 2.9763316704883155e-07
+          },
+          "necessaryCallSeconds": 7.893984375e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "CURRENT_ND": {
+          "singleGain": {
+            "1.25": 4.205712283046543e-09,
+            "1.5": 4.205712283046543e-09,
+            "2.0": 4.205712283046543e-09
+          },
+          "necessaryCallSeconds": 4.120781249999999e-05,
+          "guideFirstRoleCounts": {
+            "CENTER": 15,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        },
+        "INITIAL_ND": {
+          "singleGain": {
+            "1.25": 3.2807931398459603e-07,
+            "1.5": 5.099111214393085e-07,
+            "2.0": 8.735747363487338e-07
+          },
+          "necessaryCallSeconds": 6.02734375e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 16
+          }
+        },
+        "RANDOM_KNOWN": {
+          "singleGain": {
+            "1.25": 1.0505026976551208e-06,
+            "1.5": 1.6409837334576165e-06,
+            "2.0": 2.821945805062609e-06
+          },
+          "necessaryCallSeconds": 4.506640625e-05,
+          "guideFirstRoleCounts": {
+            "INITIALIZATION": 8,
+            "CENTER": 7,
+            "UNKNOWN_CURRENT_ONLY": 1
+          }
+        }
+      }
+    }
+  ],
+  "limits": "Conditional single-offspring same-candidate-count value only. Live archive API/maintenance, complete sameFE/time, source duty uniqueness, fatigue specificity and independent confirmation unproven."
+}

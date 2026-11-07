@@ -1,0 +1,2980 @@
+{
+  "decisions": [
+    {
+      "stem": "20_8_5_1",
+      "n": 14,
+      "CmaxWins": 10,
+      "summedBatchHVgain": {
+        "JOB_ALIGNED": 0.007296712234357239,
+        "CLASSIC_GLOBAL": 0.01857528591337959
+      },
+      "pass": true
+    },
+    {
+      "stem": "100_2_3_1",
+      "n": 14,
+      "CmaxWins": 9,
+      "summedBatchHVgain": {
+        "JOB_ALIGNED": 0.01636667908121875,
+        "CLASSIC_GLOBAL": 0.008496826593110907
+      },
+      "pass": false
+    }
+  ],
+  "M_cases": [
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-200",
+      "bestCmax": {
+        "JOB_ALIGNED": 471.31916769043164,
+        "CLASSIC_GLOBAL": 445.08162291293627
+      },
+      "batchHVgain": {
+        "PAPER": 1.2060402841462814e-05,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 0.0,
+        "CLASSIC_PERSONAL": 1.0233275782312035e-06
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-201",
+      "bestCmax": {
+        "JOB_ALIGNED": 425.8427762717149,
+        "CLASSIC_GLOBAL": 409.58676540845295
+      },
+      "batchHVgain": {
+        "PAPER": 0.0013717558730809154,
+        "JOB_ALIGNED": 0.0003928447761467613,
+        "CLASSIC_GLOBAL": 0.004458779188260653,
+        "CLASSIC_PERSONAL": 0.002743068289693784
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-202",
+      "bestCmax": {
+        "JOB_ALIGNED": 457.74412746611307,
+        "CLASSIC_GLOBAL": 411.53532682885066
+      },
+      "batchHVgain": {
+        "PAPER": 0.0,
+        "JOB_ALIGNED": 6.512285033455356e-08,
+        "CLASSIC_GLOBAL": 0.00549806635820943,
+        "CLASSIC_PERSONAL": 5.983280900773158e-05
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-203",
+      "bestCmax": {
+        "JOB_ALIGNED": 438.8846733975699,
+        "CLASSIC_GLOBAL": 411.9424001463162
+      },
+      "batchHVgain": {
+        "PAPER": 3.07681808117688e-05,
+        "JOB_ALIGNED": 7.208750987164336e-05,
+        "CLASSIC_GLOBAL": 0.007034440369826533,
+        "CLASSIC_PERSONAL": 0.00048491798764904726
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-204",
+      "bestCmax": {
+        "JOB_ALIGNED": 425.01230403675237,
+        "CLASSIC_GLOBAL": 426.66207350957114
+      },
+      "batchHVgain": {
+        "PAPER": 0.0033168203098707383,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 0.00025225559251351726,
+        "CLASSIC_PERSONAL": 0.00024107858384009306
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-205",
+      "bestCmax": {
+        "JOB_ALIGNED": 439.6031069026142,
+        "CLASSIC_GLOBAL": 420.09381036276045
+      },
+      "batchHVgain": {
+        "PAPER": 3.08700161205655e-05,
+        "JOB_ALIGNED": 0.006355868420332977,
+        "CLASSIC_GLOBAL": 0.00031760218540627383,
+        "CLASSIC_PERSONAL": 0.00015852294524554278
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280039,
+      "case": "20_8_5_1.txt-206",
+      "bestCmax": {
+        "JOB_ALIGNED": 453.805880698257,
+        "CLASSIC_GLOBAL": 425.5099621746861
+      },
+      "batchHVgain": {
+        "PAPER": 5.745812643798143e-05,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 2.295514882066918e-07,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-200",
+      "bestCmax": {
+        "JOB_ALIGNED": 1420.4461150904758,
+        "CLASSIC_GLOBAL": 1294.4046857191856
+      },
+      "batchHVgain": {
+        "PAPER": 1.3109207025352454e-05,
+        "JOB_ALIGNED": 2.5596054443577376e-05,
+        "CLASSIC_GLOBAL": 0.0,
+        "CLASSIC_PERSONAL": 4.7522226583163185e-05
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-201",
+      "bestCmax": {
+        "JOB_ALIGNED": 1140.8616730162685,
+        "CLASSIC_GLOBAL": 1267.3491397129183
+      },
+      "batchHVgain": {
+        "PAPER": 0.001587970086159074,
+        "JOB_ALIGNED": 0.00813144659095677,
+        "CLASSIC_GLOBAL": 0.0007122661490305826,
+        "CLASSIC_PERSONAL": 0.004988945435970671
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-202",
+      "bestCmax": {
+        "JOB_ALIGNED": 1293.0843842191362,
+        "CLASSIC_GLOBAL": 1347.8868952091752
+      },
+      "batchHVgain": {
+        "PAPER": 3.311502185021631e-06,
+        "JOB_ALIGNED": 0.00012785868385056798,
+        "CLASSIC_GLOBAL": 0.0,
+        "CLASSIC_PERSONAL": 8.297023624481703e-06
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-203",
+      "bestCmax": {
+        "JOB_ALIGNED": 1501.3033020695445,
+        "CLASSIC_GLOBAL": 1269.3968980583054
+      },
+      "batchHVgain": {
+        "PAPER": 0.0,
+        "JOB_ALIGNED": 0.004811762764451777,
+        "CLASSIC_GLOBAL": 0.0,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-204",
+      "bestCmax": {
+        "JOB_ALIGNED": 1392.827710910748,
+        "CLASSIC_GLOBAL": 1324.6776363230872
+      },
+      "batchHVgain": {
+        "PAPER": 0.00023425496988449535,
+        "JOB_ALIGNED": 1.7206610789466392e-05,
+        "CLASSIC_GLOBAL": 0.0002552526598054161,
+        "CLASSIC_PERSONAL": 3.204661561789779e-05
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-205",
+      "bestCmax": {
+        "JOB_ALIGNED": 1365.3685129659739,
+        "CLASSIC_GLOBAL": 1290.7577935248353
+      },
+      "batchHVgain": {
+        "PAPER": 0.0,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 0.0003713614087723638,
+        "CLASSIC_PERSONAL": 1.5058447140503528e-05
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280039,
+      "case": "100_2_3_1.txt-206",
+      "bestCmax": {
+        "JOB_ALIGNED": 1231.8958571443873,
+        "CLASSIC_GLOBAL": 1307.7222501439164
+      },
+      "batchHVgain": {
+        "PAPER": 0.0003002261913785942,
+        "JOB_ALIGNED": 0.0002079285826536159,
+        "CLASSIC_GLOBAL": 1.5300167523879526e-05,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-200",
+      "bestCmax": {
+        "JOB_ALIGNED": 433.58849549069157,
+        "CLASSIC_GLOBAL": 432.4297032723987
+      },
+      "batchHVgain": {
+        "PAPER": 0.0,
+        "JOB_ALIGNED": 2.875648225098004e-07,
+        "CLASSIC_GLOBAL": 8.815010538176793e-08,
+        "CLASSIC_PERSONAL": 8.317134512214608e-07
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-201",
+      "bestCmax": {
+        "JOB_ALIGNED": 445.9843515435912,
+        "CLASSIC_GLOBAL": 464.06563010429704
+      },
+      "batchHVgain": {
+        "PAPER": 0.0,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 0.0,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-202",
+      "bestCmax": {
+        "JOB_ALIGNED": 414.6861845760278,
+        "CLASSIC_GLOBAL": 447.1127660866861
+      },
+      "batchHVgain": {
+        "PAPER": 1.820410182595822e-07,
+        "JOB_ALIGNED": 0.0001333121562182571,
+        "CLASSIC_GLOBAL": 0.0004397778778981176,
+        "CLASSIC_PERSONAL": 0.00013846789863497522
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-203",
+      "bestCmax": {
+        "JOB_ALIGNED": 441.1607011455675,
+        "CLASSIC_GLOBAL": 414.7838024373346
+      },
+      "batchHVgain": {
+        "PAPER": 0.00023578454785355696,
+        "JOB_ALIGNED": 0.0003270368764457521,
+        "CLASSIC_GLOBAL": 0.0001089738898943926,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-204",
+      "bestCmax": {
+        "JOB_ALIGNED": 428.3874822318109,
+        "CLASSIC_GLOBAL": 429.34357156855526
+      },
+      "batchHVgain": {
+        "PAPER": 1.2128078039852497e-05,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 3.202936778151644e-05,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-205",
+      "bestCmax": {
+        "JOB_ALIGNED": 445.81453525636806,
+        "CLASSIC_GLOBAL": 435.03393512683056
+      },
+      "batchHVgain": {
+        "PAPER": 7.586789959812545e-05,
+        "JOB_ALIGNED": 1.5209807669003261e-05,
+        "CLASSIC_GLOBAL": 0.00043304338199556813,
+        "CLASSIC_PERSONAL": 6.366029817805874e-05
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "stateSeed": 9280071,
+      "case": "20_8_5_1.txt-206",
+      "bestCmax": {
+        "JOB_ALIGNED": 476.9598873148553,
+        "CLASSIC_GLOBAL": 445.4038890730095
+      },
+      "batchHVgain": {
+        "PAPER": 1.1187723236716351e-07,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 0.0,
+        "CLASSIC_PERSONAL": 1.3675252874545407e-07
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-200",
+      "bestCmax": {
+        "JOB_ALIGNED": 1337.5095461150338,
+        "CLASSIC_GLOBAL": 1337.0486189450273
+      },
+      "batchHVgain": {
+        "PAPER": 0.00012556721290107875,
+        "JOB_ALIGNED": 1.9948970042149572e-05,
+        "CLASSIC_GLOBAL": 0.00019633059483137316,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-201",
+      "bestCmax": {
+        "JOB_ALIGNED": 1363.569037325236,
+        "CLASSIC_GLOBAL": 1345.67349772743
+      },
+      "batchHVgain": {
+        "PAPER": 4.242918378472016e-06,
+        "JOB_ALIGNED": 3.293774534790517e-05,
+        "CLASSIC_GLOBAL": 0.00013374704827467943,
+        "CLASSIC_PERSONAL": 0.00013374704827467943
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-202",
+      "bestCmax": {
+        "JOB_ALIGNED": 1305.580732850407,
+        "CLASSIC_GLOBAL": 1331.458765431446
+      },
+      "batchHVgain": {
+        "PAPER": 0.0015024576825842795,
+        "JOB_ALIGNED": 0.0027322386241781516,
+        "CLASSIC_GLOBAL": 0.002291716017195189,
+        "CLASSIC_PERSONAL": 0.003576450176677126
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-203",
+      "bestCmax": {
+        "JOB_ALIGNED": 1594.4391442320314,
+        "CLASSIC_GLOBAL": 1323.539490614046
+      },
+      "batchHVgain": {
+        "PAPER": 0.0,
+        "JOB_ALIGNED": 0.0,
+        "CLASSIC_GLOBAL": 0.0012717300137710663,
+        "CLASSIC_PERSONAL": 0.0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-204",
+      "bestCmax": {
+        "JOB_ALIGNED": 1331.554498022495,
+        "CLASSIC_GLOBAL": 1359.7187236381158
+      },
+      "batchHVgain": {
+        "PAPER": 0.00020858127850464925,
+        "JOB_ALIGNED": 0.000112878568292063,
+        "CLASSIC_GLOBAL": 0.002284626411493851,
+        "CLASSIC_PERSONAL": 0.003444079820131063
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-205",
+      "bestCmax": {
+        "JOB_ALIGNED": 1415.8901392636574,
+        "CLASSIC_GLOBAL": 1380.5503635651287
+      },
+      "batchHVgain": {
+        "PAPER": 0.00038114194733285256,
+        "JOB_ALIGNED": 8.120623754548362e-07,
+        "CLASSIC_GLOBAL": 1.4565799633103893e-07,
+        "CLASSIC_PERSONAL": 0.005080538086377151
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "stateSeed": 9280071,
+      "case": "100_2_3_1.txt-206",
+      "bestCmax": {
+        "JOB_ALIGNED": 1384.3291107864586,
+        "CLASSIC_GLOBAL": 1325.9383045602694
+      },
+      "batchHVgain": {
+        "PAPER": 0.002477000184966549,
+        "JOB_ALIGNED": 0.00014606382383725025,
+        "CLASSIC_GLOBAL": 0.0009643504644161749,
+        "CLASSIC_PERSONAL": 0.0003576457935404731
+      }
+    }
+  ],
+  "allCases": [
+    {
+      "stateSeed": 9280039,
+      "stem": "20_8_5_1",
+      "primaryCases": 23,
+      "groups": [
+        {
+          "window": "MAKESPAN",
+          "n": 7,
+          "meanGain": {
+            "PAPER": 0.0006885332727376332,
+            "JOB_ALIGNED": 0.0009744094041716738,
+            "CLASSIC_GLOBAL": 0.0025087676065292308,
+            "CLASSIC_PERSONAL": 0.0005269205632877757
+          }
+        },
+        {
+          "window": "CENTER",
+          "n": 8,
+          "meanGain": {
+            "PAPER": 3.5340280434836835e-06,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 1.6656059454792094e-05,
+            "CLASSIC_PERSONAL": 0.0
+          }
+        },
+        {
+          "window": "ENERGY",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          }
+        },
+        {
+          "window": "WORKER_COST",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 8.479886742976395e-06,
+            "CLASSIC_PERSONAL": 6.125991244522455e-05
+          }
+        }
+      ],
+      "summedBatchGain": {
+        "PAPER": 0.004848005133511302,
+        "JOB_ALIGNED": 0.006820865829201717,
+        "CLASSIC_GLOBAL": 0.017728541268314857,
+        "CLASSIC_PERSONAL": 0.003933483592795328
+      },
+      "classicWinsWindows": 3,
+      "worthClosedLoop": true,
+      "cases": [
+        {
+          "case": "20_8_5_1.txt-200",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 1.2060402841462814e-05,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 1.0233275782312035e-06
+          },
+          "batchSeconds": {
+            "PAPER": 0.0237952,
+            "JOB_ALIGNED": 0.0077994,
+            "CLASSIC_GLOBAL": 0.0203656,
+            "CLASSIC_PERSONAL": 0.0082419
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-201",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0013717558730809154,
+            "JOB_ALIGNED": 0.0003928447761467613,
+            "CLASSIC_GLOBAL": 0.004458779188260653,
+            "CLASSIC_PERSONAL": 0.002743068289693784
+          },
+          "batchSeconds": {
+            "PAPER": 0.008656,
+            "JOB_ALIGNED": 0.0154739,
+            "CLASSIC_GLOBAL": 0.011313,
+            "CLASSIC_PERSONAL": 0.0139457
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-202",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 6.512285033455356e-08,
+            "CLASSIC_GLOBAL": 0.00549806635820943,
+            "CLASSIC_PERSONAL": 5.983280900773158e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.00221,
+            "JOB_ALIGNED": 0.0021697,
+            "CLASSIC_GLOBAL": 0.0081529,
+            "CLASSIC_PERSONAL": 0.0024748
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-203",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 3.07681808117688e-05,
+            "JOB_ALIGNED": 7.208750987164336e-05,
+            "CLASSIC_GLOBAL": 0.007034440369826533,
+            "CLASSIC_PERSONAL": 0.00048491798764904726
+          },
+          "batchSeconds": {
+            "PAPER": 0.0035415,
+            "JOB_ALIGNED": 0.0029824,
+            "CLASSIC_GLOBAL": 0.0065206,
+            "CLASSIC_PERSONAL": 0.001969
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-204",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0033168203098707383,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.00025225559251351726,
+            "CLASSIC_PERSONAL": 0.00024107858384009306
+          },
+          "batchSeconds": {
+            "PAPER": 0.0018617,
+            "JOB_ALIGNED": 0.0051249,
+            "CLASSIC_GLOBAL": 0.002831,
+            "CLASSIC_PERSONAL": 0.0021966
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-205",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 3.08700161205655e-05,
+            "JOB_ALIGNED": 0.006355868420332977,
+            "CLASSIC_GLOBAL": 0.00031760218540627383,
+            "CLASSIC_PERSONAL": 0.00015852294524554278
+          },
+          "batchSeconds": {
+            "PAPER": 0.0048614,
+            "JOB_ALIGNED": 0.0033591,
+            "CLASSIC_GLOBAL": 0.0028976,
+            "CLASSIC_PERSONAL": 0.0024966
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-206",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 5.745812643798143e-05,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 2.295514882066918e-07,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0066506,
+            "JOB_ALIGNED": 0.0021146,
+            "CLASSIC_GLOBAL": 0.0033389,
+            "CLASSIC_PERSONAL": 0.002157
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-207",
+          "window": "MAKESPAN",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021218,
+            "JOB_ALIGNED": 0.0018747,
+            "CLASSIC_GLOBAL": 0.0019466,
+            "CLASSIC_PERSONAL": 0.0017157
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1500",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0043472,
+            "JOB_ALIGNED": 0.0027656,
+            "CLASSIC_GLOBAL": 0.0036278,
+            "CLASSIC_PERSONAL": 0.0026441
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1501",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 2.809720758539802e-05,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0030835,
+            "JOB_ALIGNED": 0.0020513,
+            "CLASSIC_GLOBAL": 0.0021696,
+            "CLASSIC_PERSONAL": 0.0020865
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1502",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0022185,
+            "JOB_ALIGNED": 0.0022427,
+            "CLASSIC_GLOBAL": 0.0022002,
+            "CLASSIC_PERSONAL": 0.0020342
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1503",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.000109938514334329,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.001925,
+            "JOB_ALIGNED": 0.0019321,
+            "CLASSIC_GLOBAL": 0.0038197,
+            "CLASSIC_PERSONAL": 0.0021044
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1504",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0020056,
+            "JOB_ALIGNED": 0.0045376,
+            "CLASSIC_GLOBAL": 0.0036881,
+            "CLASSIC_PERSONAL": 0.0020036
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1505",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0026218,
+            "JOB_ALIGNED": 0.0022535,
+            "CLASSIC_GLOBAL": 0.0025983,
+            "CLASSIC_PERSONAL": 0.0024129
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1506",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 2.3309961304007754e-05,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0022577,
+            "JOB_ALIGNED": 0.0022064,
+            "CLASSIC_GLOBAL": 0.0037295,
+            "CLASSIC_PERSONAL": 0.002309
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1507",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 1.7501676247144715e-07,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0027651,
+            "JOB_ALIGNED": 0.0018231,
+            "CLASSIC_GLOBAL": 0.0029776,
+            "CLASSIC_PERSONAL": 0.0036136
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3750",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0018506,
+            "JOB_ALIGNED": 0.0020901,
+            "CLASSIC_GLOBAL": 0.0037655,
+            "CLASSIC_PERSONAL": 0.0018452
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3751",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0019912,
+            "JOB_ALIGNED": 0.0022037,
+            "CLASSIC_GLOBAL": 0.0020983,
+            "CLASSIC_PERSONAL": 0.0017961
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3752",
+          "window": "ENERGY",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021292,
+            "JOB_ALIGNED": 0.0021795,
+            "CLASSIC_GLOBAL": 0.0024715,
+            "CLASSIC_PERSONAL": 0.002047
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3753",
+          "window": "ENERGY",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.001957,
+            "JOB_ALIGNED": 0.0019018,
+            "CLASSIC_GLOBAL": 0.0021823,
+            "CLASSIC_PERSONAL": 0.0018023
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3754",
+          "window": "ENERGY",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.001972,
+            "JOB_ALIGNED": 0.0018053,
+            "CLASSIC_GLOBAL": 0.00233,
+            "CLASSIC_PERSONAL": 0.0019189
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3755",
+          "window": "ENERGY",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0020702,
+            "JOB_ALIGNED": 0.0020771,
+            "CLASSIC_GLOBAL": 0.0022988,
+            "CLASSIC_PERSONAL": 0.0019379
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3756",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021081,
+            "JOB_ALIGNED": 0.0022353,
+            "CLASSIC_GLOBAL": 0.0033192,
+            "CLASSIC_PERSONAL": 0.0018177
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3757",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0014544,
+            "JOB_ALIGNED": 0.0013918,
+            "CLASSIC_GLOBAL": 0.0028797,
+            "CLASSIC_PERSONAL": 0.0018119
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4500",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0016648,
+            "JOB_ALIGNED": 0.0016888,
+            "CLASSIC_GLOBAL": 0.0018833,
+            "CLASSIC_PERSONAL": 0.0018311
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4501",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0002450396497808982
+          },
+          "batchSeconds": {
+            "PAPER": 0.0014336,
+            "JOB_ALIGNED": 0.0015222,
+            "CLASSIC_GLOBAL": 0.0015413,
+            "CLASSIC_PERSONAL": 0.0046554
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4502",
+          "window": "WORKER_COST",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.001452,
+            "JOB_ALIGNED": 0.0012747,
+            "CLASSIC_GLOBAL": 0.0014876,
+            "CLASSIC_PERSONAL": 0.0013459
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4503",
+          "window": "WORKER_COST",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0013918,
+            "JOB_ALIGNED": 0.0012627,
+            "CLASSIC_GLOBAL": 0.001455,
+            "CLASSIC_PERSONAL": 0.0012726
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4504",
+          "window": "WORKER_COST",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0013303,
+            "JOB_ALIGNED": 0.0012878,
+            "CLASSIC_GLOBAL": 0.0015013,
+            "CLASSIC_PERSONAL": 0.0014212
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4505",
+          "window": "WORKER_COST",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0011248,
+            "JOB_ALIGNED": 0.0011596,
+            "CLASSIC_GLOBAL": 0.0012611,
+            "CLASSIC_PERSONAL": 0.0011112
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4506",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0032955,
+            "JOB_ALIGNED": 0.0031076,
+            "CLASSIC_GLOBAL": 0.0015395,
+            "CLASSIC_PERSONAL": 0.0021323
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4507",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 3.391954697190558e-05,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0012067,
+            "JOB_ALIGNED": 0.0012379,
+            "CLASSIC_GLOBAL": 0.003022,
+            "CLASSIC_PERSONAL": 0.0012424
+          }
+        }
+      ]
+    },
+    {
+      "stateSeed": 9280039,
+      "stem": "100_2_3_1",
+      "primaryCases": 23,
+      "groups": [
+        {
+          "window": "MAKESPAN",
+          "n": 7,
+          "meanGain": {
+            "PAPER": 0.00030555313666179106,
+            "JOB_ALIGNED": 0.0019031141838779678,
+            "CLASSIC_GLOBAL": 0.00019345434073317743,
+            "CLASSIC_PERSONAL": 0.0007274099641338168
+          }
+        },
+        {
+          "window": "CENTER",
+          "n": 8,
+          "meanGain": {
+            "PAPER": 4.079908917972719e-06,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 4.325303323837737e-09,
+            "CLASSIC_PERSONAL": 0.0
+          }
+        },
+        {
+          "window": "ENERGY",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          }
+        },
+        {
+          "window": "WORKER_COST",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 2.083300948080291e-05,
+            "JOB_ALIGNED": 2.6610805725635345e-08,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          }
+        }
+      ],
+      "summedBatchGain": {
+        "PAPER": 0.002254843265899531,
+        "JOB_ALIGNED": 0.013321905730368677,
+        "CLASSIC_GLOBAL": 0.0013542149875588327,
+        "CLASSIC_PERSONAL": 0.005091869748936717
+      },
+      "classicWinsWindows": 1,
+      "worthClosedLoop": false,
+      "cases": [
+        {
+          "case": "100_2_3_1.txt-200",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 1.3109207025352454e-05,
+            "JOB_ALIGNED": 2.5596054443577376e-05,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 4.7522226583163185e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0292505,
+            "JOB_ALIGNED": 0.0240171,
+            "CLASSIC_GLOBAL": 0.0166549,
+            "CLASSIC_PERSONAL": 0.024348
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-201",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.001587970086159074,
+            "JOB_ALIGNED": 0.00813144659095677,
+            "CLASSIC_GLOBAL": 0.0007122661490305826,
+            "CLASSIC_PERSONAL": 0.004988945435970671
+          },
+          "batchSeconds": {
+            "PAPER": 0.0050769,
+            "JOB_ALIGNED": 0.0068721,
+            "CLASSIC_GLOBAL": 0.0103396,
+            "CLASSIC_PERSONAL": 0.0126239
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-202",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 3.311502185021631e-06,
+            "JOB_ALIGNED": 0.00012785868385056798,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 8.297023624481703e-06
+          },
+          "batchSeconds": {
+            "PAPER": 0.0046046,
+            "JOB_ALIGNED": 0.0044035,
+            "CLASSIC_GLOBAL": 0.0040696,
+            "CLASSIC_PERSONAL": 0.0034633
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-203",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.004811762764451777,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0038267,
+            "JOB_ALIGNED": 0.0038966,
+            "CLASSIC_GLOBAL": 0.0031995,
+            "CLASSIC_PERSONAL": 0.0038495
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-204",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.00023425496988449535,
+            "JOB_ALIGNED": 1.7206610789466392e-05,
+            "CLASSIC_GLOBAL": 0.0002552526598054161,
+            "CLASSIC_PERSONAL": 3.204661561789779e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0047397,
+            "JOB_ALIGNED": 0.0029213,
+            "CLASSIC_GLOBAL": 0.0031305,
+            "CLASSIC_PERSONAL": 0.0059741
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-205",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0003713614087723638,
+            "CLASSIC_PERSONAL": 1.5058447140503528e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0028867,
+            "JOB_ALIGNED": 0.0031504,
+            "CLASSIC_GLOBAL": 0.0046981,
+            "CLASSIC_PERSONAL": 0.0030963
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-206",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0003002261913785942,
+            "JOB_ALIGNED": 0.0002079285826536159,
+            "CLASSIC_GLOBAL": 1.5300167523879526e-05,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0044736,
+            "JOB_ALIGNED": 0.0032084,
+            "CLASSIC_GLOBAL": 0.0034897,
+            "CLASSIC_PERSONAL": 0.0031102
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-207",
+          "window": "MAKESPAN",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0032011,
+            "JOB_ALIGNED": 0.0032967,
+            "CLASSIC_GLOBAL": 0.0031393,
+            "CLASSIC_PERSONAL": 0.0031622
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1500",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0040735,
+            "JOB_ALIGNED": 0.0039363,
+            "CLASSIC_GLOBAL": 0.0046779,
+            "CLASSIC_PERSONAL": 0.0037738
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1501",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0028497,
+            "JOB_ALIGNED": 0.0027438,
+            "CLASSIC_GLOBAL": 0.0030109,
+            "CLASSIC_PERSONAL": 0.0027652
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1502",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0029698,
+            "JOB_ALIGNED": 0.0034861,
+            "CLASSIC_GLOBAL": 0.0031036,
+            "CLASSIC_PERSONAL": 0.003523
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1503",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 3.4602426590701896e-08,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0033339,
+            "JOB_ALIGNED": 0.0076376,
+            "CLASSIC_GLOBAL": 0.0046804,
+            "CLASSIC_PERSONAL": 0.0037501
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1504",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 3.263927134378175e-05,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0046938,
+            "JOB_ALIGNED": 0.0036942,
+            "CLASSIC_GLOBAL": 0.0036023,
+            "CLASSIC_PERSONAL": 0.0037862
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1505",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.003321,
+            "JOB_ALIGNED": 0.0040393,
+            "CLASSIC_GLOBAL": 0.0036641,
+            "CLASSIC_PERSONAL": 0.0036649
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1506",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0028595,
+            "JOB_ALIGNED": 0.002818,
+            "CLASSIC_GLOBAL": 0.0035628,
+            "CLASSIC_PERSONAL": 0.0033045
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1507",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0037089,
+            "JOB_ALIGNED": 0.0030559,
+            "CLASSIC_GLOBAL": 0.0033018,
+            "CLASSIC_PERSONAL": 0.0103036
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3750",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.002884,
+            "JOB_ALIGNED": 0.002312,
+            "CLASSIC_GLOBAL": 0.0035739,
+            "CLASSIC_PERSONAL": 0.0024994
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3751",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0020343,
+            "JOB_ALIGNED": 0.0021881,
+            "CLASSIC_GLOBAL": 0.0026402,
+            "CLASSIC_PERSONAL": 0.0024403
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3752",
+          "window": "ENERGY",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.002267,
+            "JOB_ALIGNED": 0.0024376,
+            "CLASSIC_GLOBAL": 0.0085873,
+            "CLASSIC_PERSONAL": 0.0023432
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3753",
+          "window": "ENERGY",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0026678,
+            "JOB_ALIGNED": 0.0028259,
+            "CLASSIC_GLOBAL": 0.0031572,
+            "CLASSIC_PERSONAL": 0.0028898
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3754",
+          "window": "ENERGY",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021825,
+            "JOB_ALIGNED": 0.0023273,
+            "CLASSIC_GLOBAL": 0.0027597,
+            "CLASSIC_PERSONAL": 0.0024433
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3755",
+          "window": "ENERGY",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0024547,
+            "JOB_ALIGNED": 0.0024686,
+            "CLASSIC_GLOBAL": 0.0032274,
+            "CLASSIC_PERSONAL": 0.0026254
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3756",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021612,
+            "JOB_ALIGNED": 0.0023149,
+            "CLASSIC_GLOBAL": 0.002868,
+            "CLASSIC_PERSONAL": 0.0050526
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3757",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021919,
+            "JOB_ALIGNED": 0.002213,
+            "CLASSIC_GLOBAL": 0.0036724,
+            "CLASSIC_PERSONAL": 0.0026223
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4500",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 8.333203792321164e-05,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0041012,
+            "JOB_ALIGNED": 0.0031619,
+            "CLASSIC_GLOBAL": 0.00344,
+            "CLASSIC_PERSONAL": 0.0033951
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4501",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0024182,
+            "JOB_ALIGNED": 0.0024752,
+            "CLASSIC_GLOBAL": 0.0029679,
+            "CLASSIC_PERSONAL": 0.0026338
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4502",
+          "window": "WORKER_COST",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0026182,
+            "JOB_ALIGNED": 0.0028119,
+            "CLASSIC_GLOBAL": 0.0034927,
+            "CLASSIC_PERSONAL": 0.0031323
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4503",
+          "window": "WORKER_COST",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0023471,
+            "JOB_ALIGNED": 0.0024045,
+            "CLASSIC_GLOBAL": 0.0028871,
+            "CLASSIC_PERSONAL": 0.002527
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4504",
+          "window": "WORKER_COST",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0025441,
+            "JOB_ALIGNED": 0.0028631,
+            "CLASSIC_GLOBAL": 0.0030841,
+            "CLASSIC_PERSONAL": 0.0028741
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4505",
+          "window": "WORKER_COST",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0026137,
+            "JOB_ALIGNED": 0.0025959,
+            "CLASSIC_GLOBAL": 0.0031713,
+            "CLASSIC_PERSONAL": 0.0028904
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4506",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 1.0644322290254138e-07,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0017895,
+            "JOB_ALIGNED": 0.0025623,
+            "CLASSIC_GLOBAL": 0.004301,
+            "CLASSIC_PERSONAL": 0.0027765
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4507",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0024971,
+            "JOB_ALIGNED": 0.0025507,
+            "CLASSIC_GLOBAL": 0.0028785,
+            "CLASSIC_PERSONAL": 0.0032462
+          }
+        }
+      ]
+    },
+    {
+      "stateSeed": 9280071,
+      "stem": "20_8_5_1",
+      "primaryCases": 23,
+      "groups": [
+        {
+          "window": "MAKESPAN",
+          "n": 7,
+          "meanGain": {
+            "PAPER": 4.6296349106023094e-05,
+            "JOB_ALIGNED": 6.797805787936031e-05,
+            "CLASSIC_GLOBAL": 0.00014484466681071093,
+            "CLASSIC_PERSONAL": 2.9013808970428695e-05
+          }
+        },
+        {
+          "window": "CENTER",
+          "n": 8,
+          "meanGain": {
+            "PAPER": 0.00041866287304918176,
+            "JOB_ALIGNED": 1.0832895146889454e-07,
+            "CLASSIC_GLOBAL": 0.00014608631548779227,
+            "CLASSIC_PERSONAL": 0.00016237117870791795
+          }
+        },
+        {
+          "window": "ENERGY",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.0003130335587013672,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 4.1214392385025e-07,
+            "CLASSIC_PERSONAL": 4.1147695088727954e-07
+          }
+        },
+        {
+          "window": "WORKER_COST",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.00018872095501992758,
+            "JOB_ALIGNED": 8.884655393492924e-05,
+            "CLASSIC_GLOBAL": 0.00017370857747429913,
+            "CLASSIC_PERSONAL": 0.00017370857747429913
+          }
+        }
+      ],
+      "summedBatchGain": {
+        "PAPER": 0.005680395483020795,
+        "JOB_ALIGNED": 0.0008320992525069904,
+        "CLASSIC_GLOBAL": 0.0028790860771699123,
+        "CLASSIC_PERSONAL": 0.00219854631015709
+      },
+      "classicWinsWindows": 4,
+      "worthClosedLoop": true,
+      "cases": [
+        {
+          "case": "20_8_5_1.txt-200",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 2.875648225098004e-07,
+            "CLASSIC_GLOBAL": 8.815010538176793e-08,
+            "CLASSIC_PERSONAL": 8.317134512214608e-07
+          },
+          "batchSeconds": {
+            "PAPER": 0.0149693,
+            "JOB_ALIGNED": 0.0156822,
+            "CLASSIC_GLOBAL": 0.020543,
+            "CLASSIC_PERSONAL": 0.0175237
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-201",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0025114,
+            "JOB_ALIGNED": 0.002821,
+            "CLASSIC_GLOBAL": 0.0024696,
+            "CLASSIC_PERSONAL": 0.0025363
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-202",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 1.820410182595822e-07,
+            "JOB_ALIGNED": 0.0001333121562182571,
+            "CLASSIC_GLOBAL": 0.0004397778778981176,
+            "CLASSIC_PERSONAL": 0.00013846789863497522
+          },
+          "batchSeconds": {
+            "PAPER": 0.0041457,
+            "JOB_ALIGNED": 0.0088722,
+            "CLASSIC_GLOBAL": 0.0072209,
+            "CLASSIC_PERSONAL": 0.0112774
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-203",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.00023578454785355696,
+            "JOB_ALIGNED": 0.0003270368764457521,
+            "CLASSIC_GLOBAL": 0.0001089738898943926,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0057324,
+            "JOB_ALIGNED": 0.0067516,
+            "CLASSIC_GLOBAL": 0.0040431,
+            "CLASSIC_PERSONAL": 0.0024588
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-204",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 1.2128078039852497e-05,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 3.202936778151644e-05,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0035713,
+            "JOB_ALIGNED": 0.0023395,
+            "CLASSIC_GLOBAL": 0.0043508,
+            "CLASSIC_PERSONAL": 0.0022355
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-205",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 7.586789959812545e-05,
+            "JOB_ALIGNED": 1.5209807669003261e-05,
+            "CLASSIC_GLOBAL": 0.00043304338199556813,
+            "CLASSIC_PERSONAL": 6.366029817805874e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0079937,
+            "JOB_ALIGNED": 0.002741,
+            "CLASSIC_GLOBAL": 0.0076677,
+            "CLASSIC_PERSONAL": 0.0045111
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-206",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 1.1187723236716351e-07,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 1.3675252874545407e-07
+          },
+          "batchSeconds": {
+            "PAPER": 0.0019636,
+            "JOB_ALIGNED": 0.0018748,
+            "CLASSIC_GLOBAL": 0.00198,
+            "CLASSIC_PERSONAL": 0.0016809
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-207",
+          "window": "MAKESPAN",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021755,
+            "JOB_ALIGNED": 0.0020355,
+            "CLASSIC_GLOBAL": 0.0021237,
+            "CLASSIC_PERSONAL": 0.0075868
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1500",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 8.320108529474846e-05,
+            "JOB_ALIGNED": 2.4725637870481876e-07,
+            "CLASSIC_GLOBAL": 8.890327412025556e-07,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0031482,
+            "JOB_ALIGNED": 0.0035603,
+            "CLASSIC_GLOBAL": 0.0033424,
+            "CLASSIC_PERSONAL": 0.0019698
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1501",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 5.207073452495603e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0019994,
+            "JOB_ALIGNED": 0.002096,
+            "CLASSIC_GLOBAL": 0.0076277,
+            "CLASSIC_PERSONAL": 0.0029987
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1502",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.003263967878280871,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0070608,
+            "JOB_ALIGNED": 0.0041525,
+            "CLASSIC_GLOBAL": 0.0058166,
+            "CLASSIC_PERSONAL": 0.0050777
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1503",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 2.073029632898571e-06,
+            "JOB_ALIGNED": 5.900110160994565e-07,
+            "CLASSIC_GLOBAL": 0.0011677451868915,
+            "CLASSIC_PERSONAL": 2.8465048520609493e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0021904,
+            "JOB_ALIGNED": 0.0065193,
+            "CLASSIC_GLOBAL": 0.0038403,
+            "CLASSIC_PERSONAL": 0.0078
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1504",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0018407,
+            "JOB_ALIGNED": 0.0021151,
+            "CLASSIC_GLOBAL": 0.0020591,
+            "CLASSIC_PERSONAL": 0.0019941
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1505",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 3.1626967988973576e-08,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 5.6304269635543136e-08,
+            "CLASSIC_PERSONAL": 0.00119913352343759
+          },
+          "batchSeconds": {
+            "PAPER": 0.0017254,
+            "JOB_ALIGNED": 0.0015613,
+            "CLASSIC_GLOBAL": 0.0017441,
+            "CLASSIC_PERSONAL": 0.0050266
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1506",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0013945,
+            "JOB_ALIGNED": 0.0013722,
+            "CLASSIC_GLOBAL": 0.0030422,
+            "CLASSIC_PERSONAL": 0.0014253
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-1507",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 2.9364216946881072e-08,
+            "JOB_ALIGNED": 2.9364216946881072e-08,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 1.9300123180188145e-05
+          },
+          "batchSeconds": {
+            "PAPER": 0.0014418,
+            "JOB_ALIGNED": 0.0014227,
+            "CLASSIC_GLOBAL": 0.0016453,
+            "CLASSIC_PERSONAL": 0.0030771
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3750",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0061085,
+            "JOB_ALIGNED": 0.0036073,
+            "CLASSIC_GLOBAL": 0.002606,
+            "CLASSIC_PERSONAL": 0.0026021
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3751",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0012034,
+            "JOB_ALIGNED": 0.0011482,
+            "CLASSIC_GLOBAL": 0.0013889,
+            "CLASSIC_PERSONAL": 0.001238
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3752",
+          "window": "ENERGY",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0010627,
+            "JOB_ALIGNED": 0.0010138,
+            "CLASSIC_GLOBAL": 0.0012312,
+            "CLASSIC_PERSONAL": 0.0010694
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3753",
+          "window": "ENERGY",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0013978,
+            "JOB_ALIGNED": 0.0013855,
+            "CLASSIC_GLOBAL": 0.0059034,
+            "CLASSIC_PERSONAL": 0.0014888
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3754",
+          "window": "ENERGY",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0012847,
+            "JOB_ALIGNED": 0.0012263,
+            "CLASSIC_GLOBAL": 0.001363,
+            "CLASSIC_PERSONAL": 0.0021135
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3755",
+          "window": "ENERGY",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0012812,
+            "JOB_ALIGNED": 0.0012985,
+            "CLASSIC_GLOBAL": 0.0025819,
+            "CLASSIC_PERSONAL": 0.0012937
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3756",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0012521342348054687,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 1.6459078035491181e-06,
+            "CLASSIC_PERSONAL": 1.6459078035491181e-06
+          },
+          "batchSeconds": {
+            "PAPER": 0.0048445,
+            "JOB_ALIGNED": 0.0099566,
+            "CLASSIC_GLOBAL": 0.0014836,
+            "CLASSIC_PERSONAL": 0.0028843
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-3757",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 2.667891851881876e-09,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0034272,
+            "JOB_ALIGNED": 0.0026473,
+            "CLASSIC_GLOBAL": 0.0050536,
+            "CLASSIC_PERSONAL": 0.0037725
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4500",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0014109,
+            "JOB_ALIGNED": 0.0036037,
+            "CLASSIC_GLOBAL": 0.0063156,
+            "CLASSIC_PERSONAL": 0.0041177
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4501",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0011919,
+            "JOB_ALIGNED": 0.001345,
+            "CLASSIC_GLOBAL": 0.0014514,
+            "CLASSIC_PERSONAL": 0.0013203
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4502",
+          "window": "WORKER_COST",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0012579,
+            "JOB_ALIGNED": 0.0012078,
+            "CLASSIC_GLOBAL": 0.0015876,
+            "CLASSIC_PERSONAL": 0.0014058
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4503",
+          "window": "WORKER_COST",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0040905,
+            "JOB_ALIGNED": 0.0014867,
+            "CLASSIC_GLOBAL": 0.0026877,
+            "CLASSIC_PERSONAL": 0.0025609
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4504",
+          "window": "WORKER_COST",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0013899,
+            "JOB_ALIGNED": 0.0015524,
+            "CLASSIC_GLOBAL": 0.0016318,
+            "CLASSIC_PERSONAL": 0.0014231
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4505",
+          "window": "WORKER_COST",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0014153,
+            "JOB_ALIGNED": 0.0028542,
+            "CLASSIC_GLOBAL": 0.0016218,
+            "CLASSIC_PERSONAL": 0.0026951
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4506",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0029487,
+            "JOB_ALIGNED": 0.00294,
+            "CLASSIC_GLOBAL": 0.0028841,
+            "CLASSIC_PERSONAL": 0.0016372
+          }
+        },
+        {
+          "case": "20_8_5_1.txt-4507",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0007548838200797103,
+            "JOB_ALIGNED": 0.00035538621573971696,
+            "CLASSIC_GLOBAL": 0.0006948343098971965,
+            "CLASSIC_PERSONAL": 0.0006948343098971965
+          },
+          "batchSeconds": {
+            "PAPER": 0.0077133,
+            "JOB_ALIGNED": 0.0031134,
+            "CLASSIC_GLOBAL": 0.0041594,
+            "CLASSIC_PERSONAL": 0.0033116
+          }
+        }
+      ]
+    },
+    {
+      "stateSeed": 9280071,
+      "stem": "100_2_3_1",
+      "primaryCases": 23,
+      "groups": [
+        {
+          "window": "MAKESPAN",
+          "n": 7,
+          "meanGain": {
+            "PAPER": 0.0006712844606668401,
+            "JOB_ALIGNED": 0.00043498282772471065,
+            "CLASSIC_GLOBAL": 0.0010203780297112378,
+            "CLASSIC_PERSONAL": 0.0017989229892857847
+          }
+        },
+        {
+          "window": "CENTER",
+          "n": 8,
+          "meanGain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 1.3062294010462994e-05
+          }
+        },
+        {
+          "window": "ENERGY",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.0011557671470919795,
+            "JOB_ALIGNED": 0.0007581786635595111,
+            "CLASSIC_GLOBAL": 2.908562224401834e-09,
+            "CLASSIC_PERSONAL": 0.0015480496680639055
+          }
+        },
+        {
+          "window": "WORKER_COST",
+          "n": 4,
+          "meanGain": {
+            "PAPER": 0.000901760097363008,
+            "JOB_ALIGNED": 0.0011612098088962242,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.000600790658241146
+          }
+        }
+      ],
+      "summedBatchGain": {
+        "PAPER": 0.012929100202487831,
+        "JOB_ALIGNED": 0.010722433683895916,
+        "CLASSIC_GLOBAL": 0.007142657842227562,
+        "CLASSIC_PERSONAL": 0.021292320582304403
+      },
+      "classicWinsWindows": 1,
+      "worthClosedLoop": false,
+      "cases": [
+        {
+          "case": "100_2_3_1.txt-200",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.00012556721290107875,
+            "JOB_ALIGNED": 1.9948970042149572e-05,
+            "CLASSIC_GLOBAL": 0.00019633059483137316,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0230043,
+            "JOB_ALIGNED": 0.0272364,
+            "CLASSIC_GLOBAL": 0.0208404,
+            "CLASSIC_PERSONAL": 0.0179478
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-201",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 4.242918378472016e-06,
+            "JOB_ALIGNED": 3.293774534790517e-05,
+            "CLASSIC_GLOBAL": 0.00013374704827467943,
+            "CLASSIC_PERSONAL": 0.00013374704827467943
+          },
+          "batchSeconds": {
+            "PAPER": 0.0047632,
+            "JOB_ALIGNED": 0.0041553,
+            "CLASSIC_GLOBAL": 0.0051654,
+            "CLASSIC_PERSONAL": 0.004741
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-202",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0015024576825842795,
+            "JOB_ALIGNED": 0.0027322386241781516,
+            "CLASSIC_GLOBAL": 0.002291716017195189,
+            "CLASSIC_PERSONAL": 0.003576450176677126
+          },
+          "batchSeconds": {
+            "PAPER": 0.0059232,
+            "JOB_ALIGNED": 0.0074613,
+            "CLASSIC_GLOBAL": 0.0116289,
+            "CLASSIC_PERSONAL": 0.006242
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-203",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0012717300137710663,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0032503,
+            "JOB_ALIGNED": 0.0035315,
+            "CLASSIC_GLOBAL": 0.01078,
+            "CLASSIC_PERSONAL": 0.003452
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-204",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.00020858127850464925,
+            "JOB_ALIGNED": 0.000112878568292063,
+            "CLASSIC_GLOBAL": 0.002284626411493851,
+            "CLASSIC_PERSONAL": 0.003444079820131063
+          },
+          "batchSeconds": {
+            "PAPER": 0.0075162,
+            "JOB_ALIGNED": 0.0053198,
+            "CLASSIC_GLOBAL": 0.0086243,
+            "CLASSIC_PERSONAL": 0.0069139
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-205",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.00038114194733285256,
+            "JOB_ALIGNED": 8.120623754548362e-07,
+            "CLASSIC_GLOBAL": 1.4565799633103893e-07,
+            "CLASSIC_PERSONAL": 0.005080538086377151
+          },
+          "batchSeconds": {
+            "PAPER": 0.0033952,
+            "JOB_ALIGNED": 0.0037104,
+            "CLASSIC_GLOBAL": 0.0038751,
+            "CLASSIC_PERSONAL": 0.0045313
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-206",
+          "window": "MAKESPAN",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.002477000184966549,
+            "JOB_ALIGNED": 0.00014606382383725025,
+            "CLASSIC_GLOBAL": 0.0009643504644161749,
+            "CLASSIC_PERSONAL": 0.0003576457935404731
+          },
+          "batchSeconds": {
+            "PAPER": 0.0093608,
+            "JOB_ALIGNED": 0.011722,
+            "CLASSIC_GLOBAL": 0.0052246,
+            "CLASSIC_PERSONAL": 0.0147667
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-207",
+          "window": "MAKESPAN",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0039589,
+            "JOB_ALIGNED": 0.0038626,
+            "CLASSIC_GLOBAL": 0.0039433,
+            "CLASSIC_PERSONAL": 0.0039107
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1500",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0031523,
+            "JOB_ALIGNED": 0.0032015,
+            "CLASSIC_GLOBAL": 0.0044655,
+            "CLASSIC_PERSONAL": 0.0030922
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1501",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0030249,
+            "JOB_ALIGNED": 0.0028585,
+            "CLASSIC_GLOBAL": 0.0037729,
+            "CLASSIC_PERSONAL": 0.0083834
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1502",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0025369,
+            "JOB_ALIGNED": 0.0024188,
+            "CLASSIC_GLOBAL": 0.0028188,
+            "CLASSIC_PERSONAL": 0.0028654
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1503",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0027326,
+            "JOB_ALIGNED": 0.0028872,
+            "CLASSIC_GLOBAL": 0.0031995,
+            "CLASSIC_PERSONAL": 0.0031675
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1504",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0030657,
+            "JOB_ALIGNED": 0.0032934,
+            "CLASSIC_GLOBAL": 0.0033748,
+            "CLASSIC_PERSONAL": 0.003357
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1505",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.00010449835208370395
+          },
+          "batchSeconds": {
+            "PAPER": 0.0038581,
+            "JOB_ALIGNED": 0.0030466,
+            "CLASSIC_GLOBAL": 0.0033625,
+            "CLASSIC_PERSONAL": 0.0107899
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1506",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0030928,
+            "JOB_ALIGNED": 0.0028983,
+            "CLASSIC_GLOBAL": 0.0037734,
+            "CLASSIC_PERSONAL": 0.0039042
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-1507",
+          "window": "CENTER",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0027693,
+            "JOB_ALIGNED": 0.0029903,
+            "CLASSIC_GLOBAL": 0.0032518,
+            "CLASSIC_PERSONAL": 0.0034421
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3750",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.004623068588367918,
+            "JOB_ALIGNED": 0.0030327146542380445,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.006192198672255622
+          },
+          "batchSeconds": {
+            "PAPER": 0.0070168,
+            "JOB_ALIGNED": 0.0085433,
+            "CLASSIC_GLOBAL": 0.0036221,
+            "CLASSIC_PERSONAL": 0.0126141
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3751",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 1.1634248897607335e-08,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0033651,
+            "JOB_ALIGNED": 0.0027443,
+            "CLASSIC_GLOBAL": 0.0032208,
+            "CLASSIC_PERSONAL": 0.0031663
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3752",
+          "window": "ENERGY",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0028117,
+            "JOB_ALIGNED": 0.002966,
+            "CLASSIC_GLOBAL": 0.0036649,
+            "CLASSIC_PERSONAL": 0.0038544
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3753",
+          "window": "ENERGY",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0025154,
+            "JOB_ALIGNED": 0.0027731,
+            "CLASSIC_GLOBAL": 0.0033393,
+            "CLASSIC_PERSONAL": 0.0026973
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3754",
+          "window": "ENERGY",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0026912,
+            "JOB_ALIGNED": 0.0027874,
+            "CLASSIC_GLOBAL": 0.0031409,
+            "CLASSIC_PERSONAL": 0.0027232
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3755",
+          "window": "ENERGY",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0031152,
+            "JOB_ALIGNED": 0.0030743,
+            "CLASSIC_GLOBAL": 0.0037121,
+            "CLASSIC_PERSONAL": 0.0030358
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3756",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0022525,
+            "JOB_ALIGNED": 0.0024451,
+            "CLASSIC_GLOBAL": 0.003119,
+            "CLASSIC_PERSONAL": 0.0028499
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-3757",
+          "window": "ENERGY",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0024937,
+            "JOB_ALIGNED": 0.0025945,
+            "CLASSIC_GLOBAL": 0.0026096,
+            "CLASSIC_PERSONAL": 0.0029146
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4500",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0029304,
+            "JOB_ALIGNED": 0.0105452,
+            "CLASSIC_GLOBAL": 0.0029533,
+            "CLASSIC_PERSONAL": 0.0026525
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4501",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0030309,
+            "JOB_ALIGNED": 0.0021644,
+            "CLASSIC_GLOBAL": 0.0027134,
+            "CLASSIC_PERSONAL": 0.0042387
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4502",
+          "window": "WORKER_COST",
+          "family": 0,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0028488,
+            "JOB_ALIGNED": 0.0030842,
+            "CLASSIC_GLOBAL": 0.0035926,
+            "CLASSIC_PERSONAL": 0.0034753
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4503",
+          "window": "WORKER_COST",
+          "family": 1,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0024784,
+            "JOB_ALIGNED": 0.002378,
+            "CLASSIC_GLOBAL": 0.0048648,
+            "CLASSIC_PERSONAL": 0.0039781
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4504",
+          "window": "WORKER_COST",
+          "family": 2,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0028327,
+            "JOB_ALIGNED": 0.0032251,
+            "CLASSIC_GLOBAL": 0.0034547,
+            "CLASSIC_PERSONAL": 0.0031283
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4505",
+          "window": "WORKER_COST",
+          "family": 3,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0022387,
+            "JOB_ALIGNED": 0.0024746,
+            "CLASSIC_GLOBAL": 0.0029053,
+            "CLASSIC_PERSONAL": 0.0029306
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4506",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.003607040389452032,
+            "JOB_ALIGNED": 0.004644839235584897,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.002403162632964584
+          },
+          "batchSeconds": {
+            "PAPER": 0.006314,
+            "JOB_ALIGNED": 0.0080312,
+            "CLASSIC_GLOBAL": 0.0030357,
+            "CLASSIC_PERSONAL": 0.0140994
+          }
+        },
+        {
+          "case": "100_2_3_1.txt-4507",
+          "window": "WORKER_COST",
+          "family": null,
+          "composed": false,
+          "batchHVgain": {
+            "PAPER": 0.0,
+            "JOB_ALIGNED": 0.0,
+            "CLASSIC_GLOBAL": 0.0,
+            "CLASSIC_PERSONAL": 0.0
+          },
+          "batchSeconds": {
+            "PAPER": 0.0022489,
+            "JOB_ALIGNED": 0.0024226,
+            "CLASSIC_GLOBAL": 0.0028458,
+            "CLASSIC_PERSONAL": 0.0049024
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "arm": "STRICT",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-neutral-relay-probe-20261106-033038-764322\\20_8_5_1\\STRICT",
+      "groups": {
+        "ALL": {
+          "paidSteps": 7800,
+          "allThreeUnchanged": 179,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 3156,
+              "bothImprove": 971,
+              "onlyFirstImproves": 597,
+              "onlySecondImproves": 1588,
+              "jaccardOfImprovement": 0.3076679340937896,
+              "eitherObjectiveChanged": 7620,
+              "strictlyOpposed": 1332,
+              "opposedAmongChanged": 0.17480314960629922
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3626,
+              "bothImprove": 478,
+              "onlyFirstImproves": 1090,
+              "onlySecondImproves": 2058,
+              "jaccardOfImprovement": 0.13182570325427467,
+              "eitherObjectiveChanged": 7599,
+              "strictlyOpposed": 2413,
+              "opposedAmongChanged": 0.3175417818133965
+            },
+            "TEC_TWC": {
+              "unionImprove": 4308,
+              "bothImprove": 787,
+              "onlyFirstImproves": 1772,
+              "onlySecondImproves": 1749,
+              "jaccardOfImprovement": 0.18268337975858867,
+              "eitherObjectiveChanged": 7621,
+              "strictlyOpposed": 3509,
+              "opposedAmongChanged": 0.46043826269518434
+            }
+          }
+        },
+        "MAKESPAN": {
+          "paidSteps": 1170,
+          "allThreeUnchanged": 20,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 450,
+              "bothImprove": 67,
+              "onlyFirstImproves": 37,
+              "onlySecondImproves": 346,
+              "jaccardOfImprovement": 0.14888888888888888,
+              "eitherObjectiveChanged": 1150,
+              "strictlyOpposed": 268,
+              "opposedAmongChanged": 0.23304347826086957
+            },
+            "Cmax_TWC": {
+              "unionImprove": 586,
+              "bothImprove": 51,
+              "onlyFirstImproves": 53,
+              "onlySecondImproves": 482,
+              "jaccardOfImprovement": 0.08703071672354949,
+              "eitherObjectiveChanged": 1145,
+              "strictlyOpposed": 420,
+              "opposedAmongChanged": 0.36681222707423583
+            },
+            "TEC_TWC": {
+              "unionImprove": 743,
+              "bothImprove": 203,
+              "onlyFirstImproves": 210,
+              "onlySecondImproves": 330,
+              "jaccardOfImprovement": 0.2732166890982503,
+              "eitherObjectiveChanged": 1150,
+              "strictlyOpposed": 538,
+              "opposedAmongChanged": 0.4678260869565217
+            }
+          }
+        },
+        "CENTER": {
+          "paidSteps": 4290,
+          "allThreeUnchanged": 78,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 1633,
+              "bothImprove": 494,
+              "onlyFirstImproves": 320,
+              "onlySecondImproves": 819,
+              "jaccardOfImprovement": 0.3025107164727495,
+              "eitherObjectiveChanged": 4211,
+              "strictlyOpposed": 678,
+              "opposedAmongChanged": 0.1610068867252434
+            },
+            "Cmax_TWC": {
+              "unionImprove": 1854,
+              "bothImprove": 247,
+              "onlyFirstImproves": 567,
+              "onlySecondImproves": 1040,
+              "jaccardOfImprovement": 0.1332254584681769,
+              "eitherObjectiveChanged": 4206,
+              "strictlyOpposed": 1194,
+              "opposedAmongChanged": 0.2838801711840228
+            },
+            "TEC_TWC": {
+              "unionImprove": 2214,
+              "bothImprove": 386,
+              "onlyFirstImproves": 927,
+              "onlySecondImproves": 901,
+              "jaccardOfImprovement": 0.17434507678410116,
+              "eitherObjectiveChanged": 4212,
+              "strictlyOpposed": 1824,
+              "opposedAmongChanged": 0.43304843304843305
+            }
+          }
+        },
+        "ENERGY": {
+          "paidSteps": 1170,
+          "allThreeUnchanged": 37,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 341,
+              "bothImprove": 73,
+              "onlyFirstImproves": 145,
+              "onlySecondImproves": 123,
+              "jaccardOfImprovement": 0.21407624633431085,
+              "eitherObjectiveChanged": 1133,
+              "strictlyOpposed": 188,
+              "opposedAmongChanged": 0.16593115622241836
+            },
+            "Cmax_TWC": {
+              "unionImprove": 625,
+              "bothImprove": 122,
+              "onlyFirstImproves": 96,
+              "onlySecondImproves": 407,
+              "jaccardOfImprovement": 0.1952,
+              "eitherObjectiveChanged": 1126,
+              "strictlyOpposed": 369,
+              "opposedAmongChanged": 0.327708703374778
+            },
+            "TEC_TWC": {
+              "unionImprove": 628,
+              "bothImprove": 97,
+              "onlyFirstImproves": 99,
+              "onlySecondImproves": 432,
+              "jaccardOfImprovement": 0.15445859872611464,
+              "eitherObjectiveChanged": 1133,
+              "strictlyOpposed": 526,
+              "opposedAmongChanged": 0.4642541924095322
+            }
+          }
+        },
+        "WORKER_COST": {
+          "paidSteps": 1170,
+          "allThreeUnchanged": 44,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 732,
+              "bothImprove": 337,
+              "onlyFirstImproves": 95,
+              "onlySecondImproves": 300,
+              "jaccardOfImprovement": 0.4603825136612022,
+              "eitherObjectiveChanged": 1126,
+              "strictlyOpposed": 198,
+              "opposedAmongChanged": 0.17584369449378331
+            },
+            "Cmax_TWC": {
+              "unionImprove": 561,
+              "bothImprove": 58,
+              "onlyFirstImproves": 374,
+              "onlySecondImproves": 129,
+              "jaccardOfImprovement": 0.10338680926916222,
+              "eitherObjectiveChanged": 1122,
+              "strictlyOpposed": 430,
+              "opposedAmongChanged": 0.38324420677361853
+            },
+            "TEC_TWC": {
+              "unionImprove": 723,
+              "bothImprove": 101,
+              "onlyFirstImproves": 536,
+              "onlySecondImproves": 86,
+              "jaccardOfImprovement": 0.1396957123098202,
+              "eitherObjectiveChanged": 1126,
+              "strictlyOpposed": 621,
+              "opposedAmongChanged": 0.5515097690941385
+            }
+          }
+        }
+      },
+      "sourceSHA256": {
+        "receipt.jsonl": "9cd80a1267c7501acb07c7c9788a22f0714f61ef0b60f4209d8956338267254d",
+        "events.jsonl": "11daba6209a7e0369c108c07c478f6787c10e8b2c779c897c4b4121d8bf42178"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "arm": "EQUAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-neutral-relay-probe-20261106-033038-764322\\20_8_5_1\\EQUAL",
+      "groups": {
+        "ALL": {
+          "paidSteps": 7800,
+          "allThreeUnchanged": 224,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 3309,
+              "bothImprove": 1027,
+              "onlyFirstImproves": 657,
+              "onlySecondImproves": 1625,
+              "jaccardOfImprovement": 0.3103656693865216,
+              "eitherObjectiveChanged": 7575,
+              "strictlyOpposed": 1424,
+              "opposedAmongChanged": 0.18798679867986798
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3739,
+              "bothImprove": 547,
+              "onlyFirstImproves": 1137,
+              "onlySecondImproves": 2055,
+              "jaccardOfImprovement": 0.14629580101631454,
+              "eitherObjectiveChanged": 7562,
+              "strictlyOpposed": 2471,
+              "opposedAmongChanged": 0.3267654059772547
+            },
+            "TEC_TWC": {
+              "unionImprove": 4408,
+              "bothImprove": 846,
+              "onlyFirstImproves": 1806,
+              "onlySecondImproves": 1756,
+              "jaccardOfImprovement": 0.19192377495462795,
+              "eitherObjectiveChanged": 7576,
+              "strictlyOpposed": 3555,
+              "opposedAmongChanged": 0.46924498416050686
+            }
+          }
+        },
+        "MAKESPAN": {
+          "paidSteps": 1170,
+          "allThreeUnchanged": 19,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 483,
+              "bothImprove": 72,
+              "onlyFirstImproves": 50,
+              "onlySecondImproves": 361,
+              "jaccardOfImprovement": 0.14906832298136646,
+              "eitherObjectiveChanged": 1151,
+              "strictlyOpposed": 277,
+              "opposedAmongChanged": 0.24066029539530842
+            },
+            "Cmax_TWC": {
+              "unionImprove": 605,
+              "bothImprove": 69,
+              "onlyFirstImproves": 53,
+              "onlySecondImproves": 483,
+              "jaccardOfImprovement": 0.1140495867768595,
+              "eitherObjectiveChanged": 1147,
+              "strictlyOpposed": 417,
+              "opposedAmongChanged": 0.36355710549258935
+            },
+            "TEC_TWC": {
+              "unionImprove": 761,
+              "bothImprove": 224,
+              "onlyFirstImproves": 209,
+              "onlySecondImproves": 328,
+              "jaccardOfImprovement": 0.2943495400788436,
+              "eitherObjectiveChanged": 1151,
+              "strictlyOpposed": 536,
+              "opposedAmongChanged": 0.46568201563857514
+            }
+          }
+        },
+        "CENTER": {
+          "paidSteps": 4290,
+          "allThreeUnchanged": 105,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 1715,
+              "bothImprove": 519,
+              "onlyFirstImproves": 349,
+              "onlySecondImproves": 847,
+              "jaccardOfImprovement": 0.30262390670553935,
+              "eitherObjectiveChanged": 4184,
+              "strictlyOpposed": 730,
+              "opposedAmongChanged": 0.17447418738049714
+            },
+            "Cmax_TWC": {
+              "unionImprove": 1941,
+              "bothImprove": 242,
+              "onlyFirstImproves": 626,
+              "onlySecondImproves": 1073,
+              "jaccardOfImprovement": 0.12467800103039671,
+              "eitherObjectiveChanged": 4181,
+              "strictlyOpposed": 1309,
+              "opposedAmongChanged": 0.3130829944989237
+            },
+            "TEC_TWC": {
+              "unionImprove": 2268,
+              "bothImprove": 413,
+              "onlyFirstImproves": 953,
+              "onlySecondImproves": 902,
+              "jaccardOfImprovement": 0.18209876543209877,
+              "eitherObjectiveChanged": 4185,
+              "strictlyOpposed": 1852,
+              "opposedAmongChanged": 0.44253285543608123
+            }
+          }
+        },
+        "ENERGY": {
+          "paidSteps": 1170,
+          "allThreeUnchanged": 52,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 386,
+              "bothImprove": 85,
+              "onlyFirstImproves": 176,
+              "onlySecondImproves": 125,
+              "jaccardOfImprovement": 0.22020725388601037,
+              "eitherObjectiveChanged": 1118,
+              "strictlyOpposed": 221,
+              "opposedAmongChanged": 0.19767441860465115
+            },
+            "Cmax_TWC": {
+              "unionImprove": 627,
+              "bothImprove": 176,
+              "onlyFirstImproves": 85,
+              "onlySecondImproves": 366,
+              "jaccardOfImprovement": 0.2807017543859649,
+              "eitherObjectiveChanged": 1115,
+              "strictlyOpposed": 313,
+              "opposedAmongChanged": 0.2807174887892377
+            },
+            "TEC_TWC": {
+              "unionImprove": 639,
+              "bothImprove": 113,
+              "onlyFirstImproves": 97,
+              "onlySecondImproves": 429,
+              "jaccardOfImprovement": 0.17683881064162754,
+              "eitherObjectiveChanged": 1118,
+              "strictlyOpposed": 525,
+              "opposedAmongChanged": 0.46958855098389984
+            }
+          }
+        },
+        "WORKER_COST": {
+          "paidSteps": 1170,
+          "allThreeUnchanged": 48,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 725,
+              "bothImprove": 351,
+              "onlyFirstImproves": 82,
+              "onlySecondImproves": 292,
+              "jaccardOfImprovement": 0.48413793103448277,
+              "eitherObjectiveChanged": 1122,
+              "strictlyOpposed": 196,
+              "opposedAmongChanged": 0.1746880570409982
+            },
+            "Cmax_TWC": {
+              "unionImprove": 566,
+              "bothImprove": 60,
+              "onlyFirstImproves": 373,
+              "onlySecondImproves": 133,
+              "jaccardOfImprovement": 0.10600706713780919,
+              "eitherObjectiveChanged": 1119,
+              "strictlyOpposed": 432,
+              "opposedAmongChanged": 0.38605898123324395
+            },
+            "TEC_TWC": {
+              "unionImprove": 740,
+              "bothImprove": 96,
+              "onlyFirstImproves": 547,
+              "onlySecondImproves": 97,
+              "jaccardOfImprovement": 0.12972972972972974,
+              "eitherObjectiveChanged": 1122,
+              "strictlyOpposed": 642,
+              "opposedAmongChanged": 0.5721925133689839
+            }
+          }
+        }
+      },
+      "sourceSHA256": {
+        "receipt.jsonl": "6a62c860ff467f0d2578949ee65283bfe893fd24b063d8470c7518ea81125f75",
+        "events.jsonl": "6f032e09085e2b5e6bec1615b7636c115e2339fb29971b38340169a71065e4cf"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "arm": "QPA",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174\\20_8_5_1\\main",
+      "groups": {
+        "ALL": {
+          "paidSteps": 15000,
+          "allThreeUnchanged": 1333,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 5132,
+              "bothImprove": 1448,
+              "onlyFirstImproves": 1049,
+              "onlySecondImproves": 2635,
+              "jaccardOfImprovement": 0.2821512081060016,
+              "eitherObjectiveChanged": 13667,
+              "strictlyOpposed": 2383,
+              "opposedAmongChanged": 0.17436160093656253
+            },
+            "Cmax_TWC": {
+              "unionImprove": 6054,
+              "bothImprove": 681,
+              "onlyFirstImproves": 1816,
+              "onlySecondImproves": 3557,
+              "jaccardOfImprovement": 0.11248761149653122,
+              "eitherObjectiveChanged": 13625,
+              "strictlyOpposed": 4257,
+              "opposedAmongChanged": 0.31244036697247707
+            },
+            "TEC_TWC": {
+              "unionImprove": 7275,
+              "bothImprove": 1046,
+              "onlyFirstImproves": 3037,
+              "onlySecondImproves": 3192,
+              "jaccardOfImprovement": 0.14378006872852234,
+              "eitherObjectiveChanged": 13667,
+              "strictlyOpposed": 6215,
+              "opposedAmongChanged": 0.4547450062193605
+            }
+          }
+        },
+        "MAKESPAN": {
+          "paidSteps": 2250,
+          "allThreeUnchanged": 338,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 646,
+              "bothImprove": 80,
+              "onlyFirstImproves": 33,
+              "onlySecondImproves": 533,
+              "jaccardOfImprovement": 0.1238390092879257,
+              "eitherObjectiveChanged": 1912,
+              "strictlyOpposed": 435,
+              "opposedAmongChanged": 0.22751046025104602
+            },
+            "Cmax_TWC": {
+              "unionImprove": 875,
+              "bothImprove": 65,
+              "onlyFirstImproves": 48,
+              "onlySecondImproves": 762,
+              "jaccardOfImprovement": 0.07428571428571429,
+              "eitherObjectiveChanged": 1908,
+              "strictlyOpposed": 683,
+              "opposedAmongChanged": 0.3579664570230608
+            },
+            "TEC_TWC": {
+              "unionImprove": 1124,
+              "bothImprove": 316,
+              "onlyFirstImproves": 297,
+              "onlySecondImproves": 511,
+              "jaccardOfImprovement": 0.28113879003558717,
+              "eitherObjectiveChanged": 1912,
+              "strictlyOpposed": 806,
+              "opposedAmongChanged": 0.4215481171548117
+            }
+          }
+        },
+        "CENTER": {
+          "paidSteps": 8250,
+          "allThreeUnchanged": 552,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 2759,
+              "bothImprove": 703,
+              "onlyFirstImproves": 591,
+              "onlySecondImproves": 1465,
+              "jaccardOfImprovement": 0.2548024646611091,
+              "eitherObjectiveChanged": 7698,
+              "strictlyOpposed": 1342,
+              "opposedAmongChanged": 0.1743309950636529
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3278,
+              "bothImprove": 345,
+              "onlyFirstImproves": 949,
+              "onlySecondImproves": 1984,
+              "jaccardOfImprovement": 0.10524710189139719,
+              "eitherObjectiveChanged": 7668,
+              "strictlyOpposed": 2290,
+              "opposedAmongChanged": 0.2986437141366719
+            },
+            "TEC_TWC": {
+              "unionImprove": 3995,
+              "bothImprove": 502,
+              "onlyFirstImproves": 1666,
+              "onlySecondImproves": 1827,
+              "jaccardOfImprovement": 0.12565707133917398,
+              "eitherObjectiveChanged": 7698,
+              "strictlyOpposed": 3486,
+              "opposedAmongChanged": 0.4528448947778644
+            }
+          }
+        },
+        "ENERGY": {
+          "paidSteps": 2250,
+          "allThreeUnchanged": 204,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 478,
+              "bothImprove": 82,
+              "onlyFirstImproves": 258,
+              "onlySecondImproves": 138,
+              "jaccardOfImprovement": 0.17154811715481172,
+              "eitherObjectiveChanged": 2046,
+              "strictlyOpposed": 307,
+              "opposedAmongChanged": 0.15004887585532747
+            },
+            "Cmax_TWC": {
+              "unionImprove": 984,
+              "bothImprove": 212,
+              "onlyFirstImproves": 128,
+              "onlySecondImproves": 644,
+              "jaccardOfImprovement": 0.21544715447154472,
+              "eitherObjectiveChanged": 2039,
+              "strictlyOpposed": 536,
+              "opposedAmongChanged": 0.262873957822462
+            },
+            "TEC_TWC": {
+              "unionImprove": 960,
+              "bothImprove": 116,
+              "onlyFirstImproves": 104,
+              "onlySecondImproves": 740,
+              "jaccardOfImprovement": 0.12083333333333333,
+              "eitherObjectiveChanged": 2046,
+              "strictlyOpposed": 840,
+              "opposedAmongChanged": 0.41055718475073316
+            }
+          }
+        },
+        "WORKER_COST": {
+          "paidSteps": 2250,
+          "allThreeUnchanged": 239,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 1249,
+              "bothImprove": 583,
+              "onlyFirstImproves": 167,
+              "onlySecondImproves": 499,
+              "jaccardOfImprovement": 0.466773418734988,
+              "eitherObjectiveChanged": 2011,
+              "strictlyOpposed": 299,
+              "opposedAmongChanged": 0.14868224763799104
+            },
+            "Cmax_TWC": {
+              "unionImprove": 917,
+              "bothImprove": 59,
+              "onlyFirstImproves": 691,
+              "onlySecondImproves": 167,
+              "jaccardOfImprovement": 0.064340239912759,
+              "eitherObjectiveChanged": 2010,
+              "strictlyOpposed": 748,
+              "opposedAmongChanged": 0.37213930348258706
+            },
+            "TEC_TWC": {
+              "unionImprove": 1196,
+              "bothImprove": 112,
+              "onlyFirstImproves": 970,
+              "onlySecondImproves": 114,
+              "jaccardOfImprovement": 0.09364548494983277,
+              "eitherObjectiveChanged": 2011,
+              "strictlyOpposed": 1083,
+              "opposedAmongChanged": 0.5385380407757334
+            }
+          }
+        }
+      },
+      "sourceSHA256": {
+        "receipt.jsonl": "966a31b4896f25be9f6911b12eb25ef025f586fba004d645dee87efe03c5a91b",
+        "events.jsonl": "33efdb36bb58abf87a7beda09b7f56258556e1f5a06b62c5155c6da785aee6b6"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "arm": "STRICT",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-neutral-relay-probe-20261106-033038-764322\\100_2_3_1\\STRICT",
+      "groups": {
+        "ALL": {
+          "paidSteps": 39800,
+          "allThreeUnchanged": 327,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 20415,
+              "bothImprove": 5042,
+              "onlyFirstImproves": 6723,
+              "onlySecondImproves": 8650,
+              "jaccardOfImprovement": 0.24697526328679892,
+              "eitherObjectiveChanged": 39473,
+              "strictlyOpposed": 12141,
+              "opposedAmongChanged": 0.3075773313404099
+            },
+            "Cmax_TWC": {
+              "unionImprove": 21418,
+              "bothImprove": 2652,
+              "onlyFirstImproves": 9113,
+              "onlySecondImproves": 9653,
+              "jaccardOfImprovement": 0.12382108506863386,
+              "eitherObjectiveChanged": 39460,
+              "strictlyOpposed": 16262,
+              "opposedAmongChanged": 0.412113532691333
+            },
+            "TEC_TWC": {
+              "unionImprove": 20976,
+              "bothImprove": 5021,
+              "onlyFirstImproves": 8671,
+              "onlySecondImproves": 7284,
+              "jaccardOfImprovement": 0.23936880244088482,
+              "eitherObjectiveChanged": 39473,
+              "strictlyOpposed": 15948,
+              "opposedAmongChanged": 0.40402300306538647
+            }
+          }
+        },
+        "MAKESPAN": {
+          "paidSteps": 5970,
+          "allThreeUnchanged": 31,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 2770,
+              "bothImprove": 365,
+              "onlyFirstImproves": 231,
+              "onlySecondImproves": 2174,
+              "jaccardOfImprovement": 0.13176895306859207,
+              "eitherObjectiveChanged": 5939,
+              "strictlyOpposed": 2002,
+              "opposedAmongChanged": 0.3370937868328001
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3983,
+              "bothImprove": 261,
+              "onlyFirstImproves": 335,
+              "onlySecondImproves": 3387,
+              "jaccardOfImprovement": 0.06552849610846095,
+              "eitherObjectiveChanged": 5937,
+              "strictlyOpposed": 3411,
+              "opposedAmongChanged": 0.5745325922182921
+            },
+            "TEC_TWC": {
+              "unionImprove": 4474,
+              "bothImprove": 1713,
+              "onlyFirstImproves": 826,
+              "onlySecondImproves": 1935,
+              "jaccardOfImprovement": 0.38287885561019225,
+              "eitherObjectiveChanged": 5939,
+              "strictlyOpposed": 2759,
+              "opposedAmongChanged": 0.46455632261323454
+            }
+          }
+        },
+        "CENTER": {
+          "paidSteps": 21890,
+          "allThreeUnchanged": 166,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 10744,
+              "bothImprove": 2842,
+              "onlyFirstImproves": 3431,
+              "onlySecondImproves": 4471,
+              "jaccardOfImprovement": 0.2645197319434103,
+              "eitherObjectiveChanged": 21724,
+              "strictlyOpposed": 6029,
+              "opposedAmongChanged": 0.2775271589025962
+            },
+            "Cmax_TWC": {
+              "unionImprove": 10544,
+              "bothImprove": 1292,
+              "onlyFirstImproves": 4981,
+              "onlySecondImproves": 4271,
+              "jaccardOfImprovement": 0.12253414264036419,
+              "eitherObjectiveChanged": 21716,
+              "strictlyOpposed": 7909,
+              "opposedAmongChanged": 0.3642015104070731
+            },
+            "TEC_TWC": {
+              "unionImprove": 10641,
+              "bothImprove": 2235,
+              "onlyFirstImproves": 5078,
+              "onlySecondImproves": 3328,
+              "jaccardOfImprovement": 0.21003665069072455,
+              "eitherObjectiveChanged": 21724,
+              "strictlyOpposed": 8403,
+              "opposedAmongChanged": 0.3868072178236052
+            }
+          }
+        },
+        "ENERGY": {
+          "paidSteps": 5970,
+          "allThreeUnchanged": 69,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 2979,
+              "bothImprove": 376,
+              "onlyFirstImproves": 1919,
+              "onlySecondImproves": 684,
+              "jaccardOfImprovement": 0.12621685129238,
+              "eitherObjectiveChanged": 5901,
+              "strictlyOpposed": 2290,
+              "opposedAmongChanged": 0.3880698186748009
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3727,
+              "bothImprove": 782,
+              "onlyFirstImproves": 1513,
+              "onlySecondImproves": 1432,
+              "jaccardOfImprovement": 0.20982023074859135,
+              "eitherObjectiveChanged": 5899,
+              "strictlyOpposed": 2361,
+              "opposedAmongChanged": 0.4002373283607391
+            },
+            "TEC_TWC": {
+              "unionImprove": 2712,
+              "bothImprove": 562,
+              "onlyFirstImproves": 498,
+              "onlySecondImproves": 1652,
+              "jaccardOfImprovement": 0.20722713864306785,
+              "eitherObjectiveChanged": 5901,
+              "strictlyOpposed": 2149,
+              "opposedAmongChanged": 0.3641755634638197
+            }
+          }
+        },
+        "WORKER_COST": {
+          "paidSteps": 5970,
+          "allThreeUnchanged": 61,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 3922,
+              "bothImprove": 1459,
+              "onlyFirstImproves": 1142,
+              "onlySecondImproves": 1321,
+              "jaccardOfImprovement": 0.37200407955124937,
+              "eitherObjectiveChanged": 5909,
+              "strictlyOpposed": 1820,
+              "opposedAmongChanged": 0.308004738534439
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3164,
+              "bothImprove": 317,
+              "onlyFirstImproves": 2284,
+              "onlySecondImproves": 563,
+              "jaccardOfImprovement": 0.10018963337547408,
+              "eitherObjectiveChanged": 5908,
+              "strictlyOpposed": 2581,
+              "opposedAmongChanged": 0.4368652674339878
+            },
+            "TEC_TWC": {
+              "unionImprove": 3149,
+              "bothImprove": 511,
+              "onlyFirstImproves": 2269,
+              "onlySecondImproves": 369,
+              "jaccardOfImprovement": 0.1622737376945062,
+              "eitherObjectiveChanged": 5909,
+              "strictlyOpposed": 2637,
+              "opposedAmongChanged": 0.4462684041292943
+            }
+          }
+        }
+      },
+      "sourceSHA256": {
+        "receipt.jsonl": "71fe3e9258d69cfc21abcd6ecffef137fa54740140bbf2f343fc2e0581ec4486",
+        "events.jsonl": "11455745f3df3cc5d1b1078c68ad22301a3b1d36de1b7b68fd3bcbe707cf4340"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "arm": "EQUAL",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-neutral-relay-probe-20261106-033038-764322\\100_2_3_1\\EQUAL",
+      "groups": {
+        "ALL": {
+          "paidSteps": 39800,
+          "allThreeUnchanged": 384,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 20351,
+              "bothImprove": 4871,
+              "onlyFirstImproves": 6556,
+              "onlySecondImproves": 8924,
+              "jaccardOfImprovement": 0.239349417719031,
+              "eitherObjectiveChanged": 39415,
+              "strictlyOpposed": 12351,
+              "opposedAmongChanged": 0.3133578586832424
+            },
+            "Cmax_TWC": {
+              "unionImprove": 22227,
+              "bothImprove": 2594,
+              "onlyFirstImproves": 8833,
+              "onlySecondImproves": 10800,
+              "jaccardOfImprovement": 0.1167049084446844,
+              "eitherObjectiveChanged": 39398,
+              "strictlyOpposed": 17012,
+              "opposedAmongChanged": 0.43179856845525155
+            },
+            "TEC_TWC": {
+              "unionImprove": 21681,
+              "bothImprove": 5508,
+              "onlyFirstImproves": 8287,
+              "onlySecondImproves": 7886,
+              "jaccardOfImprovement": 0.25404732254047324,
+              "eitherObjectiveChanged": 39416,
+              "strictlyOpposed": 16162,
+              "opposedAmongChanged": 0.4100365333874569
+            }
+          }
+        },
+        "MAKESPAN": {
+          "paidSteps": 5970,
+          "allThreeUnchanged": 36,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 2844,
+              "bothImprove": 365,
+              "onlyFirstImproves": 256,
+              "onlySecondImproves": 2223,
+              "jaccardOfImprovement": 0.12834036568213783,
+              "eitherObjectiveChanged": 5934,
+              "strictlyOpposed": 2117,
+              "opposedAmongChanged": 0.356757667677789
+            },
+            "Cmax_TWC": {
+              "unionImprove": 4150,
+              "bothImprove": 275,
+              "onlyFirstImproves": 346,
+              "onlySecondImproves": 3529,
+              "jaccardOfImprovement": 0.06626506024096386,
+              "eitherObjectiveChanged": 5934,
+              "strictlyOpposed": 3536,
+              "opposedAmongChanged": 0.5958881024603977
+            },
+            "TEC_TWC": {
+              "unionImprove": 4527,
+              "bothImprove": 1865,
+              "onlyFirstImproves": 723,
+              "onlySecondImproves": 1939,
+              "jaccardOfImprovement": 0.4119726087916943,
+              "eitherObjectiveChanged": 5934,
+              "strictlyOpposed": 2662,
+              "opposedAmongChanged": 0.44860128075497135
+            }
+          }
+        },
+        "CENTER": {
+          "paidSteps": 21890,
+          "allThreeUnchanged": 179,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 10647,
+              "bothImprove": 2711,
+              "onlyFirstImproves": 3168,
+              "onlySecondImproves": 4768,
+              "jaccardOfImprovement": 0.25462571616417773,
+              "eitherObjectiveChanged": 21710,
+              "strictlyOpposed": 6088,
+              "opposedAmongChanged": 0.28042376784891754
+            },
+            "Cmax_TWC": {
+              "unionImprove": 10934,
+              "bothImprove": 1267,
+              "onlyFirstImproves": 4612,
+              "onlySecondImproves": 5055,
+              "jaccardOfImprovement": 0.11587708066581306,
+              "eitherObjectiveChanged": 21701,
+              "strictlyOpposed": 8255,
+              "opposedAmongChanged": 0.3803972167181236
+            },
+            "TEC_TWC": {
+              "unionImprove": 11282,
+              "bothImprove": 2519,
+              "onlyFirstImproves": 4960,
+              "onlySecondImproves": 3803,
+              "jaccardOfImprovement": 0.2232760148909768,
+              "eitherObjectiveChanged": 21711,
+              "strictlyOpposed": 8756,
+              "opposedAmongChanged": 0.40329786744046797
+            }
+          }
+        },
+        "ENERGY": {
+          "paidSteps": 5970,
+          "allThreeUnchanged": 92,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 2826,
+              "bothImprove": 401,
+              "onlyFirstImproves": 1785,
+              "onlySecondImproves": 640,
+              "jaccardOfImprovement": 0.1418966737438075,
+              "eitherObjectiveChanged": 5878,
+              "strictlyOpposed": 2133,
+              "opposedAmongChanged": 0.3628785301122831
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3788,
+              "bothImprove": 749,
+              "onlyFirstImproves": 1437,
+              "onlySecondImproves": 1602,
+              "jaccardOfImprovement": 0.1977296726504752,
+              "eitherObjectiveChanged": 5873,
+              "strictlyOpposed": 2470,
+              "opposedAmongChanged": 0.4205687042397412
+            },
+            "TEC_TWC": {
+              "unionImprove": 2816,
+              "bothImprove": 576,
+              "onlyFirstImproves": 465,
+              "onlySecondImproves": 1775,
+              "jaccardOfImprovement": 0.20454545454545456,
+              "eitherObjectiveChanged": 5878,
+              "strictlyOpposed": 2237,
+              "opposedAmongChanged": 0.38057162300102076
+            }
+          }
+        },
+        "WORKER_COST": {
+          "paidSteps": 5970,
+          "allThreeUnchanged": 77,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 4034,
+              "bothImprove": 1394,
+              "onlyFirstImproves": 1347,
+              "onlySecondImproves": 1293,
+              "jaccardOfImprovement": 0.3455627169062965,
+              "eitherObjectiveChanged": 5893,
+              "strictlyOpposed": 2013,
+              "opposedAmongChanged": 0.34159171898863055
+            },
+            "Cmax_TWC": {
+              "unionImprove": 3355,
+              "bothImprove": 303,
+              "onlyFirstImproves": 2438,
+              "onlySecondImproves": 614,
+              "jaccardOfImprovement": 0.09031296572280179,
+              "eitherObjectiveChanged": 5890,
+              "strictlyOpposed": 2751,
+              "opposedAmongChanged": 0.467062818336163
+            },
+            "TEC_TWC": {
+              "unionImprove": 3056,
+              "bothImprove": 548,
+              "onlyFirstImproves": 2139,
+              "onlySecondImproves": 369,
+              "jaccardOfImprovement": 0.1793193717277487,
+              "eitherObjectiveChanged": 5893,
+              "strictlyOpposed": 2507,
+              "opposedAmongChanged": 0.42541998981842866
+            }
+          }
+        }
+      },
+      "sourceSHA256": {
+        "receipt.jsonl": "8c8d19375b4db5a016c3428022e22bd556409b0c84a87395e8bdfc0e34101455",
+        "events.jsonl": "3fa33648a84d4051a597340e9b03eef09c23f2f7eb9dd81876e5cbc99e9bb130"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "arm": "QPA",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174\\100_2_3_1\\main",
+      "groups": {
+        "ALL": {
+          "paidSteps": 78000,
+          "allThreeUnchanged": 5277,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 33932,
+              "bothImprove": 7108,
+              "onlyFirstImproves": 12014,
+              "onlySecondImproves": 14810,
+              "jaccardOfImprovement": 0.20947777908758694,
+              "eitherObjectiveChanged": 72723,
+              "strictlyOpposed": 21769,
+              "opposedAmongChanged": 0.29934133630350784
+            },
+            "Cmax_TWC": {
+              "unionImprove": 37552,
+              "bothImprove": 3797,
+              "onlyFirstImproves": 15325,
+              "onlySecondImproves": 18430,
+              "jaccardOfImprovement": 0.10111312313591819,
+              "eitherObjectiveChanged": 72595,
+              "strictlyOpposed": 29827,
+              "opposedAmongChanged": 0.4108685171155038
+            },
+            "TEC_TWC": {
+              "unionImprove": 36289,
+              "bothImprove": 7856,
+              "onlyFirstImproves": 14062,
+              "onlySecondImproves": 14371,
+              "jaccardOfImprovement": 0.21648433409573148,
+              "eitherObjectiveChanged": 72723,
+              "strictlyOpposed": 28382,
+              "opposedAmongChanged": 0.39027542868143505
+            }
+          }
+        },
+        "MAKESPAN": {
+          "paidSteps": 11700,
+          "allThreeUnchanged": 1208,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 4695,
+              "bothImprove": 411,
+              "onlyFirstImproves": 303,
+              "onlySecondImproves": 3981,
+              "jaccardOfImprovement": 0.08753993610223643,
+              "eitherObjectiveChanged": 10492,
+              "strictlyOpposed": 3787,
+              "opposedAmongChanged": 0.3609416698436904
+            },
+            "Cmax_TWC": {
+              "unionImprove": 7617,
+              "bothImprove": 309,
+              "onlyFirstImproves": 405,
+              "onlySecondImproves": 6903,
+              "jaccardOfImprovement": 0.04056715242221347,
+              "eitherObjectiveChanged": 10476,
+              "strictlyOpposed": 6839,
+              "opposedAmongChanged": 0.6528255059182895
+            },
+            "TEC_TWC": {
+              "unionImprove": 8332,
+              "bothImprove": 3272,
+              "onlyFirstImproves": 1120,
+              "onlySecondImproves": 3940,
+              "jaccardOfImprovement": 0.3927028324531925,
+              "eitherObjectiveChanged": 10492,
+              "strictlyOpposed": 5054,
+              "opposedAmongChanged": 0.4817003431185665
+            }
+          }
+        },
+        "CENTER": {
+          "paidSteps": 42900,
+          "allThreeUnchanged": 2332,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 17710,
+              "bothImprove": 3985,
+              "onlyFirstImproves": 5967,
+              "onlySecondImproves": 7758,
+              "jaccardOfImprovement": 0.22501411631846416,
+              "eitherObjectiveChanged": 40568,
+              "strictlyOpposed": 10746,
+              "opposedAmongChanged": 0.2648885821337014
+            },
+            "Cmax_TWC": {
+              "unionImprove": 17846,
+              "bothImprove": 1730,
+              "onlyFirstImproves": 8222,
+              "onlySecondImproves": 7894,
+              "jaccardOfImprovement": 0.09694049086630058,
+              "eitherObjectiveChanged": 40489,
+              "strictlyOpposed": 14021,
+              "opposedAmongChanged": 0.3462915853688656
+            },
+            "TEC_TWC": {
+              "unionImprove": 18167,
+              "bothImprove": 3200,
+              "onlyFirstImproves": 8543,
+              "onlySecondImproves": 6424,
+              "jaccardOfImprovement": 0.17614355699895415,
+              "eitherObjectiveChanged": 40568,
+              "strictlyOpposed": 14928,
+              "opposedAmongChanged": 0.36797475843028987
+            }
+          }
+        },
+        "ENERGY": {
+          "paidSteps": 11700,
+          "allThreeUnchanged": 930,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 4613,
+              "bothImprove": 490,
+              "onlyFirstImproves": 3286,
+              "onlySecondImproves": 837,
+              "jaccardOfImprovement": 0.1062215477996965,
+              "eitherObjectiveChanged": 10770,
+              "strictlyOpposed": 3711,
+              "opposedAmongChanged": 0.34456824512534817
+            },
+            "Cmax_TWC": {
+              "unionImprove": 6642,
+              "bothImprove": 1348,
+              "onlyFirstImproves": 2428,
+              "onlySecondImproves": 2866,
+              "jaccardOfImprovement": 0.20295091839807286,
+              "eitherObjectiveChanged": 10747,
+              "strictlyOpposed": 4295,
+              "opposedAmongChanged": 0.39964641295245185
+            },
+            "TEC_TWC": {
+              "unionImprove": 4849,
+              "bothImprove": 692,
+              "onlyFirstImproves": 635,
+              "onlySecondImproves": 3522,
+              "jaccardOfImprovement": 0.14270983707981028,
+              "eitherObjectiveChanged": 10770,
+              "strictlyOpposed": 4154,
+              "opposedAmongChanged": 0.38570102135561746
+            }
+          }
+        },
+        "WORKER_COST": {
+          "paidSteps": 11700,
+          "allThreeUnchanged": 807,
+          "pairs": {
+            "Cmax_TEC": {
+              "unionImprove": 6914,
+              "bothImprove": 2222,
+              "onlyFirstImproves": 2458,
+              "onlySecondImproves": 2234,
+              "jaccardOfImprovement": 0.3213769164015042,
+              "eitherObjectiveChanged": 10893,
+              "strictlyOpposed": 3525,
+              "opposedAmongChanged": 0.3236023134122831
+            },
+            "Cmax_TWC": {
+              "unionImprove": 5447,
+              "bothImprove": 410,
+              "onlyFirstImproves": 4270,
+              "onlySecondImproves": 767,
+              "jaccardOfImprovement": 0.07527079126124472,
+              "eitherObjectiveChanged": 10883,
+              "strictlyOpposed": 4672,
+              "opposedAmongChanged": 0.42929339336579986
+            },
+            "TEC_TWC": {
+              "unionImprove": 4941,
+              "bothImprove": 692,
+              "onlyFirstImproves": 3764,
+              "onlySecondImproves": 485,
+              "jaccardOfImprovement": 0.14005262092693788,
+              "eitherObjectiveChanged": 10893,
+              "strictlyOpposed": 4246,
+              "opposedAmongChanged": 0.38979160929037
+            }
+          }
+        }
+      },
+      "sourceSHA256": {
+        "receipt.jsonl": "32fe16166b5b2024576fc49a09beda0de73cd941891fea8eafb0e90cbda6c02c",
+        "events.jsonl": "fe1e068955ad7cf35984da9239af0479ed12d8a38e9e8007c66d625374d2ae4e"
+      }
+    }
+  ],
+  "previouslyPaidStepsRead": 188200,
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

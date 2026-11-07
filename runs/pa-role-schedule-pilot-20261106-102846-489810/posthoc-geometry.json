@@ -1,0 +1,3552 @@
+{
+  "instances": [
+    {
+      "instance": "20_8_5_1",
+      "factorComparisons": [
+        {
+          "seed": 15610003,
+          "A": "TASK_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": 0.22458428789922102,
+            "1.5": 0.19396410603309544,
+            "2.0": 0.15634268138027263
+          },
+          "IGDplusSymmetricWorseningPct": -39.194530102872626,
+          "coverage": {
+            "C_A_B": 0.6875,
+            "C_B_A": 0.2033195020746888,
+            "coveredB": 220,
+            "totalB": 320,
+            "coveredA": 49,
+            "totalA": 241,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.4841804979253112,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610003,
+          "A": "ORDER_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": 0.760598843508764,
+            "1.5": 0.5468204292647494,
+            "2.0": 0.3411716751288374
+          },
+          "IGDplusSymmetricWorseningPct": 15.641711332582958,
+          "coverage": {
+            "C_A_B": 0.33125,
+            "C_B_A": 0.5352480417754569,
+            "coveredB": 106,
+            "totalB": 320,
+            "coveredA": 205,
+            "totalA": 383,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": -0.20399804177545694,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "HVEffectPct": {
+            "1.25": -0.8631862729875706,
+            "1.5": -0.8550593614657598,
+            "2.0": -0.6732074342664318
+          },
+          "IGDplusSymmetricWorseningPct": 13.813421802503925,
+          "coverage": {
+            "C_A_B": 0.3775933609958506,
+            "C_B_A": 0.19718309859154928,
+            "coveredB": 91,
+            "totalB": 241,
+            "coveredA": 56,
+            "totalA": 284,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.18041026240430133,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "HVEffectPct": {
+            "1.25": -1.3905628047305107,
+            "1.5": -1.202995965242759,
+            "2.0": -0.8561679360795549
+          },
+          "IGDplusSymmetricWorseningPct": -40.95897359454697,
+          "coverage": {
+            "C_A_B": 0.6710182767624021,
+            "C_B_A": 0.0528169014084507,
+            "coveredB": 257,
+            "totalB": 383,
+            "coveredA": 15,
+            "totalA": 284,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.6182013753539514,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "TASK_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": 0.17542908504968313,
+            "1.5": 0.10675307840615211,
+            "2.0": 0.07861177306760503
+          },
+          "IGDplusSymmetricWorseningPct": 6.443902754045421,
+          "coverage": {
+            "C_A_B": 0.38461538461538464,
+            "C_B_A": 0.4083044982698962,
+            "coveredB": 110,
+            "totalB": 286,
+            "coveredA": 118,
+            "totalA": 289,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": -0.02368911365451154,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "ORDER_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": 1.1846657588372889,
+            "1.5": 0.6413555070031274,
+            "2.0": 0.31531496472043674
+          },
+          "IGDplusSymmetricWorseningPct": 8.536760086195123,
+          "coverage": {
+            "C_A_B": 0.36713286713286714,
+            "C_B_A": 0.31919642857142855,
+            "coveredB": 105,
+            "totalB": 286,
+            "coveredA": 143,
+            "totalA": 448,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.04793643856143859,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "HVEffectPct": {
+            "1.25": 1.81987565612296,
+            "1.5": 1.1521375352885999,
+            "2.0": 0.6577441297765274
+          },
+          "IGDplusSymmetricWorseningPct": -1.512107417566317,
+          "coverage": {
+            "C_A_B": 0.5882352941176471,
+            "C_B_A": 0.19220779220779222,
+            "coveredB": 170,
+            "totalB": 289,
+            "coveredA": 74,
+            "totalA": 385,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.39602750190985486,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "HVEffectPct": {
+            "1.25": 0.8043032681331663,
+            "1.5": 0.614821855151737,
+            "2.0": 0.4202329450838427
+          },
+          "IGDplusSymmetricWorseningPct": -3.607561110661996,
+          "coverage": {
+            "C_A_B": 0.35714285714285715,
+            "C_B_A": 0.3012987012987013,
+            "coveredB": 160,
+            "totalB": 448,
+            "coveredA": 116,
+            "totalA": 385,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.05584415584415586,
+          "descriptiveOnly": true
+        }
+      ],
+      "roleAndVisitChanges": [
+        {
+          "seed": 15610003,
+          "mode": "NATIVE",
+          "generations": 26,
+          "roleChanges": 0,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 7,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 8,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 9,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 10,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 11,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 12,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 13,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 14,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 15,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 16,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 17,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 18,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 19,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 20,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 21,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 22,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 23,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 24,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 25,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 26,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "TASK_ONLY",
+          "generations": 26,
+          "roleChanges": 487,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 60,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 32,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 28,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 6,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 18,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 17,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 7,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 8,
+              "roleChanges": 20,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 9,
+              "roleChanges": 20,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 10,
+              "roleChanges": 12,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 11,
+              "roleChanges": 8,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 12,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 13,
+              "roleChanges": 18,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 14,
+              "roleChanges": 18,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 15,
+              "roleChanges": 24,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 16,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 17,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 18,
+              "roleChanges": 8,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 19,
+              "roleChanges": 14,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 20,
+              "roleChanges": 20,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 21,
+              "roleChanges": 22,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 22,
+              "roleChanges": 18,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 23,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 24,
+              "roleChanges": 22,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 25,
+              "roleChanges": 10,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 26,
+              "roleChanges": 12,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "ORDER_ONLY",
+          "generations": 26,
+          "roleChanges": 0,
+          "visitPositionChanges": 2458,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 7,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 8,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 9,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 10,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 11,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 12,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 13,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 14,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 15,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 16,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 17,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 18,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 19,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 20,
+              "roleChanges": 0,
+              "visitPositionChanges": 94
+            },
+            {
+              "generation": 21,
+              "roleChanges": 0,
+              "visitPositionChanges": 92
+            },
+            {
+              "generation": 22,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 23,
+              "roleChanges": 0,
+              "visitPositionChanges": 83
+            },
+            {
+              "generation": 24,
+              "roleChanges": 0,
+              "visitPositionChanges": 74
+            },
+            {
+              "generation": 25,
+              "roleChanges": 0,
+              "visitPositionChanges": 92
+            },
+            {
+              "generation": 26,
+              "roleChanges": 0,
+              "visitPositionChanges": 83
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "FULL",
+          "generations": 26,
+          "roleChanges": 376,
+          "visitPositionChanges": 2573,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 60,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 2,
+              "roleChanges": 31,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 3,
+              "roleChanges": 15,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 4,
+              "roleChanges": 9,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 5,
+              "roleChanges": 9,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 6,
+              "roleChanges": 6,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 7,
+              "roleChanges": 14,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 8,
+              "roleChanges": 22,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 9,
+              "roleChanges": 22,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 10,
+              "roleChanges": 22,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 11,
+              "roleChanges": 8,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 12,
+              "roleChanges": 6,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 13,
+              "roleChanges": 10,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 14,
+              "roleChanges": 8,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 15,
+              "roleChanges": 8,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 16,
+              "roleChanges": 14,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 17,
+              "roleChanges": 12,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 18,
+              "roleChanges": 18,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 19,
+              "roleChanges": 16,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 20,
+              "roleChanges": 14,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 21,
+              "roleChanges": 6,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 22,
+              "roleChanges": 4,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 23,
+              "roleChanges": 6,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 24,
+              "roleChanges": 12,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 25,
+              "roleChanges": 8,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 26,
+              "roleChanges": 16,
+              "visitPositionChanges": 100
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "RANDOM",
+          "generations": 26,
+          "roleChanges": 1650,
+          "visitPositionChanges": 2575,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 60,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 2,
+              "roleChanges": 64,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 68,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 63,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 5,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 6,
+              "roleChanges": 62,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 7,
+              "roleChanges": 68,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 8,
+              "roleChanges": 56,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 9,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 10,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 11,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 12,
+              "roleChanges": 59,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 13,
+              "roleChanges": 64,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 14,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 15,
+              "roleChanges": 62,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 16,
+              "roleChanges": 64,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 17,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 18,
+              "roleChanges": 66,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 19,
+              "roleChanges": 60,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 20,
+              "roleChanges": 70,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 21,
+              "roleChanges": 67,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 22,
+              "roleChanges": 57,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 23,
+              "roleChanges": 64,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 24,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 25,
+              "roleChanges": 66,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 26,
+              "roleChanges": 59,
+              "visitPositionChanges": 98
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "CENTER_MATCHED",
+          "generations": 26,
+          "roleChanges": 45,
+          "visitPositionChanges": 2557,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 45,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 7,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 8,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 9,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 10,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 11,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 12,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 13,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 14,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 15,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 16,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 17,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 18,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 19,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 20,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 21,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 22,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 23,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 24,
+              "roleChanges": 0,
+              "visitPositionChanges": 89
+            },
+            {
+              "generation": 25,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 26,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "NATIVE",
+          "generations": 26,
+          "roleChanges": 0,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 7,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 8,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 9,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 10,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 11,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 12,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 13,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 14,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 15,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 16,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 17,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 18,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 19,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 20,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 21,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 22,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 23,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 24,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 25,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 26,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "TASK_ONLY",
+          "generations": 26,
+          "roleChanges": 383,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 64,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 33,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 22,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 22,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 4,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 7,
+              "roleChanges": 10,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 8,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 9,
+              "roleChanges": 10,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 10,
+              "roleChanges": 12,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 11,
+              "roleChanges": 12,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 12,
+              "roleChanges": 2,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 13,
+              "roleChanges": 14,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 14,
+              "roleChanges": 12,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 15,
+              "roleChanges": 10,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 16,
+              "roleChanges": 4,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 17,
+              "roleChanges": 6,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 18,
+              "roleChanges": 8,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 19,
+              "roleChanges": 8,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 20,
+              "roleChanges": 8,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 21,
+              "roleChanges": 16,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 22,
+              "roleChanges": 22,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 23,
+              "roleChanges": 18,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 24,
+              "roleChanges": 6,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 25,
+              "roleChanges": 8,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 26,
+              "roleChanges": 20,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "ORDER_ONLY",
+          "generations": 26,
+          "roleChanges": 0,
+          "visitPositionChanges": 2505,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 94
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 94
+            },
+            {
+              "generation": 7,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 8,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 9,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 10,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 11,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 12,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 13,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 14,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 15,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 16,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 17,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 18,
+              "roleChanges": 0,
+              "visitPositionChanges": 91
+            },
+            {
+              "generation": 19,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 20,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 21,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            },
+            {
+              "generation": 22,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 23,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 24,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 25,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 26,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "FULL",
+          "generations": 26,
+          "roleChanges": 458,
+          "visitPositionChanges": 2575,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 64,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 2,
+              "roleChanges": 25,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 3,
+              "roleChanges": 10,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 16,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 5,
+              "roleChanges": 18,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 6,
+              "roleChanges": 14,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 7,
+              "roleChanges": 16,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 8,
+              "roleChanges": 11,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 9,
+              "roleChanges": 10,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 10,
+              "roleChanges": 20,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 11,
+              "roleChanges": 16,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 12,
+              "roleChanges": 28,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 13,
+              "roleChanges": 24,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 14,
+              "roleChanges": 24,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 15,
+              "roleChanges": 8,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 16,
+              "roleChanges": 10,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 17,
+              "roleChanges": 20,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 18,
+              "roleChanges": 12,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 19,
+              "roleChanges": 8,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 20,
+              "roleChanges": 10,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 21,
+              "roleChanges": 6,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 22,
+              "roleChanges": 18,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 23,
+              "roleChanges": 22,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 24,
+              "roleChanges": 12,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 25,
+              "roleChanges": 20,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 26,
+              "roleChanges": 16,
+              "visitPositionChanges": 98
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "RANDOM",
+          "generations": 26,
+          "roleChanges": 1650,
+          "visitPositionChanges": 2575,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 60,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 2,
+              "roleChanges": 64,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 68,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 63,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 5,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 6,
+              "roleChanges": 62,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 7,
+              "roleChanges": 68,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 8,
+              "roleChanges": 56,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 9,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 10,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 11,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 12,
+              "roleChanges": 59,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 13,
+              "roleChanges": 64,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 14,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 15,
+              "roleChanges": 62,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 16,
+              "roleChanges": 64,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 17,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 18,
+              "roleChanges": 66,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 19,
+              "roleChanges": 60,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 20,
+              "roleChanges": 70,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 21,
+              "roleChanges": 67,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 22,
+              "roleChanges": 57,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 23,
+              "roleChanges": 64,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 24,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 25,
+              "roleChanges": 66,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 26,
+              "roleChanges": 59,
+              "visitPositionChanges": 98
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "CENTER_MATCHED",
+          "generations": 26,
+          "roleChanges": 45,
+          "visitPositionChanges": 2565,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 45,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 7,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 8,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 9,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 10,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 11,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 12,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 13,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 14,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 15,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 16,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 17,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 18,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 19,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 20,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 21,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 22,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 23,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 24,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 25,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 26,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            }
+          ]
+        }
+      ],
+      "referenceGeometry": [
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 275,
+          "opponentCloserReferencePoints": 350,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            341.151862061406,
+            37355.8476314724,
+            45922.38354136795
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 241,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.005612488417435537
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 347,
+          "opponentCloserReferencePoints": 278,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            344.2407031968092,
+            37422.07755884714,
+            45773.10048247501
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 289,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.006757903505541691
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 526,
+          "opponentCloserReferencePoints": 99,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            349.3004170767218,
+            36954.34971937621,
+            45869.5910086316
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 383,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.009765084055589453
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 335,
+          "opponentCloserReferencePoints": 290,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            353.28103239062705,
+            37002.062633176494,
+            45716.79803532007
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 448,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.0069010313521293285
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "RANDOM",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 219,
+          "opponentCloserReferencePoints": 406,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            353.0891248853399,
+            37436.77558938624,
+            46201.11273045045
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 156,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.005753637611344068
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "RANDOM",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 207,
+          "opponentCloserReferencePoints": 418,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            352.5676173674636,
+            37267.57939472101,
+            46135.29760181738
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 242,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.004526405852978292
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "CENTER_MATCHED",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 437,
+          "opponentCloserReferencePoints": 188,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            359.59491218395266,
+            37639.04366832153,
+            46132.48069026083
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 354,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.008878999460023391
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "CENTER_MATCHED",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 233,
+          "opponentCloserReferencePoints": 392,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            349.3004170767218,
+            37832.602831794655,
+            46146.94287787514
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 297,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.0057057699791624485
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "NATIVE",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 457,
+          "opponentCloserReferencePoints": 168,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            349.45767431049376,
+            37185.225891412185,
+            45855.91854460488
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 320,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.008348450650187059
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "NATIVE",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 316,
+          "opponentCloserReferencePoints": 309,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            348.0584487714849,
+            37131.17819508149,
+            45969.30361444743
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 286,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.006336023542704378
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "PA_EQUAL",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 528,
+          "opponentCloserReferencePoints": 97,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            336.4712449393643,
+            37224.33361814231,
+            45922.09667760676
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 332,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.010373225948956509
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "PA_EQUAL",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 86,
+          "opponentCloserReferencePoints": 539,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            335.40120803737,
+            37199.91996641137,
+            45625.69723213188
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 387,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.002364654204781146
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "QPA_DIRECT",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 625,
+          "opponentCloserReferencePoints": 0,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            346.06465898736485,
+            37599.267867471404,
+            45987.587610074675
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 199,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.015769298581591824
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "QPA_DIRECT",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 515,
+          "opponentCloserReferencePoints": 110,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            354.11937815645314,
+            37533.6066210469,
+            46097.26803541703
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 105,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.011769457304224896
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "NSGA2_DEEP",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 512,
+          "opponentCloserReferencePoints": 113,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            351.9088460679045,
+            39175.934683971136,
+            46425.75267262667
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 128,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.0193374218931082
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "NSGA2_DEEP",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 557,
+          "opponentCloserReferencePoints": 68,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            346.8373214356409,
+            38875.21867107762,
+            46798.73491981582
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 137,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.018775554946131378
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "NSGA_CTX_GOM",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 144,
+          "opponentCloserReferencePoints": 481,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            348.0876922097947,
+            36731.87548180829,
+            45858.928949323345
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 279,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.0035590760708019745
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "NSGA_CTX_GOM",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 198,
+          "opponentCloserReferencePoints": 427,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            339.4760339860898,
+            37336.10081876797,
+            45809.447678341305
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 378,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.0034588490536612304
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "FULL_SHARED_DEEP",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 625,
+          "opponentCloserReferencePoints": 0,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            351.87001712769995,
+            38978.36966833771,
+            47026.388609739195
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 168,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.029948329351409494
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "FULL_SHARED_DEEP",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 606,
+          "opponentCloserReferencePoints": 19,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            368.3083783765998,
+            38661.281542828205,
+            46594.03288326217
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 161,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.018689281940286573
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "LI_RECON_DEEP",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 625,
+          "opponentCloserReferencePoints": 0,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            354.7669431651223,
+            37472.31231397062,
+            45786.34228402877
+          ],
+          "opponentObjectiveMin": [
+            366.4090043604628,
+            39501.7738924067,
+            47136.48991037449
+          ],
+          "primaryFrontSize": 284,
+          "opponentFrontSize": 96,
+          "primaryMeanIGDplusDistance": 0.00644528389197794,
+          "opponentMeanIGDplusDistance": 0.03835008543706625
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "LI_RECON_DEEP",
+          "referenceSize": 625,
+          "primaryCloserReferencePoints": 625,
+          "opponentCloserReferencePoints": 0,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            349.23603190922086,
+            36972.56575794203,
+            45599.57456121719
+          ],
+          "opponentObjectiveMin": [
+            375.9446938167414,
+            39502.386724358934,
+            46816.41904825344
+          ],
+          "primaryFrontSize": 385,
+          "opponentFrontSize": 105,
+          "primaryMeanIGDplusDistance": 0.006656483534812567,
+          "opponentMeanIGDplusDistance": 0.040076119040652315
+        }
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "factorComparisons": [
+        {
+          "seed": 15610003,
+          "A": "TASK_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": -1.2878665722865668,
+            "1.5": -0.8455705303466621,
+            "2.0": -0.5150964417777071
+          },
+          "IGDplusSymmetricWorseningPct": 27.266911093683888,
+          "coverage": {
+            "C_A_B": 0.12037037037037036,
+            "C_B_A": 0.7421875,
+            "coveredB": 65,
+            "totalB": 540,
+            "coveredA": 380,
+            "totalA": 512,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": -0.6218171296296297,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610003,
+          "A": "ORDER_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": 3.019419340206264,
+            "1.5": 2.086213621770505,
+            "2.0": 1.3241451549481642
+          },
+          "IGDplusSymmetricWorseningPct": -18.470506720136694,
+          "coverage": {
+            "C_A_B": 0.6166666666666667,
+            "C_B_A": 0.24428822495606328,
+            "coveredB": 333,
+            "totalB": 540,
+            "coveredA": 139,
+            "totalA": 569,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.3723784417106034,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "HVEffectPct": {
+            "1.25": 4.737291475961336,
+            "1.5": 3.2762397177825697,
+            "2.0": 2.108584095817201
+          },
+          "IGDplusSymmetricWorseningPct": -23.12716094032003,
+          "coverage": {
+            "C_A_B": 0.578125,
+            "C_B_A": 0.2927461139896373,
+            "coveredB": 296,
+            "totalB": 512,
+            "coveredA": 113,
+            "totalA": 386,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.2853788860103627,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "HVEffectPct": {
+            "1.25": 0.35818059593140106,
+            "1.5": 0.31027955379154815,
+            "2.0": 0.25510331920057805
+          },
+          "IGDplusSymmetricWorseningPct": 22.632608975324114,
+          "coverage": {
+            "C_A_B": 0.27768014059753954,
+            "C_B_A": 0.6373056994818653,
+            "coveredB": 158,
+            "totalB": 569,
+            "coveredA": 246,
+            "totalA": 386,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": -0.3596255588843258,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "TASK_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": -0.38093002416428323,
+            "1.5": -0.2582224070015515,
+            "2.0": -0.1593944452877194
+          },
+          "IGDplusSymmetricWorseningPct": -9.548991755031162,
+          "coverage": {
+            "C_A_B": 0.702355460385439,
+            "C_B_A": 0.18162839248434237,
+            "coveredB": 328,
+            "totalB": 467,
+            "coveredA": 87,
+            "totalA": 479,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.5207270679010966,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "ORDER_ONLY",
+          "B": "NATIVE",
+          "HVEffectPct": {
+            "1.25": 3.0660663687782197,
+            "1.5": 1.8958887280962067,
+            "2.0": 1.0674023982561787
+          },
+          "IGDplusSymmetricWorseningPct": -41.91018330119646,
+          "coverage": {
+            "C_A_B": 0.7580299785867237,
+            "C_B_A": 0.15098039215686274,
+            "coveredB": 354,
+            "totalB": 467,
+            "coveredA": 77,
+            "totalA": 510,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": 0.607049586429861,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "HVEffectPct": {
+            "1.25": 0.8633174175898262,
+            "1.5": 0.6372641053626227,
+            "2.0": 0.4207015414585902
+          },
+          "IGDplusSymmetricWorseningPct": 8.822745053125189,
+          "coverage": {
+            "C_A_B": 0.267223382045929,
+            "C_B_A": 0.628099173553719,
+            "coveredB": 128,
+            "totalB": 479,
+            "coveredA": 304,
+            "totalA": 484,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": -0.36087579150779003,
+          "descriptiveOnly": true
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "HVEffectPct": {
+            "1.25": -2.510009066751162,
+            "1.5": -1.4902393093591537,
+            "2.0": -0.7982453865733707
+          },
+          "IGDplusSymmetricWorseningPct": 41.21383070643541,
+          "coverage": {
+            "C_A_B": 0.1980392156862745,
+            "C_B_A": 0.640495867768595,
+            "coveredB": 101,
+            "totalB": 510,
+            "coveredA": 310,
+            "totalA": 484,
+            "sharedObjectiveVectors": 0
+          },
+          "Cdelta": -0.44245665208232055,
+          "descriptiveOnly": true
+        }
+      ],
+      "roleAndVisitChanges": [
+        {
+          "seed": 15610003,
+          "mode": "NATIVE",
+          "generations": 6,
+          "roleChanges": 0,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "TASK_ONLY",
+          "generations": 6,
+          "roleChanges": 91,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 69,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 4,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 10,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 2,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 6,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "ORDER_ONLY",
+          "generations": 6,
+          "roleChanges": 0,
+          "visitPositionChanges": 585,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "FULL",
+          "generations": 6,
+          "roleChanges": 81,
+          "visitPositionChanges": 595,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 69,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 2,
+              "roleChanges": 4,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 4,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 4,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "RANDOM",
+          "generations": 6,
+          "roleChanges": 378,
+          "visitPositionChanges": 596,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 60,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 2,
+              "roleChanges": 64,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 68,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 63,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 5,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 6,
+              "roleChanges": 62,
+              "visitPositionChanges": 97
+            }
+          ]
+        },
+        {
+          "seed": 15610003,
+          "mode": "CENTER_MATCHED",
+          "generations": 6,
+          "roleChanges": 45,
+          "visitPositionChanges": 593,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 45,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "NATIVE",
+          "generations": 6,
+          "roleChanges": 0,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "TASK_ONLY",
+          "generations": 6,
+          "roleChanges": 78,
+          "visitPositionChanges": 0,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 58,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 2,
+              "roleChanges": 10,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 3,
+              "roleChanges": 2,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 4,
+              "roleChanges": 2,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 5,
+              "roleChanges": 4,
+              "visitPositionChanges": 0
+            },
+            {
+              "generation": 6,
+              "roleChanges": 2,
+              "visitPositionChanges": 0
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "ORDER_ONLY",
+          "generations": 6,
+          "roleChanges": 0,
+          "visitPositionChanges": 577,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 0,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 94
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 98
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 97
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 95
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "FULL",
+          "generations": 6,
+          "roleChanges": 88,
+          "visitPositionChanges": 595,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 58,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 2,
+              "roleChanges": 6,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 6,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 14,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 5,
+              "roleChanges": 4,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "RANDOM",
+          "generations": 6,
+          "roleChanges": 378,
+          "visitPositionChanges": 596,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 60,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 2,
+              "roleChanges": 64,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 3,
+              "roleChanges": 68,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 63,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 5,
+              "roleChanges": 61,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 6,
+              "roleChanges": 62,
+              "visitPositionChanges": 97
+            }
+          ]
+        },
+        {
+          "seed": 15610037,
+          "mode": "CENTER_MATCHED",
+          "generations": 6,
+          "roleChanges": 45,
+          "visitPositionChanges": 594,
+          "mappingAndPhysicalIdentityPassed": true,
+          "perGeneration": [
+            {
+              "generation": 1,
+              "roleChanges": 45,
+              "visitPositionChanges": 96
+            },
+            {
+              "generation": 2,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 3,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 4,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            },
+            {
+              "generation": 5,
+              "roleChanges": 0,
+              "visitPositionChanges": 99
+            },
+            {
+              "generation": 6,
+              "roleChanges": 0,
+              "visitPositionChanges": 100
+            }
+          ]
+        }
+      ],
+      "referenceGeometry": [
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 647,
+          "opponentCloserReferencePoints": 371,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            882.1921007534298,
+            54639.66268287151,
+            62497.68214953699
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 512,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.025141582065991007
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "TASK_ONLY",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 366,
+          "opponentCloserReferencePoints": 652,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            866.4392007315785,
+            54344.96009547871,
+            62757.352699817806
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 479,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.022391753442930602
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 207,
+          "opponentCloserReferencePoints": 811,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            863.3454005245133,
+            54465.68052332126,
+            61039.241538648064
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 569,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.01587765321470548
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "ORDER_ONLY",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 183,
+          "opponentCloserReferencePoints": 835,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            883.1228835085461,
+            54567.70954167955,
+            61133.114834554435
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 510,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.016100529101817824
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "RANDOM",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 222,
+          "opponentCloserReferencePoints": 796,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            919.5678351574265,
+            54543.96254550711,
+            61698.09796056251
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 522,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.01511301258536074
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "RANDOM",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 288,
+          "opponentCloserReferencePoints": 730,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            899.2968206768056,
+            54902.7226652745,
+            61496.93443567343
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 454,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.017495606922678385
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "CENTER_MATCHED",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 676,
+          "opponentCloserReferencePoints": 342,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            964.303853807161,
+            59258.99611422296,
+            65868.58715691234
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 265,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.03179814959305792
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "CENTER_MATCHED",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 591,
+          "opponentCloserReferencePoints": 427,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            966.0950538887262,
+            59699.71255983479,
+            64891.427682976275
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 225,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.03079103823230133
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "NATIVE",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 404,
+          "opponentCloserReferencePoints": 614,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            875.25064312308,
+            54093.466206165765,
+            62543.92532930977
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 540,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.01910873478832159
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "NATIVE",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 564,
+          "opponentCloserReferencePoints": 454,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            878.0775942744746,
+            54774.97696913293,
+            61985.50911803672
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 467,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.024637146323520764
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "PA_EQUAL",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 332,
+          "opponentCloserReferencePoints": 686,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            874.239811684768,
+            54770.839178287,
+            61916.68768550168
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 500,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.018974537447014612
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "PA_EQUAL",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 414,
+          "opponentCloserReferencePoints": 604,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            858.4143925257604,
+            54502.131397654,
+            62334.63042834391
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 522,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.022514901532520743
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "QPA_DIRECT",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 989,
+          "opponentCloserReferencePoints": 29,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            878.6276280865524,
+            59115.12891027199,
+            65008.999593534856
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 433,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.05976726461477402
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "QPA_DIRECT",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 1002,
+          "opponentCloserReferencePoints": 16,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            875.0017209353824,
+            59695.35305213313,
+            64286.598583976294
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 471,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.059876306686792446
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "NSGA2_DEEP",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 486,
+          "opponentCloserReferencePoints": 532,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            992.5815577748768,
+            56137.71588693997,
+            64871.4486272996
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 313,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.018444162773580488
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "NSGA2_DEEP",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 407,
+          "opponentCloserReferencePoints": 611,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            941.7134140825086,
+            57319.44681063814,
+            65627.56230826637
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 180,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.016588800917098384
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "NSGA_CTX_GOM",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 753,
+          "opponentCloserReferencePoints": 265,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            899.0097178002958,
+            56572.45958570534,
+            63190.79049728404
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 474,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.030774877344511273
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "NSGA_CTX_GOM",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 1005,
+          "opponentCloserReferencePoints": 13,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            896.0150310628186,
+            57854.0855287591,
+            64094.423166900466
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 515,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.03649115766832263
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "FULL_SHARED_DEEP",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 510,
+          "opponentCloserReferencePoints": 508,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            969.8071621244978,
+            57882.20820936828,
+            63635.80635019548
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 171,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.022924259330077874
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "FULL_SHARED_DEEP",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 371,
+          "opponentCloserReferencePoints": 647,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            928.2407729095765,
+            56131.750761768606,
+            63441.080605861825
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 243,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.016586916749583673
+        },
+        {
+          "seed": 15610003,
+          "A": "FULL",
+          "B": "LI_RECON_DEEP",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 689,
+          "opponentCloserReferencePoints": 329,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            860.6514785850711,
+            53872.90993460792,
+            61102.68179935725
+          ],
+          "opponentObjectiveMin": [
+            1047.381843406769,
+            57345.622918357185,
+            63643.11950837733
+          ],
+          "primaryFrontSize": 386,
+          "opponentFrontSize": 151,
+          "primaryMeanIGDplusDistance": 0.019929725183269683,
+          "opponentMeanIGDplusDistance": 0.03437864862198008
+        },
+        {
+          "seed": 15610037,
+          "A": "FULL",
+          "B": "LI_RECON_DEEP",
+          "referenceSize": 1018,
+          "primaryCloserReferencePoints": 405,
+          "opponentCloserReferencePoints": 613,
+          "equalDistanceReferencePoints": 0,
+          "primaryObjectiveMin": [
+            875.1340143025673,
+            54302.82004110101,
+            62107.510573197265
+          ],
+          "opponentObjectiveMin": [
+            1063.4091270474637,
+            56542.42325137866,
+            64183.27799429078
+          ],
+          "primaryFrontSize": 484,
+          "opponentFrontSize": 212,
+          "primaryMeanIGDplusDistance": 0.024458492312827155,
+          "opponentMeanIGDplusDistance": 0.023061113110582968
+        }
+      ]
+    }
+  ],
+  "descriptiveOnly": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "noCausalAttributionOrControlPromotion": true,
+  "originalStopUnchanged": true,
+  "goalAchieved": false
+}

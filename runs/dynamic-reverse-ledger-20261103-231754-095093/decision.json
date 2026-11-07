@@ -1,0 +1,20 @@
+{
+  "oldSpecialLedgerRelativeHV": 0.052445320894118685,
+  "oldSpecialLedgerSensitivity": {
+    "1.25": 0.06393861244216903,
+    "1.5": 0.052445320894118685,
+    "2.0": 0.038192116201295034
+  },
+  "uniformLedgerRelativeHV": {
+    "1.25": 0.05563980265321544,
+    "1.5": 0.047179704025103186,
+    "2.0": 0.035357385588145496
+  },
+  "ledgerGate": true,
+  "omissionGate": false,
+  "supplyGate": false,
+  "eligibleToPlanOneSelector": false,
+  "observedTieOrSurvivorBlock": true,
+  "eligibleToConsiderCenterReplay": true,
+  "scope": "one instance, seed and matched quota per block; no automatic experiment or mainline change"
+}

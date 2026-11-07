@@ -1,0 +1,1499 @@
+{
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "A": "SHARE_CTX_GOM",
+      "B": "UNIFORM_CTX_GOM",
+      "provenance": {
+        "pointCount": 847,
+        "perPassLocalRoleFE": [
+          569,
+          2113,
+          569,
+          569
+        ],
+        "completePasses": 56,
+        "globalFE": 285000,
+        "localFE": 214900,
+        "terminalStage": "LOCAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_MAKESPAN": 46,
+          "LOCAL_CENTER": 572,
+          "GLOBAL_WORKER_COST": 37,
+          "LOCAL_WORKER_COST": 67,
+          "GLOBAL_MAKESPAN": 44,
+          "GLOBAL_CENTER": 49,
+          "LOCAL_ENERGY": 11,
+          "GLOBAL_ENERGY": 21
+        },
+        "earliestBornFE": 137546,
+        "latestBornFE": 499889,
+        "igdGeometry": {
+          "IGDplus": 0.011583242931883234,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_MAKESPAN": 72,
+            "LOCAL_CENTER": 807,
+            "GLOBAL_WORKER_COST": 19,
+            "LOCAL_WORKER_COST": 146,
+            "GLOBAL_MAKESPAN": 20,
+            "GLOBAL_CENTER": 31,
+            "LOCAL_ENERGY": 15,
+            "GLOBAL_ENERGY": 132
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_MAKESPAN": 7.408419112365506e-06,
+            "LOCAL_CENTER": 0.0006734538512549506,
+            "GLOBAL_WORKER_COST": 1.697086337048582e-06,
+            "LOCAL_WORKER_COST": 5.806006497851491e-05,
+            "GLOBAL_MAKESPAN": 2.1579864927166623e-05,
+            "GLOBAL_CENTER": 5.398472823975719e-06,
+            "LOCAL_ENERGY": 4.615471004908761e-06,
+            "GLOBAL_ENERGY": 7.487200135068426e-05
+          }
+        }
+      },
+      "A_HV": 0.5450280233304592,
+      "B_HV": 0.5292989559324518,
+      "novelHV": 0.016173487507198048,
+      "AcoveredByB": 373,
+      "BcoveredByA": 104,
+      "Bpoints": 652,
+      "origins": {
+        "LOCAL_MAKESPAN": {
+          "points": 46,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.008286476917485606,
+          "exclusiveExtraHV": 2.983930980366508e-06,
+          "IGDplusLeaveOriginOutIncrease": 7.408419112365506e-06
+        },
+        "LOCAL_CENTER": {
+          "points": 572,
+          "coveredByB": 317,
+          "standaloneExtraHV": 0.014846897667134288,
+          "exclusiveExtraHV": 8.039350576987893e-05,
+          "IGDplusLeaveOriginOutIncrease": 0.0006734538512549506
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 37,
+          "coveredByB": 6,
+          "standaloneExtraHV": 0.00283802442812881,
+          "exclusiveExtraHV": 3.6087978229934303e-06,
+          "IGDplusLeaveOriginOutIncrease": 1.697086337048582e-06
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 67,
+          "coveredByB": 11,
+          "standaloneExtraHV": 0.0034270843496134137,
+          "exclusiveExtraHV": 0.00047365954491236694,
+          "IGDplusLeaveOriginOutIncrease": 5.806006497851491e-05
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 44,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.008321057016564916,
+          "exclusiveExtraHV": 7.090196785362804e-05,
+          "IGDplusLeaveOriginOutIncrease": 2.1579864927166623e-05
+        },
+        "GLOBAL_CENTER": {
+          "points": 49,
+          "coveredByB": 39,
+          "standaloneExtraHV": 0.001949448517700226,
+          "exclusiveExtraHV": 2.335131159000184e-08,
+          "IGDplusLeaveOriginOutIncrease": 5.398472823975719e-06
+        },
+        "LOCAL_ENERGY": {
+          "points": 11,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.004170016673170199,
+          "exclusiveExtraHV": 0.0004170408188525309,
+          "IGDplusLeaveOriginOutIncrease": 4.615471004908761e-06
+        },
+        "GLOBAL_ENERGY": {
+          "points": 21,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.003877205953368295,
+          "exclusiveExtraHV": 2.5981066593956607e-05,
+          "IGDplusLeaveOriginOutIncrease": 7.487200135068426e-05
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "A": "SHARE_CTX_GOM",
+      "B": "NSGA_CTX_GOM",
+      "provenance": {
+        "pointCount": 847,
+        "perPassLocalRoleFE": [
+          569,
+          2113,
+          569,
+          569
+        ],
+        "completePasses": 56,
+        "globalFE": 285000,
+        "localFE": 214900,
+        "terminalStage": "LOCAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_MAKESPAN": 46,
+          "LOCAL_CENTER": 572,
+          "GLOBAL_WORKER_COST": 37,
+          "LOCAL_WORKER_COST": 67,
+          "GLOBAL_MAKESPAN": 44,
+          "GLOBAL_CENTER": 49,
+          "LOCAL_ENERGY": 11,
+          "GLOBAL_ENERGY": 21
+        },
+        "earliestBornFE": 137546,
+        "latestBornFE": 499889,
+        "igdGeometry": {
+          "IGDplus": 0.011583242931883234,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_MAKESPAN": 72,
+            "LOCAL_CENTER": 807,
+            "GLOBAL_WORKER_COST": 19,
+            "LOCAL_WORKER_COST": 146,
+            "GLOBAL_MAKESPAN": 20,
+            "GLOBAL_CENTER": 31,
+            "LOCAL_ENERGY": 15,
+            "GLOBAL_ENERGY": 132
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_MAKESPAN": 7.408419112365506e-06,
+            "LOCAL_CENTER": 0.0006734538512549506,
+            "GLOBAL_WORKER_COST": 1.697086337048582e-06,
+            "LOCAL_WORKER_COST": 5.806006497851491e-05,
+            "GLOBAL_MAKESPAN": 2.1579864927166623e-05,
+            "GLOBAL_CENTER": 5.398472823975719e-06,
+            "LOCAL_ENERGY": 4.615471004908761e-06,
+            "GLOBAL_ENERGY": 7.487200135068426e-05
+          }
+        }
+      },
+      "A_HV": 0.5450280233304592,
+      "B_HV": 0.5649523578605368,
+      "novelHV": 0.0,
+      "AcoveredByB": 847,
+      "BcoveredByA": 0,
+      "Bpoints": 720,
+      "origins": {
+        "LOCAL_MAKESPAN": {
+          "points": 46,
+          "coveredByB": 46,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 7.408419112365506e-06
+        },
+        "LOCAL_CENTER": {
+          "points": 572,
+          "coveredByB": 572,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 0.0006734538512549506
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 37,
+          "coveredByB": 37,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 1.697086337048582e-06
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 67,
+          "coveredByB": 67,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 5.806006497851491e-05
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 44,
+          "coveredByB": 44,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 2.1579864927166623e-05
+        },
+        "GLOBAL_CENTER": {
+          "points": 49,
+          "coveredByB": 49,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 5.398472823975719e-06
+        },
+        "LOCAL_ENERGY": {
+          "points": 11,
+          "coveredByB": 11,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 4.615471004908761e-06
+        },
+        "GLOBAL_ENERGY": {
+          "points": 21,
+          "coveredByB": 21,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 7.487200135068426e-05
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "A": "UNIFORM_CTX_GOM",
+      "B": "SHARE_CTX_GOM",
+      "provenance": {
+        "pointCount": 652,
+        "perPassLocalRoleFE": [
+          569,
+          2113,
+          569,
+          569
+        ],
+        "completePasses": 56,
+        "globalFE": 285000,
+        "localFE": 214900,
+        "terminalStage": "LOCAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_MAKESPAN": 80,
+          "LOCAL_WORKER_COST": 41,
+          "LOCAL_CENTER": 413,
+          "LOCAL_ENERGY": 53,
+          "GLOBAL_WORKER_COST": 7,
+          "GLOBAL_MAKESPAN": 8,
+          "GLOBAL_CENTER": 48,
+          "GLOBAL_ENERGY": 2
+        },
+        "earliestBornFE": 66889,
+        "latestBornFE": 499900,
+        "igdGeometry": {
+          "IGDplus": 0.015556771476911728,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_MAKESPAN": 99,
+            "LOCAL_WORKER_COST": 26,
+            "LOCAL_CENTER": 974,
+            "LOCAL_ENERGY": 75,
+            "GLOBAL_WORKER_COST": 5,
+            "GLOBAL_MAKESPAN": 49,
+            "GLOBAL_CENTER": 14,
+            "GLOBAL_ENERGY": 0
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_MAKESPAN": 2.175733136432409e-05,
+            "LOCAL_WORKER_COST": 1.3350025873447093e-05,
+            "LOCAL_CENTER": 0.0009517111816930477,
+            "LOCAL_ENERGY": 1.5477959179633683e-05,
+            "GLOBAL_WORKER_COST": 9.674677537002907e-07,
+            "GLOBAL_MAKESPAN": 2.73215281183447e-06,
+            "GLOBAL_CENTER": 6.317304869007955e-07,
+            "GLOBAL_ENERGY": 0.0
+          }
+        }
+      },
+      "A_HV": 0.5292989559324521,
+      "B_HV": 0.5450280233304591,
+      "novelHV": 0.00044442010919076846,
+      "AcoveredByB": 104,
+      "BcoveredByA": 373,
+      "Bpoints": 847,
+      "origins": {
+        "LOCAL_MAKESPAN": {
+          "points": 80,
+          "coveredByB": 10,
+          "standaloneExtraHV": 0.00029374399426778243,
+          "exclusiveExtraHV": 6.425552435155802e-06,
+          "IGDplusLeaveOriginOutIncrease": 2.175733136432409e-05
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 41,
+          "coveredByB": 5,
+          "standaloneExtraHV": 0.00023032937761293298,
+          "exclusiveExtraHV": 4.569218458728745e-07,
+          "IGDplusLeaveOriginOutIncrease": 1.3350025873447093e-05
+        },
+        "LOCAL_CENTER": {
+          "points": 413,
+          "coveredByB": 78,
+          "standaloneExtraHV": 0.0004228353254366432,
+          "exclusiveExtraHV": 6.239183589709806e-05,
+          "IGDplusLeaveOriginOutIncrease": 0.0009517111816930477
+        },
+        "LOCAL_ENERGY": {
+          "points": 53,
+          "coveredByB": 6,
+          "standaloneExtraHV": 0.000298642253276169,
+          "exclusiveExtraHV": 2.952970319449804e-06,
+          "IGDplusLeaveOriginOutIncrease": 1.5477959179633683e-05
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 7,
+          "coveredByB": 0,
+          "standaloneExtraHV": 9.215252434745217e-05,
+          "exclusiveExtraHV": 5.1178411241936934e-08,
+          "IGDplusLeaveOriginOutIncrease": 9.674677537002907e-07
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 8,
+          "coveredByB": 0,
+          "standaloneExtraHV": 7.912768058547916e-05,
+          "exclusiveExtraHV": 1.2972342794961284e-07,
+          "IGDplusLeaveOriginOutIncrease": 2.73215281183447e-06
+        },
+        "GLOBAL_CENTER": {
+          "points": 48,
+          "coveredByB": 4,
+          "standaloneExtraHV": 0.0001650640064678188,
+          "exclusiveExtraHV": 6.30904715657441e-07,
+          "IGDplusLeaveOriginOutIncrease": 6.317304869007955e-07
+        },
+        "GLOBAL_ENERGY": {
+          "points": 2,
+          "coveredByB": 1,
+          "standaloneExtraHV": 4.371602282284505e-06,
+          "exclusiveExtraHV": 1.4987964663670081e-10,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "A": "NSGA_CTX_GOM",
+      "B": "SHARE_CTX_GOM",
+      "provenance": {
+        "pointCount": 720,
+        "perPassLocalRoleFE": [
+          585,
+          2145,
+          585,
+          585
+        ],
+        "completePasses": 56,
+        "globalFE": 281500,
+        "localFE": 218400,
+        "terminalStage": "GLOBAL",
+        "birthsByOrigin": {
+          "LOCAL_MAKESPAN": 103,
+          "LOCAL_CENTER": 497,
+          "LOCAL_ENERGY": 65,
+          "LOCAL_WORKER_COST": 36,
+          "GLOBAL": 19
+        },
+        "earliestBornFE": 31908,
+        "latestBornFE": 498154,
+        "igdGeometry": {
+          "IGDplus": 0.001082339277227872,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_MAKESPAN": 316,
+            "LOCAL_CENTER": 687,
+            "LOCAL_ENERGY": 131,
+            "LOCAL_WORKER_COST": 39,
+            "GLOBAL": 58
+          },
+          "tiedNearestOriginReferencePoints": 11,
+          "leaveOutIncrease": {
+            "LOCAL_MAKESPAN": 0.0002887546498204783,
+            "LOCAL_CENTER": 0.0009926739688078214,
+            "LOCAL_ENERGY": 0.00013071695900195246,
+            "LOCAL_WORKER_COST": 9.63017553541485e-06,
+            "GLOBAL": 1.2965378424654214e-05
+          }
+        }
+      },
+      "A_HV": 0.564952357860537,
+      "B_HV": 0.5450280233304592,
+      "novelHV": 0.01992433453007758,
+      "AcoveredByB": 0,
+      "BcoveredByA": 847,
+      "Bpoints": 847,
+      "origins": {
+        "LOCAL_MAKESPAN": {
+          "points": 103,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.00402315947851201,
+          "exclusiveExtraHV": 6.935054297413896e-05,
+          "IGDplusLeaveOriginOutIncrease": 0.0002887546498204783
+        },
+        "LOCAL_CENTER": {
+          "points": 497,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.015132471715088736,
+          "exclusiveExtraHV": 0.0006238780290221744,
+          "IGDplusLeaveOriginOutIncrease": 0.0009926739688078214
+        },
+        "LOCAL_ENERGY": {
+          "points": 65,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.009475286081937286,
+          "exclusiveExtraHV": 0.0015880721683980874,
+          "IGDplusLeaveOriginOutIncrease": 0.00013071695900195246
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 36,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.005830817959214946,
+          "exclusiveExtraHV": 0.00019930399647281535,
+          "IGDplusLeaveOriginOutIncrease": 9.63017553541485e-06
+        },
+        "GLOBAL": {
+          "points": 19,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.015656387268879617,
+          "exclusiveExtraHV": 1.2903172139879082e-05,
+          "IGDplusLeaveOriginOutIncrease": 1.2965378424654214e-05
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "A": "SHARE_CTX_GOM",
+      "B": "UNIFORM_CTX_GOM",
+      "provenance": {
+        "pointCount": 966,
+        "perPassLocalRoleFE": [
+          569,
+          2113,
+          569,
+          569
+        ],
+        "completePasses": 56,
+        "globalFE": 285000,
+        "localFE": 214900,
+        "terminalStage": "LOCAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 575,
+          "LOCAL_MAKESPAN": 51,
+          "GLOBAL_CENTER": 86,
+          "GLOBAL_MAKESPAN": 27,
+          "LOCAL_WORKER_COST": 48,
+          "GLOBAL_WORKER_COST": 16,
+          "GLOBAL_ENERGY": 68,
+          "LOCAL_ENERGY": 95
+        },
+        "earliestBornFE": 113136,
+        "latestBornFE": 499968,
+        "igdGeometry": {
+          "IGDplus": 0.0028516237902846404,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 602,
+            "LOCAL_MAKESPAN": 54,
+            "GLOBAL_CENTER": 51,
+            "GLOBAL_MAKESPAN": 66,
+            "LOCAL_WORKER_COST": 256,
+            "GLOBAL_WORKER_COST": 15,
+            "GLOBAL_ENERGY": 86,
+            "LOCAL_ENERGY": 104
+          },
+          "tiedNearestOriginReferencePoints": 8,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.0004715232203661256,
+            "LOCAL_MAKESPAN": 2.56092878647861e-05,
+            "GLOBAL_CENTER": 1.5809949979862645e-05,
+            "GLOBAL_MAKESPAN": 3.5592022671497025e-05,
+            "LOCAL_WORKER_COST": 0.0001342580234333053,
+            "GLOBAL_WORKER_COST": 7.472504304822031e-07,
+            "GLOBAL_ENERGY": 4.3520385705830715e-05,
+            "LOCAL_ENERGY": 4.276112766819862e-05
+          }
+        }
+      },
+      "A_HV": 0.5582392119073177,
+      "B_HV": 0.5518057552452454,
+      "novelHV": 0.009618848042932338,
+      "AcoveredByB": 486,
+      "BcoveredByA": 98,
+      "Bpoints": 780,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 575,
+          "coveredByB": 359,
+          "standaloneExtraHV": 0.008825615406612728,
+          "exclusiveExtraHV": 2.540135948631801e-05,
+          "IGDplusLeaveOriginOutIncrease": 0.0004715232203661256
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 51,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.0044583251778564995,
+          "exclusiveExtraHV": 7.149974598777101e-06,
+          "IGDplusLeaveOriginOutIncrease": 2.56092878647861e-05
+        },
+        "GLOBAL_CENTER": {
+          "points": 86,
+          "coveredByB": 55,
+          "standaloneExtraHV": 0.0038161755106394155,
+          "exclusiveExtraHV": 3.719810093580257e-07,
+          "IGDplusLeaveOriginOutIncrease": 1.5809949979862645e-05
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 27,
+          "coveredByB": 2,
+          "standaloneExtraHV": 0.004451505306623641,
+          "exclusiveExtraHV": 2.537384836494605e-06,
+          "IGDplusLeaveOriginOutIncrease": 3.5592022671497025e-05
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 48,
+          "coveredByB": 30,
+          "standaloneExtraHV": 2.172029487707191e-05,
+          "exclusiveExtraHV": 9.87754777169783e-06,
+          "IGDplusLeaveOriginOutIncrease": 0.0001342580234333053
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 16,
+          "coveredByB": 9,
+          "standaloneExtraHV": 1.1531515801834894e-05,
+          "exclusiveExtraHV": 7.75682219476591e-07,
+          "IGDplusLeaveOriginOutIncrease": 7.472504304822031e-07
+        },
+        "GLOBAL_ENERGY": {
+          "points": 68,
+          "coveredByB": 22,
+          "standaloneExtraHV": 0.004816399272333294,
+          "exclusiveExtraHV": 5.187789077646847e-05,
+          "IGDplusLeaveOriginOutIncrease": 4.3520385705830715e-05
+        },
+        "LOCAL_ENERGY": {
+          "points": 95,
+          "coveredByB": 9,
+          "standaloneExtraHV": 0.005039286682943704,
+          "exclusiveExtraHV": 0.00027921072891297463,
+          "IGDplusLeaveOriginOutIncrease": 4.276112766819862e-05
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "A": "SHARE_CTX_GOM",
+      "B": "NSGA_CTX_GOM",
+      "provenance": {
+        "pointCount": 966,
+        "perPassLocalRoleFE": [
+          569,
+          2113,
+          569,
+          569
+        ],
+        "completePasses": 56,
+        "globalFE": 285000,
+        "localFE": 214900,
+        "terminalStage": "LOCAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 575,
+          "LOCAL_MAKESPAN": 51,
+          "GLOBAL_CENTER": 86,
+          "GLOBAL_MAKESPAN": 27,
+          "LOCAL_WORKER_COST": 48,
+          "GLOBAL_WORKER_COST": 16,
+          "GLOBAL_ENERGY": 68,
+          "LOCAL_ENERGY": 95
+        },
+        "earliestBornFE": 113136,
+        "latestBornFE": 499968,
+        "igdGeometry": {
+          "IGDplus": 0.0028516237902846404,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 602,
+            "LOCAL_MAKESPAN": 54,
+            "GLOBAL_CENTER": 51,
+            "GLOBAL_MAKESPAN": 66,
+            "LOCAL_WORKER_COST": 256,
+            "GLOBAL_WORKER_COST": 15,
+            "GLOBAL_ENERGY": 86,
+            "LOCAL_ENERGY": 104
+          },
+          "tiedNearestOriginReferencePoints": 8,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.0004715232203661256,
+            "LOCAL_MAKESPAN": 2.56092878647861e-05,
+            "GLOBAL_CENTER": 1.5809949979862645e-05,
+            "GLOBAL_MAKESPAN": 3.5592022671497025e-05,
+            "LOCAL_WORKER_COST": 0.0001342580234333053,
+            "GLOBAL_WORKER_COST": 7.472504304822031e-07,
+            "GLOBAL_ENERGY": 4.3520385705830715e-05,
+            "LOCAL_ENERGY": 4.276112766819862e-05
+          }
+        }
+      },
+      "A_HV": 0.5582392119073177,
+      "B_HV": 0.5602749331868879,
+      "novelHV": 0.004552237602460485,
+      "AcoveredByB": 75,
+      "BcoveredByA": 567,
+      "Bpoints": 844,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 575,
+          "coveredByB": 27,
+          "standaloneExtraHV": 0.0037674291567834795,
+          "exclusiveExtraHV": 0.00011149386766955586,
+          "IGDplusLeaveOriginOutIncrease": 0.0004715232203661256
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 51,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.0006852413960267013,
+          "exclusiveExtraHV": 6.385433312639563e-06,
+          "IGDplusLeaveOriginOutIncrease": 2.56092878647861e-05
+        },
+        "GLOBAL_CENTER": {
+          "points": 86,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.00036238917710092075,
+          "exclusiveExtraHV": 1.4608337215377265e-06,
+          "IGDplusLeaveOriginOutIncrease": 1.5809949979862645e-05
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 27,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.0007150159533437822,
+          "exclusiveExtraHV": 3.773895774832714e-06,
+          "IGDplusLeaveOriginOutIncrease": 3.5592022671497025e-05
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 48,
+          "coveredByB": 38,
+          "standaloneExtraHV": 4.314011864635226e-05,
+          "exclusiveExtraHV": 2.2547690161613613e-06,
+          "IGDplusLeaveOriginOutIncrease": 0.0001342580234333053
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 16,
+          "coveredByB": 10,
+          "standaloneExtraHV": 3.181533518743665e-05,
+          "exclusiveExtraHV": 4.6473867494529245e-07,
+          "IGDplusLeaveOriginOutIncrease": 7.472504304822031e-07
+        },
+        "GLOBAL_ENERGY": {
+          "points": 68,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.003190562735510123,
+          "exclusiveExtraHV": 5.663416606341909e-05,
+          "IGDplusLeaveOriginOutIncrease": 4.3520385705830715e-05
+        },
+        "LOCAL_ENERGY": {
+          "points": 95,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.00334367757367245,
+          "exclusiveExtraHV": 0.0002842208371091102,
+          "IGDplusLeaveOriginOutIncrease": 4.276112766819862e-05
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "A": "UNIFORM_CTX_GOM",
+      "B": "SHARE_CTX_GOM",
+      "provenance": {
+        "pointCount": 780,
+        "perPassLocalRoleFE": [
+          569,
+          2113,
+          569,
+          569
+        ],
+        "completePasses": 56,
+        "globalFE": 285000,
+        "localFE": 214900,
+        "terminalStage": "LOCAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 445,
+          "LOCAL_ENERGY": 88,
+          "GLOBAL_CENTER": 36,
+          "LOCAL_MAKESPAN": 92,
+          "LOCAL_WORKER_COST": 89,
+          "GLOBAL_MAKESPAN": 11,
+          "GLOBAL_ENERGY": 12,
+          "GLOBAL_WORKER_COST": 7
+        },
+        "earliestBornFE": 102781,
+        "latestBornFE": 499926,
+        "igdGeometry": {
+          "IGDplus": 0.00214891964899162,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 709,
+            "LOCAL_ENERGY": 113,
+            "GLOBAL_CENTER": 36,
+            "LOCAL_MAKESPAN": 94,
+            "LOCAL_WORKER_COST": 149,
+            "GLOBAL_MAKESPAN": 6,
+            "GLOBAL_ENERGY": 10,
+            "GLOBAL_WORKER_COST": 8
+          },
+          "tiedNearestOriginReferencePoints": 117,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.0003456461437701959,
+            "LOCAL_ENERGY": 2.750397139669741e-05,
+            "GLOBAL_CENTER": 4.380654112881491e-06,
+            "LOCAL_MAKESPAN": 2.24422417138976e-05,
+            "LOCAL_WORKER_COST": 4.4689191854505304e-05,
+            "GLOBAL_MAKESPAN": 1.448095539680371e-06,
+            "GLOBAL_ENERGY": 6.090180276056218e-07,
+            "GLOBAL_WORKER_COST": 1.071802377657109e-06
+          }
+        }
+      },
+      "A_HV": 0.5518057552452453,
+      "B_HV": 0.5582392119073177,
+      "novelHV": 0.0031853913808600476,
+      "AcoveredByB": 98,
+      "BcoveredByA": 486,
+      "Bpoints": 966,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 445,
+          "coveredByB": 61,
+          "standaloneExtraHV": 0.0027316342456025155,
+          "exclusiveExtraHV": 0.00020119807942307525,
+          "IGDplusLeaveOriginOutIncrease": 0.0003456461437701959
+        },
+        "LOCAL_ENERGY": {
+          "points": 88,
+          "coveredByB": 9,
+          "standaloneExtraHV": 0.002889225327131198,
+          "exclusiveExtraHV": 0.00043422507163693943,
+          "IGDplusLeaveOriginOutIncrease": 2.750397139669741e-05
+        },
+        "GLOBAL_CENTER": {
+          "points": 36,
+          "coveredByB": 6,
+          "standaloneExtraHV": 0.00021244842094493655,
+          "exclusiveExtraHV": 3.346826834482375e-07,
+          "IGDplusLeaveOriginOutIncrease": 4.380654112881491e-06
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 92,
+          "coveredByB": 12,
+          "standaloneExtraHV": 0.00026508424524135827,
+          "exclusiveExtraHV": 2.5073173712016473e-06,
+          "IGDplusLeaveOriginOutIncrease": 2.24422417138976e-05
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 89,
+          "coveredByB": 8,
+          "standaloneExtraHV": 0.0004396603631918459,
+          "exclusiveExtraHV": 3.954869373032032e-06,
+          "IGDplusLeaveOriginOutIncrease": 4.4689191854505304e-05
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 11,
+          "coveredByB": 0,
+          "standaloneExtraHV": 4.732090504131836e-05,
+          "exclusiveExtraHV": 3.5331803774135526e-06,
+          "IGDplusLeaveOriginOutIncrease": 1.448095539680371e-06
+        },
+        "GLOBAL_ENERGY": {
+          "points": 12,
+          "coveredByB": 1,
+          "standaloneExtraHV": 4.580682276861552e-05,
+          "exclusiveExtraHV": 3.4199452615973148e-06,
+          "IGDplusLeaveOriginOutIncrease": 6.090180276056218e-07
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 7,
+          "coveredByB": 1,
+          "standaloneExtraHV": 2.769810853895115e-05,
+          "exclusiveExtraHV": 1.8516352548105215e-08,
+          "IGDplusLeaveOriginOutIncrease": 1.071802377657109e-06
+        }
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "A": "NSGA_CTX_GOM",
+      "B": "SHARE_CTX_GOM",
+      "provenance": {
+        "pointCount": 844,
+        "perPassLocalRoleFE": [
+          585,
+          2145,
+          585,
+          585
+        ],
+        "completePasses": 56,
+        "globalFE": 281500,
+        "localFE": 218400,
+        "terminalStage": "GLOBAL",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 567,
+          "LOCAL_ENERGY": 88,
+          "LOCAL_MAKESPAN": 122,
+          "GLOBAL": 21,
+          "LOCAL_WORKER_COST": 46
+        },
+        "earliestBornFE": 184901,
+        "latestBornFE": 498362,
+        "igdGeometry": {
+          "IGDplus": 0.005726237582468609,
+          "referenceSize": 1242,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 621,
+            "LOCAL_ENERGY": 222,
+            "LOCAL_MAKESPAN": 334,
+            "GLOBAL": 12,
+            "LOCAL_WORKER_COST": 52
+          },
+          "tiedNearestOriginReferencePoints": 1,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.0020190386794062447,
+            "LOCAL_ENERGY": 0.0001038870375988326,
+            "LOCAL_MAKESPAN": 0.0003654418480674155,
+            "GLOBAL": 6.928655560897166e-07,
+            "LOCAL_WORKER_COST": 2.114112190615004e-05
+          }
+        }
+      },
+      "A_HV": 0.5602749331868875,
+      "B_HV": 0.5582392119073176,
+      "novelHV": 0.006587958882030787,
+      "AcoveredByB": 567,
+      "BcoveredByA": 75,
+      "Bpoints": 966,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 567,
+          "coveredByB": 357,
+          "standaloneExtraHV": 0.006433354302708584,
+          "exclusiveExtraHV": 0.00017710521315011807,
+          "IGDplusLeaveOriginOutIncrease": 0.0020190386794062447
+        },
+        "LOCAL_ENERGY": {
+          "points": 88,
+          "coveredByB": 85,
+          "standaloneExtraHV": 0.004661943337383855,
+          "exclusiveExtraHV": 1.1243552999981973e-06,
+          "IGDplusLeaveOriginOutIncrease": 0.0001038870375988326
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 122,
+          "coveredByB": 112,
+          "standaloneExtraHV": 3.748223744994043e-06,
+          "exclusiveExtraHV": 2.4202226504653103e-06,
+          "IGDplusLeaveOriginOutIncrease": 0.0003654418480674155
+        },
+        "GLOBAL": {
+          "points": 21,
+          "coveredByB": 12,
+          "standaloneExtraHV": 0.00592007340114859,
+          "exclusiveExtraHV": 9.580016973703174e-07,
+          "IGDplusLeaveOriginOutIncrease": 6.928655560897166e-07
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 46,
+          "coveredByB": 1,
+          "standaloneExtraHV": 0.006191031075192875,
+          "exclusiveExtraHV": 0.0001431697782581586,
+          "IGDplusLeaveOriginOutIncrease": 2.114112190615004e-05
+        }
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "A": "SHARE_CTX_GOM",
+      "B": "UNIFORM_CTX_GOM",
+      "provenance": {
+        "pointCount": 1042,
+        "perPassLocalRoleFE": [
+          2977,
+          10929,
+          2977,
+          2977
+        ],
+        "completePasses": 20,
+        "globalFE": 102700,
+        "localFE": 397200,
+        "terminalStage": "GLOBAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_MAKESPAN": 86,
+          "LOCAL_CENTER": 784,
+          "GLOBAL_MAKESPAN": 13,
+          "LOCAL_WORKER_COST": 101,
+          "GLOBAL_WORKER_COST": 5,
+          "LOCAL_ENERGY": 53
+        },
+        "earliestBornFE": 80774,
+        "latestBornFE": 496313,
+        "igdGeometry": {
+          "IGDplus": 0.02271363043077236,
+          "referenceSize": 2637,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_MAKESPAN": 97,
+            "LOCAL_CENTER": 2031,
+            "GLOBAL_MAKESPAN": 4,
+            "LOCAL_WORKER_COST": 152,
+            "GLOBAL_WORKER_COST": 1,
+            "LOCAL_ENERGY": 352
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_MAKESPAN": 3.7721631192063385e-05,
+            "LOCAL_CENTER": 0.016710432950292783,
+            "GLOBAL_MAKESPAN": 5.718205834436106e-07,
+            "LOCAL_WORKER_COST": 9.764896980279807e-05,
+            "GLOBAL_WORKER_COST": 1.3689416150258844e-07,
+            "LOCAL_ENERGY": 0.0003716240813723948
+          }
+        }
+      },
+      "A_HV": 0.8268907019604501,
+      "B_HV": 0.7786146573275025,
+      "novelHV": 0.05186893313774654,
+      "AcoveredByB": 639,
+      "BcoveredByA": 20,
+      "Bpoints": 961,
+      "origins": {
+        "LOCAL_MAKESPAN": {
+          "points": 86,
+          "coveredByB": 9,
+          "standaloneExtraHV": 0.007596015129090759,
+          "exclusiveExtraHV": 0.00015328230184562638,
+          "IGDplusLeaveOriginOutIncrease": 3.7721631192063385e-05
+        },
+        "LOCAL_CENTER": {
+          "points": 784,
+          "coveredByB": 625,
+          "standaloneExtraHV": 0.04538645426803684,
+          "exclusiveExtraHV": 0.0002975362607111748,
+          "IGDplusLeaveOriginOutIncrease": 0.016710432950292783
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 13,
+          "coveredByB": 4,
+          "standaloneExtraHV": 0.007365364412419369,
+          "exclusiveExtraHV": 3.6078690271966935e-06,
+          "IGDplusLeaveOriginOutIncrease": 5.718205834436106e-07
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 101,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.023206678424272584,
+          "exclusiveExtraHV": 0.003732296286502912,
+          "IGDplusLeaveOriginOutIncrease": 9.764896980279807e-05
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 5,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.015320818164146913,
+          "exclusiveExtraHV": 9.521740417629566e-08,
+          "IGDplusLeaveOriginOutIncrease": 1.3689416150258844e-07
+        },
+        "LOCAL_ENERGY": {
+          "points": 53,
+          "coveredByB": 1,
+          "standaloneExtraHV": 0.020761187011284217,
+          "exclusiveExtraHV": 0.0020662062772083814,
+          "IGDplusLeaveOriginOutIncrease": 0.0003716240813723948
+        }
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "A": "SHARE_CTX_GOM",
+      "B": "PA_JOINT",
+      "provenance": {
+        "pointCount": 1042,
+        "perPassLocalRoleFE": [
+          2977,
+          10929,
+          2977,
+          2977
+        ],
+        "completePasses": 20,
+        "globalFE": 102700,
+        "localFE": 397200,
+        "terminalStage": "GLOBAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_MAKESPAN": 86,
+          "LOCAL_CENTER": 784,
+          "GLOBAL_MAKESPAN": 13,
+          "LOCAL_WORKER_COST": 101,
+          "GLOBAL_WORKER_COST": 5,
+          "LOCAL_ENERGY": 53
+        },
+        "earliestBornFE": 80774,
+        "latestBornFE": 496313,
+        "igdGeometry": {
+          "IGDplus": 0.02271363043077236,
+          "referenceSize": 2637,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_MAKESPAN": 97,
+            "LOCAL_CENTER": 2031,
+            "GLOBAL_MAKESPAN": 4,
+            "LOCAL_WORKER_COST": 152,
+            "GLOBAL_WORKER_COST": 1,
+            "LOCAL_ENERGY": 352
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_MAKESPAN": 3.7721631192063385e-05,
+            "LOCAL_CENTER": 0.016710432950292783,
+            "GLOBAL_MAKESPAN": 5.718205834436106e-07,
+            "LOCAL_WORKER_COST": 9.764896980279807e-05,
+            "GLOBAL_WORKER_COST": 1.3689416150258844e-07,
+            "LOCAL_ENERGY": 0.0003716240813723948
+          }
+        }
+      },
+      "A_HV": 0.8268907019604501,
+      "B_HV": 0.867283087057044,
+      "novelHV": 0.0018933851777429567,
+      "AcoveredByB": 428,
+      "BcoveredByA": 333,
+      "Bpoints": 1504,
+      "origins": {
+        "LOCAL_MAKESPAN": {
+          "points": 86,
+          "coveredByB": 55,
+          "standaloneExtraHV": 0.0004096813503745227,
+          "exclusiveExtraHV": 6.199018940264886e-05,
+          "IGDplusLeaveOriginOutIncrease": 3.7721631192063385e-05
+        },
+        "LOCAL_CENTER": {
+          "points": 784,
+          "coveredByB": 253,
+          "standaloneExtraHV": 0.0013734367447605304,
+          "exclusiveExtraHV": 0.0011087478607190759,
+          "IGDplusLeaveOriginOutIncrease": 0.016710432950292783
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 13,
+          "coveredByB": 8,
+          "standaloneExtraHV": 0.0003489605958152219,
+          "exclusiveExtraHV": 1.4549440497775166e-06,
+          "IGDplusLeaveOriginOutIncrease": 5.718205834436106e-07
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 101,
+          "coveredByB": 101,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 9.764896980279807e-05
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 5,
+          "coveredByB": 5,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 1.3689416150258844e-07
+        },
+        "LOCAL_ENERGY": {
+          "points": 53,
+          "coveredByB": 6,
+          "standaloneExtraHV": 0.0003732540879173197,
+          "exclusiveExtraHV": 0.0001274766230059255,
+          "IGDplusLeaveOriginOutIncrease": 0.0003716240813723948
+        }
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "A": "UNIFORM_CTX_GOM",
+      "B": "SHARE_CTX_GOM",
+      "provenance": {
+        "pointCount": 961,
+        "perPassLocalRoleFE": [
+          2977,
+          10929,
+          2977,
+          2977
+        ],
+        "completePasses": 20,
+        "globalFE": 102700,
+        "localFE": 397200,
+        "terminalStage": "GLOBAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 617,
+          "LOCAL_ENERGY": 101,
+          "LOCAL_MAKESPAN": 107,
+          "LOCAL_WORKER_COST": 135,
+          "GLOBAL_ENERGY": 1
+        },
+        "earliestBornFE": 286654,
+        "latestBornFE": 496503,
+        "igdGeometry": {
+          "IGDplus": 0.02215295008552117,
+          "referenceSize": 2637,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 1822,
+            "LOCAL_ENERGY": 119,
+            "LOCAL_MAKESPAN": 494,
+            "LOCAL_WORKER_COST": 201,
+            "GLOBAL_ENERGY": 1
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.0011765705061787077,
+            "LOCAL_ENERGY": 4.748318108291827e-05,
+            "LOCAL_MAKESPAN": 0.00018534233130661212,
+            "LOCAL_WORKER_COST": 5.440313545631752e-05,
+            "GLOBAL_ENERGY": 7.39803642671656e-08
+          }
+        }
+      },
+      "A_HV": 0.7786146573275029,
+      "B_HV": 0.8268907019604502,
+      "novelHV": 0.0035928885047987746,
+      "AcoveredByB": 20,
+      "BcoveredByA": 639,
+      "Bpoints": 1042,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 617,
+          "coveredByB": 13,
+          "standaloneExtraHV": 0.0033463279550622555,
+          "exclusiveExtraHV": 0.0006051641489482898,
+          "IGDplusLeaveOriginOutIncrease": 0.0011765705061787077
+        },
+        "LOCAL_ENERGY": {
+          "points": 101,
+          "coveredByB": 1,
+          "standaloneExtraHV": 0.0021093601526962404,
+          "exclusiveExtraHV": 8.501800266475933e-05,
+          "IGDplusLeaveOriginOutIncrease": 4.748318108291827e-05
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 107,
+          "coveredByB": 4,
+          "standaloneExtraHV": 0.0017792959896658568,
+          "exclusiveExtraHV": 7.277232347420754e-05,
+          "IGDplusLeaveOriginOutIncrease": 0.00018534233130661212
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 135,
+          "coveredByB": 2,
+          "standaloneExtraHV": 0.0022525650213317443,
+          "exclusiveExtraHV": 4.912317628094049e-05,
+          "IGDplusLeaveOriginOutIncrease": 5.440313545631752e-05
+        },
+        "GLOBAL_ENERGY": {
+          "points": 1,
+          "coveredByB": 0,
+          "standaloneExtraHV": 2.753561833995968e-05,
+          "exclusiveExtraHV": 6.430448553303783e-10,
+          "IGDplusLeaveOriginOutIncrease": 7.39803642671656e-08
+        }
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "A": "SHARE_CTX_GOM",
+      "B": "UNIFORM_CTX_GOM",
+      "provenance": {
+        "pointCount": 1026,
+        "perPassLocalRoleFE": [
+          2977,
+          10929,
+          2977,
+          2977
+        ],
+        "completePasses": 20,
+        "globalFE": 102700,
+        "localFE": 397200,
+        "terminalStage": "GLOBAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 825,
+          "GLOBAL_MAKESPAN": 18,
+          "LOCAL_MAKESPAN": 38,
+          "LOCAL_ENERGY": 72,
+          "GLOBAL_ENERGY": 1,
+          "LOCAL_WORKER_COST": 67,
+          "GLOBAL_WORKER_COST": 5
+        },
+        "earliestBornFE": 58498,
+        "latestBornFE": 497984,
+        "igdGeometry": {
+          "IGDplus": 0.0338474529392169,
+          "referenceSize": 2637,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 2378,
+            "GLOBAL_MAKESPAN": 18,
+            "LOCAL_MAKESPAN": 58,
+            "LOCAL_ENERGY": 0,
+            "GLOBAL_ENERGY": 0,
+            "LOCAL_WORKER_COST": 182,
+            "GLOBAL_WORKER_COST": 0
+          },
+          "tiedNearestOriginReferencePoints": 1,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.03378564962530685,
+            "GLOBAL_MAKESPAN": 8.737490729562393e-06,
+            "LOCAL_MAKESPAN": 4.881115082746434e-05,
+            "LOCAL_ENERGY": 0.0,
+            "GLOBAL_ENERGY": 0.0,
+            "LOCAL_WORKER_COST": 0.00011546977429873334,
+            "GLOBAL_WORKER_COST": 0.0
+          }
+        }
+      },
+      "A_HV": 0.8141910581595415,
+      "B_HV": 0.7686535184006998,
+      "novelHV": 0.04961586572186172,
+      "AcoveredByB": 473,
+      "BcoveredByA": 121,
+      "Bpoints": 1072,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 825,
+          "coveredByB": 470,
+          "standaloneExtraHV": 0.03753110033341042,
+          "exclusiveExtraHV": 0.00048210109595344877,
+          "IGDplusLeaveOriginOutIncrease": 0.03378564962530685
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 18,
+          "coveredByB": 1,
+          "standaloneExtraHV": 0.011014753223852553,
+          "exclusiveExtraHV": 4.999219264640338e-05,
+          "IGDplusLeaveOriginOutIncrease": 8.737490729562393e-06
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 38,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.011105864377380816,
+          "exclusiveExtraHV": 0.0002130635133432684,
+          "IGDplusLeaveOriginOutIncrease": 4.881115082746434e-05
+        },
+        "LOCAL_ENERGY": {
+          "points": 72,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.015035220798064698,
+          "exclusiveExtraHV": 6.452431600451839e-05,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        },
+        "GLOBAL_ENERGY": {
+          "points": 1,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.003230894543029081,
+          "exclusiveExtraHV": 6.428219735690736e-06,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 67,
+          "coveredByB": 2,
+          "standaloneExtraHV": 0.022822436162947213,
+          "exclusiveExtraHV": 0.0007685119030251861,
+          "IGDplusLeaveOriginOutIncrease": 0.00011546977429873334
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 5,
+          "coveredByB": 0,
+          "standaloneExtraHV": 0.02125229146408957,
+          "exclusiveExtraHV": 4.86346168679643e-06,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        }
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "A": "SHARE_CTX_GOM",
+      "B": "PA_JOINT",
+      "provenance": {
+        "pointCount": 1026,
+        "perPassLocalRoleFE": [
+          2977,
+          10929,
+          2977,
+          2977
+        ],
+        "completePasses": 20,
+        "globalFE": 102700,
+        "localFE": 397200,
+        "terminalStage": "GLOBAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 825,
+          "GLOBAL_MAKESPAN": 18,
+          "LOCAL_MAKESPAN": 38,
+          "LOCAL_ENERGY": 72,
+          "GLOBAL_ENERGY": 1,
+          "LOCAL_WORKER_COST": 67,
+          "GLOBAL_WORKER_COST": 5
+        },
+        "earliestBornFE": 58498,
+        "latestBornFE": 497984,
+        "igdGeometry": {
+          "IGDplus": 0.0338474529392169,
+          "referenceSize": 2637,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 2378,
+            "GLOBAL_MAKESPAN": 18,
+            "LOCAL_MAKESPAN": 58,
+            "LOCAL_ENERGY": 0,
+            "GLOBAL_ENERGY": 0,
+            "LOCAL_WORKER_COST": 182,
+            "GLOBAL_WORKER_COST": 0
+          },
+          "tiedNearestOriginReferencePoints": 1,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.03378564962530685,
+            "GLOBAL_MAKESPAN": 8.737490729562393e-06,
+            "LOCAL_MAKESPAN": 4.881115082746434e-05,
+            "LOCAL_ENERGY": 0.0,
+            "GLOBAL_ENERGY": 0.0,
+            "LOCAL_WORKER_COST": 0.00011546977429873334,
+            "GLOBAL_WORKER_COST": 0.0
+          }
+        }
+      },
+      "A_HV": 0.8141910581595415,
+      "B_HV": 0.8641323477294418,
+      "novelHV": 0.0019496574548379941,
+      "AcoveredByB": 530,
+      "BcoveredByA": 274,
+      "Bpoints": 2122,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 825,
+          "coveredByB": 352,
+          "standaloneExtraHV": 0.0006330216575434593,
+          "exclusiveExtraHV": 0.0006330216575434593,
+          "IGDplusLeaveOriginOutIncrease": 0.03378564962530685
+        },
+        "GLOBAL_MAKESPAN": {
+          "points": 18,
+          "coveredByB": 13,
+          "standaloneExtraHV": 0.001199179727295355,
+          "exclusiveExtraHV": 2.7202480111834716e-06,
+          "IGDplusLeaveOriginOutIncrease": 8.737490729562393e-06
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 38,
+          "coveredByB": 20,
+          "standaloneExtraHV": 0.0013139155492833399,
+          "exclusiveExtraHV": 0.00011745606999916828,
+          "IGDplusLeaveOriginOutIncrease": 4.881115082746434e-05
+        },
+        "LOCAL_ENERGY": {
+          "points": 72,
+          "coveredByB": 72,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        },
+        "GLOBAL_ENERGY": {
+          "points": 1,
+          "coveredByB": 1,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 67,
+          "coveredByB": 67,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 0.00011546977429873334
+        },
+        "GLOBAL_WORKER_COST": {
+          "points": 5,
+          "coveredByB": 5,
+          "standaloneExtraHV": 0.0,
+          "exclusiveExtraHV": 0.0,
+          "IGDplusLeaveOriginOutIncrease": 0.0
+        }
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "A": "UNIFORM_CTX_GOM",
+      "B": "SHARE_CTX_GOM",
+      "provenance": {
+        "pointCount": 1072,
+        "perPassLocalRoleFE": [
+          2977,
+          10929,
+          2977,
+          2977
+        ],
+        "completePasses": 20,
+        "globalFE": 102700,
+        "localFE": 397200,
+        "terminalStage": "GLOBAL_CENTER",
+        "birthsByOrigin": {
+          "LOCAL_CENTER": 684,
+          "LOCAL_ENERGY": 159,
+          "LOCAL_WORKER_COST": 119,
+          "LOCAL_MAKESPAN": 110
+        },
+        "earliestBornFE": 259228,
+        "latestBornFE": 496701,
+        "igdGeometry": {
+          "IGDplus": 0.026329911556771238,
+          "referenceSize": 2637,
+          "uniqueNearestReferencePoints": {
+            "LOCAL_CENTER": 1851,
+            "LOCAL_ENERGY": 301,
+            "LOCAL_WORKER_COST": 166,
+            "LOCAL_MAKESPAN": 319
+          },
+          "tiedNearestOriginReferencePoints": 0,
+          "leaveOutIncrease": {
+            "LOCAL_CENTER": 0.0017606395239440362,
+            "LOCAL_ENERGY": 0.00012722425906229313,
+            "LOCAL_WORKER_COST": 5.175430381408112e-05,
+            "LOCAL_MAKESPAN": 0.0002176249117257484
+          }
+        }
+      },
+      "A_HV": 0.7686535184006994,
+      "B_HV": 0.814191058159542,
+      "novelHV": 0.004078325963019602,
+      "AcoveredByB": 121,
+      "BcoveredByA": 473,
+      "Bpoints": 1026,
+      "origins": {
+        "LOCAL_CENTER": {
+          "points": 684,
+          "coveredByB": 98,
+          "standaloneExtraHV": 0.003593842092515749,
+          "exclusiveExtraHV": 0.0006163640935810271,
+          "IGDplusLeaveOriginOutIncrease": 0.0017606395239440362
+        },
+        "LOCAL_ENERGY": {
+          "points": 159,
+          "coveredByB": 13,
+          "standaloneExtraHV": 0.0025651047636159863,
+          "exclusiveExtraHV": 0.00012514081843825972,
+          "IGDplusLeaveOriginOutIncrease": 0.00012722425906229313
+        },
+        "LOCAL_WORKER_COST": {
+          "points": 119,
+          "coveredByB": 4,
+          "standaloneExtraHV": 0.0021095236855727356,
+          "exclusiveExtraHV": 2.1984791389999728e-05,
+          "IGDplusLeaveOriginOutIncrease": 5.175430381408112e-05
+        },
+        "LOCAL_MAKESPAN": {
+          "points": 110,
+          "coveredByB": 6,
+          "standaloneExtraHV": 0.002517295089221162,
+          "exclusiveExtraHV": 0.00012614127171630118,
+          "IGDplusLeaveOriginOutIncrease": 0.0002176249117257484
+        }
+      }
+    }
+  ],
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "attribution": "Earliest admitted objective representative only; no causal group/role value or hidden acceptance/survival inference",
+  "goalAchieved": false
+}

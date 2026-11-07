@@ -1,0 +1,19 @@
+{
+  "goal": "complete; revised steps4,5 and conditional6 stopping branch handled; no formal step6 experiments claimed",
+  "step4": "complete",
+  "engineering": "runs/expansion-step4-20261102-000900-290794",
+  "step5": "complete;270/270;56m38s;both frozen candidates RED",
+  "performanceRoot": "runs/expansion-screen-20261102-001934-525927",
+  "ptySession": null,
+  "recovery": "controller-recovery-v1/receipt.json; original clock preserved, 23 complete owners retained",
+  "step6": "stop branch executed;readyForStep6 empty;formal experiments not started;0 new runs",
+  "timer": "performanceRoot/clock.json;90minute hardcap; do not restart",
+  "primary": "SHARE",
+  "secondary": "VALUE_SHARE",
+  "policy": "research/dynamic_benchmark/expansion_screen_v1.json",
+  "rawOldResults": "preserve previous540; no mixing",
+  "newEntry": "python -m research.expansion_screen --engineering <accepted engineering root>",
+  "next": "discuss new hypotheses before any new experiment; preserve current evidence and four-subswarm foundation",
+  "report": "docs/新版第5步结果与第6步分支-2026-11-02.md",
+  "completionReceipt": "runs/goal-steps456-completion-20261102.json"
+}

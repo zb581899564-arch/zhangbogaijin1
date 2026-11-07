@@ -1,0 +1,924 @@
+{
+  "passed": true,
+  "instance": "100_2_3_1",
+  "seed": 16110069,
+  "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/100_2_3_1/16110069",
+  "sourceSHA256": "028bd5cc8b93d2b2a2fa1df6b4b0803d32434a268d4b75b37e29bc1cf0934353",
+  "extractedSHA256": "4c4f47fe54ef295cd38800e36ff4363e04afe8f5a2295475071fc5c9310e4ac2",
+  "backgroundSHA256": "d917b74efd9d4deeeeb939c7567b0c8492738c6e571b9d106f7d7d65ef7c1d63",
+  "beforeGlobalFE": 273560,
+  "afterGlobalFE": 278560,
+  "roleExecutionOrder": [
+    "MAKESPAN",
+    "CENTER",
+    "ENERGY",
+    "WORKER_COST"
+  ],
+  "pairs": [
+    {
+      "parentIndex": 0,
+      "childIndex": 0,
+      "childPaidByFE": 273561,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 1,
+      "childIndex": 1,
+      "childPaidByFE": 273562,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 2,
+      "childIndex": 2,
+      "childPaidByFE": 273563,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 3,
+      "childIndex": 3,
+      "childPaidByFE": 273564,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 4,
+      "childIndex": 4,
+      "childPaidByFE": 273565,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 5,
+      "childIndex": 5,
+      "childPaidByFE": 273566,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 6,
+      "childIndex": 6,
+      "childPaidByFE": 273567,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 7,
+      "childIndex": 7,
+      "childPaidByFE": 273568,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 8,
+      "childIndex": 8,
+      "childPaidByFE": 273569,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 9,
+      "childIndex": 9,
+      "childPaidByFE": 273570,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 10,
+      "childIndex": 10,
+      "childPaidByFE": 273571,
+      "role": "MAKESPAN",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 11,
+      "childIndex": 11,
+      "childPaidByFE": 273572,
+      "role": "MAKESPAN",
+      "family": 0,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 12,
+      "childIndex": 12,
+      "childPaidByFE": 273573,
+      "role": "MAKESPAN",
+      "family": 1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 13,
+      "childIndex": 13,
+      "childPaidByFE": 273574,
+      "role": "MAKESPAN",
+      "family": 2,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 14,
+      "childIndex": 14,
+      "childPaidByFE": 273575,
+      "role": "MAKESPAN",
+      "family": 3,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 15,
+      "childIndex": 750,
+      "childPaidByFE": 274311,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 16,
+      "childIndex": 751,
+      "childPaidByFE": 274312,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 17,
+      "childIndex": 752,
+      "childPaidByFE": 274313,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 18,
+      "childIndex": 753,
+      "childPaidByFE": 274314,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 19,
+      "childIndex": 754,
+      "childPaidByFE": 274315,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 20,
+      "childIndex": 755,
+      "childPaidByFE": 274316,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 21,
+      "childIndex": 756,
+      "childPaidByFE": 274317,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 22,
+      "childIndex": 757,
+      "childPaidByFE": 274318,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 23,
+      "childIndex": 758,
+      "childPaidByFE": 274319,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 24,
+      "childIndex": 759,
+      "childPaidByFE": 274320,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 25,
+      "childIndex": 760,
+      "childPaidByFE": 274321,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 26,
+      "childIndex": 761,
+      "childPaidByFE": 274322,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 27,
+      "childIndex": 762,
+      "childPaidByFE": 274323,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 28,
+      "childIndex": 763,
+      "childPaidByFE": 274324,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 29,
+      "childIndex": 764,
+      "childPaidByFE": 274325,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 30,
+      "childIndex": 765,
+      "childPaidByFE": 274326,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 31,
+      "childIndex": 766,
+      "childPaidByFE": 274327,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 32,
+      "childIndex": 767,
+      "childPaidByFE": 274328,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 33,
+      "childIndex": 768,
+      "childPaidByFE": 274329,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 34,
+      "childIndex": 769,
+      "childPaidByFE": 274330,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 35,
+      "childIndex": 770,
+      "childPaidByFE": 274331,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 36,
+      "childIndex": 771,
+      "childPaidByFE": 274332,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 37,
+      "childIndex": 772,
+      "childPaidByFE": 274333,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 38,
+      "childIndex": 773,
+      "childPaidByFE": 274334,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 39,
+      "childIndex": 774,
+      "childPaidByFE": 274335,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 40,
+      "childIndex": 775,
+      "childPaidByFE": 274336,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 41,
+      "childIndex": 776,
+      "childPaidByFE": 274337,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 42,
+      "childIndex": 777,
+      "childPaidByFE": 274338,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 43,
+      "childIndex": 778,
+      "childPaidByFE": 274339,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 44,
+      "childIndex": 779,
+      "childPaidByFE": 274340,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 45,
+      "childIndex": 780,
+      "childPaidByFE": 274341,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 46,
+      "childIndex": 781,
+      "childPaidByFE": 274342,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 47,
+      "childIndex": 782,
+      "childPaidByFE": 274343,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 48,
+      "childIndex": 783,
+      "childPaidByFE": 274344,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 49,
+      "childIndex": 784,
+      "childPaidByFE": 274345,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 50,
+      "childIndex": 785,
+      "childPaidByFE": 274346,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 51,
+      "childIndex": 786,
+      "childPaidByFE": 274347,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 52,
+      "childIndex": 787,
+      "childPaidByFE": 274348,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 53,
+      "childIndex": 788,
+      "childPaidByFE": 274349,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 54,
+      "childIndex": 789,
+      "childPaidByFE": 274350,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 55,
+      "childIndex": 790,
+      "childPaidByFE": 274351,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 56,
+      "childIndex": 791,
+      "childPaidByFE": 274352,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 57,
+      "childIndex": 792,
+      "childPaidByFE": 274353,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 58,
+      "childIndex": 793,
+      "childPaidByFE": 274354,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 59,
+      "childIndex": 794,
+      "childPaidByFE": 274355,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 60,
+      "childIndex": 795,
+      "childPaidByFE": 274356,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 61,
+      "childIndex": 796,
+      "childPaidByFE": 274357,
+      "role": "CENTER",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 62,
+      "childIndex": 797,
+      "childPaidByFE": 274358,
+      "role": "CENTER",
+      "family": 0,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 63,
+      "childIndex": 798,
+      "childPaidByFE": 274359,
+      "role": "CENTER",
+      "family": 0,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 64,
+      "childIndex": 799,
+      "childPaidByFE": 274360,
+      "role": "CENTER",
+      "family": 1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 65,
+      "childIndex": 800,
+      "childPaidByFE": 274361,
+      "role": "CENTER",
+      "family": 1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 66,
+      "childIndex": 801,
+      "childPaidByFE": 274362,
+      "role": "CENTER",
+      "family": 2,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 67,
+      "childIndex": 802,
+      "childPaidByFE": 274363,
+      "role": "CENTER",
+      "family": 2,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 68,
+      "childIndex": 803,
+      "childPaidByFE": 274364,
+      "role": "CENTER",
+      "family": 3,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 69,
+      "childIndex": 804,
+      "childPaidByFE": 274365,
+      "role": "CENTER",
+      "family": 3,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 70,
+      "childIndex": 3500,
+      "childPaidByFE": 277061,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 71,
+      "childIndex": 3501,
+      "childPaidByFE": 277062,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 72,
+      "childIndex": 3502,
+      "childPaidByFE": 277063,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 73,
+      "childIndex": 3503,
+      "childPaidByFE": 277064,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 74,
+      "childIndex": 3504,
+      "childPaidByFE": 277065,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 75,
+      "childIndex": 3505,
+      "childPaidByFE": 277066,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 76,
+      "childIndex": 3506,
+      "childPaidByFE": 277067,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 77,
+      "childIndex": 3507,
+      "childPaidByFE": 277068,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 78,
+      "childIndex": 3508,
+      "childPaidByFE": 277069,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 79,
+      "childIndex": 3509,
+      "childPaidByFE": 277070,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 80,
+      "childIndex": 3510,
+      "childPaidByFE": 277071,
+      "role": "ENERGY",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 81,
+      "childIndex": 3511,
+      "childPaidByFE": 277072,
+      "role": "ENERGY",
+      "family": 0,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 82,
+      "childIndex": 3512,
+      "childPaidByFE": 277073,
+      "role": "ENERGY",
+      "family": 1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 83,
+      "childIndex": 3513,
+      "childPaidByFE": 277074,
+      "role": "ENERGY",
+      "family": 2,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 84,
+      "childIndex": 3514,
+      "childPaidByFE": 277075,
+      "role": "ENERGY",
+      "family": 3,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 85,
+      "childIndex": 4250,
+      "childPaidByFE": 277811,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 86,
+      "childIndex": 4251,
+      "childPaidByFE": 277812,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 87,
+      "childIndex": 4252,
+      "childPaidByFE": 277813,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 88,
+      "childIndex": 4253,
+      "childPaidByFE": 277814,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 89,
+      "childIndex": 4254,
+      "childPaidByFE": 277815,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 90,
+      "childIndex": 4255,
+      "childPaidByFE": 277816,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 91,
+      "childIndex": 4256,
+      "childPaidByFE": 277817,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 92,
+      "childIndex": 4257,
+      "childPaidByFE": 277818,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 93,
+      "childIndex": 4258,
+      "childPaidByFE": 277819,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 94,
+      "childIndex": 4259,
+      "childPaidByFE": 277820,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 95,
+      "childIndex": 4260,
+      "childPaidByFE": 277821,
+      "role": "WORKER_COST",
+      "family": -1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 96,
+      "childIndex": 4261,
+      "childPaidByFE": 277822,
+      "role": "WORKER_COST",
+      "family": 0,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 97,
+      "childIndex": 4262,
+      "childPaidByFE": 277823,
+      "role": "WORKER_COST",
+      "family": 1,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 98,
+      "childIndex": 4263,
+      "childPaidByFE": 277824,
+      "role": "WORKER_COST",
+      "family": 2,
+      "source": "G",
+      "batch": 0
+    },
+    {
+      "parentIndex": 99,
+      "childIndex": 4264,
+      "childPaidByFE": 277825,
+      "role": "WORKER_COST",
+      "family": 3,
+      "source": "G",
+      "batch": 0
+    }
+  ],
+  "sharedFirstBatch": 0,
+  "duplicateFiltering": false,
+  "newSourceFE": 0,
+  "newDecoderCalls": 0,
+  "qualification": "Sequential role-first batches, not synchronously generated C100; all available by POST_GLOBAL A0"
+}

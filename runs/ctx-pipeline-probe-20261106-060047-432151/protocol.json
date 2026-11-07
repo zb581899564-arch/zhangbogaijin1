@@ -1,0 +1,25 @@
+{
+  "version": "CTX_GOM_PIPELINE_OBSERVATION-v1",
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+  "instance": "100_2_3_1",
+  "seed": 14910003,
+  "arms": [
+    "SHARE_CTX_GOM",
+    "UNIFORM_CTX_GOM"
+  ],
+  "choice": "First registered newseed;100instance has bothseeds roleHVvsIGD/Cconflict and strongPAgap, not best-outcome selection",
+  "scope": "Read-only whole500k stage/current/teacherarchive/modelview/programend/survivor and freshadmission snapshots; no algorithm switch or new selector",
+  "maximumActualFE": 2000000,
+  "runOrder": "SHARE frozen,SHARE observed,UNIFORM frozen,UNIFORM observed",
+  "acceptance": "Exact fullpaidSHA/finalfront/allpubliccheckpointfronts/initial100/stageFE and alluntimedsearchcounts match frozen full500k; identity and source proof. Any failure stops, no seed substitution",
+  "measures": "Per-cycle PRE/POSTQGS, localendpoint,200pool/100survivors, internal accepted-history archive and GOM views. HV/IGD+/C and perjobFMWsupport computed offline only",
+  "stops": "FixedCTX qualification/TIME/halfpoolingstops unchanged. Observation cannot establish causal improvement; any intervention needs new explicit preregistered pair protocol",
+  "observedTimeBoundary": "All observer cost included but not used for any same-time performance claim",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  },
+  "externalTransfers": false,
+  "goalAchieved": false
+}

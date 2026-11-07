@@ -1,0 +1,17 @@
+[
+  "-Xms32m",
+  "-Xmx2g",
+  "-Dresearch.li.v2=false",
+  "-Dresearch.common.initials=false",
+  "-Dresearch.personal.mode=OLDEST",
+  "-Dresearch.group.mode=FULL_ROLE",
+  "-Dresearch.reward.mode=GROUP",
+  "-Dresearch.batch.mode=ROLE_CROWD",
+  "-Dresearch.snapshot.mode=ANCHOR",
+  "-Dresearch.snapshot.audit=false",
+  "-Dresearch.memory.audit=false",
+  "-Dresearch.makespan.tie=STRICT",
+  "-Dresearch.pa.auditPaid=false",
+  "-Dresearch.pa.traceIdentity=false",
+  "-Dresearch.ctxGom.enabled=false"
+]

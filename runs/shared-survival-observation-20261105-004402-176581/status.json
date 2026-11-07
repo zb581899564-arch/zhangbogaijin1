@@ -1,0 +1,5 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "completed": [],
+  "error": "Exception in thread \"main\" java.lang.NoSuchMethodError: 'int org.uma.jmetal.util.research.search.SearchState.ledgerGroup(org.uma.jmetal.util.research.search.Direction)'\n\tat org.uma.jmetal.util.research.search.LocalSearch.improveInter(LocalSearch.java:25)\n\tat org.uma.jmetal.util.research.search.LocalSearch.improve(LocalSearch.java:22)\n\tat org.uma.jmetal.util.research.search.CanonicalHmopso.run(CanonicalHmopso.java:119)\n\tat org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)\n\tat research.dynamic.PddrIsolationRun.main(PddrIsolationRun.java:60)\n"
+}

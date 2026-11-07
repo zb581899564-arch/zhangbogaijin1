@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/source/scripts/extract.py", line 84, in <module>
+    p=argparse.ArgumentParser();p.add_argument('root', type=Path);args=p.parse_args();linux();main(args.root)
+                                                                                              ^^^^^^^^^^^^^^^
+  File "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/source/scripts/extract.py", line 55, in main
+    selected = share_sources(root)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/source/scripts/extract.py", line 31, in share_sources
+    assert p['family'] == w['family'] == frozen['family']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

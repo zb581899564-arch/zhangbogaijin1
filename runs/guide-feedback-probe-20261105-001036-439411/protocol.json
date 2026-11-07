@@ -1,0 +1,131 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    9760003,
+    9760033
+  ],
+  "modes": [
+    "GEN",
+    "ROLE_END",
+    "BATCH"
+  ],
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760003,
+      "arm": "GEN"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760003,
+      "arm": "ROLE_END"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760003,
+      "arm": "BATCH"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760033,
+      "arm": "ROLE_END"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760033,
+      "arm": "BATCH"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760033,
+      "arm": "GEN"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760003,
+      "arm": "ROLE_END"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760003,
+      "arm": "BATCH"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760003,
+      "arm": "GEN"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760033,
+      "arm": "BATCH"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760033,
+      "arm": "GEN"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760033,
+      "arm": "ROLE_END"
+    }
+  ],
+  "FEPerCell": 5100,
+  "hypothesis": "Earlier insertion of internally accepted schedules makes paid cross-role knowledge usable during QGS. Existing proposals, per-group acceptance, Q parameters, fixed families, compose rule and global order unchanged.",
+  "modesDescription": {
+    "GEN": "Original generation-end remember only",
+    "ROLE_END": "Also offer the final accepted personal histories after each role's 50 batches",
+    "BATCH": "Also offer accepted current states after each batch; rejected children never offered by this rule"
+  },
+  "provenance": "Exact four-vector first paid occurrence, not last snapshot-payment age. Captured for every selected guide; action2/new-guide/cross-role summaries separate.",
+  "gate": "On both instances median BATCH/GEN HV gain >=0.5%, BATCH/ROLE_END >=0, each seed >=20% new (non-initial) action2 guides after FE850; at least3/4 paired HV wins over GEN. Failure stops these timing rules; success merely authorizes a fresh500k closed-loop protocol.",
+  "searchFE": 61200,
+  "engineeringFE": 10200,
+  "scope": "Global-stage mechanism probe; no whole-run, time-advantage or novelty claim."
+}

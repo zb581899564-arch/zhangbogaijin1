@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_VERIFIED",
+  "withdrawnClaim": "Algorithm4 requires sharing crossover/mutation trigger random numbers",
+  "correctClaim": "six independent triggers r1-r6; crosses r1-r3; mutations r4-r6",
+  "evidence": [
+    "ESWA PDFp14 Algorithm4 lines4,21,24,27",
+    "thesis PDFp64 printedp52 Algorithm4-4 lines4,26,30,33"
+  ],
+  "newEvidence": [
+    "thesis PDFp58 printedp46 Algorithm4-1 lines14-15 confirms global-post/local-post union",
+    "thesis PDFp63 printedp51 and PDFp64 lines26-28 require FA mutation to resample MA/WA"
+  ],
+  "beforeCopies": [
+    "README.md",
+    "docs/NSGA-II差距原因审计-2026-11-02.md",
+    "docs/基线验收-v2.md",
+    "docs/主算法论文一致性审查.md"
+  ],
+  "newOptimizerRuns": 0,
+  "newFE": 0,
+  "searchSourceChanged": false
+}

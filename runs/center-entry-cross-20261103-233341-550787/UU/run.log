@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.IllegalArgumentException: Dynamic cache instance/parameter context differs
+	at org.uma.jmetal.util.research.model.DynamicContext.requireSame(DynamicContext.java:9)
+	at org.uma.jmetal.util.research.model.DynamicSchedule.validateContext(DynamicSchedule.java:78)
+	at org.uma.jmetal.util.research.search.CenterCrossSearch.validate(CenterCrossSearch.java:58)
+	at org.uma.jmetal.util.research.search.CenterCrossSearch.<init>(CenterCrossSearch.java:39)
+	at research.dynamic.CenterCrossRun.main(CenterCrossRun.java:37)

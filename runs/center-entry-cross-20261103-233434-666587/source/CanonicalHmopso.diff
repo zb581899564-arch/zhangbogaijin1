@@ -1,0 +1,25 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\CanonicalHmopso.java
++++ CanonicalHmopso.java
+@@ -114,15 +114,20 @@
+                 }
+             } else {
+                 for (Direction direction : Direction.values()) {
+-                    if (direction == Direction.CENTER)
++                    if (direction == Direction.CENTER) {
+                         ReverseAudit.run().phase("center-entry", updated.get(Direction.CENTER), reference);
++                        CenterEntryTrace.capture(updated.get(Direction.CENTER), reference);
++                    }
+                     for (Particle particle : updated.get(direction)) {
+                         state.observationGroup(direction);
+                         Direction preference = preference(direction);
+                         state.count("local.g" + direction.id() + ".preference." + preference.name());
+                         guarded.checkpoint();
+-                        offspring.add(local.improve(particle, preference, reference));
++                        Particle improved = local.improve(particle, preference, reference);
++                        offspring.add(improved);
++                        if (direction == Direction.CENTER) CenterEntryTrace.retained(improved);
+                     }
++                    if (direction == Direction.CENTER) CenterEntryTrace.finish();
+                     if (direction == Direction.MAKESPAN)
+                         ReverseAudit.run().phase("makespan-local-end", updated.get(Direction.CENTER), reference);
+                 }

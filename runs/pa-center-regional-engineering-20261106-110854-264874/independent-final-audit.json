@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "mode": "OFF",
+      "firstPhysicalModelNativeEqual": true,
+      "fullPaidTimelineAndPolicyReplayPassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "REGIONAL",
+      "firstPhysicalModelNativeEqual": true,
+      "fullPaidTimelineAndPolicyReplayPassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "NO_SPECIALIST",
+      "firstPhysicalModelNativeEqual": true,
+      "fullPaidTimelineAndPolicyReplayPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "OFF",
+      "firstPhysicalModelNativeEqual": true,
+      "fullPaidTimelineAndPolicyReplayPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "REGIONAL",
+      "firstPhysicalModelNativeEqual": true,
+      "fullPaidTimelineAndPolicyReplayPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "NO_SPECIALIST",
+      "firstPhysicalModelNativeEqual": true,
+      "fullPaidTimelineAndPolicyReplayPassed": true
+    }
+  ],
+  "runs": 30,
+  "attemptedFE": 199760,
+  "successfulFE": 199760,
+  "failedFE": 0,
+  "extraPaidTimelineQA": 199760,
+  "extraViewTimelineQA": 2400,
+  "nativeWholePaidTraceAndFrontEqual": true,
+  "initialTargetsAndEveryFirstCenterCutVerified": true,
+  "originalLearnAndNativeAcceptFunctionsUnchanged": true,
+  "allClassesInputsSourcesAndChargesVerified": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

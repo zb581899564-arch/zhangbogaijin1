@@ -1,0 +1,8 @@
+{
+  "recordedAt": "2026-11-04T23:20:45.544347",
+  "cause": "The Python mode wrapper overrides batch selection for every non-FORCE arm, including LI_MATCHED_DEEP; this control therefore has unintended ROLE_CROWD global survival. Detected from code, not control outcomes.",
+  "action": "Retain the two misconfigured controls and their FE; run two correctly forced Li controls in a separate corrected-li directory with identical inputs, seed, classpath and physical ledger. Do not rerun candidate cells or alter primary gates.",
+  "affectedControl": "LI_MATCHED_DEEP",
+  "notAffected": "Other method FE trajectories; the NSGA mode property is unused by its classical engine.",
+  "scientificLimit": "Corrected Li time order differs; direct same-FE comparison valid, timing not treated as randomized evidence."
+}

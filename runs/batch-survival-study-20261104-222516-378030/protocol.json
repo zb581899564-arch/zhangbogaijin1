@@ -1,0 +1,284 @@
+{
+  "candidate": "ROLE_CROWD",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    9280009,
+    9280039,
+    9280071
+  ],
+  "arms": [
+    "FORCE",
+    "ROLE_GREEDY",
+    "ROLE_RANK",
+    "ROLE_CROWD",
+    "ALL_CROWD",
+    "NSGA",
+    "LI_MATCHED_DEEP"
+  ],
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ROLE_RANK"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ROLE_CROWD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "ALL_CROWD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280009,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ROLE_RANK"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ROLE_CROWD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "ALL_CROWD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280039,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ROLE_RANK"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ROLE_CROWD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ALL_CROWD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9280071,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ROLE_RANK"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ROLE_CROWD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "ALL_CROWD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280009,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ROLE_RANK"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ROLE_CROWD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ALL_CROWD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280039,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ROLE_CROWD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ALL_CROWD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9280071,
+      "arm": "ROLE_RANK"
+    }
+  ],
+  "evidence": "Prior ROLE_GREEDY improved all six new-seed cells vs FORCE and Li-matched, but missed NSGA by ~3% in the many-stage instance. Explicit CENTER neutral-solution diversity is the next separate hypothesis.",
+  "mechanism": "Generate unchanged proposals for the whole QGS batch; preserve one survivor per original parent/lineage/family. Boundaries retain their objective-greedy comparison; CENTER uses nondomination rank then unique-objective normalized crowding in parents+children. Exact ties keep parent.",
+  "controls": "ROLE_RANK removes crowding; ALL_CROWD removes objective-specific boundary retention. FORCE and ROLE_GREEDY must reproduce old fixed-FE controls in engineering. No Q changes, new operators, probability tuning or quota changes. All successful children enter the paid result archive.",
+  "actualFEPerCell": 500000,
+  "totalSearchFE": 21000000,
+  "engineeringFE": 1000000,
+  "gate": "Each instance candidate median >=1% vs FORCE with 2/3 positive seeds; positive medians vs ROLE_GREEDY, ROLE_RANK and ALL_CROWD; no worse than -1% vs NSGA. If primary fails do not change seeds or thresholds.",
+  "time": "Primary4s/5s cuts explicitly captured, all common costs included; reference1.25/1.5/2 and IGD+ are safeguards.",
+  "LiIdentity": "LI_MATCHED_DEEP is v2-reconstructed QGS with a matched deep-LS enhancement, not the published author run."
+}

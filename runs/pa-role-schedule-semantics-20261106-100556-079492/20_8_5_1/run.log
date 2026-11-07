@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.IllegalStateException: Missing audit mode
+	at org.uma.jmetal.util.research.search.QgsLocalLedger.<init>(QgsLocalLedger.java:27)
+	at org.uma.jmetal.util.research.search.QgsLocalLedger.instance(QgsLocalLedger.java:41)
+	at org.uma.jmetal.util.research.search.LocalSearch.<init>(LocalSearch.java:16)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.<init>(CanonicalHmopso.java:70)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.<init>(CanonicalHmopso.java:52)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.<init>(CanonicalHmopso.java:47)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.<init>(CanonicalHmopso.java:41)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.<init>(CanonicalHmopso.java:35)
+	at org.uma.jmetal.util.research.modelglobal.PaRoleSemanticsRun.nativeOrder(PaRoleSemanticsRun.java:19)
+	at org.uma.jmetal.util.research.modelglobal.PaRoleSemanticsRun.main(PaRoleSemanticsRun.java:49)

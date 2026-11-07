@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "parentEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\sync-job-engineering-20261102-184456-772470",
+  "fixedFEChecks": [
+    {
+      "instance": "20_2_3_1",
+      "variant": "SO_JOB",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SYNC_JOB",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_JOB",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SO_JOB",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SYNC_JOB",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_JOB",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "NSGA",
+      "FE": 20000,
+      "observerOnOffByteExact": true,
+      "previousFrozenControl": true
+    }
+  ],
+  "FE0FeedbackAndSemanticChecks": true,
+  "PDDRAndFamilyQuotasReplayed": true,
+  "SYNCNoSharingVerified": true,
+  "timeInterruptions": [
+    "SO_JOB",
+    "SYNC_JOB",
+    "SHARE_JOB",
+    "NSGA"
+  ],
+  "initialValidationFailurePreserved": "0.3s may stop before completing first generation; interruption validation now accepts partial records; performance still requires complete generation",
+  "javaChangesSinceParent": false,
+  "strategyChanged": false,
+  "qualitySelectedParameters": false
+}

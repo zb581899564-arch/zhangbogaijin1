@@ -1,0 +1,344 @@
+{
+  "mainThreadCpuSamples": 114,
+  "searchCpuSamples": 111,
+  "truncatedSearchStacks": 0,
+  "topLeafMethods": [
+    {
+      "name": "java.lang.Integer.valueOf",
+      "samples": 17,
+      "pctOfSearchCpuSamples": 15.315315315315315
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>",
+      "samples": 12,
+      "pctOfSearchCpuSamples": 10.81081081081081
+    },
+    {
+      "name": "java.util.Arrays.copyOf",
+      "samples": 9,
+      "pctOfSearchCpuSamples": 8.108108108108109
+    },
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.integers",
+      "samples": 7,
+      "pctOfSearchCpuSamples": 6.306306306306307
+    },
+    {
+      "name": "org.uma.jmetal.util.research.classic.NsgaSelection.score",
+      "samples": 6,
+      "pctOfSearchCpuSamples": 5.405405405405405
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.AbstractGenericSolutionWithid.<init>",
+      "samples": 4,
+      "pctOfSearchCpuSamples": 3.6036036036036037
+    },
+    {
+      "name": "java.io.ObjectStreamClass$FieldReflector.getPrimFieldValues",
+      "samples": 4,
+      "pctOfSearchCpuSamples": 3.6036036036036037
+    },
+    {
+      "name": "java.io.ObjectInputStream$PeekInputStream.readFully",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 2.7027027027027026
+    },
+    {
+      "name": "org.uma.jmetal.util.research.classic.ClassicVariation.child",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject0",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicSchedule.<init>",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "java.lang.StringLatin1.hashCode",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "java.io.ObjectInputStream.readHandle",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.repair",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "java.util.Arrays.fill",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "java.io.ObjectOutputStream.writeString",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.8018018018018018
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "java.util.ArrayList.add",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "java.security.AccessController.doPrivileged",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "java.io.ObjectStreamClass.getField",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "java.io.ObjectOutputStream$BlockDataOutputStream.writeDoubles",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicDecoder.commonPrefix",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.SearchState.count",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.IntraNeighborhoods.permute",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.AbstractGenericSolutionWithid.setAttribute",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.9009009009009009
+    }
+  ],
+  "topInclusiveMethods": [
+    {
+      "name": "org.uma.jmetal.util.research.classic.ClassicAlgorithm.run",
+      "samples": 111,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.RunContext.run",
+      "samples": 111,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "research.dynamic.PddrIsolationRun.main",
+      "samples": 111,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.classic.ClassicAlgorithm.runNsga",
+      "samples": 110,
+      "pctOfSearchCpuSamples": 99.09909909909909
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.DeepLocalVisits.improve",
+      "samples": 96,
+      "pctOfSearchCpuSamples": 86.48648648648648
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.improve",
+      "samples": 96,
+      "pctOfSearchCpuSamples": 86.48648648648648
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.improveIntra",
+      "samples": 95,
+      "pctOfSearchCpuSamples": 85.58558558558559
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.vns",
+      "samples": 94,
+      "pctOfSearchCpuSamples": 84.68468468468468
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.evaluateNeighborhood",
+      "samples": 93,
+      "pctOfSearchCpuSamples": 83.78378378378379
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.descent",
+      "samples": 80,
+      "pctOfSearchCpuSamples": 72.07207207207207
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.SearchState.evaluate",
+      "samples": 63,
+      "pctOfSearchCpuSamples": 56.75675675675676
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate",
+      "samples": 52,
+      "pctOfSearchCpuSamples": 46.846846846846844
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.SolutionSnapshots.copy",
+      "samples": 30,
+      "pctOfSearchCpuSamples": 27.027027027027028
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive.addEvaluated",
+      "samples": 30,
+      "pctOfSearchCpuSamples": 27.027027027027028
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.IntraNeighborhoods.propose",
+      "samples": 30,
+      "pctOfSearchCpuSamples": 27.027027027027028
+    },
+    {
+      "name": "java.lang.reflect.Method.invoke",
+      "samples": 21,
+      "pctOfSearchCpuSamples": 18.91891891891892
+    },
+    {
+      "name": "jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke",
+      "samples": 21,
+      "pctOfSearchCpuSamples": 18.91891891891892
+    },
+    {
+      "name": "org.uma.jmetal.util.research.DynamicEvaluation.evaluate",
+      "samples": 21,
+      "pctOfSearchCpuSamples": 18.91891891891892
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.copy",
+      "samples": 21,
+      "pctOfSearchCpuSamples": 18.91891891891892
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>",
+      "samples": 21,
+      "pctOfSearchCpuSamples": 18.91891891891892
+    },
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.repair",
+      "samples": 19,
+      "pctOfSearchCpuSamples": 17.117117117117118
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.ParetoTools.copy",
+      "samples": 19,
+      "pctOfSearchCpuSamples": 17.117117117117118
+    },
+    {
+      "name": "java.io.ObjectInputStream.readOrdinaryObject",
+      "samples": 17,
+      "pctOfSearchCpuSamples": 15.315315315315315
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject",
+      "samples": 17,
+      "pctOfSearchCpuSamples": 15.315315315315315
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject0",
+      "samples": 17,
+      "pctOfSearchCpuSamples": 15.315315315315315
+    }
+  ],
+  "searchAllocationSamples": 4171,
+  "sampledAllocationWeightBytes": 18180794800,
+  "topSampledAllocationWeights": [
+    {
+      "class": "[Ljava.lang.Object;",
+      "weightBytes": 5287077800
+    },
+    {
+      "class": "[B",
+      "weightBytes": 4553122088
+    },
+    {
+      "class": "[I",
+      "weightBytes": 2859728384
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicStep",
+      "weightBytes": 2699865048
+    },
+    {
+      "class": "[D",
+      "weightBytes": 978579384
+    },
+    {
+      "class": "java.util.ArrayList",
+      "weightBytes": 309204576
+    },
+    {
+      "class": "[Ljava.io.ObjectInputStream$FieldValues;",
+      "weightBytes": 221061656
+    },
+    {
+      "class": "java.lang.String",
+      "weightBytes": 214485848
+    },
+    {
+      "class": "java.util.HashMap",
+      "weightBytes": 176817240
+    },
+    {
+      "class": "java.io.ObjectStreamClass",
+      "weightBytes": 161293152
+    },
+    {
+      "class": "java.util.ArrayList$Itr",
+      "weightBytes": 126425240
+    },
+    {
+      "class": "java.util.HashMap$Node",
+      "weightBytes": 98157856
+    },
+    {
+      "class": "[Ljava.util.HashMap$Node;",
+      "weightBytes": 59212864
+    },
+    {
+      "class": "[[[D",
+      "weightBytes": 52846224
+    },
+    {
+      "class": "java.io.ObjectInputStream$FieldValues",
+      "weightBytes": 51688424
+    },
+    {
+      "class": "[Z",
+      "weightBytes": 51273528
+    },
+    {
+      "class": "[Ljava.io.ObjectInputStream$HandleTable$HandleList;",
+      "weightBytes": 48592944
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicSchedule",
+      "weightBytes": 38190424
+    },
+    {
+      "class": "[[D",
+      "weightBytes": 31387840
+    },
+    {
+      "class": "java.util.Collections$UnmodifiableRandomAccessList",
+      "weightBytes": 29296480
+    }
+  ],
+  "scope": "Sampled evidence, not exact method timers or total allocated bytes. CPU percentages conditioned on main-thread samples containing RunContext.run; inclusive percentages overlap. Startup and return QA excluded by stack, except inlining/truncation can make some samples unclassifiable. Not an algorithm performance comparison."
+}

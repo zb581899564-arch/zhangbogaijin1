@@ -1,0 +1,32 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "actualFEPerArm": 500000,
+  "order": [
+    "CURRENT",
+    "POOLED_ELITE",
+    "OWN_HISTORY",
+    "NSGA"
+  ],
+  "evidence": "role-relay-probe-20261104-205118-226005: four SPECIAL relay tasks failed; ordinary elite restarts, not role labels, showed a CENTER signal. Test local launch origin.",
+  "scope": "Only free particles change local start, 20 fixed-family particles and sharing stay. Existing personal history vs original QGS current, with pooled paid-elite ordinary control. Same strict role comparison, no new neighborhood/acceptance/Q rule or budget changes.",
+  "gate": "OWN_HISTORY >=1% terminal HV over CURRENT, positive vs POOLED_ELITE, no worse than -1% vs matched NSGA. Otherwise end this rule; no alternate thresholds or seeds to rescue.",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  }
+}

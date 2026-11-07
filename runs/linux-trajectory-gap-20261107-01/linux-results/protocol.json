@@ -1,0 +1,28 @@
+{
+  "version": "TRAJECTORY_GAP_READONLY_V1",
+  "instance": "100_2_3_1",
+  "seed": 14910003,
+  "arms": [
+    "SHARE_CTX_GOM",
+    "NSGA_CTX_GOM",
+    "PA_JOINT"
+  ],
+  "captureFEPerArm": 500000,
+  "engineeringFEPerArm": 30000,
+  "maximumActualSearchFEIncludingEngineering": 1590000,
+  "maximumAutomaticCheckpointQA": 60000,
+  "execution": "Linux JDK17 --release8; single JVM sequential nice10; no time superiority claim",
+  "precondition": "Step1 existing fronts; shared initial100; unchanged base class hashes",
+  "observerAcceptance": "First30000 paid digest against original search; all old public checkpoints and paid representative genomes",
+  "graphMeaning": "Exact four-vector/objective schedule reuse; not object lineage or causal credit",
+  "observation": "Every paid candidate, archive admission, GOM/PA acceptance, program and working population ends",
+  "scientificLimits": [
+    "One existing instance and seed",
+    "Known 200-to100 selection loss already unsupported",
+    "No donor ratio, request weighting, family refresh, pruned edit transfer, or regional preference repeat"
+  ],
+  "step3Gate": "Only a concrete untested program difference with a falsifiable ordinary control warrants a separately frozen micro-test; otherwise stop and state limits",
+  "mainlineChanged": false,
+  "newSeeds": false,
+  "defaultBackgroundExperiments": false
+}

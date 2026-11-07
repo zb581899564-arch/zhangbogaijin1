@@ -1,0 +1,19 @@
+{
+  "attemptedFE": 7176,
+  "expectedFailures": 2,
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "requestIndex": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "requestIndex": 0
+    }
+  ],
+  "perCase": "ROLE/REQUEST/ORDINARY/SHUFFLED each512; REQUEST repeat512 and observationOff512; REQUEST cut1/2/511; failure2",
+  "aggregation": "Median of three request-paired effects within each source seed, then median/range/signs across three source seeds",
+  "noScienceBeforeIndependentEngineeringAudit": true
+}

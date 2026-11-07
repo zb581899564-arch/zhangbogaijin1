@@ -1,0 +1,133 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "informativeParents": 28,
+      "totalParents": 48,
+      "candidateWinsVsWithin": 11,
+      "meanSingleAddedHV": {
+        "WITHIN": 7.148325432348254e-06,
+        "SHARED": 3.7512625478620536e-06,
+        "RANDOM_SHARED": 4.641466691520528e-06,
+        "INITIAL_SHARED": 9.35782708582116e-07
+      },
+      "candidateEffectsPct": {
+        "WITHIN": -47.52249903331908,
+        "RANDOM_SHARED": -19.179371582796957,
+        "INITIAL_SHARED": 300.8689745449465
+      },
+      "groupedMeans": [
+        {
+          "key": "seed",
+          "value": 11730007,
+          "WITHIN": 8.127993253415357e-07,
+          "SHARED": 6.391595280583971e-06,
+          "RANDOM_SHARED": 8.073433323490253e-06,
+          "INITIAL_SHARED": 9.391733902394598e-07
+        },
+        {
+          "key": "seed",
+          "value": 11730037,
+          "WITHIN": 1.3483851539354972e-05,
+          "SHARED": 1.1109298151401362e-06,
+          "RANDOM_SHARED": 1.2095000595508034e-06,
+          "INITIAL_SHARED": 9.323920269247722e-07
+        },
+        {
+          "key": "step",
+          "value": 0,
+          "WITHIN": 6.980699089509008e-07,
+          "SHARED": 1.4844897388445952e-06,
+          "RANDOM_SHARED": 4.100740645333217e-06,
+          "INITIAL_SHARED": 1.4087600853591897e-06
+        },
+        {
+          "key": "step",
+          "value": 24,
+          "WITHIN": 1.553460744629727e-05,
+          "SHARED": 6.837910070919837e-07,
+          "RANDOM_SHARED": 9.297275605533202e-07,
+          "INITIAL_SHARED": 7.483124862106654e-07
+        },
+        {
+          "key": "step",
+          "value": 49,
+          "WITHIN": 5.212298941796593e-06,
+          "SHARED": 9.085506897649582e-06,
+          "RANDOM_SHARED": 8.893931868675045e-06,
+          "INITIAL_SHARED": 6.50275554176493e-07
+        }
+      ],
+      "medianCallCostVsWithin": 1.0568352794398463,
+      "qualityGate": false,
+      "necessaryCostGate": true,
+      "independentHVCheckMaxError": 3.9107511174731047e-17,
+      "scope": "Reused source seeds, exact pre-batch archive. New offspring and same fixed recipient; only free parents. No whole-loop, same-time, four-role specificity or novelty conclusion. Score costs actually recomputed per8-child batch."
+    },
+    {
+      "stem": "100_2_3_1",
+      "informativeParents": 21,
+      "totalParents": 48,
+      "candidateWinsVsWithin": 4,
+      "meanSingleAddedHV": {
+        "WITHIN": 5.238081866170583e-07,
+        "SHARED": 7.546964367872716e-07,
+        "RANDOM_SHARED": 7.756054731849754e-06,
+        "INITIAL_SHARED": 3.3788342553660124e-07
+      },
+      "candidateEffectsPct": {
+        "WITHIN": 44.07877846686068,
+        "RANDOM_SHARED": -90.26958340445745,
+        "INITIAL_SHARED": 123.36000518188163
+      },
+      "groupedMeans": [
+        {
+          "key": "seed",
+          "value": 11730007,
+          "WITHIN": 4.641745268545975e-07,
+          "SHARED": 6.482476877067062e-07,
+          "RANDOM_SHARED": 6.16760717172249e-06,
+          "INITIAL_SHARED": 2.5491785974602313e-07
+        },
+        {
+          "key": "seed",
+          "value": 11730037,
+          "WITHIN": 5.834418463795193e-07,
+          "SHARED": 8.611451858678369e-07,
+          "RANDOM_SHARED": 9.344502291977021e-06,
+          "INITIAL_SHARED": 4.2084899132717935e-07
+        },
+        {
+          "key": "step",
+          "value": 0,
+          "WITHIN": 0.0,
+          "SHARED": 0.0,
+          "RANDOM_SHARED": 4.768031469571769e-06,
+          "INITIAL_SHARED": 0.0
+        },
+        {
+          "key": "step",
+          "value": 24,
+          "WITHIN": 3.698043070167908e-07,
+          "SHARED": 7.878288744472516e-07,
+          "RANDOM_SHARED": 1.7387262989291604e-05,
+          "INITIAL_SHARED": 1.2791061076128434e-07
+        },
+        {
+          "key": "step",
+          "value": 49,
+          "WITHIN": 1.2016202528343843e-06,
+          "SHARED": 1.4762604359145634e-06,
+          "RANDOM_SHARED": 1.1128697366858962e-06,
+          "INITIAL_SHARED": 8.857396658485193e-07
+        }
+      ],
+      "medianCallCostVsWithin": 0.9776346188828339,
+      "qualityGate": false,
+      "necessaryCostGate": true,
+      "independentHVCheckMaxError": 0.0,
+      "scope": "Reused source seeds, exact pre-batch archive. New offspring and same fixed recipient; only free parents. No whole-loop, same-time, four-role specificity or novelty conclusion. Score costs actually recomputed per8-child batch."
+    }
+  ],
+  "worthFreshClosedLoop": false
+}

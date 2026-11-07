@@ -1,0 +1,41 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "anchor": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\dynamic-reverse-ledger-20261103-231754-095093",
+  "entryFE": 70132,
+  "endFE": 309927,
+  "phaseFE": 239795,
+  "cells": [
+    "UU",
+    "US",
+    "SU",
+    "SS"
+  ],
+  "rng": "Restore the same UNIFORM actual Java Random state at each corresponding physical slot; candidate paths and within-slot draw counts can diverge",
+  "primary": "End-of-stage HV gain from retained local endpoints against the common entry background",
+  "secondary": "HV of all paid discoveries and paired decision changes for the same candidate/incumbent",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "hvReferences": [
+    1.25,
+    1.5,
+    2.0
+  ],
+  "scope": "single phase and seed; frozen family constraints; no QGS or post-local selection in crossed stage"
+}

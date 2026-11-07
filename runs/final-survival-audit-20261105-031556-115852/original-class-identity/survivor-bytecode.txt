@@ -1,0 +1,377 @@
+Compiled from "SurvivorSelection.java"
+final class org.uma.jmetal.util.research.search.SurvivorSelection {
+  private org.uma.jmetal.util.research.search.SurvivorSelection();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  static org.uma.jmetal.util.research.search.SurvivorSelection$Result select(java.util.List<org.uma.jmetal.util.research.search.Particle>, int, org.uma.jmetal.util.research.search.SwarmSupport, java.lang.Runnable);
+    Code:
+       0: aload_0
+       1: ldc           #7                  // String candidates
+       3: invokestatic  #9                  // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+       6: pop
+       7: aload_3
+       8: ldc           #15                 // String checkpoint
+      10: invokestatic  #9                  // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+      13: checkcast     #17                 // class java/lang/Runnable
+      16: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+      21: iload_1
+      22: iflt          35
+      25: iload_1
+      26: aload_0
+      27: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+      32: if_icmple     62
+      35: new           #28                 // class java/lang/IllegalArgumentException
+      38: dup
+      39: new           #30                 // class java/lang/StringBuilder
+      42: dup
+      43: invokespecial #32                 // Method java/lang/StringBuilder."<init>":()V
+      46: ldc           #33                 // String Invalid survivor count:
+      48: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      51: iload_1
+      52: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      55: invokevirtual #42                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      58: invokespecial #46                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      61: athrow
+      62: new           #49                 // class java/util/ArrayList
+      65: dup
+      66: invokespecial #51                 // Method java/util/ArrayList."<init>":()V
+      69: astore        4
+      71: aload_0
+      72: invokeinterface #52,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      77: astore        5
+      79: aload         5
+      81: invokeinterface #56,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+      86: ifeq          131
+      89: aload         5
+      91: invokeinterface #62,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      96: checkcast     #66                 // class org/uma/jmetal/util/research/search/Particle
+      99: astore        6
+     101: aload_3
+     102: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+     107: aload         4
+     109: aload         6
+     111: ldc           #68                 // String candidate
+     113: invokestatic  #9                  // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+     116: checkcast     #66                 // class org/uma/jmetal/util/research/search/Particle
+     119: getfield      #70                 // Field org/uma/jmetal/util/research/search/Particle.current:Lorg/uma/jmetal/solution/PermutationSolution;
+     122: invokeinterface #74,  2           // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     127: pop
+     128: goto          79
+     131: aload_2
+     132: ifnonnull     139
+     135: aconst_null
+     136: goto          145
+     139: aload_2
+     140: invokeinterface #78,  1           // InterfaceMethod org/uma/jmetal/util/research/search/SwarmSupport.selectionQuotas:()[I
+     145: astore        5
+     147: aload         5
+     149: ifnull        162
+     152: aload         5
+     154: invokevirtual #84                 // Method "[I".clone:()Ljava/lang/Object;
+     157: checkcast     #85                 // class "[I"
+     160: astore        5
+     162: aload         5
+     164: ifnonnull     171
+     167: aconst_null
+     168: goto          181
+     171: aload         4
+     173: aload_2
+     174: aload         5
+     176: iload_1
+     177: aload_3
+     178: invokestatic  #89                 // Method categories:(Ljava/util/List;Lorg/uma/jmetal/util/research/search/SwarmSupport;[IILjava/lang/Runnable;)[I
+     181: astore        6
+     183: aload_3
+     184: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+     189: aload         4
+     191: invokestatic  #95                 // Method org/uma/jmetal/util/research/search/ParetoTools.fitness:(Ljava/util/List;)[D
+     194: astore        7
+     196: aload_3
+     197: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+     202: new           #49                 // class java/util/ArrayList
+     205: dup
+     206: invokespecial #51                 // Method java/util/ArrayList."<init>":()V
+     209: astore        8
+     211: iconst_0
+     212: istore        9
+     214: iload         9
+     216: aload_0
+     217: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+     222: if_icmpge     244
+     225: aload         8
+     227: iload         9
+     229: invokestatic  #101                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     232: invokeinterface #74,  2           // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     237: pop
+     238: iinc          9, 1
+     241: goto          214
+     244: aload         8
+     246: aload         7
+     248: invokedynamic #107,  0            // InvokeDynamic #0:applyAsDouble:([D)Ljava/util/function/ToDoubleFunction;
+     253: invokestatic  #111                // InterfaceMethod java/util/Comparator.comparingDouble:(Ljava/util/function/ToDoubleFunction;)Ljava/util/Comparator;
+     256: invokeinterface #117,  2          // InterfaceMethod java/util/List.sort:(Ljava/util/Comparator;)V
+     261: aload_3
+     262: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+     267: aload         5
+     269: ifnonnull     276
+     272: aconst_null
+     273: goto          281
+     276: aload         5
+     278: arraylength
+     279: newarray       int
+     281: astore        9
+     283: new           #49                 // class java/util/ArrayList
+     286: dup
+     287: invokespecial #51                 // Method java/util/ArrayList."<init>":()V
+     290: astore        10
+     292: iload_1
+     293: newarray       int
+     295: astore        11
+     297: aload         8
+     299: invokeinterface #52,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     304: astore        12
+     306: aload         12
+     308: invokeinterface #56,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+     313: ifeq          429
+     316: aload         12
+     318: invokeinterface #62,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     323: checkcast     #102                // class java/lang/Integer
+     326: invokevirtual #121                // Method java/lang/Integer.intValue:()I
+     329: istore        13
+     331: aload_3
+     332: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+     337: aload         10
+     339: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+     344: iload_1
+     345: if_icmpne     351
+     348: goto          429
+     351: aload         9
+     353: ifnull        378
+     356: aload         9
+     358: aload         6
+     360: iload         13
+     362: iaload
+     363: iaload
+     364: aload         5
+     366: aload         6
+     368: iload         13
+     370: iaload
+     371: iaload
+     372: if_icmpne     378
+     375: goto          306
+     378: aload         11
+     380: aload         10
+     382: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+     387: iload         13
+     389: iastore
+     390: aload         10
+     392: aload_0
+     393: iload         13
+     395: invokeinterface #124,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     400: checkcast     #66                 // class org/uma/jmetal/util/research/search/Particle
+     403: invokeinterface #74,  2           // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     408: pop
+     409: aload         9
+     411: ifnull        426
+     414: aload         9
+     416: aload         6
+     418: iload         13
+     420: iaload
+     421: dup2
+     422: iaload
+     423: iconst_1
+     424: iadd
+     425: iastore
+     426: goto          306
+     429: aload         10
+     431: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+     436: iload_1
+     437: if_icmpeq     450
+     440: new           #128                // class java/lang/IllegalStateException
+     443: dup
+     444: ldc           #130                // String Validated survivor capacity was not filled
+     446: invokespecial #132                // Method java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+     449: athrow
+     450: new           #133                // class org/uma/jmetal/util/research/search/SurvivorSelection$Result
+     453: dup
+     454: aload         10
+     456: aload         11
+     458: aload         7
+     460: aload         6
+     462: aload         5
+     464: aconst_null
+     465: invokespecial #135                // Method org/uma/jmetal/util/research/search/SurvivorSelection$Result."<init>":(Ljava/util/List;[I[D[I[ILorg/uma/jmetal/util/research/search/SurvivorSelection$1;)V
+     468: areturn
+
+  private static int[] categories(java.util.List<org.uma.jmetal.solution.PermutationSolution<java.lang.Integer>>, org.uma.jmetal.util.research.search.SwarmSupport, int[], int, java.lang.Runnable);
+    Code:
+       0: aload_2
+       1: arraylength
+       2: ifne          15
+       5: new           #28                 // class java/lang/IllegalArgumentException
+       8: dup
+       9: ldc           #138                // String Selection quotas must contain a category
+      11: invokespecial #46                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      14: athrow
+      15: lconst_0
+      16: lstore        5
+      18: aload_2
+      19: astore        7
+      21: aload         7
+      23: arraylength
+      24: istore        8
+      26: iconst_0
+      27: istore        9
+      29: iload         9
+      31: iload         8
+      33: if_icmpge     72
+      36: aload         7
+      38: iload         9
+      40: iaload
+      41: istore        10
+      43: iload         10
+      45: ifge          58
+      48: new           #28                 // class java/lang/IllegalArgumentException
+      51: dup
+      52: ldc           #140                // String Negative selection quota
+      54: invokespecial #46                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      57: athrow
+      58: lload         5
+      60: iload         10
+      62: i2l
+      63: ladd
+      64: lstore        5
+      66: iinc          9, 1
+      69: goto          29
+      72: lload         5
+      74: iload_3
+      75: i2l
+      76: lcmp
+      77: ifeq          117
+      80: new           #28                 // class java/lang/IllegalArgumentException
+      83: dup
+      84: new           #30                 // class java/lang/StringBuilder
+      87: dup
+      88: invokespecial #32                 // Method java/lang/StringBuilder."<init>":()V
+      91: ldc           #142                // String Selection quotas sum to
+      93: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      96: lload         5
+      98: invokevirtual #144                // Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+     101: ldc           #147                // String , expected
+     103: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     106: iload_3
+     107: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     110: invokevirtual #42                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     113: invokespecial #46                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     116: athrow
+     117: aload_0
+     118: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+     123: newarray       int
+     125: astore        7
+     127: aload_2
+     128: arraylength
+     129: newarray       int
+     131: astore        8
+     133: iconst_0
+     134: istore        9
+     136: iload         9
+     138: aload_0
+     139: invokeinterface #22,  1           // InterfaceMethod java/util/List.size:()I
+     144: if_icmpge     245
+     147: aload         4
+     149: invokeinterface #19,  1           // InterfaceMethod java/lang/Runnable.run:()V
+     154: aload_1
+     155: aload_0
+     156: iload         9
+     158: invokeinterface #124,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     163: checkcast     #149                // class org/uma/jmetal/solution/PermutationSolution
+     166: invokeinterface #151,  2          // InterfaceMethod org/uma/jmetal/util/research/search/SwarmSupport.selectionCategory:(Lorg/uma/jmetal/solution/PermutationSolution;)I
+     171: istore        10
+     173: iload         10
+     175: iflt          185
+     178: iload         10
+     180: aload_2
+     181: arraylength
+     182: if_icmplt     223
+     185: new           #28                 // class java/lang/IllegalArgumentException
+     188: dup
+     189: new           #30                 // class java/lang/StringBuilder
+     192: dup
+     193: invokespecial #32                 // Method java/lang/StringBuilder."<init>":()V
+     196: ldc           #155                // String Invalid selection category
+     198: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     201: iload         10
+     203: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     206: ldc           #157                // String  at candidate
+     208: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     211: iload         9
+     213: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     216: invokevirtual #42                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     219: invokespecial #46                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     222: athrow
+     223: aload         7
+     225: iload         9
+     227: iload         10
+     229: iastore
+     230: aload         8
+     232: iload         10
+     234: dup2
+     235: iaload
+     236: iconst_1
+     237: iadd
+     238: iastore
+     239: iinc          9, 1
+     242: goto          136
+     245: iconst_0
+     246: istore        9
+     248: iload         9
+     250: aload_2
+     251: arraylength
+     252: if_icmpge     326
+     255: aload         8
+     257: iload         9
+     259: iaload
+     260: aload_2
+     261: iload         9
+     263: iaload
+     264: if_icmpge     320
+     267: new           #28                 // class java/lang/IllegalArgumentException
+     270: dup
+     271: new           #30                 // class java/lang/StringBuilder
+     274: dup
+     275: invokespecial #32                 // Method java/lang/StringBuilder."<init>":()V
+     278: ldc           #159                // String Insufficient candidates in category
+     280: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     283: iload         9
+     285: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     288: ldc           #161                // String :
+     290: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     293: aload         8
+     295: iload         9
+     297: iaload
+     298: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     301: ldc           #163                // String  <
+     303: invokevirtual #35                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     306: aload_2
+     307: iload         9
+     309: iaload
+     310: invokevirtual #39                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+     313: invokevirtual #42                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     316: invokespecial #46                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     319: athrow
+     320: iinc          9, 1
+     323: goto          248
+     326: aload         7
+     328: areturn
+
+  private static double lambda$select$0(double[], java.lang.Integer);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #121                // Method java/lang/Integer.intValue:()I
+       5: daload
+       6: dreturn
+}

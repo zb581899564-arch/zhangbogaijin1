@@ -1,0 +1,11 @@
+G:\ai\limingzhegaijin\张博改进\src\algorithms\classic\ClassicVariation.java:43: 错误: 找不到符号
+            child.setVariableValuemachine(p, genes[j][1]);
+                 ^
+  符号:   方法 setVariableValuemachine(int,int)
+  位置: 类型为PermutationSolution<Integer>的变量 child
+G:\ai\limingzhegaijin\张博改进\src\algorithms\classic\ClassicVariation.java:70: 错误: 找不到符号
+            genes[job][1] = solution.getVariableValuemachine(p);
+                                    ^
+  符号:   方法 getVariableValuemachine(int)
+  位置: 类型为PermutationSolution<Integer>的变量 solution
+2 个错误

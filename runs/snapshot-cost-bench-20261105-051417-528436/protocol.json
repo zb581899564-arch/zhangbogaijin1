@@ -1,0 +1,166 @@
+{
+  "engineeringSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-anchor-audit-20261105-051047-172151",
+  "trajectorySource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\makespan-tie-screen-20261105-025223-471920",
+  "seed": 10950003,
+  "repeats": 3,
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "methods": [
+    "STRICT_FULL",
+    "NSGA_STRICT"
+  ],
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "rep": 0,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "rep": 0,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "rep": 0,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "rep": 0,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "rep": 0,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "rep": 0,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "rep": 0,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "rep": 0,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "rep": 1,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "rep": 1,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "rep": 1,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "rep": 1,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "rep": 1,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "rep": 1,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "rep": 1,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "rep": 1,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "rep": 2,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "rep": 2,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "rep": 2,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "rep": 2,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "rep": 2,
+      "mode": "SERIAL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "rep": 2,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "rep": 2,
+      "mode": "ANCHOR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "rep": 2,
+      "mode": "SERIAL"
+    }
+  ],
+  "plannedSuccessfulFE": 12000000,
+  "measurement": "Separate JVM per run, unchangedXms32m/Xmx2g. Both paid digest and copy timing disabled. Same500000FE trajectory, physics, initial vectors, physical ledger and source kernel. Methods and snapshot mode pair orders counterbalanced before results.",
+  "acceptance": "All24 runs500000successful/0failed and reproduce frozen FE fronts, final genomes, initial population, ledger, search counts and decoder operations; metrics disabled.",
+  "costGate": "For EACH algorithm median speedup across its6 pairs>=1.05, no per-instance3-repeat median speedup<0.98. All required for shared-cost promotion; failure does not trigger extra repeats.",
+  "next": "Only a shared cost pass allows a separate trueTIME_LIMIT comparison. Even a speed pass cannot promote unchanged same-FE algorithm quality or substitute for scientific contribution gates.",
+  "preserved": "No production changes, no new operator/learning/sharing selector/cap, no external transfer."
+}

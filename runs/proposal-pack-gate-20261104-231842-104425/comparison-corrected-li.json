@@ -1,0 +1,274 @@
+[
+  {
+    "stem": "20_8_5_1",
+    "metrics": {
+      "FORCE": {
+        "HV": {
+          "1.25": 0.15691513881796879,
+          "1.5": 0.5201347971483244,
+          "2": 2.2841982583603277
+        },
+        "timeHV": 0.49099064699395656,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "BASE": {
+        "HV": {
+          "1.25": 0.16267766072443746,
+          "1.5": 0.5325764017447193,
+          "2": 2.3168587224514336
+        },
+        "timeHV": 0.5102868618157559,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "JA_PAIR": {
+        "HV": {
+          "1.25": 0.15991419414151586,
+          "1.5": 0.5260552511380479,
+          "2": 2.29800523123615
+        },
+        "timeHV": 0.4962502689749191,
+        "pack": {
+          "mode": "JA_PAIR",
+          "counts": {
+            "first.JOB_ALIGNED": 750,
+            "second.JOB_ALIGNED": 750,
+            "secondWon": 344,
+            "firstWonOrTied": 406
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "CG_PAIR": {
+        "HV": {
+          "1.25": 0.159732015918953,
+          "1.5": 0.5253039424012925,
+          "2": 2.295181939600995
+        },
+        "timeHV": 0.49702895117747337,
+        "pack": {
+          "mode": "CG_PAIR",
+          "counts": {
+            "first.CLASSIC_GLOBAL": 750,
+            "second.CLASSIC_GLOBAL": 750,
+            "secondWon": 376,
+            "firstWonOrTied": 374
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "MIX_PAIR": {
+        "HV": {
+          "1.25": 0.15918775619406064,
+          "1.5": 0.52459640401932,
+          "2": 2.295561117298488
+        },
+        "timeHV": 0.5081775481829751,
+        "pack": {
+          "mode": "MIX_PAIR",
+          "counts": {
+            "first.JOB_ALIGNED": 750,
+            "second.CLASSIC_GLOBAL": 750,
+            "secondWon": 234,
+            "firstWonOrTied": 516
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "CG_SINGLE": {
+        "HV": {
+          "1.25": 0.1624787347906717,
+          "1.5": 0.5313556261861537,
+          "2": 2.3116259091964153
+        },
+        "timeHV": 0.5032790525079904,
+        "pack": {
+          "mode": "CG_SINGLE",
+          "counts": {
+            "first.CLASSIC_GLOBAL": 1500
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.16596751456599695,
+          "1.5": 0.5387624960262051,
+          "2": 2.3309070688632314
+        },
+        "timeHV": 0.5131818966377899,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.15007463603455873,
+          "1.5": 0.5022452405060179,
+          "2": 2.229789837564459
+        },
+        "timeHV": 0.4892175451019012,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      }
+    },
+    "mixEffectsPct": {
+      "FORCE": 0.8577789633488431,
+      "BASE": -1.4983761389458672,
+      "JA_PAIR": -0.2773182314161682,
+      "CG_PAIR": -0.13469123775051717,
+      "CG_SINGLE": -1.272071252044249,
+      "NSGA": -2.6293760444298098,
+      "LI_MATCHED_DEEP": 4.450248944277302
+    },
+    "eligible": false
+  },
+  {
+    "stem": "100_2_3_1",
+    "metrics": {
+      "FORCE": {
+        "HV": {
+          "1.25": 0.28753396512475704,
+          "1.5": 0.7824305035741944,
+          "2": 2.9370370078847103
+        },
+        "timeHV": 0.6883430489351917,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "BASE": {
+        "HV": {
+          "1.25": 0.29066923996543215,
+          "1.5": 0.7902176740453376,
+          "2": 2.959683856943521
+        },
+        "timeHV": 0.7172841082292083,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "JA_PAIR": {
+        "HV": {
+          "1.25": 0.28877475935195973,
+          "1.5": 0.7876953465741751,
+          "2": 2.956121874626265
+        },
+        "timeHV": 0.7097237031758504,
+        "pack": {
+          "mode": "JA_PAIR",
+          "counts": {
+            "first.JOB_ALIGNED": 750,
+            "second.JOB_ALIGNED": 750,
+            "firstWonOrTied": 389,
+            "secondWon": 361
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "CG_PAIR": {
+        "HV": {
+          "1.25": 0.289995995710189,
+          "1.5": 0.7891906910620898,
+          "2": 2.958052500210952
+        },
+        "timeHV": 0.7131449434305175,
+        "pack": {
+          "mode": "CG_PAIR",
+          "counts": {
+            "first.CLASSIC_GLOBAL": 750,
+            "second.CLASSIC_GLOBAL": 750,
+            "firstWonOrTied": 378,
+            "secondWon": 372
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "MIX_PAIR": {
+        "HV": {
+          "1.25": 0.29301158401976596,
+          "1.5": 0.7963731127263676,
+          "2": 2.978111712809106
+        },
+        "timeHV": 0.683070087313324,
+        "pack": {
+          "mode": "MIX_PAIR",
+          "counts": {
+            "first.JOB_ALIGNED": 750,
+            "second.CLASSIC_GLOBAL": 750,
+            "firstWonOrTied": 490,
+            "secondWon": 260
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "CG_SINGLE": {
+        "HV": {
+          "1.25": 0.2901863351411808,
+          "1.5": 0.7918348707082049,
+          "2": 2.970250614519796
+        },
+        "timeHV": 0.6896323588222019,
+        "pack": {
+          "mode": "CG_SINGLE",
+          "counts": {
+            "first.CLASSIC_GLOBAL": 1500
+          },
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.2881245544331319,
+          "1.5": 0.7875529149151315,
+          "2": 2.9582801790662145
+        },
+        "timeHV": 0.7187048436882786,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.2757942610602354,
+          "1.5": 0.7592000407653486,
+          "2": 2.8789101446073415
+        },
+        "timeHV": 0.690282324179981,
+        "pack": {
+          "mode": "BASE",
+          "counts": {},
+          "budget": "Paired M uses25 updates x15 particles x2 paid proposals; unpaired M uses50 x15 x1. Other roles unchanged."
+        }
+      }
+    },
+    "mixEffectsPct": {
+      "FORCE": 1.7819613484497898,
+      "BASE": 0.7789548226020626,
+      "JA_PAIR": 1.101665280864439,
+      "CG_PAIR": 0.9100996432955366,
+      "CG_SINGLE": 0.5731298514428662,
+      "NSGA": 1.119949865487646,
+      "LI_MATCHED_DEEP": 4.896347466412787
+    },
+    "eligible": false
+  }
+]

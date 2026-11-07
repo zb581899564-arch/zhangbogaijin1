@@ -1,0 +1,25 @@
+{
+  "epoch": 1793956114.676692,
+  "load": [
+    0.66,
+    0.36,
+    0.26
+  ],
+  "memory": "MemTotal:       131643232 kB\nMemFree:        115279752 kB\nMemAvailable:   123804936 kB\nBuffers:          250848 kB\nCached:          9128588 kB\nSwapCached:            0 kB\nActive:          4932256 kB\nInactive:        6789668 kB\nActive(anon):       3608 kB\nInactive(anon):  2514492 kB\nActive(file):    4928648 kB\nInactive(file):  4275176 kB\nUnevictable:           4 kB\nMlocked:               4 kB\nSwapTotal:      134217724 kB\nSwapFree:       134217724 kB\nDirty:             48548 kB\nWriteback:             0 kB\nAnonPages:       2342764 kB\nMapped:           975340 kB\nShmem:            175612 kB\nKReclaimable:     322240 kB\nSlab:             793892 kB\nSReclaimable:     322240 kB\nSUnreclaim:       471652 kB\nKernelStack:       25024 kB\nPageTables:        33140 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    200039340 kB\nCommitted_AS:   11492936 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      300956 kB\nVmallocChunk:          0 kB\nPercpu:            62976 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      779112 kB\nDirectMap2M:    13545472 kB\nDirectMap1G:    121634816 kB\n",
+  "processes": [
+    "    PID USER     %CPU %MEM COMMAND",
+    "   2757 whoopsie  7.5  0.0 whoopsie",
+    " 262782 inspur    5.0  0.0 python",
+    "   1187 root      2.8  0.0 polkitd",
+    " 262783 inspur    2.0  0.0 curl",
+    "   2753 root      1.8  0.0 ToDesk_Service",
+    " 262677 root      1.5  0.0 sshd",
+    " 262003 inspur    1.1  0.0 python",
+    "   1164 message+  1.0  0.0 dbus-daemon",
+    "   1623 inspur    1.0  0.0 easytier-core",
+    "   3775 systemd+  0.9  0.0 mongod",
+    " 262588 root      0.8  0.0 sshd",
+    "   1312 root      0.7  0.4 devpi-server",
+    "   1166 root      0.6  0.0 NetworkManager"
+  ]
+}

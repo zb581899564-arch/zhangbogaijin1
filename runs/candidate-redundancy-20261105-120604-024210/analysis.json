@@ -1,0 +1,1153 @@
+{
+  "cells": [
+    {
+      "stem": "20_8_5_1",
+      "method": "FULL",
+      "paidFE": 100000,
+      "uniqueWholePhysicalKeys": 44057,
+      "wholeHistoryDuplicateFE": 55943,
+      "wholeHistoryDuplicateFraction": 0.55943,
+      "intraParentIdentityFE": 17102,
+      "intraParentIdentityFractionOfAllFE": 0.17102,
+      "certifiedEmptyNeighborhoodFE": 12703,
+      "certifiedEmptyFractionOfAllFE": 0.12703,
+      "duplicatesBeyondIntraParentIdentity": 38841,
+      "permitsEmptyNeighborhoodEngineering": true,
+      "strata": {
+        "stage:initialization": {
+          "paid": 100
+        },
+        "role:NONE": {
+          "paid": 100
+        },
+        "operator:-1": {
+          "paid": 5163,
+          "historyDuplicate": 107
+        },
+        "stageRoleOperator:initialization:NONE:-1": {
+          "paid": 100
+        },
+        "factoryJobs:-1": {
+          "paid": 5163,
+          "historyDuplicate": 107
+        },
+        "stage:global": {
+          "paid": 5000,
+          "historyDuplicate": 106
+        },
+        "role:MAKESPAN": {
+          "paid": 46738,
+          "historyDuplicate": 28147,
+          "parentIdentity": 6661,
+          "certifiedEmptyNeighborhood": 4390
+        },
+        "stageRoleOperator:global:MAKESPAN:-1": {
+          "paid": 750,
+          "historyDuplicate": 18
+        },
+        "role:CENTER": {
+          "paid": 51662,
+          "historyDuplicate": 27729,
+          "parentIdentity": 10441,
+          "certifiedEmptyNeighborhood": 8313
+        },
+        "stageRoleOperator:global:CENTER:-1": {
+          "paid": 2750,
+          "historyDuplicate": 21
+        },
+        "role:ENERGY": {
+          "paid": 750,
+          "historyDuplicate": 28
+        },
+        "stageRoleOperator:global:ENERGY:-1": {
+          "paid": 750,
+          "historyDuplicate": 28
+        },
+        "role:WORKER_COST": {
+          "paid": 750,
+          "historyDuplicate": 39
+        },
+        "stageRoleOperator:global:WORKER_COST:-1": {
+          "paid": 750,
+          "historyDuplicate": 39
+        },
+        "stage:inter": {
+          "paid": 63,
+          "historyDuplicate": 1
+        },
+        "stageRoleOperator:inter:MAKESPAN:-1": {
+          "paid": 32,
+          "historyDuplicate": 1
+        },
+        "stage:intra": {
+          "paid": 94837,
+          "historyDuplicate": 55836,
+          "parentIdentity": 17102,
+          "certifiedEmptyNeighborhood": 12703
+        },
+        "operator:0": {
+          "paid": 14321,
+          "historyDuplicate": 6623,
+          "parentIdentity": 50,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "stageRoleOperator:intra:MAKESPAN:0": {
+          "paid": 6519,
+          "historyDuplicate": 3395,
+          "parentIdentity": 50,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "factoryJobs:4": {
+          "paid": 28095,
+          "historyDuplicate": 18600,
+          "parentIdentity": 6427,
+          "certifiedEmptyNeighborhood": 4810
+        },
+        "operator:1": {
+          "paid": 12105,
+          "historyDuplicate": 6365,
+          "parentIdentity": 50,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "stageRoleOperator:intra:MAKESPAN:1": {
+          "paid": 5635,
+          "historyDuplicate": 3271,
+          "parentIdentity": 50,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "operator:2": {
+          "paid": 11119,
+          "historyDuplicate": 6513,
+          "parentIdentity": 50,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "stageRoleOperator:intra:MAKESPAN:2": {
+          "paid": 5259,
+          "historyDuplicate": 3302,
+          "parentIdentity": 50,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "operator:3": {
+          "paid": 10438,
+          "historyDuplicate": 4884,
+          "parentIdentity": 301,
+          "certifiedEmptyNeighborhood": 301
+        },
+        "stageRoleOperator:intra:MAKESPAN:3": {
+          "paid": 5004,
+          "historyDuplicate": 2924,
+          "parentIdentity": 277,
+          "certifiedEmptyNeighborhood": 277
+        },
+        "operator:4": {
+          "paid": 10147,
+          "historyDuplicate": 7969,
+          "parentIdentity": 4864,
+          "certifiedEmptyNeighborhood": 4864
+        },
+        "stageRoleOperator:intra:MAKESPAN:4": {
+          "paid": 4848,
+          "historyDuplicate": 3604,
+          "parentIdentity": 995,
+          "certifiedEmptyNeighborhood": 995
+        },
+        "operator:5": {
+          "paid": 9667,
+          "historyDuplicate": 6609,
+          "parentIdentity": 4948,
+          "certifiedEmptyNeighborhood": 2719
+        },
+        "stageRoleOperator:intra:MAKESPAN:5": {
+          "paid": 4751,
+          "historyDuplicate": 2719,
+          "parentIdentity": 1349,
+          "certifiedEmptyNeighborhood": 429
+        },
+        "operator:6": {
+          "paid": 9478,
+          "historyDuplicate": 5587,
+          "parentIdentity": 1377,
+          "certifiedEmptyNeighborhood": 1377
+        },
+        "stageRoleOperator:intra:MAKESPAN:6": {
+          "paid": 4690,
+          "historyDuplicate": 2714,
+          "parentIdentity": 709,
+          "certifiedEmptyNeighborhood": 709
+        },
+        "operator:7": {
+          "paid": 8886,
+          "historyDuplicate": 5937,
+          "parentIdentity": 2696,
+          "certifiedEmptyNeighborhood": 2696
+        },
+        "stageRoleOperator:intra:MAKESPAN:7": {
+          "paid": 4642,
+          "historyDuplicate": 3177,
+          "parentIdentity": 1256,
+          "certifiedEmptyNeighborhood": 1256
+        },
+        "operator:8": {
+          "paid": 8676,
+          "historyDuplicate": 5349,
+          "parentIdentity": 2766,
+          "certifiedEmptyNeighborhood": 596
+        },
+        "stageRoleOperator:intra:MAKESPAN:8": {
+          "paid": 4608,
+          "historyDuplicate": 3022,
+          "parentIdentity": 1925,
+          "certifiedEmptyNeighborhood": 574
+        },
+        "factoryJobs:3": {
+          "paid": 13253,
+          "historyDuplicate": 10765,
+          "parentIdentity": 3226,
+          "certifiedEmptyNeighborhood": 2750
+        },
+        "factoryJobs:5": {
+          "paid": 28481,
+          "historyDuplicate": 10666,
+          "parentIdentity": 3512,
+          "certifiedEmptyNeighborhood": 1826
+        },
+        "factoryJobs:2": {
+          "paid": 13934,
+          "historyDuplicate": 12766,
+          "parentIdentity": 2602,
+          "certifiedEmptyNeighborhood": 2602
+        },
+        "factoryJobs:7": {
+          "paid": 400,
+          "historyDuplicate": 140,
+          "parentIdentity": 83,
+          "certifiedEmptyNeighborhood": 40
+        },
+        "factoryJobs:8": {
+          "paid": 932,
+          "historyDuplicate": 171,
+          "parentIdentity": 80,
+          "certifiedEmptyNeighborhood": 50
+        },
+        "factoryJobs:1": {
+          "paid": 450,
+          "historyDuplicate": 447,
+          "parentIdentity": 340,
+          "certifiedEmptyNeighborhood": 340
+        },
+        "factoryJobs:6": {
+          "paid": 9292,
+          "historyDuplicate": 2281,
+          "parentIdentity": 832,
+          "certifiedEmptyNeighborhood": 285
+        },
+        "stageRoleOperator:inter:CENTER:-1": {
+          "paid": 31
+        },
+        "stageRoleOperator:intra:CENTER:0": {
+          "paid": 7802,
+          "historyDuplicate": 3228
+        },
+        "stageRoleOperator:intra:CENTER:1": {
+          "paid": 6470,
+          "historyDuplicate": 3094
+        },
+        "stageRoleOperator:intra:CENTER:2": {
+          "paid": 5860,
+          "historyDuplicate": 3211
+        },
+        "stageRoleOperator:intra:CENTER:3": {
+          "paid": 5434,
+          "historyDuplicate": 1960,
+          "parentIdentity": 24,
+          "certifiedEmptyNeighborhood": 24
+        },
+        "stageRoleOperator:intra:CENTER:4": {
+          "paid": 5299,
+          "historyDuplicate": 4365,
+          "parentIdentity": 3869,
+          "certifiedEmptyNeighborhood": 3869
+        },
+        "stageRoleOperator:intra:CENTER:5": {
+          "paid": 4916,
+          "historyDuplicate": 3890,
+          "parentIdentity": 3599,
+          "certifiedEmptyNeighborhood": 2290
+        },
+        "stageRoleOperator:intra:CENTER:6": {
+          "paid": 4788,
+          "historyDuplicate": 2873,
+          "parentIdentity": 668,
+          "certifiedEmptyNeighborhood": 668
+        },
+        "stageRoleOperator:intra:CENTER:7": {
+          "paid": 4244,
+          "historyDuplicate": 2760,
+          "parentIdentity": 1440,
+          "certifiedEmptyNeighborhood": 1440
+        },
+        "stageRoleOperator:intra:CENTER:8": {
+          "paid": 4068,
+          "historyDuplicate": 2327,
+          "parentIdentity": 841,
+          "certifiedEmptyNeighborhood": 22
+        }
+      },
+      "costLimit": "Observer-only run; neither overhead nor wall clock is efficacy evidence."
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA",
+      "paidFE": 100000,
+      "uniqueWholePhysicalKeys": 49981,
+      "wholeHistoryDuplicateFE": 50019,
+      "wholeHistoryDuplicateFraction": 0.50019,
+      "intraParentIdentityFE": 15451,
+      "intraParentIdentityFractionOfAllFE": 0.15451,
+      "certifiedEmptyNeighborhoodFE": 11343,
+      "certifiedEmptyFractionOfAllFE": 0.11343,
+      "duplicatesBeyondIntraParentIdentity": 34568,
+      "permitsEmptyNeighborhoodEngineering": true,
+      "strata": {
+        "stage:initialization": {
+          "paid": 100
+        },
+        "role:CLASSIC": {
+          "paid": 5100,
+          "historyDuplicate": 8
+        },
+        "operator:-1": {
+          "paid": 5157,
+          "historyDuplicate": 9
+        },
+        "stageRoleOperator:initialization:CLASSIC:-1": {
+          "paid": 100
+        },
+        "factoryJobs:-1": {
+          "paid": 5157,
+          "historyDuplicate": 9
+        },
+        "stage:global": {
+          "paid": 5000,
+          "historyDuplicate": 8
+        },
+        "stageRoleOperator:global:CLASSIC:-1": {
+          "paid": 5000,
+          "historyDuplicate": 8
+        },
+        "stage:inter": {
+          "paid": 57,
+          "historyDuplicate": 1
+        },
+        "role:MAKESPAN": {
+          "paid": 49756,
+          "historyDuplicate": 24111,
+          "parentIdentity": 6141,
+          "certifiedEmptyNeighborhood": 4007
+        },
+        "stageRoleOperator:inter:MAKESPAN:-1": {
+          "paid": 34
+        },
+        "stage:intra": {
+          "paid": 94843,
+          "historyDuplicate": 50010,
+          "parentIdentity": 15451,
+          "certifiedEmptyNeighborhood": 11343
+        },
+        "operator:0": {
+          "paid": 14857,
+          "historyDuplicate": 5879
+        },
+        "stageRoleOperator:intra:MAKESPAN:0": {
+          "paid": 7391,
+          "historyDuplicate": 2744
+        },
+        "factoryJobs:4": {
+          "paid": 27285,
+          "historyDuplicate": 16211,
+          "parentIdentity": 6417,
+          "certifiedEmptyNeighborhood": 5172
+        },
+        "operator:1": {
+          "paid": 12366,
+          "historyDuplicate": 5780
+        },
+        "stageRoleOperator:intra:MAKESPAN:1": {
+          "paid": 6264,
+          "historyDuplicate": 2781
+        },
+        "operator:2": {
+          "paid": 11202,
+          "historyDuplicate": 6022
+        },
+        "stageRoleOperator:intra:MAKESPAN:2": {
+          "paid": 5750,
+          "historyDuplicate": 3001
+        },
+        "operator:3": {
+          "paid": 10471,
+          "historyDuplicate": 4544,
+          "parentIdentity": 725,
+          "certifiedEmptyNeighborhood": 725
+        },
+        "stageRoleOperator:intra:MAKESPAN:3": {
+          "paid": 5440,
+          "historyDuplicate": 2553,
+          "parentIdentity": 519,
+          "certifiedEmptyNeighborhood": 519
+        },
+        "operator:4": {
+          "paid": 10036,
+          "historyDuplicate": 7181,
+          "parentIdentity": 4423,
+          "certifiedEmptyNeighborhood": 4423
+        },
+        "stageRoleOperator:intra:MAKESPAN:4": {
+          "paid": 5205,
+          "historyDuplicate": 3194,
+          "parentIdentity": 1141,
+          "certifiedEmptyNeighborhood": 1141
+        },
+        "operator:5": {
+          "paid": 9512,
+          "historyDuplicate": 5821,
+          "parentIdentity": 4216,
+          "certifiedEmptyNeighborhood": 2019
+        },
+        "stageRoleOperator:intra:MAKESPAN:5": {
+          "paid": 5086,
+          "historyDuplicate": 2495,
+          "parentIdentity": 1565,
+          "certifiedEmptyNeighborhood": 539
+        },
+        "operator:6": {
+          "paid": 9230,
+          "historyDuplicate": 4769,
+          "parentIdentity": 1498,
+          "certifiedEmptyNeighborhood": 1498
+        },
+        "stageRoleOperator:intra:MAKESPAN:6": {
+          "paid": 4980,
+          "historyDuplicate": 2133,
+          "parentIdentity": 337,
+          "certifiedEmptyNeighborhood": 337
+        },
+        "operator:7": {
+          "paid": 8732,
+          "historyDuplicate": 5522,
+          "parentIdentity": 2190,
+          "certifiedEmptyNeighborhood": 2190
+        },
+        "stageRoleOperator:intra:MAKESPAN:7": {
+          "paid": 4851,
+          "historyDuplicate": 2810,
+          "parentIdentity": 1008,
+          "certifiedEmptyNeighborhood": 1008
+        },
+        "operator:8": {
+          "paid": 8437,
+          "historyDuplicate": 4492,
+          "parentIdentity": 2399,
+          "certifiedEmptyNeighborhood": 488
+        },
+        "stageRoleOperator:intra:MAKESPAN:8": {
+          "paid": 4755,
+          "historyDuplicate": 2400,
+          "parentIdentity": 1571,
+          "certifiedEmptyNeighborhood": 463
+        },
+        "factoryJobs:5": {
+          "paid": 27898,
+          "historyDuplicate": 9556,
+          "parentIdentity": 3059,
+          "certifiedEmptyNeighborhood": 1745
+        },
+        "factoryJobs:3": {
+          "paid": 21609,
+          "historyDuplicate": 15907,
+          "parentIdentity": 4109,
+          "certifiedEmptyNeighborhood": 3152
+        },
+        "factoryJobs:6": {
+          "paid": 8992,
+          "historyDuplicate": 2256,
+          "parentIdentity": 743,
+          "certifiedEmptyNeighborhood": 231
+        },
+        "factoryJobs:2": {
+          "paid": 6280,
+          "historyDuplicate": 5729,
+          "parentIdentity": 1043,
+          "certifiedEmptyNeighborhood": 1043
+        },
+        "factoryJobs:7": {
+          "paid": 2779,
+          "historyDuplicate": 351,
+          "parentIdentity": 80
+        },
+        "role:CENTER": {
+          "paid": 45144,
+          "historyDuplicate": 25900,
+          "parentIdentity": 9310,
+          "certifiedEmptyNeighborhood": 7336
+        },
+        "stageRoleOperator:inter:CENTER:-1": {
+          "paid": 23,
+          "historyDuplicate": 1
+        },
+        "stageRoleOperator:intra:CENTER:0": {
+          "paid": 7466,
+          "historyDuplicate": 3135
+        },
+        "stageRoleOperator:intra:CENTER:1": {
+          "paid": 6102,
+          "historyDuplicate": 2999
+        },
+        "stageRoleOperator:intra:CENTER:2": {
+          "paid": 5452,
+          "historyDuplicate": 3021
+        },
+        "stageRoleOperator:intra:CENTER:3": {
+          "paid": 5031,
+          "historyDuplicate": 1991,
+          "parentIdentity": 206,
+          "certifiedEmptyNeighborhood": 206
+        },
+        "stageRoleOperator:intra:CENTER:4": {
+          "paid": 4831,
+          "historyDuplicate": 3987,
+          "parentIdentity": 3282,
+          "certifiedEmptyNeighborhood": 3282
+        },
+        "stageRoleOperator:intra:CENTER:5": {
+          "paid": 4426,
+          "historyDuplicate": 3326,
+          "parentIdentity": 2651,
+          "certifiedEmptyNeighborhood": 1480
+        },
+        "stageRoleOperator:intra:CENTER:6": {
+          "paid": 4250,
+          "historyDuplicate": 2636,
+          "parentIdentity": 1161,
+          "certifiedEmptyNeighborhood": 1161
+        },
+        "stageRoleOperator:intra:CENTER:7": {
+          "paid": 3881,
+          "historyDuplicate": 2712,
+          "parentIdentity": 1182,
+          "certifiedEmptyNeighborhood": 1182
+        },
+        "stageRoleOperator:intra:CENTER:8": {
+          "paid": 3682,
+          "historyDuplicate": 2092,
+          "parentIdentity": 828,
+          "certifiedEmptyNeighborhood": 25
+        }
+      },
+      "costLimit": "Observer-only run; neither overhead nor wall clock is efficacy evidence."
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "FULL",
+      "paidFE": 100000,
+      "uniqueWholePhysicalKeys": 91475,
+      "wholeHistoryDuplicateFE": 8525,
+      "wholeHistoryDuplicateFraction": 0.08525,
+      "intraParentIdentityFE": 6788,
+      "intraParentIdentityFractionOfAllFE": 0.06788,
+      "certifiedEmptyNeighborhoodFE": 590,
+      "certifiedEmptyFractionOfAllFE": 0.0059,
+      "duplicatesBeyondIntraParentIdentity": 1737,
+      "permitsEmptyNeighborhoodEngineering": false,
+      "strata": {
+        "stage:initialization": {
+          "paid": 100
+        },
+        "role:NONE": {
+          "paid": 100
+        },
+        "operator:-1": {
+          "paid": 5236,
+          "historyDuplicate": 52
+        },
+        "stageRoleOperator:initialization:NONE:-1": {
+          "paid": 100
+        },
+        "factoryJobs:-1": {
+          "paid": 5236,
+          "historyDuplicate": 52
+        },
+        "stage:global": {
+          "paid": 5000,
+          "historyDuplicate": 51
+        },
+        "role:MAKESPAN": {
+          "paid": 59307,
+          "historyDuplicate": 4771,
+          "parentIdentity": 3806,
+          "certifiedEmptyNeighborhood": 30
+        },
+        "stageRoleOperator:global:MAKESPAN:-1": {
+          "paid": 750,
+          "historyDuplicate": 6
+        },
+        "role:CENTER": {
+          "paid": 39093,
+          "historyDuplicate": 3720,
+          "parentIdentity": 2982,
+          "certifiedEmptyNeighborhood": 560
+        },
+        "stageRoleOperator:global:CENTER:-1": {
+          "paid": 2750,
+          "historyDuplicate": 11
+        },
+        "role:ENERGY": {
+          "paid": 750,
+          "historyDuplicate": 15
+        },
+        "stageRoleOperator:global:ENERGY:-1": {
+          "paid": 750,
+          "historyDuplicate": 15
+        },
+        "role:WORKER_COST": {
+          "paid": 750,
+          "historyDuplicate": 19
+        },
+        "stageRoleOperator:global:WORKER_COST:-1": {
+          "paid": 750,
+          "historyDuplicate": 19
+        },
+        "stage:inter": {
+          "paid": 136,
+          "historyDuplicate": 1
+        },
+        "stageRoleOperator:inter:MAKESPAN:-1": {
+          "paid": 124,
+          "historyDuplicate": 1
+        },
+        "stage:intra": {
+          "paid": 94764,
+          "historyDuplicate": 8473,
+          "parentIdentity": 6788,
+          "certifiedEmptyNeighborhood": 590
+        },
+        "operator:0": {
+          "paid": 16739,
+          "historyDuplicate": 9
+        },
+        "stageRoleOperator:intra:MAKESPAN:0": {
+          "paid": 10438,
+          "historyDuplicate": 5
+        },
+        "factoryJobs:25": {
+          "paid": 1557,
+          "historyDuplicate": 150,
+          "parentIdentity": 139
+        },
+        "operator:1": {
+          "paid": 14057,
+          "historyDuplicate": 16
+        },
+        "stageRoleOperator:intra:MAKESPAN:1": {
+          "paid": 8578,
+          "historyDuplicate": 9
+        },
+        "operator:2": {
+          "paid": 12292,
+          "historyDuplicate": 21
+        },
+        "stageRoleOperator:intra:MAKESPAN:2": {
+          "paid": 7390,
+          "historyDuplicate": 11
+        },
+        "operator:3": {
+          "paid": 10333,
+          "historyDuplicate": 384,
+          "parentIdentity": 66,
+          "certifiedEmptyNeighborhood": 66
+        },
+        "stageRoleOperator:intra:MAKESPAN:3": {
+          "paid": 6282,
+          "historyDuplicate": 259,
+          "parentIdentity": 30,
+          "certifiedEmptyNeighborhood": 30
+        },
+        "operator:4": {
+          "paid": 9561,
+          "historyDuplicate": 937,
+          "parentIdentity": 268,
+          "certifiedEmptyNeighborhood": 268
+        },
+        "stageRoleOperator:intra:MAKESPAN:4": {
+          "paid": 5777,
+          "historyDuplicate": 279
+        },
+        "operator:5": {
+          "paid": 8367,
+          "historyDuplicate": 3080,
+          "parentIdentity": 3071,
+          "certifiedEmptyNeighborhood": 256
+        },
+        "stageRoleOperator:intra:MAKESPAN:5": {
+          "paid": 5217,
+          "historyDuplicate": 1571,
+          "parentIdentity": 1563
+        },
+        "operator:6": {
+          "paid": 8082,
+          "historyDuplicate": 217
+        },
+        "stageRoleOperator:intra:MAKESPAN:6": {
+          "paid": 5055,
+          "historyDuplicate": 129
+        },
+        "operator:7": {
+          "paid": 7852,
+          "historyDuplicate": 416
+        },
+        "stageRoleOperator:intra:MAKESPAN:7": {
+          "paid": 4939,
+          "historyDuplicate": 281
+        },
+        "operator:8": {
+          "paid": 7481,
+          "historyDuplicate": 3393,
+          "parentIdentity": 3383
+        },
+        "stageRoleOperator:intra:MAKESPAN:8": {
+          "paid": 4757,
+          "historyDuplicate": 2220,
+          "parentIdentity": 2213
+        },
+        "factoryJobs:35": {
+          "paid": 8366,
+          "historyDuplicate": 685,
+          "parentIdentity": 536,
+          "certifiedEmptyNeighborhood": 17
+        },
+        "factoryJobs:40": {
+          "paid": 1039,
+          "historyDuplicate": 50,
+          "parentIdentity": 40
+        },
+        "factoryJobs:34": {
+          "paid": 7132,
+          "historyDuplicate": 640,
+          "parentIdentity": 527
+        },
+        "factoryJobs:39": {
+          "paid": 1863,
+          "historyDuplicate": 68,
+          "parentIdentity": 50
+        },
+        "factoryJobs:27": {
+          "paid": 6469,
+          "historyDuplicate": 652,
+          "parentIdentity": 503,
+          "certifiedEmptyNeighborhood": 15
+        },
+        "factoryJobs:37": {
+          "paid": 12448,
+          "historyDuplicate": 893,
+          "parentIdentity": 722
+        },
+        "factoryJobs:36": {
+          "paid": 6304,
+          "historyDuplicate": 536,
+          "parentIdentity": 449
+        },
+        "factoryJobs:38": {
+          "paid": 4501,
+          "historyDuplicate": 278,
+          "parentIdentity": 226
+        },
+        "factoryJobs:26": {
+          "paid": 2465,
+          "historyDuplicate": 210,
+          "parentIdentity": 179,
+          "certifiedEmptyNeighborhood": 2
+        },
+        "factoryJobs:28": {
+          "paid": 10201,
+          "historyDuplicate": 1123,
+          "parentIdentity": 883,
+          "certifiedEmptyNeighborhood": 68
+        },
+        "factoryJobs:31": {
+          "paid": 1150,
+          "historyDuplicate": 104,
+          "parentIdentity": 87
+        },
+        "factoryJobs:41": {
+          "paid": 6083,
+          "historyDuplicate": 514,
+          "parentIdentity": 447
+        },
+        "factoryJobs:33": {
+          "paid": 14457,
+          "historyDuplicate": 1181,
+          "parentIdentity": 867,
+          "certifiedEmptyNeighborhood": 46
+        },
+        "factoryJobs:30": {
+          "paid": 7050,
+          "historyDuplicate": 1035,
+          "parentIdentity": 828,
+          "certifiedEmptyNeighborhood": 442
+        },
+        "factoryJobs:29": {
+          "paid": 3679,
+          "historyDuplicate": 354,
+          "parentIdentity": 305
+        },
+        "stageRoleOperator:inter:CENTER:-1": {
+          "paid": 12
+        },
+        "stageRoleOperator:intra:CENTER:0": {
+          "paid": 6301,
+          "historyDuplicate": 4
+        },
+        "stageRoleOperator:intra:CENTER:1": {
+          "paid": 5479,
+          "historyDuplicate": 7
+        },
+        "stageRoleOperator:intra:CENTER:2": {
+          "paid": 4902,
+          "historyDuplicate": 10
+        },
+        "stageRoleOperator:intra:CENTER:3": {
+          "paid": 4051,
+          "historyDuplicate": 125,
+          "parentIdentity": 36,
+          "certifiedEmptyNeighborhood": 36
+        },
+        "stageRoleOperator:intra:CENTER:4": {
+          "paid": 3784,
+          "historyDuplicate": 658,
+          "parentIdentity": 268,
+          "certifiedEmptyNeighborhood": 268
+        },
+        "stageRoleOperator:intra:CENTER:5": {
+          "paid": 3150,
+          "historyDuplicate": 1509,
+          "parentIdentity": 1508,
+          "certifiedEmptyNeighborhood": 256
+        },
+        "stageRoleOperator:intra:CENTER:6": {
+          "paid": 3027,
+          "historyDuplicate": 88
+        },
+        "stageRoleOperator:intra:CENTER:7": {
+          "paid": 2913,
+          "historyDuplicate": 135
+        },
+        "stageRoleOperator:intra:CENTER:8": {
+          "paid": 2724,
+          "historyDuplicate": 1173,
+          "parentIdentity": 1170
+        }
+      },
+      "costLimit": "Observer-only run; neither overhead nor wall clock is efficacy evidence."
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA",
+      "paidFE": 100000,
+      "uniqueWholePhysicalKeys": 89250,
+      "wholeHistoryDuplicateFE": 10750,
+      "wholeHistoryDuplicateFraction": 0.1075,
+      "intraParentIdentityFE": 8805,
+      "intraParentIdentityFractionOfAllFE": 0.08805,
+      "certifiedEmptyNeighborhoodFE": 2435,
+      "certifiedEmptyFractionOfAllFE": 0.02435,
+      "duplicatesBeyondIntraParentIdentity": 1945,
+      "permitsEmptyNeighborhoodEngineering": false,
+      "strata": {
+        "stage:initialization": {
+          "paid": 100
+        },
+        "role:CLASSIC": {
+          "paid": 5100,
+          "historyDuplicate": 9
+        },
+        "operator:-1": {
+          "paid": 5160,
+          "historyDuplicate": 9
+        },
+        "stageRoleOperator:initialization:CLASSIC:-1": {
+          "paid": 100
+        },
+        "factoryJobs:-1": {
+          "paid": 5160,
+          "historyDuplicate": 9
+        },
+        "stage:global": {
+          "paid": 5000,
+          "historyDuplicate": 9
+        },
+        "stageRoleOperator:global:CLASSIC:-1": {
+          "paid": 5000,
+          "historyDuplicate": 9
+        },
+        "stage:inter": {
+          "paid": 60
+        },
+        "role:MAKESPAN": {
+          "paid": 56718,
+          "historyDuplicate": 5153,
+          "parentIdentity": 4092,
+          "certifiedEmptyNeighborhood": 85
+        },
+        "stageRoleOperator:inter:MAKESPAN:-1": {
+          "paid": 43
+        },
+        "stage:intra": {
+          "paid": 94840,
+          "historyDuplicate": 10741,
+          "parentIdentity": 8805,
+          "certifiedEmptyNeighborhood": 2435
+        },
+        "operator:0": {
+          "paid": 16502,
+          "historyDuplicate": 10
+        },
+        "stageRoleOperator:intra:MAKESPAN:0": {
+          "paid": 10099,
+          "historyDuplicate": 4
+        },
+        "factoryJobs:38": {
+          "paid": 4965,
+          "historyDuplicate": 244,
+          "parentIdentity": 197
+        },
+        "operator:1": {
+          "paid": 13983,
+          "historyDuplicate": 26
+        },
+        "stageRoleOperator:intra:MAKESPAN:1": {
+          "paid": 8334,
+          "historyDuplicate": 18
+        },
+        "operator:2": {
+          "paid": 12294,
+          "historyDuplicate": 25
+        },
+        "stageRoleOperator:intra:MAKESPAN:2": {
+          "paid": 7206,
+          "historyDuplicate": 10
+        },
+        "operator:3": {
+          "paid": 10541,
+          "historyDuplicate": 398,
+          "parentIdentity": 83,
+          "certifiedEmptyNeighborhood": 83
+        },
+        "stageRoleOperator:intra:MAKESPAN:3": {
+          "paid": 6220,
+          "historyDuplicate": 273,
+          "parentIdentity": 83,
+          "certifiedEmptyNeighborhood": 83
+        },
+        "operator:4": {
+          "paid": 9735,
+          "historyDuplicate": 1997,
+          "parentIdentity": 1262,
+          "certifiedEmptyNeighborhood": 1262
+        },
+        "stageRoleOperator:intra:MAKESPAN:4": {
+          "paid": 5666,
+          "historyDuplicate": 397,
+          "parentIdentity": 2,
+          "certifiedEmptyNeighborhood": 2
+        },
+        "operator:5": {
+          "paid": 8300,
+          "historyDuplicate": 3720,
+          "parentIdentity": 3712,
+          "certifiedEmptyNeighborhood": 1090
+        },
+        "stageRoleOperator:intra:MAKESPAN:5": {
+          "paid": 4937,
+          "historyDuplicate": 1622,
+          "parentIdentity": 1615
+        },
+        "operator:6": {
+          "paid": 8082,
+          "historyDuplicate": 248
+        },
+        "stageRoleOperator:intra:MAKESPAN:6": {
+          "paid": 4845,
+          "historyDuplicate": 117
+        },
+        "operator:7": {
+          "paid": 7790,
+          "historyDuplicate": 557
+        },
+        "stageRoleOperator:intra:MAKESPAN:7": {
+          "paid": 4710,
+          "historyDuplicate": 315
+        },
+        "operator:8": {
+          "paid": 7613,
+          "historyDuplicate": 3760,
+          "parentIdentity": 3748
+        },
+        "stageRoleOperator:intra:MAKESPAN:8": {
+          "paid": 4658,
+          "historyDuplicate": 2397,
+          "parentIdentity": 2392
+        },
+        "factoryJobs:27": {
+          "paid": 7688,
+          "historyDuplicate": 998,
+          "parentIdentity": 832,
+          "certifiedEmptyNeighborhood": 333
+        },
+        "factoryJobs:35": {
+          "paid": 8413,
+          "historyDuplicate": 873,
+          "parentIdentity": 724,
+          "certifiedEmptyNeighborhood": 22
+        },
+        "factoryJobs:34": {
+          "paid": 9773,
+          "historyDuplicate": 1060,
+          "parentIdentity": 867,
+          "certifiedEmptyNeighborhood": 2
+        },
+        "factoryJobs:37": {
+          "paid": 12718,
+          "historyDuplicate": 742,
+          "parentIdentity": 546
+        },
+        "factoryJobs:29": {
+          "paid": 13733,
+          "historyDuplicate": 1707,
+          "parentIdentity": 1336,
+          "certifiedEmptyNeighborhood": 343
+        },
+        "factoryJobs:36": {
+          "paid": 3322,
+          "historyDuplicate": 323,
+          "parentIdentity": 266
+        },
+        "factoryJobs:28": {
+          "paid": 9725,
+          "historyDuplicate": 1286,
+          "parentIdentity": 1065,
+          "certifiedEmptyNeighborhood": 440
+        },
+        "role:CENTER": {
+          "paid": 38182,
+          "historyDuplicate": 5588,
+          "parentIdentity": 4713,
+          "certifiedEmptyNeighborhood": 2350
+        },
+        "stageRoleOperator:inter:CENTER:-1": {
+          "paid": 17
+        },
+        "stageRoleOperator:intra:CENTER:0": {
+          "paid": 6403,
+          "historyDuplicate": 6
+        },
+        "factoryJobs:47": {
+          "paid": 2488,
+          "historyDuplicate": 209,
+          "parentIdentity": 190
+        },
+        "stageRoleOperator:intra:CENTER:1": {
+          "paid": 5649,
+          "historyDuplicate": 8
+        },
+        "stageRoleOperator:intra:CENTER:2": {
+          "paid": 5088,
+          "historyDuplicate": 15
+        },
+        "stageRoleOperator:intra:CENTER:3": {
+          "paid": 4321,
+          "historyDuplicate": 125
+        },
+        "stageRoleOperator:intra:CENTER:4": {
+          "paid": 4069,
+          "historyDuplicate": 1600,
+          "parentIdentity": 1260,
+          "certifiedEmptyNeighborhood": 1260
+        },
+        "stageRoleOperator:intra:CENTER:5": {
+          "paid": 3363,
+          "historyDuplicate": 2098,
+          "parentIdentity": 2097,
+          "certifiedEmptyNeighborhood": 1090
+        },
+        "stageRoleOperator:intra:CENTER:6": {
+          "paid": 3237,
+          "historyDuplicate": 131
+        },
+        "stageRoleOperator:intra:CENTER:7": {
+          "paid": 3080,
+          "historyDuplicate": 242
+        },
+        "stageRoleOperator:intra:CENTER:8": {
+          "paid": 2955,
+          "historyDuplicate": 1363,
+          "parentIdentity": 1356
+        },
+        "factoryJobs:25": {
+          "paid": 4268,
+          "historyDuplicate": 1104,
+          "parentIdentity": 941,
+          "certifiedEmptyNeighborhood": 684
+        },
+        "factoryJobs:21": {
+          "paid": 1282,
+          "historyDuplicate": 330,
+          "parentIdentity": 288,
+          "certifiedEmptyNeighborhood": 230
+        },
+        "factoryJobs:50": {
+          "paid": 2043,
+          "historyDuplicate": 176,
+          "parentIdentity": 157
+        },
+        "factoryJobs:24": {
+          "paid": 1370,
+          "historyDuplicate": 361,
+          "parentIdentity": 314,
+          "certifiedEmptyNeighborhood": 246
+        },
+        "factoryJobs:33": {
+          "paid": 3089,
+          "historyDuplicate": 259,
+          "parentIdentity": 185
+        },
+        "factoryJobs:43": {
+          "paid": 3048,
+          "historyDuplicate": 251,
+          "parentIdentity": 225
+        },
+        "factoryJobs:45": {
+          "paid": 2448,
+          "historyDuplicate": 231,
+          "parentIdentity": 188
+        },
+        "factoryJobs:44": {
+          "paid": 2120,
+          "historyDuplicate": 374,
+          "parentIdentity": 329,
+          "certifiedEmptyNeighborhood": 135
+        },
+        "factoryJobs:31": {
+          "paid": 2347,
+          "historyDuplicate": 213,
+          "parentIdentity": 155
+        }
+      },
+      "costLimit": "Observer-only run; neither overhead nor wall clock is efficacy evidence."
+    }
+  ],
+  "worthEmptyNeighborhoodEngineering": false,
+  "decision": "STOP_EMPTY_NEIGHBORHOOD_HYPOTHESIS",
+  "historyDuplicateSkippingAuthorized": false,
+  "algorithmImplemented": false,
+  "goalAchieved": false
+}

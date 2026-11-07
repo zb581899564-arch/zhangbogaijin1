@@ -1,0 +1,19 @@
+{
+  "eventEpoch": 1793595839.676349,
+  "status": "RUNNING",
+  "phase": "factorial",
+  "phaseCompleted": 4,
+  "phaseExpected": 150,
+  "completed": 4,
+  "expected": 210,
+  "wallSeconds": 16.963232650770806,
+  "remainingSeconds": 5383.036767349229,
+  "lastJob": {
+    "instance": "20_2_3_1",
+    "seed": 8110103,
+    "variant": "NSGA2_CONTROL",
+    "seconds": 3,
+    "phase": "factorial"
+  },
+  "action": "dispatched"
+}

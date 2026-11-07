@@ -1,0 +1,58 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-deep-local-20261103-184901-271850\source\CanonicalHmopso.java
++++ CanonicalHmopso.java
+@@ -82,11 +82,14 @@
+             guarded.checkpoint();
+             if (audit != null) audit.feedbackBegin();
+             if (mechanism != null) mechanism.begin(solutions(population));
++            ReverseAudit.run().begin();
+             if (support != null) support.beginGeneration();
+             renewContexts(population);
+             Map<Direction, List<Particle>> groups = decompose(population);
+             Map<Direction, List<Particle>> updated = new EnumMap<>(Direction.class);
+             for (Direction direction : globalUpdateOrder()) {
++                if (direction == Direction.CENTER && support != null)
++                    org.uma.jmetal.util.research.cooperation.ReversePoolSnapshots.enter(ReverseAudit.run().generation());
+                 state.observationGroup(direction);
+                 updated.put(direction, chapter == 3 ? global(groups.get(direction), direction,
+                         randomLeader()) : qgs(groups.get(direction), direction));
+@@ -95,6 +98,7 @@
+             if (mechanism != null) mechanism.globalPost(globallyUpdated);
+             List<Particle> globalSnapshots = config.mergeGlobalLocal ? snapshots(globallyUpdated) : null;
+             List<PermutationSolution<Integer>> reference = solutions(globallyUpdated);
++            ReverseAudit.run().phase("global-end", updated.get(Direction.CENTER), reference);
+             List<Particle> offspring = new ArrayList<>();
+             if (chapter == 3) {
+                 // JMS Algorithm 1 completes the whole inter-factory phase before QLS.
+@@ -109,12 +113,18 @@
+                     offspring.add(local.improveIntra(particle, direction, reference));
+                 }
+             } else {
+-                for (Direction direction : Direction.values()) for (Particle particle : updated.get(direction)) {
+-                    state.observationGroup(direction);
+-                    Direction preference = preference(direction);
+-                    state.count("local.g" + direction.id() + ".preference." + preference.name());
+-                    guarded.checkpoint();
+-                    offspring.add(local.improve(particle, preference, reference));
++                for (Direction direction : Direction.values()) {
++                    if (direction == Direction.CENTER)
++                        ReverseAudit.run().phase("center-entry", updated.get(Direction.CENTER), reference);
++                    for (Particle particle : updated.get(direction)) {
++                        state.observationGroup(direction);
++                        Direction preference = preference(direction);
++                        state.count("local.g" + direction.id() + ".preference." + preference.name());
++                        guarded.checkpoint();
++                        offspring.add(local.improve(particle, preference, reference));
++                    }
++                    if (direction == Direction.MAKESPAN)
++                        ReverseAudit.run().phase("makespan-local-end", updated.get(Direction.CENTER), reference);
+                 }
+             }
+             // JMS Algorithm 1 explicitly uses parents union final local-search offspring.
+@@ -131,6 +141,7 @@
+             if (chapter == 4 && (config.mergeGlobalLocal || audit != null)) {
+                 SurvivorSelection.Result selected = SurvivorSelection.select(candidates, config.populationSize,
+                         config.mergeGlobalLocal ? support : null, guarded::checkpoint);
++                ReverseAudit.run().selection(candidates, selected, globalSnapshots.size());
+                 population = selected.survivors();
+                 if (audit != null) audit.pool(candidates, selected, globalSnapshots == null ? 0 : globalSnapshots.size());
+             } else population = select(candidates, config.populationSize);

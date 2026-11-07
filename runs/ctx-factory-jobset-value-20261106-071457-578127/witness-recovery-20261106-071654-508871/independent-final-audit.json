@@ -1,0 +1,979 @@
+{
+  "passed": true,
+  "independentlyRebuiltRequests": 33,
+  "independentlyRebuiltCases": 132,
+  "samplingPoolDominanceTruncationCapFallbackAndLivenessEqual": true,
+  "independentlyReconstructedCompleteObjectiveQueries": 13000,
+  "exactBackgroundUncoveredSsourceCompositions": 0,
+  "uniqueAugmentedMetricFrontsChecked": 4,
+  "maximumIndependentHVError": 4.440892098500626e-16,
+  "allBidirectionalCoveredCountsEqual": true,
+  "exactFullTimelineWitnessDecodes": 59,
+  "supplyBreakdown": [
+    {
+      "source": "S",
+      "cycle": 1,
+      "requests": 13,
+      "additionalCapEligibleJobsetChains": 0,
+      "differentFactoryChoiceSets": 0,
+      "positiveOracleCases": 0,
+      "maxSingleCandidateGainPctOfBackground": 0.0
+    },
+    {
+      "source": "S",
+      "cycle": 10,
+      "requests": 20,
+      "additionalCapEligibleJobsetChains": 0,
+      "differentFactoryChoiceSets": 0,
+      "positiveOracleCases": 0,
+      "maxSingleCandidateGainPctOfBackground": 0.0
+    },
+    {
+      "source": "U",
+      "cycle": 1,
+      "requests": 13,
+      "additionalCapEligibleJobsetChains": 0,
+      "differentFactoryChoiceSets": 0,
+      "positiveOracleCases": 0,
+      "maxSingleCandidateGainPctOfBackground": 0.0
+    },
+    {
+      "source": "U",
+      "cycle": 10,
+      "requests": 20,
+      "additionalCapEligibleJobsetChains": 0,
+      "differentFactoryChoiceSets": 0,
+      "positiveOracleCases": 4,
+      "maxSingleCandidateGainPctOfBackground": 1.2784309086994043e-05
+    }
+  ],
+  "compositionChecks": [
+    {
+      "request": "q001",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q001",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q001",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q001",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q002",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q002",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q002",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q002",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q003",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q003",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q003",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q003",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q004",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q004",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q004",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q004",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 27,
+      "exactlyBackgroundCoveredCompositions": 27
+    },
+    {
+      "request": "q005",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q005",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q005",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q005",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q006",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q006",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q006",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q006",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q007",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q007",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q007",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q007",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q008",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q008",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q008",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q008",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q009",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q009",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q009",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q009",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q010",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q010",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q010",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q010",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q011",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q011",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q011",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q011",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q012",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q012",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q012",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q012",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 36,
+      "exactlyBackgroundCoveredCompositions": 36
+    },
+    {
+      "request": "q013",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q013",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q013",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q013",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q014",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q014",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q014",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q014",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q015",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q015",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q015",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q015",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q016",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q016",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q016",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 4
+    },
+    {
+      "request": "q016",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 4
+    },
+    {
+      "request": "q017",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q017",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q017",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 4
+    },
+    {
+      "request": "q017",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 4
+    },
+    {
+      "request": "q018",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q018",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q018",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q018",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q019",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q019",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q019",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q019",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q020",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q020",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q020",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 3,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q020",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 3,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q021",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 8,
+      "exactlyBackgroundCoveredCompositions": 8
+    },
+    {
+      "request": "q021",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 8,
+      "exactlyBackgroundCoveredCompositions": 8
+    },
+    {
+      "request": "q021",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 3,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q021",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 3,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q022",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q022",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q022",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 4
+    },
+    {
+      "request": "q022",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 4
+    },
+    {
+      "request": "q023",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 2,
+      "exactlyBackgroundCoveredCompositions": 2
+    },
+    {
+      "request": "q023",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 2,
+      "exactlyBackgroundCoveredCompositions": 2
+    },
+    {
+      "request": "q023",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 2,
+      "exactlyBackgroundCoveredCompositions": 2
+    },
+    {
+      "request": "q023",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 2,
+      "exactlyBackgroundCoveredCompositions": 2
+    },
+    {
+      "request": "q024",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q024",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q024",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q024",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q025",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q025",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 1,
+      "exactlyBackgroundCoveredCompositions": 1
+    },
+    {
+      "request": "q025",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q025",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 4,
+      "exactlyBackgroundCoveredCompositions": 3
+    },
+    {
+      "request": "q026",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 18,
+      "exactlyBackgroundCoveredCompositions": 18
+    },
+    {
+      "request": "q026",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 18,
+      "exactlyBackgroundCoveredCompositions": 18
+    },
+    {
+      "request": "q026",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q026",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 24,
+      "exactlyBackgroundCoveredCompositions": 24
+    },
+    {
+      "request": "q027",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 84,
+      "exactlyBackgroundCoveredCompositions": 84
+    },
+    {
+      "request": "q027",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 84,
+      "exactlyBackgroundCoveredCompositions": 84
+    },
+    {
+      "request": "q027",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 240,
+      "exactlyBackgroundCoveredCompositions": 240
+    },
+    {
+      "request": "q027",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 240,
+      "exactlyBackgroundCoveredCompositions": 240
+    },
+    {
+      "request": "q028",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q028",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q028",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q028",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q029",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q029",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q029",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q029",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q030",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 336,
+      "exactlyBackgroundCoveredCompositions": 336
+    },
+    {
+      "request": "q030",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 336,
+      "exactlyBackgroundCoveredCompositions": 336
+    },
+    {
+      "request": "q030",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q030",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 448,
+      "exactlyBackgroundCoveredCompositions": 448
+    },
+    {
+      "request": "q031",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 384,
+      "exactlyBackgroundCoveredCompositions": 384
+    },
+    {
+      "request": "q031",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 384,
+      "exactlyBackgroundCoveredCompositions": 384
+    },
+    {
+      "request": "q031",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q031",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 512,
+      "exactlyBackgroundCoveredCompositions": 512
+    },
+    {
+      "request": "q032",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q032",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 16,
+      "exactlyBackgroundCoveredCompositions": 16
+    },
+    {
+      "request": "q032",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q032",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 6,
+      "exactlyBackgroundCoveredCompositions": 6
+    },
+    {
+      "request": "q033",
+      "source": "S",
+      "schema": "WHOLE_FA",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q033",
+      "source": "S",
+      "schema": "JOBSET",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q033",
+      "source": "U",
+      "schema": "WHOLE_FA",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    },
+    {
+      "request": "q033",
+      "source": "U",
+      "schema": "JOBSET",
+      "compositions": 12,
+      "exactlyBackgroundCoveredCompositions": 12
+    }
+  ],
+  "extraSearchFE": 0,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

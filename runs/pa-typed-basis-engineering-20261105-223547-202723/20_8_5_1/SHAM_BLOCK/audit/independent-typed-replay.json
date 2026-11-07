@@ -1,0 +1,40 @@
+{
+  "allPaidGenomesMasksDonorsAcceptanceAndArchiveReconstructed": true,
+  "basis": "SHAM_BLOCK",
+  "successfulFE": 23900,
+  "paidSHA256": "42fc745f8c608dc4d08e2d7751df99cb0616744acc040d24d2427073a7de3e21",
+  "programs": 200,
+  "generations": 2,
+  "modelChecks": [
+    {
+      "pairs": 190,
+      "maximumModelError": 9.020562075079397e-15,
+      "merges": 19,
+      "maximumChosenMeanDeficit": 0.0
+    },
+    {
+      "pairs": 190,
+      "maximumModelError": 7.854827899222983e-15,
+      "merges": 19,
+      "maximumChosenMeanDeficit": 0.0
+    }
+  ],
+  "typedCounts": {
+    "WORKER": 4000,
+    "pointsWithInitialUnseenTuple": 0,
+    "ORDER": 4000,
+    "JOBS": 7800,
+    "MACHINE": 4000,
+    "RESOURCE": 4000,
+    "noCompatibleDonor": 32
+  },
+  "prefixPaidSHA256": {
+    "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+    "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+    "101": "da085d0d550959e3b9970feeccf23d0e6c1589512b7813b68dad1c7d04a87e66",
+    "139": "ffb25a20caf95904bdd74519a23c931086fe1c5a61952efefcb791fd0dbc2b26",
+    "4000": "c73295c5f920a6f6fcf15f99c899c39ccee1c289bcadec04707a084fa2896ceb"
+  },
+  "newSearchFE": 0,
+  "decoderCalls": 0
+}

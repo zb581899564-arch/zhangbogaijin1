@@ -1,0 +1,11 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\local-program-audit-20261105-123427-539293",
+  "additionalSearchFE": 0,
+  "decoderCalls": 0,
+  "question": "Do original CENTER descents discover substantial new nondominated objective states that are rejected and never used as a descent parent within that same program?",
+  "reconstruction": "Use ALL4original100k trajectories, oldseed12390003, all complete programs and separate partial tails. Start inner descent at paid SHAKE, independently reproduce each strict makespan/PDDR comparison and update. Final current must exactly equal recorded improved endpoint for every complete program. Rebuild entire paid archive and every registered FE front using original independent stream.",
+  "witness": "DESCENT candidate rejected by original comparison, with actual new archive admission and sequential HV gain>1e-10 at birth; for CENTER require candidate/current mutually nondominated. Track all later same-program parent objective values, report whether rejected state objective was ever expanded. This is objective-state evidence only: no complete genome available for all children, no assertion about other programs or future generations, and no causal continuation gain inferred from discovery.",
+  "gate": "BOTH FULL instances must have>=20completeCENTER programs with>=1unexpanded witness, cover>=10% of completeCENTER programs, and witness sequentialHVgain>=10% of all completeCENTER descent sequentialHVgain. This only permits isolated whole-genome capture and a separate matched continuation protocol, not a queue/policy implementation. Report matched NSGA evidence; no four-role credit from capacity alone.",
+  "boundaries": "Old outer-HV rule remains stopped; no moving it into inner descent, changing reference/normalization/threshold, promoting a control, or tuning budget/parent order. Possible different future question is multi-state continuation, not another scalar exit score. Generic Pareto local search is not a new contribution by itself.",
+  "limits": "Witness volume was ALREADY in result archive. Expanding a witness may improve or worsen future performance; this audit does not evaluate that. Model, four roles, QGS, families, sharing, neighborhoods, default mainline and all previous stopping decisions unchanged. No transfer or additional runtime experiment."
+}

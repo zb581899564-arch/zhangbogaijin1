@@ -1,0 +1,346 @@
+[
+  {
+    "stem": "20_8_5_1",
+    "metrics": {
+      "SHARE_PAIR": {
+        "HV": {
+          "1.25": 0.15951268704551913,
+          "1.5": 0.5252506631929008,
+          "2": 2.2963526557797755
+        },
+        "IGDplus": 0.018749826426615858,
+        "timeHV": 0.4893872967571441,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "SHARE_FULL": {
+        "HV": {
+          "1.25": 0.16646177973318366,
+          "1.5": 0.5414905207278126,
+          "2": 2.341555844383458
+        },
+        "IGDplus": 0.007848644366233476,
+        "timeHV": 0.5167857913339203,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 11,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 207,
+            "retiredLineages.CENTER": 51,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 868,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 203,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 152
+          },
+          "reward": "GROUP"
+        }
+      },
+      "SYNC_PAIR": {
+        "HV": {
+          "1.25": 0.15994866504715982,
+          "1.5": 0.5265364087563615,
+          "2": 2.3000696190913983
+        },
+        "IGDplus": 0.01865051367980516,
+        "timeHV": 0.4924074406680743,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "SYNC_FULL": {
+        "HV": {
+          "1.25": 0.1589339574382285,
+          "1.5": 0.5240326335343182,
+          "2": 2.292993300680244
+        },
+        "IGDplus": 0.012891086952737543,
+        "timeHV": 0.5076719518507022,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 12,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 197,
+            "retiredLineages.CENTER": 50,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 765,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 207,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 138
+          },
+          "reward": "GROUP"
+        }
+      },
+      "FREE_PAIR": {
+        "HV": {
+          "1.25": 0.1619820316161102,
+          "1.5": 0.5314758639813164,
+          "2": 2.3143387369566946
+        },
+        "IGDplus": 0.0133441272366721,
+        "timeHV": 0.4997592768516679,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "FREE_FULL": {
+        "HV": {
+          "1.25": 0.16181591285318217,
+          "1.5": 0.529827830630141,
+          "2": 2.3076365396884095
+        },
+        "IGDplus": 0.004350187513816751,
+        "timeHV": 0.5212318917107316,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 15,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 184,
+            "retiredLineages.CENTER": 55,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 826,
+            "retiredLineages.ENERGY": 14,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 212,
+            "retiredLineages.WORKER_COST": 14,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 181
+          },
+          "reward": "GROUP"
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.16912271350066038,
+          "1.5": 0.5458233678056525,
+          "2": 2.3500210350144486
+        },
+        "IGDplus": 0.0011814473475643087,
+        "timeHV": 0.5179687501435039,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.15340104167738747,
+          "1.5": 0.5115577640009009,
+          "2": 2.2589975280147647
+        },
+        "IGDplus": 0.029640468253768672,
+        "timeHV": 0.4833868422654509,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      }
+    },
+    "freeFullEffectsPct": {
+      "SHARE_PAIR": 0.871425351358246,
+      "SHARE_FULL": -2.153812421682988,
+      "SYNC_PAIR": 0.6251081252963253,
+      "SYNC_FULL": 1.1058847722397402,
+      "FREE_PAIR": -0.310086207646354,
+      "NSGA": -2.9305335973096147,
+      "LI_MATCHED_DEEP": 3.5714572067775174
+    },
+    "withinStructureFullVsPairPct": {
+      "SHARE": 3.0918299914544978,
+      "SYNC": -0.4755179661663056,
+      "FREE": -0.310086207646354
+    },
+    "setSelectionInteractionFreeMinusSyncPP": 0.16543175851995162,
+    "eligible": false
+  },
+  {
+    "stem": "100_2_3_1",
+    "metrics": {
+      "SHARE_PAIR": {
+        "HV": {
+          "1.25": 0.29027108871984775,
+          "1.5": 0.7921014623054015,
+          "2": 2.971673055030187
+        },
+        "IGDplus": 0.010216548367235985,
+        "timeHV": 0.7317081810351475,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "SHARE_FULL": {
+        "HV": {
+          "1.25": 0.28988327546146636,
+          "1.5": 0.794390535243246,
+          "2": 2.983892141134338
+        },
+        "IGDplus": 0.014903700545722908,
+        "timeHV": 0.6992032704670753,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 10,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 200,
+            "retiredLineages.CENTER": 50,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 753,
+            "retiredLineages.ENERGY": 11,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 196,
+            "retiredLineages.WORKER_COST": 12,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 178
+          },
+          "reward": "GROUP"
+        }
+      },
+      "SYNC_PAIR": {
+        "HV": {
+          "1.25": 0.2895813090466467,
+          "1.5": 0.7907100742965071,
+          "2": 2.9675940739744866
+        },
+        "IGDplus": 0.008992227331813825,
+        "timeHV": 0.7052230082213852,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "SYNC_FULL": {
+        "HV": {
+          "1.25": 0.2890451755981529,
+          "1.5": 0.7912434165924479,
+          "2": 2.972642382880183
+        },
+        "IGDplus": 0.0068219694796375595,
+        "timeHV": 0.7300170347808097,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 10,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 196,
+            "retiredLineages.CENTER": 51,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 791,
+            "retiredLineages.ENERGY": 11,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 209,
+            "retiredLineages.WORKER_COST": 11,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 188
+          },
+          "reward": "GROUP"
+        }
+      },
+      "FREE_PAIR": {
+        "HV": {
+          "1.25": 0.28343858716064063,
+          "1.5": 0.7781836795676097,
+          "2": 2.9352923578199936
+        },
+        "IGDplus": 0.014404740865741141,
+        "timeHV": 0.7032466621814852,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "FREE_FULL": {
+        "HV": {
+          "1.25": 0.27824606769470295,
+          "1.5": 0.7693974025896649,
+          "2": 2.917386379903463
+        },
+        "IGDplus": 0.016440031124538082,
+        "timeHV": 0.70144228113366,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 14,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 265,
+            "retiredLineages.CENTER": 52,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 619,
+            "retiredLineages.ENERGY": 14,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 239,
+            "retiredLineages.WORKER_COST": 15,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 196
+          },
+          "reward": "GROUP"
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.28776872712535684,
+          "1.5": 0.7853258448599327,
+          "2": 2.9491154104083668
+        },
+        "IGDplus": 0.0065198944240089434,
+        "timeHV": 0.6979176626811898,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.28469826017145367,
+          "1.5": 0.7796257472208236,
+          "2": 2.937192614252986
+        },
+        "IGDplus": 0.01685149479853968,
+        "timeHV": 0.6893865473830272,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      }
+    },
+    "freeFullEffectsPct": {
+      "SHARE_PAIR": -2.8663070068898344,
+      "SHARE_FULL": -3.1462022197845108,
+      "SYNC_PAIR": -2.6953838580852763,
+      "SYNC_FULL": -2.760972609018919,
+      "FREE_PAIR": -1.129074948324127,
+      "NSGA": -2.028259018154266,
+      "LI_MATCHED_DEEP": -1.3119557258877368
+    },
+    "withinStructureFullVsPairPct": {
+      "SHARE": 0.28898733896818296,
+      "SYNC": 0.0674510561175401,
+      "FREE": -1.129074948324127
+    },
+    "setSelectionInteractionFreeMinusSyncPP": -1.196526004441667,
+    "eligible": false
+  }
+]

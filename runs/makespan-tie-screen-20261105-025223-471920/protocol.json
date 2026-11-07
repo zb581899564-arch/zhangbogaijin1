@@ -1,0 +1,426 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    10950003,
+    10950033,
+    10950063
+  ],
+  "methods": {
+    "STRICT_FULL": [
+      "STRICT",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "COST_FULL": [
+      "COST_LEX",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "PARETO_FULL": [
+      "PARETO_SAFE",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "COST_SYNC": [
+      "COST_LEX",
+      "SYNC_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "COST_UNIFORM": [
+      "COST_LEX",
+      "SHARE_JOB_ALIGNED_UNIFORM",
+      "FULL_ROLE",
+      false
+    ],
+    "LI_STRICT": [
+      "STRICT",
+      "BASELINE",
+      "PAIR",
+      true
+    ],
+    "LI_COST": [
+      "COST_LEX",
+      "BASELINE",
+      "PAIR",
+      true
+    ],
+    "NSGA_STRICT": [
+      "STRICT",
+      "NSGA2_4V",
+      "PAIR",
+      false
+    ],
+    "NSGA_COST": [
+      "COST_LEX",
+      "NSGA2_4V",
+      "PAIR",
+      false
+    ],
+    "FORCE_STRICT": [
+      "STRICT",
+      "SHARE_JOB_ALIGNED",
+      "PAIR",
+      false
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "STRICT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "COST_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "PARETO_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "COST_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "COST_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "LI_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "LI_COST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "NSGA_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "NSGA_COST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "FORCE_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "COST_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "PARETO_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "COST_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "COST_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "LI_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "LI_COST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "NSGA_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "NSGA_COST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "FORCE_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "STRICT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "PARETO_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "COST_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "COST_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "LI_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "LI_COST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "NSGA_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "NSGA_COST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "FORCE_STRICT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "STRICT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "COST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "COST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "PARETO_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "COST_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "COST_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "LI_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "LI_COST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "NSGA_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "NSGA_COST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "FORCE_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "STRICT_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "PARETO_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "COST_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "COST_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "LI_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "LI_COST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "NSGA_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "NSGA_COST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "FORCE_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "STRICT_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "COST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "COST_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "COST_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "LI_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "LI_COST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "NSGA_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "NSGA_COST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "FORCE_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "STRICT_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "COST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "PARETO_FULL"
+    }
+  ],
+  "candidate": "COST_FULL",
+  "basis": "FACTORY_LEX failed its old continuation gate and is stopped. Its pre-fixed COST_LEX ordinary control had substantially larger addedHV than STRICT and FACTORY_LEX on both development instances; this new protocol uses three fresh optimizer seeds and does not relabel the previous candidate passing.",
+  "changed": "Only MAKESPAN local exact ties: lexicographically minimize TEC then TWC. Strict Cmax improvement remains primary and may trade other objectives as before. All CENTER/E/W rules unchanged. No modified global survival, Q reward/state/parameters, memory age, guide schedule, pool, proposal or quota.",
+  "controls": "Original STRICT_FULL, dominance-safe neutral moves PARETO_FULL, no actual composition, unified objective preference, original FORCE sharing, Li v2 with STRICT and same COST_LEX, NSGA-II with STRICT and same COST_LEX. NSGA retains its global breeding and receives identical physical local roles/slots, as in prior matched-deep controls.",
+  "engineering": "STRICT full500k exact paid sequence and frozen evidence must match before new performance data. Same paid initialization, 10000global/549inter/489351intra and complete physical ledger. Every returned front full decoder QA. No digest/trace in performance.",
+  "efficacyGate": "Per instance: median >=1% over STRICT_FULL, >=2/3 positive pairs; median >=-1% against equally enhanced NSGA_COST; nonnegative vs PARETO_FULL; positive vs equally enhanced Li_COST, original Li_STRICT and original FORCE_STRICT. Positive median direction vs STRICT at refs1.25 and2. Failure stops this rule without lex-priority/tolerance/Q/seed scans.",
+  "cooperationGate": "Separate: four duties vs uniform median >=1% on both; sharing vs SYNC median >=0.2% on at least one and >=-0.5% on the other. Generic improvement alone cannot establish four-group collaboration novelty.",
+  "budget": "60 x500000 searchFE=30000000 plus500000 engineeringFE. Full QA, previous discovery and replay expenses separate. Same-time cuts are exploratory within FE-capped trajectories; true TIME_LIMIT independent confirmation still required.",
+  "novelty": "Neutral lexicographic acceptance is a standard generic policy, not itself a paper contribution. Any viable result still requires mechanism attribution, recent-method comparison, untouched-instance confirmation and reproducible delivery. No mainline/public upload."
+}

@@ -1,0 +1,45 @@
+{
+  "bySeed": {
+    "16110003": {
+      "total": 5,
+      "exactFACompatible": 0
+    },
+    "16110037": {
+      "total": 5,
+      "exactFACompatible": 5
+    },
+    "16110069": {
+      "total": 5,
+      "exactFACompatible": 0
+    }
+  },
+  "recipients": [
+    {
+      "id": "receiver-012",
+      "slot": 12,
+      "role": "MAKESPAN",
+      "stateId": 13
+    },
+    {
+      "id": "receiver-064",
+      "slot": 64,
+      "role": "CENTER",
+      "stateId": 65
+    },
+    {
+      "id": "receiver-082",
+      "slot": 82,
+      "role": "ENERGY",
+      "stateId": 83
+    },
+    {
+      "id": "receiver-097",
+      "slot": 97,
+      "role": "WORKER_COST",
+      "stateId": 98
+    }
+  ],
+  "exactWholeFA": true,
+  "originalParentChildPrunedExcluded": true,
+  "selectionUsedObjectives": false
+}

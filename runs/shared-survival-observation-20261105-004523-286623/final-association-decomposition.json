@@ -1,0 +1,77 @@
+{
+  "scope": "Zero new evaluations. Direct and descendant HV removal contributions overlap and must not be summed. These are final-region associations, not counterfactual performance effects.",
+  "cells": [
+    {
+      "stem": "20_8_5_1",
+      "arm": "SHARE_PAIR",
+      "finalPointCount": 245,
+      "directComposedFinalPoints": 3,
+      "properDescendantFinalPoints": 1,
+      "directCompositionExclusiveHVAssociationPct": 0.0005555101920276545,
+      "properDescendantExclusiveHVAssociationPct": 5.23876788502373e-06,
+      "directComposedFinalPaidFE": [
+        443882,
+        443990,
+        444430
+      ]
+    },
+    {
+      "stem": "20_8_5_1",
+      "arm": "SHARE_FULL",
+      "finalPointCount": 183,
+      "directComposedFinalPoints": 0,
+      "properDescendantFinalPoints": 0,
+      "directCompositionExclusiveHVAssociationPct": 0.0,
+      "properDescendantExclusiveHVAssociationPct": 0.0,
+      "directComposedFinalPaidFE": []
+    },
+    {
+      "stem": "100_2_3_1",
+      "arm": "SHARE_PAIR",
+      "finalPointCount": 679,
+      "directComposedFinalPoints": 8,
+      "properDescendantFinalPoints": 0,
+      "directCompositionExclusiveHVAssociationPct": 0.053684577308102624,
+      "properDescendantExclusiveHVAssociationPct": 0.0,
+      "directComposedFinalPaidFE": [
+        443770,
+        444430,
+        444760,
+        444764,
+        444874,
+        445420,
+        445424,
+        445864
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "arm": "SHARE_FULL",
+      "finalPointCount": 580,
+      "directComposedFinalPoints": 18,
+      "properDescendantFinalPoints": 46,
+      "directCompositionExclusiveHVAssociationPct": 2.0446429343187864,
+      "properDescendantExclusiveHVAssociationPct": 0.0015171226094585185,
+      "directComposedFinalPaidFE": [
+        443753,
+        443775,
+        443880,
+        443947,
+        443979,
+        444278,
+        444495,
+        444498,
+        444610,
+        444943,
+        445379,
+        445633,
+        445705,
+        445816,
+        445823,
+        445824,
+        446149,
+        446369
+      ]
+    }
+  ]
+}

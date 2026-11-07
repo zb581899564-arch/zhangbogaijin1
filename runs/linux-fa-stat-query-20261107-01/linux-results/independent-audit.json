@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "rows": 1176,
+  "actualCandidateFE": 1152,
+  "actualQA": 24,
+  "operationRecords": 235200,
+  "maxIndependentAggregationError": 0.0,
+  "loadedClassChecks": 45,
+  "uniquePhysicalSchedules": 1140,
+  "newDecoderCallsByAudit": 0,
+  "reusedTimelineCheckerSHA256": "79430ca0ef3a1c0e40633e7805cdb066c2a26067cd57cbb911a73c50290125e6",
+  "sourceMatchingGate": {
+    "passed": true,
+    "queries": 1152,
+    "roleCells": 36,
+    "randomizedTreeIsExactRelabeling": true,
+    "allReceiverDonorAndKeyAssignmentsChecked": true,
+    "newFE": 0,
+    "newQA": 0
+  }
+}

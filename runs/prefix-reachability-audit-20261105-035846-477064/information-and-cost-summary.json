@@ -1,0 +1,35 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "registeredMainPairs": 108,
+      "counts": {
+        "cheapTimeExcludes": 4,
+        "timeLPExcludes": 4,
+        "cheapFatigueExcludes": 4,
+        "fatigueLPExcludes": 4
+      },
+      "maxFatigueBoundIncrement": 8.431325410396262e-06,
+      "medianFatigueBoundIncrement": 2.4948345000996852e-08,
+      "meanTimeLPScoringMilliseconds": 34.592592598292626,
+      "meanFatigueLPScoringMilliseconds": 33.398148145621505
+    },
+    {
+      "stem": "100_2_3_1",
+      "registeredMainPairs": 108,
+      "counts": {
+        "cheapTimeExcludes": 12,
+        "timeLPExcludes": 15,
+        "cheapFatigueExcludes": 12,
+        "fatigueLPExcludes": 15
+      },
+      "maxFatigueBoundIncrement": 0.1228388752725964,
+      "medianFatigueBoundIncrement": 8.860554528977715e-08,
+      "meanTimeLPScoringMilliseconds": 24.166666668693157,
+      "meanFatigueLPScoringMilliseconds": 23.72222221930753
+    }
+  ],
+  "searchFE": 0,
+  "newLPSolves": 0,
+  "scope": "Only pre-registered MAIN prefix-target pairs; no actual algorithm improvement or free LP scoring."
+}

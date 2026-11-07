@@ -1,0 +1,12 @@
+{
+  "dynamicSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\schedule-factor-probe-20261105-124946-994085",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "question": "Is observed order/bundle dependence retained with beta0 at exactly the same264pairs?",
+  "budget": "1056newguarded beta0evaluations+1056independentfulltimelineQA. Prior1056dynamic evaluations reused, not charged as new. No source search, new target, extra pair or new policy.",
+  "invariant": "Only beta zeroed, allalpha/mu/h0 retained and independently checked against input; sameFIFO/FAM dynamics and sourcelegal fourvectors. Commonrepair0. Model parameter context explicit; no cache crossing models. Exactsame264matchedpairs+120missing.",
+  "scoring": "Recompute BOTHmodels with eachpairPARENT singleton background and same original normalization/HVref1.5. Parent-relative gain differs from previousFULLarchive score and never replaces it. Record lostbeta0dominance and zerojointgain, no replacement. Jointdependence bothsinglefactorgains<0.1targetgain only when targetgain>1e-10. Amplification=beta0bestsinglefactorrecovery-dynamicrecovery for comparable positivepairs.",
+  "limits": "Targets selected by dynamic optimizer. Paired beta intervention describes these fixed schedules, not whole landscape, beta0algorithm performance, independent fatigue-specific innovation or useful offspring. No success gate or algorithm promotion. Preserve all mismatches, failures, missingpairs; defaultline unchanged."
+}

@@ -1,0 +1,258 @@
+{
+  "availability": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 10060007,
+      "cohorts": [
+        {
+          "role": "MAKESPAN",
+          "paidFE": 565,
+          "guideCount": 16,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "CENTER",
+          "paidFE": 2170,
+          "guideCount": 16,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "ENERGY",
+          "paidFE": 3960,
+          "guideCount": 16,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "WORKER_COST",
+          "paidFE": 4710,
+          "guideCount": 16,
+          "allGuidesFromInitialization": true
+        }
+      ]
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10060031,
+      "cohorts": [
+        {
+          "role": "MAKESPAN",
+          "paidFE": 460,
+          "guideCount": 11,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "CENTER",
+          "paidFE": 2225,
+          "guideCount": 11,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "ENERGY",
+          "paidFE": 3975,
+          "guideCount": 11,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "WORKER_COST",
+          "paidFE": 4770,
+          "guideCount": 11,
+          "allGuidesFromInitialization": true
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10060007,
+      "cohorts": [
+        {
+          "role": "MAKESPAN",
+          "paidFE": 475,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "CENTER",
+          "paidFE": 2830,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "ENERGY",
+          "paidFE": 3960,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "WORKER_COST",
+          "paidFE": 4725,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10060031,
+      "cohorts": [
+        {
+          "role": "MAKESPAN",
+          "paidFE": 535,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "CENTER",
+          "paidFE": 2170,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "ENERGY",
+          "paidFE": 4005,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        },
+        {
+          "role": "WORKER_COST",
+          "paidFE": 4800,
+          "guideCount": 10,
+          "allGuidesFromInitialization": true
+        }
+      ]
+    }
+  ],
+  "serialFreshOriginMatrices": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760003,
+      "sourceMeaning": "First paid occurrence of identical four-vector genome",
+      "action2NewGenomeOrigins": {
+        "MAKESPAN": {
+          "MAKESPAN": 9,
+          "CENTER": 0,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "CENTER": {
+          "MAKESPAN": 4,
+          "CENTER": 11,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "ENERGY": {
+          "MAKESPAN": 5,
+          "CENTER": 12,
+          "ENERGY": 3,
+          "WORKER_COST": 0
+        },
+        "WORKER_COST": {
+          "MAKESPAN": 0,
+          "CENTER": 17,
+          "ENERGY": 1,
+          "WORKER_COST": 0
+        }
+      },
+      "laterRoleToEarlierRoleSelections": 0
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9760033,
+      "sourceMeaning": "First paid occurrence of identical four-vector genome",
+      "action2NewGenomeOrigins": {
+        "MAKESPAN": {
+          "MAKESPAN": 18,
+          "CENTER": 0,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "CENTER": {
+          "MAKESPAN": 1,
+          "CENTER": 18,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "ENERGY": {
+          "MAKESPAN": 0,
+          "CENTER": 18,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "WORKER_COST": {
+          "MAKESPAN": 0,
+          "CENTER": 12,
+          "ENERGY": 0,
+          "WORKER_COST": 5
+        }
+      },
+      "laterRoleToEarlierRoleSelections": 0
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760003,
+      "sourceMeaning": "First paid occurrence of identical four-vector genome",
+      "action2NewGenomeOrigins": {
+        "MAKESPAN": {
+          "MAKESPAN": 12,
+          "CENTER": 0,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "CENTER": {
+          "MAKESPAN": 14,
+          "CENTER": 5,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "ENERGY": {
+          "MAKESPAN": 0,
+          "CENTER": 7,
+          "ENERGY": 5,
+          "WORKER_COST": 0
+        },
+        "WORKER_COST": {
+          "MAKESPAN": 1,
+          "CENTER": 11,
+          "ENERGY": 10,
+          "WORKER_COST": 0
+        }
+      },
+      "laterRoleToEarlierRoleSelections": 0
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9760033,
+      "sourceMeaning": "First paid occurrence of identical four-vector genome",
+      "action2NewGenomeOrigins": {
+        "MAKESPAN": {
+          "MAKESPAN": 18,
+          "CENTER": 0,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "CENTER": {
+          "MAKESPAN": 4,
+          "CENTER": 9,
+          "ENERGY": 0,
+          "WORKER_COST": 0
+        },
+        "ENERGY": {
+          "MAKESPAN": 0,
+          "CENTER": 12,
+          "ENERGY": 6,
+          "WORKER_COST": 0
+        },
+        "WORKER_COST": {
+          "MAKESPAN": 0,
+          "CENTER": 10,
+          "ENERGY": 4,
+          "WORKER_COST": 0
+        }
+      },
+      "laterRoleToEarlierRoleSelections": 0
+    }
+  ],
+  "allFrozenOriginalCohortArchivesInitialOnly": true,
+  "structuralFinding": "Original internal archives have no same-generation cross-role accepted updates; serial batch-refresh permits earlier-to-later feedback only. A round-synchronous schedule with per-role persistent Q state would test reverse flow, not merely the freshness interval. Quality benefit remains untested.",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0
+}

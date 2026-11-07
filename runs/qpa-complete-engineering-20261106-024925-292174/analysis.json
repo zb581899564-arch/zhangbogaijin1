@@ -1,0 +1,119 @@
+{
+  "engineeringPass": true,
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "main": {
+        "passed": true,
+        "paidReconstructed": 15100,
+        "paidSHA256": "7f2c82bab315b0a486fd2129aacdd33c295b76def7112d8278774a95c673fb1d",
+        "prefixSHA256": {
+          "1": "a4a36f77eded100cc89280b53f99eb707aedd7822605f872a671802eb1d44068",
+          "2": "85ac2276f4681e627c403eed3ae53624665ff24b9be40dcbc7811a37e22fe154",
+          "100": "b12b20ae1a0d4d718a76d1ae7c3ed22aa6d191ea8148e40d6b6878940a791f0e",
+          "101": "b128c632e789ca7ae13c8be741f766d7f206a5ebbf9e03c7ad9879e9ccdaab13",
+          "102": "02d84013d25f0a1bfb007476f0384dff3d8716aee1c180fcabaf73bb992fab9b",
+          "15099": "b8d5108cf7782f20bd54a22d83bdc291343c9d0ee4b11514f37de1c043ea8fae",
+          "15100": "7f2c82bab315b0a486fd2129aacdd33c295b76def7112d8278774a95c673fb1d"
+        },
+        "completeGenerations": 2,
+        "completePrograms": 200,
+        "modelChecks": [
+          {
+            "componentPairs": 190,
+            "maximumAffinityError": 0.0,
+            "maximumMeanMergeDeficit": 0.0
+          },
+          {
+            "componentPairs": 190,
+            "maximumAffinityError": 0.0,
+            "maximumMeanMergeDeficit": 0.0
+          }
+        ],
+        "counts": {
+          "duplicates": 1445,
+          "accepted": 2663,
+          "fallbacks": 124,
+          "unchanged": 1195,
+          "programs": 200
+        },
+        "extraSearchFE": 0,
+        "decoderCalls": 0
+      },
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        102,
+        15099
+      ],
+      "initial100EqualToOldPA": true,
+      "cutoffPaidDigestsMatchMainPrefixes": true
+    },
+    {
+      "stem": "100_2_3_1",
+      "main": {
+        "passed": true,
+        "paidReconstructed": 78100,
+        "paidSHA256": "97adb2317e70774d51f60de1ca1bf9e29f9eee0d96835c2b3c8204910c0d8c1a",
+        "prefixSHA256": {
+          "1": "9f3e572c76230492b5a8e73135d4f1ef67c7e472899416e8044388ea6d64d531",
+          "2": "b6a76d4bf9ba0f38deb119cbe723099ad8116882c2f1a7887961cba8ccb423d5",
+          "100": "b2a9e25e0d6da0aac5bca64b011d631049303090da3ed9897a5b5aac52800886",
+          "101": "a3a7be2b01cd6f9902ad74f1049bdc17d317d7129b87bacc5d21feaa56114ee4",
+          "102": "204cb933a139355b3c3d2a66fbe9bf2caa75a65737416eeb2dad988484b2576a",
+          "78099": "91c2265e9d41baabebe38741ec9745d7612035b41e56461e428c27681668e166",
+          "78100": "97adb2317e70774d51f60de1ca1bf9e29f9eee0d96835c2b3c8204910c0d8c1a"
+        },
+        "completeGenerations": 2,
+        "completePrograms": 200,
+        "modelChecks": [
+          {
+            "componentPairs": 4950,
+            "maximumAffinityError": 0.0,
+            "maximumMeanMergeDeficit": 0.0
+          },
+          {
+            "componentPairs": 4950,
+            "maximumAffinityError": 0.0,
+            "maximumMeanMergeDeficit": 0.0
+          }
+        ],
+        "counts": {
+          "duplicates": 5323,
+          "accepted": 12268,
+          "fallbacks": 0,
+          "unchanged": 5084,
+          "programs": 200
+        },
+        "extraSearchFE": 0,
+        "decoderCalls": 0
+      },
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        102,
+        78099
+      ],
+      "initial100EqualToOldPA": true,
+      "cutoffPaidDigestsMatchMainPrefixes": true
+    }
+  ],
+  "successfulFE": 187210,
+  "attemptedFE": 187210,
+  "failedFE": 0,
+  "paidFullTimelineQA": 187010,
+  "oldPAOfflineQA": 29,
+  "receiptCount": 16,
+  "protectedAfter": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  },
+  "defaultMainlineChanged": false,
+  "sameBudgetPerformanceProved": false,
+  "goalAchieved": false
+}

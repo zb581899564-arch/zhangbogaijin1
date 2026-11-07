@@ -1,0 +1,41 @@
+{
+  "extraSearchFE": 0,
+  "logicalCompleteObjectiveCompositionQueries": 13000,
+  "distinctComposedGenomes": 2812,
+  "partialFactoryRecords": 8256,
+  "singlePointHVgainQueries": 13264,
+  "sourcePoints": 2752,
+  "distinctWitnessFullDecodeRequests": 59,
+  "HVEngineFixtures": [
+    {
+      "reference": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "points": 7,
+      "maxError": 5.551115123125783e-17,
+      "status": "PASS"
+    },
+    {
+      "reference": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "points": 7,
+      "maxError": 4.440892098500626e-16,
+      "status": "PASS"
+    },
+    {
+      "reference": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "points": 7,
+      "maxError": 1.3322676295501878e-15,
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "physicalResourceClasses": [
+        {
+          "factory": 0,
+          "machines": 3,
+          "workers": 2,
+          "machineClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "factory": 1,
+          "machines": 2,
+          "workers": 2,
+          "machineClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "factory": 2,
+          "machines": 5,
+          "workers": 4,
+          "machineClasses": [
+            [
+              0,
+              3
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              4
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "factory": 3,
+          "machines": 5,
+          "workers": 4,
+          "machineClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "factory": 4,
+          "machines": 4,
+          "workers": 3,
+          "machineClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        }
+      ],
+      "families": [
+        {
+          "family": 0,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 4,
+              "rawCompleteFirstStageStates": 31104,
+              "sufficientSymmetryReducedStates": 31104,
+              "under200000States": true
+            },
+            {
+              "factory": 1,
+              "jobs": 3,
+              "rawCompleteFirstStageStates": 384,
+              "sufficientSymmetryReducedStates": 384,
+              "under200000States": true
+            },
+            {
+              "factory": 2,
+              "jobs": 5,
+              "rawCompleteFirstStageStates": 384000000,
+              "sufficientSymmetryReducedStates": 206929920,
+              "under200000States": false
+            },
+            {
+              "factory": 3,
+              "jobs": 5,
+              "rawCompleteFirstStageStates": 384000000,
+              "sufficientSymmetryReducedStates": 384000000,
+              "under200000States": false
+            },
+            {
+              "factory": 4,
+              "jobs": 3,
+              "rawCompleteFirstStageStates": 10368,
+              "sufficientSymmetryReducedStates": 10368,
+              "under200000States": true
+            }
+          ],
+          "rawSum": 768041856,
+          "reducedSum": 590971776,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        },
+        {
+          "family": 1,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 3,
+              "rawCompleteFirstStageStates": 1296,
+              "sufficientSymmetryReducedStates": 1296,
+              "under200000States": true
+            },
+            {
+              "factory": 1,
+              "jobs": 5,
+              "rawCompleteFirstStageStates": 122880,
+              "sufficientSymmetryReducedStates": 122880,
+              "under200000States": true
+            },
+            {
+              "factory": 2,
+              "jobs": 5,
+              "rawCompleteFirstStageStates": 384000000,
+              "sufficientSymmetryReducedStates": 206929920,
+              "under200000States": false
+            },
+            {
+              "factory": 3,
+              "jobs": 4,
+              "rawCompleteFirstStageStates": 3840000,
+              "sufficientSymmetryReducedStates": 3840000,
+              "under200000States": false
+            },
+            {
+              "factory": 4,
+              "jobs": 3,
+              "rawCompleteFirstStageStates": 10368,
+              "sufficientSymmetryReducedStates": 10368,
+              "under200000States": true
+            }
+          ],
+          "rawSum": 387974544,
+          "reducedSum": 210904464,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        },
+        {
+          "family": 2,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 3,
+              "rawCompleteFirstStageStates": 1296,
+              "sufficientSymmetryReducedStates": 1296,
+              "under200000States": true
+            },
+            {
+              "factory": 1,
+              "jobs": 2,
+              "rawCompleteFirstStageStates": 32,
+              "sufficientSymmetryReducedStates": 32,
+              "under200000States": true
+            },
+            {
+              "factory": 2,
+              "jobs": 8,
+              "rawCompleteFirstStageStates": 1032192000000000,
+              "sufficientSymmetryReducedStates": 524764430991360,
+              "under200000States": false
+            },
+            {
+              "factory": 3,
+              "jobs": 2,
+              "rawCompleteFirstStageStates": 800,
+              "sufficientSymmetryReducedStates": 800,
+              "under200000States": true
+            },
+            {
+              "factory": 4,
+              "jobs": 5,
+              "rawCompleteFirstStageStates": 29859840,
+              "sufficientSymmetryReducedStates": 29859840,
+              "under200000States": false
+            }
+          ],
+          "rawSum": 1032192029861968,
+          "reducedSum": 524764460853328,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        },
+        {
+          "family": 3,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 2,
+              "rawCompleteFirstStageStates": 72,
+              "sufficientSymmetryReducedStates": 72,
+              "under200000States": true
+            },
+            {
+              "factory": 1,
+              "jobs": 6,
+              "rawCompleteFirstStageStates": 2949120,
+              "sufficientSymmetryReducedStates": 2949120,
+              "under200000States": false
+            },
+            {
+              "factory": 2,
+              "jobs": 5,
+              "rawCompleteFirstStageStates": 384000000,
+              "sufficientSymmetryReducedStates": 206929920,
+              "under200000States": false
+            },
+            {
+              "factory": 3,
+              "jobs": 3,
+              "rawCompleteFirstStageStates": 48000,
+              "sufficientSymmetryReducedStates": 48000,
+              "under200000States": true
+            },
+            {
+              "factory": 4,
+              "jobs": 4,
+              "rawCompleteFirstStageStates": 497664,
+              "sufficientSymmetryReducedStates": 497664,
+              "under200000States": false
+            }
+          ],
+          "rawSum": 387494856,
+          "reducedSum": 210424776,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        }
+      ],
+      "oneOperationBound": {
+        "maxBaseBetaMu": 2.2539844123382426,
+        "maximumExactNumerator": 91432470182580674412223437194499,
+        "maximumExactDenominator": 40564819207303340847894502572032,
+        "maximumLocation": {
+          "factory": 2,
+          "stage": 6,
+          "job": 12,
+          "pair": 6,
+          "worker": 2
+        },
+        "resourceChoicesTested": 7400,
+        "potentialNegativeDerivativeChoices": 898,
+        "allChoicesOneOperationCompletionMonotoneForAnyH0To1": false,
+        "scope": "For a fixed prior fatigue state and specified resources, c(s)=s+b(1+beta*h(s)), c_prime=1-b*beta*mu*h(s). q<=1 suffices for monotone completion for h<=1. q>1 only permits inversion at h>1/q, not proof it occurs or has search value. This says nothing about all future fatigue, exposure, or the value of voluntary rest in other objectives."
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "physicalResourceClasses": [
+        {
+          "factory": 0,
+          "machines": 3,
+          "workers": 2,
+          "machineClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "factory": 1,
+          "machines": 5,
+          "workers": 4,
+          "machineClasses": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "factory": 2,
+          "machines": 3,
+          "workers": 2,
+          "machineClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "workerClasses": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ]
+        }
+      ],
+      "families": [
+        {
+          "family": 0,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 26,
+              "rawCompleteFirstStageStates": 68794154399043574086517124361286796181504000000,
+              "sufficientSymmetryReducedStates": 68794154399043574086517124361286796181504000000,
+              "under200000States": false
+            },
+            {
+              "factory": 1,
+              "jobs": 36,
+              "rawCompleteFirstStageStates": 25563186766285862273530264901662157745369907200000000000000000000000000000000000000000000,
+              "sufficientSymmetryReducedStates": 12781593514977714892077122437435478362912307476086083100536321427780387556923801600000000,
+              "under200000States": false
+            },
+            {
+              "factory": 2,
+              "jobs": 38,
+              "rawCompleteFirstStageStates": 194208388407681826652317781833621782244648003898815555887661527859200000000,
+              "sufficientSymmetryReducedStates": 194208388407681826652317781833621782244648003898815555887661527859200000000,
+              "under200000States": false
+            }
+          ],
+          "rawSum": 25563186766286056481918672583488810063151809615936643691577985332680248948324040704000000,
+          "reducedSum": 12781593514977909100465530119262130680694209892022726792114306760460636505247842304000000,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        },
+        {
+          "family": 1,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 33,
+              "rawCompleteFirstStageStates": 414645493428903283876215634600088475506895970634280468480000000,
+              "sufficientSymmetryReducedStates": 414645493428903283876215634600088475506895970634280468480000000,
+              "under200000States": false
+            },
+            {
+              "factory": 1,
+              "jobs": 32,
+              "rawCompleteFirstStageStates": 113013833919932263255499077352933031936000000000000000000000000000000000000000,
+              "sufficientSymmetryReducedStates": 56506921457160156150281117957654048420692022749028324112148961144340480000000,
+              "under200000States": false
+            },
+            {
+              "factory": 2,
+              "jobs": 35,
+              "rawCompleteFirstStageStates": 17763412938494216681257077786267790290715423381972575269683200000000,
+              "sufficientSymmetryReducedStates": 17763412938494216681257077786267790290715423381972575269683200000000,
+              "under200000States": false
+            }
+          ],
+          "rawSum": 113013833937696090839486722937473985937902390379190930277943209550151680000000,
+          "reducedSum": 56506921474923983734268763542195002422594413128219254390092170694492160000000,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        },
+        {
+          "family": 2,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 39,
+              "rawCompleteFirstStageStates": 45444762887397547436642360949067497045247632912322840077712797519052800000000,
+              "sufficientSymmetryReducedStates": 45444762887397547436642360949067497045247632912322840077712797519052800000000,
+              "under200000States": false
+            },
+            {
+              "factory": 1,
+              "jobs": 32,
+              "rawCompleteFirstStageStates": 113013833919932263255499077352933031936000000000000000000000000000000000000000,
+              "sufficientSymmetryReducedStates": 56506921457160156150281117957654048420692022749028324112148961144340480000000,
+              "under200000States": false
+            },
+            {
+              "factory": 2,
+              "jobs": 29,
+              "rawCompleteFirstStageStates": 325780496865640364746925109851319971408391438336000000,
+              "sufficientSymmetryReducedStates": 325780496865640364746925109851319971408391438336000000,
+              "under200000States": false
+            }
+          ],
+          "rawSum": 158458596807329810692141764082497394621612379837432691397684205910491136000000,
+          "reducedSum": 101951684344557703586923804687218411106304402586461015509833167054831616000000,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        },
+        {
+          "family": 3,
+          "factories": [
+            {
+              "factory": 0,
+              "jobs": 26,
+              "rawCompleteFirstStageStates": 68794154399043574086517124361286796181504000000,
+              "sufficientSymmetryReducedStates": 68794154399043574086517124361286796181504000000,
+              "under200000States": false
+            },
+            {
+              "factory": 1,
+              "jobs": 39,
+              "rawCompleteFirstStageStates": 11213854265140151775254068364941942062476907931238400000000000000000000000000000000000000000000000,
+              "sufficientSymmetryReducedStates": 5606927145061837191681241977094175660004688941997773797109749345767332084800109625422643200000000,
+              "under200000States": false
+            },
+            {
+              "factory": 2,
+              "jobs": 35,
+              "rawCompleteFirstStageStates": 17763412938494216681257077786267790290715423381972575269683200000000,
+              "sufficientSymmetryReducedStates": 17763412938494216681257077786267790290715423381972575269683200000000,
+              "under200000States": false
+            }
+          ],
+          "rawSum": 11213854265140151775254068364959705475415402147919725871940666833864801940506333862065864704000000,
+          "reducedSum": 5606927145061837191681241977111939072943183158679099669050416179632134025306443487488507904000000,
+          "completeFamilyWithin500000PhysicalEvaluations": false
+        }
+      ],
+      "oneOperationBound": {
+        "maxBaseBetaMu": 1.5002882679290137,
+        "maximumExactNumerator": 34260527500728092877878774899194732937526900097,
+        "maximumExactDenominator": 22835963083295358096932575511191922182123945984,
+        "maximumLocation": {
+          "factory": 0,
+          "stage": 0,
+          "job": 77,
+          "pair": 1,
+          "worker": 1
+        },
+        "resourceChoicesTested": 4600,
+        "potentialNegativeDerivativeChoices": 346,
+        "allChoicesOneOperationCompletionMonotoneForAnyH0To1": false,
+        "scope": "For a fixed prior fatigue state and specified resources, c(s)=s+b(1+beta*h(s)), c_prime=1-b*beta*mu*h(s). q<=1 suffices for monotone completion for h<=1. q>1 only permits inversion at h>1/q, not proof it occurs or has search value. This says nothing about all future fatigue, exposure, or the value of voluntary rest in other objectives."
+      }
+    }
+  ],
+  "searchFE": 0,
+  "decoderCalls": 0
+}

@@ -1,0 +1,84 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    10620007,
+    10620037
+  ],
+  "arms": {
+    "SERIAL_STALE": [
+      "SERIAL",
+      false
+    ],
+    "SERIAL_FRESH": [
+      "SERIAL",
+      true
+    ],
+    "SWEEP_STALE": [
+      "SWEEP",
+      false
+    ],
+    "SWEEP_FRESH": [
+      "SWEEP",
+      true
+    ],
+    "NSGA": [
+      "SERIAL",
+      false
+    ]
+  },
+  "candidate": "SWEEP_FRESH",
+  "diagnosticFE": 102000,
+  "engineeringFE": 500000,
+  "hypothesis": "Global serial50-step blocks prevent later-role accepted knowledge influencing earlier roles in the first generation. Interleave one step per role with the same batch-current feedback rule to test bidirectional cooperation.",
+  "factorial": "SERIAL/SWEEP x STALE/FRESH, plus matched NSGA global prefix. Every physical role retains its own Q table/observation for50 updates. Original order within sweep M/C/E/W, exactly50 sweeps. No refresh-interval, order or quota scan.",
+  "preserved": "OLDEST personal semantics (common proven O1 ND tie engine), FULL_ROLE survival/group reward, four duties/15-55-15-15, Q parameters, JOB_ALIGNED, fixedFA families, pool cap/eta/frequency, original single deep local phase and physical ledger. Fresh offers only accepted current states, never rejected proposals.",
+  "engineering": "Single-step refactor SERIAL_STALE must reproduce frozen OLD_FULL full500000 paid sequence SHA, front checkpoints, genes, physical ledger/restarts and search/group counts. Zero-decoder fixture checks persistent independent Q agents,50 updates and schedule ordering.",
+  "provenance": "Annotate creator role/epoch before ordinary evaluation; this metadata does not enter model or search decisions. Selected action2 guide birth epoch/role recorded. It is snapshot origin, not proof of gene transfer or quality.",
+  "gate": "Each instance median SWEEP_FRESH >=0.5% vs both serial variants, >SWEEP_STALE, >=-2% vs NSGA at5100; >=3/4 positive pairs vs each serial across instances. Each source seed M must select a same-epoch later-role guide; C must select E/W at least once per instance. Failure stops this schedule/feedback combination without order/interval scans.",
+  "limits": "Short-stage gate, not the final >=-1%500k competitiveness standard. No mainline change, final confirmation or novelty claim. All replay/init/diagnostic FE and offline QA counted. Trace and digest costs separate from any performance claim."
+}

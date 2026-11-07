@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "mode": "NATIVE",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "TASK_ONLY",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "ORDER_ONLY",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "FULL",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "RANDOM",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "CENTER_MATCHED",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "NATIVE",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "TASK_ONLY",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "ORDER_ONLY",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "FULL",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "RANDOM",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "CENTER_MATCHED",
+      "nativeParityOrFirstModelEqual": true,
+      "fullStepAndPhysicalQA": true
+    }
+  ],
+  "runs": 24,
+  "attemptedFE": 311646,
+  "successfulFE": 311646,
+  "failedFE": 0,
+  "extraPaidTimelineQA": 311646,
+  "extraViewTimelineQA": 3000,
+  "newAttemptedFE": 303746,
+  "reusedAttemptedFE": 7900,
+  "newPerformanceEvidence": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

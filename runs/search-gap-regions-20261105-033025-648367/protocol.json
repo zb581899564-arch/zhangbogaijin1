@@ -1,0 +1,62 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\makespan-tie-screen-20261105-025223-471920",
+  "arms": [
+    "STRICT_FULL",
+    "NSGA_STRICT"
+  ],
+  "seeds": [
+    10950003,
+    10950033,
+    10950063
+  ],
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "scope": "Explicitly post-hoc explanation of already-complete development results, not a new candidate gate, independent test or statistical significance claim.",
+  "regions": "Use per-instance quartiles of Cmax in the pooled empirical ND union from both methods and all three final seeds. Integrate3D HV over four disjoint Cmax slabs. Report signed contributions; do not sum medians or hide offsetting regions.",
+  "checkpoints": "All saved common FE checkpoints and per-objective minima; lower minima are not alone a multiobjective performance conclusion.",
+  "cost": "Zero search FE, zero decoder calls, no new genome or online scoring. Physical FA/resource/order causes are not inferred from objective regions alone."
+}

@@ -1,0 +1,24 @@
+{
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "notes": [
+    {
+      "kind": "offline_cli_argument_error",
+      "artifact": "audit-code-01/audit.py",
+      "stage": "before CUT_1 smoke",
+      "error": "audit.py: error: the following arguments are required: --root",
+      "effect": "No audit output written; no search/decode call. Correct --root supplied in audit-code-02 smoke and campaigns.",
+      "provenance": "Actual foreground terminal output retained in conversation; this is a contemporaneous transcription, not a new execution."
+    },
+    {
+      "kind": "offline_version_freeze",
+      "artifact": "audit-code-02",
+      "change": "Added cross-check of decoder.dynamic.evaluations against successful FE before all executed independent audits; audit-code-01 preserved."
+    },
+    {
+      "kind": "offline_version_freeze",
+      "artifact": "analysis-code-02",
+      "change": "Added independent nondominated reference/endpoints reconstruction before first quality calculation; no search or metric-dependent changes."
+    }
+  ]
+}

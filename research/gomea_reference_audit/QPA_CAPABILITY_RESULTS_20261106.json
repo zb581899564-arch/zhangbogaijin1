@@ -1,0 +1,28 @@
+{
+  "version": "QPA_COMPLETE_CAPABILITY_RESULTS-v1",
+  "run": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+  "protocol": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483\\protocol.json",
+  "status": {
+    "status": "COMPLETE",
+    "decision": "STOP_FIXED_DIRECT_QPA_QUALIFICATION",
+    "runs": 32,
+    "attemptedFE": 12236600,
+    "successfulFE": 12236600,
+    "failedFE": 0,
+    "timeInterruptedAttempts": 0,
+    "extraFullDecoderQA": 35506,
+    "goalAchieved": false
+  },
+  "postAuditPassed": true,
+  "completeEngineeringRun": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174",
+  "strongNSGAJointPassByInstance": {
+    "20_8_5_1": true,
+    "100_2_3_1": true
+  },
+  "allControlsAllInstancesPass": false,
+  "sameTimeExecuted": false,
+  "oldStopsUnchanged": true,
+  "defaultMainlineChanged": false,
+  "newFourRoleSharedContributionProved": false,
+  "goalAchieved": false
+}

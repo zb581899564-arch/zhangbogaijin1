@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.AssertionError: M slot physical accounting mismatch: group=1 round=0 actualFactory=0 observedFactory=0 successfulCandidates=262 ledgerPaid=262 observerPaid=262
+	at org.uma.jmetal.util.research.search.CriticalSlotAudit.end(CriticalSlotAudit.java:56)
+	at org.uma.jmetal.util.research.search.LocalSearch.improveIntra(LocalSearch.java:64)
+	at org.uma.jmetal.util.research.search.LocalSearch.improve(LocalSearch.java:22)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.run(CanonicalHmopso.java:117)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.PddrIsolationRun.main(PddrIsolationRun.java:60)

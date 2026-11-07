@@ -1,0 +1,12 @@
+{
+  "effectiveStatus": "ENGINEERING_INVALID_RETAINED",
+  "originalStatusAndArtifactsPreserved": true,
+  "cause": "Python preparation misread filename position1(stages) as factoryCount. Actual factories are5and3, not8and2. The invalid coverage predicate forced every candidate to paid unchanged-parent fallback.",
+  "successfulFEAlreadyUsed": 10240,
+  "failedFE": 0,
+  "fullDecoderQA": 10240,
+  "actualNonfallbackCandidates": 0,
+  "scientificHypothesisTested": false,
+  "cannotUseAsNegativePerformanceEvidence": true,
+  "correction": "Derive dimensions independently from original fatigue table, verify filename dimensions, then assert against actual Java Instance before any paid evaluation. Repeat same originally specified factoryCount-based rule, sources, seeds, sampling, controls and gates. Preserve this run and all costs."
+}

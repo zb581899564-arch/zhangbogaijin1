@@ -1,0 +1,63 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "methods": [
+    "PARENT",
+    "ORDER_ONLY",
+    "BUNDLE_ONLY",
+    "TARGET"
+  ],
+  "question": "In actual observed enhanced-NSGA dominators, how much single-point gap recovery survives order only versus complete job(factory,machine,worker) bundles only?",
+  "scope": "Schedule-level explanatory counterfactual, not algorithm treatment, new teacher or proof FAcauses gap. Explicitly separate from failed identity-shake materiality, conditional exchange, v7smallsyntheticbarriers and one-stepactioncritic. No learning or policy implementation.",
+  "sampling": "All12prior strata, each32 equally spaced FULLfront indices in stable objective order before checking observed strictdominator. Missing matches retained, no replacement. Target fixed by previous minimumFA/minimumbundle/objectivedistance rule; no new outcome selection.",
+  "factors": "WholeJSorder and perjob(FA,MA,WA)bundle. Fourlegal corners PARENT,ORDER_ONLY, BUNDLE_ONLY,TARGET. Resource ids travel with their originalfactory; do not graft FAalone or remap/clamp resources. All factories remain nonempty because source bundle assignments valid. Commonrepair must edit0 or stop. No activewaiting/modelchange.",
+  "budget": "Exactly4charged guarded evaluations per matched pair, including repeated knownsource parent/target, each also independentfulltimelineQA. <=1536newFE; exactperinstance fee plan frozen after deterministic input preparation before any evaluation. No dedupfreecalls.",
+  "score": "SinglecandidateHV addition against complete sourceFULLfront at its registered endpoint, ref1.5andoriginalscales. TARGET is privileged known solution, not an online available teacher or oneFEalgorithm success. Report sums then sum-ratios to TARGET, perpair fractions and signed twofactorfinite-difference; never unionallhybridsasonecandidate.",
+  "interpretation": "No performance pass/selector authorization. Report missing/zero-target-gain and all strata separately. LargechangedFA distance alone is not evidence that a large mutation is needed; bothoptimizers may have different ancestors. Do not tune factors, target match, samples, scales or thresholds after outcomes.",
+  "engineering": "Frozen modelclasspath actualDynamicEvaluation/Decoder/Validator class identity and SHA/JDK; sourceendpoint objectives bitexact; every fullschedule timeline QA matches paid decoder. Repair0, duplicate attempts charged, lastvalidfront and usedFE retained onfailure. Defaultmainline/fourroles/Q/sharing unchanged; no transfer."
+}

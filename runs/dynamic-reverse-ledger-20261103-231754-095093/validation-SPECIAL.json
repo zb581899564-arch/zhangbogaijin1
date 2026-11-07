@@ -1,0 +1,70 @@
+{
+  "stage": {
+    "initialization": 100,
+    "global": 10000,
+    "inter": 549,
+    "intra": 489351
+  },
+  "terminal": "intra",
+  "visits": 112,
+  "slots": 3471,
+  "quotaContinuations": 1977,
+  "obs": {
+    "paidFE": 500000,
+    "paidSHA256": "714e5794ecb2451a1e06f91b9854de2bf98ea04a85eb76e21c174985680365a1",
+    "observationSeconds": 0.503287058,
+    "centerPbestCount": 5500,
+    "centerPbestMulti": 4829,
+    "centerPbestMissingBirth": 0,
+    "centerPbestAgeSumFE": 902635680,
+    "centerPbestAgeMaxFE": 445374,
+    "pddrComparisons": 239795,
+    "pddrTies": 81304,
+    "pddrRejectedAdmittedComparisons": 794,
+    "pddrTiedAdmittedComparisons": 662,
+    "pddrRejectedAdmittedUniqueFE": 794,
+    "pddrTiedAdmittedUniqueFE": 662
+  },
+  "decoder": {
+    "dynamic.evaluations": 500000,
+    "dynamic.reusedOperations": 15104217,
+    "dynamic.recomputedOperations": 4895783,
+    "dynamic.decodeNanos": 1994488886,
+    "dynamic.preparedChildren": 0
+  },
+  "swarm": {
+    "phases": [
+      {
+        "event": "global-end",
+        "paidFE": 5100,
+        "centerSHA256": "7eaebb1f07185a6b0da7d628fa1a460f4cecc8e30dd448d665e14b7d8879f79c",
+        "referenceSHA256": "1ce8b5c7b060cd69ad217aaf28237b42aa1a225183f7d6cae4cab8e814a580b7",
+        "rngSHA256": "0a07a809c94c11bda8e031d1795bca84ecc284a5bd6cd723d9914716eb36570a",
+        "archiveSHA256": "ca54f07622f378411d0a22afc3dab97b7c4a04f39e0e24b897fda574e1a815eb"
+      },
+      {
+        "event": "makespan-local-end",
+        "paidFE": 70132,
+        "centerSHA256": "7eaebb1f07185a6b0da7d628fa1a460f4cecc8e30dd448d665e14b7d8879f79c",
+        "referenceSHA256": "1ce8b5c7b060cd69ad217aaf28237b42aa1a225183f7d6cae4cab8e814a580b7",
+        "rngSHA256": "15a686f5904371a7b75f5699f3a0861dd34576808d833c823f92c04ae3cd47ef",
+        "archiveSHA256": "3fc322139d3a0a7890a749efa87c25cc2bc5bcc71309b31776681db225a0ca8e"
+      },
+      {
+        "event": "center-entry",
+        "paidFE": 70132,
+        "centerSHA256": "7eaebb1f07185a6b0da7d628fa1a460f4cecc8e30dd448d665e14b7d8879f79c",
+        "referenceSHA256": "1ce8b5c7b060cd69ad217aaf28237b42aa1a225183f7d6cae4cab8e814a580b7",
+        "rngSHA256": "15a686f5904371a7b75f5699f3a0861dd34576808d833c823f92c04ae3cd47ef",
+        "archiveSHA256": "3fc322139d3a0a7890a749efa87c25cc2bc5bcc71309b31776681db225a0ca8e"
+      }
+    ],
+    "selectedLocal": 99,
+    "localNewNondominated": 20,
+    "localNewNondominatedKept": 20,
+    "localNewNondominatedTiedNotKept": 0
+  },
+  "searchSeconds": 12.6617508,
+  "offlineReplays": 374,
+  "wallSeconds": 13.141000000061467
+}

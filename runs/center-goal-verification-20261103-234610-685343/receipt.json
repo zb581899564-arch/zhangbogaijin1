@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    "org.uma.jmetal.util.research.modelchecks.DynamicCoreChecks",
+    "research.RuntimeChecks",
+    "research.dynamic.DynamicRuntimeChecks",
+    "org.uma.jmetal.util.research.runtime.AnytimeChecks"
+  ],
+  "templatesRecalculated": 2,
+  "crossedArmsRecalculated": 8,
+  "propagationArmsRecalculated": 2,
+  "referenceDirectionGate": false,
+  "newAlgorithmSearchFE": 0,
+  "candidateFrozen": false,
+  "smallScreenStarted": false
+}

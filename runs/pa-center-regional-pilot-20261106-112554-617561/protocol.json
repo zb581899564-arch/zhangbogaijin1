@@ -1,0 +1,189 @@
+{
+  "contract": {
+    "version": "PA_CENTER_REGIONAL_PILOT-v1",
+    "registered": "2026-11-06",
+    "status": "READY_NOT_EXECUTED",
+    "engineeringRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874",
+    "engineeringAuditSHA256": "b3f7c7bc96f43cfee710a3d00fd50244ca816c53b842abb9aff6bf24435d52fa",
+    "base": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-first-local-fork-pilot-20261106-094125-457253",
+    "controlSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+    "moeadDeepSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\dynamic-deep-local-20261103-184901-271850\\source\\ClassicAlgorithm.java",
+    "moeadOriginalSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\night-research-H1-20261103-010138-848045\\source\\src\\algorithms\\classic\\ClassicAlgorithm.java",
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "fixedFE": 100000,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        },
+        "engineeringFE": 7900
+      },
+      {
+        "stem": "100_2_3_1",
+        "fixedFE": 100000,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        },
+        "engineeringFE": 39900
+      }
+    ],
+    "seeds": [
+      15910003,
+      15910037
+    ],
+    "arms": [
+      "REGIONAL",
+      "NO_SPECIALIST",
+      "PA_JOINT",
+      "PA_EQUAL",
+      "NSGA2_DEEP",
+      "NSGA_CTX_GOM",
+      "FULL_SHARED_DEEP",
+      "LI_RECON_DEEP",
+      "MOEAD_4V"
+    ],
+    "primary": "REGIONAL",
+    "armDefinitions": {
+      "REGIONAL": [
+        "PA_JOINT",
+        "REGIONAL"
+      ],
+      "NO_SPECIALIST": [
+        "PA_JOINT",
+        "NO_SPECIALIST"
+      ],
+      "PA_JOINT": [
+        "PA_JOINT",
+        "OFF"
+      ],
+      "PA_EQUAL": [
+        "PA_EQUAL",
+        "OFF"
+      ],
+      "NSGA2_DEEP": [
+        "NSGA2_DEEP",
+        "OFF"
+      ],
+      "NSGA_CTX_GOM": [
+        "NSGA_CTX_GOM",
+        "OFF"
+      ],
+      "FULL_SHARED_DEEP": [
+        "FULL_SHARED_DEEP",
+        "OFF"
+      ],
+      "LI_RECON_DEEP": [
+        "LI_RECON_DEEP",
+        "OFF"
+      ],
+      "MOEAD_4V": [
+        "MOEAD_4V",
+        "OFF"
+      ]
+    },
+    "bridgeControls": [
+      "PA_EQUAL",
+      "NSGA2_DEEP",
+      "NSGA_CTX_GOM",
+      "FULL_SHARED_DEEP",
+      "LI_RECON_DEEP"
+    ],
+    "moeadCutoffs": [
+      1,
+      2,
+      100,
+      101
+    ],
+    "plannedBridgeFE": 266664,
+    "plannedScientificFE": 3600000,
+    "plannedTotalAttemptedFE": 3866664,
+    "maximumTotalAttemptedFE": 3900000,
+    "criterionByControl": {
+      "NO_SPECIALIST": "mechanism",
+      "PA_JOINT": "improvement",
+      "PA_EQUAL": "noninferiority",
+      "NSGA2_DEEP": "noninferiority",
+      "NSGA_CTX_GOM": "noninferiority",
+      "FULL_SHARED_DEEP": "improvement",
+      "LI_RECON_DEEP": "improvement",
+      "MOEAD_4V": "noninferiority"
+    },
+    "criteria": {
+      "improvement": {
+        "medianHVEffectPct": 1.0,
+        "medianIGDSymmetricWorseningPct": 0.0,
+        "medianCdelta": 0.0,
+        "referenceHVEffectFloor": 0.0,
+        "seedHVEffectFloor": -1.0,
+        "seedIGDWorseningCeiling": 5.0,
+        "seedCdeltaFloor": -0.02
+      },
+      "mechanism": {
+        "medianHVEffectPct": 0.5,
+        "medianIGDSymmetricWorseningPct": 0.0,
+        "medianCdelta": 0.0,
+        "referenceHVEffectFloor": 0.0,
+        "seedHVEffectFloor": -1.0,
+        "seedIGDWorseningCeiling": 5.0,
+        "seedCdeltaFloor": -0.02
+      },
+      "noninferiority": {
+        "medianHVEffectPct": -1.0,
+        "medianIGDSymmetricWorseningPct": 5.0,
+        "medianCdelta": -0.02,
+        "referenceHVEffectFloor": -1.0,
+        "seedHVEffectFloor": -3.0,
+        "seedIGDWorseningCeiling": 10.0,
+        "seedCdeltaFloor": -0.05
+      }
+    },
+    "hypothesis": "Keeping55 CENTER receivers on permanent positive tradeoff directions improves complete ordinary joint search beyond original global-archive admission, while retaining independent value of45 strict extreme-preference slots. No dynamic regroup/visit/frequency change, new model, reward or operator.",
+    "kernel": "Reuse accepted PaPopulation/PaRegionalPolicy/CenterTargets/CenterAssignment CLASS bytes. Regional native15/55/15/15 persistent labels and100 live storage, full FOS/live donors unchanged. Current paid ideal includes every candidate before own score comparison, fixed55 initial minimum-cost directions, nonworse CENTER including equality. NO_SPECIALIST changes only45 boundary preference rules. Both scopes ordinary foundation, not original QGS/FAfamilies/conditional-sharing integration.",
+    "moead": "Explicit ordinary discrete MOEA/D setting0; never call PaCapabilitySearch unknown-arm fallback. Frozen deep ClassicAlgorithm rejects nonNSGA, so compile separately renamed OrdinaryMoeadAlgorithm with guard changed only to MOEAD; its original dormant runMoead body unchanged. Independently compile pre-deep MoeadReferenceAlgorithm, adding same canonical100 initial vectors through PaInitialBridge; ordinary uses existing DeepLocalVisits.prepareInitial. Assert original MOEAD loops match text, leave actual shared NSGA ClassicAlgorithm byte/source unchanged. No deep local-search invocation. Preserve original weights100/H30/maximin,neighbors20,delta.9,replacement2,initial100 absolute-mean scale and own-paid ideal; do not replace with candidate external scales.",
+    "bridge": "Before science:6 full-two-generation regional/off heavy-light reproductions143400FE; five other frozen controls two instances old/new5102=102040; two independently sourced MOEAD adapters two instances5102=20408,plus their1/2/100/101 cutoffs816. Total46bridge runs266664FE. All wholepaidSHA/initial/front matches; regional exact scalar policy summaries and initial assignment. MOEAD actually executed class, mode/setting, weight count, own-paid ideal/scale, replacement cap and0LS stage fees verified. All science100initial rawvectors/objectivebits identical in every paired context.",
+    "endpoint": "Each9arms x2instances x2newseeds exactly100000actual successfulFE,0failure. Same FE, not same generation/local quota. Rotating arm order with(index+seedIndex)%9, single sequential JVM Xms32m/Xmx2g. No quality inspection until all36science runs completed.",
+    "metrics": "Original128-parent external frozen normalization, HVrefs1.25/1.5/2.0; IGD+ empirical NDunion all9arms/all2seeds perinstance endpoint. Exact weak bidirectional C on deduplicated raw objective vectors, counts/denominators and equal vectors. Joint criteria and everyseed floors all required in bothinstances. No metric vote, no changing reference to rescue.",
+    "fee": "Initial/global/local/noop/fallback actual evaluations all charged. Attempted=successful=DynamicEvaluation count=budget; all arms auditPaid=true and checkpoint fullQA separately. Policy maps still constructed inside actual clock but only fixed-target event persisted in light wrapper; class bytes/semantics unchanged. Constructor/model/copy/archives/helper costs within search clock, checkpoint QA afterstop. FE-only elapsed times not sameTIME evidence.",
+    "failure": "Retain every failed artifact, usedFE/lastfront; mechanical correction only by explicit amendment under remainingcap. No overwrite/reseed or candidate/NO_SPECIALIST/control promotion. If full joint criteria fail, stop this fixed REGIONAL version; no grid/assignment/ideal/scale/equality/ratio/budget/seed rescue. Prior stops retained.",
+    "progression": "Only jointpass permits separately registered500k/realTIME and architecture integration. Mature region decomposition is a supporting component, not new four-role/shared contribution. Need original shared/QGS/family integration, independent role/shared gain and heldout confirmation before goal completion.",
+    "defaultMainlineChanged": false,
+    "externalTransfers": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "e6a7da563f31d39adcd6a1df9f1430edf8c129454961ca0c493907b8b7a7d3af",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

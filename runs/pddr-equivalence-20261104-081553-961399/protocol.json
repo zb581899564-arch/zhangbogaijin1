@@ -1,0 +1,41 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "searchFECap": 500000,
+  "ledger": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\dynamic-reverse-ledger-20261103-231754-095093\\U_RECORD\\trials\\fatigue\\SHARE_JOB_ALIGNED_UNIFORM\\local-ledger.csv",
+  "ledgerSHA256": "83fa1f14629a14572cd383ee12574bcd597ac970119c0ade09afbff84ad58cda",
+  "auditOrder": [
+    "SPECIAL",
+    "NSGA"
+  ],
+  "timingOrder": [
+    [
+      "SPECIAL",
+      "LEGACY"
+    ],
+    [
+      "NSGA",
+      "LINEAR"
+    ],
+    [
+      "SPECIAL",
+      "LINEAR"
+    ],
+    [
+      "NSGA",
+      "LEGACY"
+    ]
+  ],
+  "timeCutsSeconds": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "scope": "Only local CENTER pair comparison changes. No global or boundary preference changes.",
+  "timePolicy": "One sequential JVM per cell, no score/trajectory audits during timing. Search capped at 500k FE; use the most recent completed archive at each common time cut.",
+  "acceptance": "Legacy-vs-linear scores bitwise and decisions equal on every audited local CENTER comparison; original paid trace SHA, initialization, slot continuations, checkpoints and final genomes all match."
+}

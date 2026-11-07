@@ -1,0 +1,151 @@
+{
+  "version": "TYPED_BASIS_PILOT-v1",
+  "registeredAfterEngineeringOnly": true,
+  "engineeringEffectiveIdentity": {
+    "engineeringPass": true,
+    "postAuditReview": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-typed-basis-review-20261105-224213-159720\\analysis.json",
+    "effectiveIdentity": "Original execution plus explicit post-audit reference correction; old status and frozen sources untouched",
+    "newSearchFE": 0,
+    "decoderCalls": 0,
+    "goalAchieved": false
+  },
+  "seeds": [
+    14230003,
+    14230037
+  ],
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      },
+      "feLimit": 100000,
+      "time_seconds": 4
+    },
+    {
+      "stem": "100_2_3_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      },
+      "feLimit": 100000,
+      "time_seconds": 5
+    }
+  ],
+  "methods": {
+    "ATOM": [
+      "PA_JOINT",
+      "ATOM"
+    ],
+    "TYPED": [
+      "PA_JOINT",
+      "TYPED"
+    ],
+    "SHAM_BLOCK": [
+      "PA_JOINT",
+      "SHAM_BLOCK"
+    ],
+    "TYPED_RELABEL": [
+      "PA_RELABEL",
+      "TYPED"
+    ],
+    "NSGA2_PLAIN": [
+      "NSGA2_PLAIN",
+      "ATOM"
+    ],
+    "NSGA2_DEEP": [
+      "NSGA2_DEEP",
+      "ATOM"
+    ],
+    "FULL_SHARED_DEEP": [
+      "FULL_SHARED_DEEP",
+      "ATOM"
+    ],
+    "LI_RECON_DEEP": [
+      "LI_RECON_DEEP",
+      "ATOM"
+    ]
+  },
+  "primary": "TYPED=JOINTmodel, fixed before any fresh performance result; do not selectRELABELorSHAMlater",
+  "comparisons": [
+    [
+      "TYPED",
+      "ATOM"
+    ],
+    [
+      "TYPED",
+      "SHAM_BLOCK"
+    ],
+    [
+      "TYPED",
+      "TYPED_RELABEL"
+    ],
+    [
+      "TYPED",
+      "NSGA2_PLAIN"
+    ],
+    [
+      "TYPED",
+      "NSGA2_DEEP"
+    ],
+    [
+      "TYPED",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "TYPED",
+      "LI_RECON_DEEP"
+    ]
+  ],
+  "phases": [
+    "Six lean-parity runs335400FE",
+    "All32FE100Kruns3200000FE",
+    "All32TIMEruns only if entireFE100Kreadinesspasses"
+  ],
+  "plannedFEbeforeOptionalTime": 3535400,
+  "timeSafetyFE": 5000000,
+  "timeSearchSecondsIfRun": 144,
+  "runOrdering": "OneJVM, cyclic method rotation within each instance/seed block; no partial winner stopping",
+  "initialization": "Newseed fresh100solutions, common acrossall8methods; constructors and all search costs insideRunContextclock",
+  "metrics": "HV1.5with1.25/2sensitivities;IGD+usesNDunionofall8methods x2seeds perinstance,independentlyperphase; exactweakbidirectionalC, objective-deduplicated, equalityincluded",
+  "componentGate": "BOTHinstances vsSHAM:medianHV>=0.5%,medianIGD+worsening<=0,medianC(A,B)-C(B,A)>=0; perseedHV>=-1%,IGD+<=5%,Cdelta>=-0.02; sensitivityHVmedian>=0",
+  "preservationGate": "vsATOM:medianHV>=0,IGD+<=5%,Cdelta>=-0.02; perseedHV>=-1%,IGD+<=10%,Cdelta>=-0.05; sensitivityHVmedian>=0",
+  "classicGate": "vsEACHplain/deepNSGA:medianHV>=-1%,IGD+<=5%,Cdelta>=-0.02; perseedHV>=-5%,IGD+<=15%,Cdelta>=-0.1; sensitivityHVmedian>=-1%",
+  "oldControlGate": "vsEACHoldshared/Lireconstruction:medianHV>=1%,IGD+<=0,Cdelta>=0; perseedHV>=0,IGD+<=10%,Cdelta>=-0.05; sensitivityHVmedian>=0",
+  "gateMeaning": "Project resource/benefit margins, not literature constants, statistical significance or contribution review. All3indicators constrain decision; C=0/0 allowed neutral, no weighted score/vote",
+  "ifFEfails": "Stop this fixed typed-basis pilot, noTIME, no new seeds/weights/field rates/donor rules orposthocbetter method selection to rescue",
+  "ifpasses": "TIMEuses same joint gates; passing only supports ordinary basis for later four-role/QGS/shared work, not final innovative algorithm",
+  "learningClaim": "RELABELordinarynull reported; failed old learned-tree claim remains unsupported regardless of this adaptation's quality",
+  "scope": "Two reused development instances,2newseeds, ordinary noLS PA variants; originalQGS/shared not integrated, controls retained",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

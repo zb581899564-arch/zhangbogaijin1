@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "scope": "correctness/integration, not performance evidence",
+  "checks": [
+    "runtime-regression",
+    "static-search-ch3",
+    "static-search-ch4",
+    "dynamic-core",
+    "cross-language"
+  ],
+  "referenceCases": 108,
+  "error": "RuntimeError('Command failed (1); see G:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\dynamic-steps123-20261101-183810-144508\\\\baseline-inc.log\\nException in thread \"main\" java.lang.UnsupportedOperationException\\n\\tat java.base/java.util.Collections$UnmodifiableList.sort(Collections.java:1369)\\n\\tat research.dynamic.DynamicOutput.write(DynamicOutput.java:23)\\n\\tat research.dynamic.DynamicRun.main(DynamicRun.java:68)\\n')"
+}

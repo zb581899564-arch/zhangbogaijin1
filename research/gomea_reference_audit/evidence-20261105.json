@@ -1,0 +1,524 @@
+{
+  "scope": "Original-function semantics and typed encoding engineering only; no new algorithm performance",
+  "authorPackages": [
+    {
+      "authorPage": "https://homepages.cwi.nl/~bosman/source_code.php",
+      "requestedURL": "https://www.cwi.nl/~bosman/source_code/PermutationGOMEA_download_counter.php",
+      "resolvedURL": "https://homepages.cwi.nl/~bosman/source_code/PermutationGOMEA_download_counter.php",
+      "actualBytes": 274050,
+      "archiveSHA256": "251b2f52c8b151175eed21fa5e76e9a26c7e5bca213906741e1dc8d0f9efbe7a"
+    },
+    {
+      "authorPage": "https://homepages.cwi.nl/~bosman/source_code.php",
+      "requestedURL": "https://www.cwi.nl/~bosman/source_code/MO-GOMEA_download_counter.php",
+      "resolvedURL": "https://homepages.cwi.nl/~bosman/source_code/MO-GOMEA_download_counter.php",
+      "actualBytes": 98787,
+      "archiveSHA256": "f5783d27731cddfbc0a77fc6f153d48193651e6aff77069d0523bf45fd1a3949"
+    }
+  ],
+  "originalSourceSHA256": {
+    "research\\gomea_reference_audit\\author-sources-20261105-144447-843551\\MO-GOMEA\\MO_GOMEA\\MO_GOMEA.c": "71eab4a9cafcd4b1056031f8079cc08eb05c0cbbe9a66e462508dd2d69e33d83",
+    "research\\gomea_reference_audit\\author-sources-20261105-144447-843551\\PermutationGOMEA\\PermutationGOMEA.c": "40642220861ca0cce8dee8dfbc6493280fcac825c07347bb315edbcd2a24a575"
+  },
+  "nativeSourceAudit": {
+    "predicateAudit": {
+      "inputCases": 52752,
+      "numericAssertions": 422016,
+      "allNativeSourcePredicatesMatchIndependentMath": true,
+      "casesWhereSourceToleranceDiffersFromExactPareto": 104
+    },
+    "dependencyAudit": {
+      "independentNativeDependencyPairs": 20560,
+      "maximumIndependentFormulaError": 2.220446049250313e-16,
+      "neutralViewComparisons": [
+        {
+          "stem": "20_8_5_1",
+          "seed": 11730007,
+          "jobPairs": 190,
+          "changedDependencyPairs": 190,
+          "maximumAbsoluteDifference": 0.7292222848764871,
+          "samePerFactoryJobMachineWorkerChains": true,
+          "sameSortedRandomKeyMagnitudesPerIndividual": true
+        },
+        {
+          "stem": "20_8_5_1",
+          "seed": 11730037,
+          "jobPairs": 190,
+          "changedDependencyPairs": 190,
+          "maximumAbsoluteDifference": 0.8939088450516489,
+          "samePerFactoryJobMachineWorkerChains": true,
+          "sameSortedRandomKeyMagnitudesPerIndividual": true
+        },
+        {
+          "stem": "100_2_3_1",
+          "seed": 11730007,
+          "jobPairs": 4950,
+          "changedDependencyPairs": 4948,
+          "maximumAbsoluteDifference": 0.9366089225712362,
+          "samePerFactoryJobMachineWorkerChains": true,
+          "sameSortedRandomKeyMagnitudesPerIndividual": true
+        },
+        {
+          "stem": "100_2_3_1",
+          "seed": 11730037,
+          "jobPairs": 4950,
+          "changedDependencyPairs": 4943,
+          "maximumAbsoluteDifference": 0.940061368395561,
+          "samePerFactoryJobMachineWorkerChains": true,
+          "sameSortedRandomKeyMagnitudesPerIndividual": true
+        }
+      ]
+    },
+    "originalOptimizerExecuted": false,
+    "nativeSourceFunctionsExecuted": true,
+    "optimizationFE": 0,
+    "decoderCalls": 0,
+    "goalAchieved": false
+  },
+  "archiveSourceAudit": {
+    "sourceStateFixturesPass": 9,
+    "normalCenterAcceptanceCanDependOnArchiveOrderWhenGridEnabled": true,
+    "sourceDominatedFlagIsNotAlwaysWholeArchivePredicate": true,
+    "measuredDynamicPerformanceEffect": false,
+    "optimizationFE": 0,
+    "decoderCalls": 0,
+    "goalAchieved": false
+  },
+  "archiveStateFixtures": [
+    {
+      "name": "grid_same_box_before_dominator",
+      "grid": 1,
+      "archive": [
+        [
+          1.9,
+          2.1,
+          1.0
+        ],
+        [
+          0.5,
+          2.9,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.8,
+        2.95,
+        1.0
+      ],
+      "expected": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "exactWholeArchiveDominated": true
+    },
+    {
+      "name": "grid_dominator_before_same_box",
+      "grid": 1,
+      "archive": [
+        [
+          0.5,
+          2.9,
+          1.0
+        ],
+        [
+          1.9,
+          2.1,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.8,
+        2.95,
+        1.0
+      ],
+      "expected": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "exactWholeArchiveDominated": true
+    },
+    {
+      "name": "exact_order_a_b",
+      "grid": 0,
+      "archive": [
+        [
+          1.9,
+          2.1,
+          1.0
+        ],
+        [
+          0.5,
+          2.9,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.8,
+        2.95,
+        1.0
+      ],
+      "expected": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "exactWholeArchiveDominated": true
+    },
+    {
+      "name": "exact_order_b_a",
+      "grid": 0,
+      "archive": [
+        [
+          0.5,
+          2.9,
+          1.0
+        ],
+        [
+          1.9,
+          2.1,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.8,
+        2.95,
+        1.0
+      ],
+      "expected": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "exactWholeArchiveDominated": true
+    },
+    {
+      "name": "grid_equal",
+      "grid": 1,
+      "archive": [
+        [
+          1.9,
+          2.1,
+          1.0
+        ],
+        [
+          0.5,
+          2.9,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "expected": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "exactWholeArchiveDominated": false
+    },
+    {
+      "name": "grid_new_pareto_point_same_box",
+      "grid": 1,
+      "archive": [
+        [
+          1.9,
+          2.1,
+          1.0
+        ],
+        [
+          0.5,
+          2.9,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.5,
+        2.5,
+        1.0
+      ],
+      "expected": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "exactWholeArchiveDominated": false
+    },
+    {
+      "name": "exact_new_pareto_point",
+      "grid": 0,
+      "archive": [
+        [
+          1.9,
+          2.1,
+          1.0
+        ],
+        [
+          0.5,
+          2.9,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.5,
+        2.5,
+        1.0
+      ],
+      "expected": [
+        1,
+        0,
+        3,
+        1
+      ],
+      "exactWholeArchiveDominated": false
+    },
+    {
+      "name": "strictly_better_than_all",
+      "grid": 1,
+      "archive": [
+        [
+          1.9,
+          2.1,
+          1.0
+        ],
+        [
+          0.5,
+          2.9,
+          1.0
+        ]
+      ],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "exactWholeArchiveDominated": false
+    },
+    {
+      "name": "empty_archive",
+      "grid": 0,
+      "archive": [],
+      "parent": [
+        1.9,
+        2.1,
+        1.0
+      ],
+      "candidate": [
+        1.8,
+        2.95,
+        1.0
+      ],
+      "expected": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "exactWholeArchiveDominated": false
+    }
+  ],
+  "typedEncodingAudit": {
+    "allContractsPass": true,
+    "optimizationFE": 0,
+    "decoderCalls": 800,
+    "sourceGenomes": 400,
+    "exactTimelinePairs": 400,
+    "pureChecks": 103176,
+    "expectedMalformedRejections": 5200,
+    "performanceEvidence": false,
+    "fullGomeaImplemented": false,
+    "goalAchieved": false
+  },
+  "loadedNewClassIdentityChecks": [
+    {
+      "context": "100_2_3_1\\11730007",
+      "classes": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.TypedEncodingRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/research/dynamic/TypedEncodingRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "0c55e07a0272e9ea9d886f7f7f2f6fdf5b8bedbc735e11c824d79126f5424335"
+        },
+        "org.uma.jmetal.util.research.modelglobal.TypedScheduleGenome": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/TypedScheduleGenome.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "896c0155aa83aad2ae4fc2d44ef20aed954dfb02085b388fc3cfded349b5433b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FirstStageCatalog": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/FirstStageCatalog.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "1dccaa8814cc5ee2b2a3cdf6992306f54da798c439a1e832b189a3b5830bb7be"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    },
+    {
+      "context": "100_2_3_1\\11730037",
+      "classes": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.TypedEncodingRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/research/dynamic/TypedEncodingRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "0c55e07a0272e9ea9d886f7f7f2f6fdf5b8bedbc735e11c824d79126f5424335"
+        },
+        "org.uma.jmetal.util.research.modelglobal.TypedScheduleGenome": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/TypedScheduleGenome.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "896c0155aa83aad2ae4fc2d44ef20aed954dfb02085b388fc3cfded349b5433b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FirstStageCatalog": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/FirstStageCatalog.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "1dccaa8814cc5ee2b2a3cdf6992306f54da798c439a1e832b189a3b5830bb7be"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\11730007",
+      "classes": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.TypedEncodingRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/research/dynamic/TypedEncodingRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "0c55e07a0272e9ea9d886f7f7f2f6fdf5b8bedbc735e11c824d79126f5424335"
+        },
+        "org.uma.jmetal.util.research.modelglobal.TypedScheduleGenome": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/TypedScheduleGenome.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "896c0155aa83aad2ae4fc2d44ef20aed954dfb02085b388fc3cfded349b5433b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FirstStageCatalog": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/FirstStageCatalog.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "1dccaa8814cc5ee2b2a3cdf6992306f54da798c439a1e832b189a3b5830bb7be"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\11730037",
+      "classes": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.TypedEncodingRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/research/dynamic/TypedEncodingRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "0c55e07a0272e9ea9d886f7f7f2f6fdf5b8bedbc735e11c824d79126f5424335"
+        },
+        "org.uma.jmetal.util.research.modelglobal.TypedScheduleGenome": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/TypedScheduleGenome.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "896c0155aa83aad2ae4fc2d44ef20aed954dfb02085b388fc3cfded349b5433b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FirstStageCatalog": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/org/uma/jmetal/util/research/modelglobal/FirstStageCatalog.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/typed-encoding-audit-20261105-153044-927802/classes/",
+          "sha256": "1dccaa8814cc5ee2b2a3cdf6992306f54da798c439a1e832b189a3b5830bb7be"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        }
+      }
+    }
+  ],
+  "originalSourcesStillUnmodified": true,
+  "originalOptimizerExecuted": false,
+  "newOptimizationFE": 0,
+  "offlineFullDecoderQA": 800,
+  "localOnlySourceBodies": true,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

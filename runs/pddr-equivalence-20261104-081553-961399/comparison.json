@@ -1,0 +1,315 @@
+{
+  "HVReference": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "searchSpeedup": {
+    "SPECIAL": 2.7841208636683623,
+    "NSGA": 2.5003886254960235
+  },
+  "fixedFE": [
+    {
+      "fe": 100,
+      "arms": {
+        "SPECIAL-LEGACY": 0.5766581470531825,
+        "NSGA-LINEAR": 0.5766581470531825,
+        "SPECIAL-LINEAR": 0.5766581470531825,
+        "NSGA-LEGACY": 0.5766581470531825
+      }
+    },
+    {
+      "fe": 5100,
+      "arms": {
+        "SPECIAL-LEGACY": 0.6905249580429931,
+        "NSGA-LINEAR": 0.6961884075453159,
+        "SPECIAL-LINEAR": 0.6905249580429931,
+        "NSGA-LEGACY": 0.6961884075453159
+      }
+    },
+    {
+      "fe": 15000,
+      "arms": {
+        "SPECIAL-LEGACY": 0.7089779470124494,
+        "NSGA-LINEAR": 0.7353576540635804,
+        "SPECIAL-LINEAR": 0.7089779470124494,
+        "NSGA-LEGACY": 0.7353576540635804
+      }
+    },
+    {
+      "fe": 50000,
+      "arms": {
+        "SPECIAL-LEGACY": 0.7174238490450356,
+        "NSGA-LINEAR": 0.7472325794476353,
+        "SPECIAL-LINEAR": 0.7174238490450356,
+        "NSGA-LEGACY": 0.7472325794476353
+      }
+    },
+    {
+      "fe": 100000,
+      "arms": {
+        "SPECIAL-LEGACY": 0.7951800894188611,
+        "NSGA-LINEAR": 0.8081229756384856,
+        "SPECIAL-LINEAR": 0.7951800894188611,
+        "NSGA-LEGACY": 0.8081229756384856
+      }
+    },
+    {
+      "fe": 250000,
+      "arms": {
+        "SPECIAL-LEGACY": 0.8084198240741485,
+        "NSGA-LINEAR": 0.8184395532247446,
+        "SPECIAL-LINEAR": 0.8084198240741485,
+        "NSGA-LEGACY": 0.8184395532247446
+      }
+    },
+    {
+      "fe": 500000,
+      "arms": {
+        "SPECIAL-LEGACY": 0.8504927852213597,
+        "NSGA-LINEAR": 0.8613806153279822,
+        "SPECIAL-LINEAR": 0.8504927852213597,
+        "NSGA-LEGACY": 0.8613806153279822
+      }
+    }
+  ],
+  "fixedTimeWith500kCap": [
+    {
+      "seconds": 1,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 40712,
+          "hv": 0.7165215746376506,
+          "observedAt": 0.9999952
+        },
+        "NSGA-LINEAR": {
+          "fe": 39703,
+          "hv": 0.7470620551437533,
+          "observedAt": 0.9999874
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 42526,
+          "hv": 0.7165215746376506,
+          "observedAt": 0.9999977
+        },
+        "NSGA-LEGACY": {
+          "fe": 39098,
+          "hv": 0.7470620551437533,
+          "observedAt": 0.9999979
+        }
+      }
+    },
+    {
+      "seconds": 2,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 84335,
+          "hv": 0.7925895365067068,
+          "observedAt": 1.9999899
+        },
+        "NSGA-LINEAR": {
+          "fe": 138715,
+          "hv": 0.8177885241905753,
+          "observedAt": 1.9999991
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 141146,
+          "hv": 0.8001201363987795,
+          "observedAt": 1.9999961
+        },
+        "NSGA-LEGACY": {
+          "fe": 87886,
+          "hv": 0.7927388100563191,
+          "observedAt": 1.9999993
+        }
+      }
+    },
+    {
+      "seconds": 4,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 125682,
+          "hv": 0.7956833803702886,
+          "observedAt": 3.9999915
+        },
+        "NSGA-LINEAR": {
+          "fe": 410623,
+          "hv": 0.8504068894832841,
+          "observedAt": 3.9999965
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 376400,
+          "hv": 0.8304068745435187,
+          "observedAt": 3.9999991
+        },
+        "NSGA-LEGACY": {
+          "fe": 143998,
+          "hv": 0.8177934332371734,
+          "observedAt": 3.9999998
+        }
+      }
+    },
+    {
+      "seconds": 6,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 168940,
+          "hv": 0.8002348633287055,
+          "observedAt": 5.999972
+        },
+        "NSGA-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8613806153279822,
+          "observedAt": 4.8280019
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8504927852213597,
+          "observedAt": 5.2323964
+        },
+        "NSGA-LEGACY": {
+          "fe": 196357,
+          "hv": 0.8178088890115126,
+          "observedAt": 5.9999855
+        }
+      }
+    },
+    {
+      "seconds": 8,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 214195,
+          "hv": 0.8008765288569457,
+          "observedAt": 7.9999725
+        },
+        "NSGA-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8613806153279822,
+          "observedAt": 4.8280019
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8504927852213597,
+          "observedAt": 5.2323964
+        },
+        "NSGA-LEGACY": {
+          "fe": 252285,
+          "hv": 0.8184395598762261,
+          "observedAt": 7.9999756
+        }
+      }
+    },
+    {
+      "seconds": 10,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 254057,
+          "hv": 0.8084198240741485,
+          "observedAt": 9.9999981
+        },
+        "NSGA-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8613806153279822,
+          "observedAt": 4.8280019
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8504927852213597,
+          "observedAt": 5.2323964
+        },
+        "NSGA-LEGACY": {
+          "fe": 304356,
+          "hv": 0.8261272145505133,
+          "observedAt": 9.9999773
+        }
+      }
+    },
+    {
+      "seconds": 12,
+      "arms": {
+        "SPECIAL-LEGACY": {
+          "fe": 294029,
+          "hv": 0.8085921093106462,
+          "observedAt": 11.9999726
+        },
+        "NSGA-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8613806153279822,
+          "observedAt": 4.8280019
+        },
+        "SPECIAL-LINEAR": {
+          "fe": 500000,
+          "hv": 0.8504927852213597,
+          "observedAt": 5.2323964
+        },
+        "NSGA-LEGACY": {
+          "fe": 490218,
+          "hv": 0.8613806153279822,
+          "observedAt": 11.9999973
+        }
+      }
+    }
+  ],
+  "timingReports": {
+    "SPECIAL-LEGACY": {
+      "label": "SPECIAL",
+      "kernel": "LEGACY",
+      "fe": 500000,
+      "pddr": {
+        "mode": "LEGACY",
+        "auditedCenterComparisons": 0,
+        "auditedTies": 0,
+        "scoreAndDecisionMismatches": 0
+      },
+      "searchSeconds": 14.5682454,
+      "wallSeconds": 15.016000000061467,
+      "offlineValidationDecodes": 374,
+      "paidSHA256": null
+    },
+    "NSGA-LINEAR": {
+      "label": "NSGA",
+      "kernel": "LINEAR",
+      "fe": 500000,
+      "pddr": {
+        "mode": "LINEAR",
+        "auditedCenterComparisons": 0,
+        "auditedTies": 0,
+        "scoreAndDecisionMismatches": 0
+      },
+      "searchSeconds": 4.8281701,
+      "wallSeconds": 5.297000000020489,
+      "offlineValidationDecodes": 394,
+      "paidSHA256": null
+    },
+    "SPECIAL-LINEAR": {
+      "label": "SPECIAL",
+      "kernel": "LINEAR",
+      "fe": 500000,
+      "pddr": {
+        "mode": "LINEAR",
+        "auditedCenterComparisons": 0,
+        "auditedTies": 0,
+        "scoreAndDecisionMismatches": 0
+      },
+      "searchSeconds": 5.2326196,
+      "wallSeconds": 5.687999999965541,
+      "offlineValidationDecodes": 374,
+      "paidSHA256": null
+    },
+    "NSGA-LEGACY": {
+      "label": "NSGA",
+      "kernel": "LEGACY",
+      "fe": 500000,
+      "pddr": {
+        "mode": "LEGACY",
+        "auditedCenterComparisons": 0,
+        "auditedTies": 0,
+        "scoreAndDecisionMismatches": 0
+      },
+      "searchSeconds": 12.0723016,
+      "wallSeconds": 12.5,
+      "offlineValidationDecodes": 394,
+      "paidSHA256": null
+    }
+  }
+}

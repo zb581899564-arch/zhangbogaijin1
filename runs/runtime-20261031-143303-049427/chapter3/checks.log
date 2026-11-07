@@ -1,0 +1,5 @@
+PASS FE=0,1,<swarm,=swarm and partial initialization/global/local batch
+PASS throwing/invalid evaluations consume FE, propagate, and never enter archive
+PASS independent solution/objective/nested-attribute snapshots and exact three-objective Pareto archive
+PASS one seeded stream shared by java.util.Random, Collections.shuffle and JMetalRandom
+PASS runtime: FE boundaries, failure accounting, three-objective archive, RNG, sole-thread rule

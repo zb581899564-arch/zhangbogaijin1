@@ -1,0 +1,1296 @@
+{
+  "instance": "20_8_5_1",
+  "seed": 16110069,
+  "family": 2,
+  "sourceBeforeSHA256": "cf4913fe14e12b6f601ed8fd222c2256c14fd1beedd80015371bc124b85e4ab9",
+  "backgroundSHA256": "a8a9c4c972c5e00dad0478e87abda5f956466c243e4780130e0e048f2435ca7a",
+  "factories": [
+    {
+      "factory": 0,
+      "jobs": [
+        3,
+        6,
+        10,
+        18
+      ],
+      "latentAssignments": 625,
+      "resourceOnlyPhysicalUpperBound": 48,
+      "resourceAllelesPerJob": {
+        "3": 1,
+        "6": 1,
+        "10": 1,
+        "18": 2
+      },
+      "uniquePhysicalStates": 27
+    },
+    {
+      "factory": 1,
+      "jobs": [
+        1,
+        7
+      ],
+      "latentAssignments": 25,
+      "resourceOnlyPhysicalUpperBound": 2,
+      "resourceAllelesPerJob": {
+        "1": 1,
+        "7": 1
+      },
+      "uniquePhysicalStates": 2
+    },
+    {
+      "factory": 2,
+      "jobs": [
+        0,
+        2,
+        8,
+        15,
+        16
+      ],
+      "latentAssignments": 3125,
+      "resourceOnlyPhysicalUpperBound": 480,
+      "resourceAllelesPerJob": {
+        "0": 1,
+        "2": 1,
+        "8": 2,
+        "15": 2,
+        "16": 1
+      },
+      "uniquePhysicalStates": 89
+    },
+    {
+      "factory": 3,
+      "jobs": [
+        4,
+        5,
+        9,
+        11,
+        12,
+        17,
+        19
+      ],
+      "latentAssignments": 78125,
+      "resourceOnlyPhysicalUpperBound": 120960,
+      "resourceAllelesPerJob": {
+        "4": 1,
+        "5": 1,
+        "9": 1,
+        "11": 2,
+        "12": 2,
+        "17": 2,
+        "19": 3
+      },
+      "uniquePhysicalStates": 2001
+    },
+    {
+      "factory": 4,
+      "jobs": [
+        13,
+        14
+      ],
+      "latentAssignments": 25,
+      "resourceOnlyPhysicalUpperBound": 4,
+      "resourceAllelesPerJob": {
+        "13": 2,
+        "14": 1
+      },
+      "uniquePhysicalStates": 3
+    }
+  ],
+  "paidCandidatesChecked": 2044,
+  "paidCandidatesInStaticSupport": 2044,
+  "poolMembership": {
+    "INSIDE": 11,
+    "OUTSIDE_RESOURCE": 27,
+    "OUTSIDE_KEY_ORDER": 1
+  },
+  "poolRecords": [
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        359.0138935213422,
+        7496.985874300778,
+        9793.929292156285
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        18,
+        3,
+        6,
+        10
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "sourceChoices": [
+        3,
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        386.4865926542606,
+        7385.4175273844785,
+        9786.531750715196
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        18,
+        6,
+        10,
+        3
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "sourceChoices": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        446.50634516264006,
+        7811.704064056888,
+        9477.812273891132
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        6,
+        10,
+        3,
+        18
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceChoices": [
+        4,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        433.7903608948499,
+        7499.843494421164,
+        9577.953739494435
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        10,
+        6,
+        18,
+        3
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "sourceChoices": [
+        3,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "factory": 0,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        386.3721202625708,
+        7621.210889523652,
+        9648.257607690406
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        6,
+        18,
+        3,
+        10
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        417.44359503510003,
+        7441.843494076673,
+        9727.847028892906
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        18,
+        3,
+        10,
+        6
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "sourceChoices": [
+        3,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        385.62207966478917,
+        7505.744331735108,
+        9652.383404916563
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        3,
+        6,
+        18,
+        10
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "sourceChoices": [
+        2,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "factory": 0,
+      "status": "INSIDE",
+      "objectives": [
+        435.91220714292825,
+        7710.703275684546,
+        9506.123688019139
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        3,
+        10,
+        6,
+        18
+      ],
+      "machines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "workers": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceChoices": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "factory": 1,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        311.0147074621824,
+        4444.921006281353,
+        4863.4609104112615
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        1,
+        7
+      ],
+      "machines": [
+        1,
+        0
+      ],
+      "workers": [
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 1,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        313.13856855233524,
+        4386.2180141885565,
+        4855.65258329956
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        7,
+        1
+      ],
+      "machines": [
+        1,
+        1
+      ],
+      "workers": [
+        1,
+        0
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 1,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        338.8209829855487,
+        4169.244335977341,
+        4873.802442889303
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        1,
+        7
+      ],
+      "machines": [
+        1,
+        1
+      ],
+      "workers": [
+        1,
+        0
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 1,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        311.0147074621824,
+        4444.921006281353,
+        4863.4609104112615
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        7,
+        1
+      ],
+      "machines": [
+        0,
+        1
+      ],
+      "workers": [
+        1,
+        0
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 1,
+      "status": "INSIDE",
+      "objectives": [
+        338.8209829855487,
+        4087.455487923327,
+        4892.536053333484
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        1,
+        7
+      ],
+      "machines": [
+        1,
+        1
+      ],
+      "workers": [
+        1,
+        1
+      ],
+      "sourceChoices": [
+        0,
+        2
+      ]
+    },
+    {
+      "factory": 1,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        328.81352403022976,
+        4357.583728174844,
+        4863.4609104112615
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        7,
+        1
+      ],
+      "machines": [
+        1,
+        1
+      ],
+      "workers": [
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 1,
+      "status": "INSIDE",
+      "objectives": [
+        311.0147074621824,
+        4276.006057706419,
+        4882.743582577972
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        7,
+        1
+      ],
+      "machines": [
+        1,
+        1
+      ],
+      "workers": [
+        1,
+        1
+      ],
+      "sourceChoices": [
+        2,
+        1
+      ]
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        359.8472307644532,
+        9623.499519152905,
+        11686.09136413962
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        16,
+        8,
+        15,
+        0,
+        2
+      ],
+      "machines": [
+        0,
+        4,
+        1,
+        0,
+        1
+      ],
+      "workers": [
+        2,
+        2,
+        3,
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        411.61328836377993,
+        8849.976408688945,
+        11920.939639074919
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        2,
+        15,
+        16,
+        8,
+        0
+      ],
+      "machines": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "workers": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_KEY_ORDER",
+      "objectives": [
+        485.1907241441161,
+        9818.248458295784,
+        11119.662381310813
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        16,
+        2,
+        15,
+        0,
+        8
+      ],
+      "machines": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "workers": [
+        2,
+        1,
+        3,
+        0,
+        3
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        404.51889960630257,
+        9969.746358128205,
+        11257.703426047843
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        16,
+        15,
+        0,
+        8,
+        2
+      ],
+      "machines": [
+        1,
+        1,
+        1,
+        4,
+        1
+      ],
+      "workers": [
+        1,
+        3,
+        0,
+        2,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        417.1325837018599,
+        9229.801658590375,
+        11377.305767580434
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        2,
+        15,
+        16,
+        0,
+        8
+      ],
+      "machines": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "workers": [
+        2,
+        3,
+        2,
+        0,
+        3
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        381.19368359673746,
+        9351.49091680587,
+        11973.166058282866
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        8,
+        15,
+        16,
+        0,
+        2
+      ],
+      "machines": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "workers": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        458.4779683960135,
+        10305.247985884023,
+        11222.765300821151
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        15,
+        16,
+        8,
+        0,
+        2
+      ],
+      "machines": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "workers": [
+        2,
+        0,
+        3,
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 2,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        375.922837872906,
+        10054.703764364425,
+        11654.073085310061
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        8,
+        15,
+        16,
+        0,
+        2
+      ],
+      "machines": [
+        4,
+        1,
+        1,
+        0,
+        1
+      ],
+      "workers": [
+        2,
+        3,
+        2,
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        393.38374285827837,
+        16903.917475924034,
+        17476.93920883457
+      ],
+      "dominatesInitialDonors": 4,
+      "jobs": [
+        17,
+        12,
+        19,
+        9,
+        11,
+        5,
+        4
+      ],
+      "machines": [
+        3,
+        0,
+        4,
+        0,
+        2,
+        1,
+        1
+      ],
+      "workers": [
+        1,
+        3,
+        3,
+        0,
+        2,
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        411.6448265754382,
+        16152.26949007221,
+        17854.47974943394
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        17,
+        5,
+        12,
+        11,
+        9,
+        19,
+        4
+      ],
+      "machines": [
+        0,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ],
+      "workers": [
+        2,
+        3,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        470.80931348353613,
+        17578.96726281246,
+        16585.379808212914
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        12,
+        11,
+        19,
+        17,
+        5,
+        9,
+        4
+      ],
+      "machines": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        3,
+        1
+      ],
+      "workers": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        3,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        486.43331712815234,
+        16622.498252643385,
+        17018.163054007884
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        9,
+        12,
+        11,
+        5,
+        17,
+        4,
+        19
+      ],
+      "machines": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "workers": [
+        3,
+        1,
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        436.2647029768626,
+        17178.072921597723,
+        17065.506109163394
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        9,
+        12,
+        11,
+        17,
+        19,
+        5,
+        4
+      ],
+      "machines": [
+        3,
+        2,
+        2,
+        1,
+        4,
+        1,
+        1
+      ],
+      "workers": [
+        0,
+        3,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        430.0342361274386,
+        16191.096671972608,
+        17265.57507776487
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        17,
+        12,
+        19,
+        11,
+        9,
+        5,
+        4
+      ],
+      "machines": [
+        3,
+        0,
+        4,
+        2,
+        4,
+        1,
+        1
+      ],
+      "workers": [
+        1,
+        3,
+        1,
+        2,
+        3,
+        0,
+        2
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        521.7570566951886,
+        17341.154924413757,
+        16761.784447438204
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        9,
+        12,
+        11,
+        19,
+        5,
+        17,
+        4
+      ],
+      "machines": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "workers": [
+        3,
+        1,
+        0,
+        0,
+        3,
+        2,
+        2
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 3,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        446.1540686578379,
+        17927.123811814086,
+        17064.243210255598
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        12,
+        17,
+        5,
+        9,
+        11,
+        19,
+        4
+      ],
+      "machines": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1
+      ],
+      "workers": [
+        3,
+        2,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 4,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        378.3134701121056,
+        4826.2223401997935,
+        4985.200432956964
+      ],
+      "dominatesInitialDonors": 2,
+      "jobs": [
+        14,
+        13
+      ],
+      "machines": [
+        0,
+        3
+      ],
+      "workers": [
+        0,
+        2
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 4,
+      "status": "INSIDE",
+      "objectives": [
+        384.32537487401044,
+        4759.674721152175,
+        4987.581385337916
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        14,
+        13
+      ],
+      "machines": [
+        0,
+        0
+      ],
+      "workers": [
+        0,
+        2
+      ],
+      "sourceChoices": [
+        0,
+        3
+      ]
+    },
+    {
+      "factory": 4,
+      "status": "INSIDE",
+      "objectives": [
+        404.44998984568764,
+        4788.345911389908,
+        4943.386565859526
+      ],
+      "dominatesInitialDonors": 0,
+      "jobs": [
+        13,
+        14
+      ],
+      "machines": [
+        0,
+        0
+      ],
+      "workers": [
+        2,
+        0
+      ],
+      "sourceChoices": [
+        4,
+        0
+      ]
+    },
+    {
+      "factory": 4,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        381.9725610211966,
+        4853.091027068481,
+        4970.654978411509
+      ],
+      "dominatesInitialDonors": 2,
+      "jobs": [
+        13,
+        14
+      ],
+      "machines": [
+        3,
+        0
+      ],
+      "workers": [
+        0,
+        1
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 4,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        381.9725610211966,
+        4853.091027068481,
+        4970.654978411509
+      ],
+      "dominatesInitialDonors": 2,
+      "jobs": [
+        14,
+        13
+      ],
+      "machines": [
+        0,
+        3
+      ],
+      "workers": [
+        1,
+        2
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 4,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        381.9725610211966,
+        4853.091027068481,
+        4970.654978411509
+      ],
+      "dominatesInitialDonors": 2,
+      "jobs": [
+        14,
+        13
+      ],
+      "machines": [
+        0,
+        3
+      ],
+      "workers": [
+        1,
+        0
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 4,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        378.3134701121056,
+        4826.2223401997935,
+        4985.200432956964
+      ],
+      "dominatesInitialDonors": 2,
+      "jobs": [
+        14,
+        13
+      ],
+      "machines": [
+        0,
+        3
+      ],
+      "workers": [
+        2,
+        0
+      ],
+      "sourceChoices": null
+    },
+    {
+      "factory": 4,
+      "status": "OUTSIDE_RESOURCE",
+      "objectives": [
+        378.3134701121056,
+        4826.2223401997935,
+        4985.200432956964
+      ],
+      "dominatesInitialDonors": 2,
+      "jobs": [
+        13,
+        14
+      ],
+      "machines": [
+        3,
+        0
+      ],
+      "workers": [
+        2,
+        0
+      ],
+      "sourceChoices": null
+    }
+  ],
+  "latentEnumerated": 81925,
+  "uniqueLocalCandidates": 2122,
+  "exhaustive": true,
+  "globalPhysicalProduct": 28850418
+}

@@ -1,0 +1,177 @@
+{
+  "fixtures": [
+    {
+      "stem": "20_8_5_1",
+      "mode": "FOUR",
+      "rootCounts": {
+        "centerRootReads": 110,
+        "professionalRootReads": 56,
+        "differentPhysicalShadow": 35,
+        "bothAccepted": 4,
+        "centerSourceAliasChecks": 54,
+        "bothRejected": 44,
+        "shadowOnly": 8
+      },
+      "netShadowAcceptanceFraction": 0.14285714285714285,
+      "differentPhysicalShadowFraction": 0.625,
+      "centerWorkingShadowAliasChecks": 4290,
+      "paidFEReconstructed": 7900,
+      "paidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700",
+      "examples": [
+        {
+          "candidateFE": 1274,
+          "sourceSlot": 8,
+          "receiverSlot": 30,
+          "workingBornFE": 423,
+          "shadowBornFE": 413,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 1453,
+          "sourceSlot": 1,
+          "receiverSlot": 34,
+          "workingBornFE": 157,
+          "shadowBornFE": 161,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 2211,
+          "sourceSlot": 2,
+          "receiverSlot": 54,
+          "workingBornFE": 3,
+          "shadowBornFE": 197,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 4607,
+          "sourceSlot": 6,
+          "receiverSlot": 15,
+          "workingBornFE": 351,
+          "shadowBornFE": 4240,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 4692,
+          "sourceSlot": 6,
+          "receiverSlot": 17,
+          "workingBornFE": 351,
+          "shadowBornFE": 4240,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 4717,
+          "sourceSlot": 9,
+          "receiverSlot": 18,
+          "workingBornFE": 489,
+          "shadowBornFE": 4380,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 5155,
+          "sourceSlot": 6,
+          "receiverSlot": 29,
+          "workingBornFE": 351,
+          "shadowBornFE": 4240,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 6584,
+          "sourceSlot": 8,
+          "receiverSlot": 66,
+          "workingBornFE": 423,
+          "shadowBornFE": 413,
+          "label": "shadowOnly"
+        }
+      ],
+      "capacityCondition": true
+    },
+    {
+      "stem": "20_8_5_1",
+      "mode": "CENTER",
+      "rootCounts": {
+        "centerRootReads": 200,
+        "centerSourceAliasChecks": 200
+      },
+      "netShadowAcceptanceFraction": 0.0,
+      "differentPhysicalShadowFraction": 0.0,
+      "centerWorkingShadowAliasChecks": 7800,
+      "paidFEReconstructed": 7900,
+      "paidSHA256": "27fd9a5d72a2826ca1f7b34495edea276385df2c62b8bb1f2d2d13f9835c2534",
+      "examples": [],
+      "capacityCondition": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "mode": "FOUR",
+      "rootCounts": {
+        "centerRootReads": 110,
+        "centerSourceAliasChecks": 65,
+        "professionalRootReads": 45,
+        "differentPhysicalShadow": 24,
+        "shadowOnly": 3,
+        "bothRejected": 35,
+        "workingOnly": 1,
+        "bothAccepted": 6
+      },
+      "netShadowAcceptanceFraction": 0.044444444444444446,
+      "differentPhysicalShadowFraction": 0.5333333333333333,
+      "centerWorkingShadowAliasChecks": 21890,
+      "paidFEReconstructed": 39900,
+      "paidSHA256": "91214103c563ae12044c75bccdc8a9efbc51f5f0c644ae0757c32c4a751a0be0",
+      "examples": [
+        {
+          "candidateFE": 3821,
+          "sourceSlot": 14,
+          "receiverSlot": 18,
+          "workingBornFE": 3004,
+          "shadowBornFE": 3082,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 9044,
+          "sourceSlot": 5,
+          "receiverSlot": 44,
+          "workingBornFE": 1273,
+          "shadowBornFE": 1290,
+          "label": "workingOnly"
+        },
+        {
+          "candidateFE": 11726,
+          "sourceSlot": 9,
+          "receiverSlot": 58,
+          "workingBornFE": 2085,
+          "shadowBornFE": 2089,
+          "label": "shadowOnly"
+        },
+        {
+          "candidateFE": 23524,
+          "sourceSlot": 82,
+          "receiverSlot": 17,
+          "workingBornFE": 16612,
+          "shadowBornFE": 16589,
+          "label": "shadowOnly"
+        }
+      ],
+      "capacityCondition": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "mode": "CENTER",
+      "rootCounts": {
+        "centerRootReads": 200,
+        "centerSourceAliasChecks": 200
+      },
+      "netShadowAcceptanceFraction": 0.0,
+      "differentPhysicalShadowFraction": 0.0,
+      "centerWorkingShadowAliasChecks": 39800,
+      "paidFEReconstructed": 39900,
+      "paidSHA256": "c8848b9f205770684c8c1d98ce7cc0ecd5d8b0d8da93b1dd571e732c04aa5db1",
+      "examples": [],
+      "capacityCondition": false
+    }
+  ],
+  "capacityConditionMet": false,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "goalAchieved": false
+}

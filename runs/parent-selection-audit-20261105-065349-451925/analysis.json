@@ -1,0 +1,53 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "primaryDonorRule": "WITHIN",
+      "uniformObserved8": 7.148325432348254e-06,
+      "conditionalTournamentObserved8": 7.5790053663939414e-06,
+      "effectPct": 6.024906645922079,
+      "positiveContexts": 3,
+      "totalContexts": 6,
+      "minimumEffectiveObservedParents": 5.482666547995193,
+      "sourceSeedMeans": [
+        {
+          "seed": 11730007,
+          "uniform": 8.127993253415359e-07,
+          "weighted": 9.398098612873471e-07
+        },
+        {
+          "seed": 11730037,
+          "uniform": 1.3483851539354972e-05,
+          "weighted": 1.4218200871500536e-05
+        }
+      ],
+      "worthNewPaidParentSelectionProbe": false,
+      "limits": "Exact full47 tournament weights, conditioned on8already-observed recipients. Gains use16old paired proposal samples each. Other39recipient values are unobserved; this is not expected full47 algorithm gain or independent confirmation. OnlyWITHIN is primary; other donor rules descriptive. No source/parent subset retuning or production changes."
+    },
+    {
+      "stem": "100_2_3_1",
+      "primaryDonorRule": "WITHIN",
+      "uniformObserved8": 5.238081866170584e-07,
+      "conditionalTournamentObserved8": 6.60866297891276e-07,
+      "effectPct": 26.165706221467854,
+      "positiveContexts": 3,
+      "totalContexts": 6,
+      "minimumEffectiveObservedParents": 4.712993697984317,
+      "sourceSeedMeans": [
+        {
+          "seed": 11730007,
+          "uniform": 4.641745268545975e-07,
+          "weighted": 5.251053380389186e-07
+        },
+        {
+          "seed": 11730037,
+          "uniform": 5.834418463795193e-07,
+          "weighted": 7.966272577436336e-07
+        }
+      ],
+      "worthNewPaidParentSelectionProbe": false,
+      "limits": "Exact full47 tournament weights, conditioned on8already-observed recipients. Gains use16old paired proposal samples each. Other39recipient values are unobserved; this is not expected full47 algorithm gain or independent confirmation. OnlyWITHIN is primary; other donor rules descriptive. No source/parent subset retuning or production changes."
+    }
+  ],
+  "worthNewPaidParentSelectionProbe": false
+}

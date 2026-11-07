@@ -1,0 +1,171 @@
+{
+  "contract": {
+    "version": "CTX_FIRST_LOCAL_FORK_PILOT-v1",
+    "registered": "2026-11-06",
+    "status": "READY_NOT_EXECUTED",
+    "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+    "engineeringRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-first-local-fork-engineering-20261106-093316-016524",
+    "engineeringAuditSHA256": "84b7029af6842b29a7c9b09ec05e9fc120345a08818228c864fafb93acfbb96a",
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "fixedFE": 17741,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      {
+        "stem": "100_2_3_1",
+        "fixedFE": 49821,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      }
+    ],
+    "seeds": [
+      15410003,
+      15410037
+    ],
+    "arms": [
+      "PRE_S",
+      "POST_S",
+      "PRE_U",
+      "POST_U",
+      "SYNC_PRE",
+      "NSGA_CTX_GOM",
+      "PA_JOINT",
+      "FULL_SHARED_DEEP",
+      "LI_RECON_DEEP"
+    ],
+    "primary": "PRE_S",
+    "armDefinitions": {
+      "PRE_S": [
+        "SHARE_CTX_GOM",
+        "PRE_FIRST"
+      ],
+      "POST_S": [
+        "SHARE_CTX_GOM",
+        "POST"
+      ],
+      "PRE_U": [
+        "UNIFORM_CTX_GOM",
+        "PRE_FIRST"
+      ],
+      "POST_U": [
+        "UNIFORM_CTX_GOM",
+        "POST"
+      ],
+      "SYNC_PRE": [
+        "SYNC_CTX_GOM",
+        "PRE_FIRST"
+      ],
+      "NSGA_CTX_GOM": [
+        "NSGA_CTX_GOM",
+        "POST"
+      ],
+      "PA_JOINT": [
+        "PA_JOINT",
+        "POST"
+      ],
+      "FULL_SHARED_DEEP": [
+        "FULL_SHARED_DEEP",
+        "POST"
+      ],
+      "LI_RECON_DEEP": [
+        "LI_RECON_DEEP",
+        "POST"
+      ]
+    },
+    "intervention": "Afteroriginaldecompose, snapshot100groupedparticles BEFOREQGS onlyifPRE_FIRST,cycle1; QGS/compose/50updates unchanged. Global-postsnapshotandreference remainactualG. GOMworkspaceandlocalreceivers useP snapshots insteadG onlythisfirstpass. EveryfollowingpassPOST. Finalpoolremains100actualG+100paidlocalexits withoriginalPDDR/familyquotas; no300pool,nomergeofunpaidoldparentresults.",
+    "unchanged": "Fourphysicalroles,scalar/CENTERpreferences,Qtable/actions/parameters,JOB_ALIGNED,80free4x5domains,models,FOS,livecompatible donors,all-paidinternalarchive,originalsharedpool/cap/eta andallchargedfees unchanged. Localbranch inheritsitsrealpreQGSpersonalhistory, globalbranch itsactualposthistory; thisislifecycleintervention,notfaithfulbaselinebugfix.",
+    "firstCycleOnly": true,
+    "endpoint": "20:17741FE,100:49821FE =two completeoriginalswarmcyclesandnextglobalfirstpaidpoint. Everyarmexact same FE perinstance; matchedNSGAfullfreeFOSlargerandmaynotcompletesecondlocalpass underthisFE. Do notclaimsamegenerationoridenticallocalquota; actualstagesreported. Onefirstcycleinterventionthenoneunmodifiedrecoverycycle. Not500k,notgeneralhorizoneffect.",
+    "bridge": "Beforeanyscience: all8newlightPOST/PRE S/U whole2cycles paidSHA/fronts equalheavyengine same14810003. OldShared/Li eachinstance oldsource/newwrapper5102FE wholepaidSHA/front/initialequal. OrdinaryPA/NSGAactualclassbytesunchanged. Allbridgescountedseparately.",
+    "plannedBridgeFE": 311064,
+    "plannedScientificFE": 1216116,
+    "plannedTotalAttemptedFE": 1527180,
+    "maximumTotalAttemptedFE": 1600000,
+    "criterionByControl": {
+      "POST_S": "improvement",
+      "PRE_U": "mechanism",
+      "SYNC_PRE": "mechanism",
+      "NSGA_CTX_GOM": "noninferiority",
+      "PA_JOINT": "noninferiority",
+      "FULL_SHARED_DEEP": "improvement",
+      "LI_RECON_DEEP": "improvement"
+    },
+    "criteria": {
+      "improvement": {
+        "medianHVEffectPct": 1.0,
+        "medianIGDSymmetricWorseningPct": 0.0,
+        "medianCdelta": 0.0,
+        "referenceHVEffectFloor": 0.0,
+        "seedHVEffectFloor": -1.0,
+        "seedIGDWorseningCeiling": 5.0,
+        "seedCdeltaFloor": -0.02
+      },
+      "mechanism": {
+        "medianHVEffectPct": 0.5,
+        "medianIGDSymmetricWorseningPct": 0.0,
+        "medianCdelta": 0.0,
+        "referenceHVEffectFloor": 0.0,
+        "seedHVEffectFloor": -1.0,
+        "seedIGDWorseningCeiling": 5.0,
+        "seedCdeltaFloor": -0.02
+      },
+      "noninferiority": {
+        "medianHVEffectPct": -1.0,
+        "medianIGDSymmetricWorseningPct": 5.0,
+        "medianCdelta": -0.02,
+        "referenceHVEffectFloor": -1.0,
+        "seedHVEffectFloor": -3.0,
+        "seedIGDWorseningCeiling": 10.0,
+        "seedCdeltaFloor": -0.05
+      }
+    },
+    "allConditionsRequired": "Bothinstances allregisteredjointcriteria andeveryseedfloor required. NoHV-only/vote orpromotingPOST_U/ordinarycontrol. POST_U completes2x2descriptiveinteractiononly. Effectsfromparticulartwocyclehorizon,notold500kqualificationrevival.",
+    "metricContext": "Original128initialbounds/scales; HVrefs1.25/1.5/2.0. IGD+referenceall9arms/2seedsperinstanceendpointempiricalNDunion; preciseweakbidirectionalC,coveredcounts/sharedobjectivevectors. Allsciencecompletebeforequalityread. Initial100rawvectors/objectivebitsidenticalallarms.",
+    "fees": "Everyinitial/global/local/noop/fallbackattemptpaid; success=attempted=delegateDynamicEvaluation=declaredFE,0failed/timeinterruptions. AllsameauditPaid=true,constructor/model/copy/archive/shared/helpercostsinsideclock,uniquecheckpointfullQAseparate. SingleJVMsequentialXms32mXmx2g,FE-onlynotTIME.",
+    "failure": "Keepfailedfiles/usedFE/lastfront,nooverwrite/reseed. Engineeringfailurestopsbeforequality. FixedPRE_FIRSTqualityfailurestops:thisversion,nocyclenumber/frequency/programorder/budgetratio/history/seed/horizonrescue. Alloldstopsandexistingpositivesremain.",
+    "progression": "Onlyjointpasspermitsseparatefull500k andrealTIME plusheldoutprotocol. Engineeringorlocalpilotcannotprovecontribution/publication. Preservefourroles/QGS/originalsharedpoolanddefaults; noexternaltransfer.",
+    "defaultMainlineChanged": false,
+    "externalTransfers": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "c12a49770e5d7e68c99f9d6549f188e2ca7a058569f19518b4813aa3986d95e6",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

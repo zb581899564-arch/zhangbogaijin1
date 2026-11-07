@@ -1,0 +1,633 @@
+{
+  "fixedFE": [
+    {
+      "cut": 100,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 100,
+          "hv": 0.5766581470531825
+        },
+        "DEEP-NSGA": {
+          "fe": 100,
+          "hv": 0.5766581470531825
+        },
+        "ROTATE-NSGA": {
+          "fe": 100,
+          "hv": 0.5766581470531825
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 100,
+          "hv": 0.5766581470531825
+        },
+        "ROLE-SPECIAL": {
+          "fe": 100,
+          "hv": 0.5766581470531825
+        },
+        "ROLE-NSGA": {
+          "fe": 100,
+          "hv": 0.5766581470531825
+        }
+      },
+      "gapPct": {
+        "DEEP": 0.0,
+        "ROTATE": 0.0,
+        "ROLE": 0.0
+      }
+    },
+    {
+      "cut": 5100,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 5100,
+          "hv": 0.6905249580429931
+        },
+        "DEEP-NSGA": {
+          "fe": 5100,
+          "hv": 0.6961884075453159
+        },
+        "ROTATE-NSGA": {
+          "fe": 5100,
+          "hv": 0.6961884075453159
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 5100,
+          "hv": 0.6905249580429931
+        },
+        "ROLE-SPECIAL": {
+          "fe": 5100,
+          "hv": 0.6905249580429931
+        },
+        "ROLE-NSGA": {
+          "fe": 5100,
+          "hv": 0.6961884075453159
+        }
+      },
+      "gapPct": {
+        "DEEP": -0.8134937957802957,
+        "ROTATE": -0.8134937957802957,
+        "ROLE": -0.8134937957802957
+      }
+    },
+    {
+      "cut": 15000,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 15000,
+          "hv": 0.7089779470124494
+        },
+        "DEEP-NSGA": {
+          "fe": 15000,
+          "hv": 0.7353576540635804
+        },
+        "ROTATE-NSGA": {
+          "fe": 15000,
+          "hv": 0.7335571373631476
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 15000,
+          "hv": 0.6972427392431176
+        },
+        "ROLE-SPECIAL": {
+          "fe": 15000,
+          "hv": 0.6949589952122668
+        },
+        "ROLE-NSGA": {
+          "fe": 15000,
+          "hv": 0.7099050134390481
+        }
+      },
+      "gapPct": {
+        "DEEP": -3.58733017945172,
+        "ROTATE": -4.950452564685848,
+        "ROLE": -2.105354652219904
+      }
+    },
+    {
+      "cut": 50000,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 50000,
+          "hv": 0.7174238490450356
+        },
+        "DEEP-NSGA": {
+          "fe": 50000,
+          "hv": 0.7472325794476353
+        },
+        "ROTATE-NSGA": {
+          "fe": 50000,
+          "hv": 0.8030624952055083
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 50000,
+          "hv": 0.765608277345799
+        },
+        "ROLE-SPECIAL": {
+          "fe": 50000,
+          "hv": 0.7508818139863989
+        },
+        "ROLE-NSGA": {
+          "fe": 50000,
+          "hv": 0.776496787831969
+        }
+      },
+      "gapPct": {
+        "DEEP": -3.989217175813553,
+        "ROTATE": -4.663923179493601,
+        "ROLE": -3.2987868394264486
+      }
+    },
+    {
+      "cut": 100000,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 100000,
+          "hv": 0.7951800894188611
+        },
+        "DEEP-NSGA": {
+          "fe": 100000,
+          "hv": 0.8081229756384856
+        },
+        "ROTATE-NSGA": {
+          "fe": 100000,
+          "hv": 0.8160999733890442
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 100000,
+          "hv": 0.8014429505044003
+        },
+        "ROLE-SPECIAL": {
+          "fe": 100000,
+          "hv": 0.7844551278555276
+        },
+        "ROLE-NSGA": {
+          "fe": 100000,
+          "hv": 0.81207860849607
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.601598594495901,
+        "ROTATE": -1.7959837474050167,
+        "ROLE": -3.4015771812657136
+      }
+    },
+    {
+      "cut": 250000,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 250000,
+          "hv": 0.8084198240741485
+        },
+        "DEEP-NSGA": {
+          "fe": 250000,
+          "hv": 0.8184395532247446
+        },
+        "ROTATE-NSGA": {
+          "fe": 250000,
+          "hv": 0.8447535645703202
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 250000,
+          "hv": 0.8183982079406764
+        },
+        "ROLE-SPECIAL": {
+          "fe": 250000,
+          "hv": 0.8135667495932598
+        },
+        "ROLE-NSGA": {
+          "fe": 250000,
+          "hv": 0.8448598454544367
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.2242479131314266,
+        "ROTATE": -3.1198869984111144,
+        "ROLE": -3.7039393018311606
+      }
+    },
+    {
+      "cut": 500000,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8504927852213597
+        },
+        "DEEP-NSGA": {
+          "fe": 500000,
+          "hv": 0.8613806153279822
+        },
+        "ROTATE-NSGA": {
+          "fe": 500000,
+          "hv": 0.8646704051426037
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8290790675250296
+        },
+        "ROLE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8180300802803119
+        },
+        "ROLE-NSGA": {
+          "fe": 500000,
+          "hv": 0.863147138269994
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.2639975770149747,
+        "ROTATE": -4.116173909260179,
+        "ROLE": -5.227041368648944
+      }
+    }
+  ],
+  "fixedTime": [
+    {
+      "cut": 1,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 32124,
+          "hv": 0.7165215746376506
+        },
+        "DEEP-NSGA": {
+          "fe": 47722,
+          "hv": 0.7470620574583041
+        },
+        "ROTATE-NSGA": {
+          "fe": 28315,
+          "hv": 0.7868928539833738
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 36103,
+          "hv": 0.7640861473464797
+        },
+        "ROLE-SPECIAL": {
+          "fe": 48123,
+          "hv": 0.7350208704277618
+        },
+        "ROLE-NSGA": {
+          "fe": 26138,
+          "hv": 0.7289957915277337
+        }
+      },
+      "gapPct": {
+        "DEEP": -4.088078428793452,
+        "ROTATE": -2.8983242790226127,
+        "ROLE": 0.826490217097331
+      }
+    },
+    {
+      "cut": 2,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 104101,
+          "hv": 0.795180089912106
+        },
+        "DEEP-NSGA": {
+          "fe": 148209,
+          "hv": 0.8177934332371734
+        },
+        "ROTATE-NSGA": {
+          "fe": 113111,
+          "hv": 0.8243585207940913
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 128976,
+          "hv": 0.8126220777553474
+        },
+        "ROLE-SPECIAL": {
+          "fe": 140248,
+          "hv": 0.8074075536448531
+        },
+        "ROLE-NSGA": {
+          "fe": 122961,
+          "hv": 0.8248702149312144
+        }
+      },
+      "gapPct": {
+        "DEEP": -2.765165677052961,
+        "ROTATE": -1.4237061597226375,
+        "ROLE": -2.1170192559101575
+      }
+    },
+    {
+      "cut": 4,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 356386,
+          "hv": 0.8304068745435187
+        },
+        "DEEP-NSGA": {
+          "fe": 435008,
+          "hv": 0.8524213355088184
+        },
+        "ROTATE-NSGA": {
+          "fe": 331108,
+          "hv": 0.8529454613381585
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 378599,
+          "hv": 0.8193768230517102
+        },
+        "ROLE-SPECIAL": {
+          "fe": 404641,
+          "hv": 0.81744113854145
+        },
+        "ROLE-NSGA": {
+          "fe": 352426,
+          "hv": 0.8518508751917079
+        }
+      },
+      "gapPct": {
+        "DEEP": -2.582579769916138,
+        "ROTATE": -3.9356136831754207,
+        "ROLE": -4.039408498877705
+      }
+    },
+    {
+      "cut": 6,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8504927852213597
+        },
+        "DEEP-NSGA": {
+          "fe": 500000,
+          "hv": 0.8613806153279822
+        },
+        "ROTATE-NSGA": {
+          "fe": 500000,
+          "hv": 0.8646704051426037
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8290790675250296
+        },
+        "ROLE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8180300802803119
+        },
+        "ROLE-NSGA": {
+          "fe": 500000,
+          "hv": 0.863147138269994
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.2639975770149747,
+        "ROTATE": -4.116173909260179,
+        "ROLE": -5.227041368648944
+      }
+    },
+    {
+      "cut": 8,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8504927852213597
+        },
+        "DEEP-NSGA": {
+          "fe": 500000,
+          "hv": 0.8613806153279822
+        },
+        "ROTATE-NSGA": {
+          "fe": 500000,
+          "hv": 0.8646704051426037
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8290790675250296
+        },
+        "ROLE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8180300802803119
+        },
+        "ROLE-NSGA": {
+          "fe": 500000,
+          "hv": 0.863147138269994
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.2639975770149747,
+        "ROTATE": -4.116173909260179,
+        "ROLE": -5.227041368648944
+      }
+    },
+    {
+      "cut": 10,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8504927852213597
+        },
+        "DEEP-NSGA": {
+          "fe": 500000,
+          "hv": 0.8613806153279822
+        },
+        "ROTATE-NSGA": {
+          "fe": 500000,
+          "hv": 0.8646704051426037
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8290790675250296
+        },
+        "ROLE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8180300802803119
+        },
+        "ROLE-NSGA": {
+          "fe": 500000,
+          "hv": 0.863147138269994
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.2639975770149747,
+        "ROTATE": -4.116173909260179,
+        "ROLE": -5.227041368648944
+      }
+    },
+    {
+      "cut": 12,
+      "arms": {
+        "DEEP-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8504927852213597
+        },
+        "DEEP-NSGA": {
+          "fe": 500000,
+          "hv": 0.8613806153279822
+        },
+        "ROTATE-NSGA": {
+          "fe": 500000,
+          "hv": 0.8646704051426037
+        },
+        "ROTATE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8290790675250296
+        },
+        "ROLE-SPECIAL": {
+          "fe": 500000,
+          "hv": 0.8180300802803119
+        },
+        "ROLE-NSGA": {
+          "fe": 500000,
+          "hv": 0.863147138269994
+        }
+      },
+      "gapPct": {
+        "DEEP": -1.2639975770149747,
+        "ROTATE": -4.116173909260179,
+        "ROLE": -5.227041368648944
+      }
+    }
+  ],
+  "terminalSensitivityGapPct": {
+    "1.25": {
+      "DEEP": -1.6107708283077615,
+      "ROTATE": -5.215036638014436,
+      "ROLE": -6.783390391445854
+    },
+    "1.5": {
+      "DEEP": -1.2639975770149747,
+      "ROTATE": -4.116173909260179,
+      "ROLE": -5.227041368648944
+    },
+    "2": {
+      "DEEP": -0.8976215868799042,
+      "ROTATE": -2.9153735497146616,
+      "ROLE": -3.6093051433876644
+    }
+  },
+  "receipts": {
+    "DEEP-SPECIAL": {
+      "stage": {
+        "initialization": 100,
+        "global": 10000,
+        "inter": 549,
+        "intra": 489351
+      },
+      "visits": 112,
+      "slots": 3471,
+      "continuations": 1977,
+      "outerCompleted": 1,
+      "searchSeconds": 5.1461132,
+      "wallSeconds": 5.687999999965541,
+      "offlineValidationDecodes": 374,
+      "decoder": {
+        "dynamic.evaluations": 500000,
+        "dynamic.reusedOperations": 15104217,
+        "dynamic.recomputedOperations": 4895783,
+        "dynamic.decodeNanos": 2060848100,
+        "dynamic.preparedChildren": 0
+      }
+    },
+    "DEEP-NSGA": {
+      "stage": {
+        "initialization": 100,
+        "global": 10000,
+        "inter": 549,
+        "intra": 489351
+      },
+      "visits": 112,
+      "slots": 3471,
+      "continuations": 1732,
+      "outerCompleted": 1,
+      "searchSeconds": 4.5514529,
+      "wallSeconds": 4.922000000020489,
+      "offlineValidationDecodes": 394,
+      "decoder": {
+        "dynamic.evaluations": 500000,
+        "dynamic.reusedOperations": 15134482,
+        "dynamic.recomputedOperations": 4865518,
+        "dynamic.decodeNanos": 1846243700,
+        "dynamic.preparedChildren": 0
+      }
+    },
+    "ROTATE-NSGA": {
+      "stage": {
+        "initialization": 100,
+        "global": 20000,
+        "inter": 800,
+        "intra": 479100
+      },
+      "visits": 400,
+      "slots": 3400,
+      "continuations": 2037,
+      "outerCompleted": 4,
+      "searchSeconds": 5.4465383,
+      "wallSeconds": 5.937000000034459,
+      "offlineValidationDecodes": 721,
+      "decoder": {
+        "dynamic.evaluations": 500000,
+        "dynamic.reusedOperations": 14867262,
+        "dynamic.recomputedOperations": 5132738,
+        "dynamic.decodeNanos": 2050804600,
+        "dynamic.preparedChildren": 0
+      }
+    },
+    "ROTATE-SPECIAL": {
+      "stage": {
+        "initialization": 100,
+        "global": 20000,
+        "inter": 800,
+        "intra": 479100
+      },
+      "visits": 400,
+      "slots": 3400,
+      "continuations": 1514,
+      "outerCompleted": 3,
+      "searchSeconds": 4.8646015,
+      "wallSeconds": 5.297000000020489,
+      "offlineValidationDecodes": 318,
+      "decoder": {
+        "dynamic.evaluations": 500000,
+        "dynamic.reusedOperations": 14868670,
+        "dynamic.recomputedOperations": 5131330,
+        "dynamic.decodeNanos": 1977043400,
+        "dynamic.preparedChildren": 0
+      }
+    },
+    "ROLE-SPECIAL": {
+      "stage": {
+        "initialization": 100,
+        "global": 20000,
+        "inter": 800,
+        "intra": 479100
+      },
+      "visits": 400,
+      "slots": 3400,
+      "continuations": 1857,
+      "outerCompleted": 3,
+      "searchSeconds": 4.6613407,
+      "wallSeconds": 5.047000000020489,
+      "offlineValidationDecodes": 249,
+      "decoder": {
+        "dynamic.evaluations": 500000,
+        "dynamic.reusedOperations": 14815269,
+        "dynamic.recomputedOperations": 5184731,
+        "dynamic.decodeNanos": 1947260800,
+        "dynamic.preparedChildren": 0
+      }
+    },
+    "ROLE-NSGA": {
+      "stage": {
+        "initialization": 100,
+        "global": 20000,
+        "inter": 800,
+        "intra": 479100
+      },
+      "visits": 400,
+      "slots": 3400,
+      "continuations": 1956,
+      "outerCompleted": 4,
+      "searchSeconds": 5.1848526,
+      "wallSeconds": 5.625,
+      "offlineValidationDecodes": 561,
+      "decoder": {
+        "dynamic.evaluations": 500000,
+        "dynamic.reusedOperations": 14795358,
+        "dynamic.recomputedOperations": 5204642,
+        "dynamic.decodeNanos": 1916562000,
+        "dynamic.preparedChildren": 0
+      }
+    }
+  }
+}

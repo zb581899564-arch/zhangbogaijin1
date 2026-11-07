@@ -1,0 +1,1376 @@
+{
+  "passed": true,
+  "candidateRows": 73710,
+  "terminalRows": 18,
+  "positiveContexts": [
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "GOM",
+      "workerCostDirectGainSharePct": 39.26869089672729,
+      "coveredParentBreakthroughs": 7,
+      "matchedGainsWithNegativeControls": 32,
+      "topCases": [
+        {
+          "fe": 350,
+          "role": "WORKER_COST",
+          "accepted": false,
+          "directHVPctA0": 0.0011416611024468717,
+          "objectives": [
+            1531.4123373129817,
+            67676.2196055186,
+            64908.04954959533
+          ],
+          "parentObjectives": [
+            1565.6696749542048,
+            67555.67618356623,
+            64900.933417552325
+          ],
+          "delta": [
+            -34.2573376412231,
+            120.54342195237405,
+            7.116132043003745
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": -34.2573376412231,
+              "factoryEnergy": 120.54342195237405,
+              "factoryCost": 7.116132043007383,
+              "factory": 0
+            }
+          ],
+          "resources": [],
+          "orderChanges": [
+            {
+              "factory": 0,
+              "inversions": 1
+            }
+          ],
+          "acceptedPhysicalAncestors": 1
+        },
+        {
+          "fe": 1295,
+          "role": "WORKER_COST",
+          "accepted": false,
+          "directHVPctA0": 0.0008666927323317691,
+          "objectives": [
+            1376.8747401512142,
+            65178.080096705926,
+            65343.677109556775
+          ],
+          "parentObjectives": [
+            1565.6696749542048,
+            67497.7330966598,
+            64893.55087499877
+          ],
+          "delta": [
+            -188.7949348029906,
+            -2319.652999953869,
+            450.1262345580035
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": -188.7949348029906,
+              "factoryEnergy": -2319.652999953869,
+              "factoryCost": 450.12623455801076,
+              "factory": 0
+            }
+          ],
+          "resources": [
+            {
+              "job": 10,
+              "old": {
+                "id": 3,
+                "factory": 0,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 5,
+                "factory": 0,
+                "machine": 2,
+                "worker": 1
+              }
+            },
+            {
+              "job": 18,
+              "old": {
+                "id": 3,
+                "factory": 0,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 4,
+                "factory": 0,
+                "machine": 2,
+                "worker": 0
+              }
+            },
+            {
+              "job": 23,
+              "old": {
+                "id": 2,
+                "factory": 0,
+                "machine": 1,
+                "worker": 0
+              },
+              "new": {
+                "id": 4,
+                "factory": 0,
+                "machine": 2,
+                "worker": 0
+              }
+            },
+            {
+              "job": 59,
+              "old": {
+                "id": 3,
+                "factory": 0,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 2,
+                "factory": 0,
+                "machine": 1,
+                "worker": 0
+              }
+            },
+            {
+              "job": 64,
+              "old": {
+                "id": 3,
+                "factory": 0,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 2,
+                "factory": 0,
+                "machine": 1,
+                "worker": 0
+              }
+            },
+            {
+              "job": 68,
+              "old": {
+                "id": 5,
+                "factory": 0,
+                "machine": 2,
+                "worker": 1
+              },
+              "new": {
+                "id": 4,
+                "factory": 0,
+                "machine": 2,
+                "worker": 0
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 0,
+              "inversions": 414
+            }
+          ],
+          "acceptedPhysicalAncestors": 2
+        },
+        {
+          "fe": 3987,
+          "role": "CENTER",
+          "accepted": true,
+          "directHVPctA0": 0.000864775985485554,
+          "objectives": [
+            1347.4773579773287,
+            65495.83340949867,
+            65760.17213579526
+          ],
+          "parentObjectives": [
+            1347.4773579773287,
+            65323.99259075097,
+            66055.69087709067
+          ],
+          "delta": [
+            0.0,
+            171.84081874770345,
+            -295.518741295411
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": 95.20489860293242,
+              "factoryEnergy": 171.84081874771073,
+              "factoryCost": -295.51874129541466,
+              "factory": 1
+            }
+          ],
+          "resources": [],
+          "orderChanges": [
+            {
+              "factory": 1,
+              "inversions": 2
+            }
+          ],
+          "acceptedPhysicalAncestors": 80
+        }
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "workerCostDirectGainSharePct": 83.57874307936167,
+      "coveredParentBreakthroughs": 5,
+      "matchedGainsWithNegativeControls": 64,
+      "topCases": [
+        {
+          "fe": 4070,
+          "role": "WORKER_COST",
+          "accepted": true,
+          "directHVPctA0": 0.0043800133770844,
+          "objectives": [
+            1533.4451681410849,
+            69265.92733041727,
+            64517.30247178493
+          ],
+          "parentObjectives": [
+            1533.4451681410849,
+            69344.7179136004,
+            64629.88939812278
+          ],
+          "delta": [
+            0.0,
+            -78.79058318313037,
+            -112.58692633784813
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": -1.4962586313572501,
+              "factoryEnergy": -78.79058318314492,
+              "factoryCost": -112.58692633784085,
+              "factory": 1
+            }
+          ],
+          "resources": [
+            {
+              "job": 91,
+              "old": {
+                "id": 6,
+                "factory": 1,
+                "machine": 0,
+                "worker": 0
+              },
+              "new": {
+                "id": 24,
+                "factory": 1,
+                "machine": 4,
+                "worker": 2
+              }
+            },
+            {
+              "job": 95,
+              "old": {
+                "id": 11,
+                "factory": 1,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 21,
+                "factory": 1,
+                "machine": 3,
+                "worker": 3
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 1,
+              "inversions": 28
+            }
+          ],
+          "acceptedPhysicalAncestors": 5
+        },
+        {
+          "fe": 3735,
+          "role": "WORKER_COST",
+          "accepted": true,
+          "directHVPctA0": 0.0035613509282776284,
+          "objectives": [
+            1533.4451681410849,
+            68976.20852035751,
+            64709.312169726305
+          ],
+          "parentObjectives": [
+            1575.7140823869433,
+            69370.88380517204,
+            64747.23904827593
+          ],
+          "delta": [
+            -42.26891424585847,
+            -394.6752848145261,
+            -37.926878549624234
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": -42.26891424585847,
+              "factoryEnergy": -394.67528481452246,
+              "factoryCost": -37.926878549624234,
+              "factory": 0
+            }
+          ],
+          "resources": [
+            {
+              "job": 97,
+              "old": {
+                "id": 1,
+                "factory": 0,
+                "machine": 0,
+                "worker": 1
+              },
+              "new": {
+                "id": 2,
+                "factory": 0,
+                "machine": 1,
+                "worker": 0
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 0,
+              "inversions": 19
+            }
+          ],
+          "acceptedPhysicalAncestors": 3
+        },
+        {
+          "fe": 3910,
+          "role": "WORKER_COST",
+          "accepted": true,
+          "directHVPctA0": 0.0030843642259623856,
+          "objectives": [
+            1533.4451681410849,
+            69344.7179136004,
+            64629.88939812278
+          ],
+          "parentObjectives": [
+            1533.4451681410849,
+            68976.20852035751,
+            64709.312169726305
+          ],
+          "delta": [
+            0.0,
+            368.5093932428863,
+            -79.42277160352387
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": 103.71029316815088,
+              "factoryEnergy": 368.50939324289357,
+              "factoryCost": -79.42277160354206,
+              "factory": 1
+            }
+          ],
+          "resources": [
+            {
+              "job": 19,
+              "old": {
+                "id": 11,
+                "factory": 1,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 8,
+                "factory": 1,
+                "machine": 0,
+                "worker": 2
+              }
+            },
+            {
+              "job": 62,
+              "old": {
+                "id": 12,
+                "factory": 1,
+                "machine": 1,
+                "worker": 2
+              },
+              "new": {
+                "id": 16,
+                "factory": 1,
+                "machine": 2,
+                "worker": 2
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 1,
+              "inversions": 4
+            }
+          ],
+          "acceptedPhysicalAncestors": 4
+        }
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "workerCostDirectGainSharePct": 99.15478915874992,
+      "coveredParentBreakthroughs": 4,
+      "matchedGainsWithNegativeControls": 64,
+      "topCases": [
+        {
+          "fe": 2915,
+          "role": "WORKER_COST",
+          "accepted": true,
+          "directHVPctA0": 0.006158294130416745,
+          "objectives": [
+            1556.305186823298,
+            67743.08600434515,
+            64523.25900088178
+          ],
+          "parentObjectives": [
+            1556.305186823298,
+            68204.0934617504,
+            64725.43952854293
+          ],
+          "delta": [
+            0.0,
+            -461.00745740524144,
+            -202.18052766114852
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": -28.416779421573665,
+              "factoryEnergy": -461.00745740528146,
+              "factoryCost": -202.18052766114124,
+              "factory": 2
+            }
+          ],
+          "resources": [
+            {
+              "job": 4,
+              "old": {
+                "id": 30,
+                "factory": 2,
+                "machine": 2,
+                "worker": 0
+              },
+              "new": {
+                "id": 28,
+                "factory": 2,
+                "machine": 1,
+                "worker": 0
+              }
+            },
+            {
+              "job": 15,
+              "old": {
+                "id": 27,
+                "factory": 2,
+                "machine": 0,
+                "worker": 1
+              },
+              "new": {
+                "id": 29,
+                "factory": 2,
+                "machine": 1,
+                "worker": 1
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 2,
+              "inversions": 18
+            }
+          ],
+          "acceptedPhysicalAncestors": 2
+        },
+        {
+          "fe": 4070,
+          "role": "WORKER_COST",
+          "accepted": true,
+          "directHVPctA0": 0.004494470430560069,
+          "objectives": [
+            1556.305186823298,
+            68032.80481440491,
+            64331.24930294041
+          ],
+          "parentObjectives": [
+            1556.305186823298,
+            68111.59539758803,
+            64443.836229278255
+          ],
+          "delta": [
+            0.0,
+            -78.79058318311581,
+            -112.58692633784813
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": -1.4962586313572501,
+              "factoryEnergy": -78.79058318314492,
+              "factoryCost": -112.58692633784085,
+              "factory": 1
+            }
+          ],
+          "resources": [
+            {
+              "job": 91,
+              "old": {
+                "id": 6,
+                "factory": 1,
+                "machine": 0,
+                "worker": 0
+              },
+              "new": {
+                "id": 24,
+                "factory": 1,
+                "machine": 4,
+                "worker": 2
+              }
+            },
+            {
+              "job": 95,
+              "old": {
+                "id": 11,
+                "factory": 1,
+                "machine": 1,
+                "worker": 1
+              },
+              "new": {
+                "id": 21,
+                "factory": 1,
+                "machine": 3,
+                "worker": 3
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 1,
+              "inversions": 28
+            }
+          ],
+          "acceptedPhysicalAncestors": 4
+        },
+        {
+          "fe": 255,
+          "role": "WORKER_COST",
+          "accepted": true,
+          "directHVPctA0": 0.002647027085824172,
+          "objectives": [
+            1565.6696749542048,
+            68231.8906126978,
+            64725.69133542627
+          ],
+          "parentObjectives": [
+            1565.6696749542048,
+            67567.89831117481,
+            64908.260504977865
+          ],
+          "delta": [
+            0.0,
+            663.992301522987,
+            -182.5691695515925
+          ],
+          "factoryDelta": [
+            {
+              "factoryMakespan": 68.24095543417866,
+              "factoryEnergy": 663.9923015229906,
+              "factoryCost": -182.56916955161796,
+              "factory": 2
+            }
+          ],
+          "resources": [
+            {
+              "job": 35,
+              "old": {
+                "id": 28,
+                "factory": 2,
+                "machine": 1,
+                "worker": 0
+              },
+              "new": {
+                "id": 29,
+                "factory": 2,
+                "machine": 1,
+                "worker": 1
+              }
+            },
+            {
+              "job": 61,
+              "old": {
+                "id": 26,
+                "factory": 2,
+                "machine": 0,
+                "worker": 0
+              },
+              "new": {
+                "id": 27,
+                "factory": 2,
+                "machine": 0,
+                "worker": 1
+              }
+            }
+          ],
+          "orderChanges": [
+            {
+              "factory": 2,
+              "inversions": 4
+            }
+          ],
+          "acceptedPhysicalAncestors": 0
+        }
+      ]
+    }
+  ],
+  "initialContexts": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "arm": "GOM",
+      "entry": [
+        {
+          "slot": 11,
+          "role": "MAKESPAN",
+          "objectives": [
+            729.7352631508824,
+            46494.732046205805,
+            47604.21943520331
+          ],
+          "equalA0Point": false,
+          "strictDominators": 406,
+          "normalizedUniformEscapeDepth": 0.03199077767338528,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 62,
+          "role": "CENTER",
+          "objectives": [
+            729.7352631508824,
+            46571.39871287248,
+            47604.21943520331
+          ],
+          "equalA0Point": false,
+          "strictDominators": 406,
+          "normalizedUniformEscapeDepth": 0.03199077767338528,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 63,
+          "role": "CENTER",
+          "objectives": [
+            729.7352631508824,
+            46571.39871287248,
+            47604.21943520331
+          ],
+          "equalA0Point": false,
+          "strictDominators": 406,
+          "normalizedUniformEscapeDepth": 0.03199077767338528,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 81,
+          "role": "ENERGY",
+          "objectives": [
+            729.7352631508824,
+            44803.30035533812,
+            47884.00454147073
+          ],
+          "equalA0Point": false,
+          "strictDominators": 450,
+          "normalizedUniformEscapeDepth": 0.03447263826532588,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 96,
+          "role": "WORKER_COST",
+          "objectives": [
+            729.7352631508824,
+            46571.39871287248,
+            47604.21943520331
+          ],
+          "equalA0Point": false,
+          "strictDominators": 406,
+          "normalizedUniformEscapeDepth": 0.03199077767338528,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "local": {
+        "localChanged": 1141,
+        "localParetoImproved": 47,
+        "localParetoImprovedButCoveredA0": 47,
+        "zeroLocalCostCertifiedBlocked": 0
+      },
+      "totalHVPctA0": 0.0,
+      "groups": {},
+      "freshEvents": 0,
+      "positiveUniqueVectors": 0,
+      "coveredParentBreakthroughs": 0
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "arm": "GOM",
+      "entry": [
+        {
+          "slot": 12,
+          "role": "MAKESPAN",
+          "objectives": [
+            740.8130145401019,
+            44466.15013307676,
+            48868.82759945982
+          ],
+          "equalA0Point": false,
+          "strictDominators": 599,
+          "normalizedUniformEscapeDepth": 0.054167023964443076,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 64,
+          "role": "CENTER",
+          "objectives": [
+            817.9420942345128,
+            45531.193535256505,
+            48386.04986994961
+          ],
+          "equalA0Point": false,
+          "strictDominators": 576,
+          "normalizedUniformEscapeDepth": 0.04917117740733538,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 65,
+          "role": "CENTER",
+          "objectives": [
+            796.3369485331486,
+            43832.58588251778,
+            49236.592515216005
+          ],
+          "equalA0Point": false,
+          "strictDominators": 590,
+          "normalizedUniformEscapeDepth": 0.05820884777684738,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 82,
+          "role": "ENERGY",
+          "objectives": [
+            796.3369485331486,
+            43832.58588251778,
+            49236.592515216005
+          ],
+          "equalA0Point": false,
+          "strictDominators": 590,
+          "normalizedUniformEscapeDepth": 0.05820884777684738,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 97,
+          "role": "WORKER_COST",
+          "objectives": [
+            817.9420942345128,
+            45531.193535256505,
+            48386.04986994961
+          ],
+          "equalA0Point": false,
+          "strictDominators": 576,
+          "normalizedUniformEscapeDepth": 0.04917117740733538,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "local": {
+        "localChanged": 2633,
+        "localParetoImproved": 0,
+        "localParetoImprovedButCoveredA0": 0,
+        "zeroLocalCostCertifiedBlocked": 0
+      },
+      "totalHVPctA0": 0.0,
+      "groups": {},
+      "freshEvents": 0,
+      "positiveUniqueVectors": 0,
+      "coveredParentBreakthroughs": 0
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "arm": "GOM",
+      "entry": [
+        {
+          "slot": 13,
+          "role": "MAKESPAN",
+          "objectives": [
+            393.38374285827837,
+            43027.52056924948,
+            48413.45895816523
+          ],
+          "equalA0Point": false,
+          "strictDominators": 239,
+          "normalizedUniformEscapeDepth": 0.02144020581535043,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 66,
+          "role": "CENTER",
+          "objectives": [
+            393.38374285827837,
+            43405.2873964958,
+            48412.134443888746
+          ],
+          "equalA0Point": false,
+          "strictDominators": 239,
+          "normalizedUniformEscapeDepth": 0.02144020581535043,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 67,
+          "role": "CENTER",
+          "objectives": [
+            393.38374285827837,
+            43405.2873964958,
+            48412.134443888746
+          ],
+          "equalA0Point": false,
+          "strictDominators": 239,
+          "normalizedUniformEscapeDepth": 0.02144020581535043,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 83,
+          "role": "ENERGY",
+          "objectives": [
+            393.38374285827837,
+            42924.70006565214,
+            48556.33500070264
+          ],
+          "equalA0Point": false,
+          "strictDominators": 254,
+          "normalizedUniformEscapeDepth": 0.023418036554922826,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 98,
+          "role": "WORKER_COST",
+          "objectives": [
+            447.20843429759645,
+            44616.177256870236,
+            47559.660009755666
+          ],
+          "equalA0Point": false,
+          "strictDominators": 345,
+          "normalizedUniformEscapeDepth": 0.022274349810924583,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "local": {
+        "localChanged": 1822,
+        "localParetoImproved": 5,
+        "localParetoImprovedButCoveredA0": 5,
+        "zeroLocalCostCertifiedBlocked": 0
+      },
+      "totalHVPctA0": 0.0,
+      "groups": {},
+      "freshEvents": 0,
+      "positiveUniqueVectors": 0,
+      "coveredParentBreakthroughs": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "arm": "GOM",
+      "entry": [
+        {
+          "slot": 11,
+          "role": "MAKESPAN",
+          "objectives": [
+            1099.9785916358774,
+            66182.20203666286,
+            78657.009975208
+          ],
+          "equalA0Point": false,
+          "strictDominators": 169,
+          "normalizedUniformEscapeDepth": 0.03175564767232014,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 62,
+          "role": "CENTER",
+          "objectives": [
+            1649.0456370858394,
+            68910.08820905529,
+            66409.3285867535
+          ],
+          "equalA0Point": false,
+          "strictDominators": 75,
+          "normalizedUniformEscapeDepth": 0.022259097057544416,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 63,
+          "role": "CENTER",
+          "objectives": [
+            1514.3519642579056,
+            66870.97508318962,
+            66965.54872326404
+          ],
+          "equalA0Point": false,
+          "strictDominators": 101,
+          "normalizedUniformEscapeDepth": 0.01837166055978046,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 81,
+          "role": "ENERGY",
+          "objectives": [
+            1486.3789347017255,
+            65967.01427629094,
+            66646.03079191232
+          ],
+          "equalA0Point": false,
+          "strictDominators": 60,
+          "normalizedUniformEscapeDepth": 0.013798661675961632,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 96,
+          "role": "WORKER_COST",
+          "objectives": [
+            1625.1827300162095,
+            67182.23817158554,
+            65934.0306381824
+          ],
+          "equalA0Point": false,
+          "strictDominators": 41,
+          "normalizedUniformEscapeDepth": 0.01605448899959996,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "local": {
+        "localChanged": 2737,
+        "localParetoImproved": 48,
+        "localParetoImprovedButCoveredA0": 48,
+        "zeroLocalCostCertifiedBlocked": 0
+      },
+      "totalHVPctA0": 0.0,
+      "groups": {},
+      "freshEvents": 0,
+      "positiveUniqueVectors": 0,
+      "coveredParentBreakthroughs": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "GOM",
+      "entry": [
+        {
+          "slot": 12,
+          "role": "MAKESPAN",
+          "objectives": [
+            1358.2021312866739,
+            68150.10997072337,
+            66132.70792784367
+          ],
+          "equalA0Point": false,
+          "strictDominators": 2,
+          "normalizedUniformEscapeDepth": 0.0019132967634076822,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 64,
+          "role": "CENTER",
+          "objectives": [
+            1524.4316414840723,
+            66975.85330930736,
+            65154.6162073875
+          ],
+          "equalA0Point": false,
+          "strictDominators": 1,
+          "normalizedUniformEscapeDepth": 0.0017776550398560117,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 65,
+          "role": "CENTER",
+          "objectives": [
+            1376.6370182944465,
+            66777.59940909095,
+            65984.5588390601
+          ],
+          "equalA0Point": false,
+          "strictDominators": 1,
+          "normalizedUniformEscapeDepth": 0.0,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 82,
+          "role": "ENERGY",
+          "objectives": [
+            1394.2206835502102,
+            65300.10129139625,
+            65866.46118815185
+          ],
+          "equalA0Point": false,
+          "strictDominators": 2,
+          "normalizedUniformEscapeDepth": 0.0006030724578448321,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 97,
+          "role": "WORKER_COST",
+          "objectives": [
+            1565.6696749542048,
+            67567.89831117481,
+            64908.260504977865
+          ],
+          "equalA0Point": true,
+          "strictDominators": 0,
+          "normalizedUniformEscapeDepth": 0.0,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "local": {
+        "localChanged": 2532,
+        "localParetoImproved": 49,
+        "localParetoImprovedButCoveredA0": 40,
+        "zeroLocalCostCertifiedBlocked": 0
+      },
+      "totalHVPctA0": 0.0071858398143581125,
+      "groups": {
+        "role.MAKESPAN": {
+          "events": 1,
+          "HVAbsolute": 5.575877139452068e-06,
+          "HVPctA0": 0.0007080035749055921
+        },
+        "stage.PRODUCTION": {
+          "events": 86,
+          "HVAbsolute": 5.659203056140871e-05,
+          "HVPctA0": 0.007185839814358113
+        },
+        "structure.RESOURCE_ORDER": {
+          "events": 10,
+          "HVAbsolute": 1.9768909883421948e-05,
+          "HVPctA0": 0.0025101806441209787
+        },
+        "parent.COVERED": {
+          "events": 7,
+          "HVAbsolute": 6.4698099244697715e-06,
+          "HVPctA0": 0.0008215117444166658
+        },
+        "accepted.False": {
+          "events": 18,
+          "HVAbsolute": 2.7109547770298725e-05,
+          "HVPctA0": 0.0034422667959523134
+        },
+        "factory.0": {
+          "events": 40,
+          "HVAbsolute": 4.371206073905398e-05,
+          "HVPctA0": 0.00555039045799023
+        },
+        "role.WORKER_COST": {
+          "events": 17,
+          "HVAbsolute": 2.222294955334103e-05,
+          "HVPctA0": 0.0028217852250342497
+        },
+        "structure.ORDER": {
+          "events": 76,
+          "HVAbsolute": 3.6823120677986765e-05,
+          "HVPctA0": 0.004675659170237133
+        },
+        "role.CENTER": {
+          "events": 66,
+          "HVAbsolute": 2.8579070257439554e-05,
+          "HVPctA0": 0.003628861146630942
+        },
+        "accepted.True": {
+          "events": 68,
+          "HVAbsolute": 2.9482482791109987e-05,
+          "HVPctA0": 0.003743573018405799
+        },
+        "parent.UNCOVERED": {
+          "events": 79,
+          "HVAbsolute": 5.012222063693894e-05,
+          "HVPctA0": 0.0063643280699414466
+        },
+        "factory.1": {
+          "events": 31,
+          "HVAbsolute": 9.995719517652546e-06,
+          "HVPctA0": 0.001269218272794843
+        },
+        "factory.2": {
+          "events": 15,
+          "HVAbsolute": 2.884250304702185e-06,
+          "HVPctA0": 0.000366231083573043
+        },
+        "role.ENERGY": {
+          "events": 2,
+          "HVAbsolute": 2.1413361117605945e-07,
+          "HVPctA0": 2.7189867787329395e-05
+        }
+      },
+      "freshEvents": 86,
+      "positiveUniqueVectors": 197,
+      "coveredParentBreakthroughs": 7
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "arm": "GOM",
+      "entry": [
+        {
+          "slot": 13,
+          "role": "MAKESPAN",
+          "objectives": [
+            1033.4192519718292,
+            68303.60332197184,
+            77627.544229469
+          ],
+          "equalA0Point": false,
+          "strictDominators": 66,
+          "normalizedUniformEscapeDepth": 0.01900011709812033,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 66,
+          "role": "CENTER",
+          "objectives": [
+            1103.114912456313,
+            66825.54491887984,
+            74940.11322763503
+          ],
+          "equalA0Point": false,
+          "strictDominators": 169,
+          "normalizedUniformEscapeDepth": 0.03084418821113323,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 67,
+          "role": "CENTER",
+          "objectives": [
+            1033.6055202876337,
+            68472.22586998245,
+            77589.77398323732
+          ],
+          "equalA0Point": false,
+          "strictDominators": 70,
+          "normalizedUniformEscapeDepth": 0.01905590682655915,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 83,
+          "role": "ENERGY",
+          "objectives": [
+            1103.114912456313,
+            65823.14806943323,
+            74316.81763727576
+          ],
+          "equalA0Point": false,
+          "strictDominators": 166,
+          "normalizedUniformEscapeDepth": 0.026058935907426955,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        },
+        {
+          "slot": 98,
+          "role": "WORKER_COST",
+          "objectives": [
+            1104.479255150275,
+            67288.4531200796,
+            74407.03531761467
+          ],
+          "equalA0Point": false,
+          "strictDominators": 171,
+          "normalizedUniformEscapeDepth": 0.02646757388788483,
+          "zeroLocalCostImpossibility": [
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "local": {
+        "localChanged": 2586,
+        "localParetoImproved": 19,
+        "localParetoImprovedButCoveredA0": 19,
+        "zeroLocalCostCertifiedBlocked": 0
+      },
+      "totalHVPctA0": 0.0,
+      "groups": {},
+      "freshEvents": 0,
+      "positiveUniqueVectors": 0,
+      "coveredParentBreakthroughs": 0
+    }
+  ],
+  "localParetoImproved": 366,
+  "localParetoImprovedButCoveredA0": 339,
+  "sourceSearchFE": 73728,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "archivalScienceDecisionUnchanged": true,
+  "mainlineChanged": false,
+  "checks": {
+    "bestSingleIndependentHVChecks": 72,
+    "componentSumMaxRoundoff": 1.4551915228366852e-11,
+    "chronologicalHVEndpointMatches": 18,
+    "allFactoryLocalityAndFA": "PASS on all production rows",
+    "inputHashCount": 114
+  },
+  "algebraicExpansions": 437041,
+  "closuresComplete": 24,
+  "closuresPlanned": 24,
+  "seconds": {
+    "details": 24.732552150002448,
+    "paid-closure": 41.930871219003166,
+    "survey": 33.51246016500227,
+    "finalizeChecks": 0.2689734809973743
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "completedUTC": "2026-11-06T09:36:51.853359+00:00",
+  "requiredReceipts": [
+    "source-acceptance.json",
+    "engineering-runtime-acceptance.json",
+    "engineering-independent-audit.json",
+    "science-complete.json",
+    "science-independent-audit.json",
+    "report/acceptance.json",
+    "report/figures/visual-review.json"
+  ],
+  "scientificRuns": 18,
+  "scienceFE": 639360,
+  "scienceFailures": 0,
+  "engineeringInjectedFailures": 2,
+  "statisticsPending": false,
+  "inheritedPendingFlagsAreHistorical": true,
+  "sourceSharedProposalCount": 0,
+  "defaultMainlineModified": false,
+  "goalResumed": false,
+  "backgroundExperimentCreated": false,
+  "newSearchFEAtDelivery": 0,
+  "newDecoderCallsAtDelivery": 0,
+  "decision": "report/decision.json",
+  "costSummary": "cost-summary.json"
+}

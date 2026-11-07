@@ -1,0 +1,662 @@
+[
+  {
+    "source": "case-02",
+    "receiver": "receiver-012",
+    "role": "MAKESPAN",
+    "prunedStrictlyDominatesFull": true,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": true,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1358.2021312866739,
+        68033.37746145936,
+        66155.77876710556
+      ],
+      "PRUNED": [
+        1358.2021312866739,
+        67992.50552457818,
+        66058.77570687405
+      ],
+      "RANDOM_0": [
+        1358.2021312866739,
+        67982.84268570041,
+        66039.33614251629
+      ],
+      "RANDOM_1": [
+        1403.0148515274245,
+        69044.14996161219,
+        66042.33159799331
+      ],
+      "RANDOM_2": [
+        1495.2643607345403,
+        69930.49675214374,
+        66162.88406966171
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      -40.87193688117259,
+      -97.00306023150915
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": false,
+      "RANDOM_1": false,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-02",
+    "receiver": "receiver-064",
+    "role": "CENTER",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": true,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1524.4316414840723,
+        66910.35222121455,
+        65203.02998500969
+      ],
+      "PRUNED": [
+        1524.4316414840723,
+        67008.7411930774,
+        65165.50085957913
+      ],
+      "RANDOM_0": [
+        1524.4316414840723,
+        68395.90395070621,
+        65230.41958681082
+      ],
+      "RANDOM_1": [
+        1524.4316414840723,
+        67745.18417071324,
+        64979.53492009773
+      ],
+      "RANDOM_2": [
+        1524.4316414840723,
+        68349.48022997004,
+        65237.05608886585
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      98.38897186284885,
+      -37.529125430563
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": false,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0004764627533414357,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-02",
+    "receiver": "receiver-082",
+    "role": "ENERGY",
+    "prunedStrictlyDominatesFull": true,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1394.2206835502102,
+        65379.26595613656,
+        65931.5773136561
+      ],
+      "PRUNED": [
+        1394.2206835502102,
+        65355.75090017184,
+        65838.19448962017
+      ],
+      "RANDOM_0": [
+        1394.2206835502102,
+        66346.90870978506,
+        66172.94861777988
+      ],
+      "RANDOM_1": [
+        1394.2206835502102,
+        65260.72305439302,
+        65703.14771770696
+      ],
+      "RANDOM_2": [
+        1394.2206835502102,
+        65260.72305439302,
+        65703.14771770696
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      -23.51505596471543,
+      -93.38282403592893
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": false,
+      "RANDOM_2": false
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 4.80550165164922e-06,
+      "RANDOM_2": 4.80550165164922e-06
+    }
+  },
+  {
+    "source": "case-02",
+    "receiver": "receiver-097",
+    "role": "WORKER_COST",
+    "prunedStrictlyDominatesFull": true,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": true,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1565.6696749542048,
+        67795.31834213683,
+        65003.6383463709
+      ],
+      "PRUNED": [
+        1565.6696749542048,
+        67613.8887306123,
+        64940.22003769408
+      ],
+      "RANDOM_0": [
+        1565.6696749542048,
+        68333.25018375019,
+        65267.998976657174
+      ],
+      "RANDOM_1": [
+        1565.6696749542048,
+        68290.72495212073,
+        65138.48368130119
+      ],
+      "RANDOM_2": [
+        1565.6696749542048,
+        68276.07459834503,
+        65273.93944754918
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      -181.42961152452335,
+      -63.418308676817105
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": true,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-06",
+    "receiver": "receiver-012",
+    "role": "MAKESPAN",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1356.0383123997046,
+        68175.77177654947,
+        66427.6855671084
+      ],
+      "PRUNED": [
+        1380.433154275628,
+        68009.0535990894,
+        66087.39291839243
+      ],
+      "RANDOM_0": [
+        1391.730362880197,
+        68177.96637676402,
+        66208.55405862404
+      ],
+      "RANDOM_1": [
+        1356.0383123997046,
+        68695.68362213943,
+        66266.642340052
+      ],
+      "RANDOM_2": [
+        1450.1789601972232,
+        68807.95911215192,
+        66270.19426079404
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      24.394841875923476,
+      -166.71817746007582,
+      -340.29264871597115
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": false,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-06",
+    "receiver": "receiver-064",
+    "role": "CENTER",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": true,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1475.0617610821935,
+        66775.61886156019,
+        65437.55831839089
+      ],
+      "PRUNED": [
+        1544.3227000711313,
+        67040.12291082763,
+        65328.31652334468
+      ],
+      "RANDOM_0": [
+        1506.617876175096,
+        68009.79354494193,
+        65436.79616307809
+      ],
+      "RANDOM_1": [
+        1501.778548713711,
+        67293.23106536915,
+        65341.23856075198
+      ],
+      "RANDOM_2": [
+        1553.1419562686183,
+        68034.595452032,
+        65470.896871725534
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      69.26093898893782,
+      264.5040492674452,
+      -109.24179504621134
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": false,
+      "RANDOM_1": false,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 1.4569169911892325e-08,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-06",
+    "receiver": "receiver-082",
+    "role": "ENERGY",
+    "prunedStrictlyDominatesFull": true,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": true,
+    "objectiveVectors": {
+      "FULL": [
+        1376.6370182944465,
+        65230.64034260197,
+        66409.04849135147
+      ],
+      "PRUNED": [
+        1376.6370182944465,
+        65148.914819004436,
+        66131.99106394511
+      ],
+      "RANDOM_0": [
+        1376.6370182944465,
+        66159.27336110079,
+        66252.29005282701
+      ],
+      "RANDOM_1": [
+        1405.0542356273468,
+        66553.84528276252,
+        66580.74524863985
+      ],
+      "RANDOM_2": [
+        1376.6370182944465,
+        66639.51548444622,
+        66419.7202527547
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      -81.72552359753172,
+      -277.0574274063547
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": true,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 1.608418386202343e-07,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-06",
+    "receiver": "receiver-097",
+    "role": "WORKER_COST",
+    "prunedStrictlyDominatesFull": true,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": true,
+    "objectiveVectors": {
+      "FULL": [
+        1551.1457315701782,
+        67396.07044260346,
+        64975.908336713816
+      ],
+      "PRUNED": [
+        1549.7832759158684,
+        67292.71102051686,
+        64923.055213918284
+      ],
+      "RANDOM_0": [
+        1586.1695957636778,
+        67878.89368704712,
+        64930.4739311918
+      ],
+      "RANDOM_1": [
+        1566.0444128489178,
+        68778.41959235506,
+        65356.382467027426
+      ],
+      "RANDOM_2": [
+        1587.5134756250209,
+        68552.11150446444,
+        65176.343711262205
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      -1.3624556543097697,
+      -103.35942208660708,
+      -52.85312279553182
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": true,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 8.20048679267451e-05,
+      "PRUNED": 0.00028359971088879357,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-10",
+    "receiver": "receiver-012",
+    "role": "MAKESPAN",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": true,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1356.0383123997046,
+        67686.63422858412,
+        66531.25262060405
+      ],
+      "PRUNED": [
+        1356.0383123997046,
+        68056.37393058244,
+        66822.33260484396
+      ],
+      "RANDOM_0": [
+        1356.0383123997046,
+        68205.17888166834,
+        66629.7918021231
+      ],
+      "RANDOM_1": [
+        1356.0383123997046,
+        68366.1394106195,
+        66688.97793779965
+      ],
+      "RANDOM_2": [
+        1356.0383123997046,
+        68594.31032507923,
+        66746.10089610121
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      369.7397019983182,
+      291.07998423991376
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": false,
+      "RANDOM_1": false,
+      "RANDOM_2": false
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-10",
+    "receiver": "receiver-064",
+    "role": "CENTER",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1492.4225341533054,
+        66773.84749884804,
+        65884.46689754396
+      ],
+      "PRUNED": [
+        1499.8103972807003,
+        66305.06596145395,
+        65521.649443706396
+      ],
+      "RANDOM_0": [
+        1515.1956436762202,
+        66463.2478293787,
+        65315.565645333496
+      ],
+      "RANDOM_1": [
+        1472.7076018426087,
+        66427.41599287483,
+        65599.85231983266
+      ],
+      "RANDOM_2": [
+        1525.8543520186033,
+        66976.521870489,
+        65389.266909866696
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      7.387863127394894,
+      -468.78153739409754,
+      -362.8174538375606
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": false,
+      "RANDOM_1": false,
+      "RANDOM_2": false
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 0.0,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-10",
+    "receiver": "receiver-082",
+    "role": "ENERGY",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": false,
+    "objectiveVectors": {
+      "FULL": [
+        1376.6370182944465,
+        64746.69858551693,
+        66390.54387931967
+      ],
+      "PRUNED": [
+        1376.6370182944465,
+        64861.428987005944,
+        66320.9249599773
+      ],
+      "RANDOM_0": [
+        1376.6370182944465,
+        65875.46181658907,
+        66803.81780959443
+      ],
+      "RANDOM_1": [
+        1376.6370182944465,
+        64876.923072458725,
+        66041.26667208479
+      ],
+      "RANDOM_2": [
+        1387.5474816841229,
+        65569.42792150243,
+        66506.11287197124
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      0.0,
+      114.73040148901055,
+      -69.61891934236337
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": false,
+      "RANDOM_2": true
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 0.0,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 1.4849464933080567e-06,
+      "RANDOM_2": 0.0
+    }
+  },
+  {
+    "source": "case-10",
+    "receiver": "receiver-097",
+    "role": "WORKER_COST",
+    "prunedStrictlyDominatesFull": false,
+    "fullStrictlyDominatesPruned": false,
+    "equalObjectives": false,
+    "prunedStrictlyDominatesParent": false,
+    "parentStrictlyDominatesPruned": false,
+    "prunedHVPositive": true,
+    "objectiveVectors": {
+      "FULL": [
+        1449.4432551476634,
+        67181.30498416186,
+        65728.14630928375
+      ],
+      "PRUNED": [
+        1477.7831695539926,
+        66642.38296619237,
+        65211.049019679194
+      ],
+      "RANDOM_0": [
+        1527.141346611472,
+        67830.90974472392,
+        65409.268987683645
+      ],
+      "RANDOM_1": [
+        1477.7831695539926,
+        66642.38296619237,
+        65211.049019679194
+      ],
+      "RANDOM_2": [
+        1475.418514134353,
+        67239.44624583313,
+        65347.172667126266
+      ]
+    },
+    "objectivesPrunedMinusFull": [
+      28.33991440632917,
+      -538.9220179694967,
+      -517.0972896045569
+    ],
+    "ordinaryDominatedByPruned": {
+      "RANDOM_0": true,
+      "RANDOM_1": false,
+      "RANDOM_2": false
+    },
+    "armHVgainPct": {
+      "FULL": 0.0,
+      "PRUNED": 1.8159122231507685e-05,
+      "RANDOM_0": 0.0,
+      "RANDOM_1": 1.8159122231507685e-05,
+      "RANDOM_2": 3.383831379627947e-07
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "pairs": [
+    {
+      "arm": "SHARE_CTX_GOM",
+      "paidSHA256": "0a78e742176cf0c7ab02cc77b79f10bc72ab5ee685a4480fb7e1193879518fa5",
+      "exactTrajectoryAndCheckpointMatch": true
+    },
+    {
+      "arm": "UNIFORM_CTX_GOM",
+      "paidSHA256": "ae3f86bb47d3d64cf8f283c091b8356a6a2cdfb664348f5f27f922b5e7f9ea08",
+      "exactTrajectoryAndCheckpointMatch": true
+    }
+  ],
+  "runs": 4,
+  "attemptedFE": 2000000,
+  "successfulFE": 2000000,
+  "failedFE": 0,
+  "offlineCheckpointQA": 9492,
+  "observerCostNotPerformance": true,
+  "goalAchieved": false
+}

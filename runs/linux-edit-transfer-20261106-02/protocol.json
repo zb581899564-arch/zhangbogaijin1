@@ -1,0 +1,67 @@
+{
+  "version": "EDIT_TRANSFER_V2",
+  "instance": "100_2_3_1",
+  "seed": 16110037,
+  "sources": {
+    "case-02": 6,
+    "case-06": 11,
+    "case-10": 3
+  },
+  "arms": [
+    "FULL",
+    "PRUNED",
+    "RANDOM_0",
+    "RANDOM_1",
+    "RANDOM_2"
+  ],
+  "receiverCount": 4,
+  "blocks": 12,
+  "fullSourceMasks": {
+    "case-02": 14,
+    "case-06": 15,
+    "case-10": 15
+  },
+  "amendment": "V1 frozen before any QA or paid decode, stopped: source-inactive fields must not become new edits on recipients. Same recipients, budget and random streams.",
+  "supersedes": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-edit-transfer-20261106-01",
+  "plannedNewEvaluations": 60,
+  "plannedQA": 4,
+  "hardLimitFE": 60,
+  "hardLimitQA": 4,
+  "transfer": "Copy exact child values only on source-active fields; no adaptation, repair or transfer of source-inactive fields",
+  "controls": "3 separately reported ordinary streams; same jobs, field types and actual replaced field counts as PRUNED",
+  "controlLimitation": "Order displacement is recorded, not forced equal; neutral/duplicate proposals are charged without redraw",
+  "transportMask": "Frozen evaluator uses QA=0, PAID=1 only as row tags; sourceAtomMask is in queries.json",
+  "referenceRule": "ND(A0 plus all 60 new candidates); common offline reference for all arms and slices",
+  "additionalBackground": "Known-source envelope: A0 + old LEGAL/NOVEL final fronts + all old counterfactual configurations for this source",
+  "mainMetrics": [
+    "HV",
+    "IGDplus",
+    "C_A_B",
+    "C_B_A"
+  ],
+  "extraMetrics": [
+    "IGD",
+    "complete objective-minimum vectors"
+  ],
+  "hvReferences": [
+    1.5,
+    1.25,
+    2.0
+  ],
+  "hvNumericalAbsTol": 1e-12,
+  "objectiveCertificateAbsTol": [
+    1e-08,
+    1e-08,
+    1e-08
+  ],
+  "structuralGate": "At least 2 source edits each strictly dominate FULL on at least 2 of the 4 other physical recipients",
+  "capacityGate": "PRUNED union above A0 >= 0.1% HV, inherited capacity screen, not a journal or algorithm-competition standard",
+  "comparisonGate": "Report FULL and all 3 ordinary streams separately; any >1% HV / >5% IGD+ / >10pp C reverse blocks continuation; no weighted score or vote",
+  "gainGate": "PRUNED must add at least a numerical HV or IGD+ improvement over FULL and every ordinary stream; no best-of-stream oracle",
+  "noSearchUpdate": true,
+  "keepFourRolesAndSharing": true,
+  "modifyMainline": false,
+  "expand": false,
+  "independence": "All recipients are from one pre-existing family and source seed; not independent seeds or held-out trajectories",
+  "noAlgorithmClaim": true
+}

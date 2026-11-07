@@ -1,0 +1,70 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "actualFEPerRun": 500000,
+  "order": [
+    [
+      "DEEP",
+      "SPECIAL"
+    ],
+    [
+      "DEEP",
+      "NSGA"
+    ],
+    [
+      "ROTATE",
+      "NSGA"
+    ],
+    [
+      "ROTATE",
+      "SPECIAL"
+    ],
+    [
+      "ROLE",
+      "SPECIAL"
+    ],
+    [
+      "ROLE",
+      "NSGA"
+    ]
+  ],
+  "pddrFrozen": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pddr-equivalence-20261104-081553-961399",
+  "timeCutsSeconds": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "calibration": "Prior first-cycle SPECIAL L_U paid archive; first quarter after which all later rates are at most 25% of the best previous quarter, else no knee. L_S sensitivity only.",
+  "DEEP": "Frozen original L_U ledger; 10,000 global FE",
+  "ROTATE": "Four 5,000 global-FE cycles; equal intra FE per entrant",
+  "ROLE": "Same cycles/slot factories; role intra weight proportional to historical FE to knee; largest remainder; equal per entrant within role",
+  "commonNewPlan": "Per cycle 119,975 local FE, two inter FE per visit; frozen original first-cycle factory draws partitioned 8/8/7/7 per visit position; fixed role order",
+  "ledgerSHA256": {
+    "DEEP": "83fa1f14629a14572cd383ee12574bcd597ac970119c0ade09afbff84ad58cda",
+    "ROTATE": "6655915d891fafb59c4221d3225c975bf6881171920cde16792c48c25ed5f5a5",
+    "ROLE": "9de85fc6e9bc747716f3c33a812cdcd9d2bb0bc8766994ff68d23c7f2b4ef173"
+  },
+  "scope": "One instance/seed, all six arms same actual FE. Compare capped time snapshots; no broad claims."
+}

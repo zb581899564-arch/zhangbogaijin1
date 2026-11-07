@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.UnsupportedOperationException
+	at java.base/java.util.Collections$UnmodifiableList.sort(Collections.java:1369)
+	at research.dynamic.DynamicOutput.write(DynamicOutput.java:23)
+	at research.dynamic.DynamicRun.main(DynamicRun.java:68)

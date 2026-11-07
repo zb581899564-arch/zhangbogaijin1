@@ -1,0 +1,13 @@
+{
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seed": 9940003,
+  "replayFE": 1000000,
+  "question": "Does the MAKESPAN local duty reject substantial physical noncritical-factory improvements because only maximum factory completion is compared?",
+  "gate": "Both instances: >=20% makespan-tied local comparisons, >=10% of all MAKESPAN comparisons componentwise improve factory completions with at least one strict reduction under equal global makespan. This only motivates a fresh paired continuation test.",
+  "preserved": "All original decisions, evaluations, RNG, family/sharing rules and physical ledger. Read existing immutable DynamicSchedule only. Record lexicographic and stricter componentwise comparisons separately.",
+  "engineering": "Each trajectory must match original full paid sequence SHA, final genes, FE checkpoints, ledger, initials and search counts. No extra decoder calls except return QA.",
+  "limits": "Factory completion improvement is not external HV or a useful future continuation proof. This is a standard max-objective plateau diagnostic, not fatigue-specific novelty."
+}

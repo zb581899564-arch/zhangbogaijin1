@@ -1,0 +1,82 @@
+{
+  "phases": {
+    "build-02/compile": {
+      "exitCode": 0,
+      "seconds": 1.03226300800452,
+      "loadBefore": [
+        0.24,
+        0.23,
+        0.2
+      ],
+      "loadAfter": [
+        0.24,
+        0.23,
+        0.2
+      ]
+    },
+    "logic-fixture": {
+      "exitCode": 0,
+      "seconds": 0.3021730390028097,
+      "loadBefore": [
+        0.24,
+        0.23,
+        0.2
+      ],
+      "loadAfter": [
+        0.24,
+        0.23,
+        0.2
+      ]
+    },
+    "mix-fixture": {
+      "exitCode": 0,
+      "seconds": 0.5106332459981786,
+      "loadBefore": [
+        0.24,
+        0.23,
+        0.2
+      ],
+      "loadAfter": [
+        0.46,
+        0.28,
+        0.22
+      ]
+    },
+    "qa": {
+      "exitCode": 0,
+      "seconds": 0.33569430898933206,
+      "loadBefore": [
+        0.46,
+        0.28,
+        0.22
+      ],
+      "loadAfter": [
+        0.46,
+        0.28,
+        0.22
+      ]
+    },
+    "science": {
+      "exitCode": 0,
+      "seconds": 3.9483880679908907,
+      "loadBefore": [
+        0.28,
+        0.2,
+        0.19
+      ],
+      "loadAfter": [
+        0.34,
+        0.22,
+        0.19
+      ]
+    }
+  },
+  "actualFE": 1536,
+  "actualQA": 36,
+  "fullDecoderNanos": 136698721,
+  "offlineAnalysisSeconds": 53.269849117001286,
+  "completeSearchIncludesValidationAndIO": true,
+  "independentAuditWallSeconds": null,
+  "auditTimingNote": "Standalone audit wall time was not captured; no time comparison.",
+  "sameTimeClaim": false
+}

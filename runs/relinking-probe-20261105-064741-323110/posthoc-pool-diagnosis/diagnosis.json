@@ -1,0 +1,615 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "contexts": [
+        {
+          "context": "c0",
+          "seed": 11730007,
+          "step": 0,
+          "backgroundHV": 0.44297672976877944,
+          "successfulOffspringPerMethod": 480,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.0012099578349262785,
+              "jointAddedHVPctOfBackground": 0.2731425272740264,
+              "sumOfIndividualPathGains": 0.0012886447930222644,
+              "jointToSumRatio": 0.93893820972074
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.00158801248129814,
+              "jointAddedHVPctOfBackground": 0.3584866595875216,
+              "sumOfIndividualPathGains": 0.002052671142876328,
+              "jointToSumRatio": 0.7736321947182052
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.0010980164223948208,
+              "jointAddedHVPctOfBackground": 0.24787225797796475,
+              "sumOfIndividualPathGains": 0.0012634816662555615,
+              "jointToSumRatio": 0.8690402494314686
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.0007026903646734084,
+              "jointAddedHVPctOfBackground": 0.15862918240427476,
+              "sumOfIndividualPathGains": 0.0011716980665075205,
+              "jointToSumRatio": 0.5997196588093014
+            }
+          }
+        },
+        {
+          "context": "c1",
+          "seed": 11730007,
+          "step": 24,
+          "backgroundHV": 0.46021144457787067,
+          "successfulOffspringPerMethod": 480,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.0039044744664109565,
+              "jointAddedHVPctOfBackground": 0.8484088156461078,
+              "sumOfIndividualPathGains": 0.004202604793629661,
+              "jointToSumRatio": 0.929060584599672
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.0039044744664109565,
+              "jointAddedHVPctOfBackground": 0.8484088156461078,
+              "sumOfIndividualPathGains": 0.004202604793629661,
+              "jointToSumRatio": 0.929060584599672
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 4.035354540121716e-05,
+              "jointAddedHVPctOfBackground": 0.008768479331979995,
+              "sumOfIndividualPathGains": 4.572452355633416e-05,
+              "jointToSumRatio": 0.8825361592122491
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.00010542428136428583,
+              "jointAddedHVPctOfBackground": 0.022907792191258162,
+              "sumOfIndividualPathGains": 0.00010543371111237931,
+              "jointToSumRatio": 0.9999105623050352
+            }
+          }
+        },
+        {
+          "context": "c2",
+          "seed": 11730007,
+          "step": 49,
+          "backgroundHV": 0.47189040127413584,
+          "successfulOffspringPerMethod": 480,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.004024717165909131,
+              "jointAddedHVPctOfBackground": 0.8528923570053817,
+              "sumOfIndividualPathGains": 0.004809620465132003,
+              "jointToSumRatio": 0.8368055639913512
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.004024717165909131,
+              "jointAddedHVPctOfBackground": 0.8528923570053817,
+              "sumOfIndividualPathGains": 0.004809620465131559,
+              "jointToSumRatio": 0.8368055639914285
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.0002677182526897859,
+              "jointAddedHVPctOfBackground": 0.05673314226501081,
+              "sumOfIndividualPathGains": 0.0004094708811694936,
+              "jointToSumRatio": 0.6538151184893863
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.0018748703166169278,
+              "jointAddedHVPctOfBackground": 0.3973105432012713,
+              "sumOfIndividualPathGains": 0.0024916961798910897,
+              "jointToSumRatio": 0.752447401793134
+            }
+          }
+        },
+        {
+          "context": "c3",
+          "seed": 11730037,
+          "step": 0,
+          "backgroundHV": 0.44213091491871914,
+          "successfulOffspringPerMethod": 480,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.0028578783154102894,
+              "jointAddedHVPctOfBackground": 0.6463873524735719,
+              "sumOfIndividualPathGains": 0.0028789039307914877,
+              "jointToSumRatio": 0.9926966596014832
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.0028578783154102894,
+              "jointAddedHVPctOfBackground": 0.6463873524735719,
+              "sumOfIndividualPathGains": 0.0028789039307919317,
+              "jointToSumRatio": 0.99269665960133
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 1.2507926214766485e-06,
+              "jointAddedHVPctOfBackground": 0.0002829009642328659,
+              "sumOfIndividualPathGains": 1.2507926299143435e-06,
+              "jointToSumRatio": 0.9999999932541216
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 8.141320348142855e-05,
+              "jointAddedHVPctOfBackground": 0.018413822859773436,
+              "sumOfIndividualPathGains": 8.151188268845644e-05,
+              "jointToSumRatio": 0.9987893886906644
+            }
+          }
+        },
+        {
+          "context": "c4",
+          "seed": 11730037,
+          "step": 24,
+          "backgroundHV": 0.4739737549968881,
+          "successfulOffspringPerMethod": 480,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 1.093964353682253e-05,
+              "jointAddedHVPctOfBackground": 0.0023080694704065113,
+              "sumOfIndividualPathGains": 1.0978422292584611e-05,
+              "jointToSumRatio": 0.996467729631035
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 1.093964353682253e-05,
+              "jointAddedHVPctOfBackground": 0.0023080694704065113,
+              "sumOfIndividualPathGains": 1.0978422292140522e-05,
+              "jointToSumRatio": 0.9964677296713432
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 7.995763071377837e-05,
+              "jointAddedHVPctOfBackground": 0.0168696325209617,
+              "sumOfIndividualPathGains": 8.407761668083324e-05,
+              "jointToSumRatio": 0.9509978264168127
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.0012988188293734382,
+              "jointAddedHVPctOfBackground": 0.2740275839496568,
+              "sumOfIndividualPathGains": 0.0013042822409659038,
+              "jointToSumRatio": 0.9958111738235279
+            }
+          }
+        },
+        {
+          "context": "c5",
+          "seed": 11730037,
+          "step": 49,
+          "backgroundHV": 0.48814660122361353,
+          "successfulOffspringPerMethod": 480,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 8.377622890964886e-06,
+              "jointAddedHVPctOfBackground": 0.001716210431449303,
+              "sumOfIndividualPathGains": 8.377622901623027e-06,
+              "jointToSumRatio": 0.9999999987277846
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 8.377622890964886e-06,
+              "jointAddedHVPctOfBackground": 0.001716210431449303,
+              "sumOfIndividualPathGains": 8.377622901178938e-06,
+              "jointToSumRatio": 0.9999999987807936
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.0005136426897953683,
+              "jointAddedHVPctOfBackground": 0.10522303924842352,
+              "sumOfIndividualPathGains": 0.0005330311452209635,
+              "jointToSumRatio": 0.963626036490686
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 2.7443035598651022e-05,
+              "jointAddedHVPctOfBackground": 0.005621883985233307,
+              "sumOfIndividualPathGains": 3.245520017758352e-05,
+              "jointToSumRatio": 0.8455666718582019
+            }
+          }
+        }
+      ],
+      "roleSummary": [
+        {
+          "teacherRole": "MAKESPAN",
+          "pairs": 48,
+          "methods": {
+            "COVER_PATH": {
+              "meanPathUnionAddedHV": 0.00016537085948129895,
+              "positivePairs": 19
+            },
+            "REPAIR_PATH": {
+              "meanPathUnionAddedHV": 0.00016537085948129895,
+              "positivePairs": 19
+            },
+            "RANDOM_PATH": {
+              "meanPathUnionAddedHV": 2.102113931995442e-05,
+              "positivePairs": 19
+            },
+            "CLASSIC": {
+              "meanPathUnionAddedHV": 7.31187632466157e-06,
+              "positivePairs": 11
+            }
+          }
+        },
+        {
+          "teacherRole": "ENERGY",
+          "pairs": 48,
+          "methods": {
+            "COVER_PATH": {
+              "meanPathUnionAddedHV": 7.912322221946082e-05,
+              "positivePairs": 6
+            },
+            "REPAIR_PATH": {
+              "meanPathUnionAddedHV": 9.27175721969764e-05,
+              "positivePairs": 7
+            },
+            "RANDOM_PATH": {
+              "meanPathUnionAddedHV": 5.15318098628e-06,
+              "positivePairs": 5
+            },
+            "CLASSIC": {
+              "meanPathUnionAddedHV": 7.055783796764785e-05,
+              "positivePairs": 7
+            }
+          }
+        },
+        {
+          "teacherRole": "WORKER_COST",
+          "pairs": 48,
+          "methods": {
+            "COVER_PATH": {
+              "meanPathUnionAddedHV": 3.0487793877774044e-05,
+              "positivePairs": 9
+            },
+            "REPAIR_PATH": {
+              "meanPathUnionAddedHV": 3.28106595221996e-05,
+              "positivePairs": 10
+            },
+            "RANDOM_PATH": {
+              "meanPathUnionAddedHV": 2.2513942725288505e-05,
+              "positivePairs": 7
+            },
+            "CLASSIC": {
+              "meanPathUnionAddedHV": 3.0194395735668362e-05,
+              "positivePairs": 10
+            }
+          }
+        }
+      ],
+      "concentration": {
+        "COVER_PATH": {
+          "positiveRecipients": 27,
+          "top1Share": 0.23088489126786835,
+          "top5Share": 0.8298628563728323
+        },
+        "REPAIR_PATH": {
+          "positiveRecipients": 27,
+          "top1Share": 0.21825149120122322,
+          "top5Share": 0.7844549935740657
+        },
+        "RANDOM_PATH": {
+          "positiveRecipients": 23,
+          "top1Share": 0.31095933286014765,
+          "top5Share": 0.9257136315826546
+        },
+        "CLASSIC": {
+          "positiveRecipients": 20,
+          "top1Share": 0.4803657837821606,
+          "top5Share": 0.9231177380629678
+        }
+      },
+      "coverRepairDifferentPathHV": 2,
+      "totalPairs": 144,
+      "meanJointContextAddedHV": {
+        "COVER_PATH": 0.002002724174847407,
+        "REPAIR_PATH": 0.002065733282576051,
+        "RANDOM_PATH": 0.0003334898889360745,
+        "CLASSIC": 0.0006817766718513566
+      },
+      "jointContextWinsVsClassic": 4,
+      "newSearchFE": 0,
+      "additionalDecodes": 0,
+      "limits": "Post-hoc description only. Six correlated contexts and role-selected genotypes are not independent confirmation or causal supply credit. Cannot promote a failed arm, change parent breadth gate, select donors/order/length or claim whole-loop gain."
+    },
+    {
+      "stem": "100_2_3_1",
+      "contexts": [
+        {
+          "context": "c0",
+          "seed": 11730007,
+          "step": 0,
+          "backgroundHV": 0.4979167554484505,
+          "successfulOffspringPerMethod": 2400,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.01076368337095035,
+              "jointAddedHVPctOfBackground": 2.1617435551563235,
+              "sumOfIndividualPathGains": 0.021351985475944968,
+              "jointToSumRatio": 0.5041069076726685
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.01076368337095035,
+              "jointAddedHVPctOfBackground": 2.1617435551563235,
+              "sumOfIndividualPathGains": 0.021351985475944968,
+              "jointToSumRatio": 0.5041069076726685
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 1.1782624349976345e-05,
+              "jointAddedHVPctOfBackground": 0.0023663843847480655,
+              "sumOfIndividualPathGains": 1.1782624350864523e-05,
+              "jointToSumRatio": 0.9999999999246196
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 2.0373363827097535e-06,
+              "jointAddedHVPctOfBackground": 0.00040917208758617076,
+              "sumOfIndividualPathGains": 2.0373363831538427e-06,
+              "jointToSumRatio": 0.9999999997820246
+            }
+          }
+        },
+        {
+          "context": "c1",
+          "seed": 11730007,
+          "step": 24,
+          "backgroundHV": 0.5018939019493964,
+          "successfulOffspringPerMethod": 2400,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.02127400994729456,
+              "jointAddedHVPctOfBackground": 4.238746449132892,
+              "sumOfIndividualPathGains": 0.05521228908764053,
+              "jointToSumRatio": 0.38531294932411747
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.02127400994729456,
+              "jointAddedHVPctOfBackground": 4.238746449132892,
+              "sumOfIndividualPathGains": 0.05521228908764053,
+              "jointToSumRatio": 0.38531294932411747
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.009649597631260498,
+              "jointAddedHVPctOfBackground": 1.9226369544998818,
+              "sumOfIndividualPathGains": 0.019381743559492293,
+              "jointToSumRatio": 0.4978704625639609
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.005294029579427484,
+              "jointAddedHVPctOfBackground": 1.0548105005589918,
+              "sumOfIndividualPathGains": 0.009424747357884122,
+              "jointToSumRatio": 0.5617158082225777
+            }
+          }
+        },
+        {
+          "context": "c2",
+          "seed": 11730007,
+          "step": 49,
+          "backgroundHV": 0.5243520432271453,
+          "successfulOffspringPerMethod": 2400,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.00971936575654242,
+              "jointAddedHVPctOfBackground": 1.8535954769479297,
+              "sumOfIndividualPathGains": 0.021971981352140624,
+              "jointToSumRatio": 0.4423527218948558
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.00971936575654242,
+              "jointAddedHVPctOfBackground": 1.8535954769479297,
+              "sumOfIndividualPathGains": 0.021971981352140624,
+              "jointToSumRatio": 0.4423527218948558
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.003283454207453129,
+              "jointAddedHVPctOfBackground": 0.6261926981813556,
+              "sumOfIndividualPathGains": 0.0038513163509903414,
+              "jointToSumRatio": 0.8525537525913212
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.003945741576556472,
+              "jointAddedHVPctOfBackground": 0.7524985603702905,
+              "sumOfIndividualPathGains": 0.007506179762138743,
+              "jointToSumRatio": 0.5256657449717416
+            }
+          }
+        },
+        {
+          "context": "c3",
+          "seed": 11730037,
+          "step": 0,
+          "backgroundHV": 0.49829881173288415,
+          "successfulOffspringPerMethod": 2400,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.0025409849987041433,
+              "jointAddedHVPctOfBackground": 0.5099319803448081,
+              "sumOfIndividualPathGains": 0.004922501817946845,
+              "jointToSumRatio": 0.5161978791841214
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.0025409849987041433,
+              "jointAddedHVPctOfBackground": 0.5099319803448081,
+              "sumOfIndividualPathGains": 0.004922501817946845,
+              "jointToSumRatio": 0.5161978791841214
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.005008453020173942,
+              "jointAddedHVPctOfBackground": 1.0051103679650657,
+              "sumOfIndividualPathGains": 0.005055868296639954,
+              "jointToSumRatio": 0.9906217342533382
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.00267025675905197,
+              "jointAddedHVPctOfBackground": 0.5358745989712245,
+              "sumOfIndividualPathGains": 0.002670256759051526,
+              "jointToSumRatio": 1.0000000000001663
+            }
+          }
+        },
+        {
+          "context": "c4",
+          "seed": 11730037,
+          "step": 24,
+          "backgroundHV": 0.5271853077788333,
+          "successfulOffspringPerMethod": 2400,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.011243676558977622,
+              "jointAddedHVPctOfBackground": 2.1327750210547616,
+              "sumOfIndividualPathGains": 0.01737840638680943,
+              "jointToSumRatio": 0.6469912320333241
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.011243676558977622,
+              "jointAddedHVPctOfBackground": 2.1327750210547616,
+              "sumOfIndividualPathGains": 0.01737840638680943,
+              "jointToSumRatio": 0.6469912320333241
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.0022471905719014806,
+              "jointAddedHVPctOfBackground": 0.4262619877191703,
+              "sumOfIndividualPathGains": 0.003392442040688337,
+              "jointToSumRatio": 0.6624108960297871
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.002909932403693194,
+              "jointAddedHVPctOfBackground": 0.5519752467976553,
+              "sumOfIndividualPathGains": 0.004434841113767796,
+              "jointToSumRatio": 0.6561525721089352
+            }
+          }
+        },
+        {
+          "context": "c5",
+          "seed": 11730037,
+          "step": 49,
+          "backgroundHV": 0.5376334004680814,
+          "successfulOffspringPerMethod": 2400,
+          "methods": {
+            "COVER_PATH": {
+              "jointContextAddedHV": 0.004476323003638871,
+              "jointAddedHVPctOfBackground": 0.8325976399051169,
+              "sumOfIndividualPathGains": 0.009659651597227814,
+              "jointToSumRatio": 0.46340418788225385
+            },
+            "REPAIR_PATH": {
+              "jointContextAddedHV": 0.004476323003638871,
+              "jointAddedHVPctOfBackground": 0.8325976399051169,
+              "sumOfIndividualPathGains": 0.009659651597227814,
+              "jointToSumRatio": 0.46340418788225385
+            },
+            "RANDOM_PATH": {
+              "jointContextAddedHV": 0.0016970331333450162,
+              "jointAddedHVPctOfBackground": 0.3156487546844231,
+              "sumOfIndividualPathGains": 0.0029828124602628847,
+              "jointToSumRatio": 0.568937255007796
+            },
+            "CLASSIC": {
+              "jointContextAddedHV": 0.003019174693484672,
+              "jointAddedHVPctOfBackground": 0.561567545999947,
+              "sumOfIndividualPathGains": 0.00302930830626158,
+              "jointToSumRatio": 0.9966548096950179
+            }
+          }
+        }
+      ],
+      "roleSummary": [
+        {
+          "teacherRole": "MAKESPAN",
+          "pairs": 48,
+          "methods": {
+            "COVER_PATH": {
+              "meanPathUnionAddedHV": 0.0022435373107391188,
+              "positivePairs": 38
+            },
+            "REPAIR_PATH": {
+              "meanPathUnionAddedHV": 0.0022435373107391188,
+              "positivePairs": 38
+            },
+            "RANDOM_PATH": {
+              "meanPathUnionAddedHV": 0.0004518525897432106,
+              "positivePairs": 31
+            },
+            "CLASSIC": {
+              "meanPathUnionAddedHV": 0.0001974720454987385,
+              "positivePairs": 19
+            }
+          }
+        },
+        {
+          "teacherRole": "ENERGY",
+          "pairs": 48,
+          "methods": {
+            "COVER_PATH": {
+              "meanPathUnionAddedHV": 0.00018042045026529321,
+              "positivePairs": 15
+            },
+            "REPAIR_PATH": {
+              "meanPathUnionAddedHV": 0.00018042045026529321,
+              "positivePairs": 15
+            },
+            "RANDOM_PATH": {
+              "meanPathUnionAddedHV": 0.00021685038912146645,
+              "positivePairs": 16
+            },
+            "CLASSIC": {
+              "meanPathUnionAddedHV": 8.732150799640552e-05,
+              "positivePairs": 19
+            }
+          }
+        },
+        {
+          "teacherRole": "WORKER_COST",
+          "pairs": 48,
+          "methods": {
+            "COVER_PATH": {
+              "meanPathUnionAddedHV": 0.00029472589978121744,
+              "positivePairs": 15
+            },
+            "REPAIR_PATH": {
+              "meanPathUnionAddedHV": 0.00029472589978121744,
+              "positivePairs": 15
+            },
+            "RANDOM_PATH": {
+              "meanPathUnionAddedHV": 5.3712965560837045e-05,
+              "positivePairs": 10
+            },
+            "CLASSIC": {
+              "meanPathUnionAddedHV": 0.0002791100014108335,
+              "positivePairs": 22
+            }
+          }
+        }
+      ],
+      "concentration": {
+        "COVER_PATH": {
+          "positiveRecipients": 41,
+          "top1Share": 0.161921146912565,
+          "top5Share": 0.5202278495203577
+        },
+        "REPAIR_PATH": {
+          "positiveRecipients": 41,
+          "top1Share": 0.161921146912565,
+          "top5Share": 0.5202278495203577
+        },
+        "RANDOM_PATH": {
+          "positiveRecipients": 35,
+          "top1Share": 0.43034754044228246,
+          "top5Share": 0.7551399642979694
+        },
+        "CLASSIC": {
+          "positiveRecipients": 28,
+          "top1Share": 0.1675925466705327,
+          "top5Share": 0.6666255890218147
+        }
+      },
+      "coverRepairDifferentPathHV": 0,
+      "totalPairs": 144,
+      "meanJointContextAddedHV": {
+        "COVER_PATH": 0.01000300727268466,
+        "REPAIR_PATH": 0.01000300727268466,
+        "RANDOM_PATH": 0.0036495851980806737,
+        "CLASSIC": 0.0029735287247660835
+      },
+      "jointContextWinsVsClassic": 5,
+      "newSearchFE": 0,
+      "additionalDecodes": 0,
+      "limits": "Post-hoc description only. Six correlated contexts and role-selected genotypes are not independent confirmation or causal supply credit. Cannot promote a failed arm, change parent breadth gate, select donors/order/length or claim whole-loop gain."
+    }
+  ],
+  "originalGateUnchanged": true
+}

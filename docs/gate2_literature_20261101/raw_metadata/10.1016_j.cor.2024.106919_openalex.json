@@ -1,0 +1,869 @@
+{
+  "id": "https://openalex.org/W4404727063",
+  "doi": "https://doi.org/10.1016/j.cor.2024.106919",
+  "title": "A Q-learning driven multi-objective evolutionary algorithm for worker fatigue dual-resource-constrained distributed hybrid flow shop",
+  "display_name": "A Q-learning driven multi-objective evolutionary algorithm for worker fatigue dual-resource-constrained distributed hybrid flow shop",
+  "publication_year": 2024,
+  "publication_date": "2024-11-26",
+  "ids": {
+    "openalex": "https://openalex.org/W4404727063",
+    "doi": "https://doi.org/10.1016/j.cor.2024.106919"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.cor.2024.106919",
+    "doi": "https://doi.org/10.1016/j.cor.2024.106919",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.cor.2024.106919",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S173256270",
+      "display_name": "Computers & Operations Research",
+      "issn_l": "0305-0548",
+      "issn": [
+        "0305-0548",
+        "1873-765X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-a",
+        "anvur-class-a",
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-b",
+        "jufo-1",
+        "norway-2",
+        "poland-140",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Computers &amp; Operations Research",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5112863401",
+        "display_name": "Haonan Song",
+        "orcid": "https://orcid.org/0009-0003-2183-2586",
+        "observed_orcids": [
+          "https://orcid.org/0009-0003-2183-2586"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I196934937",
+          "display_name": "Liaocheng University",
+          "ror": "https://ror.org/03yh0n709",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196934937"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Haonan Song",
+      "raw_affiliation_strings": [
+        "School of Computer, Liaocheng University, Liaocheng, 252000, Shandong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Computer, Liaocheng University, Liaocheng, 252000, Shandong, China",
+          "institution_ids": [
+            "https://openalex.org/I196934937"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100623231",
+        "display_name": "Junqing Li",
+        "orcid": "https://orcid.org/0000-0002-3617-6708",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3617-6708",
+          "https://orcid.org/0000-0001-7340-2551"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I120825670",
+          "display_name": "Yunnan Normal University",
+          "ror": "https://ror.org/00sc9n023",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I120825670"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405281478",
+          "display_name": "Hengxing University",
+          "ror": "https://ror.org/04dehkj86",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Junqing Li",
+      "raw_affiliation_strings": [
+        "Department of Mathematics, Yunnan Normal University, Kunming, Yunnan 650500, China",
+        "School of Information Engineering, HengXing University, Qingdao 266199, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Mathematics, Yunnan Normal University, Kunming, Yunnan 650500, China",
+          "institution_ids": [
+            "https://openalex.org/I120825670"
+          ]
+        },
+        {
+          "raw_affiliation_string": "School of Information Engineering, HengXing University, Qingdao 266199, China",
+          "institution_ids": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012023817",
+        "display_name": "Zhaosheng Du",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I196934937",
+          "display_name": "Liaocheng University",
+          "ror": "https://ror.org/03yh0n709",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196934937"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhaosheng Du",
+      "raw_affiliation_strings": [
+        "School of Computer, Liaocheng University, Liaocheng, 252000, Shandong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Computer, Liaocheng University, Liaocheng, 252000, Shandong, China",
+          "institution_ids": [
+            "https://openalex.org/I196934937"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Xin Yu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4405281478",
+          "display_name": "Hengxing University",
+          "ror": "https://ror.org/04dehkj86",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xin Yu",
+      "raw_affiliation_strings": [
+        "School of Information Engineering, HengXing University, Qingdao 266199, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information Engineering, HengXing University, Qingdao 266199, China",
+          "institution_ids": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101344329",
+        "display_name": "Ying Xu",
+        "orcid": "https://orcid.org/0009-0000-3624-0792",
+        "observed_orcids": [
+          "https://orcid.org/0009-0000-3624-0792"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4405281478",
+          "display_name": "Hengxing University",
+          "ror": "https://ror.org/04dehkj86",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ying Xu",
+      "raw_affiliation_strings": [
+        "School of Information Engineering, HengXing University, Qingdao 266199, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information Engineering, HengXing University, Qingdao 266199, China",
+          "institution_ids": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016398515",
+        "display_name": "Zhixin Zheng",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I196934937",
+          "display_name": "Liaocheng University",
+          "ror": "https://ror.org/03yh0n709",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196934937"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhixin Zheng",
+      "raw_affiliation_strings": [
+        "School of Computer, Liaocheng University, Liaocheng, 252000, Shandong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Computer, Liaocheng University, Liaocheng, 252000, Shandong, China",
+          "institution_ids": [
+            "https://openalex.org/I196934937"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5088572200",
+        "display_name": "Jiake Li",
+        "orcid": "https://orcid.org/0000-0002-3867-1841",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3867-1841"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I120825670",
+          "display_name": "Yunnan Normal University",
+          "ror": "https://ror.org/00sc9n023",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I120825670"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405281478",
+          "display_name": "Hengxing University",
+          "ror": "https://ror.org/04dehkj86",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jiake Li",
+      "raw_affiliation_strings": [
+        "Department of Mathematics, Yunnan Normal University, Kunming, Yunnan 650500, China",
+        "School of Information Engineering, HengXing University, Qingdao 266199, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Mathematics, Yunnan Normal University, Kunming, Yunnan 650500, China",
+          "institution_ids": [
+            "https://openalex.org/I120825670"
+          ]
+        },
+        {
+          "raw_affiliation_string": "School of Information Engineering, HengXing University, Qingdao 266199, China",
+          "institution_ids": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100623231"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I120825670",
+    "https://openalex.org/I4405281478"
+  ],
+  "apc_list": {
+    "value": 3470,
+    "currency": "USD",
+    "value_usd": 3470
+  },
+  "apc_paid": null,
+  "fwci": 12.6764,
+  "has_fulltext": false,
+  "cited_by_count": 62,
+  "citation_normalized_percentile": {
+    "value": 0.99156579,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "175",
+    "issue": null,
+    "first_page": "106919",
+    "last_page": "106919"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10551",
+    "display_name": "Scheduling and Optimization Algorithms",
+    "score": 0.9994999766349792,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2209",
+      "display_name": "Industrial and Manufacturing Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10551",
+      "display_name": "Scheduling and Optimization Algorithms",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12177",
+      "display_name": "Resource-Constrained Project Scheduling",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12782",
+      "display_name": "Assembly Line Balancing Optimization",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/worker-fatigue",
+      "display_name": "worker fatigue",
+      "score": 0.8320000171661377
+    },
+    {
+      "id": "https://openalex.org/keywords/dual-resource-constraints",
+      "display_name": "dual resource constraints",
+      "score": 0.9240000247955322
+    },
+    {
+      "id": "https://openalex.org/keywords/q-learning",
+      "display_name": "Q-learning",
+      "score": 0.9070000052452087
+    },
+    {
+      "id": "https://openalex.org/keywords/multi-objective-evolutionary-algorithms",
+      "display_name": "multi-objective evolutionary algorithms",
+      "score": 0.9919999837875366
+    },
+    {
+      "id": "https://openalex.org/keywords/makespan-minimization",
+      "display_name": "makespan minimization",
+      "score": 0.9350000023841858
+    },
+    {
+      "id": "https://openalex.org/keywords/energy-optimization",
+      "display_name": "energy optimization",
+      "score": 0.8790000081062317
+    },
+    {
+      "id": "https://openalex.org/keywords/local-search",
+      "display_name": "local search",
+      "score": 0.7409999966621399
+    },
+    {
+      "id": "https://openalex.org/keywords/distributed-manufacturing",
+      "display_name": "distributed manufacturing",
+      "score": 0.6129999756813049
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780980858",
+      "wikidata": "https://www.wikidata.org/wiki/Q110022",
+      "display_name": "Dual (grammatical number)",
+      "level": 2,
+      "score": 0.6940181851387024
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6526228785514832
+    },
+    {
+      "id": "https://openalex.org/C38349280",
+      "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+      "display_name": "Flow (mathematics)",
+      "level": 2,
+      "score": 0.544703483581543
+    },
+    {
+      "id": "https://openalex.org/C159149176",
+      "wikidata": "https://www.wikidata.org/wiki/Q14489129",
+      "display_name": "Evolutionary algorithm",
+      "level": 2,
+      "score": 0.4971051514148712
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.49184441566467285
+    },
+    {
+      "id": "https://openalex.org/C158336966",
+      "wikidata": "https://www.wikidata.org/wiki/Q3074426",
+      "display_name": "Flow shop scheduling",
+      "level": 4,
+      "score": 0.48129716515541077
+    },
+    {
+      "id": "https://openalex.org/C206345919",
+      "wikidata": "https://www.wikidata.org/wiki/Q20380951",
+      "display_name": "Resource (disambiguation)",
+      "level": 2,
+      "score": 0.47287437319755554
+    },
+    {
+      "id": "https://openalex.org/C188116033",
+      "wikidata": "https://www.wikidata.org/wiki/Q2664563",
+      "display_name": "Q-learning",
+      "level": 3,
+      "score": 0.44598543643951416
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.43646135926246643
+    },
+    {
+      "id": "https://openalex.org/C120314980",
+      "wikidata": "https://www.wikidata.org/wiki/Q180634",
+      "display_name": "Distributed computing",
+      "level": 1,
+      "score": 0.33393728733062744
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.3054662346839905
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.20287325978279114
+    },
+    {
+      "id": "https://openalex.org/C55416958",
+      "wikidata": "https://www.wikidata.org/wiki/Q6206757",
+      "display_name": "Job shop scheduling",
+      "level": 3,
+      "score": 0.13335183262825012
+    },
+    {
+      "id": "https://openalex.org/C97541855",
+      "wikidata": "https://www.wikidata.org/wiki/Q830687",
+      "display_name": "Reinforcement learning",
+      "level": 2,
+      "score": 0.09574702382087708
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142362112",
+      "wikidata": "https://www.wikidata.org/wiki/Q735",
+      "display_name": "Art",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C68387754",
+      "wikidata": "https://www.wikidata.org/wiki/Q7271585",
+      "display_name": "Schedule",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C124952713",
+      "wikidata": "https://www.wikidata.org/wiki/Q8242",
+      "display_name": "Literature",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C31258907",
+      "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+      "display_name": "Computer network",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.cor.2024.106919",
+      "doi": "https://doi.org/10.1016/j.cor.2024.106919",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.cor.2024.106919",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173256270",
+        "display_name": "Computers & Operations Research",
+        "issn_l": "0305-0548",
+        "issn": [
+          "0305-0548",
+          "1873-765X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "jufo-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Computers &amp; Operations Research",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.6773999929428101,
+      "display_name": "Industry, innovation and infrastructure",
+      "id": "https://metadata.un.org/sdg/9"
+    },
+    {
+      "score": 0.48510000109672546,
+      "display_name": "Decent work and economic growth",
+      "id": "https://metadata.un.org/sdg/8"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "score": 0.6000000238418579,
+      "display_name": "Decent work and economic growth",
+      "id": "https://metadata.un.org/sdg/8"
+    }
+  ],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G749541889",
+      "display_name": null,
+      "funder_award_id": "62473331",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    },
+    {
+      "id": "https://openalex.org/G8113203457",
+      "display_name": null,
+      "funder_award_id": "62173216",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 64,
+  "referenced_works": [
+    "https://openalex.org/W2003572185",
+    "https://openalex.org/W2038125062",
+    "https://openalex.org/W2047191259",
+    "https://openalex.org/W2071694551",
+    "https://openalex.org/W2126105956",
+    "https://openalex.org/W2138913627",
+    "https://openalex.org/W2353267094",
+    "https://openalex.org/W2751605210",
+    "https://openalex.org/W2756151170",
+    "https://openalex.org/W2766133347",
+    "https://openalex.org/W2934571458",
+    "https://openalex.org/W2940015176",
+    "https://openalex.org/W2978574139",
+    "https://openalex.org/W3034149880",
+    "https://openalex.org/W3102115455",
+    "https://openalex.org/W3118990082",
+    "https://openalex.org/W3139219031",
+    "https://openalex.org/W3196179151",
+    "https://openalex.org/W4220889966",
+    "https://openalex.org/W4220976805",
+    "https://openalex.org/W4223993390",
+    "https://openalex.org/W4255375128",
+    "https://openalex.org/W4281705087",
+    "https://openalex.org/W4285106612",
+    "https://openalex.org/W4285285556",
+    "https://openalex.org/W4304481271",
+    "https://openalex.org/W4304843050",
+    "https://openalex.org/W4307835624",
+    "https://openalex.org/W4312591611",
+    "https://openalex.org/W4312767177",
+    "https://openalex.org/W4313201799",
+    "https://openalex.org/W4323352982",
+    "https://openalex.org/W4364374908",
+    "https://openalex.org/W4376129161",
+    "https://openalex.org/W4377229859",
+    "https://openalex.org/W4377694760",
+    "https://openalex.org/W4377968663",
+    "https://openalex.org/W4379805283",
+    "https://openalex.org/W4380925176",
+    "https://openalex.org/W4381194142",
+    "https://openalex.org/W4383498262",
+    "https://openalex.org/W4385300723",
+    "https://openalex.org/W4385686872",
+    "https://openalex.org/W4385899584",
+    "https://openalex.org/W4386852082",
+    "https://openalex.org/W4386898872",
+    "https://openalex.org/W4387501773",
+    "https://openalex.org/W4387610328",
+    "https://openalex.org/W4388145540",
+    "https://openalex.org/W4388207488",
+    "https://openalex.org/W4388273963",
+    "https://openalex.org/W4388336604",
+    "https://openalex.org/W4388840804",
+    "https://openalex.org/W4390075227",
+    "https://openalex.org/W4390727050",
+    "https://openalex.org/W4392969507",
+    "https://openalex.org/W4396620260",
+    "https://openalex.org/W4396817379",
+    "https://openalex.org/W4399605805",
+    "https://openalex.org/W4399880123",
+    "https://openalex.org/W4401567670",
+    "https://openalex.org/W4402435386",
+    "https://openalex.org/W6859217241",
+    "https://openalex.org/W6869369469"
+  ],
+  "related_works": [
+    "https://openalex.org/W4414447004",
+    "https://openalex.org/W7161153781",
+    "https://openalex.org/W7117460004",
+    "https://openalex.org/W7117730053",
+    "https://openalex.org/W4403431759",
+    "https://openalex.org/W4411600637",
+    "https://openalex.org/W4396232747",
+    "https://openalex.org/W4413849578",
+    "https://openalex.org/W7117310476",
+    "https://openalex.org/W4386852082"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-10-28T10:33:24.094632",
+  "created_date": "2024-11-27T00:00:00"
+}

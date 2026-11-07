@@ -1,0 +1,387 @@
+{
+  "stem": "20_8_5_1",
+  "comparisons": [
+    {
+      "seed": 13390003,
+      "first": "FULL_ON",
+      "second": "FULL_OFF",
+      "firstPoints": 198,
+      "secondPoints": 137,
+      "firstStrictlyDominatedBySecond": 40,
+      "secondStrictlyDominatedByFirst": 43,
+      "missingSecondVolumePctOfFirstHV": 0.026108909120599245,
+      "missingFirstVolumePctOfSecondHV": 1.5229516803358902,
+      "firstApproximationToSecondReferenceIGDplus": 0.0013412590448176008,
+      "secondApproximationToFirstReferenceIGDplus": 0.0026900229130484878,
+      "firstVsSecondObjectiveMinimaPct": [
+        0.0,
+        -0.7965371461671755,
+        -0.4904695238366896
+      ]
+    },
+    {
+      "seed": 13390003,
+      "first": "FULL_ON",
+      "second": "NSGA_ON",
+      "firstPoints": 198,
+      "secondPoints": 184,
+      "firstStrictlyDominatedBySecond": 124,
+      "secondStrictlyDominatedByFirst": 18,
+      "missingSecondVolumePctOfFirstHV": 1.8629496260112899,
+      "missingFirstVolumePctOfSecondHV": 0.008755923551327049,
+      "firstApproximationToSecondReferenceIGDplus": 0.009979622567715108,
+      "secondApproximationToFirstReferenceIGDplus": 0.002003677817140569,
+      "firstVsSecondObjectiveMinimaPct": [
+        2.598562622966316,
+        0.5262744206348646,
+        0.29113271537895
+      ]
+    },
+    {
+      "seed": 13390003,
+      "first": "FULL_ON",
+      "second": "NSGA_OFF",
+      "firstPoints": 198,
+      "secondPoints": 140,
+      "firstStrictlyDominatedBySecond": 112,
+      "secondStrictlyDominatedByFirst": 16,
+      "missingSecondVolumePctOfFirstHV": 1.3800258043035536,
+      "missingFirstVolumePctOfSecondHV": 0.18488791092440507,
+      "firstApproximationToSecondReferenceIGDplus": 0.009455029159796496,
+      "secondApproximationToFirstReferenceIGDplus": 0.001829273420354912,
+      "firstVsSecondObjectiveMinimaPct": [
+        2.598562622966316,
+        -0.18856590763692838,
+        0.3448377731727792
+      ]
+    },
+    {
+      "seed": 13390037,
+      "first": "FULL_ON",
+      "second": "FULL_OFF",
+      "firstPoints": 165,
+      "secondPoints": 138,
+      "firstStrictlyDominatedBySecond": 55,
+      "secondStrictlyDominatedByFirst": 37,
+      "missingSecondVolumePctOfFirstHV": 0.05724041400910915,
+      "missingFirstVolumePctOfSecondHV": 1.3833420656245219,
+      "firstApproximationToSecondReferenceIGDplus": 0.0031906619367282857,
+      "secondApproximationToFirstReferenceIGDplus": 0.002471800353112743,
+      "firstVsSecondObjectiveMinimaPct": [
+        -1.6954489731784372,
+        0.0,
+        -0.6300704984689709
+      ]
+    },
+    {
+      "seed": 13390037,
+      "first": "FULL_ON",
+      "second": "NSGA_ON",
+      "firstPoints": 165,
+      "secondPoints": 168,
+      "firstStrictlyDominatedBySecond": 115,
+      "secondStrictlyDominatedByFirst": 9,
+      "missingSecondVolumePctOfFirstHV": 1.2135528392452022,
+      "missingFirstVolumePctOfSecondHV": 1.131279476470123,
+      "firstApproximationToSecondReferenceIGDplus": 0.008178740984152659,
+      "secondApproximationToFirstReferenceIGDplus": 0.0016237207015409694,
+      "firstVsSecondObjectiveMinimaPct": [
+        1.9254827781932438,
+        -1.1867534615513042,
+        0.30307935863733704
+      ]
+    },
+    {
+      "seed": 13390037,
+      "first": "FULL_ON",
+      "second": "NSGA_OFF",
+      "firstPoints": 165,
+      "secondPoints": 108,
+      "firstStrictlyDominatedBySecond": 134,
+      "secondStrictlyDominatedByFirst": 0,
+      "missingSecondVolumePctOfFirstHV": 1.2651919472390343,
+      "missingFirstVolumePctOfSecondHV": 0.2571510760274127,
+      "firstApproximationToSecondReferenceIGDplus": 0.01306387472954589,
+      "secondApproximationToFirstReferenceIGDplus": 0.000557877455342902,
+      "firstVsSecondObjectiveMinimaPct": [
+        1.9254827781932438,
+        -0.29230340527379717,
+        0.27004804917465375
+      ]
+    }
+  ],
+  "actualSearchScope": {
+    "13390003:FULL_OFF": {
+      "globalFE": 5000,
+      "interFE": 63,
+      "intraFE": 94837,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 49417
+        },
+        "2": {
+          "startedParticleVisits": 11,
+          "ledgerSlots": 318,
+          "paidFE": 45483
+        }
+      },
+      "firstMlocalEndFE": 54517,
+      "frontPointBirthPhases": {
+        "firstGlobal": 5,
+        "Mlocal": 26,
+        "Clocal": 106
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390003:FULL_ON": {
+      "globalFE": 5000,
+      "interFE": 62,
+      "intraFE": 94838,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 49417
+        },
+        "2": {
+          "startedParticleVisits": 10,
+          "ledgerSlots": 281,
+          "paidFE": 45483
+        }
+      },
+      "firstMlocalEndFE": 54517,
+      "frontPointBirthPhases": {
+        "Mlocal": 26,
+        "Clocal": 172
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390003:NSGA_OFF": {
+      "globalFE": 5000,
+      "interFE": 70,
+      "intraFE": 94830,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 47806
+        },
+        "2": {
+          "startedParticleVisits": 11,
+          "ledgerSlots": 326,
+          "paidFE": 47094
+        }
+      }
+    },
+    "13390003:NSGA_ON": {
+      "globalFE": 5000,
+      "interFE": 70,
+      "intraFE": 94830,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 47806
+        },
+        "2": {
+          "startedParticleVisits": 10,
+          "ledgerSlots": 301,
+          "paidFE": 47094
+        }
+      }
+    },
+    "13390037:FULL_OFF": {
+      "globalFE": 5000,
+      "interFE": 62,
+      "intraFE": 94838,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 47830
+        },
+        "2": {
+          "startedParticleVisits": 11,
+          "ledgerSlots": 321,
+          "paidFE": 47070
+        }
+      },
+      "firstMlocalEndFE": 52930,
+      "frontPointBirthPhases": {
+        "firstGlobal": 12,
+        "Mlocal": 23,
+        "Clocal": 103
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390037:FULL_ON": {
+      "globalFE": 5000,
+      "interFE": 59,
+      "intraFE": 94841,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 47830
+        },
+        "2": {
+          "startedParticleVisits": 10,
+          "ledgerSlots": 288,
+          "paidFE": 47070
+        }
+      },
+      "firstMlocalEndFE": 52930,
+      "frontPointBirthPhases": {
+        "firstGlobal": 12,
+        "Clocal": 153
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390037:NSGA_OFF": {
+      "globalFE": 5000,
+      "interFE": 76,
+      "intraFE": 94824,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 48033
+        },
+        "2": {
+          "startedParticleVisits": 11,
+          "ledgerSlots": 320,
+          "paidFE": 46867
+        }
+      }
+    },
+    "13390037:NSGA_ON": {
+      "globalFE": 5000,
+      "interFE": 73,
+      "intraFE": 94827,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 48033
+        },
+        "2": {
+          "startedParticleVisits": 11,
+          "ledgerSlots": 322,
+          "paidFE": 46867
+        }
+      }
+    }
+  },
+  "registeredEmpiricalReferenceSize": 260,
+  "empiricalReferenceOriginPartition": [
+    {
+      "origins": [
+        "13390003:NSGA_OFF",
+        "13390003:NSGA_ON"
+      ],
+      "referencePoints": 36,
+      "referenceWeight": 0.13846153846153847,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.015565405265930088,
+        "13390003:NSGA_ON": 0.0,
+        "13390037:FULL_ON": 0.015507490532802077,
+        "13390037:NSGA_ON": 0.013501034981183525
+      }
+    },
+    {
+      "origins": [
+        "13390037:NSGA_OFF"
+      ],
+      "referencePoints": 84,
+      "referenceWeight": 0.3230769230769231,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.010721271126817502,
+        "13390003:NSGA_ON": 0.011363205063458007,
+        "13390037:FULL_ON": 0.014678846862148907,
+        "13390037:NSGA_ON": 0.00479823932703523
+      }
+    },
+    {
+      "origins": [
+        "13390037:FULL_ON"
+      ],
+      "referencePoints": 5,
+      "referenceWeight": 0.019230769230769232,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.00015126165513773548,
+        "13390003:NSGA_ON": 0.0014440047788463614,
+        "13390037:FULL_ON": 0.0,
+        "13390037:NSGA_ON": 0.0044118799096388075
+      }
+    },
+    {
+      "origins": [
+        "13390003:FULL_ON"
+      ],
+      "referencePoints": 47,
+      "referenceWeight": 0.18076923076923077,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.0,
+        "13390003:NSGA_ON": 0.005544810226369882,
+        "13390037:FULL_ON": 0.0052706104819991925,
+        "13390037:NSGA_ON": 0.007632207773837252
+      }
+    },
+    {
+      "origins": [
+        "13390003:FULL_OFF"
+      ],
+      "referencePoints": 10,
+      "referenceWeight": 0.038461538461538464,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.0012125525926267873,
+        "13390003:NSGA_ON": 0.008943306500135384,
+        "13390037:FULL_ON": 0.0054350599164560195,
+        "13390037:NSGA_ON": 0.0016746004843465803
+      }
+    },
+    {
+      "origins": [
+        "13390037:NSGA_ON"
+      ],
+      "referencePoints": 26,
+      "referenceWeight": 0.1,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.012520143958244677,
+        "13390003:NSGA_ON": 0.0027625702448223145,
+        "13390037:FULL_ON": 0.01297417927266454,
+        "13390037:NSGA_ON": 0.0
+      }
+    },
+    {
+      "origins": [
+        "13390003:NSGA_ON"
+      ],
+      "referencePoints": 40,
+      "referenceWeight": 0.15384615384615385,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.013998409856519584,
+        "13390003:NSGA_ON": 0.0,
+        "13390037:FULL_ON": 0.01707372293313566,
+        "13390037:NSGA_ON": 0.009661264938499569
+      }
+    },
+    {
+      "origins": [
+        "13390003:NSGA_OFF"
+      ],
+      "referencePoints": 12,
+      "referenceWeight": 0.046153846153846156,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.013012109376734755,
+        "13390003:NSGA_ON": 0.0014116826155631194,
+        "13390037:FULL_ON": 0.015268282637439725,
+        "13390037:NSGA_ON": 0.004339832121607949
+      }
+    }
+  ],
+  "noAlternativeReferenceOrGateSubstitution": true,
+  "pilotStopUnchanged": true
+}

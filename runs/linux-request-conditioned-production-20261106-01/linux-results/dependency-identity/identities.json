@@ -1,0 +1,31 @@
+{
+  "inputFiles": {
+    "inputs/100_2_3_1/100_2_3_1.txt": "4fb1fad50b5c6f798580a37ff155eb9168932f1791c0262f37571d6ce91a39fa",
+    "inputs/100_2_3_1/RECONSTRUCTED-setup.txt": "b22843a207caf7d32dc3d6a946ce2f4ef0b64e632b111381c60013e32ff0f085",
+    "inputs/100_2_3_1/fatigue-input.txt": "4145b17ec1c985a57ee41429be59ddf2eae7387c1cec9b3f7133515570b6ed8e",
+    "inputs/20_8_5_1/RECONSTRUCTED-setup.txt": "6a72b4c6a6a9a2730d0d932d18232247fb7338b5b972667140979820d8a7ed11",
+    "inputs/20_8_5_1/fatigue-input.txt": "d49575ae34537b604862eea6c05ead879e9decb62aee9b1e0f43d9cf36e77b22",
+    "inputs/20_8_5_1/20_8_5_1.txt": "c87ea67078ca20c87ecc7e513ce599f394787390bab6d37da6b29e87e4f5c42d"
+  },
+  "acceptedMetricModules": {
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/check_stages.py": "9c6c1abcf6c91eb6396534e6bc7d22ec6124336ebab069f85b9596d537c634d1",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/validation.py": "bbbca7b41d3247c47a4cea7f8e88622552096691491979167e24d040b2187a06",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/__init__.py": "b73bb17ab42040b7e078ea5ade4cf70938dc351e6ceb112adf3c8c624dd0c23c",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/check_indicators.py": "ab0802575df22112a07bd043848c31a6d3f4216377e2770667805323f69854c6",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/indicators.py": "92d0a445b32ac845a4c25e8ff32445a3aa4ef7c53a2d6270c17c4d9151ec07be",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/summaries.py": "e46c64635edb10189963b8a6c4989d9b10ead56a12c0645e286384b2757c5c4b",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/attainment.py": "1ee49d32af2a165847ccfceec7de78fe933d018269c4bd28d79dde5a6c9191a3",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/checks.py": "13a1aa046087db66d36d6af0ae82e8aacd205259acf13347608b148583f233e9",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/check_attainment.py": "ed1921f8e5058888e16b25c89b88d58e91eef28ddc1d757c0d7f7215eca2ca3f",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/__main__.py": "b186073a99d9ad79a896613cf284c63dbc632711b53ecf50dae840fd0efc1918",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/eaf_difference.py": "7901d764dab5f99a61c02da88c51ebc567a14b1710a194e0a128e79cc06d0dd2",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/stages.py": "b5a3950622f6a1486cb067b38203eec7aa2ac1f46a4e555c98187c8f68245a8f",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/check_helpers.py": "9cceb908a1da0139b5387e807f191cdab6f36c4262f84505b598cd35c40917e3",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/analysis-code/analysis_metrics.py": "1d8ddee057141aa8576ab615c862606434fa8eaf4ec5c18e9b7431eb71377512",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/analysis-code/audit_metrics.py": "b3c80a58ecf82d6988e04340f3ce2181bd7652af8cd4d1145a2bdaa57522d0a4",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/analysis-code/analysis_common.py": "29d11c7e4c458b811c9f64da698f3ad561b92c38df568785e45bb34bb10af7f3"
+  },
+  "sourceAcceptanceSHA256": "c7f695369c275606ce54d74f256a0a2a8c28800f4ba1e941d5d4a53bfe98560f",
+  "classDependencyManifest": "../capture-build-01/dependencies.json",
+  "runtimeQualification": "Runtime JDK and inherited classpath files remain in previously frozen Linux anchor; identity manifests included, no duplicate runtime binaries"
+}

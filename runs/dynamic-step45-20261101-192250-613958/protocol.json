@@ -1,0 +1,229 @@
+{
+  "version": "step45-development-v1",
+  "frozenAt": "2026-11-01T19:23:33.533531",
+  "instances": [
+    {
+      "stem": "20_2_3_1",
+      "feLimit": 30000,
+      "timeLimitSeconds": 3,
+      "calibrationSeconds": 1.4888797,
+      "calibrationGenerations": 3,
+      "calibrationHeadUpdates": {
+        "MAKESPAN": 11,
+        "CENTER": 38,
+        "ENERGY": 11,
+        "WORKER_COST": 8
+      },
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          695.2261449928639,
+          17774.143805827265,
+          16014.26252051863
+        ],
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "feLimit": 30000,
+      "timeLimitSeconds": 4,
+      "calibrationSeconds": 2.0797842,
+      "calibrationGenerations": 3,
+      "calibrationHeadUpdates": {
+        "MAKESPAN": 11,
+        "CENTER": 39,
+        "ENERGY": 10,
+        "WORKER_COST": 8
+      },
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "feLimit": 30000,
+      "timeLimitSeconds": 5,
+      "calibrationSeconds": 3.3069785,
+      "calibrationGenerations": 3,
+      "calibrationHeadUpdates": {
+        "MAKESPAN": 11,
+        "CENTER": 37,
+        "ENERGY": 11,
+        "WORKER_COST": 9
+      },
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_8_3_1",
+      "feLimit": 30000,
+      "timeLimitSeconds": 9,
+      "calibrationSeconds": 5.8160011,
+      "calibrationGenerations": 3,
+      "calibrationHeadUpdates": {
+        "MAKESPAN": 11,
+        "CENTER": 38,
+        "ENERGY": 11,
+        "WORKER_COST": 9
+      },
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          4094.975462668602,
+          286297.0397045699,
+          306847.68709819356
+        ],
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_5_3_1",
+      "feLimit": 30000,
+      "timeLimitSeconds": 12,
+      "calibrationSeconds": 7.9708266,
+      "calibrationGenerations": 3,
+      "calibrationHeadUpdates": {
+        "MAKESPAN": 11,
+        "CENTER": 39,
+        "ENERGY": 10,
+        "WORKER_COST": 8
+      },
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          9095.137724626977,
+          501783.1052188295,
+          367272.40817719966
+        ],
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "200_8_5_1",
+      "feLimit": 30000,
+      "timeLimitSeconds": 19,
+      "calibrationSeconds": 12.4552392,
+      "calibrationGenerations": 3,
+      "calibrationHeadUpdates": {
+        "MAKESPAN": 11,
+        "CENTER": 39,
+        "ENERGY": 9,
+        "WORKER_COST": 8
+      },
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3238.4513886676095,
+          586919.6672420613,
+          593103.1290649361
+        ],
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    7021103,
+    7021129,
+    7021151,
+    7021183,
+    7021211
+  ],
+  "coreVariants": [
+    "BASELINE",
+    "RANDOM",
+    "GREEDY",
+    "TAIL",
+    "VALUE"
+  ],
+  "cooperationVariants": [
+    "SYNC",
+    "VALUE_SYNC",
+    "SHARE",
+    "VALUE_SHARE"
+  ],
+  "checkpoints": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "mode": "sequential independent JVM",
+  "search": "default100/15/Q50/local30; incremental shared; all online costs included",
+  "referenceSet": "nondominated union of all9 variants final deadline-valid archives in both budgets and5 seeds per instance; empirical, not truePF",
+  "statistics": "seed means within instance; six paired instance effects; exact one-sided signflip;5000 paired bootstrap;Holm within step across both budgets",
+  "timeTarget": "95% of largest final HV across9 variants per instance; first scheduled checkpoint; no interpolation; unachieved censored",
+  "scope": "development6 instances; one synthetic strong_fast profile; no test-set/generalization claim",
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+    "heap": "32m..2g",
+    "externalTasks": "uncontrolled desktop background; run order balanced/randomized; no competing benchmark JVM"
+  }
+}

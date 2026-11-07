@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "sources": [
+    "src/java/runtime/EvaluationObserver.java",
+    "src/java/runtime/BudgetedProblem.java",
+    "src/java/dynamicentries/CheckpointGenomes.java",
+    "src/java/dynamicentries/DynamicRun.java",
+    "src/java/dynamicchecks/CheckpointGenomeChecks.java"
+  ],
+  "oldAnytimeChecks": true,
+  "forcedLateAdmissionRecovered": true,
+  "realPaidGenomeIndependentReplay": true,
+  "optimizerFE": 0,
+  "newSearchFE": 0,
+  "realCheckpointOfflineValidationDecodes": 1,
+  "originalMetricRulesChanged": false,
+  "frozenClasspathSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\demand-feedback-20261102-234716-144779",
+  "paidGenomeSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\demand-feedback-20261102-234716-144779\\trials\\demand\\20_2_3_1\\8110503\\SHARE_SPECIAL\\solutions.jsonl"
+}

@@ -1,0 +1,453 @@
+{
+  "status": "complete",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "fixtures": [
+    {
+      "stem": "20_8_5_1",
+      "mode": "NONE",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.9696633741177557,
+          "roleFactoryInformationNatsPerJob": 0.49781419277170036,
+          "sameSizeShuffledRoleMean": 0.27371945395344593,
+          "sameSizeShuffledRoleMaximum": 0.33916937940044417,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 1112,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 232,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.6832221031509311,
+          "roleFactoryInformationNatsPerJob": 0.39209703042453803,
+          "sameSizeShuffledRoleMean": 0.20354127642123632,
+          "sameSizeShuffledRoleMaximum": 0.24469394958127277,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 1229,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 232,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 7600,
+          "accepted": 989,
+          "archiveFreshAtEvaluation": 362,
+          "fallbacks": 16,
+          "terminalObjectiveHitsIncludingDuplicates": 140
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 200,
+          "accepted": 28,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 16
+        }
+      ],
+      "paidFEReconstructed": 7900,
+      "paidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700"
+    },
+    {
+      "stem": "20_8_5_1",
+      "mode": "GRAFT",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.9696633741177557,
+          "roleFactoryInformationNatsPerJob": 0.49781419277170036,
+          "sameSizeShuffledRoleMean": 0.27371945395344593,
+          "sameSizeShuffledRoleMaximum": 0.33916937940044417,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 1112,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 232,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.7621796575131956,
+          "roleFactoryInformationNatsPerJob": 0.36190321330507874,
+          "sameSizeShuffledRoleMean": 0.27055809876286674,
+          "sameSizeShuffledRoleMaximum": 0.3212168518072457,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 269,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 8,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 3519,
+          "accepted": 322,
+          "archiveFreshAtEvaluation": 111,
+          "fallbacks": 8,
+          "terminalObjectiveHitsIncludingDuplicates": 63
+        },
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 203,
+          "accepted": 15,
+          "archiveFreshAtEvaluation": 5,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 65,
+          "accepted": 3,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 88,
+          "accepted": 9,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 9
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 6,
+          "accepted": 1,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 8,
+          "accepted": 4,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 2
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 2040,
+          "accepted": 204,
+          "archiveFreshAtEvaluation": 84,
+          "fallbacks": 6,
+          "terminalObjectiveHitsIncludingDuplicates": 52
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 1339,
+          "accepted": 89,
+          "archiveFreshAtEvaluation": 35,
+          "fallbacks": 11,
+          "terminalObjectiveHitsIncludingDuplicates": 11
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 434,
+          "accepted": 22,
+          "archiveFreshAtEvaluation": 5,
+          "fallbacks": 13,
+          "terminalObjectiveHitsIncludingDuplicates": 2
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 7,
+          "accepted": 1,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 44,
+          "accepted": 6,
+          "archiveFreshAtEvaluation": 2,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 47,
+          "accepted": 14,
+          "archiveFreshAtEvaluation": 11,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 2
+        }
+      ],
+      "paidFEReconstructed": 7900,
+      "paidSHA256": "8573192dada730d4f6a7b4fe1f2dfd69cab22daf29587f559eb6218413107e51"
+    },
+    {
+      "stem": "100_2_3_1",
+      "mode": "NONE",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.845035560034995,
+          "roleFactoryInformationNatsPerJob": 0.2953665485951442,
+          "sameSizeShuffledRoleMean": 0.2058645024735411,
+          "sameSizeShuffledRoleMaximum": 0.30668469436900136,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 4373,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 221,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.5069284389534482,
+          "roleFactoryInformationNatsPerJob": 0.19435593468429965,
+          "sameSizeShuffledRoleMean": 0.1690848397945835,
+          "sameSizeShuffledRoleMaximum": 0.20666139374822057,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 5105,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 221,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 39600,
+          "accepted": 4462,
+          "archiveFreshAtEvaluation": 2736,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 338
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 200,
+          "accepted": 26,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 10
+        }
+      ],
+      "paidFEReconstructed": 39900,
+      "paidSHA256": "91214103c563ae12044c75bccdc8a9efbc51f5f0c644ae0757c32c4a751a0be0"
+    },
+    {
+      "stem": "100_2_3_1",
+      "mode": "GRAFT",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.845035560034995,
+          "roleFactoryInformationNatsPerJob": 0.2953665485951442,
+          "sameSizeShuffledRoleMean": 0.2058645024735411,
+          "sameSizeShuffledRoleMaximum": 0.30668469436900136,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 4373,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 221,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.5776100637705865,
+          "roleFactoryInformationNatsPerJob": 0.17721817856167515,
+          "sameSizeShuffledRoleMean": 0.22630027205894732,
+          "sameSizeShuffledRoleMaximum": 0.27276993717119885,
+          "memoryTupleEntriesOutsideLiveSnapshotSupport": 820,
+          "memoryFactoryEntriesOutsideLearnedMarginalSupport": 20,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 18926,
+          "accepted": 2012,
+          "archiveFreshAtEvaluation": 1099,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 128
+        },
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 880,
+          "accepted": 68,
+          "archiveFreshAtEvaluation": 31,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 2
+        },
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 59,
+          "accepted": 8,
+          "archiveFreshAtEvaluation": 2,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 74,
+          "accepted": 8,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 22,
+          "accepted": 7,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 4,
+          "accepted": 1,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": false,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 11585,
+          "accepted": 1217,
+          "archiveFreshAtEvaluation": 723,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 114
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 7408,
+          "accepted": 588,
+          "archiveFreshAtEvaluation": 331,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 20
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 742,
+          "accepted": 46,
+          "archiveFreshAtEvaluation": 23,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": false,
+          "attempts": 40,
+          "accepted": 0,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorTupleNovelToLiveSnapshot": true,
+          "donorFactoryNovelToLearnedMarginal": true,
+          "attempts": 60,
+          "accepted": 4,
+          "archiveFreshAtEvaluation": 5,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        }
+      ],
+      "paidFEReconstructed": 39900,
+      "paidSHA256": "a0a796ae5719873dc603227957e8b537d22a451a432b0f509f088029b7fa967b"
+    }
+  ],
+  "scope": "Existing two-generation engineering fixtures only; different initialization and teacher source from the scientific arms",
+  "interpretation": "FMW tuple support and learned factory marginals are different: current PaDependencyModel uses factory and priorities, not machine/worker entropy. Neither role information nor novelty proves erroneous dependencies or causal performance",
+  "revision": "v1 ambiguous ModelSupport/NovelToGenerationModel labels described full FMW live-state support, not the actual factory marginal. Retained v1 numbers are not false, but those names must not be used to infer unseen learned categories. v2 separates both scopes without new FE",
+  "nextPaidMechanismAuthorizedByThisDiagnosis": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "mode": "NATIVE",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "TASK_ONLY",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "ORDER_ONLY",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "FULL",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "RANDOM",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "CENTER_MATCHED",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "NATIVE",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "TASK_ONLY",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "ORDER_ONLY",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "FULL",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "RANDOM",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "CENTER_MATCHED",
+      "allPaidTimelineAndRoleVisitReplayPassed": true,
+      "firstPhysicalModelNativeEqual": true
+    }
+  ],
+  "runs": 24,
+  "attemptedFE": 311646,
+  "successfulFE": 311646,
+  "failedFE": 0,
+  "extraPaidTimelineQA": 311646,
+  "extraViewTimelineQA": 3000,
+  "newAttemptedFE": 303746,
+  "reusedAttemptedFE": 7900,
+  "fullRoleAndProgramEvidenceAccepted": true,
+  "retained7900FEReusedWithoutSearch": true,
+  "postprocessingAndCommandIndexFailuresRetained": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

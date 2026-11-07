@@ -1,0 +1,1122 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339\\20_8_5_1\\main\\audit",
+      "observedPaidFE": 7900,
+      "policyComparisons": {
+        "MAKESPAN": {
+          "centerOnlyAccept": 114,
+          "freshArchivePointRejected": 15,
+          "bothReject": 1016,
+          "bothAccept": 26,
+          "specialistOnlyAccept": 14
+        },
+        "ENERGY": {
+          "bothReject": 985,
+          "freshArchivePointRejected": 14,
+          "centerOnlyAccept": 96,
+          "specialistOnlyAccept": 50,
+          "bothAccept": 39
+        },
+        "WORKER_COST": {
+          "bothReject": 984,
+          "freshArchivePointRejected": 8,
+          "specialistOnlyAccept": 52,
+          "centerOnlyAccept": 88,
+          "bothAccept": 46
+        }
+      },
+      "immediateSpecialistOnlyRoutes": [
+        {
+          "sourceRole": "ENERGY",
+          "receiverRole": "CENTER",
+          "reads": 208,
+          "physicalChanges": 200,
+          "acceptedPhysicalChanges": 11,
+          "freshArchivePoints": 9
+        },
+        {
+          "sourceRole": "ENERGY",
+          "receiverRole": "MAKESPAN",
+          "reads": 51,
+          "physicalChanges": 51,
+          "acceptedPhysicalChanges": 1,
+          "freshArchivePoints": 1
+        },
+        {
+          "sourceRole": "ENERGY",
+          "receiverRole": "WORKER_COST",
+          "reads": 80,
+          "physicalChanges": 79,
+          "acceptedPhysicalChanges": 4,
+          "freshArchivePoints": 1
+        },
+        {
+          "sourceRole": "MAKESPAN",
+          "receiverRole": "CENTER",
+          "reads": 137,
+          "physicalChanges": 136,
+          "acceptedPhysicalChanges": 9,
+          "freshArchivePoints": 7
+        },
+        {
+          "sourceRole": "MAKESPAN",
+          "receiverRole": "ENERGY",
+          "reads": 36,
+          "physicalChanges": 36,
+          "acceptedPhysicalChanges": 0,
+          "freshArchivePoints": 0
+        },
+        {
+          "sourceRole": "MAKESPAN",
+          "receiverRole": "WORKER_COST",
+          "reads": 34,
+          "physicalChanges": 34,
+          "acceptedPhysicalChanges": 4,
+          "freshArchivePoints": 1
+        },
+        {
+          "sourceRole": "WORKER_COST",
+          "receiverRole": "CENTER",
+          "reads": 178,
+          "physicalChanges": 170,
+          "acceptedPhysicalChanges": 15,
+          "freshArchivePoints": 12
+        },
+        {
+          "sourceRole": "WORKER_COST",
+          "receiverRole": "ENERGY",
+          "reads": 50,
+          "physicalChanges": 49,
+          "acceptedPhysicalChanges": 1,
+          "freshArchivePoints": 1
+        },
+        {
+          "sourceRole": "WORKER_COST",
+          "receiverRole": "MAKESPAN",
+          "reads": 49,
+          "physicalChanges": 47,
+          "acceptedPhysicalChanges": 1,
+          "freshArchivePoints": 1
+        }
+      ],
+      "terminalRouteExamples": [
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 3019
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 4909,
+          "objectives": [
+            422.19322139640343,
+            40968.20735974699,
+            47535.13812437003
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 4284
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5011,
+          "objectives": [
+            390.6083995504859,
+            40584.522139354085,
+            47907.46169096452
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 3835
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5344,
+          "objectives": [
+            483.0154089654146,
+            42750.906093530466,
+            47100.26701164576
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 3054
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5397,
+          "objectives": [
+            368.1077207662412,
+            42665.34091803712,
+            48593.61882632532
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 3705
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5482,
+          "objectives": [
+            452.9358096743865,
+            42613.03327245973,
+            47189.031936071486
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 3054
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5542,
+          "objectives": [
+            368.1077207662412,
+            41514.315145682274,
+            49197.627375581586
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 3290
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5556,
+          "objectives": [
+            374.31564183283456,
+            41086.808824718064,
+            48942.12763418391
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 3876
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5832,
+          "objectives": [
+            378.1860620395262,
+            41345.4146522501,
+            48203.709341150214
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 3979
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5870,
+          "objectives": [
+            378.1860620395262,
+            40602.92226067715,
+            48289.53488254445
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 3876
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 5980,
+          "objectives": [
+            484.038610134967,
+            42143.58504651647,
+            47058.51268463597
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 3677
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 6338,
+          "objectives": [
+            424.93365914232595,
+            42924.90813708372,
+            47301.08327494313
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 642
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 6455,
+          "objectives": [
+            473.7142830721769,
+            40894.22434800303,
+            47373.396041448585
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 4284
+          },
+          "receiverRole": "WORKER_COST",
+          "bornFE": 7616,
+          "objectives": [
+            551.4852113833205,
+            45191.60844506447,
+            46876.6101393612
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 3240
+          },
+          "receiverRole": "WORKER_COST",
+          "bornFE": 7780,
+          "objectives": [
+            556.4888733893231,
+            43459.69549477099,
+            46849.440724182125
+          ],
+          "accepted": false
+        }
+      ],
+      "terminalPoints": 93,
+      "terminalObjectivesNeverResident": 17,
+      "terminalNeverResidentFirstCallers": {
+        "MAKESPAN": 4,
+        "ENERGY": 8,
+        "WORKER_COST": 5
+      },
+      "terminalObjectivesEverUsedAsDonor": 30,
+      "limits": "Direct observed state/genes use only. No transitive ancestry, counterfactual rollout, causal performance gain or new algorithm.",
+      "newSearchFE": 0,
+      "decoderCalls": 0
+    },
+    {
+      "stem": "100_2_3_1",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339\\100_2_3_1\\main\\audit",
+      "observedPaidFE": 39900,
+      "policyComparisons": {
+        "MAKESPAN": {
+          "bothReject": 5046,
+          "freshArchivePointRejected": 249,
+          "bothAccept": 182,
+          "centerOnlyAccept": 522,
+          "specialistOnlyAccept": 220
+        },
+        "ENERGY": {
+          "specialistOnlyAccept": 417,
+          "freshArchivePointRejected": 262,
+          "bothReject": 4785,
+          "centerOnlyAccept": 429,
+          "bothAccept": 339
+        },
+        "WORKER_COST": {
+          "bothReject": 4890,
+          "freshArchivePointRejected": 320,
+          "centerOnlyAccept": 443,
+          "specialistOnlyAccept": 297,
+          "bothAccept": 340
+        }
+      },
+      "immediateSpecialistOnlyRoutes": [
+        {
+          "sourceRole": "ENERGY",
+          "receiverRole": "CENTER",
+          "reads": 697,
+          "physicalChanges": 683,
+          "acceptedPhysicalChanges": 66,
+          "freshArchivePoints": 47
+        },
+        {
+          "sourceRole": "ENERGY",
+          "receiverRole": "MAKESPAN",
+          "reads": 173,
+          "physicalChanges": 170,
+          "acceptedPhysicalChanges": 9,
+          "freshArchivePoints": 8
+        },
+        {
+          "sourceRole": "ENERGY",
+          "receiverRole": "WORKER_COST",
+          "reads": 326,
+          "physicalChanges": 325,
+          "acceptedPhysicalChanges": 34,
+          "freshArchivePoints": 30
+        },
+        {
+          "sourceRole": "MAKESPAN",
+          "receiverRole": "CENTER",
+          "reads": 1376,
+          "physicalChanges": 1360,
+          "acceptedPhysicalChanges": 157,
+          "freshArchivePoints": 108
+        },
+        {
+          "sourceRole": "MAKESPAN",
+          "receiverRole": "ENERGY",
+          "reads": 397,
+          "physicalChanges": 389,
+          "acceptedPhysicalChanges": 42,
+          "freshArchivePoints": 26
+        },
+        {
+          "sourceRole": "MAKESPAN",
+          "receiverRole": "WORKER_COST",
+          "reads": 362,
+          "physicalChanges": 357,
+          "acceptedPhysicalChanges": 34,
+          "freshArchivePoints": 31
+        },
+        {
+          "sourceRole": "WORKER_COST",
+          "receiverRole": "CENTER",
+          "reads": 472,
+          "physicalChanges": 469,
+          "acceptedPhysicalChanges": 29,
+          "freshArchivePoints": 19
+        },
+        {
+          "sourceRole": "WORKER_COST",
+          "receiverRole": "ENERGY",
+          "reads": 111,
+          "physicalChanges": 110,
+          "acceptedPhysicalChanges": 8,
+          "freshArchivePoints": 4
+        },
+        {
+          "sourceRole": "WORKER_COST",
+          "receiverRole": "MAKESPAN",
+          "reads": 130,
+          "physicalChanges": 130,
+          "acceptedPhysicalChanges": 3,
+          "freshArchivePoints": 4
+        }
+      ],
+      "terminalRouteExamples": [
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 18368
+          },
+          "receiverRole": "MAKESPAN",
+          "bornFE": 20365,
+          "objectives": [
+            912.1871829416126,
+            71456.3711657099,
+            78994.01627508621
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 18368
+          },
+          "receiverRole": "MAKESPAN",
+          "bornFE": 20917,
+          "objectives": [
+            977.5361415553895,
+            69307.37860146169,
+            75692.20935365642
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14810
+          },
+          "receiverRole": "MAKESPAN",
+          "bornFE": 20920,
+          "objectives": [
+            1004.6111584353528,
+            69113.98438146117,
+            75159.47555237335
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 20000
+          },
+          "receiverRole": "MAKESPAN",
+          "bornFE": 20943,
+          "objectives": [
+            969.0226607666488,
+            69244.13439133203,
+            76194.40485890444
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 16811
+          },
+          "receiverRole": "MAKESPAN",
+          "bornFE": 20948,
+          "objectives": [
+            949.1106619995347,
+            69552.30951406062,
+            77308.72019324437
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14415
+          },
+          "receiverRole": "MAKESPAN",
+          "bornFE": 20983,
+          "objectives": [
+            939.0729785798721,
+            69625.05397515564,
+            77485.91224785868
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 20000
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 24699,
+          "objectives": [
+            936.251146571726,
+            70502.88626366275,
+            77015.54944117813
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 15422
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 25102,
+          "objectives": [
+            1236.5434906317803,
+            67723.735116565,
+            70771.42926664336
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21182
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 25362,
+          "objectives": [
+            953.9354765634885,
+            69805.17477179188,
+            77173.9227100826
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21775
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 25826,
+          "objectives": [
+            997.9459309820321,
+            67759.3566368679,
+            76410.42813506271
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22155
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 25841,
+          "objectives": [
+            994.234372762143,
+            68448.07473142058,
+            76279.97619763474
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14415
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 25952,
+          "objectives": [
+            1111.1276972283285,
+            67725.88152324858,
+            73021.06349334045
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22778
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27376,
+          "objectives": [
+            1316.7123315567678,
+            65183.519865111084,
+            73341.72920627339
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 19795
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27473,
+          "objectives": [
+            1119.5348613422805,
+            65534.478577213755,
+            73726.36815014141
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 19200
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27483,
+          "objectives": [
+            1131.6476389972845,
+            66071.91341706448,
+            72981.97954414292
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 20197
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27499,
+          "objectives": [
+            1095.7574812107932,
+            66389.23044893805,
+            73461.21158019875
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21336
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27521,
+          "objectives": [
+            1133.6432989036118,
+            65458.39429069133,
+            73067.62386626439
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22778
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27535,
+          "objectives": [
+            1122.3177110228178,
+            66458.63666990043,
+            72523.77719094735
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 20537
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 27555,
+          "objectives": [
+            1133.4995402543832,
+            65947.66832118048,
+            72496.74632926106
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21925
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 28949,
+          "objectives": [
+            1016.337280298963,
+            69997.50392042089,
+            73993.1148923134
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14810
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 29079,
+          "objectives": [
+            1327.436617425927,
+            71433.53424477785,
+            68195.78951716764
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 20000
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 29123,
+          "objectives": [
+            1336.2408435477905,
+            68827.79934975837,
+            68401.56844566221
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 15616
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 29284,
+          "objectives": [
+            1053.0594637754275,
+            68768.29533859511,
+            73055.1791556961
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21336
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 30324,
+          "objectives": [
+            1360.411580763466,
+            66329.70510353529,
+            69258.17580708195
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14415
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 30943,
+          "objectives": [
+            953.6468810151326,
+            70428.89101160968,
+            76733.0895649759
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21925
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 31342,
+          "objectives": [
+            1399.2610836201002,
+            64873.32030927404,
+            73032.81245667368
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 20197
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 31524,
+          "objectives": [
+            1117.3425634432535,
+            70995.91211598026,
+            71630.98817748344
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14624
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 31616,
+          "objectives": [
+            994.7066466602356,
+            69111.63970694976,
+            75369.5870698179
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 20197
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 31690,
+          "objectives": [
+            1012.6367092663952,
+            68405.88629466608,
+            74326.57303755886
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 19795
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 31738,
+          "objectives": [
+            1016.4482638419308,
+            67912.12077465263,
+            74987.79966248783
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 18368
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32079,
+          "objectives": [
+            1123.4604200339963,
+            67887.59547206578,
+            72460.44982523732
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 18368
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32439,
+          "objectives": [
+            1232.414020050028,
+            68477.1543296214,
+            70545.00790668553
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21925
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32503,
+          "objectives": [
+            1213.8897412593337,
+            68564.87345358239,
+            70338.3078764985
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21925
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32510,
+          "objectives": [
+            1192.2396618373482,
+            69046.53043875814,
+            70683.77893588723
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 15616
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32531,
+          "objectives": [
+            1195.9965304919697,
+            69532.68083159675,
+            70363.97711967397
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21182
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32630,
+          "objectives": [
+            976.1150275529857,
+            70040.57954547368,
+            75568.47620809994
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22155
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 32648,
+          "objectives": [
+            962.8745900292803,
+            69633.18501957417,
+            75955.95492860104
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 15422
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 33064,
+          "objectives": [
+            1227.8771662453503,
+            70006.89746017387,
+            69605.18338831625
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22778
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 33072,
+          "objectives": [
+            1236.9936566997587,
+            69450.42263219196,
+            69622.67868797136
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 14810
+          },
+          "receiverRole": "CENTER",
+          "bornFE": 33121,
+          "objectives": [
+            1216.4389699475694,
+            69406.47045154832,
+            70098.86409091928
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21925
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 34044,
+          "objectives": [
+            1238.7236032867877,
+            62128.03588633934,
+            74867.15437950428
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 18368
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 35304,
+          "objectives": [
+            1361.0227717965977,
+            60901.15777679389,
+            74947.18041797863
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22155
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 35463,
+          "objectives": [
+            1319.3324425143196,
+            61311.42586421452,
+            74248.51007321356
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 18368
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 35485,
+          "objectives": [
+            1421.08729318029,
+            63611.45477022011,
+            73272.91521369813
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21538
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 35706,
+          "objectives": [
+            1353.7502189852464,
+            60916.45659122737,
+            74073.64608665148
+          ],
+          "accepted": true
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 22155
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 35713,
+          "objectives": [
+            1326.2830558062185,
+            61455.46802232234,
+            73442.9370615781
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "WORKER_COST",
+            "originFE": 19795
+          },
+          "receiverRole": "ENERGY",
+          "bornFE": 36317,
+          "objectives": [
+            1585.4654077599535,
+            60945.37004246557,
+            72947.75322057806
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "MAKESPAN",
+            "originFE": 21336
+          },
+          "receiverRole": "WORKER_COST",
+          "bornFE": 39362,
+          "objectives": [
+            1455.021698365275,
+            74218.99273507403,
+            67251.3416163892
+          ],
+          "accepted": false
+        },
+        {
+          "source": {
+            "role": "ENERGY",
+            "originFE": 35514
+          },
+          "receiverRole": "WORKER_COST",
+          "bornFE": 39484,
+          "objectives": [
+            1636.8397135828088,
+            70356.52622641415,
+            65302.957880286056
+          ],
+          "accepted": true
+        }
+      ],
+      "terminalPoints": 298,
+      "terminalObjectivesNeverResident": 77,
+      "terminalNeverResidentFirstCallers": {
+        "MAKESPAN": 12,
+        "ENERGY": 53,
+        "WORKER_COST": 12
+      },
+      "terminalObjectivesEverUsedAsDonor": 24,
+      "limits": "Direct observed state/genes use only. No transitive ancestry, counterfactual rollout, causal performance gain or new algorithm.",
+      "newSearchFE": 0,
+      "decoderCalls": 0
+    }
+  ],
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "paidSequencesReconstructedEqual": true,
+  "consumedInputsUnchanged": true,
+  "causalBenefitProved": false,
+  "goalAchieved": false
+}

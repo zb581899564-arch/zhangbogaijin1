@@ -1,0 +1,22 @@
+{
+  "stage": {
+    "initialization": 100,
+    "global": 20000,
+    "inter": 800,
+    "intra": 479100
+  },
+  "visits": 400,
+  "slots": 3400,
+  "continuations": 1956,
+  "outerCompleted": 4,
+  "searchSeconds": 5.1848526,
+  "wallSeconds": 5.625,
+  "offlineValidationDecodes": 561,
+  "decoder": {
+    "dynamic.evaluations": 500000,
+    "dynamic.reusedOperations": 14795358,
+    "dynamic.recomputedOperations": 5204642,
+    "dynamic.decodeNanos": 1916562000,
+    "dynamic.preparedChildren": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "instances": [
+    {
+      "status": "PASS",
+      "sourceCases": 64,
+      "offlineFullDecodes": 192,
+      "engineeringSuccessfulFE": 5,
+      "expectedFailedFE": 1,
+      "engineeringChargedDecoderCalls": 5,
+      "fixtureIndependentValidations": 5,
+      "originalPolicyAndExplicitMatchingBindingBitExact": true,
+      "firstStageUnchanged": true,
+      "legacyChangedBindingRejected": true,
+      "noCacheReuse": true,
+      "productionModified": false
+    },
+    {
+      "status": "PASS",
+      "sourceCases": 64,
+      "offlineFullDecodes": 192,
+      "engineeringSuccessfulFE": 5,
+      "expectedFailedFE": 1,
+      "engineeringChargedDecoderCalls": 5,
+      "fixtureIndependentValidations": 5,
+      "originalPolicyAndExplicitMatchingBindingBitExact": true,
+      "firstStageUnchanged": true,
+      "legacyChangedBindingRejected": true,
+      "noCacheReuse": true,
+      "productionModified": false
+    }
+  ],
+  "successfulFE": 10,
+  "expectedFailedFE": 2,
+  "offlineFullDecodes": 384
+}

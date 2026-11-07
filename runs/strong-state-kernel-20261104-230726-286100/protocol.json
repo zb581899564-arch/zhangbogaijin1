@@ -1,0 +1,20 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\batch-survival-study-20261104-222516-378030",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seed": 9280009,
+  "captureFEPerInstance": 5100,
+  "windows": [
+    200,
+    1500,
+    3750,
+    4500
+  ],
+  "casesPerWindow": 8,
+  "kernelReps": 8,
+  "primary": "Free and non-composed proposals only; four actual unchanged kernels on same parent/pbest/leader, same repair/family guard and paid original reference state before the captured proposal.",
+  "gate": "CLASSIC_GLOBAL summed same8FE gain >1.1x JOB_ALIGNED and better in >=3/4 windows on each instance to warrant a closed-loop kernel hypothesis. Source-dependent gains do not prove full algorithm efficacy.",
+  "timing": "All capture, parent replays, candidates and QA charged; no pure wall-time superiority claim from this microprobe."
+}

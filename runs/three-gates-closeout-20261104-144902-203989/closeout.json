@@ -1,0 +1,397 @@
+{
+  "opportunity": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\three-gates-opportunity-20261104-141216-202951",
+  "moduleProbe": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\three-gates-module-20261104-142126-461754",
+  "candidateTrial": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\three-gates-linked-20261104-142820-433007",
+  "gate1": {
+    "status": "DIAGNOSIS_COMPLETE_ONE_CANDIDATE_TESTED",
+    "originality": "NOT_ESTABLISHED",
+    "mainFinding": "NSGA advantage concentrated at low Cmax; all-module oracle exchange recovers targets while partial module mixing usually destroys them. This supports coupling, not a guarantee that moved-job linkage is the right rule."
+  },
+  "gate2": {
+    "status": "STOP",
+    "reason": "Candidate HV at 500k is -1.697% vs BASE, -1.171% vs RANDOM, -2.940% vs matched NSGA; direction remains negative at both alternative reference points.",
+    "comparison": {
+      "terminal": {
+        "BASE": {
+          "hv": 0.8504927852213597,
+          "igdPlus": 0.011691933925717591
+        },
+        "RANDOM": {
+          "hv": 0.8459677519182779,
+          "igdPlus": 0.006500742017486777
+        },
+        "LINKED": {
+          "hv": 0.836059737624388,
+          "igdPlus": 0.010934308636406936
+        },
+        "NSGA": {
+          "hv": 0.8613806153279822,
+          "igdPlus": 0.005074386959254372
+        }
+      },
+      "candidateEffectsPct": {
+        "1.25": {
+          "BASE": -2.1276041579678995,
+          "RANDOM": -1.4908798599864492,
+          "NSGA": -3.704104159157251
+        },
+        "1.5": {
+          "BASE": -1.697021755830086,
+          "RANDOM": -1.1712047263530923,
+          "NSGA": -2.9395690189699564
+        },
+        "2": {
+          "BASE": -1.209757124909916,
+          "RANDOM": -0.8259604907256413,
+          "NSGA": -2.096519670687813
+        }
+      },
+      "same4SecondsHV": {
+        "BASE": 0.8304068745435187,
+        "RANDOM": 0.8304204076339707,
+        "LINKED": 0.8134100261327534,
+        "NSGA": 0.8502547424519249
+      },
+      "paidFECurves": [
+        {
+          "fe": 100,
+          "HV": {
+            "BASE": 0.5766581470531825,
+            "RANDOM": 0.5766581470531825,
+            "LINKED": 0.5766581470531825,
+            "NSGA": 0.5766581470531825
+          }
+        },
+        {
+          "fe": 5100,
+          "HV": {
+            "BASE": 0.6905249580429931,
+            "RANDOM": 0.6859385650714918,
+            "LINKED": 0.6815242038485765,
+            "NSGA": 0.6961884075453159
+          }
+        },
+        {
+          "fe": 15000,
+          "HV": {
+            "BASE": 0.7089779470124494,
+            "RANDOM": 0.7172535578946992,
+            "LINKED": 0.6972782830421482,
+            "NSGA": 0.7353576540635804
+          }
+        },
+        {
+          "fe": 50000,
+          "HV": {
+            "BASE": 0.7174238490450356,
+            "RANDOM": 0.7292033457524187,
+            "LINKED": 0.7000661741445884,
+            "NSGA": 0.7472325794476353
+          }
+        },
+        {
+          "fe": 100000,
+          "HV": {
+            "BASE": 0.7951800894188611,
+            "RANDOM": 0.7971657277630196,
+            "LINKED": 0.7967481252294618,
+            "NSGA": 0.8081229756384856
+          }
+        },
+        {
+          "fe": 250000,
+          "HV": {
+            "BASE": 0.8084198240741485,
+            "RANDOM": 0.8133153129601116,
+            "LINKED": 0.804297522095783,
+            "NSGA": 0.8184395532247446
+          }
+        },
+        {
+          "fe": 500000,
+          "HV": {
+            "BASE": 0.8504927852213597,
+            "RANDOM": 0.8459677519182779,
+            "LINKED": 0.836059737624388,
+            "NSGA": 0.8613806153279822
+          }
+        }
+      ],
+      "sameTimeCurves": [
+        {
+          "seconds": 1.0,
+          "arms": {
+            "BASE": {
+              "fe": 20891,
+              "hv": 0.7165215746376506
+            },
+            "RANDOM": {
+              "fe": 23253,
+              "hv": 0.7181084229180048
+            },
+            "LINKED": {
+              "fe": 21601,
+              "hv": 0.697607429983505
+            },
+            "NSGA": {
+              "fe": 34023,
+              "hv": 0.7470524554613684
+            }
+          }
+        },
+        {
+          "seconds": 2.0,
+          "arms": {
+            "BASE": {
+              "fe": 106740,
+              "hv": 0.7952002707060392
+            },
+            "RANDOM": {
+              "fe": 96425,
+              "hv": 0.7971657277630196
+            },
+            "LINKED": {
+              "fe": 94332,
+              "hv": 0.7967319138391922
+            },
+            "NSGA": {
+              "fe": 124524,
+              "hv": 0.8177885241905753
+            }
+          }
+        },
+        {
+          "seconds": 4.0,
+          "arms": {
+            "BASE": {
+              "fe": 367702,
+              "hv": 0.8304068745435187
+            },
+            "RANDOM": {
+              "fe": 351573,
+              "hv": 0.8304204076339707
+            },
+            "LINKED": {
+              "fe": 350350,
+              "hv": 0.8134100261327534
+            },
+            "NSGA": {
+              "fe": 396983,
+              "hv": 0.8502547424519249
+            }
+          }
+        },
+        {
+          "seconds": 6.0,
+          "arms": {
+            "BASE": {
+              "fe": 500000,
+              "hv": 0.8504927852213597
+            },
+            "RANDOM": {
+              "fe": 500000,
+              "hv": 0.8459677519182779
+            },
+            "LINKED": {
+              "fe": 500000,
+              "hv": 0.836059737624388
+            },
+            "NSGA": {
+              "fe": 500000,
+              "hv": 0.8613806153279822
+            }
+          }
+        },
+        {
+          "seconds": 8.0,
+          "arms": {
+            "BASE": {
+              "fe": 500000,
+              "hv": 0.8504927852213597
+            },
+            "RANDOM": {
+              "fe": 500000,
+              "hv": 0.8459677519182779
+            },
+            "LINKED": {
+              "fe": 500000,
+              "hv": 0.836059737624388
+            },
+            "NSGA": {
+              "fe": 500000,
+              "hv": 0.8613806153279822
+            }
+          }
+        },
+        {
+          "seconds": 10.0,
+          "arms": {
+            "BASE": {
+              "fe": 500000,
+              "hv": 0.8504927852213597
+            },
+            "RANDOM": {
+              "fe": 500000,
+              "hv": 0.8459677519182779
+            },
+            "LINKED": {
+              "fe": 500000,
+              "hv": 0.836059737624388
+            },
+            "NSGA": {
+              "fe": 500000,
+              "hv": 0.8613806153279822
+            }
+          }
+        },
+        {
+          "seconds": 12.0,
+          "arms": {
+            "BASE": {
+              "fe": 500000,
+              "hv": 0.8504927852213597
+            },
+            "RANDOM": {
+              "fe": 500000,
+              "hv": 0.8459677519182779
+            },
+            "LINKED": {
+              "fe": 500000,
+              "hv": 0.836059737624388
+            },
+            "NSGA": {
+              "fe": 500000,
+              "hv": 0.8613806153279822
+            }
+          }
+        }
+      ],
+      "checks": {
+        "terminalGain": false,
+        "referenceDirection": false,
+        "sameTime": false,
+        "IGDplus": false
+      },
+      "gate2": "STOP",
+      "gate3": "NOT_TRIGGERED"
+    },
+    "witness": {
+      "BASE": {
+        "globalPaid": 10000,
+        "dominatesParent": 1992,
+        "dominatedByParent": 2095,
+        "representedInPbestHistory": 2276,
+        "selectedAsPbest": 221,
+        "firstGlobalAdmissions": 80,
+        "secondGlobalAdmissions": 2,
+        "selection": [
+          {
+            "generation": 1,
+            "survivors": 100,
+            "fromGlobalSnapshots": 1,
+            "fromLocalEndpoints": 99
+          }
+        ]
+      },
+      "RANDOM": {
+        "globalPaid": 10000,
+        "dominatesParent": 1886,
+        "dominatedByParent": 1992,
+        "representedInPbestHistory": 2806,
+        "selectedAsPbest": 278,
+        "firstGlobalAdmissions": 142,
+        "secondGlobalAdmissions": 1,
+        "selection": [
+          {
+            "generation": 1,
+            "survivors": 100,
+            "fromGlobalSnapshots": 8,
+            "fromLocalEndpoints": 92
+          }
+        ]
+      },
+      "LINKED": {
+        "globalPaid": 10000,
+        "dominatesParent": 1828,
+        "dominatedByParent": 2069,
+        "representedInPbestHistory": 2812,
+        "selectedAsPbest": 271,
+        "firstGlobalAdmissions": 99,
+        "secondGlobalAdmissions": 3,
+        "selection": [
+          {
+            "generation": 1,
+            "survivors": 100,
+            "fromGlobalSnapshots": 8,
+            "fromLocalEndpoints": 92
+          }
+        ]
+      },
+      "NSGA": {
+        "instrumented": false,
+        "reason": "Canonical particle-history/survival hooks apply only to HMOPSO. Raw inherited stage attributes must not classify NSGA global events."
+      }
+    }
+  },
+  "gate3": {
+    "status": "NOT_TRIGGERED",
+    "executedRuns": 0,
+    "reason": "Preregistered conditional branch requires gate2 positive evidence; none obtained."
+  },
+  "budget": {
+    "paidOptimizationFE": 2000000,
+    "paidAttributionFE": 5680,
+    "allPaidFE": 2005680,
+    "failedEvaluations": 0,
+    "fullModuleDecodeOperations": 227200,
+    "originalEndpointReplaysIncludedInModuleFE": 710,
+    "offlineFinalQAFullDecodes": 1350,
+    "totalPhysicalEvaluationCallsIncludingQA": 2007030,
+    "searchSeconds": {
+      "BASE": 5.1512981,
+      "RANDOM": 5.2581657,
+      "LINKED": 5.2798323,
+      "NSGA": 4.8496746
+    },
+    "JVMWallSeconds": {
+      "BASE": 5.562999999965541,
+      "RANDOM": 5.625,
+      "LINKED": 5.687999999965541,
+      "NSGA": 5.282000000006519
+    },
+    "candidateCampaignWallSeconds": 25.57799999997951,
+    "moduleProbeSearchSeconds": 0.5650897,
+    "notMeasured": "Module compile/process wall and complete agent reasoning time are not reconstructed."
+  },
+  "limits": [
+    "Single development instance and seed; no general four-subgroup rejection.",
+    "All-module exchange uses final oracle NSGA donors only for diagnosis, never search feedback.",
+    "Module effects with FA changes include deterministic legality repair; not pure continuous-factor causal effects.",
+    "InheritedJobs counts tuple-copy writes, not distinct net changes after family restoration.",
+    "Witnesses count exact genotype representation, not a newly inserted historical identity.",
+    "All global candidates become current particles; history/pbest and final survival are different events.",
+    "Generation-2 discoveries are not causal credit to a particular generation-1 source.",
+    "NSGA does not use the canonical particle-witness hooks; inherited raw stage tags are not a valid NSGA stage decomposition and are excluded from attribution.",
+    "Timing includes read-only witnesses; the four-subgroup witness does more work than the NSGA witness. Do not claim an uninstrumented same-time cross-algorithm ranking. Terminal FE failure decides the stop.",
+    "No beta=0 mechanism control was triggered; fatigue-specific contribution remains unproven."
+  ],
+  "retainedEngineeringFailures": [
+    {
+      "directory": "runs/three-gates-module-20261104-142051-923394",
+      "phase": "javac interface mismatch",
+      "FE": 0
+    },
+    {
+      "directory": "runs/three-gates-module-20261104-142113-766424",
+      "phase": "javac interface mismatch",
+      "FE": 0
+    }
+  ],
+  "nextRoute": "Retain four roles and existing sharing. Stop moved-job linkage, schedule allocation sweeps, and failed pool selector/adjoint/reference variants. No further candidate is auto-selected. A future proposal must show recipient-compatible schedule construction and incremental value over ordinary joint operators before requesting broader experiments.",
+  "scope": {
+    "productionChanged": false,
+    "originalMaterialsChanged": false,
+    "formalExpansionStarted": false,
+    "publicPushPerformed": false
+  }
+}

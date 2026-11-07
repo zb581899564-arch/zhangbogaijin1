@@ -1,0 +1,42 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "laterEntryMaterialCases": 0,
+      "laterEntryReceivers": 8,
+      "materialFamilies": [],
+      "supported": false,
+      "rawCollection": {
+        "enabled": true,
+        "offers": 483495,
+        "equalObjectiveRejected": 222352,
+        "dominatedRejected": 258492,
+        "accepted": 2651,
+        "factoryEnvelopes": 20,
+        "peakObjectiveEnvelopeWidth": 119,
+        "collectionSeconds": 0.0654088
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "laterEntryMaterialCases": 0,
+      "laterEntryReceivers": 8,
+      "materialFamilies": [],
+      "supported": false,
+      "rawCollection": {
+        "enabled": true,
+        "offers": 291210,
+        "equalObjectiveRejected": 97450,
+        "dominatedRejected": 183972,
+        "accepted": 9788,
+        "factoryEnvelopes": 12,
+        "peakObjectiveEnvelopeWidth": 236,
+        "collectionSeconds": 0.1259489
+      }
+    }
+  ],
+  "worthNewPoolRetentionProtocol": false,
+  "offlineAssemblyFullDecodes": 593,
+  "searchFE": 0,
+  "scope": "Complete paid Pareto objective envelopes only, equal objective vectors represented once. Best of nine is an offline availability bound, not free online selection or search performance. No assumption of unseen future supply."
+}

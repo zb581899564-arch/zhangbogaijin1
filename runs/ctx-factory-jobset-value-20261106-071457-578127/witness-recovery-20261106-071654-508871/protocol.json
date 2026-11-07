@@ -1,0 +1,28 @@
+{
+  "version": "FACTORY_VALUE_WITNESS_CLASSPATH_RECOVERY-v1",
+  "evidenceRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-factory-jobset-value-20261106-071457-578127",
+  "reason": "QA entry source was present in workspace but omitted from frozen capability classpath; original launch failed before any decode",
+  "priorWitnessFullDecodes": 0,
+  "noNewOracleScoring": true,
+  "noNewSampling": true,
+  "noScientificGateChange": true,
+  "acceptedEvidence": {
+    "protocol.json": "c4ee2fe9891950f893fdc1bf55a7b4866889551dc1f8ab9179f8c77a1f55fcea",
+    "factory-records.jsonl": "ec867b97c3b26e7e84f975cb75da27ddfc4329cdfa6711e0539a5430c90796df",
+    "query-pools.jsonl": "7bbedc8fac606987cfe6da149305496ed4557edf0fe269f360b35a44051faf7b",
+    "oracle-cases.json": "c841c8eff3d6946d2e4416f5442d60517f62fcd73797c22d4c52a1d490cd4595",
+    "oracle-enumeration.json": "42afca6632ab9cf1986ef40d992b342ba1e938388958c5585a7c3f21fa519283",
+    "source-points.json": "9c0b3593be19b091479f9cc365e45b55318d721b6e0e54812c3a9e233ebd2aa7",
+    "metric-context.json": "66401151c789317c4f5c23cfa54252df8983e33e6ad6b15223deca685a0b81b8",
+    "backgrounds.json": "5afc2c8c6e23b3d5c04c37618a1b3cdbbb2d7f435ef9d4df3f01607e917cd481",
+    "witnesses.tsv": "edba78c84373811b6c65a47bf69b2b29eff7121be6f8d184ad9993109cbbe105",
+    "witnesses.json": "9343228a738218b19f5d6936d16bdb5c5f140a42c01b4089000eb7c0d364fc60",
+    "offline-counts.json": "8ded7c9a5f0ab65bd57969732da4945b160ca87c01929f14581956cae4e1d104"
+  },
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  },
+  "extraSearchFE": 0
+}

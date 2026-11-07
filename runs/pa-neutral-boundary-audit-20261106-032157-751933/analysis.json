@@ -1,0 +1,406 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "frozenTrace": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339\\20_8_5_1\\main\\audit",
+      "successfulFEPreviouslyPaid": 7900,
+      "paidSequenceReconstructed": true,
+      "roles": {
+        "MAKESPAN": {
+          "paid": 1170,
+          "ownEqual": 181,
+          "equalPhysicalSame": 43,
+          "ownWorsened": 949,
+          "equalPhysicalChanged": 138,
+          "equalPhysicalChanged.paretoWorsened": 28,
+          "equalPhysicalChanged.freshArchive": 8,
+          "equalPhysicalChanged.paretoImproved": 43,
+          "equalPhysicalChanged.incomparable": 54,
+          "ownImproved": 40,
+          "equalPhysicalChanged.equalAllObjectives": 13
+        },
+        "CENTER": {
+          "paid": 4290
+        },
+        "ENERGY": {
+          "paid": 1170,
+          "ownWorsened": 1003,
+          "ownEqual": 78,
+          "equalPhysicalSame": 65,
+          "equalPhysicalChanged": 13,
+          "equalPhysicalChanged.equalAllObjectives": 13,
+          "equalPhysicalChanged.freshArchive": 0,
+          "ownImproved": 89
+        },
+        "WORKER_COST": {
+          "paid": 1170,
+          "ownWorsened": 1002,
+          "ownImproved": 98,
+          "ownEqual": 70,
+          "equalPhysicalSame": 55,
+          "equalPhysicalChanged": 15,
+          "equalPhysicalChanged.equalAllObjectives": 10,
+          "equalPhysicalChanged.freshArchive": 1,
+          "equalPhysicalChanged.paretoImproved": 5
+        }
+      },
+      "witnesses": [
+        {
+          "paidFE": 115,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            41965.704844587606,
+            49103.80240041309
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            41584.7379749186,
+            49103.80240041309
+          ],
+          "archiveFresh": true,
+          "subset": [
+            15
+          ]
+        },
+        {
+          "paidFE": 161,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            377.35794882838206,
+            42532.942786204294,
+            48733.46649650853
+          ],
+          "childObjectives": [
+            377.35794882838206,
+            42150.09125317742,
+            48733.46649650853
+          ],
+          "archiveFresh": true,
+          "subset": [
+            15
+          ]
+        },
+        {
+          "paidFE": 186,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            42529.70729880577,
+            49414.530583834945
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            42524.476178384626,
+            49363.854872663156
+          ],
+          "archiveFresh": false,
+          "subset": [
+            16
+          ]
+        },
+        {
+          "paidFE": 197,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            42529.70729880577,
+            49414.530583834945
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            42122.07052810981,
+            48679.43811696465
+          ],
+          "archiveFresh": true,
+          "subset": [
+            10,
+            14
+          ]
+        },
+        {
+          "paidFE": 213,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            42529.70729880577,
+            49414.530583834945
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            42064.763474481326,
+            49392.5187892833
+          ],
+          "archiveFresh": false,
+          "subset": [
+            3
+          ]
+        },
+        {
+          "paidFE": 225,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            43398.99930632747,
+            49421.02722913047
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            42500.33433209005,
+            49089.28219912682
+          ],
+          "archiveFresh": false,
+          "subset": [
+            4
+          ]
+        },
+        {
+          "paidFE": 234,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            43398.99930632747,
+            49421.02722913047
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            42542.77892653117,
+            49287.268249046196
+          ],
+          "archiveFresh": false,
+          "subset": [
+            2,
+            15,
+            16
+          ]
+        },
+        {
+          "paidFE": 260,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            380.29182382948596,
+            42811.619735803084,
+            49445.518718469124
+          ],
+          "childObjectives": [
+            380.29182382948596,
+            41743.59557114798,
+            49071.275295815976
+          ],
+          "archiveFresh": true,
+          "subset": [
+            4
+          ]
+        }
+      ],
+      "sourceHashes": {
+        "events.jsonl": "c9576accadfcee1dd0bf4ecfc919c84de6d42905e2d340e7ea238432329751c9",
+        "receipt.jsonl": "a57414d5f4abaf777398508e8d2136669d9ade1838bdac2c077ec261bd000a0b",
+        "catalog.jsonl": "d0cd74fe40993f1ef89f49314b3dce51b5efd603a64fd3bc6e5f0c0d8b063f3e"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "frozenTrace": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339\\100_2_3_1\\main\\audit",
+      "successfulFEPreviouslyPaid": 39900,
+      "paidSequenceReconstructed": true,
+      "roles": {
+        "MAKESPAN": {
+          "paid": 5970,
+          "ownWorsened": 4862,
+          "ownImproved": 402,
+          "ownEqual": 706,
+          "equalPhysicalSame": 90,
+          "equalPhysicalChanged": 616,
+          "equalPhysicalChanged.paretoImproved": 162,
+          "equalPhysicalChanged.freshArchive": 67,
+          "equalPhysicalChanged.incomparable": 196,
+          "equalPhysicalChanged.paretoWorsened": 209,
+          "equalPhysicalChanged.equalAllObjectives": 49
+        },
+        "CENTER": {
+          "paid": 21890
+        },
+        "ENERGY": {
+          "paid": 5970,
+          "ownImproved": 756,
+          "ownWorsened": 5051,
+          "ownEqual": 163,
+          "equalPhysicalSame": 126,
+          "equalPhysicalChanged": 37,
+          "equalPhysicalChanged.equalAllObjectives": 37,
+          "equalPhysicalChanged.freshArchive": 0
+        },
+        "WORKER_COST": {
+          "paid": 5970,
+          "ownWorsened": 5214,
+          "ownEqual": 119,
+          "equalPhysicalSame": 86,
+          "equalPhysicalChanged": 33,
+          "equalPhysicalChanged.equalAllObjectives": 30,
+          "equalPhysicalChanged.freshArchive": 2,
+          "ownImproved": 637,
+          "equalPhysicalChanged.paretoImproved": 2,
+          "equalPhysicalChanged.paretoWorsened": 1
+        }
+      },
+      "witnesses": [
+        {
+          "paidFE": 123,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1105.3121213018055,
+            73059.24921094642,
+            75739.5331325927
+          ],
+          "childObjectives": [
+            1105.3121213018055,
+            72936.74077189715,
+            75516.93771925417
+          ],
+          "archiveFresh": false,
+          "subset": [
+            54,
+            61
+          ]
+        },
+        {
+          "paidFE": 131,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1105.3121213018055,
+            73059.24921094642,
+            75739.5331325927
+          ],
+          "childObjectives": [
+            1105.3121213018055,
+            72410.11294938716,
+            75736.05361750118
+          ],
+          "archiveFresh": false,
+          "subset": [
+            37
+          ]
+        },
+        {
+          "paidFE": 146,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1090.8625981410983,
+            73460.48008772753,
+            75937.79257210995
+          ],
+          "childObjectives": [
+            1090.8625981410983,
+            72900.25134579185,
+            75907.01232939475
+          ],
+          "archiveFresh": true,
+          "subset": [
+            5,
+            97
+          ]
+        },
+        {
+          "paidFE": 180,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1051.5242176228123,
+            73605.03524346407,
+            76233.13087978534
+          ],
+          "childObjectives": [
+            1051.5242176228123,
+            73102.60753800996,
+            75646.80674809807
+          ],
+          "archiveFresh": true,
+          "subset": [
+            64
+          ]
+        },
+        {
+          "paidFE": 246,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            998.3840216678788,
+            73248.01810597608,
+            76731.36943027502
+          ],
+          "childObjectives": [
+            998.3840216678788,
+            72656.98086312403,
+            76442.02306313267
+          ],
+          "archiveFresh": true,
+          "subset": [
+            95
+          ]
+        },
+        {
+          "paidFE": 347,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1115.6221583455658,
+            72022.7048700335,
+            75248.4078663508
+          ],
+          "childObjectives": [
+            1115.6221583455658,
+            71683.23513245374,
+            75178.4156404892
+          ],
+          "archiveFresh": true,
+          "subset": [
+            67
+          ]
+        },
+        {
+          "paidFE": 403,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1114.4001892104523,
+            71830.05457709318,
+            74768.21280662663
+          ],
+          "childObjectives": [
+            1114.4001892104523,
+            70685.4927844158,
+            73929.56620406511
+          ],
+          "archiveFresh": true,
+          "subset": [
+            76
+          ]
+        },
+        {
+          "paidFE": 499,
+          "role": "MAKESPAN",
+          "parentObjectives": [
+            1133.1859882209783,
+            74364.02758565609,
+            76991.16551758505
+          ],
+          "childObjectives": [
+            1133.1859882209783,
+            73239.86025809718,
+            76926.40826927115
+          ],
+          "archiveFresh": false,
+          "subset": [
+            6,
+            91
+          ]
+        }
+      ],
+      "sourceHashes": {
+        "events.jsonl": "463c233187ffd6cd13771b93e6ab2fb32057ca6f5496b0df47c2ac8562c4b693",
+        "receipt.jsonl": "f14b5fbbc934d5de5e5d7835b33e9cdfac82c5ad3326f6a41d25df7a5786e18c",
+        "catalog.jsonl": "7ea20691332be608b4935de9ac930815e160dbf49f9d8713f6647f1f720c9bd3"
+      }
+    }
+  ],
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "goalAchieved": false
+}

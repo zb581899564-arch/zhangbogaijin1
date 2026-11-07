@@ -1,0 +1,19 @@
+{
+  "status": "ZERO_FE_NIGHT_DIAGNOSTICS_COMPLETE",
+  "searchFE": 0,
+  "decodeFE": 0,
+  "optimizerStarted": false,
+  "potentialObjectivesFedBackToSearch": false,
+  "historicalRootsUnchangedBySizeAndMtime": true,
+  "historicalRootFileCounts": {
+    "cooperation-roles-20261102-231315-641007": 3030,
+    "demand-feedback-20261102-234716-144779": 2545
+  },
+  "familyContexts": 240,
+  "requests": 960,
+  "numericSingleFactorySubstitutions": 25943,
+  "samplePolicy": "first8+last8 requests; no random sample or full-history reconstruction",
+  "causalWholeGeneLossIdentified": false,
+  "campaignsPooledAsIndependentReplicates": false,
+  "safeLB": "max(job path min-b sum, factory-stage min-b load/min(M,W)); beta>=0,u>=0; optimistic necessary condition only"
+}

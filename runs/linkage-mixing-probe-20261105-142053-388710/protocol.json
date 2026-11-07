@@ -1,0 +1,73 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\global-working-audit-20261105-055724-963327",
+  "base": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\schedule-factor-probe-20261105-124946-994085",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "sourceSeeds": [
+    11730007,
+    11730037
+  ],
+  "noiseSeed": 13450003,
+  "methods": [
+    "FA_LINKAGE",
+    "RELABEL_TREE",
+    "SINGLE_JOB",
+    "CLASSIC_KERNEL"
+  ],
+  "question": "Does a fixed learned FA linkage tree improve a complete sequential mixing program over a matched random-label tree, single-job mixing and the native classic kernel?",
+  "scope": "Four real post-global source roles,2source seeds,2developmentinstances. 8stable equally spaced free receivers per role, uniform same-role free donors. Same donor sequence and step order/noise for ALL4methods, with no outcome resampling. This is equal-role mechanism sampling, not the15/55/15/15 full algorithm or a new seed generalization.",
+  "model": "Train once per source on ALL80free FA-by-job vectors, no objective filtering. Empirical mutual information using natural logs; average-linkage clustering of job singletons, maximal mean cross-cluster MI, deterministic lexicographic merge ties. All2N-1subsets including singletons and root. RELABEL_TREE applies a fixed independent random permutation of job labels, preserving every subset size and tree hierarchy. Do not scan alternative metrics.",
+  "representation": "By-job complete(factory,machine,worker) tuples and within-factory relative rank keys(rank+0.5)/factoryJobCount. Copy selected donor job tuples AND rank keys; others use current recipient. Sort within resulting factory by rank key then jobid; canonical inter-factory concatenation. Recompute keys at each step. Missing factory means paid unchanged-parent fallback, no shortening/repair/resampling. No random rescaling, forced improvement or permutation-pGOMEA replication claim.",
+  "program": "Start at paid original receiver. For2N-1steps, sample one original same-role donor; FA_LINKAGE or RELABEL uses same random subset-index order; SINGLE_JOB cycles a fixed job permutation; CLASSIC calls actual setting0ClassicKernelBridge.child. Every resulting candidate evaluated, duplicates/fallbacks charged. Accept only by original role preference, CENTER common LINEAR PDDR and strict scalar boundary objectives. No exit-HV, neutral-acceptance change, Q, learner reward, new teacher or local search.",
+  "engineering": "Actual loaded common decoder/validator/classic/PDDR and new class identities/SHA/JDK. Source100genomes replay exactly, repair0, all paid candidates independent full timeline QA. Pure-genome tests: empty/all subset physical endpoints, alternate neutral interleavings produce same physical mixing child, input parents unmodified, explicit empty-factory fallback. Full paid genome digest, systematic every257th child genes, all objectives and decisions saved. Source factories/stages from actual Instance, no filename guessing.",
+  "budget": "4source contexts*100replay=400FE. Each source32receivers*4methods*(2N-1)children. 20job9984childFE +100job50944childFE =61328total successful FE, same fullQA count. No source-search rerun. Common replay charged once, explicitly shared across methods. No evaluation hidden in MI/training, ranking or metric computation.",
+  "score": "Full-program HV of ALL its paid candidates added to original paid archive at5100, one2N-1FE program is the unit. Unlike single-candidate probes, union here is explicitly paid at the full program cost. End-state single-point gain separate. Same original normalization/ref1.5; sensitivities1.25/2.0. Outputs never enter source donor pool or scorer.",
+  "cost": "Model-building wall time and all program construction/acceptance/paid-evaluation/fullQA times separate; source input and evidence I/O additionally included in total runtime. Random-label matched-shape control depends on learned tree too; do not pretend its shape is free. No same-time claim or hypothetical amortized performance.",
+  "gate": "BOTHinstances: meanFA_LINKAGEprogramGain>0 and >=1.10*RELABEL, >=SINGLE_JOB and>=CLASSIC; at least16of64receivers positive, paired wins overRELABEL>losses; each source seed meanFA_LINKAGE>=RELABEL. Ref1.25/2 mean differences vsRELABEL andCLASSIC nonnegative. Only permits an evolving-population protocol with matched strong classical/fullQGS/shared/Li controls, never promotion or innovation proof.",
+  "stop": "If gate fails, stop this fixed FA-MI/rank-key donation program. No changing dependency metric, rank encoding, acceptance/tie rule, donor group, tree size, root inclusion, source window, seed or gate to rescue. Failure does not refute all GOMEA/model-based algorithms.",
+  "protected": "No production/mainline, original material, frozen source, four-role/QGS/shared rules changed. Protected20 used only as paid reference, not as mixed receivers/donors. No download, upload, remote job or paper novelty claim."
+}

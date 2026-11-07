@@ -1,0 +1,20 @@
+{
+  "coreClaim": "Display measured tradeoffs from assigning the same FE budget to three phase schedules; do not presuppose superiority.",
+  "archetype": "quantitative grid",
+  "backend": "Python matplotlib only",
+  "panels": {
+    "convergence": "Registered FE checkpoints, all paired seeds, median and min-max range",
+    "fronts": "Every final front and every seed, 3D and all three 2D projections with shared per-instance limits",
+    "budgets": "Actual per-seed phase FE and inclusive seconds, with INITIAL separate"
+  },
+  "widthMM": 183,
+  "formats": [
+    "editable-text SVG",
+    "PDF fonttype 42",
+    "PNG 600 dpi"
+  ],
+  "n": "Three independent search seeds within each of two reused development instances",
+  "statistics": "Descriptive; no confidence interval, significance test or multiplicity-adjusted claim",
+  "risk": "Two-dimensional projections cannot establish three-objective dominance; phase gains are not causal percentages",
+  "eaf": "No 50% EAF or EAF-difference display below five paired seeds"
+}

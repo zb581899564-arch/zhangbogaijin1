@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "mode": "OFF",
+      "chronologyDominanceAndIndependentMaximumMatchingPassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "REGIONAL",
+      "chronologyDominanceAndIndependentMaximumMatchingPassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "NO_SPECIALIST",
+      "chronologyDominanceAndIndependentMaximumMatchingPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "OFF",
+      "chronologyDominanceAndIndependentMaximumMatchingPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "REGIONAL",
+      "chronologyDominanceAndIndependentMaximumMatchingPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "NO_SPECIALIST",
+      "chronologyDominanceAndIndependentMaximumMatchingPassed": true
+    }
+  ],
+  "sourceSnapshotsIndependentlyChecked": 672,
+  "independentDominanceChronologyProvenanceAndMatchingVerified": true,
+  "newSearchFE": 0,
+  "newObjectiveQueries": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

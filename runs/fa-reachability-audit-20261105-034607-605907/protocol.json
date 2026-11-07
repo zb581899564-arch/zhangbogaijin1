@@ -1,0 +1,66 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    10950003,
+    10950033,
+    10950063
+  ],
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\makespan-tie-screen-20261105-025223-471920",
+  "scipyVersion": "1.17.1",
+  "scope": "Offline conditional reachability diagnosis on old development results, not new optimizer seeds, a performance screen or proof of optimality.",
+  "relaxation": "For each job/stage choose fractional machine-worker assignments within its fixed factory. Minimize common normalized capacity/cost multiplier t. Resource workloads and each job chain <=t*Ctarget; energy<=t*Etarget; labor<=t*Wtarget. Ignore fatigue, resource/flow order, nonpreemption and nonnegative standby. Thus every feasible target schedule implies a relaxed feasible point with t<=1 up to conservative numerical margins.",
+  "coefficients": "Export actual loaded DynamicPhysics arithmetic (p/speed+setup)/efficiency, power*base and wage*base from cached JDK/input/SUT. Round coefficients down3ULP and inflate all target budgets by1e-10 to cover positive floating accumulation in these bounded instances. No static Instance.duration substitute or model change.",
+  "dualCertificate": "Use nonnegative prices=-inequality marginals, clip numerical negatives and normalize mass<=1 with60-digit downward Decimal arithmetic. Sum over job/stage groups the minimum priced alternative gives a feasible dual lower bound. Accept numerical exclusion only when independently reconstructed lower>1.000001, not from solver infeasibility/status alone.",
+  "preflight": "Four already executed analytic zero-decoder fixtures: one job1, tight time2, parallel capacity1, joint time/energy10/9; primal and reconstructed dual agree within1e-7. Local test execution preceded this descriptive protocol. Exact executable fixtures retained in source.",
+  "realEngineering": "Before cross-target interpretation, all selected known feasible MAIN and NSGA points must satisfy lower<=1.000001 under their own assignment. Failure stops the engineering layer. Solver error/limit retained, not called infeasibility.",
+  "selection": "Per instance fixed shared Cmax quartile cuts from prior regional audit. Per seed targets are NSGA minima of each objective and nearest three common quartile points, deduplicated. FA anchors are four initial protected families plus MAIN representatives under the same six selectors, deduplicated. No source or target benefit resampling.",
+  "gate": "Common FA obstruction requires >=50% selected NSGA targets excluded under every selected MAIN/family FA in >=2/3 seeds on each instance. Local exclusions may still be reported narrowly. Failure does not certify FA adequacy and does not authorize a search rule.",
+  "fatigueBoundary": "Initial h0 is exported. When all h0=0, the simple initial-fatigue decay floor is identically zero and is not run as a different informative method. Any stronger prefix-conditioned fatigue bound requires its own derivation and validation.",
+  "cost": "Zero new searchFE and zero decoder calls; all LP preparation/solves and Decimal verification timed and counted. Reuse previously paid/validated schedules, never add relaxation solutions to any result archive. CPU solver threads1; no downloads or installations.",
+  "limits": "Relaxed feasibility and fractional assignments are not actual schedules. Positive certificates are conditional on FA; they do not prove an algorithm cause, four-duty novelty, time advantage or original-author reproduction."
+}

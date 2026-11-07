@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.IllegalStateException: Call SeededRandom.reset(seed) on the run's sole thread first
+	at org.uma.jmetal.util.research.runtime.SeededRandom.current(SeededRandom.java:26)
+	at org.uma.jmetal.util.research.SchedulingEncoding.initialize(SchedulingEncoding.java:18)
+	at org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>(DefaultIntegerPermutationSolution.java:41)
+	at org.uma.jmetal.problem.impl.AbstractIntegerPermutationProblem.createSolution(AbstractIntegerPermutationProblem.java:27)
+	at org.uma.jmetal.util.research.cooperation.ContextReleaseChecks.main(ContextReleaseChecks.java:17)

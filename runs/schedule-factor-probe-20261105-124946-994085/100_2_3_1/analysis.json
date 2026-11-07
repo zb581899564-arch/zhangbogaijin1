@@ -1,0 +1,2854 @@
+{
+  "stem": "100_2_3_1",
+  "strata": [
+    {
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "plannedPairs": 32,
+      "matchedPairs": 19,
+      "positiveTargetPairs": 19,
+      "sumSingleHVgains": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.004627808556215585
+      },
+      "orderSumRatioToTarget": 0.0,
+      "bundleSumRatioToTarget": 0.0,
+      "bothBelowTenthTargetPairs": 19
+    },
+    {
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "plannedPairs": 32,
+      "matchedPairs": 15,
+      "positiveTargetPairs": 15,
+      "sumSingleHVgains": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.011042970364481208
+      },
+      "orderSumRatioToTarget": 0.0,
+      "bundleSumRatioToTarget": 0.0,
+      "bothBelowTenthTargetPairs": 15
+    },
+    {
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "plannedPairs": 32,
+      "matchedPairs": 13,
+      "positiveTargetPairs": 13,
+      "sumSingleHVgains": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.006173525105276856
+      },
+      "orderSumRatioToTarget": 0.0,
+      "bundleSumRatioToTarget": 0.0,
+      "bothBelowTenthTargetPairs": 13
+    },
+    {
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "plannedPairs": 32,
+      "matchedPairs": 16,
+      "positiveTargetPairs": 16,
+      "sumSingleHVgains": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.004932321986744592
+      },
+      "orderSumRatioToTarget": 0.0,
+      "bundleSumRatioToTarget": 0.0,
+      "bothBelowTenthTargetPairs": 16
+    },
+    {
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "plannedPairs": 32,
+      "matchedPairs": 7,
+      "positiveTargetPairs": 7,
+      "sumSingleHVgains": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.07550865355175373
+      },
+      "orderSumRatioToTarget": 0.0,
+      "bundleSumRatioToTarget": 0.0,
+      "bothBelowTenthTargetPairs": 7
+    },
+    {
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "plannedPairs": 32,
+      "matchedPairs": 13,
+      "positiveTargetPairs": 13,
+      "sumSingleHVgains": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0029850992080088234
+      },
+      "orderSumRatioToTarget": 0.0,
+      "bundleSumRatioToTarget": 0.0,
+      "bothBelowTenthTargetPairs": 13
+    }
+  ],
+  "pairs": [
+    {
+      "case": "c0",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 0,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c1",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 20,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c2",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 40,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c3",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 61,
+      "targetIndex": 17,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.854366758735626e-05
+      },
+      "twoFactorHVInteraction": 1.854366758735626e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c4",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 81,
+      "targetIndex": 17,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.854366758735626e-05
+      },
+      "twoFactorHVInteraction": 1.854366758735626e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c5",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 102,
+      "targetIndex": 30,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 3.546608160953646e-05
+      },
+      "twoFactorHVInteraction": 3.546608160953646e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c6",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 122,
+      "targetIndex": 55,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0010305824177171408
+      },
+      "twoFactorHVInteraction": 0.0010305824177171408,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c7",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 143,
+      "targetIndex": 63,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0011147515989979873
+      },
+      "twoFactorHVInteraction": 0.0011147515989979873,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c8",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 163,
+      "targetIndex": 73,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00044308421791250385
+      },
+      "twoFactorHVInteraction": 0.00044308421791250385,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c9",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 184,
+      "targetIndex": 55,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0010305824177171408
+      },
+      "twoFactorHVInteraction": 0.0010305824177171408,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c10",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 204,
+      "targetIndex": 74,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0003844966920882875
+      },
+      "twoFactorHVInteraction": 0.0003844966920882875,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c11",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 224,
+      "targetIndex": 94,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 2.568474127861986e-05
+      },
+      "twoFactorHVInteraction": 2.568474127861986e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c12",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 245,
+      "targetIndex": 92,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 8.805454694982284e-05
+      },
+      "twoFactorHVInteraction": 8.805454694982284e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c13",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 265,
+      "targetIndex": 94,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 2.568474127861986e-05
+      },
+      "twoFactorHVInteraction": 2.568474127861986e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c14",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 286,
+      "targetIndex": 103,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 3.4719083341627766e-07
+      },
+      "twoFactorHVInteraction": 3.4719083341627766e-07,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c15",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 306,
+      "targetIndex": 122,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 8.753010779738446e-06
+      },
+      "twoFactorHVInteraction": 8.753010779738446e-06,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c16",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 327,
+      "targetIndex": 134,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 7.559589762473617e-05
+      },
+      "twoFactorHVInteraction": 7.559589762473617e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c17",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 347,
+      "targetIndex": 132,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00011611337379424658
+      },
+      "twoFactorHVInteraction": 0.00011611337379424658,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c18",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 368,
+      "targetIndex": 134,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 7.559589762473617e-05
+      },
+      "twoFactorHVInteraction": 7.559589762473617e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c19",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 388,
+      "targetIndex": 137,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 7.652482398468052e-05
+      },
+      "twoFactorHVInteraction": 7.652482398468052e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c20",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 409,
+      "targetIndex": 145,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 4.55045814914401e-05
+      },
+      "twoFactorHVInteraction": 4.55045814914401e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c21",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 429,
+      "targetIndex": 174,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.389898935821865e-05
+      },
+      "twoFactorHVInteraction": 1.389898935821865e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c22",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 449,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c23",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 470,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c24",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 490,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c25",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 511,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c26",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 531,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c27",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 552,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c28",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 572,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c29",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 593,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c30",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 613,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c31",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "parentIndex": 634,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c32",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 0,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c33",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 13,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c34",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 27,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c35",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 40,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c36",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 54,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c37",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 67,
+      "targetIndex": 21,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 6.832008968732373e-05
+      },
+      "twoFactorHVInteraction": 6.832008968732373e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c38",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 81,
+      "targetIndex": 17,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.854366758735626e-05
+      },
+      "twoFactorHVInteraction": 1.854366758735626e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c39",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 94,
+      "targetIndex": 34,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 8.337905292582493e-05
+      },
+      "twoFactorHVInteraction": 8.337905292582493e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c40",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 108,
+      "targetIndex": 30,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 3.546608160953646e-05
+      },
+      "twoFactorHVInteraction": 3.546608160953646e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c41",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 121,
+      "targetIndex": 48,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 4.1445369968751145e-05
+      },
+      "twoFactorHVInteraction": 4.1445369968751145e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c42",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 135,
+      "targetIndex": 56,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0013099232668303262
+      },
+      "twoFactorHVInteraction": 0.0013099232668303262,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c43",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 148,
+      "targetIndex": 63,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0014599804813475448
+      },
+      "twoFactorHVInteraction": 0.0014599804813475448,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c44",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 162,
+      "targetIndex": 63,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0014599804813475448
+      },
+      "twoFactorHVInteraction": 0.0014599804813475448,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c45",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 175,
+      "targetIndex": 64,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0013607628071531375
+      },
+      "twoFactorHVInteraction": 0.0013607628071531375,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c46",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 189,
+      "targetIndex": 55,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0013007741340814727
+      },
+      "twoFactorHVInteraction": 0.0013007741340814727,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c47",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 202,
+      "targetIndex": 91,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000350389781431093
+      },
+      "twoFactorHVInteraction": 0.000350389781431093,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c48",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 216,
+      "targetIndex": 94,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0002910887659971495
+      },
+      "twoFactorHVInteraction": 0.0002910887659971495,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c49",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 229,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c50",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 243,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c51",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 256,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c52",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 270,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c53",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 283,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c54",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 297,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c55",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 310,
+      "targetIndex": 136,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 5.944640171073878e-05
+      },
+      "twoFactorHVInteraction": 5.944640171073878e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c56",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 324,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c57",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 337,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c58",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 351,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c59",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 364,
+      "targetIndex": 163,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0016017349914017043
+      },
+      "twoFactorHVInteraction": 0.0016017349914017043,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c60",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 378,
+      "targetIndex": 163,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0016017349914017043
+      },
+      "twoFactorHVInteraction": 0.0016017349914017043,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c61",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 391,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c62",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 405,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c63",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\12390003-NAT-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "parentIndex": 419,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c64",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 0,
+      "targetIndex": 0,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000990409736947695
+      },
+      "twoFactorHVInteraction": 0.000990409736947695,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c65",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 5,
+      "targetIndex": 0,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000990409736947695
+      },
+      "twoFactorHVInteraction": 0.000990409736947695,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c66",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 11,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c67",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 17,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c68",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 23,
+      "targetIndex": 0,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000990409736947695
+      },
+      "twoFactorHVInteraction": 0.000990409736947695,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c69",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 29,
+      "targetIndex": 2,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 4.229431487257074e-07
+      },
+      "twoFactorHVInteraction": 4.229431487257074e-07,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c70",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 35,
+      "targetIndex": 1,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.971803412215145e-07
+      },
+      "twoFactorHVInteraction": 1.971803412215145e-07,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c71",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 41,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c72",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 46,
+      "targetIndex": 2,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 4.229431487257074e-07
+      },
+      "twoFactorHVInteraction": 4.229431487257074e-07,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c73",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 52,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c74",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 58,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c75",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 64,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c76",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 70,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c77",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 76,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c78",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 82,
+      "targetIndex": 36,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 2.3249372784139855e-05
+      },
+      "twoFactorHVInteraction": 2.3249372784139855e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c79",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 88,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c80",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 93,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c81",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 99,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c82",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 105,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c83",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 111,
+      "targetIndex": 101,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00080173353790014
+      },
+      "twoFactorHVInteraction": 0.00080173353790014,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c84",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 117,
+      "targetIndex": 99,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0007910058244811058
+      },
+      "twoFactorHVInteraction": 0.0007910058244811058,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c85",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 123,
+      "targetIndex": 100,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000799126369233405
+      },
+      "twoFactorHVInteraction": 0.000799126369233405,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c86",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 129,
+      "targetIndex": 112,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0006089217162967842
+      },
+      "twoFactorHVInteraction": 0.0006089217162967842,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c87",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 135,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c88",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 140,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c89",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 146,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c90",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 152,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c91",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 158,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c92",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 164,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c93",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 170,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c94",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 176,
+      "targetIndex": 201,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 8.253490579868128e-05
+      },
+      "twoFactorHVInteraction": 8.253490579868128e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c95",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 182,
+      "targetIndex": 204,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 9.468110130084195e-05
+      },
+      "twoFactorHVInteraction": 9.468110130084195e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c96",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 0,
+      "targetIndex": 0,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000990409736947695
+      },
+      "twoFactorHVInteraction": 0.000990409736947695,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c97",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 6,
+      "targetIndex": 0,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000990409736947695
+      },
+      "twoFactorHVInteraction": 0.000990409736947695,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c98",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 13,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c99",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 20,
+      "targetIndex": 0,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.000990409736947695
+      },
+      "twoFactorHVInteraction": 0.000990409736947695,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c100",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 27,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c101",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 34,
+      "targetIndex": 1,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.971803412215145e-07
+      },
+      "twoFactorHVInteraction": 1.971803412215145e-07,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c102",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 41,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c103",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 48,
+      "targetIndex": 5,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 3.713026602847336e-08
+      },
+      "twoFactorHVInteraction": 3.713026602847336e-08,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c104",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 55,
+      "targetIndex": 3,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 5.39508781854936e-06
+      },
+      "twoFactorHVInteraction": 5.39508781854936e-06,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c105",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 62,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c106",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 69,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c107",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 75,
+      "targetIndex": 30,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 6.472439376126182e-06
+      },
+      "twoFactorHVInteraction": 6.472439376126182e-06,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c108",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 82,
+      "targetIndex": 36,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 2.3249372784139855e-05
+      },
+      "twoFactorHVInteraction": 2.3249372784139855e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c109",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 89,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c110",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 96,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c111",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 103,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c112",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 110,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c113",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 117,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c114",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 124,
+      "targetIndex": 101,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00034560936562166855
+      },
+      "twoFactorHVInteraction": 0.00034560936562166855,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c115",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 131,
+      "targetIndex": 101,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00034560936562166855
+      },
+      "twoFactorHVInteraction": 0.00034560936562166855,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c116",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 138,
+      "targetIndex": 101,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00034560936562166855
+      },
+      "twoFactorHVInteraction": 0.00034560936562166855,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c117",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 144,
+      "targetIndex": 112,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0002727429900263312
+      },
+      "twoFactorHVInteraction": 0.0002727429900263312,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c118",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 151,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c119",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 158,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c120",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 165,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c121",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 172,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c122",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 179,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c123",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 186,
+      "targetIndex": 191,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00010226056334849964
+      },
+      "twoFactorHVInteraction": 0.00010226056334849964,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c124",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 193,
+      "targetIndex": 194,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00019435025900282898
+      },
+      "twoFactorHVInteraction": 0.00019435025900282898,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c125",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 200,
+      "targetIndex": 233,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 5.258267140040296e-05
+      },
+      "twoFactorHVInteraction": 5.258267140040296e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c126",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 207,
+      "targetIndex": 203,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0002669769846723735
+      },
+      "twoFactorHVInteraction": 0.0002669769846723735,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c127",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190007-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 214,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c128",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 0,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c129",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 5,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c130",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 11,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c131",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 16,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c132",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 22,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c133",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 27,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c134",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 33,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c135",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 38,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c136",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 44,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c137",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 49,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c138",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 55,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c139",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 60,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c140",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 66,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c141",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 71,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c142",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 77,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c143",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 82,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c144",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 88,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c145",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 93,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c146",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 99,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c147",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 104,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c148",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 110,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c149",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 115,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c150",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 121,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c151",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 126,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c152",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 132,
+      "targetIndex": 216,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.010962352431295508
+      },
+      "twoFactorHVInteraction": 0.010962352431295508,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c153",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 137,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c154",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 143,
+      "targetIndex": 202,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.009734538963980688
+      },
+      "twoFactorHVInteraction": 0.009734538963980688,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c155",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 148,
+      "targetIndex": 216,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.010962352431295508
+      },
+      "twoFactorHVInteraction": 0.010962352431295508,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c156",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 154,
+      "targetIndex": 216,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.010962352431295508
+      },
+      "twoFactorHVInteraction": 0.010962352431295508,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c157",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 159,
+      "targetIndex": 216,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.010962352431295508
+      },
+      "twoFactorHVInteraction": 0.010962352431295508,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c158",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 165,
+      "targetIndex": 216,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.010962352431295508
+      },
+      "twoFactorHVInteraction": 0.010962352431295508,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c159",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-FE.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "parentIndex": 171,
+      "targetIndex": 216,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.010962352431295508
+      },
+      "twoFactorHVInteraction": 0.010962352431295508,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c160",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 0,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c161",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 9,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c162",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 19,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c163",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 28,
+      "targetIndex": 25,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.8538570688564349e-06
+      },
+      "twoFactorHVInteraction": 1.8538570688564349e-06,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c164",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 38,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c165",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 47,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c166",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 57,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c167",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 66,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c168",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 76,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c169",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 85,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c170",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 95,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c171",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 104,
+      "targetIndex": 179,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00017535445732608235
+      },
+      "twoFactorHVInteraction": 0.00017535445732608235,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c172",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 114,
+      "targetIndex": 179,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00017535445732608235
+      },
+      "twoFactorHVInteraction": 0.00017535445732608235,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c173",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 123,
+      "targetIndex": 179,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00017535445732608235
+      },
+      "twoFactorHVInteraction": 0.00017535445732608235,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c174",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 133,
+      "targetIndex": 217,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0004064256887245099
+      },
+      "twoFactorHVInteraction": 0.0004064256887245099,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c175",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 142,
+      "targetIndex": 228,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00036885905979955336
+      },
+      "twoFactorHVInteraction": 0.00036885905979955336,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c176",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 152,
+      "targetIndex": 218,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00030140929408650763
+      },
+      "twoFactorHVInteraction": 0.00030140929408650763,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c177",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 161,
+      "targetIndex": 234,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0003512879256639678
+      },
+      "twoFactorHVInteraction": 0.0003512879256639678,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c178",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 171,
+      "targetIndex": 226,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00037576318433463207
+      },
+      "twoFactorHVInteraction": 0.00037576318433463207,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c179",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 180,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c180",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 190,
+      "targetIndex": 234,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.0003512879256639678
+      },
+      "twoFactorHVInteraction": 0.0003512879256639678,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c181",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 199,
+      "targetIndex": 235,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 0.00026378416869399235
+      },
+      "twoFactorHVInteraction": 0.00026378416869399235,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c182",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 209,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c183",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 218,
+      "targetIndex": 239,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.9182365997294504e-05
+      },
+      "twoFactorHVInteraction": 1.9182365997294504e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c184",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 228,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c185",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 237,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c186",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 247,
+      "targetIndex": 239,
+      "matched": true,
+      "singleHVgain": {
+        "PARENT": 0.0,
+        "ORDER_ONLY": 0.0,
+        "BUNDLE_ONLY": 0.0,
+        "TARGET": 1.9182365997294504e-05
+      },
+      "twoFactorHVInteraction": 1.9182365997294504e-05,
+      "orderAtLeastHalfTarget": false,
+      "bundleAtLeastHalfTarget": false,
+      "bothBelowTenthTarget": true
+    },
+    {
+      "case": "c187",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 256,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c188",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 266,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c189",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 275,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c190",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 285,
+      "targetIndex": null,
+      "matched": false
+    },
+    {
+      "case": "c191",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\gap-schedule-structure-20261105-124609-883191\\100_2_3_1\\13190037-FRESH-OFF-TIME.json",
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "parentIndex": 295,
+      "targetIndex": null,
+      "matched": false
+    }
+  ],
+  "scope": "Privileged target schedule-factor counterfactual only; not algorithm value or fatigue-specific proof."
+}

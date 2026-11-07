@@ -1,0 +1,152 @@
+{
+  "candidate": "MIX_PAIR",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    9430003
+  ],
+  "arms": [
+    "FORCE",
+    "BASE",
+    "JA_PAIR",
+    "CG_PAIR",
+    "MIX_PAIR",
+    "CG_SINGLE",
+    "NSGA",
+    "LI_MATCHED_DEEP"
+  ],
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "BASE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "JA_PAIR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "CG_PAIR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "MIX_PAIR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "CG_SINGLE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9430003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "BASE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "JA_PAIR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "CG_PAIR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "MIX_PAIR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "CG_SINGLE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9430003,
+      "arm": "FORCE"
+    }
+  ],
+  "evidence": "M-only fixed CLASSIC passed one holdout instance but failed the other; no universal generator replacement is supported. Test a paid complementary-pair hedge instead, with two homogeneous-pair controls.",
+  "mechanism": "M generates two candidates from the same parent/pbest/Q-selected guide, pays both, chooses lower Cmax (tie keeps first), then uses unchanged role-greedy batch survival. Halve M QGS updates50->25 so M FE, all global FE, local FE and physical ledger remain exactly matched. Other roles unchanged.",
+  "controls": "JA_PAIR and CG_PAIR have identical two-candidate quota; CG_SINGLE tests ordinary M-only fixed classic replacement. BASE is improved ROLE_CROWD/JOB_ALIGNED, FORCE original shared; full NSGA and Li-matched retained.",
+  "gate": "On both development instances MIX >=1% vs BASE, positive vs both homogeneous pairs and CG_SINGLE, and >=-1% vs NSGA at500k. No rescue by changing candidate counts, thresholds or seeds.",
+  "actualFEPerCell": 500000,
+  "totalSearchFE": 8000000,
+  "engineeringFE": 500000,
+  "scope": "One-seed development gate only; no independent performance or novelty claim."
+}

@@ -1,0 +1,283 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "label": "BRIDGE",
+      "paidRows": 512,
+      "productionRows": 511,
+      "membership": {
+        "INSIDE": 511
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "label": "LEGAL",
+      "paidRows": 64,
+      "productionRows": 63,
+      "membership": {
+        "OUTSIDE_RESOURCE": 60,
+        "OUTSIDE_KEY_ORDER": 3
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "label": "NOVEL",
+      "paidRows": 64,
+      "productionRows": 63,
+      "membership": {
+        "OUTSIDE_RESOURCE": 63
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "label": "BRIDGE",
+      "paidRows": 512,
+      "productionRows": 511,
+      "membership": {
+        "INSIDE": 511
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "label": "BRIDGE",
+      "paidRows": 512,
+      "productionRows": 511,
+      "membership": {
+        "INSIDE": 511
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "BRIDGE",
+      "paidRows": 512,
+      "productionRows": 511,
+      "membership": {
+        "INSIDE": 511
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "LEGAL",
+      "paidRows": 64,
+      "productionRows": 63,
+      "membership": {
+        "OUTSIDE_RESOURCE": 63
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "LEGAL_CUT_1",
+      "paidRows": 1,
+      "productionRows": 1,
+      "membership": {
+        "OUTSIDE_RESOURCE": 1
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "LEGAL_CUT_2",
+      "paidRows": 2,
+      "productionRows": 2,
+      "membership": {
+        "OUTSIDE_RESOURCE": 2
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "LEGAL_CUT_63",
+      "paidRows": 63,
+      "productionRows": 63,
+      "membership": {
+        "OUTSIDE_RESOURCE": 63
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "LEGAL_QUIET",
+      "quietEquivalentTo": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-fixed-fa-domain-production-20261106-01/engineering/20_8_5_1/16110003/LEGAL"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "NOVEL",
+      "paidRows": 64,
+      "productionRows": 63,
+      "membership": {
+        "OUTSIDE_RESOURCE": 63
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "NOVEL_CUT_1",
+      "paidRows": 1,
+      "productionRows": 1,
+      "membership": {
+        "OUTSIDE_RESOURCE": 1
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "NOVEL_CUT_2",
+      "paidRows": 2,
+      "productionRows": 2,
+      "membership": {
+        "OUTSIDE_RESOURCE": 2
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "NOVEL_CUT_63",
+      "paidRows": 63,
+      "productionRows": 63,
+      "membership": {
+        "OUTSIDE_RESOURCE": 63
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "NOVEL_FAIL_2",
+      "paidRows": 1,
+      "productionRows": 1,
+      "membership": {
+        "OUTSIDE_RESOURCE": 1
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "label": "NOVEL_QUIET",
+      "quietEquivalentTo": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-fixed-fa-domain-production-20261106-01/engineering/20_8_5_1/16110003/NOVEL"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "label": "BRIDGE",
+      "paidRows": 512,
+      "productionRows": 511,
+      "membership": {
+        "INSIDE": 511
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "label": "BRIDGE",
+      "paidRows": 512,
+      "productionRows": 511,
+      "membership": {
+        "INSIDE": 511
+      },
+      "exactRNG": true,
+      "allCandidateVectors": true,
+      "roleAcceptance": true,
+      "originalPool": true,
+      "allPaidArchive": true
+    }
+  ],
+  "totals": {
+    "attempted": 3590,
+    "successful": 3589,
+    "failed": 1,
+    "fullQA": 3589,
+    "importQA": 2568
+  },
+  "seconds": 5.885254706001433,
+  "physics": "Java full timeline verification on every paid success; Python independently reconstructs generation, acceptance and archives",
+  "identitySHA256": "32bf2e0e64bbb540aba97353859397bf339c41658eb1ec99c20f526da84c06f3"
+}

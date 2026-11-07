@@ -1,0 +1,21 @@
+{
+  "version": "QPA_COMPLETED_DONOR_VISIBILITY-v1",
+  "registeredBeforeCalculation": true,
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174",
+  "hypothesis": "QPA_DIRECT freezes all100donors until generation end whereas PA uses live accepted states. Determine how many actual paid proposals would physically differ if only already-completed donor programs were visible. No score or causal performance inference.",
+  "inputs": "Existing complete engineering firsttwogenerations ofboth20_8_5_1/100_2_3_1, seed14670003; no timewindow/source/seed sampling",
+  "intervention": "On each actual SYNCtrajectory, substitute completed offspring[donorSlot] only when donorSlot<receiverSlot; same actual parent,mask,phase,reference andlegalmove. Bothphases measured separately on their actual incumbents, no propagation of unknown acceptance.",
+  "selfAndFuture": "Ownslot and not-yet-completed donors stay frozen. Input models,order,RNG,references,operators,objective acceptance andbudget unchanged.",
+  "necessaryCoverage": "Bothinstances require counterfactualPhysicalChange >=20%ofallpaidmixingsteps and crossRolePhysicalChange>=5%; otherwise stop this specific donor-feedback explanation, no cutoff scan",
+  "accounting": "Count unscored complete integer proposals explicitly. No DynamicDecoder/objective/oracleHVquery/searchfeedback. Known old/source objectives not reused as counterfactual objectives.",
+  "progression": "Coverage only can justify separatelyregistered SYNC/LIVE_SAME_ROLE/LIVE_ALL lifecycle ablation. It is not performance or four-role contribution. Prior independenthalfpool/role/source/learning stops stay stopped.",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  },
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

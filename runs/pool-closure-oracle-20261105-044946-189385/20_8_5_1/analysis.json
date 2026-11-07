@@ -1,0 +1,374 @@
+{
+  "stem": "20_8_5_1",
+  "phase": "G2_CENTER_ENTRY",
+  "paidSourceFE": 443666,
+  "families": [
+    {
+      "family": 0,
+      "modes": {
+        "FINITE": {
+          "cartesianCombinations": 32768,
+          "frontierCount": 278,
+          "dpSeconds": 0.0,
+          "scoreSecondsIncludingChecks": 0.10899999993853271,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "1.5": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "2.0": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            399.91336728411784,
+            39248.2611551217,
+            46889.84612974511
+          ],
+          "independentHVCheckMaxError": 5.551115123125783e-16,
+          "qaWitnessIndices": [
+            0,
+            39,
+            79,
+            118,
+            158,
+            197,
+            213,
+            237,
+            277
+          ]
+        },
+        "FULL": {
+          "cartesianCombinations": 16343800,
+          "frontierCount": 2861,
+          "dpSeconds": 0.10999999998603016,
+          "scoreSecondsIncludingChecks": 0.5150000000139698,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "1.5": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "2.0": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            399.91336728411784,
+            39248.2611551217,
+            46889.84612974511
+          ],
+          "independentHVCheckMaxError": 5.551115123125783e-16,
+          "qaWitnessIndices": [
+            0,
+            408,
+            817,
+            1225,
+            1634,
+            2042,
+            2451,
+            2569,
+            2857,
+            2860
+          ]
+        }
+      },
+      "finiteMaterialNinePolicyOmission": false,
+      "fullMaterialNinePolicyOmission": false
+    },
+    {
+      "family": 1,
+      "modes": {
+        "FINITE": {
+          "cartesianCombinations": 28672,
+          "frontierCount": 197,
+          "dpSeconds": 0.0,
+          "scoreSecondsIncludingChecks": 0.0940000000409782,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 3.146094083157318e-05,
+              "bestIndex": 196,
+              "newPoints": 1
+            },
+            "1.5": {
+              "bestSingleGainPct": 1.5483534194794205e-05,
+              "bestIndex": 196,
+              "newPoints": 1
+            },
+            "2.0": {
+              "bestSingleGainPct": 6.261851235883108e-06,
+              "bestIndex": 196,
+              "newPoints": 1
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            424.4562665358835,
+            39913.427005223144,
+            46640.1850339932
+          ],
+          "independentHVCheckMaxError": 5.690173316169909e-16,
+          "qaWitnessIndices": [
+            0,
+            28,
+            56,
+            84,
+            112,
+            140,
+            160,
+            168,
+            196
+          ]
+        },
+        "FULL": {
+          "cartesianCombinations": 16556400,
+          "frontierCount": 1805,
+          "dpSeconds": 0.0779999999795109,
+          "scoreSecondsIncludingChecks": 0.35999999998603016,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 3.146094083157318e-05,
+              "bestIndex": 1804,
+              "newPoints": 2
+            },
+            "1.5": {
+              "bestSingleGainPct": 1.5483534194794205e-05,
+              "bestIndex": 1804,
+              "newPoints": 2
+            },
+            "2.0": {
+              "bestSingleGainPct": 6.261851235883108e-06,
+              "bestIndex": 1804,
+              "newPoints": 2
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            424.4562665358835,
+            39913.427005223144,
+            46640.1850339932
+          ],
+          "independentHVCheckMaxError": 5.690173316169909e-16,
+          "qaWitnessIndices": [
+            0,
+            257,
+            515,
+            773,
+            1030,
+            1288,
+            1401,
+            1546,
+            1804
+          ]
+        }
+      },
+      "finiteMaterialNinePolicyOmission": false,
+      "fullMaterialNinePolicyOmission": false
+    },
+    {
+      "family": 2,
+      "modes": {
+        "FINITE": {
+          "cartesianCombinations": 20480,
+          "frontierCount": 175,
+          "dpSeconds": 0.0,
+          "scoreSecondsIncludingChecks": 0.09299999999348074,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "1.5": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "2.0": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            471.1606772446645,
+            40202.904685752466,
+            46904.84435470434
+          ],
+          "independentHVCheckMaxError": 5.551115123125783e-16,
+          "qaWitnessIndices": [
+            0,
+            24,
+            49,
+            74,
+            99,
+            103,
+            124,
+            149,
+            174
+          ]
+        },
+        "FULL": {
+          "cartesianCombinations": 1605744,
+          "frontierCount": 1164,
+          "dpSeconds": 0.0940000000409782,
+          "scoreSecondsIncludingChecks": 0.25,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "1.5": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "2.0": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            471.1606772446645,
+            40202.904685752466,
+            46904.84435470434
+          ],
+          "independentHVCheckMaxError": 5.551115123125783e-16,
+          "qaWitnessIndices": [
+            0,
+            166,
+            332,
+            498,
+            664,
+            830,
+            850,
+            996,
+            1162,
+            1163
+          ]
+        }
+      },
+      "finiteMaterialNinePolicyOmission": false,
+      "fullMaterialNinePolicyOmission": false
+    },
+    {
+      "family": 3,
+      "modes": {
+        "FINITE": {
+          "cartesianCombinations": 16384,
+          "frontierCount": 49,
+          "dpSeconds": 0.0,
+          "scoreSecondsIncludingChecks": 0.062000000034458935,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "1.5": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "2.0": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            473.66546670831485,
+            39477.230803538616,
+            46851.56058780523
+          ],
+          "independentHVCheckMaxError": 5.551115123125783e-16,
+          "qaWitnessIndices": [
+            0,
+            6,
+            13,
+            15,
+            20,
+            27,
+            34,
+            41,
+            48
+          ]
+        },
+        "FULL": {
+          "cartesianCombinations": 5742000,
+          "frontierCount": 1027,
+          "dpSeconds": 0.0470000000204891,
+          "scoreSecondsIncludingChecks": 0.25,
+          "referenceResults": {
+            "1.25": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "1.5": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            },
+            "2.0": {
+              "bestSingleGainPct": 0.0,
+              "bestIndex": 0,
+              "newPoints": 0
+            }
+          },
+          "bestNineGainPct": 0.0,
+          "objectiveExtremes": [
+            473.66546670831485,
+            39477.230803538616,
+            46851.56058780523
+          ],
+          "independentHVCheckMaxError": 5.551115123125783e-16,
+          "qaWitnessIndices": [
+            0,
+            146,
+            293,
+            415,
+            439,
+            586,
+            732,
+            879,
+            1026
+          ]
+        }
+      },
+      "finiteMaterialNinePolicyOmission": false,
+      "fullMaterialNinePolicyOmission": false
+    }
+  ],
+  "finiteMaterialFamilies": 0,
+  "fullMaterialFamilies": 0,
+  "offlineFullDecoderQA": 64,
+  "maxAbsoluteObjectiveError": [
+    0.0,
+    4.3655745685100555e-11,
+    3.637978807091713e-11
+  ],
+  "worthPairedSupplyDiagnostic": false
+}

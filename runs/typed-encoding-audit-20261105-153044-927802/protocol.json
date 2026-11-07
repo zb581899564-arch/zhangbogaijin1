@@ -1,0 +1,26 @@
+{
+  "purpose": "Exact expressive representation and legality audit, no algorithm or performance claim",
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\linkage-mixing-probe-20261105-142116-487815",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "sourceSeeds": [
+    11730007,
+    11730037
+  ],
+  "representation": "By-job first-stage legal categorical (F,M,W) ids plus separate finite global priority keys in closed [0,1]",
+  "roundtrip": "Preserve all four raw positional vectors, including neutral global interleaving; no repair/canonicalization",
+  "keyTies": "Ascending key, descending job id on equality, including signed zero; matches original strict-< right-biased merge",
+  "keys": "Default (rank+.5)/N; random strictly sorted reencoding with 0 and 1 endpoints preserves global order",
+  "legality": "Reject repeated/out-of-range jobs, tuple/resource ids, wrong lengths, missing factories and invalid keys; immutable inputs",
+  "qa": "400 existing known source encodings, original objectives bit-exact, full original versus roundtrip timeline all identifiers/10numeric fields",
+  "expectedDecoderCalls": 800,
+  "optimizationFE": 0,
+  "paidSearchRuleUnchanged": "Every generated search attempt still must pass RunContext; these are explicit offline QA replays only",
+  "fixedFaMiProgramStopUnchanged": true,
+  "defaultMainlineChanged": false,
+  "externalTransfersThisAudit": false,
+  "fullGomeaImplemented": false,
+  "goalAchieved": false
+}

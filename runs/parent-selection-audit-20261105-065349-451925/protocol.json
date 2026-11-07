@@ -1,0 +1,57 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\mating-pool-probe-20261105-062648-478040",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "primaryDonorRule": "WITHIN",
+  "newSearchFE": 0,
+  "additionalDecodes": 0,
+  "question": "Does fixed-slot first-parent reproduction spend offspring evaluations on less promising recipients than crowded tournament would, holding the already-paid second-parent rule and actual classic offspring samples fixed?",
+  "calculation": "ActualNsgaSelection.score on current47freeCENTER; enumerate all47^2crowded tournaments including half-credit ties and verify closed-form probabilities. Condition winners on existing8equally-spaced recipients, then weight their16paid child gains.",
+  "gate": "Eachinstance primaryWITHIN weighted mean gain>=10%overobserved8uniform,>=4/6contexts positive, bothsource seeds positive, eachcontext conditional effective sample size>=3. Only permits newpaid all47parent-selection probe, not algorithm promotion.",
+  "limits": "39parents offspring unknown. Conditional8weights cannot establish full47expected gain, same-time, nativeQGS improvement or novelty. No post-hoc promotion of another donor rule, no newparent/window/seed selection on failure.",
+  "preserved": "No newevaluator calls or source/default/Q/role/family/sharing changes; no filetransfers."
+}

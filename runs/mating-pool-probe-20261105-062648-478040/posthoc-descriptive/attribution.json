@@ -1,0 +1,355 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "roleSummary": [
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "CENTER",
+          "offspring": 287,
+          "positiveOffspring": 3,
+          "summedSingleAddedHV": 3.629755308312557e-05,
+          "shareOfMethodSingleAddedHV": 0.050505783529523736,
+          "meanRepairEdits": 2.2369337979094075,
+          "meanJSChangedFraction": 0.5233449477351916,
+          "meanJobTupleChangedFraction": 0.6977351916376306
+        },
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "ENERGY",
+          "offspring": 129,
+          "positiveOffspring": 3,
+          "summedSingleAddedHV": 0.00026189983906298213,
+          "shareOfMethodSingleAddedHV": 0.3644173079061193,
+          "meanRepairEdits": 2.0852713178294575,
+          "meanJSChangedFraction": 0.5275193798449612,
+          "meanJobTupleChangedFraction": 0.6422480620155039
+        },
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "MAKESPAN",
+          "offspring": 189,
+          "positiveOffspring": 1,
+          "summedSingleAddedHV": 0.0001223728456943454,
+          "shareOfMethodSingleAddedHV": 0.17027419011899456,
+          "meanRepairEdits": 2.1164021164021163,
+          "meanJSChangedFraction": 0.5391534391534392,
+          "meanJobTupleChangedFraction": 0.6775132275132274
+        },
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "WORKER_COST",
+          "offspring": 163,
+          "positiveOffspring": 2,
+          "summedSingleAddedHV": 0.00029811088235061204,
+          "shareOfMethodSingleAddedHV": 0.4148027184453624,
+          "meanRepairEdits": 2.276073619631902,
+          "meanJSChangedFraction": 0.5085889570552148,
+          "meanJobTupleChangedFraction": 0.6733128834355828
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "CENTER",
+          "offspring": 432,
+          "positiveOffspring": 18,
+          "summedSingleAddedHV": 0.003224437197675023,
+          "shareOfMethodSingleAddedHV": 0.9045601775281248,
+          "meanRepairEdits": 1.4027777777777777,
+          "meanJSChangedFraction": 0.5002314814814809,
+          "meanJobTupleChangedFraction": 0.5390046296296293
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "ENERGY",
+          "offspring": 103,
+          "positiveOffspring": 2,
+          "summedSingleAddedHV": 0.0001879397170621549,
+          "shareOfMethodSingleAddedHV": 0.05272324235463749,
+          "meanRepairEdits": 2.3980582524271843,
+          "meanJSChangedFraction": 0.5800970873786409,
+          "meanJobTupleChangedFraction": 0.6747572815533981
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "MAKESPAN",
+          "offspring": 133,
+          "positiveOffspring": 3,
+          "summedSingleAddedHV": 0.000152269504350587,
+          "shareOfMethodSingleAddedHV": 0.0427165801172377,
+          "meanRepairEdits": 2.2330827067669174,
+          "meanJSChangedFraction": 0.5172932330827069,
+          "meanJobTupleChangedFraction": 0.6496240601503759
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "WORKER_COST",
+          "offspring": 100,
+          "positiveOffspring": 0,
+          "summedSingleAddedHV": 0.0,
+          "shareOfMethodSingleAddedHV": 0.0,
+          "meanRepairEdits": 2.18,
+          "meanJSChangedFraction": 0.48149999999999993,
+          "meanJobTupleChangedFraction": 0.6475000000000002
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "CENTER",
+          "offspring": 486,
+          "positiveOffspring": 24,
+          "summedSingleAddedHV": 0.0025138511241929304,
+          "shareOfMethodSingleAddedHV": 0.8725711969049966,
+          "meanRepairEdits": 1.0534979423868314,
+          "meanJSChangedFraction": 0.49619341563785974,
+          "meanJobTupleChangedFraction": 0.49557613168724257
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "ENERGY",
+          "offspring": 63,
+          "positiveOffspring": 1,
+          "summedSingleAddedHV": 1.5221939929381578e-07,
+          "shareOfMethodSingleAddedHV": 5.283616923679476e-05,
+          "meanRepairEdits": 2.111111111111111,
+          "meanJSChangedFraction": 0.5214285714285716,
+          "meanJobTupleChangedFraction": 0.6611111111111112
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "MAKESPAN",
+          "offspring": 122,
+          "positiveOffspring": 2,
+          "summedSingleAddedHV": 0.00014463922204566883,
+          "shareOfMethodSingleAddedHV": 0.05020504909188518,
+          "meanRepairEdits": 2.4098360655737703,
+          "meanJSChangedFraction": 0.5532786885245903,
+          "meanJobTupleChangedFraction": 0.6758196721311477
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "WORKER_COST",
+          "offspring": 97,
+          "positiveOffspring": 1,
+          "summedSingleAddedHV": 0.00022232707112016328,
+          "shareOfMethodSingleAddedHV": 0.07717091783388147,
+          "meanRepairEdits": 2.4123711340206184,
+          "meanJSChangedFraction": 0.5175257731958761,
+          "meanJobTupleChangedFraction": 0.6855670103092784
+        },
+        {
+          "method": "WITHIN",
+          "donorRole": "CENTER",
+          "offspring": 768,
+          "positiveOffspring": 31,
+          "summedSingleAddedHV": 0.0054899139320434606,
+          "shareOfMethodSingleAddedHV": 1.0,
+          "meanRepairEdits": 1.3828125,
+          "meanJSChangedFraction": 0.507096354166667,
+          "meanJobTupleChangedFraction": 0.5363281250000002
+        }
+      ],
+      "concentration": {
+        "WITHIN": {
+          "positiveParents": 19,
+          "top1Share": 0.6964554603418244,
+          "top5Share": 0.9485737816889342
+        },
+        "SHARED": {
+          "positiveParents": 19,
+          "top1Share": 0.689758922666054,
+          "top5Share": 0.9332811876168651
+        },
+        "RANDOM_SHARED": {
+          "positiveParents": 17,
+          "top1Share": 0.5579551100927846,
+          "top5Share": 0.9731943421076191
+        },
+        "INITIAL_SHARED": {
+          "positiveParents": 7,
+          "top1Share": 0.33153749203020927,
+          "top5Share": 0.9716774415330817
+        }
+      },
+      "pairedConstructionCases": 768,
+      "allFourArmsIdenticalChildren": 93,
+      "additionalSearchFE": 0,
+      "additionalDecodes": 0,
+      "limits": "Descriptive post-hoc only. Selected role, recipient, context and genotype are confounded; no causal role credit, new selector, promotion of RANDOM_SHARED or change to original gate. Single-child gains are not joint batch HV."
+    },
+    {
+      "stem": "100_2_3_1",
+      "roleSummary": [
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "CENTER",
+          "offspring": 281,
+          "positiveOffspring": 3,
+          "summedSingleAddedHV": 3.182937743490971e-05,
+          "shareOfMethodSingleAddedHV": 0.12265917395194202,
+          "meanRepairEdits": 7.459074733096085,
+          "meanJSChangedFraction": 0.6041637010676155,
+          "meanJobTupleChangedFraction": 0.622704626334519
+        },
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "ENERGY",
+          "offspring": 149,
+          "positiveOffspring": 0,
+          "summedSingleAddedHV": 0.0,
+          "shareOfMethodSingleAddedHV": 0.0,
+          "meanRepairEdits": 7.791946308724833,
+          "meanJSChangedFraction": 0.5479194630872486,
+          "meanJobTupleChangedFraction": 0.5995302013422823
+        },
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "MAKESPAN",
+          "offspring": 184,
+          "positiveOffspring": 3,
+          "summedSingleAddedHV": 9.221668438630167e-05,
+          "shareOfMethodSingleAddedHV": 0.355370517520862,
+          "meanRepairEdits": 7.809782608695652,
+          "meanJSChangedFraction": 0.5915217391304349,
+          "meanJobTupleChangedFraction": 0.6161956521739134
+        },
+        {
+          "method": "INITIAL_SHARED",
+          "donorRole": "WORKER_COST",
+          "offspring": 154,
+          "positiveOffspring": 4,
+          "summedSingleAddedHV": 0.00013544840899089834,
+          "shareOfMethodSingleAddedHV": 0.5219703085271958,
+          "meanRepairEdits": 7.863636363636363,
+          "meanJSChangedFraction": 0.5529220779220779,
+          "meanJobTupleChangedFraction": 0.6060389610389612
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "CENTER",
+          "offspring": 432,
+          "positiveOffspring": 15,
+          "summedSingleAddedHV": 0.002275348369364379,
+          "shareOfMethodSingleAddedHV": 0.3819845645377436,
+          "meanRepairEdits": 5.280092592592593,
+          "meanJSChangedFraction": 0.5565740740740742,
+          "meanJobTupleChangedFraction": 0.49571759259259196
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "ENERGY",
+          "offspring": 103,
+          "positiveOffspring": 0,
+          "summedSingleAddedHV": 0.0,
+          "shareOfMethodSingleAddedHV": 0.0,
+          "meanRepairEdits": 7.970873786407767,
+          "meanJSChangedFraction": 0.5873786407766992,
+          "meanJobTupleChangedFraction": 0.6298058252427184
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "MAKESPAN",
+          "offspring": 133,
+          "positiveOffspring": 3,
+          "summedSingleAddedHV": 0.0013415786289051063,
+          "shareOfMethodSingleAddedHV": 0.22522367794546427,
+          "meanRepairEdits": 7.496240601503759,
+          "meanJSChangedFraction": 0.5745112781954888,
+          "meanJobTupleChangedFraction": 0.5766917293233083
+        },
+        {
+          "method": "RANDOM_SHARED",
+          "donorRole": "WORKER_COST",
+          "offspring": 100,
+          "positiveOffspring": 4,
+          "summedSingleAddedHV": 0.002339723035791127,
+          "shareOfMethodSingleAddedHV": 0.392791757516792,
+          "meanRepairEdits": 7.54,
+          "meanJSChangedFraction": 0.537,
+          "meanJobTupleChangedFraction": 0.5840999999999998
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "CENTER",
+          "offspring": 456,
+          "positiveOffspring": 14,
+          "summedSingleAddedHV": 0.0004560132653076111,
+          "shareOfMethodSingleAddedHV": 0.7867630527892884,
+          "meanRepairEdits": 4.405701754385965,
+          "meanJSChangedFraction": 0.5479605263157898,
+          "meanJobTupleChangedFraction": 0.45804824561403484
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "ENERGY",
+          "offspring": 76,
+          "positiveOffspring": 0,
+          "summedSingleAddedHV": 0.0,
+          "shareOfMethodSingleAddedHV": 0.0,
+          "meanRepairEdits": 8.526315789473685,
+          "meanJSChangedFraction": 0.5542105263157897,
+          "meanJobTupleChangedFraction": 0.6097368421052635
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "MAKESPAN",
+          "offspring": 163,
+          "positiveOffspring": 1,
+          "summedSingleAddedHV": 9.930861953086373e-06,
+          "shareOfMethodSingleAddedHV": 0.01713378943432421,
+          "meanRepairEdits": 8.067484662576687,
+          "meanJSChangedFraction": 0.56680981595092,
+          "meanJobTupleChangedFraction": 0.6032515337423318
+        },
+        {
+          "method": "SHARED",
+          "donorRole": "WORKER_COST",
+          "offspring": 73,
+          "positiveOffspring": 1,
+          "summedSingleAddedHV": 0.0001136627361919271,
+          "shareOfMethodSingleAddedHV": 0.19610315777638745,
+          "meanRepairEdits": 8.424657534246576,
+          "meanJSChangedFraction": 0.5930136986301371,
+          "meanJobTupleChangedFraction": 0.6279452054794521
+        },
+        {
+          "method": "WITHIN",
+          "donorRole": "CENTER",
+          "offspring": 768,
+          "positiveOffspring": 20,
+          "summedSingleAddedHV": 0.0004022846873219007,
+          "shareOfMethodSingleAddedHV": 1.0,
+          "meanRepairEdits": 5.296875,
+          "meanJSChangedFraction": 0.5581119791666665,
+          "meanJobTupleChangedFraction": 0.4992447916666664
+        }
+      ],
+      "concentration": {
+        "WITHIN": {
+          "positiveParents": 14,
+          "top1Share": 0.28254303425915955,
+          "top5Share": 0.8684978782404086
+        },
+        "SHARED": {
+          "positiveParents": 11,
+          "top1Share": 0.26303535336142486,
+          "top5Share": 0.9239643102758671
+        },
+        "RANDOM_SHARED": {
+          "positiveParents": 15,
+          "top1Share": 0.370061712675846,
+          "top5Share": 0.9674687473250992
+        },
+        "INITIAL_SHARED": {
+          "positiveParents": 9,
+          "top1Share": 0.43801602337117246,
+          "top5Share": 0.9298124146140807
+        }
+      },
+      "pairedConstructionCases": 768,
+      "allFourArmsIdenticalChildren": 93,
+      "additionalSearchFE": 0,
+      "additionalDecodes": 0,
+      "limits": "Descriptive post-hoc only. Selected role, recipient, context and genotype are confounded; no causal role credit, new selector, promotion of RANDOM_SHARED or change to original gate. Single-child gains are not joint batch HV."
+    }
+  ],
+  "frozenGateUnchanged": true
+}

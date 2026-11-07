@@ -1,0 +1,80 @@
+{
+  "version": "PA_NEUTRAL_DONOR_CAUSAL_DIAGNOSTIC-v1",
+  "registered": "2026-11-06",
+  "frozenProgramSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "traceSeed": 14670003,
+  "traceFE": {
+    "20_8_5_1": 7900,
+    "100_2_3_1": 39900
+  },
+  "traceRuns": "Strict and equal perinstance, allpaidfullQA and independent transitions; digest/finalfront/initial100 mustmatch prior ENGINE-STRICT/EQUAL",
+  "traceActualFE": 95600,
+  "maximumPairFE": 96,
+  "maximumActualSearchFE": 95696,
+  "motivation": "Current complete-program equal control improved both instances; zeroFEstrict traces contain physically changed exact-own-target ties. This does not reopen failed COST_LEX/FACTORY_LEX or promote the former control",
+  "hypothesis": "An accepted physically changed scalar-neutral specialist state can provide useful incremental material through an actual same-generation CENTER donor read",
+  "scope": "One-step causal mechanism under frozen PA, not explanation of all500k differences, not original shared mainline, no full performance, selector or published novelty claim",
+  "eligibility": "All CENTER reads of a current-generation specialist state whose latest accepted raw change was exact-own-scalar tie and physical change. Exact raw duplicates may preserve provenance. Clear provenance at reencoding; no cross-generation coordinate counterfactual. Same receiver/mask, rollback donor to its immediately preceding paid working state. Require physical child difference only, never filter on receiver acceptance/objective/archive gain",
+  "sampling": {
+    "seed": 14750019,
+    "perGeneration": 12,
+    "generations": [
+      1,
+      2
+    ],
+    "rule": "Private seeded uniform without replacement from all eligible chronological reads; maximum24perinstance, all eligibility records retained; no replacement by quality"
+  },
+  "minimum": "At least8selectedpairs in BOTHinstances before any pair evaluations; otherwise stop as insufficient without extra seeds/horizon",
+  "pairBilling": "Both actual and rollback evaluated anew once viaRunContext; actual matches source objective bits; both fullQA; missingfactory uses same unchanged receiver fallback and remains paid; no search feedback or extra repair",
+  "indicators": "Perrequest prior allpaid archive A0; compareND(A0+actual) vsND(A0+rollback). HV1.5/1.25/2 on prior norm; IGD+referenceNDunionofboth resultingfronts; exactweakdeduplicatedbidirectionalC includingequal. Rawobjectiveandcoveragecounts retained",
+  "clueGate": "BOTHinstances: >=8pairs; >=3pairs HVdifference>1e-10%ofpriorHV with IGD+nonworse/Cdelta>=-1e-10; >=1pair HVdifference>=0.1%ofpriorHV; positiveHVcount>=negativecount+2; sumHVdifference>1e-10; medianIGD+worsening<=1e-10; medianCdelta>=-1e-10; sumHVdirectionnonnegative atrefs1.25/2. Tolerance numericalonly",
+  "interpretation": "Passing permits a separate complete neutral-relay mechanism protocol only. Failing stops this latest-neutral direct-relay hypothesis, no neutral tolerance/mask/role/seed rescanning. All old stops stay unchanged",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

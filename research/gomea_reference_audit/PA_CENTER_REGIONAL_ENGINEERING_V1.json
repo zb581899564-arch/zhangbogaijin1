@@ -1,0 +1,64 @@
+{
+  "version": "PA_CENTER_REGIONAL_ENGINEERING-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "opportunityRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-audit-20261106-105241-319573",
+  "opportunityAuditSHA256": "863773783d4994a7626bb6a8460c0fca2a2ffe2a8ab1b061f2871a070af9a870",
+  "sourceBase": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-first-local-fork-pilot-20261106-094125-457253",
+  "populationSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483\\source\\PaPopulation.java",
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "masterFE": 7900,
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        686,
+        4000
+      ],
+      "firstCenterPaidFE": 686,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101442-021494\\20_8_5_1\\NATIVE",
+      "initialSourceTSV": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101649-310055\\20_8_5_1\\inputs\\sources.tsv"
+    },
+    {
+      "instance": "100_2_3_1",
+      "masterFE": 39900,
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        3086,
+        20000
+      ],
+      "firstCenterPaidFE": 3086,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101649-310055\\100_2_3_1\\NATIVE",
+      "initialSourceTSV": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101649-310055\\100_2_3_1\\inputs\\sources.tsv"
+    }
+  ],
+  "engineeringSeed": 13630003,
+  "primary": "REGIONAL",
+  "modes": [
+    "OFF",
+    "REGIONAL",
+    "NO_SPECIALIST"
+  ],
+  "plannedActualAttemptedFE": 199760,
+  "maximumActualAttemptedFE": 220000,
+  "expectedRuns": 30,
+  "precondition": "Before any new searchFE, compile a pure Java target/assignment utility and validate existing100-vector fixtures plus tied/antichain/scale/ideal-update fixtures without decoder.55 direction vectors must exactly match the zeroFE protocol; for both actual engineering fixtures initial assignment must match the accepted MATCHED slot map and minimum cost. Independently verify minimum via assignment LP. Do not use epsilon/tie perturbation or change the grid to force agreement.",
+  "representation": "Keep ordinary native100 storage, persistent native role labels15/55/15/15, original full2N-1 FOS and in-place live donors. Do not revive stopped dynamic-role/visit FULL, PRE fork, resource splitting or role model. Read-only policy and trace only in isolated new classes/PaPopulation copy, no default edits.",
+  "regional": "CENTER slots15..69 each receive a permanent positive integer direction from accepted55-grid initial minimum-cost matching; immutable through all generations. Track componentwise minimum over every PA paid initialization/candidate, including rejected candidates. Normalize by existing128-parent frozen per-instance scales. Compute max(weight_i*((f_i-currentIdeal_i)/scale_i)) for parent and candidate under same updated ideal; accept CENTER if candidate score<=parent score. Equality is explicitly retained; no scalar epsilon, reference-front/HV/IGD feedback or rematching.",
+  "boundary": "OFF uses original strict M/E/W and original CENTER archive-admission. REGIONAL keeps original strict M/E/W and changes only CENTER to regional nonworse. NO_SPECIALIST keeps the same55 regional CENTER policies but uses original CENTER weakPareto-or-oldArchive-notDominated rule on the45 otherwise-specialist slots. Labels/storage/targets/budgets remain; this is a pure preference ablation, not all100 weight decomposition or independent contribution proof.",
+  "hooks": "Policy receives each already-paid initial/candidate once, after actual evaluation and before accepts; no new objective query, no free candidate filter/cache or hidden FE. All-paid internal/result archives remain exact original. OFF performs no active policy state change/RNG draw. Initial target calculation and every policy/observer/assignment/copy/archive cost inside search clock. Heavy timeline QA separately counted.",
+  "proof": "OFF both master fullpaidSHA/finalfront equal frozen NATIVE sources. Every mode verify all paid full/precise-incremental timelines, rawgenomeSHA, FOS/donor/move/fallback/oldarchive flags, live population and accept. Independent replay maintains ideal from all actualpaid points and permanent55 targets, independently recomputes every regional comparison. Mixed NO_SPECIALIST branch independently checked. Initial100 rawgenes/objectives identical across all modes. All archive offers/receipts/actual backend counts conserved.",
+  "cutoffs": "Both active modes pay separate1,2,100,101,firstCenterPaidFE,firstGenerationEnd cases; compare complete paidSHA with master exact prefixes. Include first successful CENTER regional comparison, NO_SPECIALIST first boundary branch, no false statement last visited slot99 on partial stop. Initialization and prepared targets at cutoff100 explicitly record actual timing.",
+  "engineeringSource": "Known supplied post-QGS100 engineering vectors and seed13630003 only; not fresh performance comparisons. All6 master cases complete2 generations/200 programs. Partial cases24. No quality metrics, sameTIME claim or seed replacement.",
+  "progression": "Only full engineering pass permits a separately prospective multi-arm new-seed joint HV/IGD+/bidirectional C pilot with native PA, PA_EQUAL, same-kernel strong NSGA where relevant, old shared/Li, REGIONAL and NO_SPECIALIST. Include an ordinary archive/region control if needed before any collaboration claim. Mature regional decomposition is supporting common optimization machinery, not the main four-role/shared novelty. No automatic500k/TIME or full paper qualification.",
+  "failure": "Retain failed artifacts/usedFE/lastfront. Mechanical corrections only via explicit amendment and remainingcap. Reuse validated exact-class/input/options evidence to avoid repeating actualFE; no assignment/grid/mode/seed/score perturbation for a positive quality result.",
+  "resourceProfile": "Local sequential single active JVM Xms32m Xmx2g,JDK17 --release8, numerical workers limited; resource observations not sameTIME performance. No remote operation or local material upload.",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

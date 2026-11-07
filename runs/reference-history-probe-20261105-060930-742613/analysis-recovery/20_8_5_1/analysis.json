@@ -1,0 +1,1110 @@
+{
+  "stem": "20_8_5_1",
+  "cells": [
+    {
+      "case": "p0",
+      "sourceSeed": 10280003,
+      "historySize": 4,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 1.4233072571676811e-06,
+          "meanAddedHVPctOfBackground": 0.0003013288812553832,
+          "meanSelectorKernelEvaluationSeconds": 0.00018662727272727276,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 6.815782738848442e-07,
+          "meanAddedHVPctOfBackground": 0.00014429717668017154,
+          "meanSelectorKernelEvaluationSeconds": 0.00011832727272727271,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 1.0719258035515976e-06,
+          "meanAddedHVPctOfBackground": 0.00022693778981759755,
+          "meanSelectorKernelEvaluationSeconds": 0.00011164727272727271,
+          "changedOldestFraction": 0.7454545454545455,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 2.731691782415332e-06,
+          "meanAddedHVPctOfBackground": 0.0005783274304156527,
+          "meanSelectorKernelEvaluationSeconds": 9.326636363636364e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1,
+            2
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 2.7554445501007105e-06,
+          "meanAddedHVPctOfBackground": 0.0005833561372372542,
+          "meanSelectorKernelEvaluationSeconds": 0.0001020790909090909,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 4.179807993313593e-07,
+          "meanAddedHVPctOfBackground": 8.84908624012665e-05,
+          "meanSelectorKernelEvaluationSeconds": 0.00010811090909090908,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "p1",
+      "sourceSeed": 10280003,
+      "historySize": 4,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 7.164468644328407e-08,
+          "meanAddedHVPctOfBackground": 1.5167921827931865e-05,
+          "meanSelectorKernelEvaluationSeconds": 6.486454545454546e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 1.5594619269903617e-07,
+          "meanAddedHVPctOfBackground": 3.301542344099838e-05,
+          "meanSelectorKernelEvaluationSeconds": 4.7703636363636354e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 1.3212676861000677e-07,
+          "meanAddedHVPctOfBackground": 2.797260476867767e-05,
+          "meanSelectorKernelEvaluationSeconds": 5.965818181818182e-05,
+          "changedOldestFraction": 0.7545454545454545,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.5594619269903617e-07,
+          "meanAddedHVPctOfBackground": 3.301542344099838e-05,
+          "meanSelectorKernelEvaluationSeconds": 4.822272727272728e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            3
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 1.492505157968278e-07,
+          "meanAddedHVPctOfBackground": 3.159787932321956e-05,
+          "meanSelectorKernelEvaluationSeconds": 6.357454545454546e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 4.3227781684661954e-08,
+          "meanAddedHVPctOfBackground": 9.151768902037256e-06,
+          "meanSelectorKernelEvaluationSeconds": 5.442818181818182e-05,
+          "changedOldestFraction": 0.6727272727272727,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "p2",
+      "sourceSeed": 10280003,
+      "historySize": 4,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 2.387958058309132e-08,
+          "meanAddedHVPctOfBackground": 5.0555544248889875e-06,
+          "meanSelectorKernelEvaluationSeconds": 5.0057272727272723e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 4.559365764221993e-07,
+          "meanAddedHVPctOfBackground": 9.652649335190255e-05,
+          "meanSelectorKernelEvaluationSeconds": 5.1485454545454545e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 7.209049734666146e-09,
+          "meanAddedHVPctOfBackground": 1.5262304611473267e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.942818181818182e-05,
+          "changedOldestFraction": 0.7636363636363637,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 4.4867752193727655e-07,
+          "meanAddedHVPctOfBackground": 9.498967636744734e-05,
+          "meanSelectorKernelEvaluationSeconds": 4.731909090909091e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2,
+            3
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 6.668780220854111e-06,
+          "meanAddedHVPctOfBackground": 0.0014118498118858784,
+          "meanSelectorKernelEvaluationSeconds": 6.340636363636364e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 5.423938928681218e-09,
+          "meanAddedHVPctOfBackground": 1.1483040230044185e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.710272727272727e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "p3",
+      "sourceSeed": 10280003,
+      "historySize": 3,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 1.0034525025821717e-05,
+          "meanAddedHVPctOfBackground": 0.0021244128312652723,
+          "meanSelectorKernelEvaluationSeconds": 6.267909090909092e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 1.0133960087719866e-05,
+          "meanAddedHVPctOfBackground": 0.002145464263279294,
+          "meanSelectorKernelEvaluationSeconds": 6.657727272727273e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 9.674689467589648e-06,
+          "meanAddedHVPctOfBackground": 0.0020482319183584246,
+          "meanSelectorKernelEvaluationSeconds": 4.594090909090909e-05,
+          "changedOldestFraction": 0.6818181818181818,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.0133960087719866e-05,
+          "meanAddedHVPctOfBackground": 0.002145464263279294,
+          "meanSelectorKernelEvaluationSeconds": 4.390909090909091e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 4.6885075351960526e-06,
+          "meanAddedHVPctOfBackground": 0.0009926055833857238,
+          "meanSelectorKernelEvaluationSeconds": 5.2861818181818175e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 4.700432605970481e-06,
+          "meanAddedHVPctOfBackground": 0.0009951302443240095,
+          "meanSelectorKernelEvaluationSeconds": 5.282363636363637e-05,
+          "changedOldestFraction": 0.9818181818181818,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "case": "p4",
+      "sourceSeed": 10280003,
+      "historySize": 1,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 2.8702935838398172e-08,
+          "meanAddedHVPctOfBackground": 6.076708666644994e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.542181818181818e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 2.8702935838398172e-08,
+          "meanAddedHVPctOfBackground": 6.076708666644994e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.528818181818182e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 2.8702935838398172e-08,
+          "meanAddedHVPctOfBackground": 6.076708666644994e-06,
+          "meanSelectorKernelEvaluationSeconds": 2.8122727272727267e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 2.8702935838398172e-08,
+          "meanAddedHVPctOfBackground": 6.076708666644994e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.9637272727272725e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 2.8702935838398172e-08,
+          "meanAddedHVPctOfBackground": 6.076708666644994e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.523454545454545e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 2.8702935838398172e-08,
+          "meanAddedHVPctOfBackground": 6.076708666644994e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.1300909090909094e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "p5",
+      "sourceSeed": 10280003,
+      "historySize": 2,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 1.4410094114062414e-08,
+          "meanAddedHVPctOfBackground": 3.050766105707879e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.35e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 1.3693646298252354e-08,
+          "meanAddedHVPctOfBackground": 2.8990866860121538e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.2637272727272724e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 1.3396423830206215e-08,
+          "meanAddedHVPctOfBackground": 2.8361616125051647e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.0189090909090912e-05,
+          "changedOldestFraction": 0.4636363636363636,
+          "chosenHistoryIndices": [
+            0,
+            1
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.4410094114062414e-08,
+          "meanAddedHVPctOfBackground": 3.050766105707879e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.846545454545455e-05,
+          "changedOldestFraction": 0.10909090909090909,
+          "chosenHistoryIndices": [
+            0,
+            1
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 1.3693646298252354e-08,
+          "meanAddedHVPctOfBackground": 2.8990866860121538e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.46409090909091e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 1.5146156079545945e-08,
+          "meanAddedHVPctOfBackground": 3.2065980439466793e-06,
+          "meanSelectorKernelEvaluationSeconds": 2.9304545454545456e-05,
+          "changedOldestFraction": 0.4,
+          "chosenHistoryIndices": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "case": "p6",
+      "sourceSeed": 10280003,
+      "historySize": 3,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 1.2771779749305037e-07,
+          "meanAddedHVPctOfBackground": 2.7039179938958525e-05,
+          "meanSelectorKernelEvaluationSeconds": 4.243818181818182e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 3.1543095332691135e-09,
+          "meanAddedHVPctOfBackground": 6.677999834586624e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.523727272727273e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 8.295280298423487e-08,
+          "meanAddedHVPctOfBackground": 1.7561967167917623e-05,
+          "meanSelectorKernelEvaluationSeconds": 2.9999090909090906e-05,
+          "changedOldestFraction": 0.7363636363636363,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.2052754496465646e-07,
+          "meanAddedHVPctOfBackground": 2.5516929040978755e-05,
+          "meanSelectorKernelEvaluationSeconds": 3.5416363636363636e-05,
+          "changedOldestFraction": 0.2,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 9.455463524186992e-08,
+          "meanAddedHVPctOfBackground": 2.0018195165843105e-05,
+          "meanSelectorKernelEvaluationSeconds": 3.1902727272727264e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 5.776259089569033e-08,
+          "meanAddedHVPctOfBackground": 1.222893848489679e-05,
+          "meanSelectorKernelEvaluationSeconds": 2.761363636363636e-05,
+          "changedOldestFraction": 0.7454545454545455,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "case": "p7",
+      "sourceSeed": 10280003,
+      "historySize": 2,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 2.200708536615497e-09,
+          "meanAddedHVPctOfBackground": 4.6591278022928985e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.877818181818181e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 2.8786363636363637e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 2.200708536615497e-09,
+          "meanAddedHVPctOfBackground": 4.6591278022928985e-07,
+          "meanSelectorKernelEvaluationSeconds": 3.024818181818182e-05,
+          "changedOldestFraction": 0.41818181818181815,
+          "chosenHistoryIndices": [
+            0,
+            1
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 2.200708536615497e-09,
+          "meanAddedHVPctOfBackground": 4.6591278022928985e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.778272727272727e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 2.763454545454546e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 3.034868376422393e-10,
+          "meanAddedHVPctOfBackground": 6.42513054029179e-08,
+          "meanSelectorKernelEvaluationSeconds": 2.7683636363636366e-05,
+          "changedOldestFraction": 0.4,
+          "chosenHistoryIndices": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "case": "p8",
+      "sourceSeed": 10280033,
+      "historySize": 3,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 0.0001827508591532251,
+          "meanAddedHVPctOfBackground": 0.03934243198676017,
+          "meanSelectorKernelEvaluationSeconds": 4.6869090909090905e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 0.00029104765005078003,
+          "meanAddedHVPctOfBackground": 0.06265646262942406,
+          "meanSelectorKernelEvaluationSeconds": 4.1079090909090915e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 0.00016351104673911591,
+          "meanAddedHVPctOfBackground": 0.03520050338052874,
+          "meanSelectorKernelEvaluationSeconds": 3.878545454545455e-05,
+          "changedOldestFraction": 0.7545454545454545,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 0.0001825297249260448,
+          "meanAddedHVPctOfBackground": 0.039294826419634,
+          "meanSelectorKernelEvaluationSeconds": 4.019909090909091e-05,
+          "changedOldestFraction": 0.07272727272727272,
+          "chosenHistoryIndices": [
+            0,
+            2
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 0.00011088602803662505,
+          "meanAddedHVPctOfBackground": 0.02387143916327747,
+          "meanSelectorKernelEvaluationSeconds": 4.891090909090909e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 0.00020951413457755944,
+          "meanAddedHVPctOfBackground": 0.04510400458895509,
+          "meanSelectorKernelEvaluationSeconds": 3.6161818181818176e-05,
+          "changedOldestFraction": 0.7090909090909091,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "case": "p9",
+      "sourceSeed": 10280033,
+      "historySize": 1,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 5.0016752285454325e-05,
+          "meanAddedHVPctOfBackground": 0.010767559091688089,
+          "meanSelectorKernelEvaluationSeconds": 3.174909090909091e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 5.0016752285454325e-05,
+          "meanAddedHVPctOfBackground": 0.010767559091688089,
+          "meanSelectorKernelEvaluationSeconds": 3.619e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 5.0016752285454325e-05,
+          "meanAddedHVPctOfBackground": 0.010767559091688089,
+          "meanSelectorKernelEvaluationSeconds": 3.0333636363636366e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 5.0016752285454325e-05,
+          "meanAddedHVPctOfBackground": 0.010767559091688089,
+          "meanSelectorKernelEvaluationSeconds": 3.0446363636363635e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 5.0016752285454325e-05,
+          "meanAddedHVPctOfBackground": 0.010767559091688089,
+          "meanSelectorKernelEvaluationSeconds": 3.290727272727272e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 5.0016752285454325e-05,
+          "meanAddedHVPctOfBackground": 0.010767559091688089,
+          "meanSelectorKernelEvaluationSeconds": 2.9779999999999996e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "p10",
+      "sourceSeed": 10280033,
+      "historySize": 4,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 1.8795271591635097e-08,
+          "meanAddedHVPctOfBackground": 4.046228278722377e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.887636363636363e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 3.307268995869284e-08,
+          "meanAddedHVPctOfBackground": 7.1198573913578065e-06,
+          "meanSelectorKernelEvaluationSeconds": 3.069e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 4.0181215258171195e-08,
+          "meanAddedHVPctOfBackground": 8.650173989685852e-06,
+          "meanSelectorKernelEvaluationSeconds": 4.290727272727272e-05,
+          "changedOldestFraction": 0.6909090909090909,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.6139872824255614e-07,
+          "meanAddedHVPctOfBackground": 3.4745765453876357e-05,
+          "meanSelectorKernelEvaluationSeconds": 3.1257272727272734e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1,
+            2,
+            3
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 2.143211253425385e-08,
+          "meanAddedHVPctOfBackground": 4.613884901107411e-06,
+          "meanSelectorKernelEvaluationSeconds": 2.9629090909090908e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 1.5173297472013975e-07,
+          "meanAddedHVPctOfBackground": 3.266493118410355e-05,
+          "meanSelectorKernelEvaluationSeconds": 2.8173636363636363e-05,
+          "changedOldestFraction": 0.9818181818181818,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "p11",
+      "sourceSeed": 10280033,
+      "historySize": 4,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 5.585791470784581e-07,
+          "meanAddedHVPctOfBackground": 0.00012025039009382368,
+          "meanSelectorKernelEvaluationSeconds": 2.881090909090909e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 1.9509973852809055e-06,
+          "meanAddedHVPctOfBackground": 0.0004200088705049811,
+          "meanSelectorKernelEvaluationSeconds": 3.356545454545454e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 5.350923593993436e-07,
+          "meanAddedHVPctOfBackground": 0.00011519417667225886,
+          "meanSelectorKernelEvaluationSeconds": 3.638454545454546e-05,
+          "changedOldestFraction": 0.7181818181818181,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.9509973852809055e-06,
+          "meanAddedHVPctOfBackground": 0.0004200088705049811,
+          "meanSelectorKernelEvaluationSeconds": 3.2896363636363633e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            3
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 5.585791470784581e-07,
+          "meanAddedHVPctOfBackground": 0.00012025039009382368,
+          "meanSelectorKernelEvaluationSeconds": 3.335636363636364e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 1.6165577084470363e-06,
+          "meanAddedHVPctOfBackground": 0.0003480110134197858,
+          "meanSelectorKernelEvaluationSeconds": 2.8772727272727276e-05,
+          "changedOldestFraction": 0.6363636363636364,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "p12",
+      "sourceSeed": 10280033,
+      "historySize": 5,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 4.488575286056501e-09,
+          "meanAddedHVPctOfBackground": 9.662962391934346e-07,
+          "meanSelectorKernelEvaluationSeconds": 3.8137272727272716e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 4.5795307387694255e-09,
+          "meanAddedHVPctOfBackground": 9.858770429651035e-07,
+          "meanSelectorKernelEvaluationSeconds": 3.0229999999999997e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 4.488575286056501e-09,
+          "meanAddedHVPctOfBackground": 9.662962391934346e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.5507272727272726e-05,
+          "changedOldestFraction": 0.7818181818181819,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 4.5795307387694255e-09,
+          "meanAddedHVPctOfBackground": 9.858770429651035e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.9923636363636368e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2,
+            4
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 4.491188892950176e-09,
+          "meanAddedHVPctOfBackground": 9.668588940117538e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.674454545454545e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 3.0831927907117887e-09,
+          "meanAddedHVPctOfBackground": 6.63746825775222e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.8940909090909092e-05,
+          "changedOldestFraction": 0.9818181818181818,
+          "chosenHistoryIndices": [
+            0,
+            2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "case": "p13",
+      "sourceSeed": 10280033,
+      "historySize": 5,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 1.4187097173182335e-06,
+          "meanAddedHVPctOfBackground": 0.00030541848515059825,
+          "meanSelectorKernelEvaluationSeconds": 3.6883636363636366e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 2.0004996029813607e-06,
+          "meanAddedHVPctOfBackground": 0.0004306656610782121,
+          "meanSelectorKernelEvaluationSeconds": 3.152909090909091e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 1.5765591098315556e-06,
+          "meanAddedHVPctOfBackground": 0.00033940015296809366,
+          "meanSelectorKernelEvaluationSeconds": 3.240727272727272e-05,
+          "changedOldestFraction": 0.8,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 1.973086202997215e-06,
+          "meanAddedHVPctOfBackground": 0.000424764130276117,
+          "meanSelectorKernelEvaluationSeconds": 3.341545454545454e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1,
+            4
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 2.07733943869706e-06,
+          "meanAddedHVPctOfBackground": 0.00044720766818299985,
+          "meanSelectorKernelEvaluationSeconds": 4.250272727272728e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 2.701596680948722e-06,
+          "meanAddedHVPctOfBackground": 0.0005815971764420917,
+          "meanSelectorKernelEvaluationSeconds": 3.3653636363636365e-05,
+          "changedOldestFraction": 0.9818181818181818,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "case": "p14",
+      "sourceSeed": 10280033,
+      "historySize": 6,
+      "informative": false,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 3.3174545454545454e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 2.7450909090909098e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 3.066000000000001e-05,
+          "changedOldestFraction": 0.8727272727272727,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 3.6188181818181814e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            3
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 2.8269090909090904e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            5
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 0.0,
+          "meanAddedHVPctOfBackground": 0.0,
+          "meanSelectorKernelEvaluationSeconds": 2.598545454545455e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "case": "p15",
+      "sourceSeed": 10280033,
+      "historySize": 4,
+      "informative": true,
+      "methods": {
+        "OLDEST": {
+          "meanSingleAddedHV": 3.587991077405206e-10,
+          "meanAddedHVPctOfBackground": 7.72419323148367e-08,
+          "meanSelectorKernelEvaluationSeconds": 2.9395454545454545e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "CURRENT": {
+          "meanSingleAddedHV": 4.1176334547749936e-10,
+          "meanAddedHVPctOfBackground": 8.86440232847653e-08,
+          "meanSelectorKernelEvaluationSeconds": 4.1808181818181825e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            -1
+          ]
+        },
+        "RANDOM": {
+          "meanSingleAddedHV": 1.970024267417911e-09,
+          "meanAddedHVPctOfBackground": 4.2410495968269387e-07,
+          "meanSelectorKernelEvaluationSeconds": 3.0241818181818182e-05,
+          "changedOldestFraction": 0.7909090909090909,
+          "chosenHistoryIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "DIR_SUM": {
+          "meanSingleAddedHV": 3.026161685526558e-10,
+          "meanAddedHVPctOfBackground": 6.514692234302806e-08,
+          "meanSelectorKernelEvaluationSeconds": 3.743272727272728e-05,
+          "changedOldestFraction": 1.0,
+          "chosenHistoryIndices": [
+            2,
+            3
+          ]
+        },
+        "BALANCED": {
+          "meanSingleAddedHV": 3.587991077405206e-10,
+          "meanAddedHVPctOfBackground": 7.72419323148367e-08,
+          "meanSelectorKernelEvaluationSeconds": 3.9292727272727266e-05,
+          "changedOldestFraction": 0.0,
+          "chosenHistoryIndices": [
+            0
+          ]
+        },
+        "DIR_CHEBY": {
+          "meanSingleAddedHV": 6.25038129377295e-10,
+          "meanAddedHVPctOfBackground": 1.3455761690039678e-07,
+          "meanSelectorKernelEvaluationSeconds": 2.8390909090909093e-05,
+          "changedOldestFraction": 0.6,
+          "chosenHistoryIndices": [
+            0,
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "totalParents": 16,
+  "informativeParents": 15,
+  "candidateWinsVsOldest": 6,
+  "meanSingleAddedHV": {
+    "OLDEST": 1.5405933189691214e-05,
+    "CURRENT": 2.2282933458183465e-05,
+    "RANDOM": 1.416870589183051e-05,
+    "DIR_SUM": 1.5642059908947022e-05,
+    "BALANCED": 1.1122744690482253e-05,
+    "DIR_CHEBY": 1.682959142210101e-05
+  },
+  "candidateEffectsPct": {
+    "OLDEST": 9.240973687737597,
+    "CURRENT": -24.47317830175407,
+    "RANDOM": 18.780018094699336,
+    "DIR_SUM": 7.591912574601123,
+    "BALANCED": 51.30790007705666
+  },
+  "sourceSeedMeans": [
+    {
+      "seed": 10280003,
+      "candidateMean": 6.586225369458075e-07,
+      "oldestMean": 1.4657985107497376e-06
+    },
+    {
+      "seed": 10280033,
+      "candidateMean": 3.3000560307256215e-05,
+      "oldestMean": 2.934606786863269e-05
+    }
+  ],
+  "qualityGate": false,
+  "medianCallCostVsOldest": 0.8409342751312991,
+  "necessaryCostGate": true,
+  "independentHVCheckMaxError": 2.4148909326220103e-17,
+  "scope": "Reused development contexts;55 fixed directions and2 construction samples per actual parent. Directions are not independent instances or tuning trials. All offspring equally averaged; no per-parent direction selection. Call timings interleave shared probe archive and offline QA, not same-time method runs."
+}

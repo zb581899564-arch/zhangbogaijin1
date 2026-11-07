@@ -1,0 +1,15 @@
+{
+  "source": "strong-state-kernel-20261104-230726-286100",
+  "scope": "The all-role replacement gate failed. Only the M window showed best-Cmax wins in5/7 free-parent cases in each instance. Freeze a new M-only hypothesis; do not reclassify the failed all-role gate.",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "stateSeeds": [
+    9280039,
+    9280071
+  ],
+  "candidateReps": 32,
+  "primary": "For each instance across both other state seeds, CLASSIC_GLOBAL must win best-Cmax in at least two thirds of M cases and have >1.1x total same32FE new-HV gain vs JOB_ALIGNED. Other role results remain descriptive and cannot replace the primary window.",
+  "next": "Only if both instances pass, a new paired full-budget M-only vs all-role vs original-kernel study can start. Same-parent evidence alone is never final method efficacy."
+}

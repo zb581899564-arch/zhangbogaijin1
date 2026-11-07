@@ -1,0 +1,567 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "coverage": {
+        "pairs": 512,
+        "reasons": {
+          "ELIGIBLE": 431,
+          "NO_WORKER_REUSE": 81
+        },
+        "identicalOrderControls": 207,
+        "identicalContextControls": 111
+      },
+      "referenceSummaries": {
+        "1.25": {
+          "meanArchiveSingleGain": {
+            "PREFIX": 1.455888730725666e-05,
+            "ORDER_CONTROL": 1.568179416761435e-05,
+            "CONTEXT_CONTROL": 1.4748206591021662e-05
+          },
+          "winsVsBestMatchedControl": 11,
+          "lossesVsBestMatchedControl": 33,
+          "tiesVsBestMatchedControl": 468,
+          "materialReceivers": 2,
+          "preselectedReceivers": 16,
+          "meanParentSingleGain": {
+            "PREFIX": 0.0010947906424153392,
+            "ORDER_CONTROL": 0.0010171025366712033,
+            "CONTEXT_CONTROL": 0.0010699683600733283
+          }
+        },
+        "1.5": {
+          "meanArchiveSingleGain": {
+            "PREFIX": 3.351779209378211e-05,
+            "ORDER_CONTROL": 3.6547730201159576e-05,
+            "CONTEXT_CONTROL": 3.218734788585503e-05
+          },
+          "winsVsBestMatchedControl": 11,
+          "lossesVsBestMatchedControl": 33,
+          "tiesVsBestMatchedControl": 468,
+          "materialReceivers": 2,
+          "preselectedReceivers": 16,
+          "meanParentSingleGain": {
+            "PREFIX": 0.002701742584667824,
+            "ORDER_CONTROL": 0.002516075667371766,
+            "CONTEXT_CONTROL": 0.002617789416635452
+          }
+        },
+        "2.0": {
+          "meanArchiveSingleGain": {
+            "PREFIX": 9.150076812152602e-05,
+            "ORDER_CONTROL": 0.00010062308380367514,
+            "CONTEXT_CONTROL": 8.592696146736932e-05
+          },
+          "winsVsBestMatchedControl": 11,
+          "lossesVsBestMatchedControl": 33,
+          "tiesVsBestMatchedControl": 468,
+          "materialReceivers": 2,
+          "preselectedReceivers": 16,
+          "meanParentSingleGain": {
+            "PREFIX": 0.007919263153421972,
+            "ORDER_CONTROL": 0.00738298330780042,
+            "CONTEXT_CONTROL": 0.0076236776435480245
+          }
+        }
+      },
+      "prefixGates": {
+        "eligibleCoverage": true,
+        "materialReceiverCoverage": false,
+        "meanQuality": false,
+        "pairedQuality": false,
+        "referenceDirection": false
+      },
+      "worthIndependentPrefixContinuation": false,
+      "roleComparison": {
+        "centerMean": 6.080496137341731e-05,
+        "equalWeightSpecialistMean": 2.4422069000570378e-05,
+        "receiverWins": 4,
+        "receiverLosses": 9,
+        "pass": false,
+        "receivers": [
+          {
+            "seed": 11730007,
+            "receiverRank": 0,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 1.2537379076617283e-05,
+              "CENTER": 1.5089008191963849e-05,
+              "ENERGY": 2.491635474126397e-05,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 1.248457793929375e-05,
+            "differenceVsCenter": -2.604430252670098e-06
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 1,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 8.444682820088478e-06,
+              "CENTER": 3.417183984610883e-06,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 2.814894273362826e-06,
+            "differenceVsCenter": -6.022897112480572e-07
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 2,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 2.2448449621070843e-05,
+              "CENTER": 1.3203360352265214e-07,
+              "ENERGY": 7.399701261456837e-09,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 7.4852831074441e-06,
+            "differenceVsCenter": 7.353249503921448e-06
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 3,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 2.0779383644309313e-08,
+              "ENERGY": 0.0,
+              "WORKER_COST": 1.3392512646509536e-06
+            },
+            "equalWeightSpecialistMean": 4.464170882169845e-07,
+            "differenceVsCenter": 4.256377045726752e-07
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 4,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0007296483155269096,
+              "CENTER": 1.0930292488192661e-06,
+              "ENERGY": 0.0003698104446796732,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.00036648625340219426,
+            "differenceVsCenter": 0.000365393224153375
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 5,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 2.9599445164063543e-06,
+              "CENTER": 4.600136562137036e-06,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 9.866481721354514e-07,
+            "differenceVsCenter": -3.6134883900015846e-06
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 6,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 7,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 0,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 1.3877787807814457e-17,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 6.938893903907228e-18
+            },
+            "equalWeightSpecialistMean": 6.938893903907228e-18,
+            "differenceVsCenter": 6.938893903907228e-18
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 1,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 4.298330592150679e-08,
+              "ENERGY": 1.3877787807814457e-17,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 4.625929269271485e-18,
+            "differenceVsCenter": -4.2983305916880855e-08
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 2,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 1.4401829617864681e-05,
+              "ENERGY": 1.1289548459969545e-07,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 3.7631828199898486e-08,
+            "differenceVsCenter": -1.4364197789664782e-05
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 3,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 1.3877787807814457e-17,
+              "CENTER": 7.063966564468949e-10,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 4.625929269271485e-18,
+            "differenceVsCenter": -7.063966518209656e-10
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 4,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0009337474716061903,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": -0.0009337474716061903
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 5,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 2.3575028368361117e-07,
+              "ENERGY": 0.0,
+              "WORKER_COST": 6.938893903907228e-18
+            },
+            "equalWeightSpecialistMean": 2.3129646346357427e-18,
+            "differenceVsCenter": -2.3575028368129822e-07
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 6,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 9.820641991981072e-08,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": -9.820641991981072e-08
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 7,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 6.938893903907228e-18,
+              "CENTER": 2.633697426812631e-10,
+              "ENERGY": 3.4194594766834285e-08,
+              "WORKER_COST": 6.938893903907228e-18
+            },
+            "equalWeightSpecialistMean": 1.1398198260237358e-08,
+            "differenceVsCenter": 1.1134828517556095e-08
+          }
+        ]
+      },
+      "beta0MeanParentSingleGain": {
+        "PREFIX": 0.0064593308002374285,
+        "ORDER_CONTROL": 0.006344065864242725,
+        "CONTEXT_CONTROL": 0.006029021799339459
+      },
+      "goalAchieved": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "coverage": {
+        "pairs": 512,
+        "reasons": {
+          "ELIGIBLE": 512
+        },
+        "identicalOrderControls": 209,
+        "identicalContextControls": 0
+      },
+      "referenceSummaries": {
+        "1.25": {
+          "meanArchiveSingleGain": {
+            "PREFIX": 6.0164234051410985e-06,
+            "ORDER_CONTROL": 5.286303157616594e-06,
+            "CONTEXT_CONTROL": 7.930579331396617e-06
+          },
+          "winsVsBestMatchedControl": 13,
+          "lossesVsBestMatchedControl": 90,
+          "tiesVsBestMatchedControl": 409,
+          "materialReceivers": 3,
+          "preselectedReceivers": 16,
+          "meanParentSingleGain": {
+            "PREFIX": 0.001772235538039772,
+            "ORDER_CONTROL": 0.0017175008399321397,
+            "CONTEXT_CONTROL": 0.0018358161764487563
+          }
+        },
+        "1.5": {
+          "meanArchiveSingleGain": {
+            "PREFIX": 9.778535187323278e-06,
+            "ORDER_CONTROL": 8.805600167272835e-06,
+            "CONTEXT_CONTROL": 1.5229228284383e-05
+          },
+          "winsVsBestMatchedControl": 13,
+          "lossesVsBestMatchedControl": 90,
+          "tiesVsBestMatchedControl": 409,
+          "materialReceivers": 1,
+          "preselectedReceivers": 16,
+          "meanParentSingleGain": {
+            "PREFIX": 0.004288669689171354,
+            "ORDER_CONTROL": 0.004173042576033068,
+            "CONTEXT_CONTROL": 0.004497678241734188
+          }
+        },
+        "2.0": {
+          "meanArchiveSingleGain": {
+            "PREFIX": 1.98976210319746e-05,
+            "ORDER_CONTROL": 1.8439070587791123e-05,
+            "CONTEXT_CONTROL": 3.766293089152266e-05
+          },
+          "winsVsBestMatchedControl": 13,
+          "lossesVsBestMatchedControl": 90,
+          "tiesVsBestMatchedControl": 409,
+          "materialReceivers": 1,
+          "preselectedReceivers": 16,
+          "meanParentSingleGain": {
+            "PREFIX": 0.012472916892749042,
+            "ORDER_CONTROL": 0.012173336877109127,
+            "CONTEXT_CONTROL": 0.013191676768606862
+          }
+        }
+      },
+      "prefixGates": {
+        "eligibleCoverage": true,
+        "materialReceiverCoverage": false,
+        "meanQuality": false,
+        "pairedQuality": false,
+        "referenceDirection": false
+      },
+      "worthIndependentPrefixContinuation": false,
+      "roleComparison": {
+        "centerMean": 2.885470373256184e-06,
+        "equalWeightSpecialistMean": 1.2076223458678976e-05,
+        "receiverWins": 8,
+        "receiverLosses": 3,
+        "pass": true,
+        "receivers": [
+          {
+            "seed": 11730007,
+            "receiverRank": 0,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 2.988183327667926e-06,
+              "CENTER": 1.5975535866380453e-05,
+              "ENERGY": 0.0001433927083985681,
+              "WORKER_COST": 4.870215005034484e-05
+            },
+            "equalWeightSpecialistMean": 6.502768059219362e-05,
+            "differenceVsCenter": 4.9052144725813166e-05
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 1,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 2.135545865145083e-09,
+              "CENTER": 1.7995006998394736e-08,
+              "ENERGY": 6.278375227486421e-07,
+              "WORKER_COST": 2.505591330664858e-07
+            },
+            "equalWeightSpecialistMean": 2.9351073389342436e-07,
+            "differenceVsCenter": 2.755157268950296e-07
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 2,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 6.507163784932879e-06,
+              "CENTER": 1.644054908406245e-06,
+              "ENERGY": 7.685084299491329e-08,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 2.1946715426425976e-06,
+            "differenceVsCenter": 5.506166342363525e-07
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 3,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 4,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0001606010709680472
+            },
+            "equalWeightSpecialistMean": 5.3533690322682403e-05,
+            "differenceVsCenter": 5.3533690322682403e-05
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 5,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 7.472088457693982e-08,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": -7.472088457693982e-08
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 6,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 1.719768523839038e-07,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 5.732561746130127e-08,
+            "differenceVsCenter": 5.732561746130127e-08
+          },
+          {
+            "seed": 11730007,
+            "receiverRank": 7,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 2.8372241861474023e-08,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 1.1356672729723183e-06
+            },
+            "equalWeightSpecialistMean": 3.880131716112641e-07,
+            "differenceVsCenter": 3.880131716112641e-07
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 0,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 1.1952067386925003e-05,
+              "CENTER": 8.911615633183656e-06,
+              "ENERGY": 0.0,
+              "WORKER_COST": 1.0227745664281862e-07
+            },
+            "equalWeightSpecialistMean": 4.01811494785594e-06,
+            "differenceVsCenter": -4.893500685327716e-06
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 1,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 2.3366395564675124e-05,
+              "CENTER": 1.5792057342201016e-05,
+              "ENERGY": 0.0001630132043724114,
+              "WORKER_COST": 4.958974685553841e-06
+            },
+            "equalWeightSpecialistMean": 6.377952487421346e-05,
+            "differenceVsCenter": 4.798746753201244e-05
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 2,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 3,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 2.5347121064001055e-06,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": -2.5347121064001055e-06
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 4,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 5,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 6,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 1.2168342239521346e-06,
+              "ENERGY": 1.1781130608928825e-05,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 3.9270435363096085e-06,
+            "differenceVsCenter": 2.710209312357474e-06
+          },
+          {
+            "seed": 11730037,
+            "receiverRank": 7,
+            "roleMeanSingleGain": {
+              "MAKESPAN": 0.0,
+              "CENTER": 0.0,
+              "ENERGY": 0.0,
+              "WORKER_COST": 0.0
+            },
+            "equalWeightSpecialistMean": 0.0,
+            "differenceVsCenter": 0.0
+          }
+        ]
+      },
+      "beta0MeanParentSingleGain": {
+        "PREFIX": 0.005821571398051858,
+        "ORDER_CONTROL": 0.005848899781258682,
+        "CONTEXT_CONTROL": 0.0057731542823787774
+      },
+      "goalAchieved": false
+    }
+  ],
+  "worthIndependentPrefixContinuation": false,
+  "fourRoleSupplyNecessaryCondition": false,
+  "newAlgorithmImplemented": false,
+  "goalAchieved": false
+}

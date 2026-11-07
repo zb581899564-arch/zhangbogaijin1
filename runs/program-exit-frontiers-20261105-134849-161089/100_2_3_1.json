@@ -1,0 +1,426 @@
+{
+  "stem": "100_2_3_1",
+  "comparisons": [
+    {
+      "seed": 13390003,
+      "first": "FULL_ON",
+      "second": "FULL_OFF",
+      "firstPoints": 208,
+      "secondPoints": 225,
+      "firstStrictlyDominatedBySecond": 37,
+      "secondStrictlyDominatedByFirst": 61,
+      "missingSecondVolumePctOfFirstHV": 0.22133062068223563,
+      "missingFirstVolumePctOfSecondHV": 3.3313706663413516,
+      "firstApproximationToSecondReferenceIGDplus": 0.005207554470007724,
+      "secondApproximationToFirstReferenceIGDplus": 0.005772400559594169,
+      "firstVsSecondObjectiveMinimaPct": [
+        0.0,
+        -3.811890933421924,
+        -0.7304465417890205
+      ]
+    },
+    {
+      "seed": 13390003,
+      "first": "FULL_ON",
+      "second": "NSGA_ON",
+      "firstPoints": 208,
+      "secondPoints": 241,
+      "firstStrictlyDominatedBySecond": 60,
+      "secondStrictlyDominatedByFirst": 60,
+      "missingSecondVolumePctOfFirstHV": 2.473682345286909,
+      "missingFirstVolumePctOfSecondHV": 1.3223404029250734,
+      "firstApproximationToSecondReferenceIGDplus": 0.006612495895658312,
+      "secondApproximationToFirstReferenceIGDplus": 0.012591830819885906,
+      "firstVsSecondObjectiveMinimaPct": [
+        2.811857798957673,
+        -1.4202700265321777,
+        1.6359909095395198
+      ]
+    },
+    {
+      "seed": 13390003,
+      "first": "FULL_ON",
+      "second": "NSGA_OFF",
+      "firstPoints": 208,
+      "secondPoints": 233,
+      "firstStrictlyDominatedBySecond": 59,
+      "secondStrictlyDominatedByFirst": 89,
+      "missingSecondVolumePctOfFirstHV": 0.5688421199662289,
+      "missingFirstVolumePctOfSecondHV": 4.102568325583532,
+      "firstApproximationToSecondReferenceIGDplus": 0.00430539212398574,
+      "secondApproximationToFirstReferenceIGDplus": 0.013389603043859121,
+      "firstVsSecondObjectiveMinimaPct": [
+        2.811857798957673,
+        -1.4196088074841184,
+        -2.225806592846058
+      ]
+    },
+    {
+      "seed": 13390037,
+      "first": "FULL_ON",
+      "second": "FULL_OFF",
+      "firstPoints": 354,
+      "secondPoints": 242,
+      "firstStrictlyDominatedBySecond": 36,
+      "secondStrictlyDominatedByFirst": 16,
+      "missingSecondVolumePctOfFirstHV": 0.18282346454755996,
+      "missingFirstVolumePctOfSecondHV": 6.205037665361469,
+      "firstApproximationToSecondReferenceIGDplus": 0.0048900630410839,
+      "secondApproximationToFirstReferenceIGDplus": 0.008907466734626066,
+      "firstVsSecondObjectiveMinimaPct": [
+        0.0,
+        -2.2387038679315796,
+        -3.8207601381245904
+      ]
+    },
+    {
+      "seed": 13390037,
+      "first": "FULL_ON",
+      "second": "NSGA_ON",
+      "firstPoints": 354,
+      "secondPoints": 351,
+      "firstStrictlyDominatedBySecond": 141,
+      "secondStrictlyDominatedByFirst": 139,
+      "missingSecondVolumePctOfFirstHV": 0.633166886541397,
+      "missingFirstVolumePctOfSecondHV": 0.5464008787623881,
+      "firstApproximationToSecondReferenceIGDplus": 0.007232610852360439,
+      "secondApproximationToFirstReferenceIGDplus": 0.010347739629218065,
+      "firstVsSecondObjectiveMinimaPct": [
+        -1.094443837131498,
+        0.10965115132126613,
+        0.27464642444425813
+      ]
+    },
+    {
+      "seed": 13390037,
+      "first": "FULL_ON",
+      "second": "NSGA_OFF",
+      "firstPoints": 354,
+      "secondPoints": 192,
+      "firstStrictlyDominatedBySecond": 97,
+      "secondStrictlyDominatedByFirst": 62,
+      "missingSecondVolumePctOfFirstHV": 0.17388760688479327,
+      "missingFirstVolumePctOfSecondHV": 7.86530843536315,
+      "firstApproximationToSecondReferenceIGDplus": 0.006487508848284263,
+      "secondApproximationToFirstReferenceIGDplus": 0.015268895348135164,
+      "firstVsSecondObjectiveMinimaPct": [
+        -1.094443837131498,
+        -4.786324649956331,
+        -3.5219044557407986
+      ]
+    }
+  ],
+  "actualSearchScope": {
+    "13390003:FULL_OFF": {
+      "globalFE": 5000,
+      "interFE": 77,
+      "intraFE": 94823,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 61716
+        },
+        "2": {
+          "startedParticleVisits": 6,
+          "ledgerSlots": 163,
+          "paidFE": 33184
+        }
+      },
+      "firstMlocalEndFE": 66816,
+      "frontPointBirthPhases": {
+        "Mlocal": 58,
+        "Clocal": 167
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390003:FULL_ON": {
+      "globalFE": 5000,
+      "interFE": 69,
+      "intraFE": 94831,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 61716
+        },
+        "2": {
+          "startedParticleVisits": 5,
+          "ledgerSlots": 126,
+          "paidFE": 33184
+        }
+      },
+      "firstMlocalEndFE": 66816,
+      "frontPointBirthPhases": {
+        "Mlocal": 59,
+        "Clocal": 149
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390003:NSGA_OFF": {
+      "globalFE": 5000,
+      "interFE": 96,
+      "intraFE": 94804,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 59684
+        },
+        "2": {
+          "startedParticleVisits": 6,
+          "ledgerSlots": 161,
+          "paidFE": 35216
+        }
+      }
+    },
+    "13390003:NSGA_ON": {
+      "globalFE": 5000,
+      "interFE": 94,
+      "intraFE": 94806,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 59684
+        },
+        "2": {
+          "startedParticleVisits": 5,
+          "ledgerSlots": 130,
+          "paidFE": 35216
+        }
+      }
+    },
+    "13390037:FULL_OFF": {
+      "globalFE": 5000,
+      "interFE": 79,
+      "intraFE": 94821,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 62266
+        },
+        "2": {
+          "startedParticleVisits": 5,
+          "ledgerSlots": 154,
+          "paidFE": 32634
+        }
+      },
+      "firstMlocalEndFE": 67366,
+      "frontPointBirthPhases": {
+        "Mlocal": 100,
+        "Clocal": 142
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390037:FULL_ON": {
+      "globalFE": 5000,
+      "interFE": 81,
+      "intraFE": 94819,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 62266
+        },
+        "2": {
+          "startedParticleVisits": 5,
+          "ledgerSlots": 130,
+          "paidFE": 32634
+        }
+      },
+      "firstMlocalEndFE": 67366,
+      "frontPointBirthPhases": {
+        "Mlocal": 100,
+        "Clocal": 254
+      },
+      "laterBoundaryLocalSearchNotReached": true
+    },
+    "13390037:NSGA_OFF": {
+      "globalFE": 5000,
+      "interFE": 108,
+      "intraFE": 94792,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 57566
+        },
+        "2": {
+          "startedParticleVisits": 6,
+          "ledgerSlots": 177,
+          "paidFE": 37334
+        }
+      }
+    },
+    "13390037:NSGA_ON": {
+      "globalFE": 5000,
+      "interFE": 108,
+      "intraFE": 94792,
+      "byPhysicalGroup": {
+        "1": {
+          "startedParticleVisits": 15,
+          "ledgerSlots": 465,
+          "paidFE": 57566
+        },
+        "2": {
+          "startedParticleVisits": 6,
+          "ledgerSlots": 160,
+          "paidFE": 37334
+        }
+      }
+    }
+  },
+  "registeredEmpiricalReferenceSize": 605,
+  "empiricalReferenceOriginPartition": [
+    {
+      "origins": [
+        "13390037:FULL_OFF",
+        "13390037:FULL_ON"
+      ],
+      "referencePoints": 12,
+      "referenceWeight": 0.019834710743801654,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.017066513340223462,
+        "13390003:NSGA_ON": 0.006418828339531331,
+        "13390037:FULL_ON": 0.0,
+        "13390037:NSGA_ON": 0.002203456474319456
+      }
+    },
+    {
+      "origins": [
+        "13390037:NSGA_OFF",
+        "13390037:NSGA_ON"
+      ],
+      "referencePoints": 83,
+      "referenceWeight": 0.1371900826446281,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.018847720114553882,
+        "13390003:NSGA_ON": 0.00897627683550897,
+        "13390037:FULL_ON": 0.01242246768048297,
+        "13390037:NSGA_ON": 0.0
+      }
+    },
+    {
+      "origins": [
+        "13390003:NSGA_OFF",
+        "13390003:NSGA_ON"
+      ],
+      "referencePoints": 5,
+      "referenceWeight": 0.008264462809917356,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.017175311411144572,
+        "13390003:NSGA_ON": 0.0,
+        "13390037:FULL_ON": 0.009373406563213884,
+        "13390037:NSGA_ON": 0.0012900320574737011
+      }
+    },
+    {
+      "origins": [
+        "13390003:FULL_ON"
+      ],
+      "referencePoints": 79,
+      "referenceWeight": 0.1305785123966942,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.0,
+        "13390003:NSGA_ON": 0.016725997481406962,
+        "13390037:FULL_ON": 0.009865540378534583,
+        "13390037:NSGA_ON": 0.02458490868823673
+      }
+    },
+    {
+      "origins": [
+        "13390003:FULL_OFF"
+      ],
+      "referencePoints": 71,
+      "referenceWeight": 0.11735537190082644,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.014529897927129831,
+        "13390003:NSGA_ON": 0.02339998959802981,
+        "13390037:FULL_ON": 0.008247812475640269,
+        "13390037:NSGA_ON": 0.02375295195042003
+      }
+    },
+    {
+      "origins": [
+        "13390037:FULL_OFF"
+      ],
+      "referencePoints": 116,
+      "referenceWeight": 0.19173553719008266,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.009743730898789046,
+        "13390003:NSGA_ON": 0.029032414176297833,
+        "13390037:FULL_ON": 0.009420862766042577,
+        "13390037:NSGA_ON": 0.026778568052018604
+      }
+    },
+    {
+      "origins": [
+        "13390037:FULL_ON"
+      ],
+      "referencePoints": 101,
+      "referenceWeight": 0.1669421487603306,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.0052612636566457625,
+        "13390003:NSGA_ON": 0.014243718559257572,
+        "13390037:FULL_ON": 0.0,
+        "13390037:NSGA_ON": 0.02317564260383757
+      }
+    },
+    {
+      "origins": [
+        "13390037:NSGA_OFF"
+      ],
+      "referencePoints": 8,
+      "referenceWeight": 0.013223140495867768,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.008036241707749619,
+        "13390003:NSGA_ON": 0.014712101999706545,
+        "13390037:FULL_ON": 0.007132079045544151,
+        "13390037:NSGA_ON": 0.018143933352893056
+      }
+    },
+    {
+      "origins": [
+        "13390037:NSGA_ON"
+      ],
+      "referencePoints": 27,
+      "referenceWeight": 0.04462809917355372,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.01060364163564924,
+        "13390003:NSGA_ON": 0.009087043581052867,
+        "13390037:FULL_ON": 0.00537770888427737,
+        "13390037:NSGA_ON": 0.0
+      }
+    },
+    {
+      "origins": [
+        "13390003:NSGA_ON"
+      ],
+      "referencePoints": 76,
+      "referenceWeight": 0.1256198347107438,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.008976472869389915,
+        "13390003:NSGA_ON": 0.0,
+        "13390037:FULL_ON": 0.018358595197614562,
+        "13390037:NSGA_ON": 0.011574153820248744
+      }
+    },
+    {
+      "origins": [
+        "13390003:NSGA_OFF"
+      ],
+      "referencePoints": 27,
+      "referenceWeight": 0.04462809917355372,
+      "meanIGDplusByOnArmAndSeed": {
+        "13390003:FULL_ON": 0.002216699184640225,
+        "13390003:NSGA_ON": 0.008901740399665846,
+        "13390037:FULL_ON": 0.006697551019350995,
+        "13390037:NSGA_ON": 0.015738801271299657
+      }
+    }
+  ],
+  "noAlternativeReferenceOrGateSubstitution": true,
+  "pilotStopUnchanged": true
+}

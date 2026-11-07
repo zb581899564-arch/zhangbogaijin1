@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "context": "104540",
+      "maxDependencyError": 2.220446049250313e-16,
+      "maxMergeDeficit": 0.0
+    },
+    {
+      "context": "179120",
+      "maxDependencyError": 2.220446049250313e-16,
+      "maxMergeDeficit": 0.0
+    },
+    {
+      "context": "228840",
+      "maxDependencyError": 2.220446049250313e-16,
+      "maxMergeDeficit": 0.0
+    }
+  ],
+  "generatedCandidates": 4608,
+  "sourceQA": 600,
+  "sameLegalParentKeysMaskAndRow": true,
+  "shuffledExactPerJobEligibleMarginals": true,
+  "newDecodes": 0,
+  "rngRule": "sha256(mid-support-v1|14910003|context|receiverFreeIndex|label) first8 BE -> Python Random",
+  "legacyEvaluatorMask": "1 is transport only; actual FOS in schedule.jsonl",
+  "sourceHashes": {
+    "source/audit/audit_models.py": "7b718d1b3dfc500d82716dbd3716038a0fcc23a877b984f3a3e079f44bddfc73",
+    "source/audit/audit_core.py": "5ee3127fe91cdd39e5364e1c9336f87a62865d34956f180f78c91c86b6a0e59c",
+    "source/java/SupportModels.java": "bf3f4d4199c83d2c248c8b153287d2cdbdda3e74204d7b41e018d5747838824d",
+    "source/java/PaTrajectoryBridge.java": "b6c2bff3751af46339c0944fbeb8dee26ed071c03f1a6bf9e6161dcdff744110",
+    "source/java/CounterfactualInputs.java": "78cd2542bb09e483e08b5d8f8278d2b5343da43156648c982a667f8ff6920579",
+    "source/java/SupportFixture.java": "36e9660950b9e6aea4966c4f323e64ee9d51ef95cea639d55ecd1be5aaccb618",
+    "source/java/CounterfactualRun.java": "5f19d944c71af96d48b8177e16466dc1ccbe62a40662e8a32c9cacbb2ee6aa0f",
+    "source/scripts/extract-v2.py": "af18d6706ff10d60438535025a0c6e672c94beac16fe39b460e56ecf18cb652e",
+    "source/scripts/evaluate.py": "3f1b0a598188382a3653dfd3d44d768712d0e798d23117b19839b912797d891e",
+    "source/scripts/extract.py": "4daff4a716b1298f3424a7837f654e7cb739cffb3e1c09757dd4feed72ab5a6c",
+    "source/scripts/generate.py": "35073ecda30872c039e43ddaf4c0e50a6dacfbd91ae97e4dcc5758a2373004f0",
+    "source/scripts/common.py": "f303dae483ce1c83ebaa595d6f6bd3351613966b1a1425d5954fd19d912441eb",
+    "source/scripts/capture.py": "1cea8ce8e76a3b19f44de39f33825ec1770b63a60483821ae78e9df328477752"
+  }
+}

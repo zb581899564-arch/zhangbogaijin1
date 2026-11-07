@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "paidGenomeDigestArchiveAndAcceptReplayPassed": true,
+      "assignment": {
+        "primalLPVariables": 3025,
+        "equalityConstraints": 110,
+        "minimumAssignmentCost": 11.068090295802126,
+        "LPObjectiveError": 0.0
+      },
+      "tables": [
+        {
+          "mode": "MATCHED",
+          "changedCenterDecisions": 3899,
+          "allCountsExamplesAndProgramGateVerified": true
+        },
+        {
+          "mode": "LEX",
+          "changedCenterDecisions": 3899,
+          "allCountsExamplesAndProgramGateVerified": true
+        }
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "paidGenomeDigestArchiveAndAcceptReplayPassed": true,
+      "assignment": {
+        "primalLPVariables": 3025,
+        "equalityConstraints": 110,
+        "minimumAssignmentCost": 12.370328674757802,
+        "LPObjectiveError": 3.552713678800501e-15
+      },
+      "tables": [
+        {
+          "mode": "MATCHED",
+          "changedCenterDecisions": 21423,
+          "allCountsExamplesAndProgramGateVerified": true
+        },
+        {
+          "mode": "LEX",
+          "changedCenterDecisions": 21423,
+          "allCountsExamplesAndProgramGateVerified": true
+        }
+      ]
+    }
+  ],
+  "sourcePaidRowsReplayed": 47800,
+  "newSearchFE": 0,
+  "newObjectiveQueries": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

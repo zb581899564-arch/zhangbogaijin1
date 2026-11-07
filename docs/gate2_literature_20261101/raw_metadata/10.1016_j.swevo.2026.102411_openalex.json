@@ -1,0 +1,675 @@
+{
+  "id": "https://openalex.org/W7161153781",
+  "doi": "https://doi.org/10.1016/j.swevo.2026.102411",
+  "title": "Modeling and optimization of a fatigue-aware distributed flexible job shop scheduling problem with dual resources",
+  "display_name": "Modeling and optimization of a fatigue-aware distributed flexible job shop scheduling problem with dual resources",
+  "publication_year": 2026,
+  "publication_date": "2026-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W7161153781",
+    "doi": "https://doi.org/10.1016/j.swevo.2026.102411"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.swevo.2026.102411",
+    "doi": "https://doi.org/10.1016/j.swevo.2026.102411",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.swevo.2026.102411",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764346689",
+      "display_name": "Swarm and Evolutionary Computation",
+      "issn_l": "2210-6502",
+      "issn": [
+        "2210-6502",
+        "2210-6510"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "dongbi-d",
+        "jufo-2",
+        "norway-1",
+        "poland-140",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Swarm and Evolutionary Computation",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5136160592",
+        "display_name": "Kunpeng Teng",
+        "orcid": "https://orcid.org/0009-0008-8373-0901",
+        "observed_orcids": [
+          "https://orcid.org/0009-0008-8373-0901"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3124059619",
+          "display_name": "China University of Geosciences",
+          "ror": "https://ror.org/04gcegc37",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3124059619"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kunpeng Teng",
+      "raw_affiliation_strings": [
+        "School of Computer Sciences, China University of Geosciences, Wuhan 430074, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0008-8373-0901",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Computer Sciences, China University of Geosciences, Wuhan 430074, China",
+          "institution_ids": [
+            "https://openalex.org/I3124059619"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050605858",
+        "display_name": "Chao Lu",
+        "orcid": "https://orcid.org/0000-0003-4637-6065",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4637-6065"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3124059619",
+          "display_name": "China University of Geosciences",
+          "ror": "https://ror.org/04gcegc37",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3124059619"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Chao Lu",
+      "raw_affiliation_strings": [
+        "School of Computer Sciences, China University of Geosciences, Wuhan 430074, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4637-6065",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Computer Sciences, China University of Geosciences, Wuhan 430074, China",
+          "institution_ids": [
+            "https://openalex.org/I3124059619"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Caozheng Yan",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210126203",
+          "display_name": "Hubei University of Automotive Technology",
+          "ror": "https://ror.org/039m95m06",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210126203"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Caozheng Yan",
+      "raw_affiliation_strings": [
+        "School of Economics and Management, Hubel University of Automotive Technology, Shiyan 442002, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Economics and Management, Hubel University of Automotive Technology, Shiyan 442002, China",
+          "institution_ids": [
+            "https://openalex.org/I4210126203"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5050605858"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I3124059619"
+  ],
+  "apc_list": {
+    "value": 3690,
+    "currency": "USD",
+    "value_usd": 3690
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.26608587,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "105",
+    "issue": null,
+    "first_page": "102411",
+    "last_page": "102411"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10551",
+    "display_name": "Scheduling and Optimization Algorithms",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2209",
+      "display_name": "Industrial and Manufacturing Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10551",
+      "display_name": "Scheduling and Optimization Algorithms",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11814",
+      "display_name": "Advanced Manufacturing and Logistics Optimization",
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11773",
+      "display_name": "Healthcare Operations and Scheduling Optimization",
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3604",
+        "display_name": "Emergency Medical Services"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/distributed-flexible-job-shop-scheduling",
+      "display_name": "distributed flexible job shop scheduling",
+      "score": 0.9549999833106995
+    },
+    {
+      "id": "https://openalex.org/keywords/worker-fatigue",
+      "display_name": "worker fatigue",
+      "score": 0.9670000076293945
+    },
+    {
+      "id": "https://openalex.org/keywords/makespan-minimization",
+      "display_name": "makespan minimization",
+      "score": 0.7450000047683716
+    },
+    {
+      "id": "https://openalex.org/keywords/hybrid-multi-objective-optimization",
+      "display_name": "hybrid multi-objective optimization",
+      "score": 0.7749999761581421
+    },
+    {
+      "id": "https://openalex.org/keywords/job-assignment",
+      "display_name": "job assignment",
+      "score": 0.4959999918937683
+    },
+    {
+      "id": "https://openalex.org/keywords/machine-assignment",
+      "display_name": "machine assignment",
+      "score": 0.7459999918937683
+    },
+    {
+      "id": "https://openalex.org/keywords/neighborhood-search",
+      "display_name": "neighborhood search",
+      "score": 0.6380000114440918
+    },
+    {
+      "id": "https://openalex.org/keywords/critical-path-method",
+      "display_name": "critical path method",
+      "score": 0.7929999828338623
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.8391000032424927
+    },
+    {
+      "id": "https://openalex.org/C55416958",
+      "wikidata": "https://www.wikidata.org/wiki/Q6206757",
+      "display_name": "Job shop scheduling",
+      "level": 3,
+      "score": 0.5899999737739563
+    },
+    {
+      "id": "https://openalex.org/C158336966",
+      "wikidata": "https://www.wikidata.org/wiki/Q3074426",
+      "display_name": "Flow shop scheduling",
+      "level": 4,
+      "score": 0.5782999992370605
+    },
+    {
+      "id": "https://openalex.org/C120314980",
+      "wikidata": "https://www.wikidata.org/wiki/Q180634",
+      "display_name": "Distributed computing",
+      "level": 1,
+      "score": 0.5435000061988831
+    },
+    {
+      "id": "https://openalex.org/C114466953",
+      "wikidata": "https://www.wikidata.org/wiki/Q6034165",
+      "display_name": "Initialization",
+      "level": 2,
+      "score": 0.526199996471405
+    },
+    {
+      "id": "https://openalex.org/C206729178",
+      "wikidata": "https://www.wikidata.org/wiki/Q2271896",
+      "display_name": "Scheduling (production processes)",
+      "level": 2,
+      "score": 0.5085999965667725
+    },
+    {
+      "id": "https://openalex.org/C2777243215",
+      "wikidata": "https://www.wikidata.org/wiki/Q1493226",
+      "display_name": "Job shop",
+      "level": 5,
+      "score": 0.501800000667572
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.47749999165534973
+    },
+    {
+      "id": "https://openalex.org/C111873713",
+      "wikidata": "https://www.wikidata.org/wiki/Q1641413",
+      "display_name": "Job scheduler",
+      "level": 3,
+      "score": 0.43799999356269836
+    },
+    {
+      "id": "https://openalex.org/C185798385",
+      "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+      "display_name": "Benchmark (surveying)",
+      "level": 2,
+      "score": 0.4163999855518341
+    },
+    {
+      "id": "https://openalex.org/C63479239",
+      "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+      "display_name": "Robustness (evolution)",
+      "level": 3,
+      "score": 0.4133000075817108
+    },
+    {
+      "id": "https://openalex.org/C31689143",
+      "wikidata": "https://www.wikidata.org/wiki/Q733809",
+      "display_name": "Fair-share scheduling",
+      "level": 3,
+      "score": 0.396699994802475
+    },
+    {
+      "id": "https://openalex.org/C107568181",
+      "wikidata": "https://www.wikidata.org/wiki/Q5319000",
+      "display_name": "Dynamic priority scheduling",
+      "level": 3,
+      "score": 0.38510000705718994
+    },
+    {
+      "id": "https://openalex.org/C115874739",
+      "wikidata": "https://www.wikidata.org/wiki/Q825377",
+      "display_name": "Critical path method",
+      "level": 2,
+      "score": 0.3824999928474426
+    },
+    {
+      "id": "https://openalex.org/C2780980858",
+      "wikidata": "https://www.wikidata.org/wiki/Q110022",
+      "display_name": "Dual (grammatical number)",
+      "level": 2,
+      "score": 0.3662000000476837
+    },
+    {
+      "id": "https://openalex.org/C127456818",
+      "wikidata": "https://www.wikidata.org/wiki/Q238879",
+      "display_name": "Rate-monotonic scheduling",
+      "level": 4,
+      "score": 0.34779998660087585
+    },
+    {
+      "id": "https://openalex.org/C119948110",
+      "wikidata": "https://www.wikidata.org/wiki/Q7858726",
+      "display_name": "Two-level scheduling",
+      "level": 4,
+      "score": 0.3264000117778778
+    },
+    {
+      "id": "https://openalex.org/C159022435",
+      "wikidata": "https://www.wikidata.org/wiki/Q5532874",
+      "display_name": "Genetic algorithm scheduling",
+      "level": 5,
+      "score": 0.302700012922287
+    },
+    {
+      "id": "https://openalex.org/C13736549",
+      "wikidata": "https://www.wikidata.org/wiki/Q4489420",
+      "display_name": "Industrial engineering",
+      "level": 1,
+      "score": 0.296999990940094
+    },
+    {
+      "id": "https://openalex.org/C41045048",
+      "wikidata": "https://www.wikidata.org/wiki/Q202843",
+      "display_name": "Linear programming",
+      "level": 2,
+      "score": 0.29170000553131104
+    },
+    {
+      "id": "https://openalex.org/C159149176",
+      "wikidata": "https://www.wikidata.org/wiki/Q14489129",
+      "display_name": "Evolutionary algorithm",
+      "level": 2,
+      "score": 0.2759000062942505
+    },
+    {
+      "id": "https://openalex.org/C112866106",
+      "wikidata": "https://www.wikidata.org/wiki/Q267053",
+      "display_name": "Lottery scheduling",
+      "level": 5,
+      "score": 0.27309998869895935
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.swevo.2026.102411",
+      "doi": "https://doi.org/10.1016/j.swevo.2026.102411",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.swevo.2026.102411",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764346689",
+        "display_name": "Swarm and Evolutionary Computation",
+        "issn_l": "2210-6502",
+        "issn": [
+          "2210-6502",
+          "2210-6510"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "dongbi-d",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Swarm and Evolutionary Computation",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Decent work and economic growth",
+      "id": "https://metadata.un.org/sdg/8",
+      "score": 0.7257999777793884
+    },
+    {
+      "display_name": "Industry, innovation and infrastructure",
+      "id": "https://metadata.un.org/sdg/9",
+      "score": 0.5378999710083008
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "display_name": "Decent work and economic growth",
+      "id": "https://metadata.un.org/sdg/8",
+      "score": 0.6912916302680969
+    }
+  ],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G6240344355",
+      "display_name": null,
+      "funder_award_id": "24D059",
+      "funder_id": "https://openalex.org/F4320313620",
+      "funder_display_name": "Hubei Provincial Department of Education"
+    },
+    {
+      "id": "https://openalex.org/G7112347974",
+      "display_name": null,
+      "funder_award_id": "52175490",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    },
+    {
+      "id": "https://openalex.org/G8097122384",
+      "display_name": null,
+      "funder_award_id": "D20231802",
+      "funder_id": "https://openalex.org/F4320336744",
+      "funder_display_name": "Science and Technology Program of Hubei Province"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320313620",
+      "display_name": "Hubei Provincial Department of Education",
+      "ror": "https://ror.org/05yaa9j15"
+    },
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    },
+    {
+      "id": "https://openalex.org/F4320336744",
+      "display_name": "Science and Technology Program of Hubei Province",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 53,
+  "referenced_works": [
+    "https://openalex.org/W1553457892",
+    "https://openalex.org/W1626322969",
+    "https://openalex.org/W2002175773",
+    "https://openalex.org/W2022485595",
+    "https://openalex.org/W2025763227",
+    "https://openalex.org/W2034101006",
+    "https://openalex.org/W2046437335",
+    "https://openalex.org/W2048490243",
+    "https://openalex.org/W2051622763",
+    "https://openalex.org/W2083852160",
+    "https://openalex.org/W2093358036",
+    "https://openalex.org/W2106334424",
+    "https://openalex.org/W2125899728",
+    "https://openalex.org/W2126105956",
+    "https://openalex.org/W2134822922",
+    "https://openalex.org/W2588924289",
+    "https://openalex.org/W2767346351",
+    "https://openalex.org/W2888896756",
+    "https://openalex.org/W2921596003",
+    "https://openalex.org/W2963014601",
+    "https://openalex.org/W3004492813",
+    "https://openalex.org/W3006275750",
+    "https://openalex.org/W3042720728",
+    "https://openalex.org/W3128296503",
+    "https://openalex.org/W3163359695",
+    "https://openalex.org/W3178628565",
+    "https://openalex.org/W3186088000",
+    "https://openalex.org/W4211207088",
+    "https://openalex.org/W4380716478",
+    "https://openalex.org/W4385919128",
+    "https://openalex.org/W4386025864",
+    "https://openalex.org/W4387035711",
+    "https://openalex.org/W4388336604",
+    "https://openalex.org/W4388713823",
+    "https://openalex.org/W4389158445",
+    "https://openalex.org/W4393143105",
+    "https://openalex.org/W4393371729",
+    "https://openalex.org/W4399330279",
+    "https://openalex.org/W4399769610",
+    "https://openalex.org/W4400057952",
+    "https://openalex.org/W4401544040",
+    "https://openalex.org/W4401675535",
+    "https://openalex.org/W4401806743",
+    "https://openalex.org/W4401966245",
+    "https://openalex.org/W4402039396",
+    "https://openalex.org/W4404294092",
+    "https://openalex.org/W4407202676",
+    "https://openalex.org/W4408240174",
+    "https://openalex.org/W4409117466",
+    "https://openalex.org/W4416336640",
+    "https://openalex.org/W7083069571",
+    "https://openalex.org/W7116967684",
+    "https://openalex.org/W7144079857"
+  ],
+  "related_works": [
+    "https://openalex.org/W4413849578",
+    "https://openalex.org/W4404727063",
+    "https://openalex.org/W7117310476",
+    "https://openalex.org/W3186088000",
+    "https://openalex.org/W7116963156",
+    "https://openalex.org/W4414447004",
+    "https://openalex.org/W7118174832",
+    "https://openalex.org/W4416336640",
+    "https://openalex.org/W7030172600",
+    "https://openalex.org/W4415613052"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2026-09-27T08:07:27.782135",
+  "created_date": "2026-05-15T00:00:00"
+}

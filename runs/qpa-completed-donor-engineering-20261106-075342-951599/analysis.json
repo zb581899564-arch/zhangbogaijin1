@@ -1,0 +1,225 @@
+{
+  "engineeringPass": true,
+  "instances": [
+    {
+      "instance": "20_8_5_1",
+      "syncWholeTwoGenerationsNativeEqual": true,
+      "initial100AndFirstGenerationDrawsEqual": true,
+      "completedDonorRulesAndPaidStateReconstruction": true,
+      "records": {
+        "OWN": {
+          "proof": {
+            "passed": true,
+            "paidReconstructed": 7700,
+            "paidSHA256": "4b2a0003ca1476849522b656172238689fba5b3bb2fc2177088762883cd5791e",
+            "prefixSHA256": {
+              "1": "a4a36f77eded100cc89280b53f99eb707aedd7822605f872a671802eb1d44068",
+              "2": "85ac2276f4681e627c403eed3ae53624665ff24b9be40dcbc7811a37e22fe154",
+              "100": "b12b20ae1a0d4d718a76d1ae7c3ed22aa6d191ea8148e40d6b6878940a791f0e",
+              "101": "b128c632e789ca7ae13c8be741f766d7f206a5ebbf9e03c7ad9879e9ccdaab13",
+              "102": "02d84013d25f0a1bfb007476f0384dff3d8716aee1c180fcabaf73bb992fab9b",
+              "3899": "d7a220e1b5b90d8a186a53f2d2b67752a5ad5fb0238e4a037d86fd4a94dfc11e",
+              "3900": "2c45f5a3fda01e61a84bac7d423070ba03e88d24df8e9abed37dad348bcad0c2",
+              "7699": "24dc635353647cb1fa61d4d5edc1212a1ee1e7cbd4fb9bda9ff813fc2ab09146",
+              "7700": "4b2a0003ca1476849522b656172238689fba5b3bb2fc2177088762883cd5791e"
+            },
+            "completeGenerations": 1,
+            "completePrograms": 100,
+            "modelChecks": [
+              {
+                "componentPairs": 190,
+                "maximumAffinityError": 0.0,
+                "maximumMeanMergeDeficit": 0.0
+              }
+            ],
+            "counts": {
+              "duplicates": 766,
+              "accepted": 1595,
+              "fallbacks": 64,
+              "unchanged": 660,
+              "programs": 100
+            },
+            "extraSearchFE": 0,
+            "decoderCalls": 0,
+            "freshMaskReads": 686,
+            "crossRoleFreshMaskReads": 0
+          },
+          "firstFreshFE": 355,
+          "commonFirstGenerationDrawSHA256": "bcee0a4c0f98a8d702e19c057eb08d253deac6a980c5817032b4ee4e8f08409a"
+        },
+        "ALL": {
+          "proof": {
+            "passed": true,
+            "paidReconstructed": 7700,
+            "paidSHA256": "2c6884c128121d133024b1f3fb96302f91f6e705366e66a7520a34eb974046f2",
+            "prefixSHA256": {
+              "1": "a4a36f77eded100cc89280b53f99eb707aedd7822605f872a671802eb1d44068",
+              "2": "85ac2276f4681e627c403eed3ae53624665ff24b9be40dcbc7811a37e22fe154",
+              "100": "b12b20ae1a0d4d718a76d1ae7c3ed22aa6d191ea8148e40d6b6878940a791f0e",
+              "101": "b128c632e789ca7ae13c8be741f766d7f206a5ebbf9e03c7ad9879e9ccdaab13",
+              "102": "02d84013d25f0a1bfb007476f0384dff3d8716aee1c180fcabaf73bb992fab9b",
+              "3899": "fbcf858f79cb9b816e387c78862b2cece6651d54fb131d20162eccd50d7107f6",
+              "3900": "a25722081b768bc912e54dba2ad31d5fdc788f630ca2abcb625ab1c5d62ceb40",
+              "7699": "45b5572410ef5ee76cd64fd705d8e440805730c71004682b05fbacde08f0b433",
+              "7700": "2c6884c128121d133024b1f3fb96302f91f6e705366e66a7520a34eb974046f2"
+            },
+            "completeGenerations": 1,
+            "completePrograms": 100,
+            "modelChecks": [
+              {
+                "componentPairs": 190,
+                "maximumAffinityError": 0.0,
+                "maximumMeanMergeDeficit": 0.0
+              }
+            ],
+            "counts": {
+              "duplicates": 838,
+              "accepted": 1747,
+              "fallbacks": 62,
+              "unchanged": 733,
+              "programs": 100
+            },
+            "extraSearchFE": 0,
+            "decoderCalls": 0,
+            "freshMaskReads": 1899,
+            "crossRoleFreshMaskReads": 1213
+          },
+          "firstFreshFE": 355,
+          "commonFirstGenerationDrawSHA256": "bcee0a4c0f98a8d702e19c057eb08d253deac6a980c5817032b4ee4e8f08409a"
+        }
+      },
+      "cutoffs": [
+        {
+          "cutoff": 101,
+          "paidPrefixEqual": true,
+          "lastPhase": 1
+        },
+        {
+          "cutoff": 3899,
+          "paidPrefixEqual": true,
+          "lastPhase": 1
+        },
+        {
+          "cutoff": 3900,
+          "paidPrefixEqual": true,
+          "lastPhase": 2
+        }
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "syncWholeTwoGenerationsNativeEqual": true,
+      "initial100AndFirstGenerationDrawsEqual": true,
+      "completedDonorRulesAndPaidStateReconstruction": true,
+      "records": {
+        "OWN": {
+          "proof": {
+            "passed": true,
+            "paidReconstructed": 39100,
+            "paidSHA256": "c01b4dce6a94dc8c770874484651bd1e84fe9cde0249d2feebb56df3bc6c9063",
+            "prefixSHA256": {
+              "1": "9f3e572c76230492b5a8e73135d4f1ef67c7e472899416e8044388ea6d64d531",
+              "2": "b6a76d4bf9ba0f38deb119cbe723099ad8116882c2f1a7887961cba8ccb423d5",
+              "100": "b2a9e25e0d6da0aac5bca64b011d631049303090da3ed9897a5b5aac52800886",
+              "101": "a3a7be2b01cd6f9902ad74f1049bdc17d317d7129b87bacc5d21feaa56114ee4",
+              "102": "204cb933a139355b3c3d2a66fbe9bf2caa75a65737416eeb2dad988484b2576a",
+              "19599": "bbdd3e8f2e30cc6feaebc1ba5f74682b0470ae34a05fddaac7a682e65683414a",
+              "19600": "0b668aa7b05b9d8658f5b64f4ae90d2508e44d31ba75d88638e526bec1f18ef2",
+              "39099": "abb02d7dbcf67e07e4804b29341e5200c94acfc4f79060209f83c839c3966f56",
+              "39100": "c01b4dce6a94dc8c770874484651bd1e84fe9cde0249d2feebb56df3bc6c9063"
+            },
+            "completeGenerations": 1,
+            "completePrograms": 100,
+            "modelChecks": [
+              {
+                "componentPairs": 4950,
+                "maximumAffinityError": 0.0,
+                "maximumMeanMergeDeficit": 0.0
+              }
+            ],
+            "counts": {
+              "duplicates": 3315,
+              "accepted": 8134,
+              "fallbacks": 0,
+              "unchanged": 3202,
+              "programs": 100
+            },
+            "extraSearchFE": 0,
+            "decoderCalls": 0,
+            "freshMaskReads": 3538,
+            "crossRoleFreshMaskReads": 0
+          },
+          "firstFreshFE": 1001,
+          "commonFirstGenerationDrawSHA256": "d9ec7eaaef0229384f5166e0418179542848402a0dcafe35ac77be396de2e6cf"
+        },
+        "ALL": {
+          "proof": {
+            "passed": true,
+            "paidReconstructed": 39100,
+            "paidSHA256": "453abf9f19604fe769b0cc6b50721063df38a9a9c30c4333462fbc6980fb90cb",
+            "prefixSHA256": {
+              "1": "9f3e572c76230492b5a8e73135d4f1ef67c7e472899416e8044388ea6d64d531",
+              "2": "b6a76d4bf9ba0f38deb119cbe723099ad8116882c2f1a7887961cba8ccb423d5",
+              "100": "b2a9e25e0d6da0aac5bca64b011d631049303090da3ed9897a5b5aac52800886",
+              "101": "a3a7be2b01cd6f9902ad74f1049bdc17d317d7129b87bacc5d21feaa56114ee4",
+              "102": "204cb933a139355b3c3d2a66fbe9bf2caa75a65737416eeb2dad988484b2576a",
+              "19599": "0dee116fe2050fa547dc1bad5469513a4c7795ef793e16943d77d245e08d0268",
+              "19600": "a9970d80db6c73a75c90c7670ac13d0f62bea7c6e7b6c6e995120f81091d1b33",
+              "39099": "e89bfb99caaafdc3aeecff6aca8b77a98627a0f9ba579bec172c2edbc270b7cc",
+              "39100": "453abf9f19604fe769b0cc6b50721063df38a9a9c30c4333462fbc6980fb90cb"
+            },
+            "completeGenerations": 1,
+            "completePrograms": 100,
+            "modelChecks": [
+              {
+                "componentPairs": 4950,
+                "maximumAffinityError": 0.0,
+                "maximumMeanMergeDeficit": 0.0
+              }
+            ],
+            "counts": {
+              "duplicates": 3218,
+              "accepted": 7937,
+              "fallbacks": 0,
+              "unchanged": 3110,
+              "programs": 100
+            },
+            "extraSearchFE": 0,
+            "decoderCalls": 0,
+            "freshMaskReads": 9606,
+            "crossRoleFreshMaskReads": 6068
+          },
+          "firstFreshFE": 1001,
+          "commonFirstGenerationDrawSHA256": "d9ec7eaaef0229384f5166e0418179542848402a0dcafe35ac77be396de2e6cf"
+        }
+      },
+      "cutoffs": [
+        {
+          "cutoff": 101,
+          "paidPrefixEqual": true,
+          "lastPhase": 1
+        },
+        {
+          "cutoff": 19599,
+          "paidPrefixEqual": true,
+          "lastPhase": 1
+        },
+        {
+          "cutoff": 19600,
+          "paidPrefixEqual": true,
+          "lastPhase": 2
+        }
+      ]
+    }
+  ],
+  "successfulFE": 234000,
+  "attemptedFE": 234000,
+  "failedFE": 0,
+  "paidFullTimelineQA": 234000,
+  "oldPAOfflineQA": 0,
+  "receiptCount": 12,
+  "performanceProved": false,
+  "donorFeedbackFourRoleContributionProved": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

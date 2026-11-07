@@ -1,0 +1,27 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\LongBudgetRun.java
++++ LongBudgetRun.java
+@@ -53,6 +53,7 @@
+         cfg.mergeGlobalLocal = !classic;
+         cfg.paperResourceOperators = !classic;
+         DynamicSearch search = DynamicSearch.create(mode, in, fatigue, dynamic, context, cfg, false, 0, 0);
++        System.setProperty("research.center.capture", out.toString());
+         ReverseClassOrigins.write(out);
+         org.uma.jmetal.util.research.search.ReverseAudit evidence = org.uma.jmetal.util.research.search.ReverseAudit.run();
+         AnytimeRecorder recorder = new AnytimeRecorder(fe, Double.POSITIVE_INFINITY, new double[0], points);
+@@ -70,6 +71,7 @@
+                     long paid, double seconds, boolean changed,
+                     org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive<?> archive) {
+                 evidence.paid((PermutationSolution<?>) s, paid, changed, archive);
++                org.uma.jmetal.util.research.search.CenterEntryTrace.paid((PermutationSolution<?>) s, paid);
+                 if (changed)
+                     admissions.add(paid + "," + s.getObjective(0) + "," + s.getObjective(1) + "," + s.getObjective(2));
+                 if (paid <= 100) {
+@@ -117,7 +119,7 @@
+             throw new IllegalStateException("Incomplete fixed-FE budget; evidence retained");
+     }
+ 
+-    private static EDHHFSPW load(Path input, Path setup) throws Exception {
++    static EDHHFSPW load(Path input, Path setup) throws Exception {
+         System.setProperty("dhfsp.dataDir", input.getParent().toString());
+         System.setProperty("dhfsp.setupFile", setup.toString());
+         System.setProperty("dhfsp.standbyPower", "1.0");

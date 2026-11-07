@@ -1,0 +1,58 @@
+{
+  "templateLedger": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pddr-role-budget-20261104-095957\\DEEP\\SPECIAL-LINEAR\\local-ledger.csv",
+  "templateInput": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pddr-role-budget-20261104-095957\\DEEP\\inputs\\20_2_3_1.txt",
+  "templateQuotaSlots": 3471,
+  "quotaKeysCompared": [
+    "visit",
+    "group",
+    "round",
+    "paid"
+  ],
+  "factoryRegenerationImplementation": "G:\\ai\\limingzhegaijin\\张博改进\\scripts\\paired_survival_bench.py",
+  "factoryRule": "prepare(): regenerate every intra-slotfactory by independent numpy RNG(seed xor0x5A17), with current instanceF. The quota/visit schedule is inherited from20_2_3_1, not each current trajectory natural stopping.",
+  "cases": [
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "sameVisitGroupRoundAndPaidAsOldTemplate": true,
+      "MrestartCount": 805,
+      "impossibleMrestartCount": 698,
+      "impossibleMslotsWithRestart": 560,
+      "impossibleMslots": 649,
+      "actualFactoryDiffersFromNativeDrawMslots": 646
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "sameVisitGroupRoundAndPaidAsOldTemplate": true,
+      "MrestartCount": 837,
+      "impossibleMrestartCount": 715,
+      "impossibleMslotsWithRestart": 585,
+      "impossibleMslots": 660,
+      "actualFactoryDiffersFromNativeDrawMslots": 651
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "sameVisitGroupRoundAndPaidAsOldTemplate": true,
+      "MrestartCount": 388,
+      "impossibleMrestartCount": 294,
+      "impossibleMslotsWithRestart": 231,
+      "impossibleMslots": 515,
+      "actualFactoryDiffersFromNativeDrawMslots": 547
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "sameVisitGroupRoundAndPaidAsOldTemplate": true,
+      "MrestartCount": 462,
+      "impossibleMrestartCount": 328,
+      "impossibleMslotsWithRestart": 274,
+      "impossibleMslots": 524,
+      "actualFactoryDiffersFromNativeDrawMslots": 519
+    }
+  ],
+  "newSearchFE": 0,
+  "additionalDecodes": 0,
+  "limits": "Protocol provenance, not proof of unfair ranking or proof a natural variant will win. All methods had matching local quotas. Previous findings remain conditional on their declared replay regime; complete natural-stopping behavior requires separate evidence."
+}

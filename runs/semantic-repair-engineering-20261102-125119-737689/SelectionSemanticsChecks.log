@@ -1,0 +1,7 @@
+PASS actual G100+L100 selection; all 200 hand-derived PDDR scores and original indices; added FE=0
+PASS independent four-vector/objective G snapshot; root/branch identities, G/L history isolation, both branches survive
+PASS 200 identical genotypes retained as records; equal-score truncation keeps first 100 input records
+PASS quotas restore families lost by unconstrained selection: SYNC/SHARE 80 free + four x5; full-pool scores and next grouping
+PASS invalid counts, quota totals/negative/empty values, illegal categories and insufficient category capacity reject without evaluation
+PASS callback interruption propagates; snapshots, branch ids and selection consume neither FE nor RNG
+SELECTION_SEMANTICS_CHECKS_PASS candidates=200 survivors=100 addedSelectionFE=0 (engineering evidence only; no optimizer performance experiment)

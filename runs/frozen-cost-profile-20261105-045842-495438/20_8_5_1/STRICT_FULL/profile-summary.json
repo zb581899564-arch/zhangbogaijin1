@@ -1,0 +1,344 @@
+{
+  "mainThreadCpuSamples": 63,
+  "searchCpuSamples": 61,
+  "truncatedSearchStacks": 0,
+  "topLeafMethods": [
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.repair",
+      "samples": 6,
+      "pctOfSearchCpuSamples": 9.836065573770492
+    },
+    {
+      "name": "java.util.Arrays.copyOf",
+      "samples": 5,
+      "pctOfSearchCpuSamples": 8.19672131147541
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicDecoder.incremental",
+      "samples": 4,
+      "pctOfSearchCpuSamples": 6.557377049180328
+    },
+    {
+      "name": "java.util.HashMap.getNode",
+      "samples": 4,
+      "pctOfSearchCpuSamples": 6.557377049180328
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>",
+      "samples": 4,
+      "pctOfSearchCpuSamples": 6.557377049180328
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.GlobalBatchPolicy.ranks",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 4.918032786885246
+    },
+    {
+      "name": "java.io.ObjectInputStream.readArray",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 4.918032786885246
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicSchedule.<init>",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 3.278688524590164
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.AbstractGenericSolutionWithid.<init>",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 3.278688524590164
+    },
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.integers",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 3.278688524590164
+    },
+    {
+      "name": "java.io.ObjectInputStream$BlockDataInputStream.readInts",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.io.ObjectInputStream.readSerialData",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "org.uma.jmetal.util.research.mechanism.JobAlignedResources.crossResource",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.lang.StringLatin1.hashCode",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.util.TimSort.countRunAndMakeAscending",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.util.Arrays.fill",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "org.uma.jmetal.util.research.cooperation.FactoryPool.truncate",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.io.ObjectOutputStream$BlockDataOutputStream.writeBytes",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.SearchState.count",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.io.ObjectOutputStream$HandleTable.growSpine",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.io.ObjectStreamClass$FieldReflector.getPrimFieldValues",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.lang.ref.ReferenceQueue.poll",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.io.ObjectStreamClass$FieldReflector.setPrimFieldValues",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.Instance.satisfiesDualResourceCondition",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    },
+    {
+      "name": "java.io.ObjectInputStream$BlockDataInputStream.readByte",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 1.639344262295082
+    }
+  ],
+  "topInclusiveMethods": [
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso.run",
+      "samples": 61,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.RunContext.run",
+      "samples": 61,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "research.dynamic.PddrIsolationRun.main",
+      "samples": 61,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.improveIntra",
+      "samples": 47,
+      "pctOfSearchCpuSamples": 77.04918032786885
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.improve",
+      "samples": 47,
+      "pctOfSearchCpuSamples": 77.04918032786885
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.vns",
+      "samples": 47,
+      "pctOfSearchCpuSamples": 77.04918032786885
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.evaluateNeighborhood",
+      "samples": 45,
+      "pctOfSearchCpuSamples": 73.77049180327869
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.descent",
+      "samples": 40,
+      "pctOfSearchCpuSamples": 65.57377049180327
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.SearchState.evaluate",
+      "samples": 38,
+      "pctOfSearchCpuSamples": 62.295081967213115
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate",
+      "samples": 30,
+      "pctOfSearchCpuSamples": 49.18032786885246
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive.addEvaluated",
+      "samples": 15,
+      "pctOfSearchCpuSamples": 24.59016393442623
+    },
+    {
+      "name": "org.uma.jmetal.util.research.DynamicEvaluation.evaluate",
+      "samples": 15,
+      "pctOfSearchCpuSamples": 24.59016393442623
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso.qgs",
+      "samples": 14,
+      "pctOfSearchCpuSamples": 22.950819672131146
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.SolutionSnapshots.copy",
+      "samples": 14,
+      "pctOfSearchCpuSamples": 22.950819672131146
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso.global",
+      "samples": 13,
+      "pctOfSearchCpuSamples": 21.311475409836067
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.IntraNeighborhoods.propose",
+      "samples": 12,
+      "pctOfSearchCpuSamples": 19.672131147540984
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicDecoder.incremental",
+      "samples": 11,
+      "pctOfSearchCpuSamples": 18.0327868852459
+    },
+    {
+      "name": "java.io.ObjectInputStream$FieldValues.<init>",
+      "samples": 9,
+      "pctOfSearchCpuSamples": 14.754098360655737
+    },
+    {
+      "name": "java.io.ObjectInputStream.readOrdinaryObject",
+      "samples": 9,
+      "pctOfSearchCpuSamples": 14.754098360655737
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject",
+      "samples": 9,
+      "pctOfSearchCpuSamples": 14.754098360655737
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject0",
+      "samples": 9,
+      "pctOfSearchCpuSamples": 14.754098360655737
+    },
+    {
+      "name": "java.io.ObjectInputStream.readSerialData",
+      "samples": 9,
+      "pctOfSearchCpuSamples": 14.754098360655737
+    },
+    {
+      "name": "java.lang.reflect.Method.invoke",
+      "samples": 8,
+      "pctOfSearchCpuSamples": 13.114754098360656
+    },
+    {
+      "name": "jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke",
+      "samples": 8,
+      "pctOfSearchCpuSamples": 13.114754098360656
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.copy",
+      "samples": 8,
+      "pctOfSearchCpuSamples": 13.114754098360656
+    }
+  ],
+  "searchAllocationSamples": 2761,
+  "sampledAllocationWeightBytes": 12747547304,
+  "topSampledAllocationWeights": [
+    {
+      "class": "[B",
+      "weightBytes": 4870800864
+    },
+    {
+      "class": "[Ljava.lang.Object;",
+      "weightBytes": 1968947152
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicStep",
+      "weightBytes": 1765206264
+    },
+    {
+      "class": "[D",
+      "weightBytes": 1595788416
+    },
+    {
+      "class": "[I",
+      "weightBytes": 980762736
+    },
+    {
+      "class": "[[D",
+      "weightBytes": 446162384
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicStageState",
+      "weightBytes": 224912816
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicSchedule",
+      "weightBytes": 221806120
+    },
+    {
+      "class": "java.lang.String",
+      "weightBytes": 221389528
+    },
+    {
+      "class": "java.util.ArrayList",
+      "weightBytes": 112113392
+    },
+    {
+      "class": "java.util.HashMap$Node",
+      "weightBytes": 58828592
+    },
+    {
+      "class": "[Z",
+      "weightBytes": 40404584
+    },
+    {
+      "class": "java.util.Collections$UnmodifiableRandomAccessList",
+      "weightBytes": 40293920
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicDecoder$1",
+      "weightBytes": 26847576
+    },
+    {
+      "class": "java.util.ArrayList$Itr",
+      "weightBytes": 24451704
+    },
+    {
+      "class": "java.lang.Long",
+      "weightBytes": 22306424
+    },
+    {
+      "class": "java.util.HashMap",
+      "weightBytes": 19914248
+    },
+    {
+      "class": "[Ljava.util.HashMap$Node;",
+      "weightBytes": 15068912
+    },
+    {
+      "class": "java.lang.StringBuilder",
+      "weightBytes": 13862032
+    },
+    {
+      "class": "java.io.ObjectStreamClass",
+      "weightBytes": 10812624
+    }
+  ],
+  "scope": "Sampled evidence, not exact method timers or total allocated bytes. CPU percentages conditioned on main-thread samples containing RunContext.run; inclusive percentages overlap. Startup and return QA excluded by stack, except inlining/truncation can make some samples unclassifiable. Not an algorithm performance comparison."
+}

@@ -1,0 +1,35 @@
+{
+  "anchor": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-entry-cross-20261103-233434-666587",
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "template": "SPECIAL saved Java RNG state at each slot",
+  "order": [
+    "SS",
+    "SU",
+    "US",
+    "UU"
+  ],
+  "phaseFE": 239795,
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "newCaptureFE": 0,
+  "gate": "Reference direction for retained HV must repeat at stage end under both slot templates with both entrant origins and references 1.25,1.5,2.0 to support a stable signed whole-reference claim.",
+  "blocks": "same candidates; physical 15/55/15/15 blocks vs three fixed equal-size position permutations; no feedback, no inference of independence across comparisons",
+  "scope": "Reuse the same paid sources and quota. No candidate selector, publication claim, or mainline change."
+}

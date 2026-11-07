@@ -1,0 +1,17 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-typed-basis-engineering-20261105-223547-202723",
+  "originalFailure": {
+    "status": "INCOMPLETE_RETAINED",
+    "error": "AssertionError((WindowsPath('G:/ai/limingzhegaijin/张博改进/runs/pa-typed-basis-engineering-20261105-223547-202723/100_2_3_1/ATOM/audit/loaded-identity.jsonl'), 'org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation'))",
+    "successfulFE": 336214,
+    "attemptedFE": 336214,
+    "failedFE": 0,
+    "fullDecoderQA": 337814,
+    "recordedRuns": 16
+  },
+  "correction": "Original audit compared inherited interface classes to older engineering classes. Verify all recorded bytes AND sources against the ordered classpath frozen before execution; no hash whitelist or search change",
+  "effectiveIdentity": "Original immutable execution plus this post-audit reference-version correction",
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "oldStatusRetained": true
+}

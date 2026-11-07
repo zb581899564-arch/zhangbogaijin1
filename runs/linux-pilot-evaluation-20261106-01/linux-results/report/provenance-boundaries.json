@@ -1,0 +1,380 @@
+[
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110003,
+    "arm": "FULL",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 57,
+      "phase": "LOCAL",
+      "elapsedSeconds": 41.157737508
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110003,
+    "arm": "GLOBAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 100,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 53.981170654
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110003,
+    "arm": "LOCAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 131,
+      "phase": "LOCAL",
+      "elapsedSeconds": 22.720271316
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110037,
+    "arm": "FULL",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 57,
+      "phase": "LOCAL",
+      "elapsedSeconds": 41.870068133
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110037,
+    "arm": "GLOBAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 100,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 52.571939865
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110037,
+    "arm": "LOCAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 131,
+      "phase": "LOCAL",
+      "elapsedSeconds": 20.538511248
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110069,
+    "arm": "FULL",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 57,
+      "phase": "LOCAL",
+      "elapsedSeconds": 46.458887427
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110069,
+    "arm": "GLOBAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 100,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 55.453681491
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "20_8_5_1",
+    "seed": 16110069,
+    "arm": "LOCAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 131,
+      "phase": "LOCAL",
+      "elapsedSeconds": 19.944494316
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110003,
+    "arm": "FULL",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 21,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 64.637163315
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110003,
+    "arm": "GLOBAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 100,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 107.964512847
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110003,
+    "arm": "LOCAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 26,
+      "phase": "LOCAL",
+      "elapsedSeconds": 61.962359283
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110037,
+    "arm": "FULL",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 21,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 66.264892356
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110037,
+    "arm": "GLOBAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 100,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 110.591881233
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110037,
+    "arm": "LOCAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 26,
+      "phase": "LOCAL",
+      "elapsedSeconds": 63.556243204
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110069,
+    "arm": "FULL",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 21,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 65.511738327
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110069,
+    "arm": "GLOBAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "GLOBAL",
+      "fe": 500000,
+      "cycle": 100,
+      "phase": "GLOBAL",
+      "elapsedSeconds": 120.949355727
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "seed": 16110069,
+    "arm": "LOCAL_ONLY",
+    "stop": {
+      "kind": "stop",
+      "stopReason": "FE_LIMIT",
+      "partialPhase": "LOCAL",
+      "fe": 500000,
+      "cycle": 26,
+      "phase": "LOCAL",
+      "elapsedSeconds": 61.145040497
+    },
+    "limitations": [
+      "No intermediate global QGS-batch working snapshots",
+      "Primary working/survivor/next-generation columns use complete objective tuples; EncodingRetained columns separately use exact keys",
+      "completedStageWorking false means absent at that boundary, not never accepted",
+      "Missing completed or next-generation boundary is unknown, not false",
+      "finalObjectiveRetained is exact objective membership, not encoding identity"
+    ]
+  }
+]

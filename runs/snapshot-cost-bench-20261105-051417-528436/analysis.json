@@ -1,0 +1,118 @@
+{
+  "cells": [
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "pairs": [
+        {
+          "rep": 0,
+          "serialSearchSeconds": 9.0172571,
+          "anchorSearchSeconds": 8.7277365,
+          "speedup": 1.0331724726107392
+        },
+        {
+          "rep": 1,
+          "serialSearchSeconds": 9.2052591,
+          "anchorSearchSeconds": 8.5967178,
+          "speedup": 1.0707876324613097
+        },
+        {
+          "rep": 2,
+          "serialSearchSeconds": 9.2039818,
+          "anchorSearchSeconds": 8.5256598,
+          "speedup": 1.0795624052463364
+        }
+      ],
+      "medianSpeedup": 1.0707876324613097
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "pairs": [
+        {
+          "rep": 0,
+          "serialSearchSeconds": 9.1553113,
+          "anchorSearchSeconds": 8.5315154,
+          "speedup": 1.0731166587356802
+        },
+        {
+          "rep": 1,
+          "serialSearchSeconds": 8.7339196,
+          "anchorSearchSeconds": 8.2763376,
+          "speedup": 1.0552879814859173
+        },
+        {
+          "rep": 2,
+          "serialSearchSeconds": 9.1563342,
+          "anchorSearchSeconds": 8.2777383,
+          "speedup": 1.106139608206749
+        }
+      ],
+      "medianSpeedup": 1.0731166587356802
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "pairs": [
+        {
+          "rep": 0,
+          "serialSearchSeconds": 15.2160941,
+          "anchorSearchSeconds": 13.7346712,
+          "speedup": 1.1078600920566632
+        },
+        {
+          "rep": 1,
+          "serialSearchSeconds": 15.2605487,
+          "anchorSearchSeconds": 14.1233747,
+          "speedup": 1.0805171585513482
+        },
+        {
+          "rep": 2,
+          "serialSearchSeconds": 15.0766671,
+          "anchorSearchSeconds": 13.5341137,
+          "speedup": 1.1139752062227761
+        }
+      ],
+      "medianSpeedup": 1.1078600920566632
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "pairs": [
+        {
+          "rep": 0,
+          "serialSearchSeconds": 13.8508407,
+          "anchorSearchSeconds": 12.7861812,
+          "speedup": 1.0832664173412465
+        },
+        {
+          "rep": 1,
+          "serialSearchSeconds": 13.8228398,
+          "anchorSearchSeconds": 12.8707663,
+          "speedup": 1.0739717805302704
+        },
+        {
+          "rep": 2,
+          "serialSearchSeconds": 14.256237,
+          "anchorSearchSeconds": 12.5969751,
+          "speedup": 1.1317190743673058
+        }
+      ],
+      "medianSpeedup": 1.0832664173412465
+    }
+  ],
+  "methods": [
+    {
+      "method": "STRICT_FULL",
+      "medianSpeedupAcrossSixPairs": 1.0800397818988423,
+      "costGate": true
+    },
+    {
+      "method": "NSGA_STRICT",
+      "medianSpeedupAcrossSixPairs": 1.0786190989357585,
+      "costGate": true
+    }
+  ],
+  "sharedCostGate": true,
+  "scope": "Three counterbalanced repeats of identical development trajectories, not new statistical seeds, a change in same-FE quality, actual TIME_LIMIT performance, or a paper algorithm contribution."
+}

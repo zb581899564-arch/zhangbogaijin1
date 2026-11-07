@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "paidReconstructed": 19599,
+  "paidSHA256": "0dee116fe2050fa547dc1bad5469513a4c7795ef793e16943d77d245e08d0268",
+  "prefixSHA256": {
+    "1": "9f3e572c76230492b5a8e73135d4f1ef67c7e472899416e8044388ea6d64d531",
+    "2": "b6a76d4bf9ba0f38deb119cbe723099ad8116882c2f1a7887961cba8ccb423d5",
+    "100": "b2a9e25e0d6da0aac5bca64b011d631049303090da3ed9897a5b5aac52800886",
+    "101": "a3a7be2b01cd6f9902ad74f1049bdc17d317d7129b87bacc5d21feaa56114ee4",
+    "102": "204cb933a139355b3c3d2a66fbe9bf2caa75a65737416eeb2dad988484b2576a",
+    "19598": "53dcccf6070058b6e04689724110a7f733d0948d88ae26cb590ca5254ca9083b",
+    "19599": "0dee116fe2050fa547dc1bad5469513a4c7795ef793e16943d77d245e08d0268"
+  },
+  "completeGenerations": 0,
+  "completePrograms": 49,
+  "modelChecks": [
+    {
+      "componentPairs": 4950,
+      "maximumAffinityError": 0.0,
+      "maximumMeanMergeDeficit": 0.0
+    }
+  ],
+  "counts": {
+    "duplicates": 1600,
+    "accepted": 3964,
+    "fallbacks": 0,
+    "unchanged": 1551,
+    "programs": 49
+  },
+  "extraSearchFE": 0,
+  "decoderCalls": 0,
+  "freshMaskReads": 2431,
+  "crossRoleFreshMaskReads": 1021
+}

@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "instances": [
+    {
+      "instance": "20_8_5_1",
+      "indicators": [
+        {
+          "seed": 15410003,
+          "arm": "PRE_S",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 3.469446951953614e-18
+        },
+        {
+          "seed": 15410003,
+          "arm": "POST_S",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 8.673617379884035e-19
+        },
+        {
+          "seed": 15410003,
+          "arm": "PRE_U",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 1.734723475976807e-18
+        },
+        {
+          "seed": 15410003,
+          "arm": "POST_U",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 8.673617379884035e-19
+        },
+        {
+          "seed": 15410003,
+          "arm": "SYNC_PRE",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "NSGA_CTX_GOM",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "PA_JOINT",
+          "HVError": 2.7755575615628914e-17,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "FULL_SHARED_DEEP",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "LI_RECON_DEEP",
+          "HVError": 5.551115123125783e-17,
+          "IGDplusError": 6.938893903907228e-18
+        },
+        {
+          "seed": 15410037,
+          "arm": "PRE_S",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "POST_S",
+          "HVError": 1.1102230246251565e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "PRE_U",
+          "HVError": 1.3322676295501878e-15,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "POST_U",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "SYNC_PRE",
+          "HVError": 8.326672684688674e-17,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "NSGA_CTX_GOM",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 8.673617379884035e-19
+        },
+        {
+          "seed": 15410037,
+          "arm": "PA_JOINT",
+          "HVError": 0.0,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "FULL_SHARED_DEEP",
+          "HVError": 1.6653345369377348e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "LI_RECON_DEEP",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 0.0
+        }
+      ],
+      "pass_": false,
+      "initialAndFirstGlobalStatesMatched": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "indicators": [
+        {
+          "seed": 15410003,
+          "arm": "PRE_S",
+          "HVError": 5.551115123125783e-17,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "POST_S",
+          "HVError": 8.326672684688674e-17,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "PRE_U",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "POST_U",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 6.938893903907228e-18
+        },
+        {
+          "seed": 15410003,
+          "arm": "SYNC_PRE",
+          "HVError": 8.881784197001252e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "NSGA_CTX_GOM",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 3.469446951953614e-18
+        },
+        {
+          "seed": 15410003,
+          "arm": "PA_JOINT",
+          "HVError": 1.3322676295501878e-15,
+          "IGDplusError": 1.734723475976807e-18
+        },
+        {
+          "seed": 15410003,
+          "arm": "FULL_SHARED_DEEP",
+          "HVError": 5.551115123125783e-17,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410003,
+          "arm": "LI_RECON_DEEP",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "PRE_S",
+          "HVError": 1.1102230246251565e-16,
+          "IGDplusError": 1.734723475976807e-18
+        },
+        {
+          "seed": 15410037,
+          "arm": "POST_S",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "PRE_U",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 3.469446951953614e-18
+        },
+        {
+          "seed": 15410037,
+          "arm": "POST_U",
+          "HVError": 1.1102230246251565e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "SYNC_PRE",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "NSGA_CTX_GOM",
+          "HVError": 1.3322676295501878e-15,
+          "IGDplusError": 3.469446951953614e-18
+        },
+        {
+          "seed": 15410037,
+          "arm": "PA_JOINT",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15410037,
+          "arm": "FULL_SHARED_DEEP",
+          "HVError": 1.1102230246251565e-16,
+          "IGDplusError": 1.3877787807814457e-17
+        },
+        {
+          "seed": 15410037,
+          "arm": "LI_RECON_DEEP",
+          "HVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        }
+      ],
+      "pass_": true,
+      "initialAndFirstGlobalStatesMatched": true
+    }
+  ],
+  "runs": 52,
+  "successfulFE": 1527180,
+  "attemptedFE": 1527180,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 14761,
+  "allIndicatorsCountsCriteriaAndInitialsIndependentlyVerified": true,
+  "allBridgesRechecked": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "goalAchieved": false
+}

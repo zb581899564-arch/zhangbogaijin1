@@ -1,0 +1,1202 @@
+{
+  "pairs": [
+    {
+      "case": 0,
+      "sourceBridgeFE": 489,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1388,
+      "actualObjectives": [
+        568.6243401329257,
+        43689.334991105905,
+        48986.14081384
+      ],
+      "rollbackObjectives": [
+        568.6243401329257,
+        43427.61674200746,
+        48857.202771058524
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.12521611660235954,
+          "actual": 0.12521611660235954,
+          "rollback": 0.12521611660235954,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.44824705103924656,
+          "actual": 0.44824705103924656,
+          "rollback": 0.44824705103924656,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.0869336066877304,
+          "actual": 2.0869336066877304,
+          "rollback": 2.0869336066877304,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 27,
+        "totalB": 27,
+        "coveredA": 27,
+        "totalA": 27,
+        "sharedObjectiveVectors": 27
+      },
+      "actualAcceptedInFrozenTrace": true
+    },
+    {
+      "case": 1,
+      "sourceBridgeFE": 253,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1623,
+      "actualObjectives": [
+        657.3650762552886,
+        45373.78058720135,
+        49545.66032593747
+      ],
+      "rollbackObjectives": [
+        657.3650762552886,
+        45278.9412207226,
+        49319.828204407124
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1268128995280672,
+          "actual": 0.1268128995280672,
+          "rollback": 0.1268128995280672,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.45204239334480695,
+          "actual": 0.45204239334480695,
+          "rollback": 0.45204239334480695,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.097866359347277,
+          "actual": 2.097866359347277,
+          "rollback": 2.097866359347277,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 32,
+        "totalB": 32,
+        "coveredA": 32,
+        "totalA": 32,
+        "sharedObjectiveVectors": 32
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 2,
+      "sourceBridgeFE": 643,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1755,
+      "actualObjectives": [
+        510.3040428758401,
+        44763.91906795289,
+        48553.325834662384
+      ],
+      "rollbackObjectives": [
+        510.3040428758401,
+        45870.559385665096,
+        48382.123798517285
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1296475962317037,
+          "actual": 0.1296475962317037,
+          "rollback": 0.1296475962317037,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4589340612317838,
+          "actual": 0.4589340612317838,
+          "rollback": 0.4589340612317838,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.11731052928769,
+          "actual": 2.11731052928769,
+          "rollback": 2.11731052928769,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 39,
+        "totalB": 39,
+        "coveredA": 39,
+        "totalA": 39,
+        "sharedObjectiveVectors": 39
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 3,
+      "sourceBridgeFE": 568,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1769,
+      "actualObjectives": [
+        469.6853379592677,
+        43865.05307032406,
+        48923.05280739445
+      ],
+      "rollbackObjectives": [
+        469.6853379592677,
+        44257.56255454785,
+        48810.97776299233
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1296475962317037,
+          "actual": 0.1296475962317037,
+          "rollback": 0.1296475962317037,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4589340612317838,
+          "actual": 0.4589340612317838,
+          "rollback": 0.4589340612317838,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.11731052928769,
+          "actual": 2.11731052928769,
+          "rollback": 2.11731052928769,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 39,
+        "totalB": 39,
+        "coveredA": 39,
+        "totalA": 39,
+        "sharedObjectiveVectors": 39
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 4,
+      "sourceBridgeFE": 412,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1775,
+      "actualObjectives": [
+        485.83910178361896,
+        44474.4475816592,
+        48592.81271494313
+      ],
+      "rollbackObjectives": [
+        485.83910178361896,
+        45079.5198810626,
+        48858.17588286245
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1296475962317037,
+          "actual": 0.1296475962317037,
+          "rollback": 0.1296475962317037,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4589340612317838,
+          "actual": 0.4589340612317838,
+          "rollback": 0.4589340612317838,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.11731052928769,
+          "actual": 2.11731052928769,
+          "rollback": 2.11731052928769,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 39,
+        "totalB": 39,
+        "coveredA": 39,
+        "totalA": 39,
+        "sharedObjectiveVectors": 39
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 5,
+      "sourceBridgeFE": 643,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1836,
+      "actualObjectives": [
+        502.09817250017437,
+        46170.89960270551,
+        48141.307046677706
+      ],
+      "rollbackObjectives": [
+        502.09817250017437,
+        46321.86649407698,
+        47966.36845413819
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1296475962317037,
+          "actual": 0.1296475962317037,
+          "rollback": 0.1296475962317037,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4589340612317838,
+          "actual": 0.4589340612317838,
+          "rollback": 0.4589340612317838,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.11731052928769,
+          "actual": 2.11731052928769,
+          "rollback": 2.11731052928769,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 39,
+        "totalB": 39,
+        "coveredA": 39,
+        "totalA": 39,
+        "sharedObjectiveVectors": 39
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 6,
+      "sourceBridgeFE": 253,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 1874,
+      "actualObjectives": [
+        442.35065343087933,
+        45708.19417749391,
+        49418.015144407254
+      ],
+      "rollbackObjectives": [
+        442.35065343087933,
+        45749.24287287702,
+        49623.960265257316
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1296475962317037,
+          "actual": 0.1296475962317037,
+          "rollback": 0.1296475962317037,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4589340612317838,
+          "actual": 0.4589340612317838,
+          "rollback": 0.4589340612317838,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.11731052928769,
+          "actual": 2.11731052928769,
+          "rollback": 2.11731052928769,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 39,
+        "totalB": 39,
+        "coveredA": 39,
+        "totalA": 39,
+        "sharedObjectiveVectors": 39
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 7,
+      "sourceBridgeFE": 217,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 2183,
+      "actualObjectives": [
+        455.9103645349237,
+        44144.56614536196,
+        48993.757292055874
+      ],
+      "rollbackObjectives": [
+        455.9103645349237,
+        43988.36551137281,
+        48673.22291870618
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.12969099453101637,
+          "actual": 0.12969099453101637,
+          "rollback": 0.12969099453101637,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.459040957154738,
+          "actual": 0.459040957154738,
+          "rollback": 0.459040957154738,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.117624303548758,
+          "actual": 2.117624303548758,
+          "rollback": 2.117624303548758,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 41,
+        "totalB": 41,
+        "coveredA": 41,
+        "totalA": 41,
+        "sharedObjectiveVectors": 41
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 8,
+      "sourceBridgeFE": 515,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 2295,
+      "actualObjectives": [
+        454.2239365373117,
+        43689.054159838524,
+        49110.27566853046
+      ],
+      "rollbackObjectives": [
+        454.2239365373117,
+        43607.182613738136,
+        49024.63168724003
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13018347472423542,
+          "actual": 0.13018347472423542,
+          "rollback": 0.13018347472423542,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.46025630339456053,
+          "actual": 0.46025630339456053,
+          "rollback": 0.46025630339456053,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.1212448749761537,
+          "actual": 2.1212448749761537,
+          "rollback": 2.1212448749761537,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 44,
+        "totalB": 44,
+        "coveredA": 44,
+        "totalA": 44,
+        "sharedObjectiveVectors": 44
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 9,
+      "sourceBridgeFE": 568,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 2405,
+      "actualObjectives": [
+        440.99257795206313,
+        43406.20753501866,
+        48860.50688336563
+      ],
+      "rollbackObjectives": [
+        469.83794394898615,
+        44717.147672329695,
+        48839.17024231892
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13019283472420562,
+          "actual": 0.13019283472420562,
+          "rollback": 0.13019283472420562,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4602702680273819,
+          "actual": 0.4602702680273819,
+          "rollback": 0.4602702680273819,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.121268048874677,
+          "actual": 2.121268048874677,
+          "rollback": 2.121268048874677,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 45,
+        "totalB": 45,
+        "coveredA": 45,
+        "totalA": 45,
+        "sharedObjectiveVectors": 45
+      },
+      "actualAcceptedInFrozenTrace": true
+    },
+    {
+      "case": 10,
+      "sourceBridgeFE": 643,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 2579,
+      "actualObjectives": [
+        482.24258919525244,
+        44602.74389553995,
+        48544.3514258815
+      ],
+      "rollbackObjectives": [
+        482.24258919525244,
+        45323.99764485552,
+        48469.84654228021
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13038411031809405,
+          "actual": 0.13038411031809405,
+          "rollback": 0.13038411031809405,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.46063980090222234,
+          "actual": 0.46063980090222234,
+          "rollback": 0.46063980090222234,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.122169769792929,
+          "actual": 2.122169769792929,
+          "rollback": 2.122169769792929,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 50,
+        "totalB": 50,
+        "coveredA": 50,
+        "totalA": 50,
+        "sharedObjectiveVectors": 50
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 11,
+      "sourceBridgeFE": 137,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 2735,
+      "actualObjectives": [
+        459.43768586491854,
+        43606.62604854686,
+        49526.214758182294
+      ],
+      "rollbackObjectives": [
+        461.30424823287166,
+        43844.78705503133,
+        49175.35554216673
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13084188143507058,
+          "actual": 0.13084188143507058,
+          "rollback": 0.13084188143507058,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4616667185938985,
+          "actual": 0.4616667185938985,
+          "rollback": 0.4616667185938985,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.124970934376793,
+          "actual": 2.124970934376793,
+          "rollback": 2.124970934376793,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 51,
+        "totalB": 51,
+        "coveredA": 51,
+        "totalA": 51,
+        "sharedObjectiveVectors": 51
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 12,
+      "sourceBridgeFE": 4191,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 4803,
+      "actualObjectives": [
+        497.64470731579377,
+        43560.78569664733,
+        48412.508540409166
+      ],
+      "rollbackObjectives": [
+        497.64470731579377,
+        44195.03628433772,
+        48407.31445343763
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13466612849194495,
+          "actual": 0.13466612849194495,
+          "rollback": 0.13466612849194495,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.470481804937149,
+          "actual": 0.470481804937149,
+          "rollback": 0.470481804937149,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.149277159379153,
+          "actual": 2.149277159379153,
+          "rollback": 2.149277159379153,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 49,
+        "totalB": 49,
+        "coveredA": 49,
+        "totalA": 49,
+        "sharedObjectiveVectors": 49
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 13,
+      "sourceBridgeFE": 4310,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 5267,
+      "actualObjectives": [
+        476.1799263636365,
+        44129.25126806167,
+        49778.73130386116
+      ],
+      "rollbackObjectives": [
+        476.1799263636365,
+        44182.848635794726,
+        49740.84561785848
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13503142426621276,
+          "actual": 0.13503142426621276,
+          "rollback": 0.13503142426621276,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4709841717430193,
+          "actual": 0.4709841717430193,
+          "rollback": 0.4709841717430193,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.1500536682482285,
+          "actual": 2.1500536682482285,
+          "rollback": 2.1500536682482285,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 48,
+        "totalB": 48,
+        "coveredA": 48,
+        "totalA": 48,
+        "sharedObjectiveVectors": 48
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 14,
+      "sourceBridgeFE": 4154,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 5470,
+      "actualObjectives": [
+        406.1304396118212,
+        42978.62330232593,
+        48978.93231982413
+      ],
+      "rollbackObjectives": [
+        406.1304396118212,
+        43625.08015353315,
+        48916.18604337326
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.135133018699605,
+          "actual": 0.135133018699605,
+          "rollback": 0.135133018699605,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.4711414052123991,
+          "actual": 0.4711414052123991,
+          "rollback": 0.4711414052123991,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.1503221797895833,
+          "actual": 2.1503221797895833,
+          "rollback": 2.1503221797895833,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 43,
+        "totalB": 43,
+        "coveredA": 43,
+        "totalA": 43,
+        "sharedObjectiveVectors": 43
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 15,
+      "sourceBridgeFE": 4347,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 5950,
+      "actualObjectives": [
+        513.1300662231821,
+        42477.93263702883,
+        48866.68542108233
+      ],
+      "rollbackObjectives": [
+        513.1300662231821,
+        42735.775782925295,
+        48805.28503637306
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1359783620763368,
+          "actual": 0.1359783620763368,
+          "rollback": 0.1359783620763368,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47358096719329074,
+          "actual": 0.47358096719329074,
+          "rollback": 0.47358096719329074,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.158371264280249,
+          "actual": 2.158371264280249,
+          "rollback": 2.158371264280249,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 44,
+        "totalB": 44,
+        "coveredA": 44,
+        "totalA": 44,
+        "sharedObjectiveVectors": 44
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 16,
+      "sourceBridgeFE": 4232,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 5994,
+      "actualObjectives": [
+        420.3217642323206,
+        41267.88534645837,
+        49010.549707619764
+      ],
+      "rollbackObjectives": [
+        420.3217642323206,
+        41525.29133465982,
+        48954.594641125426
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1359783620763368,
+          "actual": 0.1359783620763368,
+          "rollback": 0.1359783620763368,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47358096719329074,
+          "actual": 0.47358096719329074,
+          "rollback": 0.47358096719329074,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.158371264280249,
+          "actual": 2.158371264280249,
+          "rollback": 2.158371264280249,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 44,
+        "totalB": 44,
+        "coveredA": 44,
+        "totalA": 44,
+        "sharedObjectiveVectors": 44
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 17,
+      "sourceBridgeFE": 4310,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6044,
+      "actualObjectives": [
+        441.4957877912758,
+        41190.367201290544,
+        48896.82419610717
+      ],
+      "rollbackObjectives": [
+        441.4957877912758,
+        41295.10599744233,
+        49062.11791818864
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1359783620763368,
+          "actual": 0.1359783620763368,
+          "rollback": 0.1359783620763368,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47358096719329074,
+          "actual": 0.47358096719329074,
+          "rollback": 0.47358096719329074,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.158371264280249,
+          "actual": 2.158371264280249,
+          "rollback": 2.158371264280249,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 44,
+        "totalB": 44,
+        "coveredA": 44,
+        "totalA": 44,
+        "sharedObjectiveVectors": 44
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 18,
+      "sourceBridgeFE": 4388,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6076,
+      "actualObjectives": [
+        438.6647434612859,
+        43197.943792214784,
+        49027.276939909854
+      ],
+      "rollbackObjectives": [
+        438.6647434612859,
+        43392.99947082962,
+        48794.79771750642
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1359783620763368,
+          "actual": 0.1359783620763368,
+          "rollback": 0.1359783620763368,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47358096719329074,
+          "actual": 0.47358096719329074,
+          "rollback": 0.47358096719329074,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.158371264280249,
+          "actual": 2.158371264280249,
+          "rollback": 2.158371264280249,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 44,
+        "totalB": 44,
+        "coveredA": 44,
+        "totalA": 44,
+        "sharedObjectiveVectors": 44
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 19,
+      "sourceBridgeFE": 4154,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6146,
+      "actualObjectives": [
+        466.2882270680084,
+        43673.459416362326,
+        48157.73480653665
+      ],
+      "rollbackObjectives": [
+        466.2882270680084,
+        43701.39204297793,
+        48137.945537308806
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1359795963458497,
+          "actual": 0.1359795963458497,
+          "rollback": 0.1359795963458497,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47358220146280366,
+          "actual": 0.47358220146280366,
+          "rollback": 0.47358220146280366,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.1583724985497623,
+          "actual": 2.1583724985497623,
+          "rollback": 2.1583724985497623,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 44,
+        "totalB": 44,
+        "coveredA": 44,
+        "totalA": 44,
+        "sharedObjectiveVectors": 44
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 20,
+      "sourceBridgeFE": 4347,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6204,
+      "actualObjectives": [
+        516.6916048401005,
+        41874.700041173586,
+        49350.36050048382
+      ],
+      "rollbackObjectives": [
+        516.6916048401005,
+        41846.11026460001,
+        49483.5644477261
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13615735075445284,
+          "actual": 0.13615735075445284,
+          "rollback": 0.13615735075445284,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47384956412890844,
+          "actual": 0.47384956412890844,
+          "rollback": 0.47384956412890844,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.15881907773087,
+          "actual": 2.15881907773087,
+          "rollback": 2.15881907773087,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 45,
+        "totalB": 45,
+        "coveredA": 45,
+        "totalA": 45,
+        "sharedObjectiveVectors": 45
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 21,
+      "sourceBridgeFE": 4035,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6220,
+      "actualObjectives": [
+        514.9748374729248,
+        41921.39806966577,
+        49152.511167598044
+      ],
+      "rollbackObjectives": [
+        511.18819795500104,
+        41875.87689025984,
+        49109.01741364225
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13615735075445284,
+          "actual": 0.13615735075445284,
+          "rollback": 0.13615735075445284,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47384956412890844,
+          "actual": 0.47384956412890844,
+          "rollback": 0.47384956412890844,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.15881907773087,
+          "actual": 2.15881907773087,
+          "rollback": 2.15881907773087,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 45,
+        "totalB": 45,
+        "coveredA": 45,
+        "totalA": 45,
+        "sharedObjectiveVectors": 45
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 22,
+      "sourceBridgeFE": 4154,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6303,
+      "actualObjectives": [
+        537.254653528116,
+        44126.02452696785,
+        49175.62890435131
+      ],
+      "rollbackObjectives": [
+        537.254653528116,
+        44772.48137817504,
+        49112.88262790043
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.13624877690086692,
+          "actual": 0.13624877690086692,
+          "rollback": 0.13624877690086692,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47398612317081873,
+          "actual": 0.47398612317081873,
+          "rollback": 0.47398612317081873,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.1590459025637725,
+          "actual": 2.1590459025637725,
+          "rollback": 2.1590459025637725,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 46,
+        "totalB": 46,
+        "coveredA": 46,
+        "totalA": 46,
+        "sharedObjectiveVectors": 46
+      },
+      "actualAcceptedInFrozenTrace": false
+    },
+    {
+      "case": 23,
+      "sourceBridgeFE": 4154,
+      "sourceRole": "MAKESPAN",
+      "receiverFE": 6443,
+      "actualObjectives": [
+        511.6679784882183,
+        44682.13193418358,
+        48720.596243396874
+      ],
+      "rollbackObjectives": [
+        511.6679784882183,
+        45328.58878539079,
+        48657.849966946
+      ],
+      "HV": {
+        "1.25": {
+          "base": 0.1362875312759536,
+          "actual": 0.1362875312759536,
+          "rollback": 0.1362875312759536,
+          "differencePctOfPriorHV": 0.0
+        },
+        "1.5": {
+          "base": 0.47404408348904625,
+          "actual": 0.47404408348904625,
+          "rollback": 0.47404408348904625,
+          "differencePctOfPriorHV": 0.0
+        },
+        "2.0": {
+          "base": 2.159142274768282,
+          "actual": 2.159142274768282,
+          "rollback": 2.159142274768282,
+          "differencePctOfPriorHV": 0.0
+        }
+      },
+      "IGDplusActual": 0.0,
+      "IGDplusRollback": 0.0,
+      "IGDplusSymmetricWorseningPct": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 49,
+        "totalB": 49,
+        "coveredA": 49,
+        "totalA": 49,
+        "sharedObjectiveVectors": 49
+      },
+      "actualAcceptedInFrozenTrace": false
+    }
+  ],
+  "pairCount": 24,
+  "positiveHVPairs": 0,
+  "negativeHVPairs": 0,
+  "zeroHVPairs": 24,
+  "jointFavorablePairs": 0,
+  "practical01pctPairs": 0,
+  "sumHVdifferencePctOfPriorHV": 0.0,
+  "medianIGDplusSymmetricWorseningPct": 0.0,
+  "medianC_A_B": 1.0,
+  "medianC_B_A": 1.0,
+  "checks": {
+    "atLeast8Pairs": true,
+    "atLeast3JointFavorablePairs": false,
+    "atLeastOnePractical01pct": false,
+    "positiveHVCountExceedsNegativeBy2": false,
+    "sumHVPositive": false,
+    "medianIGDNonworse": true,
+    "medianCoverageNonworse": true,
+    "referenceSumDirectionStable": true
+  },
+  "mechanismCluePass": false,
+  "fullAlgorithmPerformanceProved": false
+}

@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "fullFrozenPaidSequenceEqual": true,
+      "observationInvariant": true,
+      "initial100Equal": true,
+      "phaseLifecycleAndFees": true,
+      "fullIncrementalTimeline": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "fullFrozenPaidSequenceEqual": true,
+      "observationInvariant": true,
+      "initial100Equal": true,
+      "phaseLifecycleAndFees": true,
+      "fullIncrementalTimeline": true
+    }
+  ],
+  "platformDifferences": [
+    {
+      "instance": "20_8_5_1",
+      "initialExactlyEqual": true,
+      "sharedCheckpoints": {
+        "1": true,
+        "2": true,
+        "100": true,
+        "5100": true,
+        "15000": true,
+        "50000": true
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "initialExactlyEqual": true,
+      "sharedCheckpoints": {
+        "1": true,
+        "2": true,
+        "100": true,
+        "5100": true,
+        "15000": true,
+        "50000": true
+      }
+    }
+  ],
+  "sameTimeClaim": false,
+  "passed": true,
+  "fees": {
+    "attempted": 627308,
+    "successful": 627307,
+    "failed": 1
+  },
+  "expectedFailure": {
+    "attempted": 2,
+    "successful": 1,
+    "failed": 1
+  },
+  "absentPhaseRng": "Entire generating branches including reencoder bypassed; no fake slots or RNG advances",
+  "physicsQA": 11800
+}

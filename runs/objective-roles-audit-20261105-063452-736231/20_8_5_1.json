@@ -1,0 +1,2155 @@
+{
+  "fronts": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100,
+      "actualFE": 100,
+      "frontSize": 5,
+      "energyWageSpearman": -0.8999999999999998,
+      "projections": {
+        "C_E": {
+          "retainedSize": 2,
+          "retainedIndices": [
+            0,
+            2
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10835860979081446,
+              "retainedHV": 0.10534248188591655,
+              "lossPct": 2.7834686239704696
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4067482183982647,
+              "retainedHV": 0.4002110441952622,
+              "lossPct": 1.6071795541588958
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.965390772568277,
+              "retainedHV": 1.9480332912666096,
+              "lossPct": 0.8831567515189646
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 4,
+          "retainedIndices": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10835860979081446,
+              "retainedHV": 0.10738974562893233,
+              "lossPct": 0.8941275305695764
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4067482183982647,
+              "retainedHV": 0.4043990979643164,
+              "lossPct": 0.5775367482121776
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.965390772568277,
+              "retainedHV": 1.958769443751148,
+              "lossPct": 0.336896301211216
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 5100,
+      "actualFE": 5100,
+      "frontSize": 74,
+      "energyWageSpearman": -0.91061088485746,
+      "projections": {
+        "C_E": {
+          "retainedSize": 10,
+          "retainedIndices": [
+            0,
+            2,
+            3,
+            4,
+            17,
+            40,
+            48,
+            56,
+            59,
+            60
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.13645630099237716,
+              "retainedHV": 0.1280977465735813,
+              "lossPct": 6.125444085768368
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4735992479357396,
+              "retainedHV": 0.45649389976175936,
+              "lossPct": 3.611776887006624
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.1557465993125717,
+              "retainedHV": 2.112456914874258,
+              "lossPct": 2.0081063540639703
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 16,
+          "retainedIndices": [
+            0,
+            1,
+            9,
+            10,
+            13,
+            15,
+            26,
+            27,
+            29,
+            33,
+            34,
+            37,
+            39,
+            43,
+            44,
+            66
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.13645630099237716,
+              "retainedHV": 0.12872984570273616,
+              "lossPct": 5.662219504303155
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4735992479357396,
+              "retainedHV": 0.4554505705352758,
+              "lossPct": 3.8320747931015045
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.1557465993125717,
+              "retainedHV": 2.1056585895563646,
+              "lossPct": 2.3234646304059687
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100000,
+      "actualFE": 100000,
+      "frontSize": 127,
+      "energyWageSpearman": -0.192345097487814,
+      "projections": {
+        "C_E": {
+          "retainedSize": 13,
+          "retainedIndices": [
+            0,
+            9,
+            17,
+            19,
+            20,
+            29,
+            35,
+            40,
+            69,
+            101,
+            122,
+            124,
+            125
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14478856437953036,
+              "retainedHV": 0.13963544029573827,
+              "lossPct": 3.5590684291090477
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4922480702470793,
+              "retainedHV": 0.4821349631289191,
+              "lossPct": 2.054473695160243
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2076553324635153,
+              "retainedHV": 2.183026024763876,
+              "lossPct": 1.1156319257569682
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 27,
+          "retainedIndices": [
+            4,
+            6,
+            16,
+            23,
+            25,
+            26,
+            27,
+            34,
+            38,
+            42,
+            43,
+            52,
+            65,
+            68,
+            83,
+            85,
+            89,
+            92,
+            95,
+            96,
+            97,
+            99,
+            106,
+            111,
+            112,
+            120,
+            121
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14478856437953036,
+              "retainedHV": 0.13900292144378845,
+              "lossPct": 3.995925341573357
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4922480702470793,
+              "retainedHV": 0.47914453527275125,
+              "lossPct": 2.661977926648009
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2076553324635153,
+              "retainedHV": 2.172342077783803,
+              "lossPct": 1.599581880397354
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "FULL_ANCHOR",
+      "kind": "TIME",
+      "checkpoint": 4.0,
+      "actualFE": 200979,
+      "frontSize": 118,
+      "energyWageSpearman": 0.15293679401356372,
+      "projections": {
+        "C_E": {
+          "retainedSize": 8,
+          "retainedIndices": [
+            0,
+            9,
+            17,
+            19,
+            20,
+            29,
+            56,
+            80
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14667474090023047,
+              "retainedHV": 0.1418273967289323,
+              "lossPct": 3.3048254536173904
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.496219941074278,
+              "retainedHV": 0.4866362610684787,
+              "lossPct": 1.9313371375304695
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2177211288170717,
+              "retainedHV": 2.1941796804692624,
+              "lossPct": 1.0615152663656282
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 23,
+          "retainedIndices": [
+            4,
+            6,
+            16,
+            23,
+            25,
+            26,
+            27,
+            41,
+            44,
+            55,
+            62,
+            64,
+            75,
+            95,
+            96,
+            97,
+            98,
+            100,
+            102,
+            104,
+            107,
+            108,
+            114
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14667474090023047,
+              "retainedHV": 0.14263021512117646,
+              "lossPct": 2.7574794093586523
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.496219941074278,
+              "retainedHV": 0.48715800718629865,
+              "lossPct": 1.826193011985973
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2177211288170717,
+              "retainedHV": 2.193575299340168,
+              "lossPct": 1.088767616593131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100,
+      "actualFE": 100,
+      "frontSize": 5,
+      "energyWageSpearman": -0.8999999999999998,
+      "projections": {
+        "C_E": {
+          "retainedSize": 2,
+          "retainedIndices": [
+            0,
+            2
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10835860979081446,
+              "retainedHV": 0.10534248188591655,
+              "lossPct": 2.7834686239704696
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4067482183982647,
+              "retainedHV": 0.4002110441952622,
+              "lossPct": 1.6071795541588958
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.965390772568277,
+              "retainedHV": 1.9480332912666096,
+              "lossPct": 0.8831567515189646
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 4,
+          "retainedIndices": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10835860979081446,
+              "retainedHV": 0.10738974562893233,
+              "lossPct": 0.8941275305695764
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4067482183982647,
+              "retainedHV": 0.4043990979643164,
+              "lossPct": 0.5775367482121776
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.965390772568277,
+              "retainedHV": 1.958769443751148,
+              "lossPct": 0.336896301211216
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 5100,
+      "actualFE": 5100,
+      "frontSize": 42,
+      "energyWageSpearman": -0.8513896766874646,
+      "projections": {
+        "C_E": {
+          "retainedSize": 6,
+          "retainedIndices": [
+            0,
+            1,
+            6,
+            16,
+            24,
+            34
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14499820553601528,
+              "retainedHV": 0.1383105600017298,
+              "lossPct": 4.612226413122308
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4949669872321918,
+              "retainedHV": 0.48145571830640854,
+              "lossPct": 2.729731330434172
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2192036328118903,
+              "retainedHV": 2.1854428483975115,
+              "lossPct": 1.5213017820992596
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 10,
+          "retainedIndices": [
+            0,
+            2,
+            3,
+            4,
+            8,
+            12,
+            18,
+            19,
+            27,
+            31
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14499820553601528,
+              "retainedHV": 0.13971003130519288,
+              "lossPct": 3.6470618455404926
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4949669872321918,
+              "retainedHV": 0.48309634122069367,
+              "lossPct": 2.3982702518965238
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2192036328118903,
+              "retainedHV": 2.1873369791495634,
+              "lossPct": 1.4359499593081302
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100000,
+      "actualFE": 100000,
+      "frontSize": 120,
+      "energyWageSpearman": 0.16411556358080417,
+      "projections": {
+        "C_E": {
+          "retainedSize": 8,
+          "retainedIndices": [
+            0,
+            4,
+            7,
+            31,
+            35,
+            41,
+            65,
+            87
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15616504281763088,
+              "retainedHV": 0.152154145472843,
+              "lossPct": 2.5683707905563686
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5187706200798652,
+              "retainedHV": 0.5110719555312011,
+              "lossPct": 1.4840209238292763
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.281276648235054,
+              "retainedHV": 2.2628600786185675,
+              "lossPct": 0.8072922515002687
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 16,
+          "retainedIndices": [
+            3,
+            19,
+            30,
+            33,
+            34,
+            45,
+            50,
+            61,
+            81,
+            102,
+            106,
+            113,
+            116,
+            117,
+            118,
+            119
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15616504281763088,
+              "retainedHV": 0.1510233282238409,
+              "lossPct": 3.292487551003627
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5187706200798652,
+              "retainedHV": 0.507279165038848,
+              "lossPct": 2.215132198359288
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.281276648235054,
+              "retainedHV": 2.2507000236454875,
+              "lossPct": 1.3403295305382081
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610003,
+      "method": "NSGA_ANCHOR",
+      "kind": "TIME",
+      "checkpoint": 4.0,
+      "actualFE": 221069,
+      "frontSize": 85,
+      "energyWageSpearman": 0.15427008012507326,
+      "projections": {
+        "C_E": {
+          "retainedSize": 11,
+          "retainedIndices": [
+            0,
+            4,
+            7,
+            31,
+            35,
+            41,
+            45,
+            51,
+            57,
+            62,
+            72
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15949863958055577,
+              "retainedHV": 0.1542503256346861,
+              "lossPct": 3.2905070285687117
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.525553076797804,
+              "retainedHV": 0.5153468123352982,
+              "lossPct": 1.9420045116456404
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2982963876361264,
+              "retainedHV": 2.2735585910576814,
+              "lossPct": 1.0763536292152742
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 18,
+          "retainedIndices": [
+            3,
+            19,
+            30,
+            33,
+            34,
+            46,
+            50,
+            56,
+            61,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            81,
+            82,
+            83
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15949863958055577,
+              "retainedHV": 0.15555197350791872,
+              "lossPct": 2.474419896631007
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.525553076797804,
+              "retainedHV": 0.516713811897981,
+              "lossPct": 1.6818976598292728
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2982963876361264,
+              "retainedHV": 2.2747534721139946,
+              "lossPct": 1.0243637699986337
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100,
+      "actualFE": 100,
+      "frontSize": 8,
+      "energyWageSpearman": -0.4047619047619048,
+      "projections": {
+        "C_E": {
+          "retainedSize": 5,
+          "retainedIndices": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10973438251430068,
+              "retainedHV": 0.10237843406491098,
+              "lossPct": 6.703412623141211
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4092023744921205,
+              "retainedHV": 0.39337390990335575,
+              "lossPct": 3.8681262806478496
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.9702978868747643,
+              "retainedHV": 1.9286059061348348,
+              "lossPct": 2.1160242325621206
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 4,
+          "retainedIndices": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10973438251430068,
+              "retainedHV": 0.10691717250583976,
+              "lossPct": 2.5672992765907003
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4092023744921205,
+              "retainedHV": 0.4021431017702124,
+              "lossPct": 1.7251299508390379
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.9702978868747643,
+              "retainedHV": 1.9498185145627094,
+              "lossPct": 1.0394048762108115
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 5100,
+      "actualFE": 5100,
+      "frontSize": 48,
+      "energyWageSpearman": -0.8014546244029527,
+      "projections": {
+        "C_E": {
+          "retainedSize": 7,
+          "retainedIndices": [
+            0,
+            1,
+            3,
+            8,
+            15,
+            25,
+            29
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14075688105444284,
+              "retainedHV": 0.13282843185337456,
+              "lossPct": 5.632725833134695
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4842524982709593,
+              "retainedHV": 0.467964559994551,
+              "lossPct": 3.363521785548851
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.187167900849886,
+              "retainedHV": 2.145665040939644,
+              "lossPct": 1.8975616775518214
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 18,
+          "retainedIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            16,
+            18,
+            23,
+            26,
+            37,
+            43,
+            44,
+            46,
+            47
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14075688105444284,
+              "retainedHV": 0.13718348088969745,
+              "lossPct": 2.5387037123700162
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4842524982709593,
+              "retainedHV": 0.47586525153394765,
+              "lossPct": 1.7319986509018734
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.187167900849886,
+              "retainedHV": 2.163997146127599,
+              "lossPct": 1.0593953355516579
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100000,
+      "actualFE": 100000,
+      "frontSize": 107,
+      "energyWageSpearman": -0.7183820215913321,
+      "projections": {
+        "C_E": {
+          "retainedSize": 5,
+          "retainedIndices": [
+            0,
+            7,
+            22,
+            24,
+            63
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15039568821366478,
+              "retainedHV": 0.14344438668788917,
+              "lossPct": 4.622008521879967
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5046692587357047,
+              "retainedHV": 0.49110950324152114,
+              "lossPct": 2.6868598115433815
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.240253643354573,
+              "retainedHV": 2.2073139439054392,
+              "lossPct": 1.4703558030960207
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 18,
+          "retainedIndices": [
+            2,
+            3,
+            4,
+            5,
+            9,
+            16,
+            21,
+            33,
+            49,
+            61,
+            76,
+            78,
+            80,
+            88,
+            89,
+            93,
+            99,
+            105
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15039568821366478,
+              "retainedHV": 0.14704094667161693,
+              "lossPct": 2.2306101869634833
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5046692587357047,
+              "retainedHV": 0.4971180025393567,
+              "lossPct": 1.49627821897957
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.240253643354573,
+              "retainedHV": 2.220046566078933,
+              "lossPct": 0.9019995274009224
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "FULL_ANCHOR",
+      "kind": "TIME",
+      "checkpoint": 4.0,
+      "actualFE": 206825,
+      "frontSize": 143,
+      "energyWageSpearman": -0.7180759381463606,
+      "projections": {
+        "C_E": {
+          "retainedSize": 6,
+          "retainedIndices": [
+            0,
+            12,
+            27,
+            29,
+            45,
+            62
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15148951252078935,
+              "retainedHV": 0.14688789812288294,
+              "lossPct": 3.037579513812821
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5069264423947644,
+              "retainedHV": 0.4979589220853349,
+              "lossPct": 1.7689983318025682
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.245935981723255,
+              "retainedHV": 2.2241840479394215,
+              "lossPct": 0.968501950226724
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 22,
+          "retainedIndices": [
+            3,
+            4,
+            5,
+            10,
+            21,
+            26,
+            37,
+            44,
+            55,
+            59,
+            61,
+            77,
+            83,
+            87,
+            94,
+            99,
+            110,
+            124,
+            126,
+            129,
+            132,
+            142
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15148951252078935,
+              "retainedHV": 0.14643913926434493,
+              "lossPct": 3.333810487872116
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5069264423947644,
+              "retainedHV": 0.49560124777055403,
+              "lossPct": 2.2340903289063268
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.245935981723255,
+              "retainedHV": 2.2157012918607863,
+              "lossPct": 1.3461955331099953
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100,
+      "actualFE": 100,
+      "frontSize": 8,
+      "energyWageSpearman": -0.4047619047619048,
+      "projections": {
+        "C_E": {
+          "retainedSize": 5,
+          "retainedIndices": [
+            0,
+            1,
+            2,
+            4,
+            7
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10973438251430068,
+              "retainedHV": 0.10237843406491098,
+              "lossPct": 6.703412623141211
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4092023744921205,
+              "retainedHV": 0.39337390990335575,
+              "lossPct": 3.8681262806478496
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.9702978868747643,
+              "retainedHV": 1.9286059061348348,
+              "lossPct": 2.1160242325621206
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 4,
+          "retainedIndices": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.10973438251430068,
+              "retainedHV": 0.10691717250583976,
+              "lossPct": 2.5672992765907003
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4092023744921205,
+              "retainedHV": 0.4021431017702124,
+              "lossPct": 1.7251299508390379
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 1.9702978868747643,
+              "retainedHV": 1.9498185145627094,
+              "lossPct": 1.0394048762108115
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 5100,
+      "actualFE": 5100,
+      "frontSize": 53,
+      "energyWageSpearman": -0.7543138203515561,
+      "projections": {
+        "C_E": {
+          "retainedSize": 8,
+          "retainedIndices": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            15,
+            27,
+            40
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.1442072208427776,
+              "retainedHV": 0.13308445197951202,
+              "lossPct": 7.713045711762389
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4908088018922685,
+              "retainedHV": 0.4683509631683611,
+              "lossPct": 4.575679702019043
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2020476776508886,
+              "retainedHV": 2.1457225910427544,
+              "lossPct": 2.5578504579983
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 15,
+          "retainedIndices": [
+            0,
+            9,
+            12,
+            18,
+            19,
+            20,
+            29,
+            32,
+            39,
+            41,
+            43,
+            45,
+            46,
+            48,
+            50
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.1442072208427776,
+              "retainedHV": 0.1347599545072904,
+              "lossPct": 6.551174261784794
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4908088018922685,
+              "retainedHV": 0.46865003561629326,
+              "lossPct": 4.514745088218496
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2020476776508886,
+              "retainedHV": 2.140987066652821,
+              "lossPct": 2.772901405259587
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100000,
+      "actualFE": 100000,
+      "frontSize": 162,
+      "energyWageSpearman": -0.0157036585417487,
+      "projections": {
+        "C_E": {
+          "retainedSize": 13,
+          "retainedIndices": [
+            0,
+            4,
+            7,
+            17,
+            18,
+            24,
+            26,
+            30,
+            54,
+            58,
+            81,
+            102,
+            107
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15409060760520776,
+              "retainedHV": 0.14850322332934285,
+              "lossPct": 3.626038187986274
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5123517868936807,
+              "retainedHV": 0.5013026988082872,
+              "lossPct": 2.156543290769538
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2602509334118945,
+              "retainedHV": 2.2330859077151723,
+              "lossPct": 1.201858842093963
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 26,
+          "retainedIndices": [
+            2,
+            3,
+            13,
+            27,
+            40,
+            47,
+            49,
+            52,
+            56,
+            57,
+            71,
+            78,
+            93,
+            106,
+            116,
+            119,
+            120,
+            126,
+            128,
+            129,
+            131,
+            139,
+            148,
+            149,
+            152,
+            156
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15409060760520776,
+              "retainedHV": 0.15081341431983253,
+              "lossPct": 2.1267962637746627
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5123517868936807,
+              "retainedHV": 0.5050188544670928,
+              "lossPct": 1.431229989661285
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2602509334118945,
+              "retainedHV": 2.2407132925056876,
+              "lossPct": 0.8644014085955689
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610033,
+      "method": "NSGA_ANCHOR",
+      "kind": "TIME",
+      "checkpoint": 4.0,
+      "actualFE": 216781,
+      "frontSize": 267,
+      "energyWageSpearman": -0.2970763316138745,
+      "projections": {
+        "C_E": {
+          "retainedSize": 15,
+          "retainedIndices": [
+            0,
+            4,
+            7,
+            17,
+            18,
+            24,
+            26,
+            30,
+            36,
+            45,
+            47,
+            52,
+            126,
+            175,
+            209
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.1568037621428302,
+              "retainedHV": 0.14819165832107917,
+              "lossPct": 5.492281373903772
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5183553877396028,
+              "retainedHV": 0.5015723731651742,
+              "lossPct": 3.2377428635620813
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2761178585872592,
+              "retainedHV": 2.2353980638852047,
+              "lossPct": 1.7890020302959406
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 27,
+          "retainedIndices": [
+            2,
+            3,
+            13,
+            27,
+            35,
+            41,
+            58,
+            97,
+            115,
+            125,
+            144,
+            189,
+            190,
+            214,
+            215,
+            221,
+            223,
+            236,
+            237,
+            243,
+            246,
+            248,
+            252,
+            254,
+            256,
+            259,
+            264
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.1568037621428302,
+              "retainedHV": 0.15092784147342542,
+              "lossPct": 3.7473084759615016
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5183553877396028,
+              "retainedHV": 0.5051837218574198,
+              "lossPct": 2.5410492865948204
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2761178585872592,
+              "retainedHV": 2.240979040369485,
+              "lossPct": 1.5438048642869608
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100,
+      "actualFE": 100,
+      "frontSize": 9,
+      "energyWageSpearman": -0.8499999999999999,
+      "projections": {
+        "C_E": {
+          "retainedSize": 2,
+          "retainedIndices": [
+            0,
+            3
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.11436512993505943,
+              "retainedHV": 0.10555615039423971,
+              "lossPct": 7.702504728339632
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4218596239733805,
+              "retainedHV": 0.40321208100152184,
+              "lossPct": 4.420319440913201
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.010133529211868,
+              "retainedHV": 1.9616741028426024,
+              "lossPct": 2.41075658233836
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 4,
+          "retainedIndices": [
+            0,
+            1,
+            6,
+            8
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.11436512993505943,
+              "retainedHV": 0.11138815222483589,
+              "lossPct": 2.603046673329512
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4218596239733805,
+              "retainedHV": 0.4146778153764341,
+              "lossPct": 1.7024166781601189
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.010133529211868,
+              "retainedHV": 1.989896411833712,
+              "lossPct": 1.0067548789204308
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 5100,
+      "actualFE": 5100,
+      "frontSize": 71,
+      "energyWageSpearman": -0.878470824949698,
+      "projections": {
+        "C_E": {
+          "retainedSize": 9,
+          "retainedIndices": [
+            0,
+            1,
+            3,
+            18,
+            26,
+            33,
+            34,
+            36,
+            49
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.139516502340312,
+              "retainedHV": 0.1264801878288011,
+              "lossPct": 9.343922971715843
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.48214365889160904,
+              "retainedHV": 0.4553775791899213,
+              "lossPct": 5.551473965917087
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.182828105780514,
+              "retainedHV": 2.1149333246509627,
+              "lossPct": 3.1104043854737715
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 15,
+          "retainedIndices": [
+            0,
+            2,
+            4,
+            7,
+            15,
+            17,
+            19,
+            28,
+            31,
+            46,
+            62,
+            65,
+            66,
+            67,
+            69
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.139516502340312,
+              "retainedHV": 0.1320636342560071,
+              "lossPct": 5.341925836218058
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.48214365889160904,
+              "retainedHV": 0.4646222481356612,
+              "lossPct": 3.634064335975601
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.182828105780514,
+              "retainedHV": 2.1344098056132887,
+              "lossPct": 2.2181453518490506
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "FULL_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100000,
+      "actualFE": 100000,
+      "frontSize": 91,
+      "energyWageSpearman": -0.741153049848702,
+      "projections": {
+        "C_E": {
+          "retainedSize": 9,
+          "retainedIndices": [
+            0,
+            1,
+            2,
+            7,
+            10,
+            31,
+            37,
+            39,
+            45
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14884567607467014,
+              "retainedHV": 0.1417663392880837,
+              "lossPct": 4.756158844033214
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5008112304443983,
+              "retainedHV": 0.4868012270503401,
+              "lossPct": 2.7974619062808053
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2290531760503214,
+              "retainedHV": 2.1945964087493497,
+              "lossPct": 1.5458028400213375
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 30,
+          "retainedIndices": [
+            0,
+            4,
+            6,
+            9,
+            18,
+            21,
+            26,
+            30,
+            32,
+            33,
+            36,
+            41,
+            44,
+            53,
+            54,
+            58,
+            60,
+            61,
+            62,
+            63,
+            73,
+            76,
+            77,
+            78,
+            80,
+            81,
+            82,
+            84,
+            85,
+            89
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14884567607467014,
+              "retainedHV": 0.14535859216041658,
+              "lossPct": 2.3427512348455646
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5008112304443983,
+              "retainedHV": 0.49293291292903874,
+              "lossPct": 1.5731111916896776
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.2290531760503214,
+              "retainedHV": 2.2078943171766614,
+              "lossPct": 0.9492307810777105
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "FULL_ANCHOR",
+      "kind": "TIME",
+      "checkpoint": 4.0,
+      "actualFE": 206830,
+      "frontSize": 176,
+      "energyWageSpearman": -0.8807241910631741,
+      "projections": {
+        "C_E": {
+          "retainedSize": 8,
+          "retainedIndices": [
+            0,
+            1,
+            5,
+            22,
+            50,
+            53,
+            91,
+            119
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15431422582333187,
+              "retainedHV": 0.1448658805716465,
+              "lossPct": 6.122796003592302
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5140162580063183,
+              "retainedHV": 0.4954510684870099,
+              "lossPct": 3.61179033350346
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.267125199421976,
+              "retainedHV": 2.22174368383953,
+              "lossPct": 2.001720751638083
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 35,
+          "retainedIndices": [
+            0,
+            1,
+            2,
+            3,
+            16,
+            17,
+            19,
+            35,
+            36,
+            38,
+            46,
+            49,
+            58,
+            69,
+            86,
+            98,
+            102,
+            105,
+            107,
+            108,
+            111,
+            112,
+            118,
+            140,
+            141,
+            147,
+            155,
+            158,
+            159,
+            160,
+            162,
+            167,
+            170,
+            171,
+            175
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15431422582333187,
+              "retainedHV": 0.1519380827313559,
+              "lossPct": 1.5398081928598921
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5140162580063183,
+              "retainedHV": 0.5087653451309238,
+              "lossPct": 1.0215460685545168
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.267125199421976,
+              "retainedHV": 2.2532047583529975,
+              "lossPct": 0.6140128949441137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100,
+      "actualFE": 100,
+      "frontSize": 9,
+      "energyWageSpearman": -0.8499999999999999,
+      "projections": {
+        "C_E": {
+          "retainedSize": 2,
+          "retainedIndices": [
+            0,
+            3
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.11436512993505943,
+              "retainedHV": 0.10555615039423971,
+              "lossPct": 7.702504728339632
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4218596239733805,
+              "retainedHV": 0.40321208100152184,
+              "lossPct": 4.420319440913201
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.010133529211868,
+              "retainedHV": 1.9616741028426024,
+              "lossPct": 2.41075658233836
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 4,
+          "retainedIndices": [
+            0,
+            1,
+            6,
+            8
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.11436512993505943,
+              "retainedHV": 0.11138815222483589,
+              "lossPct": 2.603046673329512
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4218596239733805,
+              "retainedHV": 0.4146778153764341,
+              "lossPct": 1.7024166781601189
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.010133529211868,
+              "retainedHV": 1.989896411833712,
+              "lossPct": 1.0067548789204308
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 5100,
+      "actualFE": 5100,
+      "frontSize": 61,
+      "energyWageSpearman": -0.8451084082496033,
+      "projections": {
+        "C_E": {
+          "retainedSize": 7,
+          "retainedIndices": [
+            0,
+            1,
+            8,
+            14,
+            20,
+            28,
+            51
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14297193682813036,
+              "retainedHV": 0.13224772372523796,
+              "lossPct": 7.500921747870148
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4889297737209475,
+              "retainedHV": 0.46723936899984064,
+              "lossPct": 4.436302693541108
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.1991334106542295,
+              "retainedHV": 2.1447181427133613,
+              "lossPct": 2.4743959451136726
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 16,
+          "retainedIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            21,
+            25,
+            30,
+            33,
+            46,
+            48,
+            50,
+            59,
+            60
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.14297193682813036,
+              "retainedHV": 0.13733561178615927,
+              "lossPct": 3.942259695863698
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.4889297737209475,
+              "retainedHV": 0.47597166395396373,
+              "lossPct": 2.6503008128074197
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.1991334106542295,
+              "retainedHV": 2.1638376107337525,
+              "lossPct": 1.6049867529399569
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "NSGA_ANCHOR",
+      "kind": "FE",
+      "checkpoint": 100000,
+      "actualFE": 100000,
+      "frontSize": 106,
+      "energyWageSpearman": 0.046930498526337,
+      "projections": {
+        "C_E": {
+          "retainedSize": 8,
+          "retainedIndices": [
+            0,
+            4,
+            18,
+            33,
+            36,
+            50,
+            57,
+            66
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.1543508136780427,
+              "retainedHV": 0.14893842564368054,
+              "lossPct": 3.506549726165851
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5128333847651088,
+              "retainedHV": 0.5021747993749806,
+              "lossPct": 2.0783719833314125
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.261002056162388,
+              "retainedHV": 2.234843244613545,
+              "lossPct": 1.1569565572727707
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 23,
+          "retainedIndices": [
+            3,
+            10,
+            15,
+            16,
+            17,
+            24,
+            27,
+            31,
+            32,
+            35,
+            45,
+            49,
+            82,
+            84,
+            87,
+            88,
+            96,
+            97,
+            98,
+            100,
+            101,
+            102,
+            105
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.1543508136780427,
+              "retainedHV": 0.15195582496868898,
+              "lossPct": 1.5516527916395624
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.5128333847651088,
+              "retainedHV": 0.5074483519112185,
+              "lossPct": 1.0500550498202716
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.261002056162388,
+              "retainedHV": 2.2465959768709345,
+              "lossPct": 0.6371546302750855
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 11610063,
+      "method": "NSGA_ANCHOR",
+      "kind": "TIME",
+      "checkpoint": 4.0,
+      "actualFE": 223539,
+      "frontSize": 173,
+      "energyWageSpearman": -0.25484051897965526,
+      "projections": {
+        "C_E": {
+          "retainedSize": 10,
+          "retainedIndices": [
+            0,
+            4,
+            18,
+            27,
+            30,
+            31,
+            41,
+            100,
+            151,
+            152
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15501117114678475,
+              "retainedHV": 0.14827738065173768,
+              "lossPct": 4.344067879256681
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.514177704795479,
+              "retainedHV": 0.5010320517965723,
+              "lossPct": 2.556636134998414
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.264295964759947,
+              "retainedHV": 2.2322986176203976,
+              "lossPct": 1.4131256530743255
+            }
+          ]
+        },
+        "C_W": {
+          "retainedSize": 25,
+          "retainedIndices": [
+            3,
+            10,
+            15,
+            16,
+            17,
+            26,
+            29,
+            50,
+            51,
+            52,
+            65,
+            75,
+            82,
+            84,
+            116,
+            119,
+            125,
+            145,
+            154,
+            155,
+            158,
+            162,
+            164,
+            169,
+            172
+          ],
+          "measures": [
+            {
+              "reference": 1.25,
+              "fullHV": 0.15501117114678475,
+              "retainedHV": 0.15119694030383757,
+              "lossPct": 2.460616750863314
+            },
+            {
+              "reference": 1.5,
+              "fullHV": 0.514177704795479,
+              "retainedHV": 0.5055997461036039,
+              "lossPct": 1.6682867833188237
+            },
+            {
+              "reference": 2.0,
+              "fullHV": 2.264295964759947,
+              "retainedHV": 2.2413408440592013,
+              "lossPct": 1.0137862301573957
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pools": [
+    {
+      "stem": "20_8_5_1",
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "preBatchFE": 850,
+      "poolSize": 80,
+      "pairCount": 3160,
+      "strictBothPairs": 3158,
+      "energyWageOppositePairs": 1514,
+      "oppositePctOfStrict": 47.941735275490814,
+      "energyWageSpearman": 0.061193872412459334
+    },
+    {
+      "stem": "20_8_5_1",
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "preBatchFE": 2170,
+      "poolSize": 80,
+      "pairCount": 3160,
+      "strictBothPairs": 3158,
+      "energyWageOppositePairs": 1346,
+      "oppositePctOfStrict": 42.621912602913234,
+      "energyWageSpearman": 0.2832663299108058
+    },
+    {
+      "stem": "20_8_5_1",
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "preBatchFE": 3545,
+      "poolSize": 80,
+      "pairCount": 3160,
+      "strictBothPairs": 3158,
+      "energyWageOppositePairs": 1329,
+      "oppositePctOfStrict": 42.083597213426216,
+      "energyWageSpearman": 0.3612794336796872
+    },
+    {
+      "stem": "20_8_5_1",
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "preBatchFE": 850,
+      "poolSize": 80,
+      "pairCount": 3160,
+      "strictBothPairs": 3160,
+      "energyWageOppositePairs": 1056,
+      "oppositePctOfStrict": 33.41772151898734,
+      "energyWageSpearman": 0.4758087201125176
+    },
+    {
+      "stem": "20_8_5_1",
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "preBatchFE": 2170,
+      "poolSize": 80,
+      "pairCount": 3160,
+      "strictBothPairs": 3160,
+      "energyWageOppositePairs": 1638,
+      "oppositePctOfStrict": 51.835443037974684,
+      "energyWageSpearman": -0.013009845288326303
+    },
+    {
+      "stem": "20_8_5_1",
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "preBatchFE": 3545,
+      "poolSize": 80,
+      "pairCount": 3160,
+      "strictBothPairs": 3160,
+      "energyWageOppositePairs": 1749,
+      "oppositePctOfStrict": 55.348101265822784,
+      "energyWageSpearman": -0.1235349273323957
+    }
+  ]
+}

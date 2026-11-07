@@ -1,0 +1,748 @@
+{
+  "verdict": {
+    "structuralCounts": {
+      "case-02": 3,
+      "case-06": 2,
+      "case-10": 0
+    },
+    "structuralGate": true,
+    "capacityGate": false,
+    "gainVersusEachControl": {
+      "FULL": true,
+      "RANDOM_0": true,
+      "RANDOM_1": false,
+      "RANDOM_2": true
+    },
+    "majorReverseVersusControl": {
+      "FULL": false,
+      "RANDOM_0": false,
+      "RANDOM_1": true,
+      "RANDOM_2": false
+    },
+    "eligibleForFurtherDiscussion": false,
+    "status": "STOP_THIS_LITERAL_TRANSFER_VERSION",
+    "scope": "No algorithm-performance or independent-seed claim; mainline and original sharing unchanged"
+  },
+  "paid": 60,
+  "qa": 4,
+  "failed": 0,
+  "blocks": [
+    {
+      "source": "case-02",
+      "receiver": "receiver-012",
+      "role": "MAKESPAN",
+      "prunedStrictlyDominatesFull": true,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": true,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        -40.87193688117259,
+        -97.00306023150915
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": false,
+        "RANDOM_1": false,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-02",
+      "receiver": "receiver-064",
+      "role": "CENTER",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": true,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        98.38897186284885,
+        -37.529125430563
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": false,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0004764627533414357,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-02",
+      "receiver": "receiver-082",
+      "role": "ENERGY",
+      "prunedStrictlyDominatesFull": true,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        -23.51505596471543,
+        -93.38282403592893
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": false,
+        "RANDOM_2": false
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 4.80550165164922e-06,
+        "RANDOM_2": 4.80550165164922e-06
+      }
+    },
+    {
+      "source": "case-02",
+      "receiver": "receiver-097",
+      "role": "WORKER_COST",
+      "prunedStrictlyDominatesFull": true,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": true,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        -181.42961152452335,
+        -63.418308676817105
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": true,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-06",
+      "receiver": "receiver-012",
+      "role": "MAKESPAN",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        24.394841875923476,
+        -166.71817746007582,
+        -340.29264871597115
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": false,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-06",
+      "receiver": "receiver-064",
+      "role": "CENTER",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": true,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        69.26093898893782,
+        264.5040492674452,
+        -109.24179504621134
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": false,
+        "RANDOM_1": false,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 1.4569169911892325e-08,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-06",
+      "receiver": "receiver-082",
+      "role": "ENERGY",
+      "prunedStrictlyDominatesFull": true,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": true,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        -81.72552359753172,
+        -277.0574274063547
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": true,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 1.608418386202343e-07,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-06",
+      "receiver": "receiver-097",
+      "role": "WORKER_COST",
+      "prunedStrictlyDominatesFull": true,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": true,
+      "objectivesPrunedMinusFull": [
+        -1.3624556543097697,
+        -103.35942208660708,
+        -52.85312279553182
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": true,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 8.20048679267451e-05,
+        "PRUNED": 0.00028359971088879357,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-10",
+      "receiver": "receiver-012",
+      "role": "MAKESPAN",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": true,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        369.7397019983182,
+        291.07998423991376
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": false,
+        "RANDOM_1": false,
+        "RANDOM_2": false
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-10",
+      "receiver": "receiver-064",
+      "role": "CENTER",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        7.387863127394894,
+        -468.78153739409754,
+        -362.8174538375606
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": false,
+        "RANDOM_1": false,
+        "RANDOM_2": false
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 0.0,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-10",
+      "receiver": "receiver-082",
+      "role": "ENERGY",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": false,
+      "objectivesPrunedMinusFull": [
+        0.0,
+        114.73040148901055,
+        -69.61891934236337
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": false,
+        "RANDOM_2": true
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 0.0,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 1.4849464933080567e-06,
+        "RANDOM_2": 0.0
+      }
+    },
+    {
+      "source": "case-10",
+      "receiver": "receiver-097",
+      "role": "WORKER_COST",
+      "prunedStrictlyDominatesFull": false,
+      "fullStrictlyDominatesPruned": false,
+      "equalObjectives": false,
+      "prunedStrictlyDominatesParent": false,
+      "parentStrictlyDominatesPruned": false,
+      "prunedHVPositive": true,
+      "objectivesPrunedMinusFull": [
+        28.33991440632917,
+        -538.9220179694967,
+        -517.0972896045569
+      ],
+      "ordinaryDominatedByPruned": {
+        "RANDOM_0": true,
+        "RANDOM_1": false,
+        "RANDOM_2": false
+      },
+      "armHVgainPct": {
+        "FULL": 0.0,
+        "PRUNED": 1.8159122231507685e-05,
+        "RANDOM_0": 0.0,
+        "RANDOM_1": 1.8159122231507685e-05,
+        "RANDOM_2": 3.383831379627947e-07
+      }
+    }
+  ],
+  "queryPositiveCounts": {
+    "FULL": 1,
+    "PRUNED": 3,
+    "RANDOM_0": 0,
+    "RANDOM_1": 5,
+    "RANDOM_2": 2
+  },
+  "overallVersusA0": {
+    "FULL": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 8.200486794063266e-05,
+        "1.25": 0.00015667670449914795,
+        "2.0": 3.515705278012149e-05
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 6.458287565846987e-07,
+        "1.25": 4.459509342358281e-07,
+        "2.0": 1.04558440128244e-06
+      },
+      "IGDplusSymmetricImprovementPct": 0.0,
+      "IGDplusImprovement": 0.0,
+      "IGDImprovement": 1.5716280631429658e-06,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9988262910798122,
+        "coveredB": 853,
+        "totalB": 853,
+        "coveredA": 851,
+        "totalA": 852,
+        "sharedObjectiveVectors": 851
+      },
+      "Cdelta": 0.0011737089201877549
+    },
+    "PRUNED": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.0003019196749498576,
+        "1.25": 0.0005945060313150563,
+        "2.0": 0.000126057478011532
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 2.3777662616630835e-06,
+        "1.25": 1.6921502206113104e-06,
+        "2.0": 3.7489983437666297e-06
+      },
+      "IGDplusSymmetricImprovementPct": 70.52906991317097,
+      "IGDplusImprovement": 3.844854647655187e-06,
+      "IGDImprovement": 1.3800027844061184e-05,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9964788732394366,
+        "coveredB": 853,
+        "totalB": 853,
+        "coveredA": 849,
+        "totalA": 852,
+        "sharedObjectiveVectors": 849
+      },
+      "Cdelta": 0.0035211267605633756
+    },
+    "RANDOM_0": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.0,
+        "1.25": 0.0,
+        "2.0": 0.0
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 0.0,
+        "1.25": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusSymmetricImprovementPct": 0.0,
+      "IGDplusImprovement": 0.0,
+      "IGDImprovement": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 853,
+        "totalB": 853,
+        "coveredA": 853,
+        "totalA": 853,
+        "sharedObjectiveVectors": 853
+      },
+      "Cdelta": 0.0
+    },
+    "RANDOM_1": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.0005009123237087465,
+        "1.25": 0.0009746104423946633,
+        "2.0": 0.00021138599968217875
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 3.944931457389167e-06,
+        "1.25": 2.774046331255331e-06,
+        "2.0": 6.286701711211151e-06
+      },
+      "IGDplusSymmetricImprovementPct": 122.86611975856002,
+      "IGDplusImprovement": 5.612228922701454e-06,
+      "IGDImprovement": 2.8406292337437205e-05,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9953216374269006,
+        "coveredB": 853,
+        "totalB": 853,
+        "coveredA": 851,
+        "totalA": 855,
+        "sharedObjectiveVectors": 851
+      },
+      "Cdelta": 0.004678362573099393
+    },
+    "RANDOM_2": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 5.143884762581763e-06,
+        "1.25": 1.4232668288371997e-05,
+        "2.0": 1.362141932581551e-06
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 4.0510628074308386e-08,
+        "1.25": 4.051062818533069e-08,
+        "2.0": 4.051062996168753e-08
+      },
+      "IGDplusSymmetricImprovementPct": 16.97648567363562,
+      "IGDplusImprovement": 1.153880487791826e-06,
+      "IGDImprovement": 1.5011401459617773e-05,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9976580796252927,
+        "coveredB": 853,
+        "totalB": 853,
+        "coveredA": 852,
+        "totalA": 854,
+        "sharedObjectiveVectors": 852
+      },
+      "Cdelta": 0.0023419203747072626
+    }
+  },
+  "prunedComparisons": {
+    "FULL": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.00021991462668680128,
+        "1.25": 0.00043782864085351036,
+        "2.0": 9.09003932569874e-05
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 1.7319375050783847e-06,
+        "1.25": 1.2461992863754823e-06,
+        "2.0": 2.7034139424841896e-06
+      },
+      "IGDplusSymmetricImprovementPct": 70.52906991317097,
+      "IGDplusImprovement": 3.844854647655187e-06,
+      "IGDImprovement": 1.2228399780918218e-05,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9964788732394366,
+        "coveredB": 852,
+        "totalB": 852,
+        "coveredA": 849,
+        "totalA": 852,
+        "sharedObjectiveVectors": 849
+      },
+      "Cdelta": 0.0035211267605633756
+    },
+    "RANDOM_0": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.0003019196749498576,
+        "1.25": 0.0005945060313150563,
+        "2.0": 0.000126057478011532
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 2.3777662616630835e-06,
+        "1.25": 1.6921502206113104e-06,
+        "2.0": 3.7489983437666297e-06
+      },
+      "IGDplusSymmetricImprovementPct": 70.52906991317097,
+      "IGDplusImprovement": 3.844854647655187e-06,
+      "IGDImprovement": 1.3800027844061184e-05,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9964788732394366,
+        "coveredB": 853,
+        "totalB": 853,
+        "coveredA": 849,
+        "totalA": 852,
+        "sharedObjectiveVectors": 849
+      },
+      "Cdelta": 0.0035211267605633756
+    },
+    "RANDOM_1": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": -0.0001989916519673507,
+        "1.25": -0.00038010070656513406,
+        "2.0": -8.532834130381417e-05
+      },
+      "HVAbsoluteDifference": {
+        "1.5": -1.5671651957260835e-06,
+        "1.25": -1.0818961106440206e-06,
+        "2.0": -2.5377033674445215e-06
+      },
+      "IGDplusSymmetricImprovementPct": -66.81105138855091,
+      "IGDplusImprovement": -1.7673742750462666e-06,
+      "IGDImprovement": -1.4606264493376022e-05,
+      "coverage": {
+        "C_A_B": 0.9964912280701754,
+        "C_B_A": 0.9988262910798122,
+        "coveredB": 852,
+        "totalB": 855,
+        "coveredA": 851,
+        "totalA": 852,
+        "sharedObjectiveVectors": 848
+      },
+      "Cdelta": -0.0023350630096368175
+    },
+    "RANDOM_2": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.000296775774910607,
+        "1.25": 0.0005802732804482957,
+        "2.0": 0.000124695334369207
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 2.337255633588775e-06,
+        "1.25": 1.6516395924259797e-06,
+        "2.0": 3.708487713804942e-06
+      },
+      "IGDplusSymmetricImprovementPct": 55.20505900063161,
+      "IGDplusImprovement": 2.6909741598633613e-06,
+      "IGDImprovement": -1.2113736155565892e-06,
+      "coverage": {
+        "C_A_B": 0.9976580796252927,
+        "C_B_A": 0.9964788732394366,
+        "coveredB": 852,
+        "totalB": 854,
+        "coveredA": 849,
+        "totalA": 852,
+        "sharedObjectiveVectors": 848
+      },
+      "Cdelta": 0.001179206385856113
+    }
+  },
+  "knownEnvelopeEffects": {
+    "FULL": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.0,
+        "1.25": 0.0,
+        "2.0": 0.0
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 0.0,
+        "1.25": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusSymmetricImprovementPct": 0.0,
+      "IGDplusImprovement": 0.0,
+      "IGDImprovement": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 879,
+        "totalB": 879,
+        "coveredA": 879,
+        "totalA": 879,
+        "sharedObjectiveVectors": 879
+      },
+      "Cdelta": 0.0
+    },
+    "PRUNED": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 2.4376395124647843e-06,
+        "1.25": 6.742964764328008e-06,
+        "2.0": 6.456119416853312e-07
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 1.9203091450314957e-08,
+        "1.25": 1.9203091450314957e-08,
+        "2.0": 1.920309200542647e-08
+      },
+      "IGDplusSymmetricImprovementPct": 80.08813774606578,
+      "IGDplusImprovement": 1.949713925228443e-06,
+      "IGDImprovement": 4.4534873431890986e-06,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9977298524404086,
+        "coveredB": 879,
+        "totalB": 879,
+        "coveredA": 879,
+        "totalA": 881,
+        "sharedObjectiveVectors": 879
+      },
+      "Cdelta": 0.002270147559591429
+    },
+    "RANDOM_0": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 0.0,
+        "1.25": 0.0,
+        "2.0": 0.0
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 0.0,
+        "1.25": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusSymmetricImprovementPct": 0.0,
+      "IGDplusImprovement": 0.0,
+      "IGDImprovement": 0.0,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 1.0,
+        "coveredB": 879,
+        "totalB": 879,
+        "coveredA": 879,
+        "totalA": 879,
+        "sharedObjectiveVectors": 879
+      },
+      "Cdelta": 0.0
+    },
+    "RANDOM_1": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 7.113181310636207e-06,
+        "1.25": 1.967638403321814e-05,
+        "2.0": 1.883935185631458e-06
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 5.6035796558440154e-08,
+        "1.25": 5.6035796502929e-08,
+        "2.0": 5.603579777968548e-08
+      },
+      "IGDplusSymmetricImprovementPct": 88.1432807310597,
+      "IGDplusImprovement": 2.0858262498076767e-06,
+      "IGDImprovement": 9.782031886000197e-06,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9965909090909091,
+        "coveredB": 879,
+        "totalB": 879,
+        "coveredA": 877,
+        "totalA": 880,
+        "sharedObjectiveVectors": 877
+      },
+      "Cdelta": 0.003409090909090917
+    },
+    "RANDOM_2": {
+      "seed": 16110037,
+      "HVEffectPct": {
+        "1.5": 4.8004099362231045e-06,
+        "1.25": 1.3278827748486322e-05,
+        "2.0": 1.2713947672438053e-06
+      },
+      "HVAbsoluteDifference": {
+        "1.5": 3.781638380218055e-08,
+        "1.25": 3.78163837466694e-08,
+        "2.0": 3.781638557853739e-08
+      },
+      "IGDplusSymmetricImprovementPct": 28.558651368173894,
+      "IGDplusImprovement": 8.519957810900912e-07,
+      "IGDImprovement": 4.602706209964132e-06,
+      "coverage": {
+        "C_A_B": 1.0,
+        "C_B_A": 0.9988610478359908,
+        "coveredB": 879,
+        "totalB": 879,
+        "coveredA": 877,
+        "totalA": 878,
+        "sharedObjectiveVectors": 877
+      },
+      "Cdelta": 0.001138952164009166
+    }
+  },
+  "independentCandidateHVChecks": 360,
+  "independentSetHVChecks": 18,
+  "newAnalysisDecoderCalls": 0,
+  "seconds": 21.110354887998255
+}

@@ -1,0 +1,290 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "effectsPct": {
+        "MEAN": [
+          0.0,
+          0.2214008846957327
+        ],
+        "ZERO": [
+          -1.8502492169938711,
+          -0.5073351570797024
+        ],
+        "NSGA": [
+          -3.485861668473067,
+          -0.2783252666331504
+        ]
+      },
+      "supported": false,
+      "cells": [
+        {
+          "seed": 10730003,
+          "arm": "MEAN",
+          "HV": 0.4698076058822086,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        },
+        {
+          "seed": 10730003,
+          "arm": "HV",
+          "HV": 0.4698076058822086,
+          "utility": {
+            "mode": "HV",
+            "reference": [
+              948.7621255285314,
+              55440.80072275728,
+              55935.71276491941
+            ],
+            "centerCalls": 50,
+            "positive": 49,
+            "negative": 0,
+            "zero": 1,
+            "utilitySeconds": 0.0185728
+          }
+        },
+        {
+          "seed": 10730003,
+          "arm": "ZERO",
+          "HV": 0.4786640843550182,
+          "utility": {
+            "mode": "ZERO",
+            "reference": null,
+            "centerCalls": 50,
+            "positive": 0,
+            "negative": 0,
+            "zero": 50,
+            "utilitySeconds": 3.72e-05
+          }
+        },
+        {
+          "seed": 10730003,
+          "arm": "NSGA",
+          "HV": 0.4867759418505248,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "MEAN",
+          "HV": 0.47641514559413745,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "HV",
+          "HV": 0.47746993294130735,
+          "utility": {
+            "mode": "HV",
+            "reference": [
+              1054.2503022914163,
+              58947.31938314396,
+              57011.288824385316
+            ],
+            "centerCalls": 50,
+            "positive": 49,
+            "negative": 0,
+            "zero": 1,
+            "utilitySeconds": 0.018207
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "ZERO",
+          "HV": 0.4799046579917627,
+          "utility": {
+            "mode": "ZERO",
+            "reference": null,
+            "centerCalls": 50,
+            "positive": 0,
+            "negative": 0,
+            "zero": 50,
+            "utilitySeconds": 3.75e-05
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "NSGA",
+          "HV": 0.47880256144710137,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "effectsPct": {
+        "MEAN": [
+          -1.0553558676266173,
+          -0.7320532020929416
+        ],
+        "ZERO": [
+          -0.6455738410397149,
+          -3.310901896587082
+        ],
+        "NSGA": [
+          3.6269781380607435,
+          0.6590304351526743
+        ]
+      },
+      "supported": false,
+      "cells": [
+        {
+          "seed": 10730003,
+          "arm": "MEAN",
+          "HV": 0.5652472512275922,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        },
+        {
+          "seed": 10730003,
+          "arm": "HV",
+          "HV": 0.5592818811951636,
+          "utility": {
+            "mode": "HV",
+            "reference": [
+              3703.8956344356097,
+              103012.95790926731,
+              86086.11630093202
+            ],
+            "centerCalls": 50,
+            "positive": 48,
+            "negative": 2,
+            "zero": 0,
+            "utilitySeconds": 0.0171542
+          }
+        },
+        {
+          "seed": 10730003,
+          "arm": "ZERO",
+          "HV": 0.562915919116025,
+          "utility": {
+            "mode": "ZERO",
+            "reference": null,
+            "centerCalls": 50,
+            "positive": 0,
+            "negative": 0,
+            "zero": 50,
+            "utilitySeconds": 3.63e-05
+          }
+        },
+        {
+          "seed": 10730003,
+          "arm": "NSGA",
+          "HV": 0.5397068323752917,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "MEAN",
+          "HV": 0.5463570809807745,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "HV",
+          "HV": 0.5423574564745932,
+          "utility": {
+            "mode": "HV",
+            "reference": [
+              3500.843044580601,
+              103534.32441426208,
+              84811.76090178416
+            ],
+            "centerCalls": 50,
+            "positive": 43,
+            "negative": 6,
+            "zero": 1,
+            "utilitySeconds": 0.0181774
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "ZERO",
+          "HV": 0.5609292744612426,
+          "utility": {
+            "mode": "ZERO",
+            "reference": null,
+            "centerCalls": 50,
+            "positive": 0,
+            "negative": 0,
+            "zero": 50,
+            "utilitySeconds": 3.53e-05
+          }
+        },
+        {
+          "seed": 10730033,
+          "arm": "NSGA",
+          "HV": 0.538806557275549,
+          "utility": {
+            "mode": "MEAN",
+            "reference": null,
+            "centerCalls": 0,
+            "positive": 0,
+            "negative": 0,
+            "zero": 0,
+            "utilitySeconds": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "pairedWins": {
+    "MEAN": 1,
+    "ZERO": 0
+  },
+  "worthClosedLoop": false,
+  "scope": "Short-stage CENTER reward intervention, not complete search, time superiority or cooperative causal credit."
+}

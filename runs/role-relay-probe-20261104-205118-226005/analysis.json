@@ -1,0 +1,889 @@
+{
+  "backgroundHV": 0.6923232033562448,
+  "matrix": [
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.02559165
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.0001144678773800506,
+      "medianGain": 0.0,
+      "meanSeconds": 0.017521125
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.00032107203788063476,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0141813375
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 1.4803323020451398e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.013619800000000001
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 1.010722228862726e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0094230625
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 6.497423652054857e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0146262125
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 4,
+      "meanGain": 0.00024338787207742185,
+      "medianGain": 3.231756186816703e-05,
+      "meanSeconds": 0.010138737500000002
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 1.3219974650466315e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.01338045
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.007920125
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 4,
+      "meanGain": 0.0004151281276566082,
+      "medianGain": 6.285227142011074e-05,
+      "meanSeconds": 0.010944474999999999
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 0.0009847965173466894,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0090223125
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 8.605100811671929e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.010545487499999999
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.00763855
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 5.7770772059762e-06,
+      "medianGain": 0.0,
+      "meanSeconds": 0.008893425
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 0.0008951962264152763,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0087312625
+    },
+    {
+      "cohort": "S",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 2.9579392832324025e-07,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0074759
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 3.169903551869524e-07,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0100587875
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 2.6431304666285627e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.016313762500000002
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.013872575
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.0002020822225486385,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0143410375
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 2.735805204184816e-07,
+      "medianGain": 0.0,
+      "meanSeconds": 0.009409250000000001
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 4.996170302964953e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.015472625
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 1.0186678775780944e-06,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0134175125
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.013239062499999999
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.00756465
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 5.427256455446672e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.011371775
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 7.525933048979638e-08,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0096881625
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.009272475
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 9.584517986208074e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.008604175
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 0.001020069546763161,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0079998875
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 4,
+      "meanGain": 0.00014176838521275104,
+      "medianGain": 2.3568602665058336e-06,
+      "meanSeconds": 0.0081204625
+    },
+    {
+      "cohort": "S",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.0016448575652430603,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0085218375
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 1.1437617939369371e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.008134475
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.0008204003318727643,
+      "medianGain": 0.0,
+      "meanSeconds": 0.010821424999999999
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 0.0001342056630698335,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0079452875
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "MAKESPAN",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 0.00010011210540933346,
+      "medianGain": 0.0,
+      "meanSeconds": 0.007803174999999999
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 3.6267214384433366e-08,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0069935875
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 4,
+      "meanGain": 0.00021476558926820932,
+      "medianGain": 1.8308903166230905e-05,
+      "meanSeconds": 0.0103534875
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 7.079836635423553e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0096556375
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "CENTER",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 7.716493171591732e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0102434
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 2.398503679643116e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0071573625
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.0036883038202180363,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0092372875
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 0.002438411798482129,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0078449125
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "ENERGY",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 8.062316260271096e-06,
+      "medianGain": 0.0,
+      "meanSeconds": 0.00799085
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0061305875
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 5,
+      "meanGain": 0.0010211389793302328,
+      "medianGain": 1.8087587129733684e-06,
+      "meanSeconds": 0.0105103125
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.007593012499999999
+    },
+    {
+      "cohort": "U",
+      "split": "TRAIN",
+      "source": "WORKER_COST",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 0.00011338564932257544,
+      "medianGain": 0.0,
+      "meanSeconds": 0.00845405
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 0.00103025049702192,
+      "medianGain": 0.0,
+      "meanSeconds": 0.006741975
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.000157609489510796,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0104644625
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 4.390424352365696e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0078560625
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "MAKESPAN",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0094993375
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0060950250000000004
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.008897012499999999
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 0.001838716713628924,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0080518875
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "CENTER",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 1,
+      "meanGain": 6.426513795398936e-06,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0075768625
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 2,
+      "meanGain": 0.0007277384284833516,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0069449625000000004
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 6,
+      "meanGain": 0.0006889871727169955,
+      "medianGain": 0.00026088150882608296,
+      "meanSeconds": 0.010128825000000001
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 4,
+      "meanGain": 0.0014035066893129389,
+      "medianGain": 0.00019323111069874388,
+      "meanSeconds": 0.009187862500000001
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "ENERGY",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 2.659801653738525e-05,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0087862625
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "MAKESPAN",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0063032625
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "CENTER",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0099144625
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "ENERGY",
+      "n": 8,
+      "positive": 0,
+      "meanGain": 0.0,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0081923125
+    },
+    {
+      "cohort": "U",
+      "split": "HOLDOUT",
+      "source": "WORKER_COST",
+      "target": "WORKER_COST",
+      "n": 8,
+      "positive": 3,
+      "meanGain": 0.0004959261625465811,
+      "medianGain": 0.0,
+      "meanSeconds": 0.0099684125
+    }
+  ],
+  "heldout": [
+    {
+      "cohort": "S",
+      "target": "MAKESPAN",
+      "trainSelectedSource": "CENTER",
+      "heldoutBatchGain": {
+        "RELAY": 1.0943220816739263e-06,
+        "SELF": 1.2679614207478096e-06,
+        "ELITE": 0.0,
+        "RANDOM": 2.362283502477247e-06
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.0,
+        "RELAY:9173027": 2.1886441633478526e-06,
+        "SELF:9173001": 0.0,
+        "SELF:9173027": 2.535922841495619e-06,
+        "ELITE:9173001": 0.0,
+        "ELITE:9173027": 0.0,
+        "RANDOM:9173001": 0.0,
+        "RANDOM:9173027": 4.724567004954494e-06
+      },
+      "beatsAllOrdinary": false
+    },
+    {
+      "cohort": "S",
+      "target": "CENTER",
+      "trainSelectedSource": "ENERGY",
+      "heldoutBatchGain": {
+        "RELAY": 0.00013463288153903186,
+        "SELF": 0.00019984681211859812,
+        "ELITE": 0.004236303593767143,
+        "RANDOM": 0.00023855049677268259
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.0,
+        "RELAY:9173027": 0.0002692657630780637,
+        "SELF:9173001": 0.00029626387967918166,
+        "SELF:9173027": 0.00010342974455801457,
+        "ELITE:9173001": 0.00035677392723409973,
+        "ELITE:9173027": 0.008115833260300187,
+        "RANDOM:9173001": 0.000211450437330285,
+        "RANDOM:9173027": 0.00026565055621508016
+      },
+      "beatsAllOrdinary": false
+    },
+    {
+      "cohort": "S",
+      "target": "ENERGY",
+      "trainSelectedSource": "WORKER_COST",
+      "heldoutBatchGain": {
+        "RELAY": 0.0005500957899955417,
+        "SELF": 3.0103732195918553e-07,
+        "ELITE": 0.0005503968273175563,
+        "RANDOM": 0.0003780969261059641
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 4.713720533011667e-06,
+        "RELAY:9173027": 0.0010954778594580716,
+        "SELF:9173001": 6.020746439183711e-07,
+        "SELF:9173027": 0.0,
+        "ELITE:9173001": 5.3157951770410605e-06,
+        "ELITE:9173027": 0.0010954778594580716,
+        "RANDOM:9173001": 1.2863063553747445e-05,
+        "RANDOM:9173027": 0.0007433307886581808
+      },
+      "beatsAllOrdinary": false
+    },
+    {
+      "cohort": "S",
+      "target": "WORKER_COST",
+      "trainSelectedSource": "ENERGY",
+      "heldoutBatchGain": {
+        "RELAY": 0.0,
+        "SELF": 0.006550155490987919,
+        "ELITE": 0.006550155490987919,
+        "RANDOM": 0.0005151376377967032
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.0,
+        "RELAY:9173027": 0.0,
+        "SELF:9173001": 0.00339088788912123,
+        "SELF:9173027": 0.009709423092854608,
+        "ELITE:9173001": 0.00339088788912123,
+        "ELITE:9173027": 0.009709423092854608,
+        "RANDOM:9173001": 0.0,
+        "RANDOM:9173027": 0.0010302752755934064
+      },
+      "beatsAllOrdinary": false
+    },
+    {
+      "cohort": "U",
+      "target": "MAKESPAN",
+      "trainSelectedSource": "ENERGY",
+      "heldoutBatchGain": {
+        "RELAY": 0.0029109537139334063,
+        "SELF": 0.00412100198808768,
+        "ELITE": 0.005487414446392724,
+        "RANDOM": 0.00412100198808768
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.002817349712658457,
+        "RELAY:9173027": 0.003004557715208356,
+        "SELF:9173001": 0.00015328146034332413,
+        "SELF:9173027": 0.008088722515832036,
+        "ELITE:9173001": 0.0028546221877715494,
+        "ELITE:9173027": 0.0081202067050139,
+        "RANDOM:9173001": 0.00015328146034332413,
+        "RANDOM:9173027": 0.008088722515832036
+      },
+      "beatsAllOrdinary": false
+    },
+    {
+      "cohort": "U",
+      "target": "CENTER",
+      "trainSelectedSource": "ENERGY",
+      "heldoutBatchGain": {
+        "RELAY": 0.0023517577417495605,
+        "SELF": 0.0,
+        "ELITE": 0.002167537074380721,
+        "RANDOM": 0.0014040431466595948
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.0018374182143767737,
+        "RELAY:9173027": 0.0028660972691223474,
+        "SELF:9173001": 0.0,
+        "SELF:9173027": 0.0,
+        "ELITE:9173001": 0.0005638428905966331,
+        "ELITE:9173027": 0.003771231258164809,
+        "RANDOM:9173001": 0.001758977260259309,
+        "RANDOM:9173027": 0.0010491090330598807
+      },
+      "beatsAllOrdinary": true
+    },
+    {
+      "cohort": "U",
+      "target": "ENERGY",
+      "trainSelectedSource": "MAKESPAN",
+      "heldoutBatchGain": {
+        "RELAY": 0.00017561697409462784,
+        "SELF": 0.004958043250223143,
+        "ELITE": 0.004829822582336718,
+        "RANDOM": 0.00735455120298345
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.00034840512607581253,
+        "RELAY:9173027": 2.8288221134431524e-06,
+        "SELF:9173001": 0.00525941998847701,
+        "SELF:9173027": 0.004656666511969276,
+        "ELITE:9173001": 0.005000149830590606,
+        "ELITE:9173027": 0.0046594953340828305,
+        "RANDOM:9173001": 0.0147091024059669,
+        "RANDOM:9173027": 0.0
+      },
+      "beatsAllOrdinary": false
+    },
+    {
+      "cohort": "U",
+      "target": "WORKER_COST",
+      "trainSelectedSource": "MAKESPAN",
+      "heldoutBatchGain": {
+        "RELAY": 0.0,
+        "SELF": 0.0019837046501863798,
+        "ELITE": 0.0001209119152981164,
+        "RANDOM": 9.004692170955231e-05
+      },
+      "replicateBatchGain": {
+        "RELAY:9173001": 0.0,
+        "RELAY:9173027": 0.0,
+        "SELF:9173001": 1.755651185131324e-05,
+        "SELF:9173027": 0.003949852788521446,
+        "ELITE:9173001": 0.00015640018373253017,
+        "ELITE:9173027": 8.542364686370263e-05,
+        "RANDOM:9173001": 0.00013890553441830988,
+        "RANDOM:9173027": 4.118830900079473e-05
+      },
+      "beatsAllOrdinary": false
+    }
+  ],
+  "gate": "NO_ROLE_RELAY_SUPPORT",
+  "limitation": "Role source is associated with starting quality; this does not identify an effect beyond objective quality. Learning/probe cost is charged to development and has no same-time search claim. Separate original-vs-relay full-budget testing is mandatory."
+}

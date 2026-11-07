@@ -1,0 +1,63 @@
+{
+  "version": "PA_MO_FIXED_POP_ADAPTED-v1-engineering",
+  "status": "PROSPECTIVE_ENGINEERING_CONTRACT_NOT_EXECUTED",
+  "purpose": "Implement an explicitly adapted complete joint factory/order population lifecycle before making algorithm-quality claims",
+  "sourceMethod": {
+    "paperDOI": "10.1016/j.cor.2022.106081",
+    "inspectedVersion": "Author2024dissertation Chapter3, sections3.5.1-3.5.7, printed53-65; not assumed identical to final journal typesetting",
+    "paperSHA256": "01f2bd5f5aa1069a67f2123d6ea102d2127b9d13e4bf89f3de8261ea775e1530",
+    "weight": "2/3 from published experiments, no scan",
+    "lifecycle": "Fixed population; per-factory reencoding and model rebuild once per generation; all2N-1FOSsets including root; uniform nonself donors; accepted states immediately replace their receiver in the current donor population",
+    "noImportedMechanisms": "No forced improvement, IMS or pGOMEA interval rescaling; these are not mandatory parts of this paGOMEA lifecycle"
+  },
+  "adaptations": {
+    "encoding": "Separate legal first-stage FMW categorical tuple and global priority per job, not integer-plus-fraction packing",
+    "model": "Original factory/shift and within-factory priority dependency equations3.14-3.19, all jobs eligible for all factories, pi=1/F; MA/WA copied with a selected job but not separately learned",
+    "nullModelLimit": "Independent uniform assignments are a hypothetical heuristic null; not a calibrated model of nonempty initialization or protected families",
+    "hierarchy": "Priority queue weighted-average linkage O(N^2logN), exact double scores then lexicographic cluster ties",
+    "multiobjective": "Three minimization objectives instead of the source scalar fitness. Engineering role labels taken from fixed sources:15M/55CENTER/15E/15W. Boundary acceptance strictly improves its own objective; CENTER accepts exact weak Pareto improvement OR no strict dominator in an exact internal archive of all prior paid candidates",
+    "archive": "Exact unlimited internal nondominated archive, objective duplicates deduplicated. Compute candidate notifications against previous internal archive, then update it even if candidate is rejected. Shared exact external result archive remains under RunContext. Do not call this equivalent to original adaptive box notification",
+    "budget": "Every generated FOS attempt evaluated and charged including identical, duplicate or invalid-allocation fallback. No free pre-evaluation filtering",
+    "emptyFactory": "Explicit paid unchanged-parent fallback; no repair, resampling or implicit machine/worker rebinding",
+    "scope": "Standalone ordinary adapted method engineering only; no QGS, conditional sharing or local-search add-on here. Original four-group/shared mainline remains unchanged. This is not the final proposed research algorithm"
+  },
+  "state": {
+    "population": 100,
+    "generation": "Reencode all immutable genomes preserving physical factory chains and objective values, then learn a pooled population model and freeze that FOS for the generation",
+    "mixing": "For each receiver in stable source order, independently shuffle every FOSset, draw a uniform donor index excluding receiver from the current in-place population, and copy selected jobs' complete FMW and stored keys. Do not recompute ranks after each step",
+    "survival": "Accepted candidate replaces receiver immediately; rejection restores unchanged incumbent. No200to100survival. Next generation uses the resulting population and newly learned model",
+    "interruption": "RunContext owns FE/time termination, retains every successful external archive offer, incomplete current generation and last valid state must be reported"
+  },
+  "engineeringRuns": {
+    "algorithmSeed": 13630003,
+    "sourceRoot": "runs/linkage-mixing-probe-20261105-142116-487815",
+    "sourceSeed": 11730007,
+    "instances": [
+      {"stem": "20_8_5_1", "jobs": 20, "completeGenerations": 2, "expectedSuccessfulFE": 7900},
+      {"stem": "100_2_3_1", "jobs": 100, "completeGenerations": 2, "expectedSuccessfulFE": 39900}
+    ],
+    "initialization": "Replay all100known post-global source genomes and objectives, pay100FE. Ignore source family restrictions only in this explicitly free standalone engineering fixture. These are not fresh algorithm initializations for fair performance comparison",
+    "mainRunsFullTimelineQA": "Every successful paid evaluation, including initialization and fallback, independently compared with full decoding",
+    "cuts": "20job context only, fixed successfulFE limits1,2,101,139,4000 to cover initialization, first mixing attempt, first complete receiver, and first generation. Each cutoff is a separate paid run, not a search-free verifier",
+    "cutExpectedFE": 4243,
+    "expectedTotalSuccessfulFE": 52043,
+    "expectedPaidFullTimelineQA": 52043,
+    "expectedReencodingFullTimelineQA": 700,
+    "expectedTotalFullDecoderQA": 52743,
+    "qaAccountingClarification": "Reencoding checks are search-external full decodes, one per live member at each entered generation; check budget before entering a new generation. Main two runs enter4generations; cuts101/139/4000 enter1each. Logged source arrays/subsets/donor-state events reconstruct all paid candidates without saving duplicate solution graphs",
+    "engineeringOnly": true
+  },
+  "requiredEvidence": [
+    "Actual loaded classes, frozen sources, dependency/input identities and JDK",
+    "Source objective replay, no hidden repair, all complete paid candidates and exact full timeline QA",
+    "Complete acceptance decisions with old archive dominance/equality flags and previous incumbent",
+    "Per-generation before/after genome hashes and physical-neutral reencoding proof; model/FOS refresh identity",
+    "Every donor index and its current state identity, demonstrating accepted earlier states can be read later in the same generation",
+    "Program/role/generation fees, unchanged/duplicate/fallback counts, all failures and interrupted state",
+    "Independent replay of acceptance, in-place population transitions and exact archive notifications"
+  ],
+  "decision": "Engineering pass only permits a separately frozen full-algorithm performance protocol with original shared/Li reconstruction/strong classical controls and later four-role/sharing ablations; no performance or novelty gate can be passed by this artifact",
+  "oldFaMiProgramStopUnchanged": true,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

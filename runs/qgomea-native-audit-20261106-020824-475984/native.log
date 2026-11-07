@@ -1,0 +1,9 @@
+ERROR: LoadError: UndefKeywordError: keyword argument initial_solution_generator not assigned
+Stacktrace:
+ [1] create_qgomea_mixer(::Function, ::Int64, ::Int64, ::Symbol, ::Symbol, ::Float64, ::Main.NativeQ.UPGMA, ::Symbol, ::MersenneTwister, ::Nothing) at G:\ai\limingzhegaijin\张博改进\research\gomea_reference_audit\private-qgomea-native-20261106\repository\src\approaches\qGOMEA\qGOMEA.jl:820 (repeats 2 times)
+ [2] #native_mixer#3(::Symbol, ::Symbol, ::typeof(native_mixer), ::Function, ::Int64) at G:\ai\limingzhegaijin\张博改进\runs\qgomea-native-audit-20261106-020824-475984\source\q_native_lifecycle.jl:3
+ [3] native_mixer(::Function, ::Int64) at G:\ai\limingzhegaijin\张博改进\runs\qgomea-native-audit-20261106-020824-475984\source\q_native_lifecycle.jl:3
+ [4] synchronization_probe() at G:\ai\limingzhegaijin\张博改进\runs\qgomea-native-audit-20261106-020824-475984\source\q_native_lifecycle.jl:17
+ [5] run_lifecycle_checks(::String) at G:\ai\limingzhegaijin\张博改进\runs\qgomea-native-audit-20261106-020824-475984\source\q_native_lifecycle.jl:78
+ [6] top-level scope at G:\ai\limingzhegaijin\张博改进\runs\qgomea-native-audit-20261106-020824-475984\source\q_native_primitives.jl:46
+in expression starting at G:\ai\limingzhegaijin\张博改进\runs\qgomea-native-audit-20261106-020824-475984\source\q_native_primitives.jl:46

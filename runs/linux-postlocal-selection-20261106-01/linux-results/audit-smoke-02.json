@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "mode": "POST_ROLE",
+  "sourceSeed": 16110003,
+  "passFE": 3820,
+  "attemptedFE": 1,
+  "successfulFE": 1,
+  "failedFE": 0,
+  "feLimit": 1,
+  "failAt": -1,
+  "complete": false,
+  "nativeObserver": false,
+  "paidSHA256": "fb0a669b9db2b95c2efafae629825532d2846a4005481ffe96db60ef7a80598c",
+  "paidPrefixes": {
+    "1": "fb0a669b9db2b95c2efafae629825532d2846a4005481ffe96db60ef7a80598c"
+  },
+  "prefix2BSHA256": null,
+  "proposalPrefixes": {
+    "1": "4d5313ac00496ee235e843f593bec9e8f374e73c01e832e73b5f867143f31ee1"
+  },
+  "passes": [
+    {
+      "phase": "P_POLISH",
+      "successful": 1,
+      "complete": false,
+      "retainedPendingProposal": false,
+      "publicArchiveSize": 636,
+      "privateArchiveSize": 636
+    }
+  ],
+  "modelChecks": [
+    {
+      "pairs": 190,
+      "maximumModelError": 1.1102230246251565e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 1,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 21,
+      "maximumModelError": 5.551115123125783e-17,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 1,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 10,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 1,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 21,
+      "maximumModelError": 2.1163626406917047e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 2.0469737016526324e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 3,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 1.942890293094024e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 3,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 3,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 10,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 10,
+      "maximumModelError": 2.0469737016526324e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 1.8041124150158794e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 1.8735013540549517e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 10,
+      "maximumModelError": 2.0816681711721685e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 6,
+      "maximumModelError": 0.0,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    },
+    {
+      "pairs": 3,
+      "maximumModelError": 2.0122792321330962e-16,
+      "maximumChosenMeanDeficit": 0.0,
+      "reusedExactMath": false
+    }
+  ],
+  "views": 100,
+  "completePrograms": 0,
+  "completePasses": 0,
+  "selection": null,
+  "publicArchiveSize": 636,
+  "nativeMixingLiveDonorsAndFourRoleAcceptance": true,
+  "allPaidArchiveIncludesUnselected": true,
+  "privatePolishArchivesIndependentA0": true,
+  "noFutureSourceState": true,
+  "physicalObjectivesIndependentlyDecoded": false,
+  "existingTimelinePhysicsQACount": 1,
+  "existingImportFullQACount": 0,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "instance": "20_8_5_1",
+  "label": "CUT_1",
+  "offlineSeconds": 0.3051164710013836
+}

@@ -1,0 +1,176 @@
+{
+  "candidate": "BOUND",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9670003,
+  "methods": {
+    "BOUND": [
+      "BOUND",
+      true
+    ],
+    "KEEP": [
+      "KEEP",
+      true
+    ],
+    "ALL": [
+      "ALL",
+      true
+    ],
+    "RANDOM_MATCHED": [
+      "RANDOM_MATCHED",
+      true
+    ],
+    "BOUND_NOCOMPOSE": [
+      "BOUND",
+      false
+    ],
+    "FORCE": [
+      "KEEP",
+      true
+    ],
+    "NSGA": [
+      "KEEP",
+      true
+    ],
+    "LI_MATCHED_DEEP": [
+      "KEEP",
+      true
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "BOUND"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "KEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "ALL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "RANDOM_MATCHED"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "BOUND_NOCOMPOSE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9670003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "BOUND"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "KEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "ALL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "RANDOM_MATCHED"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "BOUND_NOCOMPOSE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9670003,
+      "arm": "LI_MATCHED_DEEP"
+    }
+  ],
+  "decision": "Only after each complete global phase. Release every still-protected family whose current retained-pool component-minimum optimistic bound is weakly dominated by a previously paid external archive point. Conservative 32-ULP downward slack. Irreversible, no threshold/timing tuning. No future-search bound claimed.",
+  "preserved": "Four objectives/duties, original QGS/JOΒ_ALIGNED, original local ledger, pool choose/cap/eta. Released particles become free; still-protected categories retain five slots and 1/2/1/1 role slots. Exact-FA-compatible free particles may still supply/request the old pool; no incompatible joins.",
+  "randomControl": "BOUND runs first; its per-generation release counts alone specify RANDOM_MATCHED. A separate seeded RNG randomizes family identities without advancing search RNG. Control uses no candidate HV or final result.",
+  "controls": "ALL releases all after first global; KEEP retains old architecture; BOUND_NOCOMPOSE updates the same pools but never composes, isolating contribution of actual sharing. FORCE old shared, NSGA and Li matched-depth retained.",
+  "gate": "Both instances: >=1% vs KEEP, >0 vs ALL/RANDOM_MATCHED/BOUND_NOCOMPOSE, >=-1% vs NSGA. If no selective release or no independent sharing gain, no special cooperative claim. Failure stops this rule, without threshold scans.",
+  "searchFE": 8000000,
+  "engineeringFE": 1000000,
+  "sameFEPerCell": 500000,
+  "timeScope": "Common-time checkpoints diagnostic; fresh genuine TIME_LIMIT confirmation required before a time advantage claim.",
+  "scope": "Prospective development gate, not independent confirmation or novelty proof."
+}

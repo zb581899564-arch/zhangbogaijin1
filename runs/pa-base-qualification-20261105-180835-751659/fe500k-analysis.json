@@ -1,0 +1,1025 @@
+{
+  "phase": "FE500K",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "phase": "FE500K",
+      "observations": [
+        {
+          "seed": 13910003,
+          "arm": "PA_JOINT",
+          "frontSize": 318,
+          "HV": {
+            "1.25": 0.16749194633546888,
+            "1.5": 0.5435156620212294,
+            "2.0": 2.3463431527127154
+          },
+          "IGDplus": 0.0062905027594325515,
+          "objectiveMin": [
+            343.29220186800296,
+            37078.156301379306,
+            46041.84150085159
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 11.2766935,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 128,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 11.2764892
+        },
+        {
+          "seed": 13910003,
+          "arm": "PA_RELABEL",
+          "frontSize": 544,
+          "HV": {
+            "1.25": 0.17268126252815064,
+            "1.5": 0.5546188804691647,
+            "2.0": 2.3755342485346884
+          },
+          "IGDplus": 0.003961136029316463,
+          "objectiveMin": [
+            341.5788354128178,
+            36661.12529845907,
+            45685.67376017138
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 11.9041818,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 128,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 11.9039293
+        },
+        {
+          "seed": 13910003,
+          "arm": "NSGA2_PLAIN",
+          "frontSize": 376,
+          "HV": {
+            "1.25": 0.17095735877733265,
+            "1.5": 0.5503899378828596,
+            "2.0": 2.363028542123789
+          },
+          "IGDplus": 0.0033418073760202085,
+          "objectiveMin": [
+            345.2385560551773,
+            36795.296466221866,
+            45818.73603459005
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 18.1660559,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 4999,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 18.1653769
+        },
+        {
+          "seed": 13910003,
+          "arm": "NSGA2_DEEP",
+          "frontSize": 355,
+          "HV": {
+            "1.25": 0.17013900923802955,
+            "1.5": 0.5487364839388779,
+            "2.0": 2.3591603433673214
+          },
+          "IGDplus": 0.004064950138382591,
+          "objectiveMin": [
+            342.4820883877199,
+            37018.234459444226,
+            45806.73185449278
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 9.1100514,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 305,
+            "intra": 489595
+          },
+          "completeGenerations": 100,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 9.1098471
+        },
+        {
+          "seed": 13910003,
+          "arm": "FULL_SHARED_DEEP",
+          "frontSize": 201,
+          "HV": {
+            "1.25": 0.16097230646281296,
+            "1.5": 0.5284156368020487,
+            "2.0": 2.3042688124796156
+          },
+          "IGDplus": 0.013478421077842927,
+          "objectiveMin": [
+            356.6159542545395,
+            37533.36001758732,
+            46275.35451050436
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 8.9397106,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 292,
+            "intra": 489608
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 8.9395363
+        },
+        {
+          "seed": 13910003,
+          "arm": "LI_RECON_DEEP",
+          "frontSize": 212,
+          "HV": {
+            "1.25": 0.15656779966055273,
+            "1.5": 0.518232722615697,
+            "2.0": 2.276842579708111
+          },
+          "IGDplus": 0.022533315221688142,
+          "objectiveMin": [
+            357.46431537456436,
+            38587.41652178481,
+            45962.11548526886
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 8.6385814,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 739,
+            "intra": 489161
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 8.6383092
+        },
+        {
+          "seed": 13910037,
+          "arm": "PA_JOINT",
+          "frontSize": 334,
+          "HV": {
+            "1.25": 0.1718243939588733,
+            "1.5": 0.5522161241541246,
+            "2.0": 2.3681563702051935
+          },
+          "IGDplus": 0.0037979213613196284,
+          "objectiveMin": [
+            341.8688783626661,
+            36902.95895682682,
+            45688.16280700605
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 11.4422611,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 128,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 11.4420723
+        },
+        {
+          "seed": 13910037,
+          "arm": "PA_RELABEL",
+          "frontSize": 423,
+          "HV": {
+            "1.25": 0.1714634697112204,
+            "1.5": 0.5523555710081558,
+            "2.0": 2.370241208266349
+          },
+          "IGDplus": 0.004685374866263721,
+          "objectiveMin": [
+            341.66055646420125,
+            36626.09589889478,
+            45844.71156800509
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 11.4104789,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 128,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 11.4102848
+        },
+        {
+          "seed": 13910037,
+          "arm": "NSGA2_PLAIN",
+          "frontSize": 346,
+          "HV": {
+            "1.25": 0.16791964757651934,
+            "1.5": 0.5439419763332538,
+            "2.0": 2.346364162547928
+          },
+          "IGDplus": 0.007321057637299723,
+          "objectiveMin": [
+            346.11428049659054,
+            37122.40061054306,
+            45914.261642422774
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 17.7953998,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 4999,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 17.7948208
+        },
+        {
+          "seed": 13910037,
+          "arm": "NSGA2_DEEP",
+          "frontSize": 370,
+          "HV": {
+            "1.25": 0.17076691235501507,
+            "1.5": 0.5505355613966622,
+            "2.0": 2.365120873529846
+          },
+          "IGDplus": 0.0045637906465597535,
+          "objectiveMin": [
+            337.22107054151786,
+            36981.23190943284,
+            45853.37254199018
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 8.6866995,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 286,
+            "intra": 489614
+          },
+          "completeGenerations": 100,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 8.6864567
+        },
+        {
+          "seed": 13910037,
+          "arm": "FULL_SHARED_DEEP",
+          "frontSize": 216,
+          "HV": {
+            "1.25": 0.15993341046507983,
+            "1.5": 0.5255798037975532,
+            "2.0": 2.295575452877873
+          },
+          "IGDplus": 0.013316179938364859,
+          "objectiveMin": [
+            358.8416339293786,
+            37624.42326673309,
+            46384.696753156015
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 9.0151353,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 291,
+            "intra": 489609
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 9.0148963
+        },
+        {
+          "seed": 13910037,
+          "arm": "LI_RECON_DEEP",
+          "frontSize": 111,
+          "HV": {
+            "1.25": 0.15604472620945414,
+            "1.5": 0.517741084352179,
+            "2.0": 2.2765405455409096
+          },
+          "IGDplus": 0.02068483830471775,
+          "objectiveMin": [
+            355.06289392157885,
+            38135.23436914286,
+            46512.41470416371
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 8.3519086,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 708,
+            "intra": 489192
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 8.3517146
+        }
+      ],
+      "comparisons": [
+        {
+          "control": "PA_RELABEL",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": -3.005141447721227,
+                "1.5": -2.0019546465030014,
+                "2.0": -1.228822351855341
+              },
+              "IGDplusSymmetricWorseningPct": 45.44379251193528
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 0.2104962930359333,
+                "1.5": -0.02524584911430816,
+                "2.0": -0.08795889860848671
+              },
+              "IGDplusSymmetricWorseningPct": -20.922374537825217
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -1.3973225773426468,
+            "1.5": -1.0136002478086548,
+            "2.0": -0.6583906252319138
+          },
+          "medianIGDplusSymmetricWorseningPct": 12.26070898705503,
+          "nonnegativeEverySeed": false,
+          "referenceDirectionStable": false,
+          "auxiliaryPass": false
+        },
+        {
+          "control": "NSGA2_PLAIN",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": -2.0270624596963827,
+                "1.5": -1.2489828371632261,
+                "2.0": -0.7061018990518586
+              },
+              "IGDplusSymmetricWorseningPct": 61.22509225610065
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 2.325365994217332,
+                "1.5": 1.5211453024176036,
+                "2.0": 0.9287649379029705
+              },
+              "IGDplusSymmetricWorseningPct": -63.371578926762325
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 0.14915176726047474,
+            "1.5": 0.13608123262718874,
+            "2.0": 0.11133151942555597
+          },
+          "medianIGDplusSymmetricWorseningPct": -1.0732433353308366,
+          "nonnegativeEverySeed": false,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        },
+        {
+          "control": "NSGA2_DEEP",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": -1.555823625878383,
+                "1.5": -0.9514260615902548,
+                "2.0": -0.5432945959201518
+              },
+              "IGDplusSymmetricWorseningPct": 42.983202048449684
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 0.619254391424362,
+                "1.5": 0.3052596190514789,
+                "2.0": 0.12834425121017734
+              },
+              "IGDplusSymmetricWorseningPct": -18.318480342744014
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": -0.46828461722701054,
+            "1.5": -0.32308322126938793,
+            "2.0": -0.20747517235498725
+          },
+          "medianIGDplusSymmetricWorseningPct": 12.332360852852835,
+          "nonnegativeEverySeed": false,
+          "referenceDirectionStable": false,
+          "auxiliaryPass": false
+        },
+        {
+          "control": "FULL_SHARED_DEEP",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 4.050162426020809,
+                "1.5": 2.8576037814788124,
+                "2.0": 1.8259302042032077
+              },
+              "IGDplusSymmetricWorseningPct": -72.71936881922858
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 7.434958999007768,
+                "1.5": 5.067987803966556,
+                "2.0": 3.161774414181373
+              },
+              "IGDplusSymmetricWorseningPct": -111.23293488067301
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 5.742560712514289,
+            "1.5": 3.9627957927226842,
+            "2.0": 2.4938523091922904
+          },
+          "medianIGDplusSymmetricWorseningPct": -91.9761518499508,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        },
+        {
+          "control": "LI_RECON_DEEP",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 6.977262692967701,
+                "1.5": 4.878684479420903,
+                "2.0": 3.0524979471138636
+              },
+              "IGDplusSymmetricWorseningPct": -112.70410098269747
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 10.112272380316512,
+                "1.5": 6.658741375543387,
+                "2.0": 4.024344079605036
+              },
+              "IGDplusSymmetricWorseningPct": -137.94945646445035
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 8.544767536642105,
+            "1.5": 5.768712927482145,
+            "2.0": 3.5384210133594496
+          },
+          "medianIGDplusSymmetricWorseningPct": -125.32677872357391,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        }
+      ],
+      "learningGate": false,
+      "ordinaryGlobalGate": true,
+      "strongControlGate": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "phase": "FE500K",
+      "observations": [
+        {
+          "seed": 13910003,
+          "arm": "PA_JOINT",
+          "frontSize": 1969,
+          "HV": {
+            "1.25": 0.3333585607812966,
+            "1.5": 0.8774012019228821,
+            "2.0": 3.182664243325848
+          },
+          "IGDplus": 0.005319944689564955,
+          "objectiveMin": [
+            825.5049278859561,
+            48733.65213235024,
+            57767.779554126406
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 27.5544746,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 25,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 27.5542474
+        },
+        {
+          "seed": 13910003,
+          "arm": "PA_RELABEL",
+          "frontSize": 1556,
+          "HV": {
+            "1.25": 0.33049772029826247,
+            "1.5": 0.8696861359632858,
+            "2.0": 3.158851941115281
+          },
+          "IGDplus": 0.005443540118946745,
+          "objectiveMin": [
+            828.7103531862425,
+            49295.95600874463,
+            58554.87335333411
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 25.6440079,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 25,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 25.6438231
+        },
+        {
+          "seed": 13910003,
+          "arm": "NSGA2_PLAIN",
+          "frontSize": 449,
+          "HV": {
+            "1.25": 0.25032947572865266,
+            "1.5": 0.7161499037349356,
+            "2.0": 2.7901933440006803
+          },
+          "IGDplus": 0.09293678192073121,
+          "objectiveMin": [
+            878.7105390896623,
+            58773.18741751999,
+            63886.65224043857
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 30.7730508,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 4999,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 30.7724364
+        },
+        {
+          "seed": 13910003,
+          "arm": "NSGA2_DEEP",
+          "frontSize": 551,
+          "HV": {
+            "1.25": 0.26738391748891266,
+            "1.5": 0.7447569005043213,
+            "2.0": 2.8483049128811864
+          },
+          "IGDplus": 0.05288385468185166,
+          "objectiveMin": [
+            1008.1548482069793,
+            53397.26179258184,
+            63858.57115415016
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 13.0719867,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 266,
+            "intra": 494634
+          },
+          "completeGenerations": 50,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 13.0717553
+        },
+        {
+          "seed": 13910003,
+          "arm": "FULL_SHARED_DEEP",
+          "frontSize": 409,
+          "HV": {
+            "1.25": 0.26885802120186264,
+            "1.5": 0.7468416588799821,
+            "2.0": 2.851603345450086
+          },
+          "IGDplus": 0.058265822983950985,
+          "objectiveMin": [
+            1029.2022127268065,
+            53306.20223189012,
+            63449.19625200962
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 14.1759956,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 302,
+            "intra": 494598
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 14.1757988
+        },
+        {
+          "seed": 13910003,
+          "arm": "LI_RECON_DEEP",
+          "frontSize": 346,
+          "HV": {
+            "1.25": 0.2776386677759814,
+            "1.5": 0.7631816529348595,
+            "2.0": 2.8901318602928763
+          },
+          "IGDplus": 0.05335696877149101,
+          "objectiveMin": [
+            1035.8958627097531,
+            52587.47171880894,
+            62419.49790552027
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 13.039333,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 574,
+            "intra": 494326
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 13.0391241
+        },
+        {
+          "seed": 13910037,
+          "arm": "PA_JOINT",
+          "frontSize": 1787,
+          "HV": {
+            "1.25": 0.32959347817003115,
+            "1.5": 0.8690830532780851,
+            "2.0": 3.160244956121418
+          },
+          "IGDplus": 0.007724458339783044,
+          "objectiveMin": [
+            827.0730246008528,
+            49485.776423032854,
+            58157.68819805458
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 26.0555647,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 25,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 26.0553937
+        },
+        {
+          "seed": 13910037,
+          "arm": "PA_RELABEL",
+          "frontSize": 1605,
+          "HV": {
+            "1.25": 0.32731735999555855,
+            "1.5": 0.8627428407740776,
+            "2.0": 3.1400167369103404
+          },
+          "IGDplus": 0.007887047146297572,
+          "objectiveMin": [
+            821.054813439626,
+            50114.18242309586,
+            58975.67699487167
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 25.3052951,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 25,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 25.3050645
+        },
+        {
+          "seed": 13910037,
+          "arm": "NSGA2_PLAIN",
+          "frontSize": 388,
+          "HV": {
+            "1.25": 0.2664564783120809,
+            "1.5": 0.743453237330689,
+            "2.0": 2.8474343890315437
+          },
+          "IGDplus": 0.06547046845292133,
+          "objectiveMin": [
+            877.1374184442323,
+            58217.89977711635,
+            62812.191676419134
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 30.9717693,
+          "stageFE": {
+            "initialization": 100,
+            "global": 499900,
+            "inter": 0,
+            "intra": 0
+          },
+          "completeGenerations": 4999,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 30.9712131
+        },
+        {
+          "seed": 13910037,
+          "arm": "NSGA2_DEEP",
+          "frontSize": 583,
+          "HV": {
+            "1.25": 0.268946017718715,
+            "1.5": 0.7489161717488083,
+            "2.0": 2.861080857702409
+          },
+          "IGDplus": 0.05498819460646028,
+          "objectiveMin": [
+            982.8799212298202,
+            53113.00785220155,
+            63964.04574135289
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 13.412916,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 299,
+            "intra": 494601
+          },
+          "completeGenerations": 50,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 13.4127377
+        },
+        {
+          "seed": 13910037,
+          "arm": "FULL_SHARED_DEEP",
+          "frontSize": 639,
+          "HV": {
+            "1.25": 0.27190574448990384,
+            "1.5": 0.7545319672873609,
+            "2.0": 2.874602854117422
+          },
+          "IGDplus": 0.05684584418081192,
+          "objectiveMin": [
+            982.4643920355106,
+            52937.10749110759,
+            63582.7029667877
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 13.8994291,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 258,
+            "intra": 494642
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 13.8992269
+        },
+        {
+          "seed": 13910037,
+          "arm": "LI_RECON_DEEP",
+          "frontSize": 659,
+          "HV": {
+            "1.25": 0.2797831553627782,
+            "1.5": 0.7712775877939698,
+            "2.0": 2.9197358685011947
+          },
+          "IGDplus": 0.05410989427351941,
+          "objectiveMin": [
+            935.6487132619286,
+            53059.06918371303,
+            62384.68416471612
+          ],
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "searchSeconds": 13.1741912,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 573,
+            "intra": 494327
+          },
+          "completeGenerations": null,
+          "checkpointFE": 500000,
+          "checkpointSeconds": 13.1740049
+        }
+      ],
+      "comparisons": [
+        {
+          "control": "PA_RELABEL",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 0.8656157992413149,
+                "1.5": 0.8871092271754977,
+                "2.0": 0.7538277404087301
+              },
+              "IGDplusSymmetricWorseningPct": -2.296569030952723
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 0.6953857181615675,
+                "1.5": 0.7348901902586524,
+                "2.0": 0.6442073691295569
+              },
+              "IGDplusSymmetricWorseningPct": -2.0829356484484425
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 0.7805007587014412,
+            "1.5": 0.810999708717075,
+            "2.0": 0.6990175547691435
+          },
+          "medianIGDplusSymmetricWorseningPct": -2.1897523397005827,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        },
+        {
+          "control": "NSGA2_PLAIN",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 33.16792192008751,
+                "1.5": 22.516416932680272,
+                "2.0": 14.066082559082748
+              },
+              "IGDplusSymmetricWorseningPct": -178.3426748555758
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 23.695051536334756,
+                "1.5": 16.8981463310941,
+                "2.0": 10.985698855602655
+              },
+              "IGDplusSymmetricWorseningPct": -157.7869195133728
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 28.431486728211134,
+            "1.5": 19.707281631887184,
+            "2.0": 12.5258907073427
+          },
+          "medianIGDplusSymmetricWorseningPct": -168.0647971844743,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        },
+        {
+          "control": "NSGA2_DEEP",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 24.674125471708553,
+                "1.5": 17.8104158993007,
+                "2.0": 11.738888239547428
+              },
+              "IGDplusSymmetricWorseningPct": -163.439192994143
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 22.550049621759438,
+                "1.5": 16.04543820287294,
+                "2.0": 10.456331480937342
+              },
+              "IGDplusSymmetricWorseningPct": -150.73110144835127
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 23.612087546733996,
+            "1.5": 16.92792705108682,
+            "2.0": 11.097609860242386
+          },
+          "medianIGDplusSymmetricWorseningPct": -157.08514722124715,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        },
+        {
+          "control": "FULL_SHARED_DEEP",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 23.990558024306075,
+                "1.5": 17.481556028716525,
+                "2.0": 11.60964053447302
+              },
+              "IGDplusSymmetricWorseningPct": -166.53373933059703
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 21.216077574363013,
+                "1.5": 15.181740596432247,
+                "2.0": 9.936750100795955
+              },
+              "IGDplusSymmetricWorseningPct": -152.1485386423934
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 22.603317799334544,
+            "1.5": 16.331648312574387,
+            "2.0": 10.773195317634487
+          },
+          "medianIGDplusSymmetricWorseningPct": -159.3411389864952,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        },
+        {
+          "control": "LI_RECON_DEEP",
+          "pairs": [
+            {
+              "seed": 13910003,
+              "HVEffectPct": {
+                "1.25": 20.06921206316765,
+                "1.5": 14.966233602286504,
+                "2.0": 10.12176596687624
+              },
+              "IGDplusSymmetricWorseningPct": -163.73398411219557
+            },
+            {
+              "seed": 13910037,
+              "HVEffectPct": {
+                "1.25": 17.80318859534873,
+                "1.5": 12.68096817954496,
+                "2.0": 8.23735770810272
+              },
+              "IGDplusSymmetricWorseningPct": -150.03128187924924
+            }
+          ],
+          "medianHVEffectPct": {
+            "1.25": 18.93620032925819,
+            "1.5": 13.823600890915731,
+            "2.0": 9.17956183748948
+          },
+          "medianIGDplusSymmetricWorseningPct": -156.88263299572242,
+          "nonnegativeEverySeed": true,
+          "referenceDirectionStable": true,
+          "auxiliaryPass": true
+        }
+      ],
+      "learningGate": false,
+      "ordinaryGlobalGate": true,
+      "strongControlGate": true
+    }
+  ],
+  "learningGate": false,
+  "ordinaryGlobalGate": true,
+  "strongControlGate": false,
+  "goalAchieved": false,
+  "scope": "Two reused developmentinstances and2freshseeds; complete unaugmented ordinary method, no novelty/confirmation claim",
+  "capabilityGate": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "STOP_CAP_FIRST_REQUEST_PRODUCTION",
+  "engineering": "PASSED",
+  "scientificResult": "No material receiver-conditioned quality benefit in this frozen mature-state probe",
+  "keep": [
+    "Original four objective roles",
+    "Original QGS",
+    "Fixed FA families",
+    "Original sharing rules and earlier positive evidence"
+  ],
+  "removeFromActiveCandidates": [
+    "Cap-violation-first production acceptance tested here"
+  ],
+  "scope": "Two existing Linux instances, three source seeds, three real request cycles per source, 512FE perarm",
+  "sourceCaptureAdditionalFE": 1618320,
+  "engineeringAttemptedFE": 7176,
+  "scienceFE": 36864,
+  "matchedRequestsImproveFeasibility": false,
+  "requestMatchingIndependentBenefit": false,
+  "broaderReceiverConditioningRefuted": false,
+  "originalFourGroupsRefuted": false,
+  "defaultMainlineChanged": false,
+  "expanded": false,
+  "newSelector": false,
+  "goalResumed": false,
+  "future": "No cap/ratio/seed/window/budget tuning or automatic control promotion. Discuss a different, falsifiable supply hypothesis before any new experiment"
+}

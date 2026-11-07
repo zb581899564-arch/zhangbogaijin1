@@ -1,0 +1,184 @@
+{
+  "candidate": "FULL_ROLE",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    9580003
+  ],
+  "methods": {
+    "FORCE": [
+      "PAIR",
+      "INDIVIDUAL",
+      "FORCE"
+    ],
+    "PAIR_OLD": [
+      "PAIR",
+      "INDIVIDUAL",
+      "ROLE_CROWD"
+    ],
+    "PAIR_GROUP": [
+      "PAIR",
+      "GROUP",
+      "ROLE_CROWD"
+    ],
+    "FULL_ROLE": [
+      "FULL_ROLE",
+      "GROUP",
+      "ROLE_CROWD"
+    ],
+    "FULL_DUP": [
+      "FULL_DUP",
+      "GROUP",
+      "ROLE_CROWD"
+    ],
+    "FULL_ALL": [
+      "FULL_ALL",
+      "GROUP",
+      "ROLE_CROWD"
+    ],
+    "NSGA": [
+      "PAIR",
+      "INDIVIDUAL",
+      "FORCE"
+    ],
+    "LI_MATCHED_DEEP": [
+      "PAIR",
+      "INDIVIDUAL",
+      "FORCE"
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "PAIR_OLD"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "PAIR_GROUP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "FULL_ROLE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "FULL_DUP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "FULL_ALL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9580003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "PAIR_OLD"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "PAIR_GROUP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "FULL_ROLE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "FULL_DUP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "FULL_ALL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9580003,
+      "arm": "FORCE"
+    }
+  ],
+  "mechanism": "Select n survivors from the paid2n batch, preserving original per-family counts. Boundary groups prioritize their own objective, CENTER rank+crowding. Prefer objective-unique points within each category, then fill duplicates only if necessary. Individual lineage quotas lifted.",
+  "reward": "CENTER reward becomes relative change of group mean objectives to avoid arbitrary old/new individual pairing. PAIR_GROUP isolates this from selection; PAIR_OLD reproduces the original reward.",
+  "controls": "FULL_DUP removes duplicate avoidance; FULL_ALL uses multiobjective selection in every group. FORCE, NSGA and Li matched-depth keep their original per-individual reward and selection.",
+  "gate": "FULL_ROLE >=1% vs PAIR_OLD; positive vs PAIR_GROUP/FULL_DUP/FULL_ALL; >=-1% vs NSGA on both development instances. A primary failure ends this rule without changing crowding or duplication thresholds.",
+  "actualFEPerCell": 500000,
+  "totalSearchFE": 8000000,
+  "engineeringFE": 1000000,
+  "scope": "Development attribution, not final independent efficacy or novelty proof."
+}

@@ -1,0 +1,71 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\teacher-coupling-probe-20261105-011608-145831",
+  "sourceSeeds": [
+    10060007,
+    10060031
+  ],
+  "reps": 16,
+  "probeSeed": 11490011,
+  "plannedDiagnosticFE": 12672,
+  "plannedEngineeringFE": 18,
+  "newCaptureFE": 0,
+  "hypothesis": "Physically equivalent teacher JS interleavings perturb global-position QGS guidance. Recipient-order greedy merge might reduce nuisance without changing teacher schedules.",
+  "sourceScope": "Reuse all4 first actual action2 cohorts at/after step24,8 equally spaced free parents,2 existing development seeds per instance. No resampling by gain. These are reused development contexts, not confirmation.",
+  "views": "RAW original; RANDOM uniform interleaving of unchanged per-factory chains; ALIGNED repeatedly takes the available donor chain head with earliest recipient position. This is a greedy linear extension,not claimed minimum-distance quotient normalization. Both donor views reference the unmutated recipient.",
+  "kernels": "Exact loaded KernelVariants JOB_ALIGNED and CLASSIC_GLOBAL; no copied or changed kernel. Same starting construction seed across views; repairs can advance later draws differently. View randomness is independent, deterministic per parent/rep/teacher and identical across kernels.",
+  "engineering": "Every neutral donor view full timeline exactly equals source; self-physical aligned view recovers recipient genotype. Raw kernel repeated constructions match, all sources immutable. Every candidate full timeline matches charged decoder; source3 replay and all96 children per case charged.",
+  "scores": "Single-offspring HV increase over pre-batch paid archive plus all3 known inputs. Same16 candidates per view; average all64 cases, never take best view per case. Classical results are generality controls.",
+  "gate": "Both instances: >=16/64 informative cases; QGS_ALIGNED mean addedHV >=10% over RAW and >=5% over RANDOM; at least3/4 role means nondecreasing vsRAW, no role falls >10%. Median per-case (view preparation+kernel+paid eval)/(RAW kernel+paid eval)<=1.10. All required; failure stops this greedy alignment without trying reverse ranks, canonical orders or weights.",
+  "limits": "Paired offspring probe only. Context time includes offline QA, observed kernels are not full algorithms. Pass only allows a fresh closed-loop protocol, later matching enhancements for classical baselines.",
+  "literature": [
+    "https://arxiv.org/abs/0907.3202",
+    "https://www.sciencedirect.com/science/article/pii/S0304397511006918"
+  ],
+  "preserved": "Original mainline, four duties, Q, fixed FA, sharing, old evidence; no public push or file transfer."
+}

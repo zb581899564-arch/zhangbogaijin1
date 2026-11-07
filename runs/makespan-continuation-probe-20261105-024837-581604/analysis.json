@@ -1,0 +1,63 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "means": {
+        "STRICT": {
+          "CmaxGain": 0.030955476660751532,
+          "addedHV": 0.004840363983176419,
+          "retainedCmaxGain": 0.030955476660751532,
+          "acceptedTies": 0.0
+        },
+        "FACTORY_LEX": {
+          "CmaxGain": 0.04288789335206064,
+          "addedHV": 0.006927800857654211,
+          "retainedCmaxGain": 0.04288789335206064,
+          "acceptedTies": 50.1875
+        },
+        "COST_LEX": {
+          "CmaxGain": 0.0387055168017693,
+          "addedHV": 0.015892623870591496,
+          "retainedCmaxGain": 0.0387055168017693,
+          "acceptedTies": 59.375
+        }
+      },
+      "parentWinsOf16": {
+        "STRICT": 9,
+        "COST_LEX": 8
+      },
+      "eligibleForClosedLoop": false,
+      "trials": 96
+    },
+    {
+      "stem": "100_2_3_1",
+      "means": {
+        "STRICT": {
+          "CmaxGain": 0.04957574069507268,
+          "addedHV": 0.005934985060395319,
+          "retainedCmaxGain": 0.04957574069507268,
+          "acceptedTies": 0.0
+        },
+        "FACTORY_LEX": {
+          "CmaxGain": 0.09263231370708855,
+          "addedHV": 0.014188704669188411,
+          "retainedCmaxGain": 0.09263231370708855,
+          "acceptedTies": 83.28125
+        },
+        "COST_LEX": {
+          "CmaxGain": 0.06083279369734783,
+          "addedHV": 0.056587523601288596,
+          "retainedCmaxGain": 0.06083279369734783,
+          "acceptedTies": 83.125
+        }
+      },
+      "parentWinsOf16": {
+        "STRICT": 16,
+        "COST_LEX": 15
+      },
+      "eligibleForClosedLoop": true,
+      "trials": 96
+    }
+  ],
+  "worthClosedLoop": false
+}

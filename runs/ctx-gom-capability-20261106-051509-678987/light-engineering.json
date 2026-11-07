@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "arm": "SHARE_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "SYNC_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "FULL_SHARED_DEEP",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "LI_RECON_DEEP",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA2_PLAIN",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA2_DEEP",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "PA_JOINT",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "PA_EQUAL",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "SHARE_CTX_GOM",
+      "realTimeStop": true,
+      "successfulFE": 275
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA_CTX_GOM",
+      "realTimeStop": true,
+      "successfulFE": 544
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SHARE_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SYNC_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA_CTX_GOM",
+      "completeTwoPassPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "FULL_SHARED_DEEP",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "LI_RECON_DEEP",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA2_PLAIN",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA2_DEEP",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "PA_JOINT",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "PA_EQUAL",
+      "frozenControlPaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SHARE_CTX_GOM",
+      "realTimeStop": true,
+      "successfulFE": 143
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA_CTX_GOM",
+      "realTimeStop": true,
+      "successfulFE": 277
+    }
+  ],
+  "runs": 36,
+  "successfulFE": 394175,
+  "attemptedFE": 394175,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 5115,
+  "sameTimePerformanceClaim": false
+}

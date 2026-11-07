@@ -1,0 +1,67 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    10730003,
+    10730033
+  ],
+  "arms": [
+    "MEAN",
+    "HV",
+    "ZERO",
+    "NSGA"
+  ],
+  "candidate": "HV",
+  "diagnosticFE": 81600,
+  "engineeringFE": 500000,
+  "basis": "Pre-existing-batch alignment audit found about1/3 meaningful CENTER updates sign-conflicting at both fixed references. This supports testing reward utility, not changing reference parameters or rescuing the failed global sweep.",
+  "changed": "Only CENTER Q reward: signed retained-group box-normalized HV(next)-HV(before). Scalar duties keep original reward. Initial reference1.1 x max of the100 paid initial objectives, lower zero; no outside evaluation/reference/training data. ZERO is no CENTER reward learning; MEAN exact original group reward.",
+  "preserved": "Original serial50-step blocks and generation-end-only guide updates; oldest ND personal guide and original Q state/alpha/gamma/exploration; FULL_ROLE/group survival, roles/families/sharing/proposals/local quota all unchanged. No sweep, fresh-memory rule, new selector or extra Q table.",
+  "engineering": "Closed-form exact3D boxes, duplicate/permutation/empty/outside-box cases, equal-centroid unequal-HV fixture; then original MEAN full500k exact paid-sequence and frozen evidence replay before new data.",
+  "gate": "Both instances median HV reward >=0.5% vs MEAN, >ZERO, >=-2% vs NSGA at5100. At least3/4 paired positive over each MEAN/ZERO. Failure stops this utility rule, no reward scaling/reference/tie/state scans.",
+  "limits": "Actual reward computation cost included; short stages do not prove500k, same-time, fatigue specificity or novelty. If qualified, fresh full-budget protocol must include Li with the same generic reward enhancement."
+}

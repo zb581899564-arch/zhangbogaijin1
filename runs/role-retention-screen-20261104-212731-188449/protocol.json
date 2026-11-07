@@ -1,0 +1,237 @@
+{
+  "candidate": "ROLE_GREEDY",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    9210007,
+    9210031,
+    9210061
+  ],
+  "arms": [
+    "FORCE",
+    "ROLE_GREEDY",
+    "CENTER_GREEDY",
+    "NSGA",
+    "LI_MATCHED_DEEP"
+  ],
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210007,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210007,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210007,
+      "arm": "CENTER_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210007,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210007,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210031,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210031,
+      "arm": "CENTER_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210031,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210031,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210031,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210061,
+      "arm": "CENTER_GREEDY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210061,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210061,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210061,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9210061,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210007,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210007,
+      "arm": "CENTER_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210007,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210007,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210007,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210031,
+      "arm": "CENTER_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210031,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210031,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210031,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210031,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210061,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210061,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210061,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210061,
+      "arm": "ROLE_GREEDY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9210061,
+      "arm": "CENTER_GREEDY"
+    }
+  ],
+  "actualFEPerCell": 500000,
+  "totalActualFE": 15000000,
+  "selectionOrigin": "ROLE_GREEDY was a positive ordinary control (+0.928% vs FORCE, -0.347% vs NSGA) in a failed DOM_GUARD study, not a preregistered winner. This is a fresh hypothesis screen.",
+  "controls": "CENTER_GREEDY changes only global acceptance preference to CENTER; the four Q reward roles, local preferences, subgroup sizes, sharing and proposal kernels remain. LI_MATCHED_DEEP is canonical v2 search (legacy S/O, paper baseline PSO) with the shared deep-local quota, and must be labelled an augmented comparison, not the original published algorithm result.",
+  "commonInitials": "All five arms receive identical paid initial vectors. LI and NSGA release the temporary initializer's family flags immediately, retaining their original search scope.",
+  "ledger": "Original L_U per-visit/round FE; factory draws fixed independently for each new instance/seed, covering its true F. No adaptive quota changes; all five arms share each ledger.",
+  "gate": {
+    "eachInstanceMedianHVgainVsFORCEpct": 1,
+    "positiveSeedsPerInstance": 2,
+    "eachInstanceMedianGapVsNSGAMinPct": -1,
+    "medianVsCENTERGREEDYMustBePositive": true,
+    "sameTimeAndIGDplusMustNotMateriallyRegress": true
+  },
+  "timePrimary": {
+    "20_8_5_1": 4,
+    "100_2_3_1": 5
+  },
+  "reference": [
+    1.25,
+    1.5,
+    2
+  ],
+  "noIncompleteCellReplacement": true,
+  "scope": "Small new-seed development screen; no independent confirmation or journal-level novelty claim."
+}

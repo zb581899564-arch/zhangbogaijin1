@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "completedUTC": "2026-11-06T08:22:33.359433+00:00",
+  "audits": [
+    "engineering-acceptance.json",
+    "source-and-cost-audit.json",
+    "report/audit-20261106T080556.705384Z-220075/audit.json"
+  ],
+  "totals": {
+    "attempted": 3473608,
+    "successful": 3473606,
+    "failed": 2,
+    "processSeconds": 600.4114362400123,
+    "searchSeconds": 554.2660785840003,
+    "importFullQA": 30600,
+    "importQASeconds": 3.4429352380000005,
+    "paidTimelineQA": 189446,
+    "paidTimelineQASeconds": 44.047127797,
+    "sourceCheckpointOfflineDecodes": 14157,
+    "independentHVChecks": 162
+  },
+  "newSearchFEAtDelivery": 0,
+  "newDecoderCallsAtDelivery": 0,
+  "figures": "figures/visual-review.json",
+  "decision": "decision.json",
+  "pendingScience": [
+    "Independent held-out generalization and full algorithm/classic/time trials were not authorized by this probe"
+  ],
+  "note": "Science/analysis receipts retain their historical pending flags; independent audit and this seal close verification only"
+}

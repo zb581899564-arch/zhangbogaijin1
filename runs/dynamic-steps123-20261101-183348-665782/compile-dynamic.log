@@ -1,0 +1,13 @@
+G:\ai\limingzhegaijin\张博改进\src\algorithms\joint\JointFeatures.java:45: 错误: 无法将类 DynamicParameters中的方法 mu应用到给定类型;
+            double fatigue = prefix.workerFatigue(f, w) * Math.exp(-parameters.mu() * (start - prefix.workerEnd(f, w)));
+                                                                              ^
+  需要: int,int,int
+  找到:    没有参数
+  原因: 实际参数列表和形式参数列表长度不同
+G:\ai\limingzhegaijin\张博改进\src\algorithms\joint\JointFeatures.java:47: 错误: 无法将类 DynamicParameters中的方法 beta应用到给定类型;
+            double completion = start + base * (1 + parameters.beta() * fatigue);
+                                                              ^
+  需要: int,int,int
+  找到:    没有参数
+  原因: 实际参数列表和形式参数列表长度不同
+2 个错误

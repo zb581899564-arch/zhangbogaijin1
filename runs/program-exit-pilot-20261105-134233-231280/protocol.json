@@ -1,0 +1,266 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "opportunityAudit": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\program-acceptance-audit-20261105-133301-840955",
+  "engineeringBaseline": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\local-program-audit-20261105-123427-539293",
+  "seeds": [
+    13390003,
+    13390037
+  ],
+  "arms": [
+    "FULL_OFF",
+    "FULL_ON",
+    "NSGA_OFF",
+    "NSGA_ON"
+  ],
+  "orderFE": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    }
+  ],
+  "orderTIME": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390003,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13390037,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390003,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13390037,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    }
+  ],
+  "hypothesis": "CENTER whole-program exit selection using fixed-reference geometric improvement can turn independently witnessed PDDR rejections into useful continuation, preserving boundary responsibilities and common inner search. Four-group benefit must survive equally enhanced NSGA, not merely beat its old acceptance.",
+  "intervention": "Only original LocalSearch.vns outer comparison of improved vs incumbent changes for CENTER: accept iff HV(R+improved)>HV(R+incumbent)+1e-10, R identical frozen global-post100reference, original normalization, referencePoint1.5. Inner descent and inter-factory acceptance remain original PDDR. Boundary preferences, QGS, pbest/Q updates, families, sharing, generation survival and all neighborhoods unchanged.",
+  "implementation": "Exact3D numeric sweep; nondominated reference pruning and per-reference objective score memoization affect only indicator cost, never skip a scheduling evaluation. No decoder in metric. Cache reference immutability verified in runtime audit. All construction/selection/indicator/archive costs included in real search time.",
+  "engineering": "Resolve frozen source and actual runtime classes/JDK/SHA. Python independentHV fixtures include systematically sampled old real comparisons and numeric boundary cases. Four100kOFF runs must equal old full paidSHA, initials, fronts/genes/birthFE, ledger, search and decoder counts. Four100kON audit runs must independently reproduce every actual CENTER outer HV score and decision, and original PDDR counterfactual. Twoinstances ONcutoffs1/2/5100/10000, strictfees/fullQA. All before new-seed performance.",
+  "budget": "Engineering830206successfulFE=4*100kOFF+4*100kON+2*(1+2+5100+10000). StageA16runs*100k=1600000successfulFE. Only if ALL StageA gates pass, StageB16true TIME_LIMIT runs4/5seconds, each500kFE safety cap. Hitting cap invalidates TIME result. Single sequential JVM Xms32m/Xmx2g, no external transfer. Preserve all failures and costs.",
+  "pairing": "Same instance/model/SUT/parameters and initial100genomes/objectives for all4arms perseed. OFF/ON withinmethod must match first5100 globalFE. FE/TIME samearm common reached FE checkpoints equal. Changed decisions advance RNG differently; do not claim matching later candidates or natural per-slot expenditures. No audit trace in timed science.",
+  "metrics": "PrimaryHV1.5 at100kFE and trueT; fixed original scales, sensitivity1.25/2.0. IGD+ against empiricalND union of4arms*2seeds perinstance/budget; no search use. Every seed and all reached curves reported. Conditional audit gain sum is not predicted algorithm gain and does not enter performance metrics.",
+  "gate": "Retain preceding pilot standards: EACHinstance FE medianFULL_ON/FULL_OFF>=0%, everypair>=-0.5%; medianvsNSGA_ON>=-1%, everypair>=-5%. Reference1.25/2 medians>=0vsown and>=-2%vsmatchedNSGA; IGD+symmetrical worsening median<=5%vsmatchedNSGA. Bothinstances necessary to START StageB. StageB same conditions plus medianFULL_ON/FULL_OFF>=0.5%. Pass only permits separate500k/fullrole/sharing/Li/commonbaseline comparisons and newinstances+independentconfirmation, never goal completion or paper advantage.",
+  "stop": "Failing StageA skipsTIME and stops this exactCENTER exit-HV rule. No reference/scales/threshold scan, moving HV to inner/inter/pbest, source subset, seed or time retuning to rescue it. No retrospective control promotion. Prior identity-shake, reference replacement, scalar tasks, parent reweighting, prefix copying and conditional-exchange stops unchanged.",
+  "novelty": "Indicator-based selection and local search are established; this is targeted mechanism verification, not a claim that usingHV is novel. Same operator in both algorithms required. Four roles and existing conditional sharing remain protected default mainline."
+}

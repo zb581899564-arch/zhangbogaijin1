@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "endpointComparisons": 52,
+  "actualMaxError": [
+    0,
+    0,
+    0
+  ],
+  "objectiveCertificateAbsTol": [
+    1e-08,
+    1e-08,
+    1e-08
+  ],
+  "hvNumericalAbsTol": 1e-12,
+  "newCounterfactualFEAtGate": 0,
+  "rule": "No adjustment of declared tolerances after seeing counterfactual results"
+}

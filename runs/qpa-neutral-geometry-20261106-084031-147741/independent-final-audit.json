@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "instances": [
+    {
+      "instance": "20_8_5_1",
+      "rows": 39864,
+      "verificationConstructions": 378,
+      "modelsVerified": 44,
+      "sourceModelBuilds": 88
+    },
+    {
+      "instance": "100_2_3_1",
+      "rows": 205656,
+      "verificationConstructions": 1589,
+      "modelsVerified": 44,
+      "sourceModelBuilds": 88
+    }
+  ],
+  "populations": [
+    {
+      "population": "20_8_5_1-PILOT-15290003-INITIAL",
+      "evolved": false,
+      "fraction": 0.6952302631578947,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "20_8_5_1-PILOT-15290037-INITIAL",
+      "evolved": false,
+      "fraction": 0.734046052631579,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "20_8_5_1-ENGINE-14670003-MODEL1",
+      "evolved": false,
+      "fraction": 0.7296052631578948,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "20_8_5_1-ENGINE-14670003-MODEL2",
+      "evolved": true,
+      "fraction": 0.7125,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "100_2_3_1-PILOT-15290003-INITIAL",
+      "evolved": false,
+      "fraction": 0.8359615384615384,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "100_2_3_1-PILOT-15290037-INITIAL",
+      "evolved": false,
+      "fraction": 0.8310889175257732,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "100_2_3_1-ENGINE-14670003-MODEL1",
+      "evolved": false,
+      "fraction": 0.8449679487179487,
+      "lowFOSJaccardViews": 10
+    },
+    {
+      "population": "100_2_3_1-ENGINE-14670003-MODEL2",
+      "evolved": true,
+      "fraction": 0.8316346153846154,
+      "lowFOSJaccardViews": 10
+    }
+  ],
+  "sourceProposalConstructions": 245520,
+  "independentVerificationConstructions": 1967,
+  "combinedUnscoredConstructions": 247487,
+  "allModelsAndCaseRowsChecked": true,
+  "paPhysicalGenesModelFOSAndProposalInvariant": true,
+  "proposalsIndependentlyRebuiltOnlyAtFixedSample": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "completeObjectiveQueries": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,85 @@
+{
+  "exactSemanticChecksPassed": true,
+  "necessaryNontrivialityPass": true,
+  "observations": [
+    {
+      "population": "20_8_5_1-INITIAL-15410003",
+      "evolved": false,
+      "synthetic": false,
+      "roleChanges": 66,
+      "visitPositionChanges": 99
+    },
+    {
+      "population": "20_8_5_1-INITIAL-15410037",
+      "evolved": false,
+      "synthetic": false,
+      "roleChanges": 58,
+      "visitPositionChanges": 100
+    },
+    {
+      "population": "20_8_5_1-ENGINE-MODEL1",
+      "evolved": false,
+      "synthetic": false,
+      "roleChanges": 24,
+      "visitPositionChanges": 80
+    },
+    {
+      "population": "20_8_5_1-ENGINE-MODEL2",
+      "evolved": true,
+      "synthetic": false,
+      "roleChanges": 20,
+      "visitPositionChanges": 97
+    },
+    {
+      "population": "SYNTHETIC-ALL_TIED",
+      "evolved": false,
+      "synthetic": true,
+      "roleChanges": 60,
+      "visitPositionChanges": 85
+    },
+    {
+      "population": "SYNTHETIC-ANTICHAIN",
+      "evolved": false,
+      "synthetic": true,
+      "roleChanges": 45,
+      "visitPositionChanges": 85
+    },
+    {
+      "population": "100_2_3_1-INITIAL-15410003",
+      "evolved": false,
+      "synthetic": false,
+      "roleChanges": 62,
+      "visitPositionChanges": 98
+    },
+    {
+      "population": "100_2_3_1-INITIAL-15410037",
+      "evolved": false,
+      "synthetic": false,
+      "roleChanges": 66,
+      "visitPositionChanges": 99
+    },
+    {
+      "population": "100_2_3_1-ENGINE-MODEL1",
+      "evolved": false,
+      "synthetic": false,
+      "roleChanges": 30,
+      "visitPositionChanges": 78
+    },
+    {
+      "population": "100_2_3_1-ENGINE-MODEL2",
+      "evolved": true,
+      "synthetic": false,
+      "roleChanges": 4,
+      "visitPositionChanges": 97
+    }
+  ],
+  "plans": 60,
+  "nativePartitions": 10,
+  "knownRealCarriers": 800,
+  "mathematicalRankingCarriers": 200,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "decision": "SEMANTIC_PARITY_ONLY_SEPARATE_ENGINEERING_REQUIRED",
+  "performanceProved": false,
+  "goalAchieved": false
+}

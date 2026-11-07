@@ -1,0 +1,428 @@
+{
+  "cases": [
+    {
+      "id": "case-00",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 82,
+      "label": "POSITIVE",
+      "role": "CENTER",
+      "parentId": 65,
+      "jobs": [
+        12,
+        97
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-01",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 12,
+      "label": "MATCHED_NEGATIVE",
+      "role": "CENTER",
+      "parentId": 65,
+      "jobs": [
+        87,
+        79
+      ],
+      "matchedPositive": "case-00"
+    },
+    {
+      "id": "case-02",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 163,
+      "label": "POSITIVE",
+      "role": "CENTER",
+      "parentId": 66,
+      "jobs": [
+        81,
+        4
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-03",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 8,
+      "label": "MATCHED_NEGATIVE",
+      "role": "CENTER",
+      "parentId": 66,
+      "jobs": [
+        61,
+        17
+      ],
+      "matchedPositive": "case-02"
+    },
+    {
+      "id": "case-04",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 175,
+      "label": "POSITIVE",
+      "role": "WORKER_COST",
+      "parentId": 98,
+      "jobs": [
+        32,
+        10
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-05",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 15,
+      "label": "MATCHED_NEGATIVE",
+      "role": "WORKER_COST",
+      "parentId": 98,
+      "jobs": [
+        44,
+        97
+      ],
+      "matchedPositive": "case-04"
+    },
+    {
+      "id": "case-06",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 495,
+      "label": "POSITIVE",
+      "role": "WORKER_COST",
+      "parentId": 355,
+      "jobs": [
+        46,
+        47
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-07",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 275,
+      "label": "MATCHED_NEGATIVE",
+      "role": "WORKER_COST",
+      "parentId": 355,
+      "jobs": [
+        18,
+        45
+      ],
+      "matchedPositive": "case-06"
+    },
+    {
+      "id": "case-08",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 313,
+      "label": "POSITIVE",
+      "role": "CENTER",
+      "parentId": 66,
+      "jobs": [
+        41,
+        96
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-09",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 8,
+      "label": "MATCHED_NEGATIVE",
+      "role": "CENTER",
+      "parentId": 66,
+      "jobs": [
+        61,
+        17
+      ],
+      "matchedPositive": "case-08"
+    },
+    {
+      "id": "case-10",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 338,
+      "label": "POSITIVE",
+      "role": "CENTER",
+      "parentId": 413,
+      "jobs": [
+        6,
+        54
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-11",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 323,
+      "label": "MATCHED_NEGATIVE",
+      "role": "CENTER",
+      "parentId": 413,
+      "jobs": [
+        64,
+        68
+      ],
+      "matchedPositive": "case-10"
+    },
+    {
+      "id": "case-12",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 190,
+      "label": "POSITIVE",
+      "role": "WORKER_COST",
+      "parentId": 98,
+      "jobs": [
+        97,
+        25
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-13",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 15,
+      "label": "MATCHED_NEGATIVE",
+      "role": "WORKER_COST",
+      "parentId": 98,
+      "jobs": [
+        44,
+        97
+      ],
+      "matchedPositive": "case-12"
+    },
+    {
+      "id": "case-14",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 525,
+      "label": "POSITIVE",
+      "role": "WORKER_COST",
+      "parentId": 355,
+      "jobs": [
+        6,
+        80
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-15",
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 275,
+      "label": "MATCHED_NEGATIVE",
+      "role": "WORKER_COST",
+      "parentId": 355,
+      "jobs": [
+        18,
+        45
+      ],
+      "matchedPositive": "case-14"
+    },
+    {
+      "id": "case-16",
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "arm": "LEGAL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 12,
+      "jobs": [
+        6,
+        13
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-17",
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "arm": "NOVEL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 12,
+      "jobs": [
+        6,
+        13
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-18",
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "arm": "LEGAL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 13,
+      "jobs": [
+        0,
+        2
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-19",
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "arm": "NOVEL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 13,
+      "jobs": [
+        0,
+        2
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-20",
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "arm": "LEGAL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 14,
+      "jobs": [
+        8,
+        0
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-21",
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "arm": "NOVEL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 14,
+      "jobs": [
+        8,
+        0
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-22",
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "arm": "LEGAL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 12,
+      "jobs": [
+        94,
+        17
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-23",
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "arm": "NOVEL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 12,
+      "jobs": [
+        94,
+        17
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-24",
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "arm": "LEGAL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 14,
+      "jobs": [
+        41,
+        85
+      ],
+      "matchedPositive": null
+    },
+    {
+      "id": "case-25",
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "arm": "NOVEL",
+      "fe": 1,
+      "label": "BACKGROUND_NEGATIVE",
+      "role": "MAKESPAN",
+      "parentId": 14,
+      "jobs": [
+        41,
+        85
+      ],
+      "matchedPositive": null
+    }
+  ],
+  "missing": [],
+  "pairs": 26,
+  "plannedNewEvaluations": 364,
+  "plannedQA": 52,
+  "hardLimitFE": 364,
+  "hardLimitQA": 52,
+  "bits": [
+    "resource_a",
+    "resource_b",
+    "key_a",
+    "key_b"
+  ],
+  "controls": {
+    "PARENT": 0,
+    "RESOURCE": 3,
+    "ORDER": 12,
+    "JOB_A": 5,
+    "JOB_B": 10,
+    "FULL": 15
+  },
+  "queryOrder": "instance in fixed order, case order, masks 1..14; all QA first",
+  "physics": "Common frozen DynamicDecoder full path; no incremental reuse or per-candidate extra QA",
+  "engineering": "Reuse previous complete timeline full/incremental equivalence; current QA0/15 must match old objective bits",
+  "objectiveCertificateAbsTol": [
+    1e-08,
+    1e-08,
+    1e-08
+  ],
+  "hvNumericalAbsTol": 1e-12,
+  "numericRule": "Exact raw weak dominance for C; meaningful strict improvement exceeds abs tolerance; no tolerance dominance",
+  "referenceRule": "For each instance, ND union of all source A0 plus all 16 configurations from all selected cases; offline only",
+  "keepSearchMainline": true,
+  "runTransfer": false,
+  "claimAlgorithmPerformance": false
+}

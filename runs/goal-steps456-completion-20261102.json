@@ -1,0 +1,38 @@
+{
+  "scope": "revised steps4,5,and conditional6",
+  "status": "CONDITIONAL_SCOPE_FINISHED",
+  "date": "2026-11-02",
+  "step4": {
+    "status": "COMPLETE",
+    "evidence": "runs/expansion-step4-20261102-000900-290794/acceptance.json",
+    "classicMethods": ["NSGA2_4V", "SPEA2_4V", "MOEAD_4V", "NSGA2_VNS_4V"]
+  },
+  "step5": {
+    "status": "COMPLETE",
+    "evidence": "runs/expansion-screen-20261102-001934-525927/final-status.json",
+    "completed": 270,
+    "expected": 270,
+    "wallSeconds": 3398.0511468467303,
+    "capSeconds": 5400,
+    "calibrationRounds": 3,
+    "followupRuns": 0,
+    "strongestExternal": "NSGA2_4V",
+    "SHARE": "RED",
+    "VALUE_SHARE": "RED",
+    "genuineEvaluationFailures": 0,
+    "fullArchiveReplayCount": 46418,
+    "controllerRecovery": "original failure and recovery-v1 retained; same clock;23 completed owners not rerun"
+  },
+  "step6": {
+    "decisionBranchExecuted": true,
+    "readyForStep6": [],
+    "formalExperimentsStarted": false,
+    "formalExperimentsCompleted": false,
+    "formalRuns": 0,
+    "reason": "Neither frozen candidate meets the predeclared screen continuation rules; no optional followup authorized by those rules"
+  },
+  "report": "docs/新版第5步结果与第6步分支-2026-11-02.md",
+  "scopeLimit": "Current configurations on six development instances only; no verdict on the four-subswarm direction, unseen-instance generalization, long-budget results or publication qualification",
+  "preserved": ["original thesis materials", "old540 development results", "v1-v10 evidence", "all new trial owners", "frozen screen thresholds"],
+  "next": "Discuss a new evidence-based hypothesis before modifying or restarting the algorithm"
+}

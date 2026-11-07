@@ -1,0 +1,236 @@
+Compiled from "DynamicPhysics.java"
+final class org.uma.jmetal.util.research.model.DynamicPhysics {
+  private org.uma.jmetal.util.research.model.DynamicPhysics();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  static org.uma.jmetal.util.research.model.DynamicStep transition(org.uma.jmetal.util.research.model.Instance, org.uma.jmetal.util.research.model.DynamicParameters, int, int, int, int, int, double, double, boolean, double, double);
+    Code:
+       0: dload         7
+       2: dload         9
+       4: dload         12
+       6: invokestatic  #7                  // Method java/lang/Math.max:(DD)D
+       9: invokestatic  #7                  // Method java/lang/Math.max:(DD)D
+      12: dstore        16
+      14: dload         14
+      16: aload_1
+      17: iload_3
+      18: iload         4
+      20: iload         6
+      22: invokevirtual #13                 // Method org/uma/jmetal/util/research/model/DynamicParameters.mu:(III)D
+      25: dneg
+      26: dload         16
+      28: dload         12
+      30: dsub
+      31: dmul
+      32: invokestatic  #19                 // Method java/lang/Math.exp:(D)D
+      35: dmul
+      36: dstore        18
+      38: aload_0
+      39: iload_2
+      40: iload         4
+      42: invokevirtual #23                 // Method org/uma/jmetal/util/research/model/Instance.processing:(II)D
+      45: aload_0
+      46: iload_3
+      47: iload         4
+      49: iload         5
+      51: invokevirtual #29                 // Method org/uma/jmetal/util/research/model/Instance.speed:(III)D
+      54: ddiv
+      55: aload_0
+      56: iload_2
+      57: iload         4
+      59: invokevirtual #32                 // Method org/uma/jmetal/util/research/model/Instance.setup:(II)D
+      62: dadd
+      63: aload_0
+      64: iload_3
+      65: iload         4
+      67: iload         6
+      69: invokevirtual #35                 // Method org/uma/jmetal/util/research/model/Instance.efficiency:(III)D
+      72: ddiv
+      73: dstore        20
+      75: dconst_1
+      76: aload_1
+      77: iload_3
+      78: iload         4
+      80: iload         6
+      82: invokevirtual #38                 // Method org/uma/jmetal/util/research/model/DynamicParameters.beta:(III)D
+      85: dload         18
+      87: dmul
+      88: dadd
+      89: dstore        22
+      91: dload         20
+      93: dload         22
+      95: dmul
+      96: dstore        24
+      98: dconst_1
+      99: dconst_1
+     100: dload         18
+     102: dsub
+     103: aload_1
+     104: iload_3
+     105: iload         4
+     107: iload         6
+     109: invokevirtual #41                 // Method org/uma/jmetal/util/research/model/DynamicParameters.alpha:(III)D
+     112: dneg
+     113: dload         24
+     115: dmul
+     116: invokestatic  #19                 // Method java/lang/Math.exp:(D)D
+     119: dmul
+     120: dsub
+     121: dstore        26
+     123: aload_0
+     124: iload_2
+     125: iload         4
+     127: invokevirtual #32                 // Method org/uma/jmetal/util/research/model/Instance.setup:(II)D
+     130: aload_0
+     131: iload_3
+     132: iload         4
+     134: iload         6
+     136: invokevirtual #35                 // Method org/uma/jmetal/util/research/model/Instance.efficiency:(III)D
+     139: ddiv
+     140: dload         22
+     142: dmul
+     143: dstore        28
+     145: aload_0
+     146: iload_3
+     147: iload         4
+     149: iload         5
+     151: invokevirtual #44                 // Method org/uma/jmetal/util/research/model/Instance.power:(III)D
+     154: dload         24
+     156: dmul
+     157: iload         11
+     159: ifeq          180
+     162: aload_0
+     163: iload_3
+     164: iload         4
+     166: iload         5
+     168: invokevirtual #47                 // Method org/uma/jmetal/util/research/model/Instance.standby:(III)D
+     171: dload         16
+     173: dload         9
+     175: dsub
+     176: dmul
+     177: goto          181
+     180: dconst_0
+     181: dadd
+     182: dstore        30
+     184: aload_0
+     185: iload_3
+     186: iload         4
+     188: iload         6
+     190: invokevirtual #50                 // Method org/uma/jmetal/util/research/model/Instance.cost:(III)D
+     193: dload         24
+     195: dmul
+     196: dstore        32
+     198: dload         18
+     200: aload_1
+     201: iload_3
+     202: iload         4
+     204: iload         6
+     206: invokevirtual #41                 // Method org/uma/jmetal/util/research/model/DynamicParameters.alpha:(III)D
+     209: dload         24
+     211: invokestatic  #53                 // Method workExposure:(DDD)D
+     214: dstore        34
+     216: dload         16
+     218: dload         24
+     220: dadd
+     221: invokestatic  #59                 // Method java/lang/Double.isFinite:(D)Z
+     224: ifeq          266
+     227: dload         24
+     229: invokestatic  #59                 // Method java/lang/Double.isFinite:(D)Z
+     232: ifeq          266
+     235: dload         24
+     237: dconst_0
+     238: dcmpg
+     239: ifle          266
+     242: dload         30
+     244: invokestatic  #59                 // Method java/lang/Double.isFinite:(D)Z
+     247: ifeq          266
+     250: dload         32
+     252: invokestatic  #59                 // Method java/lang/Double.isFinite:(D)Z
+     255: ifeq          266
+     258: dload         34
+     260: invokestatic  #59                 // Method java/lang/Double.isFinite:(D)Z
+     263: ifne          276
+     266: new           #65                 // class java/lang/IllegalArgumentException
+     269: dup
+     270: ldc           #67                 // String Non-finite dynamic transition
+     272: invokespecial #69                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+     275: athrow
+     276: new           #72                 // class org/uma/jmetal/util/research/model/DynamicStep
+     279: dup
+     280: iload_2
+     281: iload_3
+     282: iload         4
+     284: iload         5
+     286: iload         6
+     288: dload         16
+     290: dload         20
+     292: dload         24
+     294: dload         28
+     296: dload         18
+     298: dload         26
+     300: dload         30
+     302: dload         32
+     304: dload         34
+     306: invokespecial #74                 // Method org/uma/jmetal/util/research/model/DynamicStep."<init>":(IIIIIDDDDDDDDD)V
+     309: areturn
+
+  static double workExposure(double, double, double);
+    Code:
+       0: dload_2
+       1: dconst_0
+       2: dcmpl
+       3: ifne          11
+       6: dload_0
+       7: dload         4
+       9: dmul
+      10: dreturn
+      11: dload_2
+      12: dload         4
+      14: dmul
+      15: dstore        6
+      17: dload         6
+      19: ldc2_w        #77                 // double 1.0E-5d
+      22: dcmpg
+      23: ifge          63
+      26: dload         6
+      28: ldc2_w        #79                 // double 0.5d
+      31: dload         6
+      33: ldc2_w        #81                 // double -0.16666666666666666d
+      36: dload         6
+      38: ldc2_w        #83                 // double 0.041666666666666664d
+      41: dload         6
+      43: ldc2_w        #85                 // double -0.008333333333333333d
+      46: dload         6
+      48: ldc2_w        #87                 // double 720.0d
+      51: ddiv
+      52: dadd
+      53: dmul
+      54: dadd
+      55: dmul
+      56: dadd
+      57: dmul
+      58: dadd
+      59: dmul
+      60: goto          74
+      63: dconst_1
+      64: dload         6
+      66: dneg
+      67: invokestatic  #89                 // Method java/lang/Math.expm1:(D)D
+      70: dload         6
+      72: ddiv
+      73: dadd
+      74: dstore        8
+      76: dload         4
+      78: dload_0
+      79: dconst_1
+      80: dload_0
+      81: dsub
+      82: dload         8
+      84: dmul
+      85: dadd
+      86: dmul
+      87: dreturn
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "instances": [
+    {
+      "instance": "20_8_5_1",
+      "frontsChecked": 20,
+      "comparisonsChecked": 9,
+      "maxHVerror": 1.3322676295501878e-15,
+      "maxIGDplusError": 3.469446951953614e-18,
+      "pass_": false
+    },
+    {
+      "instance": "100_2_3_1",
+      "frontsChecked": 20,
+      "comparisonsChecked": 9,
+      "maxHVerror": 1.7763568394002505e-15,
+      "maxIGDplusError": 1.3877787807814457e-17,
+      "pass_": false
+    }
+  ],
+  "source500kQualificationUnchanged": true,
+  "initialAndPaidArtifactsUnchanged": true,
+  "unionAndReferenceIndependentlyReconstructed": true,
+  "coverageCountsAndGateChecksEqual": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "independenceWarningPreserved": true,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

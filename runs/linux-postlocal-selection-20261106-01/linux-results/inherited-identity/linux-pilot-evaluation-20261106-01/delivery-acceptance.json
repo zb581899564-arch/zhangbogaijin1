@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "completedUTC": "2026-11-06T07:20:04.398073+00:00",
+  "scienceFE": 9000000,
+  "newSearchFEAtDelivery": 0,
+  "newDecoderCallsAtDelivery": 0,
+  "scienceFailures": 0,
+  "engineeringInjectedFailures": 1,
+  "requiredReceipts": [
+    "science-complete.json",
+    "independent-audit.json",
+    "engineering/acceptance.json",
+    "time-limit-acceptance.json",
+    "exact-hv-acceptance.json"
+  ],
+  "mathematicalChecks": 10,
+  "figures": 10,
+  "figureFiles": 30,
+  "visualReview": "report/figures/visual-review.json",
+  "decision": "report/decision.json",
+  "statisticsPending": false,
+  "supersedesPendingFlagOnly": "science-complete.json was written before statistics; raw historical receipt preserved",
+  "limits": [
+    "five-seed and held-out validation",
+    "Linux matched classic controls",
+    "trueTIME quality comparison"
+  ],
+  "originalMainlineModified": false,
+  "backgroundExperimentCreated": false,
+  "goalResumed": false
+}

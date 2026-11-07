@@ -1,0 +1,652 @@
+{
+  "sources": [
+    "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353",
+    "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918"
+  ],
+  "scope": "Explicitly post-hoc, zero new search FE and decoder calls; no new candidate or performance gate.",
+  "question": "Separate net HV from bidirectional missing volume, size of best single known repair, worst additive epsilon shortfall and three objective-axis partitions. Do not infer physical cause.",
+  "strata": "NAT/REPLAY and FE/trueTIME stay separate; short task13300FEs separate from long500k. No pooling seeds/regimes, no new primary endpoint and no rescue of stopped task architecture.",
+  "methods": "Exact 3D HVref1.5 original frozen scales. Each pair joint ND supplies only descriptive quartile cuts independently for C/E/W. Slabs must sum separately to full signed gap and missing volumes. Single known point gain from its uncovered dominated box, verified against direct union HV; no point inserted in any search archive. Directed additive epsilon=max_target min_front max_objective positive normalized shortfall; its worst gap is independent of target duplication, unlike empirical mean IGD+.",
+  "cases": [
+    {
+      "stratum": "NAT-FE",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\FE-FULL_NAT",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\FE-NSGA_NAT",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 500000
+    },
+    {
+      "stratum": "REPLAY-FE",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\FE-FULL_REPLAY",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\FE-NSGA_REPLAY",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 500000
+    },
+    {
+      "stratum": "NAT-TIME",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\TIME-FULL_NAT",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\TIME-NSGA_NAT",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "TIME",
+      "endpoint": 4
+    },
+    {
+      "stratum": "REPLAY-TIME",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\TIME-FULL_REPLAY",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\TIME-NSGA_REPLAY",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "TIME",
+      "endpoint": 4
+    },
+    {
+      "stratum": "TASK-OFF-NSGA",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050003-OFF",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050003-NSGA",
+      "leftName": "OFF",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-OFF",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050003-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050003-OFF",
+      "leftName": "FIXED",
+      "rightName": "OFF",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-NSGA",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050003-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050003-NSGA",
+      "leftName": "FIXED",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-OFF-NSGA",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050033,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050033-OFF",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050033-NSGA",
+      "leftName": "OFF",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-OFF",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050033,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050033-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050033-OFF",
+      "leftName": "FIXED",
+      "rightName": "OFF",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-NSGA",
+      "spec": {
+        "stem": "20_8_5_1",
+        "time_seconds": 4,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050033,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050033-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\20_8_5_1\\13050033-NSGA",
+      "leftName": "FIXED",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "NAT-FE",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\FE-FULL_NAT",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\FE-NSGA_NAT",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 500000
+    },
+    {
+      "stratum": "REPLAY-FE",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\FE-FULL_REPLAY",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\FE-NSGA_REPLAY",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 500000
+    },
+    {
+      "stratum": "NAT-TIME",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\TIME-FULL_NAT",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\TIME-NSGA_NAT",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "TIME",
+      "endpoint": 5
+    },
+    {
+      "stratum": "REPLAY-TIME",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 12390003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\TIME-FULL_REPLAY",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\TIME-NSGA_REPLAY",
+      "leftName": "FULL",
+      "rightName": "NSGA",
+      "kind": "TIME",
+      "endpoint": 5
+    },
+    {
+      "stratum": "TASK-OFF-NSGA",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050003-OFF",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050003-NSGA",
+      "leftName": "OFF",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-OFF",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050003-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050003-OFF",
+      "leftName": "FIXED",
+      "rightName": "OFF",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-NSGA",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050003,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050003-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050003-NSGA",
+      "leftName": "FIXED",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-OFF-NSGA",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050033,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050033-OFF",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050033-NSGA",
+      "leftName": "OFF",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-OFF",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050033,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050033-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050033-OFF",
+      "leftName": "FIXED",
+      "rightName": "OFF",
+      "kind": "FE",
+      "endpoint": 13300
+    },
+    {
+      "stratum": "TASK-FIXED-NSGA",
+      "spec": {
+        "stem": "100_2_3_1",
+        "time_seconds": 5,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        }
+      },
+      "seed": 13050033,
+      "left": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050033-FIXED",
+      "right": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-task-pilot-20261105-113130-670918\\100_2_3_1\\13050033-NSGA",
+      "leftName": "FIXED",
+      "rightName": "NSGA",
+      "kind": "FE",
+      "endpoint": 13300
+    }
+  ]
+}

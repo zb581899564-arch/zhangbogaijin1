@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "masters": [
+    {
+      "instance": "20_8_5_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "POST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "POST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "POST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "POST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "exactNativePOSTOrCommon5100Prefix": true,
+      "twoCompletePasses": true,
+      "allModelsProposalsAcceptsTimelineQAValidated": true
+    }
+  ],
+  "cutoffs": [
+    {
+      "instance": "20_8_5_1",
+      "successfulFE": 1,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "successfulFE": 2,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "successfulFE": 5100,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "successfulFE": 5101,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "successfulFE": 8920,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "successfulFE": 17740,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "successfulFE": 1,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "successfulFE": 2,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "successfulFE": 5100,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "successfulFE": 5101,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "successfulFE": 24960,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "successfulFE": 49820,
+      "exactMasterPrefix": true,
+      "pendingAndPartialRetained": true
+    }
+  ],
+  "successfulFE": 392096,
+  "attemptedFE": 392096,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "paidFullTimelineQA": 392096,
+  "viewFullTimelineQA": 2400,
+  "checkpointOfflineQA": 4120,
+  "receiptCount": 20,
+  "engineeringOnly": true,
+  "performanceProved": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

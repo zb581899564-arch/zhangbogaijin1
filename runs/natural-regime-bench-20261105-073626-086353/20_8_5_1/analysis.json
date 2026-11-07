@@ -1,0 +1,770 @@
+{
+  "stem": "20_8_5_1",
+  "levels": [
+    {
+      "budget": "FE",
+      "observations": [
+        {
+          "method": "FULL_NAT",
+          "HV": {
+            "1.25": 0.15769634099568927,
+            "1.5": 0.5211716743773811,
+            "2.0": 2.2852719786981663
+          },
+          "IGDplus": 0.013242400948005344,
+          "rawObjectiveMin": [
+            353.17064916617704,
+            38083.51200172987,
+            46418.70455767389
+          ],
+          "frontSize": 316,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.5314297,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.531231,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 283,
+            "intra": 489617
+          },
+          "localVisitsOpened": 119,
+          "localSlots": 3668,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 100,
+            "qgs.g2.updates": 100,
+            "qgs.g3.updates": 100,
+            "qgs.g4.updates": 100
+          },
+          "checkpointQA": 584
+        },
+        {
+          "method": "FULL_REPLAY",
+          "HV": {
+            "1.25": 0.15720979625779966,
+            "1.5": 0.5203026163513427,
+            "2.0": 2.2837191090947853
+          },
+          "IGDplus": 0.012532778556518975,
+          "rawObjectiveMin": [
+            348.56940814504424,
+            38320.44966815221,
+            46397.883104329485
+          ],
+          "frontSize": 202,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.6026818,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.6024749,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 549,
+            "intra": 489351
+          },
+          "localVisitsOpened": 112,
+          "localSlots": 3471,
+          "forcedRestarts": 2370,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 100,
+            "qgs.g2.updates": 100,
+            "qgs.g3.updates": 100,
+            "qgs.g4.updates": 100
+          },
+          "checkpointQA": 503
+        },
+        {
+          "method": "NSGA_NAT",
+          "HV": {
+            "1.25": 0.17006502309813265,
+            "1.5": 0.5488441239183697,
+            "2.0": 2.360365921904921
+          },
+          "IGDplus": 0.001518254380476171,
+          "rawObjectiveMin": [
+            336.2911119306498,
+            37183.19912391534,
+            45846.28676532564
+          ],
+          "frontSize": 423,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.2843191,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.2840613,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 284,
+            "intra": 489616
+          },
+          "localVisitsOpened": 115,
+          "localSlots": 3554,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": 100,
+          "completedDeepLocalBlocks": 1,
+          "QgsUpdatesByPhysicalGroup": {},
+          "checkpointQA": 635
+        },
+        {
+          "method": "NSGA_REPLAY",
+          "HV": {
+            "1.25": 0.16793180103218258,
+            "1.5": 0.5432794183520355,
+            "2.0": 2.3436437524171563
+          },
+          "IGDplus": 0.002475205101168947,
+          "rawObjectiveMin": [
+            344.1769344541307,
+            37390.32799249467,
+            45839.68296350925
+          ],
+          "frontSize": 370,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.4245233,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.4243192,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 549,
+            "intra": 489351
+          },
+          "localVisitsOpened": 112,
+          "localSlots": 3471,
+          "forcedRestarts": 2173,
+          "rawGenerationCounter": 100,
+          "completedDeepLocalBlocks": 1,
+          "QgsUpdatesByPhysicalGroup": {},
+          "checkpointQA": 592
+        },
+        {
+          "method": "LI_NAT",
+          "HV": {
+            "1.25": 0.15646498708038392,
+            "1.5": 0.5171838674168547,
+            "2.0": 2.2714359811032203
+          },
+          "IGDplus": 0.018863326842269865,
+          "rawObjectiveMin": [
+            370.6720086845897,
+            38127.20867634911,
+            46108.10670574248
+          ],
+          "frontSize": 204,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.0555702,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.0553817,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 781,
+            "intra": 489119
+          },
+          "localVisitsOpened": 123,
+          "localSlots": 3784,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 100,
+            "qgs.g2.updates": 100,
+            "qgs.g3.updates": 100,
+            "qgs.g4.updates": 100
+          },
+          "checkpointQA": 326
+        },
+        {
+          "method": "SYNC_NAT",
+          "HV": {
+            "1.25": 0.16161641596822154,
+            "1.5": 0.5303693774673188,
+            "2.0": 2.311196801478591
+          },
+          "IGDplus": 0.009332206296389678,
+          "rawObjectiveMin": [
+            345.4979890394243,
+            37769.587613004966,
+            46264.63153357788
+          ],
+          "frontSize": 268,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.4443163,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.4441402,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 314,
+            "intra": 489586
+          },
+          "localVisitsOpened": 117,
+          "localSlots": 3622,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 100,
+            "qgs.g2.updates": 100,
+            "qgs.g3.updates": 100,
+            "qgs.g4.updates": 100
+          },
+          "checkpointQA": 497
+        },
+        {
+          "method": "UNIFORM_NAT",
+          "HV": {
+            "1.25": 0.15556802465648137,
+            "1.5": 0.5151806273706653,
+            "2.0": 2.2662744564773245
+          },
+          "IGDplus": 0.008708066833630523,
+          "rawObjectiveMin": [
+            363.1348541472873,
+            38259.85032237196,
+            46475.42268246737
+          ],
+          "frontSize": 136,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.8088109,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.8086136,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 333,
+            "intra": 489567
+          },
+          "localVisitsOpened": 112,
+          "localSlots": 3445,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 100,
+            "qgs.g2.updates": 100,
+            "qgs.g3.updates": 100,
+            "qgs.g4.updates": 100
+          },
+          "checkpointQA": 527
+        },
+        {
+          "method": "SHARE_BASE_NAT",
+          "HV": {
+            "1.25": 0.15484559294407507,
+            "1.5": 0.5145600857109536,
+            "2.0": 2.2664359032216326
+          },
+          "IGDplus": 0.022612560923149304,
+          "rawObjectiveMin": [
+            366.13600601971734,
+            38246.106449319996,
+            46262.76628173789
+          ],
+          "frontSize": 216,
+          "successfulFE": 500000,
+          "attemptedFE": 500000,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 8.4198637,
+          "checkpointFE": 500000,
+          "checkpointElapsedSeconds": 8.419549,
+          "stageFE": {
+            "initialization": 100,
+            "global": 10000,
+            "inter": 682,
+            "intra": 489218
+          },
+          "localVisitsOpened": 123,
+          "localSlots": 3794,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 100,
+            "qgs.g2.updates": 100,
+            "qgs.g3.updates": 100,
+            "qgs.g4.updates": 100
+          },
+          "checkpointQA": 405
+        }
+      ],
+      "comparisons": [
+        {
+          "control": "FULL_REPLAY",
+          "HVEffectsPct": {
+            "1.25": 0.30948754433328673,
+            "1.5": 0.16702933998924419,
+            "2.0": 0.06799739938230243
+          },
+          "IGDplusSymmetricWorseningPct": 5.506245970948985
+        },
+        {
+          "control": "NSGA_NAT",
+          "HVEffectsPct": {
+            "1.25": -7.272913546312387,
+            "1.5": -5.041950589436272,
+            "2.0": -3.1814534564263863
+          },
+          "IGDplusSymmetricWorseningPct": 158.8567215563495
+        },
+        {
+          "control": "NSGA_REPLAY",
+          "HVEffectsPct": {
+            "1.25": -6.095009982374799,
+            "1.5": -4.069313732096691,
+            "2.0": -2.4906419185418915
+          },
+          "IGDplusSymmetricWorseningPct": 137.0080890582194
+        },
+        {
+          "control": "LI_NAT",
+          "HVEffectsPct": {
+            "1.25": 0.7869836813221065,
+            "1.5": 0.7710617464624425,
+            "2.0": 0.609129982533152
+          },
+          "IGDplusSymmetricWorseningPct": -35.01509718753108
+        },
+        {
+          "control": "SYNC_NAT",
+          "HVEffectsPct": {
+            "1.25": -2.425542571927264,
+            "1.5": -1.7342070414886446,
+            "2.0": -1.1217055494295858
+          },
+          "IGDplusSymmetricWorseningPct": 34.64241578410199
+        },
+        {
+          "control": "UNIFORM_NAT",
+          "HVEffectsPct": {
+            "1.25": 1.3680936965726476,
+            "1.5": 1.162902230484164,
+            "2.0": 0.8382710296426898
+          },
+          "IGDplusSymmetricWorseningPct": 41.314236757799954
+        },
+        {
+          "control": "SHARE_BASE_NAT",
+          "HVEffectsPct": {
+            "1.25": 1.841026274892954,
+            "1.5": 1.2849011903619534,
+            "2.0": 0.8310879407513516
+          },
+          "IGDplusSymmetricWorseningPct": -52.267019604236495
+        }
+      ],
+      "competitiveVsMatchedNsga": false,
+      "beatsLiAndSharingBase": false,
+      "naturalVsFixedGainGate": false,
+      "fourDutyGate": true,
+      "sharingNoninferiorGate": false,
+      "referenceSensitivityGate": false,
+      "auxiliaryGate": false,
+      "efficacyGate": false
+    },
+    {
+      "budget": "TIME",
+      "observations": [
+        {
+          "method": "FULL_NAT",
+          "HV": {
+            "1.25": 0.15070934311095224,
+            "1.5": 0.5049451297577716,
+            "2.0": 2.240292451242186
+          },
+          "IGDplus": 0.012796991615227384,
+          "rawObjectiveMin": [
+            360.27970894031364,
+            38928.8173127518,
+            46632.25765289144
+          ],
+          "frontSize": 248,
+          "successfulFE": 199222,
+          "attemptedFE": 199222,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 4.0001485,
+          "checkpointFE": 199222,
+          "checkpointElapsedSeconds": 3.9999988,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 112,
+            "intra": 194010
+          },
+          "localVisitsOpened": 48,
+          "localSlots": 1466,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 50,
+            "qgs.g2.updates": 50,
+            "qgs.g3.updates": 50,
+            "qgs.g4.updates": 50
+          },
+          "checkpointQA": 438
+        },
+        {
+          "method": "FULL_REPLAY",
+          "HV": {
+            "1.25": 0.15209658288195965,
+            "1.5": 0.5079104887169363,
+            "2.0": 2.248054790541122
+          },
+          "IGDplus": 0.012026866263131182,
+          "rawObjectiveMin": [
+            358.95435591225623,
+            38821.01268574986,
+            46580.44167745521
+          ],
+          "frontSize": 174,
+          "successfulFE": 204230,
+          "attemptedFE": 204231,
+          "timeInterruptedAttempts": 1,
+          "searchSeconds": 4.0001826,
+          "checkpointFE": 204230,
+          "checkpointElapsedSeconds": 3.9999953,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 252,
+            "intra": 198878
+          },
+          "localVisitsOpened": 47,
+          "localSlots": 1437,
+          "forcedRestarts": 1001,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 50,
+            "qgs.g2.updates": 50,
+            "qgs.g3.updates": 50,
+            "qgs.g4.updates": 50
+          },
+          "checkpointQA": 417
+        },
+        {
+          "method": "NSGA_NAT",
+          "HV": {
+            "1.25": 0.15709149365735142,
+            "1.5": 0.5203627247539645,
+            "2.0": 2.2849152986782935
+          },
+          "IGDplus": 0.000899056762253801,
+          "rawObjectiveMin": [
+            339.2762395510796,
+            38425.16810149899,
+            46643.57699372509
+          ],
+          "frontSize": 184,
+          "successfulFE": 207901,
+          "attemptedFE": 207901,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 4.000127,
+          "checkpointFE": 207901,
+          "checkpointElapsedSeconds": 3.9999997,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 115,
+            "intra": 202686
+          },
+          "localVisitsOpened": 48,
+          "localSlots": 1483,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": 50,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {},
+          "checkpointQA": 317
+        },
+        {
+          "method": "NSGA_REPLAY",
+          "HV": {
+            "1.25": 0.15674972662286016,
+            "1.5": 0.5192774432011665,
+            "2.0": 2.281115742877555
+          },
+          "IGDplus": 0.0025941352002256516,
+          "rawObjectiveMin": [
+            344.1769344541307,
+            38340.75572324925,
+            46654.53763434746
+          ],
+          "frontSize": 183,
+          "successfulFE": 197070,
+          "attemptedFE": 197071,
+          "timeInterruptedAttempts": 1,
+          "searchSeconds": 4.0001933,
+          "checkpointFE": 197070,
+          "checkpointElapsedSeconds": 3.999998,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 248,
+            "intra": 191722
+          },
+          "localVisitsOpened": 45,
+          "localSlots": 1383,
+          "forcedRestarts": 917,
+          "rawGenerationCounter": 50,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {},
+          "checkpointQA": 328
+        },
+        {
+          "method": "LI_NAT",
+          "HV": {
+            "1.25": 0.1466299859644184,
+            "1.5": 0.495603456005825,
+            "2.0": 2.214281060205432
+          },
+          "IGDplus": 0.0218606393169,
+          "rawObjectiveMin": [
+            370.6720086845897,
+            39038.5051471109,
+            46852.26220733731
+          ],
+          "frontSize": 72,
+          "successfulFE": 227415,
+          "attemptedFE": 227415,
+          "timeInterruptedAttempts": 0,
+          "searchSeconds": 4.0001052,
+          "checkpointFE": 227415,
+          "checkpointElapsedSeconds": 3.9999982,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 362,
+            "intra": 221953
+          },
+          "localVisitsOpened": 57,
+          "localSlots": 1742,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 50,
+            "qgs.g2.updates": 50,
+            "qgs.g3.updates": 50,
+            "qgs.g4.updates": 50
+          },
+          "checkpointQA": 184
+        },
+        {
+          "method": "SYNC_NAT",
+          "HV": {
+            "1.25": 0.15184018275386513,
+            "1.5": 0.5078639939667403,
+            "2.0": 2.2493645003339306
+          },
+          "IGDplus": 0.008498000306738219,
+          "rawObjectiveMin": [
+            352.44544873706354,
+            38978.48769730556,
+            46615.50455346198
+          ],
+          "frontSize": 180,
+          "successfulFE": 208630,
+          "attemptedFE": 208631,
+          "timeInterruptedAttempts": 1,
+          "searchSeconds": 4.0001475,
+          "checkpointFE": 208630,
+          "checkpointElapsedSeconds": 3.9999926,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 134,
+            "intra": 203396
+          },
+          "localVisitsOpened": 49,
+          "localSlots": 1506,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 50,
+            "qgs.g2.updates": 50,
+            "qgs.g3.updates": 50,
+            "qgs.g4.updates": 50
+          },
+          "checkpointQA": 373
+        },
+        {
+          "method": "UNIFORM_NAT",
+          "HV": {
+            "1.25": 0.147317970949416,
+            "1.5": 0.4971836207498195,
+            "2.0": 2.2186703106245598
+          },
+          "IGDplus": 0.01214138250636864,
+          "rawObjectiveMin": [
+            366.9202477881121,
+            39141.03822004302,
+            46794.53121441896
+          ],
+          "frontSize": 116,
+          "successfulFE": 197112,
+          "attemptedFE": 197113,
+          "timeInterruptedAttempts": 1,
+          "searchSeconds": 4.0001734,
+          "checkpointFE": 197112,
+          "checkpointElapsedSeconds": 3.9999971,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 127,
+            "intra": 191885
+          },
+          "localVisitsOpened": 43,
+          "localSlots": 1319,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 50,
+            "qgs.g2.updates": 50,
+            "qgs.g3.updates": 50,
+            "qgs.g4.updates": 50
+          },
+          "checkpointQA": 376
+        },
+        {
+          "method": "SHARE_BASE_NAT",
+          "HV": {
+            "1.25": 0.14350987408180327,
+            "1.5": 0.48922808575991716,
+            "2.0": 2.1986224041847984
+          },
+          "IGDplus": 0.024156829758112727,
+          "rawObjectiveMin": [
+            366.13600601971734,
+            39490.62067145055,
+            47004.052173789205
+          ],
+          "frontSize": 100,
+          "successfulFE": 218821,
+          "attemptedFE": 218822,
+          "timeInterruptedAttempts": 1,
+          "searchSeconds": 4.0002506,
+          "checkpointFE": 218821,
+          "checkpointElapsedSeconds": 3.9999794,
+          "stageFE": {
+            "initialization": 100,
+            "global": 5000,
+            "inter": 343,
+            "intra": 213378
+          },
+          "localVisitsOpened": 55,
+          "localSlots": 1687,
+          "forcedRestarts": 0,
+          "rawGenerationCounter": null,
+          "completedDeepLocalBlocks": null,
+          "QgsUpdatesByPhysicalGroup": {
+            "qgs.g1.updates": 50,
+            "qgs.g2.updates": 50,
+            "qgs.g3.updates": 50,
+            "qgs.g4.updates": 50
+          },
+          "checkpointQA": 255
+        }
+      ],
+      "comparisons": [
+        {
+          "control": "FULL_REPLAY",
+          "HVEffectsPct": {
+            "1.25": -0.9120781971045488,
+            "1.5": -0.5838349522286235,
+            "2.0": -0.34529137508555463
+          },
+          "IGDplusSymmetricWorseningPct": 6.204719313734038
+        },
+        {
+          "control": "NSGA_NAT",
+          "HVEffectsPct": {
+            "1.25": -4.062696456575776,
+            "1.5": -2.9628553819804337,
+            "2.0": -1.9529322361279466
+          },
+          "IGDplusSymmetricWorseningPct": 173.74259384971174
+        },
+        {
+          "control": "NSGA_REPLAY",
+          "HVEffectsPct": {
+            "1.25": -3.8535209228409584,
+            "1.5": -2.760049301398715,
+            "2.0": -1.7896194773471485
+          },
+          "IGDplusSymmetricWorseningPct": 132.58101940603643
+        },
+        {
+          "control": "LI_NAT",
+          "HVEffectsPct": {
+            "1.25": 2.7820756577878747,
+            "1.5": 1.884908920376227,
+            "2.0": 1.1747104513616158
+          },
+          "IGDplusSymmetricWorseningPct": -52.303908016232455
+        },
+        {
+          "control": "SYNC_NAT",
+          "HVEffectsPct": {
+            "1.25": -0.744756508062161,
+            "1.5": -0.5747334411661087,
+            "2.0": -0.40331609618617925
+          },
+          "IGDplusSymmetricWorseningPct": 40.37560872755996
+        },
+        {
+          "control": "UNIFORM_NAT",
+          "HVEffectsPct": {
+            "1.25": 2.3020763452550552,
+            "1.5": 1.5610950731334894,
+            "2.0": 0.9745540161638422
+          },
+          "IGDplusSymmetricWorseningPct": 5.25783361547216
+        },
+        {
+          "control": "SHARE_BASE_NAT",
+          "HVEffectsPct": {
+            "1.25": 5.016706394045856,
+            "1.5": 3.212620954383927,
+            "2.0": 1.8952798342304789
+          },
+          "IGDplusSymmetricWorseningPct": -61.48126348351493
+        }
+      ],
+      "competitiveVsMatchedNsga": false,
+      "beatsLiAndSharingBase": true,
+      "naturalVsFixedGainGate": false,
+      "fourDutyGate": true,
+      "sharingNoninferiorGate": false,
+      "referenceSensitivityGate": false,
+      "auxiliaryGate": false,
+      "efficacyGate": false
+    }
+  ],
+  "sourceSeed": 12390003,
+  "efficacyGate": false,
+  "fourDutyGate": true,
+  "sharingNoninferiorGate": false,
+  "limits": "Single newseed, two existingdevelopment instances. Natural regimes share LS rules, not realized local quotas. TrueTIME fronts and separate500kFE runs; no postdeadline fronts, published-author replication or novelty claim."
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "sourceActualFE": 250000,
+  "counterfactualActualFE": 4608,
+  "totalActualFE": 254608,
+  "failed": 0,
+  "sourceCheckpointQA": 2129,
+  "importedSourceQA": 600,
+  "totalExtraQA": 2729,
+  "sameTimeClaim": false,
+  "candidateAndImportQAFullDecoder": true,
+  "sourceUsesFrozenExactIncrementalDecoder": true,
+  "sourceDecoder": {
+    "dynamic.evaluations": 250000,
+    "dynamic.reusedOperations": 20469693,
+    "dynamic.recomputedOperations": 29530307,
+    "dynamic.decodeNanos": 9923741617,
+    "dynamic.preparedChildren": 0
+  },
+  "supersedes": "accounting.json metadata field allFullDecoder only",
+  "clarification": "Original accounting allFullDecoder described candidate/import QA too broadly; source PA uses frozen incremental decoding. FE/QA counts unchanged."
+}

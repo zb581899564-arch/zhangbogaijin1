@@ -1,0 +1,13 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\shared-survival-observation-20261105-004523-286623",
+  "arms": [
+    "SHARE_FULL_ON"
+  ],
+  "searchFE": 0,
+  "decoderCalls": 0,
+  "question": "Does the CENTER group-mean Q reward disagree in sign with accepted-group hypervolume change under the actual FULL_ROLE policy?",
+  "reference": "1.1 times per-objective max of the100 paid initial points, lower zero, box-normalized. Multiplier1.5 only a fixed sensitivity check; no search parameter chosen from outcomes.",
+  "definitions": "Meaningful group-HV change >=1e-6 percent of reference box. Reward epsilon1e-12 handles floating sums. Conflict includes positiveHV/nonpositive reward or negativeHV/nonnegative reward.",
+  "gate": "Both instances need >=20% conflict among meaningful CENTER updates at BOTH fixed references, >=20 meaningful batches per instance. Only then consider a separately frozen reward-alignment hypothesis; otherwise no reward rewrite.",
+  "limits": "Observed objective/reward alignment only, not evidence a different reward would improve learning, survive high exploration, produce final benefits or be novel. Scalar roles intentionally keep single-objective duties."
+}

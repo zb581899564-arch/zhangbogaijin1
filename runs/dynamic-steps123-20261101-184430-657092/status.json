@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "correctness/integration, not performance evidence",
+  "checks": [
+    "runtime-regression",
+    "static-search-ch3",
+    "static-search-ch4",
+    "dynamic-core",
+    "joint-contract",
+    "cross-language",
+    "baseline-inc",
+    "baseline-repeat",
+    "baseline-full",
+    "same-seed-and-full-incremental-archives",
+    "boundary-0",
+    "boundary-1",
+    "boundary-7",
+    "boundary-8",
+    "boundary-9",
+    "boundary-17",
+    "deadline-zero",
+    "deadline-mid",
+    "joint-random",
+    "joint-greedy",
+    "joint-tail",
+    "joint-value",
+    "default-complete",
+    "default-value"
+  ],
+  "referenceCases": 108
+}

@@ -1,0 +1,90 @@
+{
+  "contract": {
+    "version": "PA_CENTER_REGIONAL_AUDIT-v1",
+    "registered": "2026-11-06T10:52:40.083481",
+    "status": "READY_NOT_EXECUTED",
+    "sourceEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101649-310055",
+    "engineeringAuditSHA256": "c39300bc391f5fc3a2ad0717951741d2a61a0a10d4c9d0fb6aced35059f5f348",
+    "cases": [
+      {
+        "instance": "20_8_5_1",
+        "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101442-021494\\20_8_5_1\\NATIVE",
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "sourceHashes": {
+          "events.jsonl": "78ef377cb376d0a335ef3e4994cf69a60d82e7fb7b4920af9edbce6caa024c5d",
+          "receipt.jsonl": "9e7929dd7a965f2ddfb107b1ab02ec3752a4c3ca9be438abd5988fe870d42b78",
+          "role-events.jsonl": "1e57165d252c287600a0b96732700b5a2b79891535753f893197e86ab79766c4",
+          "role-independent-replay.json": "102a0dc891512f53e397b9d434815cf164dfd1a03d40f6f7e14be7cd8cf7d0bf",
+          "catalog.jsonl": "d0cd74fe40993f1ef89f49314b3dce51b5efd603a64fd3bc6e5f0c0d8b063f3e",
+          "command.json": "15609248459894aff3957e2ac6a1fa795af9d49379fec8db27ee102ba56481ea"
+        }
+      },
+      {
+        "instance": "100_2_3_1",
+        "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101649-310055\\100_2_3_1\\NATIVE",
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "sourceHashes": {
+          "events.jsonl": "810a38f90225d38cd8a3ba280265ac1288ca6fdbebbba4aa29cf2e353f4de16e",
+          "receipt.jsonl": "50bae4f6c47ff864ca816cbee71614689d0bc78f90556b3062a3596d84b916a6",
+          "role-events.jsonl": "0a45a0ed5159539e7c6678533c95cfd7d49307ced0e859698696904dba3ff3f3",
+          "role-independent-replay.json": "f49568c58e46c0badab63b8f678b27b7bf559e046d58a46bd650c54ae24cc2ab",
+          "catalog.jsonl": "7ea20691332be608b4935de9ac930815e160dbf49f9d8713f6647f1f720c9bd3",
+          "command.json": "1596f58c9a34bb45837fd3e239614f9cd90ca2ca159347ca41a9f35790d5a308"
+        }
+      }
+    ],
+    "primary": "MATCHED",
+    "sensitivity": "LEX",
+    "directions": "Exactly55 positive directions(a+1,b+1,c+1),a+b+c=9; common sum12 ignored in strict comparisons. Grid count is original CENTER quota55, not tuned. This diagnostic grid is our explicit convention, not a claim of original MOEA/D parameters.",
+    "assignments": "After original100 initialization points, update observed ideal from those paid points. MATCHED assigns55 directions to native CENTER slots15..69 by scipy linear_sum_assignment on current normalized Tchebycheff score, stable original rows/lex weights. LEX assigns lexicographically directly. Both fixed per slot across both generations; no score-based reassignment or future points.",
+    "score": "max_k integerWeight[k]*((objective[k]-ideal[k])/frozenScale[k]); ideal is componentwise minimum of ALL actually paid points so far, including current candidate before scoring both parent/child. Raw source double values, exact strict comparisons, no epsilon or IGD/HV/reference-front feedback.",
+    "hypothesis": "The unconstrained CENTER archive-admission walk can lose coherent local tradeoff progress; ask whether a fixed receiver subproblem would classify materially different actual moves. This is distinct from dynamic role/visit reordering, PDDR ties, shadow-owner root replacement, model trees and variable splitting.",
+    "thresholds": {
+      "acceptedWorseFraction": 0.2,
+      "rejectedBetterFraction": 0.05,
+      "differentOpportunityPrograms": 10
+    },
+    "gate": "Both instances and BOTH fixed assignments must pass: >=20%of actually accepted changed-objective CENTER moves worsen their registered scalar subproblem; >=5%of rejected changed-objective moves improve it; latter opportunities span>=10 distinct(generation,slot) and both generations. These are necessary diagnostic opportunity rules, not independent sample counts/performance gates.",
+    "scope": "Existing NATIVE engineering fixtures with100 known supplied post-QGS initial vectors,seed13630003,two complete generations,7900/39900 paidFE. Not new optimization seeds or the latest FULL science trajectory. Do not claim unique cause of FULL failure. No new candidate, parameter sweep or counterfactual state update.",
+    "limits": {
+      "newSearchFE": 0,
+      "newObjectiveQueries": 0,
+      "newDecoderCalls": 0,
+      "maximumExistingPaidRows": 47800
+    },
+    "failure": "Retain failures; no threshold/grid/assignment/scale changes or source replacement to chase a pass. A pass permits only separate engineering of an ordinary fixed-region foundation, not quality or novelty. A fail stops this fixed hypothesis.",
+    "limitations": "A better scalar score need not yield a new archive point; old rejected improvements are already archive dominated. Such opportunities are NOT recoverable lost HV, and changed future candidates cannot be inferred from static logs. Future closed-loop comparisons must include native PA, same accepted budget, strong classics/current shared/Li and joint HV/IGD+/bidirectional C.",
+    "literature": [
+      {
+        "url": "https://multiobjective-ml.org/talks/chapter2/",
+        "author": "Qingfu Zhang",
+        "year": 2023,
+        "used": "Author tutorial:Tchebycheff decomposition, persistent subproblem agents, different parent-relative replacement, not scheduling performance proof"
+      },
+      {
+        "url": "https://ir.cwi.nl/pub/22735/22735A.pdf",
+        "doi": "10.1145/2576768.2598261",
+        "year": 2014,
+        "used": "Original MO-GOMEA distinguishes objective regions and extreme SO roles; current PA is a different explicit adaptation"
+      }
+    ],
+    "externalActivity": "Read public primary-source pages only; no local research material uploaded, no source PDF saved locally, no network configuration change.",
+    "previousStopsUnchanged": true,
+    "defaultMainlineChanged": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "9f57aa37a99cd8277b0cd859ec27c3f96d198b55a1ce69e1bf75c26d79974748",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

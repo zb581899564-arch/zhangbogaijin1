@@ -1,0 +1,19 @@
+{
+  "evidence": [
+    {
+      "source": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-trajectory-gap-20261107-01/build-01/source/GomLocalProgram.java",
+      "sha256": "b7ce03cdebf999d002b32cb29f84608869b94b87e64cf0f34ec3cf01463cf61a",
+      "anchor": "if (keep) w.values.set(slot, state);",
+      "line": 40
+    },
+    {
+      "source": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-trajectory-gap-20261107-01/build-01/source/PaPopulation.java",
+      "sha256": "f665d6368e10ab22b92e5697229da5a86d27a5939c6180539e9fc71123e22b27",
+      "anchor": "if (accepted) population.set(i, child);",
+      "line": 59
+    }
+  ],
+  "conclusion": "Both commit an accepted local child immediately; no support for a blanket delayed-update explanation.",
+  "limitation": "Outer lifecycle, population/family domains and model relearning remain different; not causally isolated here.",
+  "probe": "All three arms freeze parents and models, so continuation and adaptation cannot cause their difference."
+}

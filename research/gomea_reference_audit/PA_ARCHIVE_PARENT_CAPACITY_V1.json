@@ -1,0 +1,128 @@
+{
+  "version": "PA_ARCHIVE_PARENT_CAPACITY-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "sourceEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874",
+  "sourceEngineeringAuditSHA256": "b3f7c7bc96f43cfee710a3d00fd50244ca816c53b842abb9aff6bf24435d52fa",
+  "precedingScience": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-pilot-20261106-112639-978946",
+  "precedingScienceAuditSHA256": "58986694d88b65bb592777892561f1fd95d68e89a7e36c62ce4c0f005d721c34",
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "mode": "OFF",
+      "primary": true,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874\\20_8_5_1\\OFF",
+      "sourceHashes": {
+        "events.jsonl": "be15e347150d67236ce5c7319bdbbb37bf3f6d3fbaf3587ab7828384e82fd9da",
+        "receipt.jsonl": "ed8ef11e1a023a6654aebe8eba4bc98fd9577c7b75a7e60ca1cdf0962a61f102",
+        "catalog.jsonl": "d0cd74fe40993f1ef89f49314b3dce51b5efd603a64fd3bc6e5f0c0d8b063f3e",
+        "regional-events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "regional-policy.json": "4a1ed30f166af2b7aad7c61d9e5eacfbc5fe75268a8f14f7423aea1b29d74852",
+        "regional-independent-replay.json": "46f3eb72bfe07bd00a1e13373d28dd4e1725ef07fdf813ace090c4b88c1f9aad"
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "REGIONAL",
+      "primary": true,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874\\20_8_5_1\\REGIONAL",
+      "sourceHashes": {
+        "events.jsonl": "f5b3c1d6f3050305caa94c48e1a5988142a836375c919d3fa354929a41dcb90a",
+        "receipt.jsonl": "4b42ed1aad199eb7aaa8e45e4a0896cc0e176a1b4848479ef52681527979a3a4",
+        "catalog.jsonl": "d0cd74fe40993f1ef89f49314b3dce51b5efd603a64fd3bc6e5f0c0d8b063f3e",
+        "regional-events.jsonl": "10016238b6f53734b310daed03d0c5c151b80574f080792e38b20ff1f07744d7",
+        "regional-policy.json": "eb72057215602e1b4a205f8b14b63af005f6c540666c6afacf551f6b4a9fc174",
+        "regional-independent-replay.json": "9c8448a1721ada2a860759140d2553d4a37408ef2f86271283817aa2e6cb5720"
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "NO_SPECIALIST",
+      "primary": false,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874\\20_8_5_1\\NO_SPECIALIST",
+      "sourceHashes": {
+        "events.jsonl": "635340b6578a8950f6856c6d120b7b5a83cd6c4d7d10f0948e24d69bbd65111f",
+        "receipt.jsonl": "8b5b885b9b08d984f1ab2344cf8881256b6841d43041ab2d1c75269004b2f383",
+        "catalog.jsonl": "d0cd74fe40993f1ef89f49314b3dce51b5efd603a64fd3bc6e5f0c0d8b063f3e",
+        "regional-events.jsonl": "a3272470663332d22a6678cedd2396f0d896b848d729f15f14aa2bcc22c28de8",
+        "regional-policy.json": "5e81e7e16da28b1de437cec6b94a794e28af3e3331e42159eee32977d7104a6b",
+        "regional-independent-replay.json": "f533217f00e70b7979564aaede13e2ed0ecc8704d881d003b24805f1459f85f9"
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "OFF",
+      "primary": true,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874\\100_2_3_1\\OFF",
+      "sourceHashes": {
+        "events.jsonl": "f0f7cb1e4142b528e25b5a4cc67df49fd6846a73cd07f6ae0bb3b3e936abab5a",
+        "receipt.jsonl": "9a6a87135981ff4a64e95915cdbf1e4d09debb49e458f9cbf25c758a96a38160",
+        "catalog.jsonl": "7ea20691332be608b4935de9ac930815e160dbf49f9d8713f6647f1f720c9bd3",
+        "regional-events.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "regional-policy.json": "4a1ed30f166af2b7aad7c61d9e5eacfbc5fe75268a8f14f7423aea1b29d74852",
+        "regional-independent-replay.json": "0c271b662e5e8521264dc2da7e291acad06e69a2e929cdaed4f64f7b94dc04dd"
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "REGIONAL",
+      "primary": true,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874\\100_2_3_1\\REGIONAL",
+      "sourceHashes": {
+        "events.jsonl": "8ba4794bac85392d906fa8fdaadccac344afbb7053ac6068a71ab69037f3dd6b",
+        "receipt.jsonl": "dab31ad4cc27607191e169f64651b2191e47108be840d1d442b02d62bd334499",
+        "catalog.jsonl": "7ea20691332be608b4935de9ac930815e160dbf49f9d8713f6647f1f720c9bd3",
+        "regional-events.jsonl": "fb41359356a2d565fca2dcee96e30ada4fcce8cd49c58f6e7b635529ecc3d1ca",
+        "regional-policy.json": "9c1cdf77e9e4e50135826640e7b5e1f1dc9ccff00128a4d964d10b8b2508ce52",
+        "regional-independent-replay.json": "d1287738b923ab3257f4ff8fff8bc2a4d1945b12cccdb0c5ac337a237b9641e1"
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "NO_SPECIALIST",
+      "primary": false,
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-center-regional-engineering-20261106-110854-264874\\100_2_3_1\\NO_SPECIALIST",
+      "sourceHashes": {
+        "events.jsonl": "38ddd5ca5d664935b39023293c524f45e6f369099981c72eb3299e5b94b7f79d",
+        "receipt.jsonl": "bc68624cc7292b8147498de65aa1536c03eda4454e91749fd2ca4b23adcb9bb5",
+        "catalog.jsonl": "7ea20691332be608b4935de9ac930815e160dbf49f9d8713f6647f1f720c9bd3",
+        "regional-events.jsonl": "2cf690e9369c994a9aa5e90d249c0ba6162dcaac90440406160de9014fc3da1c",
+        "regional-policy.json": "b8318dedafe13d9a8384960f4758f4b57a7ec69cc50dbe9f7a9d6518003948d5",
+        "regional-independent-replay.json": "fc620f2d1aa1025cd23407d4c8f25e85414b9799faddc993e6bdccb6cd03a29b"
+      }
+    }
+  ],
+  "question": "Do already-paid complete archival states offer componentwise stronger CENTER starting parents than any current live state, and do strict specialist-produced archival states add independently to this capacity? Diagnose retention/feedback, not another acceptance rule.",
+  "population": "Existing ordinary free100 engineering fixtures only, native15/55/15/15 labels, supplied post-QGS100initials,seed13630003,two complete generations. OFF and REGIONAL both instances are locked primary contexts; NO_SPECIALIST descriptive only, never select a passing mode to rescue.",
+  "snapshots": "All110 actually entered CENTER programs per complete master, immediately before its first paid child, exact prior paidFE; both model inputs also captured, with primary matching at second model(before generation2mix). No future,final-front filtering,cap or gain-based window selection.",
+  "archive": "Reconstruct exact native all-paid ND archive and retain first recorded full physical carrier per exact objective vector. Update all actual paid states including rejected candidates, never update source decisions. Reencoded views are physically equivalent and unpaid; archive/raw-genome SHA and every original acceptance reconstructed.",
+  "provenance": "INITIAL for paidFE<=100 regardless initial role tag; later paidFE label identifies actual producing role. M/E/W count as strict specialist-produced only in OFF/REGIONAL; NO_SPECIALIST tags never establish specialist production. Canonical physical identity is per-factory ordered(job,machine,worker) chains, ignoring only neutral global interleaving/key views.",
+  "opportunity": "At each CENTER program entry, test exact strict Pareto dominance(all objectives<= and one<). Archive-only opportunity requires at least one archival strict dominator while NONE of current100 live states strictly dominates that parent. Also separately report all archive/live domination and extra physical carriers; do not call already-live states extra supply.",
+  "matching": "At generation2model, maximum injective matching from55current CENTER parents to distinct archival physical states satisfying archive-only condition. Compute once using deterministic augmenting paths; independently verify maximum cardinality with a separate solver. Repeat without strict specialist-produced archive carriers; capacity difference is descriptive extra source supply, not downstream value.",
+  "generalThresholds": {
+    "archiveOnlyProgramFraction": 0.2,
+    "distinctPhysicalWitnesses": 10,
+    "generation2InjectiveMatches": 10,
+    "opportunityGenerations": [
+      1,
+      2
+    ]
+  },
+  "specialistThresholds": {
+    "generation2ExtraMatchesBeyondNonSpecialists": 5
+  },
+  "gate": "General gate must pass in ALL4primary(mode,instance) contexts:20%programs archive-only,>=10 distinct physical archive witnesses,>=10 matched parents at generation2 and opportunities in both actual generations. Specialist supply separately requires>=5 extra injective matches after including strict-specialist carriers in ALL4primary contexts. No thresholds changed after observations.",
+  "limits": {
+    "newSearchFE": 0,
+    "newObjectiveQueries": 0,
+    "newDecoderCalls": 0,
+    "existingPaidRowsToReplay": 143400,
+    "centerPrograms": 660
+  },
+  "verification": "Every original paid rawgenome digest,live donor/FOS/accept/archive/ideal replay remains equal existing receipts. Catalog exact paidFE/objectives/physical identity, snapshots only previously paid states. Independent dominance counts/matching/witness/provenance and aggregate gate; no oracle output enters any search/result archive.",
+  "failure": "Retain failed audit; zero new search by construction. If general capacity fails, stop this fixed archive-parent hypothesis without changing snapshots,thresholds,definitions,cap or sources. No FI/restart implementation from a failed gate. If only general passes, ordinary archive-lifecycle opportunity only, no special four-group supply claim.",
+  "progression": "A capacity pass permits a separate complete-feedback engineering/closed-loop protocol with ordinary archive controls and actual source production costs. It is NOT recoverable lost HV, a new result archive, continued-search benefit, performance/newness proof or original QGS/family/shared integration. All earlier fixed stops including recent-shadow-root and REGIONAL remain.",
+  "resource": "Local streaming analysis,one controller,no search JVM,protected defaults/WIP; count known-candidate reconstruction/CPU work separately from FE. No external transfer or remote action.",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

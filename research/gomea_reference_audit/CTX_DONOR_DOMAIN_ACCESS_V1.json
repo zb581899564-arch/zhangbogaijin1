@@ -1,0 +1,22 @@
+{
+  "version": "CTX_DONOR_DOMAIN_ACCESS-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "diagnosticOnly": true,
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+  "sourceAuditSHA256": "af268026b87737841aa729f9228ce1d5595aa3c657437ed5e1be394c2f6a5c22",
+  "pipeline": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-pipeline-probe-20261106-060047-432151",
+  "pipelineAuditSHA256": "9804e6d9faa616cf96f72fe8d5bb293c329e15d8309f2f0ff9b7f0c63b675e82",
+  "cases": "All2instancesx2seeds14910003/14910037 matchingSHARE_CTX_GOM andPA_JOINT500k. Same100physical/rawinitialvectors. InitialfamilymappingfromfrozenactualFamilyContexts.initialize index<20,index//5; verifyfixedfiveFAequal. Do notinferfamilyfromevolvedslotorder. Actual100examplepipelineusesexplicitfamilylabels.",
+  "hypothesis": "Source PA canonlycopyinitialperjobFMWtuples. Some strongPAfinals mayneedtuples introducedonlyby20initialfixedfamilymembers. ContextGOM free80cannotcopyfromfamiliesinsideapass. Checkwhetherthisisa materialshared-kernel adaptationgap candidate; notproof actualSHARE unreachablebecauseQGScaninventnewtuples.",
+  "primary": "Forall4contexts: at least20% ofPA500kNDpoints requireinitialfixed-onlyperjobtuples; deletingthese targetpoints fromS_final unionPA_final losesatleast0.1% ofPA_finalHV(ref1.5), withpositive1.25/2 directions. AllPAfinaltuples mustbelongall100initialperjobdomain, elseengineeringerror. Model/FOS/acceptanceeffectnotisolated.",
+  "initialLimit": "InitialdomainisactualinvariantforordinaryPA,notSHAREwholealgorithm. Sameperjobtuplesonlyanoptimisticnecessarycoveragecondition; doesnotestablishcompatibility,orderfeasibilityorjointreachability. Finaltargetdata areofflineknown500k outcomes,neveradmittedintoonlinesearch.",
+  "actualPipeline": "UseallexplicitPOST_GLOBALcohortsfromexisting100_2_3_1seed14910003 S/U observed500k,includingonlycomplete100pointentries. ForPAfinaltargets atsamecontext: targetall-perjobavailableinall100butnotfree80 classifieddomainblocked. Showallpasses,ever-observedfreeallelesandactualinitialmetadata. No invented20caseornewcapture. Thischeckcannotestimatequalityofunscoredrecombination.",
+  "actualPrecondition": "Onlyifprimaryall4pass: eachS/U100trajectory at least20%ofactualpasses has>=10%ofPAfinaltargetpointsthatall100couldsupplybutfree80cannot. Failurestopsinitialfixed-alleleaccess explanation; cannotnegateallpossiblemodel/domain/sampleeffects.",
+  "metrics": "Originalsource128initialnormalization; empiricalIGD+NDreferenceofmatchedS/PA500kfrontsbothseedsperinstance. Forpartitionunion reportHV1.25/1.5/2,IGD+,bothweakC/sharedcounts. Separatezerocoststructuralassessmentfromalgorithmwin; noHV-onlyperformanceclaim.",
+  "costs": "0newsearchFE,0newobjectivequeries,0newdynamicdecoders,0newproposalconstructions; onlyexisting paidvectors/objectives andsetoperations.",
+  "progression": "Ifbothpreconditionspass onlyseparatesame-entrycontrolleddomaincontract, notnewalgorithmorselector. Ifnotpassdo notrelaxfractions,window,casesorseedsandnoautomaticpaidexperiment. Allpriorstops/fourrole/sharedpositiveevidenceretained.",
+  "defaultMainlineChanged": false,
+  "externalTransfers": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,28 @@
+{
+  "time": 1793947175.386926,
+  "host": "inspur-NP5570M5",
+  "load": [
+    1.16,
+    1.47,
+    1.09
+  ],
+  "memory": "MemTotal:       131643232 kB\nMemFree:        119284172 kB\nMemAvailable:   123842784 kB\nBuffers:          223540 kB\nCached:          5247116 kB\nSwapCached:            0 kB\nActive:          2062740 kB\nInactive:        5768692 kB\nActive(anon):       3588 kB\nInactive(anon):  2532804 kB\nActive(file):    2059152 kB\nInactive(file):  3235888 kB\nUnevictable:           4 kB\nMlocked:               4 kB\nSwapTotal:      134217724 kB\nSwapFree:       134217724 kB\nDirty:             15320 kB\nWriteback:             0 kB\nAnonPages:       2361264 kB\nMapped:           936292 kB\nShmem:            175580 kB\nKReclaimable:     206660 kB\nSlab:             662460 kB\nSReclaimable:     206660 kB\nSUnreclaim:       455800 kB\nKernelStack:       25104 kB\nPageTables:        32680 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    200039340 kB\nCommitted_AS:   11483892 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      300416 kB\nVmallocChunk:          0 kB\nPercpu:            54912 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      707432 kB\nDirectMap2M:    10471424 kB\nDirectMap1G:    124780544 kB\n",
+  "processes": [
+    "    PID USER     %CPU %MEM COMMAND",
+    "   2757 whoopsie  8.1  0.0 whoopsie",
+    "   1187 root      2.7  0.0 polkitd",
+    "   2753 root      1.8  0.0 ToDesk_Service",
+    "   1312 root      1.1  0.4 devpi-server",
+    "   1164 message+  1.0  0.0 dbus-daemon",
+    "   3775 systemd+  0.9  0.0 mongod",
+    "   5685 inspur    0.9  0.3 gnome-shell",
+    "   2469 gdm       0.8  0.2 gnome-shell",
+    "   6067 inspur    0.7  0.1 ToDesk",
+    "   1166 root      0.6  0.0 NetworkManager",
+    "      1 root      0.5  0.0 systemd",
+    "   1623 inspur    0.5  0.0 easytier-core",
+    " 144250 inspur    0.4  0.0 python",
+    "   1317 root      0.2  0.0 tailscaled",
+    "   3581 systemd+  0.2  0.3 mysqld"
+  ]
+}

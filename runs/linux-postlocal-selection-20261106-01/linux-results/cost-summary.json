@@ -1,0 +1,38 @@
+{
+  "stages": {
+    "engineering": {
+      "runs": 20,
+      "attempted": 426248,
+      "successful": 426246,
+      "failed": 2,
+      "searchSeconds": 195.64973196499997,
+      "prepareSeconds": 2.9044149979999996,
+      "timelineQACount": 426246,
+      "timelineQASeconds": 86.58193014999999,
+      "importQACount": 400,
+      "importQASeconds": 0.13075124600000002,
+      "completeProcessSeconds": 205.55737640200823,
+      "offlineAuditSeconds": 236.79844112799765
+    },
+    "science": {
+      "runs": 18,
+      "attempted": 639360,
+      "successful": 639360,
+      "failed": 0,
+      "searchSeconds": 165.87368890199997,
+      "prepareSeconds": 2.6278408400000006,
+      "timelineQACount": 0,
+      "timelineQASeconds": 0.0,
+      "importQACount": 800,
+      "importQASeconds": 0.2524091429999999,
+      "completeProcessSeconds": 175.8337234699975,
+      "offlineAuditSeconds": 363.1418264569984
+    }
+  },
+  "sourceNewSearchFE": 0,
+  "historicalSourcePaidFE": 3000000,
+  "analysisSeconds": 57.77838180300023,
+  "plottingSeconds": 2.6808893859997625,
+  "observationSecondsSeparated": false,
+  "costQualification": "Search includes observation and engineering physics QA; do not add its subsets again. Complete process includes startup/finalization. No same-time conclusion"
+}

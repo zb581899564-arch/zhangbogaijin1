@@ -1,5 +1,7 @@
 # 代码与证据复核索引
 
+> 2026-11-07：最新入口为`src/algorithms/diagnostics/working_branch/`与`scripts/working_branch/`，有效运行见`runs/linux-working-branch-probe-20261107-01/linux-results/`，其中build-02、source-02、code-02为生效身份；完整大文件见[snapshot清单与恢复](snapshot/README.md)。原五项审核要求见[更新提示词](PRO_REVIEW_PROMPT.md)，下方保留11月3日历史索引。
+
 ## 先核查这些路径
 
 | 对象 | 实际文件与关键入口 |

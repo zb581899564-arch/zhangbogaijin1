@@ -1,0 +1,1431 @@
+{
+  "stem": "100_2_3_1",
+  "cohorts": [
+    {
+      "seed": 10950003,
+      "selectedUniqueFAs": 8,
+      "targets": [
+        {
+          "labels": [
+            "minObjective0"
+          ],
+          "target": [
+            880.9954674426722,
+            73969.26098346282,
+            81288.3277158093
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0"
+              ],
+              "solveId": 246,
+              "lower": 0.7763761462705793,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 247,
+              "lower": 0.830956364792027,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 248,
+              "lower": 0.7646640174763688,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 249,
+              "lower": 0.72805580476147,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 250,
+              "lower": 0.6827447105482386,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective2"
+              ],
+              "solveId": 251,
+              "lower": 0.6858102978388978,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 252,
+              "lower": 0.6856146703446271,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 253,
+              "lower": 0.6864307928169457,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "minObjective1"
+          ],
+          "target": [
+            1653.7787809941533,
+            53835.758833307395,
+            68384.81976843264
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0"
+              ],
+              "solveId": 254,
+              "lower": 0.8072221307030711,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 255,
+              "lower": 0.8108832692596848,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 256,
+              "lower": 0.7973065247936717,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 257,
+              "lower": 0.804985541962305,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 258,
+              "lower": 0.7959870176651982,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective2"
+              ],
+              "solveId": 259,
+              "lower": 0.7989012841481349,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 260,
+              "lower": 0.798528146041234,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 261,
+              "lower": 0.7986324642361531,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "minObjective2"
+          ],
+          "target": [
+            2001.2256947941528,
+            64608.77417051607,
+            61448.96104131016
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0"
+              ],
+              "solveId": 262,
+              "lower": 0.8983347966470804,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 263,
+              "lower": 0.902409174734172,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 264,
+              "lower": 0.8872999978234962,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 265,
+              "lower": 0.8958457599678337,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 266,
+              "lower": 0.8843820635533699,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective2"
+              ],
+              "solveId": 267,
+              "lower": 0.888278206227432,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 268,
+              "lower": 0.8873798759015753,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 269,
+              "lower": 0.8881568988476644,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile1"
+          ],
+          "target": [
+            1087.198177963765,
+            62752.53510048461,
+            68073.6698556853
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0"
+              ],
+              "solveId": 270,
+              "lower": 0.8161938109186087,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 271,
+              "lower": 0.8226051719870597,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 272,
+              "lower": 0.8046129552605661,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 273,
+              "lower": 0.8140217209492203,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 274,
+              "lower": 0.8058641925286374,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective2"
+              ],
+              "solveId": 275,
+              "lower": 0.808914363584703,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 276,
+              "lower": 0.8085955064261753,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 277,
+              "lower": 0.8085274574947539,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile2"
+          ],
+          "target": [
+            1199.9724459915494,
+            59576.63779303169,
+            68005.22314118886
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0"
+              ],
+              "solveId": 278,
+              "lower": 0.8150255793525214,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 279,
+              "lower": 0.8200387288432529,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 280,
+              "lower": 0.8028850985240652,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 281,
+              "lower": 0.8134506837536827,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 282,
+              "lower": 0.8053145074639289,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective2"
+              ],
+              "solveId": 283,
+              "lower": 0.8083359926133191,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 284,
+              "lower": 0.8080240031825493,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 285,
+              "lower": 0.8079750693864497,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile3"
+          ],
+          "target": [
+            1318.2366596100517,
+            58733.141673052654,
+            66184.67249750334
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0"
+              ],
+              "solveId": 286,
+              "lower": 0.8356695926294738,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 287,
+              "lower": 0.8407572044143016,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 288,
+              "lower": 0.8238110266431761,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 289,
+              "lower": 0.8340114293893336,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 290,
+              "lower": 0.8256433998882523,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective2"
+              ],
+              "solveId": 291,
+              "lower": 0.8286723286527184,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 292,
+              "lower": 0.8283755980743831,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 293,
+              "lower": 0.8283605367754779,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        }
+      ],
+      "allSelectedExcludedFraction": 0.0,
+      "allFixedExcludedFraction": 0.0
+    },
+    {
+      "seed": 10950033,
+      "selectedUniqueFAs": 7,
+      "targets": [
+        {
+          "labels": [
+            "minObjective0"
+          ],
+          "target": [
+            951.729168308553,
+            72233.73068424013,
+            79585.31458238862
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 294,
+              "lower": 0.6921425100745348,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1"
+              ],
+              "solveId": 295,
+              "lower": 0.6948310798952695,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 296,
+              "lower": 0.6999880303567924,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3",
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 297,
+              "lower": 0.6980653041251513,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 298,
+              "lower": 0.6973615985980129,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 299,
+              "lower": 0.6958534102820698,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 300,
+              "lower": 0.693068290849367,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "minObjective1"
+          ],
+          "target": [
+            1342.0934015503485,
+            53829.301562741595,
+            67203.98988184183
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 301,
+              "lower": 0.8091564902890584,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1"
+              ],
+              "solveId": 302,
+              "lower": 0.8108803165270806,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 303,
+              "lower": 0.8175028422166145,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3",
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 304,
+              "lower": 0.8168680678310188,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 305,
+              "lower": 0.8160222406933949,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 306,
+              "lower": 0.8134623294251799,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 307,
+              "lower": 0.80936069527338,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "minObjective2"
+          ],
+          "target": [
+            1633.9568449562291,
+            63101.2009159198,
+            61001.26988585768
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 308,
+              "lower": 0.8889564532593717,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1"
+              ],
+              "solveId": 309,
+              "lower": 0.8918099337586175,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 310,
+              "lower": 0.8977639922372102,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3",
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 311,
+              "lower": 0.8951434979403438,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 312,
+              "lower": 0.8934153600674843,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 313,
+              "lower": 0.8913697819896892,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 314,
+              "lower": 0.8912274682526687,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile1"
+          ],
+          "target": [
+            1086.3198697201826,
+            63519.02235070614,
+            69638.15984972996
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 315,
+              "lower": 0.7850065141277726,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1"
+              ],
+              "solveId": 316,
+              "lower": 0.7869745659814539,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 317,
+              "lower": 0.7921825728031827,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3",
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 318,
+              "lower": 0.7917460973274133,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 319,
+              "lower": 0.7910120541542652,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 320,
+              "lower": 0.78873810276579,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 321,
+              "lower": 0.7850376181549912,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile2"
+          ],
+          "target": [
+            1202.5988798336912,
+            59393.06140884642,
+            66292.69895059553
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 322,
+              "lower": 0.8216328791370838,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1"
+              ],
+              "solveId": 323,
+              "lower": 0.8233890011810903,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 324,
+              "lower": 0.8301138489541705,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3",
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 325,
+              "lower": 0.8295731574810945,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 326,
+              "lower": 0.8287646785665135,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 327,
+              "lower": 0.8261509588858247,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 328,
+              "lower": 0.8217568321323663,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile3"
+          ],
+          "target": [
+            1325.43319464094,
+            59601.02151253843,
+            63989.22717296889
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 329,
+              "lower": 0.849244452883714,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1"
+              ],
+              "solveId": 330,
+              "lower": 0.8510536824801456,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 331,
+              "lower": 0.8580092218393807,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3",
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 332,
+              "lower": 0.8573095837909268,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 333,
+              "lower": 0.8563957657085179,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 334,
+              "lower": 0.853715396435614,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 335,
+              "lower": 0.849611875661731,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        }
+      ],
+      "allSelectedExcludedFraction": 0.0,
+      "allFixedExcludedFraction": 0.0
+    },
+    {
+      "seed": 10950063,
+      "selectedUniqueFAs": 8,
+      "targets": [
+        {
+          "labels": [
+            "minObjective0"
+          ],
+          "target": [
+            933.1666205456668,
+            71800.70782889571,
+            79239.2300660675
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 336,
+              "lower": 0.8355887405249446,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 337,
+              "lower": 0.7180167894388944,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2"
+              ],
+              "solveId": 338,
+              "lower": 0.7471516734704018,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 339,
+              "lower": 0.7072139205669274,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 340,
+              "lower": 0.6989539325878947,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 341,
+              "lower": 0.697317969008916,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 342,
+              "lower": 0.6982700834410318,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 343,
+              "lower": 0.7015280635816245,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "minObjective1"
+          ],
+          "target": [
+            1344.8847905546734,
+            52620.645809740345,
+            68839.11614131911
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 344,
+              "lower": 0.805916914144695,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 345,
+              "lower": 0.7979264724331725,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2"
+              ],
+              "solveId": 346,
+              "lower": 0.7864976081709831,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 347,
+              "lower": 0.8013892222699204,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 348,
+              "lower": 0.7945667672509191,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 349,
+              "lower": 0.7931940211665778,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 350,
+              "lower": 0.7928040881112383,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 351,
+              "lower": 0.7933170648217662,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "minObjective2"
+          ],
+          "target": [
+            1656.3359645696298,
+            61639.3164164964,
+            60937.25231347265
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 352,
+              "lower": 0.9104218839350979,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 353,
+              "lower": 0.90139530455849,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2"
+              ],
+              "solveId": 354,
+              "lower": 0.888249914414492,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 355,
+              "lower": 0.9017021715895398,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 356,
+              "lower": 0.8923422763094705,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 357,
+              "lower": 0.8908674511171483,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 358,
+              "lower": 0.8928303782276138,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 359,
+              "lower": 0.8959095679760026,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile1"
+          ],
+          "target": [
+            1081.9779070207444,
+            65292.110907602844,
+            69737.5441997202
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 360,
+              "lower": 0.802363634002965,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 361,
+              "lower": 0.7907409768566722,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2"
+              ],
+              "solveId": 362,
+              "lower": 0.7807311056735806,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 363,
+              "lower": 0.7943273700104084,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 364,
+              "lower": 0.7875124729981051,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 365,
+              "lower": 0.7861000018441179,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 366,
+              "lower": 0.7862633908247294,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 367,
+              "lower": 0.7868611446131365,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile2"
+          ],
+          "target": [
+            1202.095258615667,
+            60004.068190900456,
+            65619.55038601493
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 368,
+              "lower": 0.8460152434560807,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 369,
+              "lower": 0.8372702503307481,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2"
+              ],
+              "solveId": 370,
+              "lower": 0.8260178374406371,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 371,
+              "lower": 0.8417470386168441,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 372,
+              "lower": 0.8345499207905414,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 373,
+              "lower": 0.8330802870067275,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 374,
+              "lower": 0.8326577770383672,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 375,
+              "lower": 0.8331302678767971,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        },
+        {
+          "labels": [
+            "CmaxQuartile3"
+          ],
+          "target": [
+            1327.7164241627972,
+            53382.708824901485,
+            68305.75583947658
+          ],
+          "tests": [
+            {
+              "anchorLabels": [
+                "fixedFamily0",
+                "MAIN/minObjective2"
+              ],
+              "solveId": 376,
+              "lower": 0.8122098551026778,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily1",
+                "MAIN/minObjective1"
+              ],
+              "solveId": 377,
+              "lower": 0.8041570206344874,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily2"
+              ],
+              "solveId": 378,
+              "lower": 0.7927094728456562,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "fixedFamily3"
+              ],
+              "solveId": 379,
+              "lower": 0.8077273670132828,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/minObjective0"
+              ],
+              "solveId": 380,
+              "lower": 0.8008487858511426,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile1"
+              ],
+              "solveId": 381,
+              "lower": 0.7994628718009861,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile2"
+              ],
+              "solveId": 382,
+              "lower": 0.7990660465230055,
+              "excludes": false
+            },
+            {
+              "anchorLabels": [
+                "MAIN/CmaxQuartile3"
+              ],
+              "solveId": 383,
+              "lower": 0.7995804595196117,
+              "excludes": false
+            }
+          ],
+          "allSelectedFAsExcluded": false,
+          "allFixedFamiliesExcluded": false
+        }
+      ],
+      "allSelectedExcludedFraction": 0.0,
+      "allFixedExcludedFraction": 0.0
+    }
+  ],
+  "knownFeasibleChecks": 36,
+  "initialFatigueAllZero": true,
+  "commonFAObstructionSupported": false,
+  "scope": "Each exclusion concerns the recorded fixed assignment and target only. Non-exclusion does not prove the target reachable; selected assignments do not exhaust all available or possible FA."
+}

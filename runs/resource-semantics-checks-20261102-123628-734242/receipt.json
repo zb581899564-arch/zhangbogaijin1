@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "evidence": "engineering/operator-contract only",
+  "search_evaluations": 0,
+  "performance_runs": 0,
+  "chapter4_only": true,
+  "segment_endpoint_policy": "independent uniform [0,N), equal allowed, sorted closed interval",
+  "random_policy": "six independent nextDouble triggers before operation argument draws; FA repair low-to-high MA then WA; FA mutation position,factory,MA,WA",
+  "resource_draws": "uniform legal local first-stage resource, original values allowed",
+  "legacy_false_path": {
+    "chapters": [
+      3,
+      4
+    ],
+    "seeds": [
+      1,
+      271828,
+      314159
+    ],
+    "updates_per_fixture": 20,
+    "fixtures_equal": 6,
+    "comparison": "full four-vector encoding and next random number"
+  },
+  "checks": [
+    "75 segment endpoint combinations",
+    "random invalid-resource replacements",
+    "six separately controlled triggers",
+    "FA mutation resource redraw including same factory",
+    "legal self draws",
+    "50 full updates preserve all teachers and final feasibility",
+    "chapter3 config rejection and defensive unchanged ParticleOperators path",
+    "direct chapter3 kernel rejection",
+    "N=1/F=1/single-resource degeneration"
+  ],
+  "scope": [
+    "src/java/search/ParticleOperators.java",
+    "src/java/search/PaperResourceOperators.java",
+    "src/java/semanticchecks/ResourceSemanticsChecks.java"
+  ],
+  "limits": [
+    "No scheduling evaluations or decoder changes",
+    "No optimization quality or performance conclusions",
+    "Chapter3 fixtures use N=6 and total workers=6 with reused chapter4 compiled base solution; unrelated allocation constraint not modified"
+  ]
+}

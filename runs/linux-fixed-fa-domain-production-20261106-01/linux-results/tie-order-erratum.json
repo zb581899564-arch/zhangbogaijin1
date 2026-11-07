@@ -1,0 +1,19 @@
+{
+  "previousRun": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-family-support-closure-20261106-01",
+  "issue": "Previous generic structural membership fixture used ascending job-id for equal keys; actual typed decoder uses descending job-id",
+  "actualCrossJobKeyTies": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "priorFiniteEnumerationAffected": false,
+  "reason": "All six actual initial source domains have no cross-job key ties; old frozen artifacts retained",
+  "currentFix": "Correct generic helper to (key,-job) and explicitly verify ties in Linux fixtures",
+  "fixtureCases": 324,
+  "explicitAllEqualReverseJobFixture": true,
+  "newFE": 0,
+  "newDecodes": 0
+}

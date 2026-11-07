@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "completedUTC": "2026-11-06T09:36:35.419689+00:00",
+  "reviewer": "Primary assistant inspected both actual Linux-rendered figures via local previews with verified identical hashes",
+  "previewSHA256": {
+    "paired-effects-100_2_3_1-preview.png": "2095ac4ea22d233e23278b53985f040a0fefbe9fc5ae0ba6efeb879aceac32df",
+    "paired-effects-20_8_5_1-preview.png": "c5bda11fc49f17c2e4bc05cd86241b84e10b529f5e072b4a64cdd32fff50cdf2"
+  },
+  "checks": [
+    "All three paired source seeds and all declared final comparisons displayed",
+    "Common scales across two instances, working and all-paid scope clear",
+    "Legends/axes/panel labels readable without clipping",
+    "SVG editable text and PDF TrueType configured;600dpi PNG and300dpi previews",
+    "No EAF, significance test or confidence intervals claimed"
+  ],
+  "sourcePreflight": "13 PASS,1 WARN,0 FAIL",
+  "acceptedWarning": "TIFF not requested for this pilot; editable SVG/PDF and600dpi PNG are supplied",
+  "sourceData": "../analysis.json"
+}

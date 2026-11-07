@@ -1,0 +1,131 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "cells": [
+        {
+          "arm": "SHARE_PAIR",
+          "pool": {
+            "globalChildren": 10000,
+            "composedChildren": 134,
+            "composedChildrenSelected": 44,
+            "composedChildrenSelectedAlongsideSibling": 0
+          },
+          "roots": 134,
+          "qualifyingSiblingRoots": 0,
+          "qualifyingRootFinalPoints": 0,
+          "qualifyingSiblingExclusiveHVAssociationPct": 0.0,
+          "allComposedAncestryExclusiveHVAssociationPct": 0.000569187949794975,
+          "counts": {
+            "paid.initialization": 100,
+            "externalAdmission.initialization": 20,
+            "paid.global": 10000,
+            "externalAdmission.global": 158,
+            "composedPaid": 134,
+            "composedExternalAdmission": 34,
+            "paid.inter": 549,
+            "externalAdmission.inter": 4,
+            "paid.intra": 489351,
+            "externalAdmission.intra": 2454
+          },
+          "directObservationSeconds": 0.1148444,
+          "supported": false
+        },
+        {
+          "arm": "SHARE_FULL",
+          "pool": {
+            "globalChildren": 10000,
+            "composedChildren": 151,
+            "composedChildrenSelected": 58,
+            "composedChildrenSelectedAlongsideSibling": 56
+          },
+          "roots": 151,
+          "qualifyingSiblingRoots": 0,
+          "qualifyingRootFinalPoints": 0,
+          "qualifyingSiblingExclusiveHVAssociationPct": 0.0,
+          "allComposedAncestryExclusiveHVAssociationPct": 0.0,
+          "counts": {
+            "paid.initialization": 100,
+            "externalAdmission.initialization": 20,
+            "paid.global": 10000,
+            "externalAdmission.global": 436,
+            "composedPaid": 151,
+            "composedExternalAdmission": 25,
+            "paid.inter": 549,
+            "externalAdmission.inter": 4,
+            "paid.intra": 489351,
+            "externalAdmission.intra": 2779
+          },
+          "directObservationSeconds": 0.1094347,
+          "supported": false
+        }
+      ],
+      "fullPathSupported": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "cells": [
+        {
+          "arm": "SHARE_PAIR",
+          "pool": {
+            "globalChildren": 10000,
+            "composedChildren": 152,
+            "composedChildrenSelected": 47,
+            "composedChildrenSelectedAlongsideSibling": 0
+          },
+          "roots": 152,
+          "qualifyingSiblingRoots": 0,
+          "qualifyingRootFinalPoints": 0,
+          "qualifyingSiblingExclusiveHVAssociationPct": 0.0,
+          "allComposedAncestryExclusiveHVAssociationPct": 0.053684577308102624,
+          "counts": {
+            "paid.initialization": 100,
+            "externalAdmission.initialization": 28,
+            "paid.global": 10000,
+            "externalAdmission.global": 182,
+            "composedPaid": 152,
+            "composedExternalAdmission": 40,
+            "paid.inter": 549,
+            "externalAdmission.inter": 7,
+            "paid.intra": 489351,
+            "externalAdmission.intra": 7034
+          },
+          "directObservationSeconds": 0.1225947,
+          "supported": false
+        },
+        {
+          "arm": "SHARE_FULL",
+          "pool": {
+            "globalChildren": 10000,
+            "composedChildren": 148,
+            "composedChildrenSelected": 64,
+            "composedChildrenSelectedAlongsideSibling": 64
+          },
+          "roots": 148,
+          "qualifyingSiblingRoots": 1,
+          "qualifyingRootFinalPoints": 46,
+          "qualifyingSiblingExclusiveHVAssociationPct": 0.0015171226094585185,
+          "allComposedAncestryExclusiveHVAssociationPct": 2.0868419750656098,
+          "counts": {
+            "paid.initialization": 100,
+            "externalAdmission.initialization": 28,
+            "paid.global": 10000,
+            "externalAdmission.global": 497,
+            "composedPaid": 148,
+            "composedExternalAdmission": 46,
+            "paid.inter": 549,
+            "externalAdmission.inter": 14,
+            "paid.intra": 489351,
+            "externalAdmission.intra": 7117
+          },
+          "directObservationSeconds": 0.1220337,
+          "supported": false
+        }
+      ],
+      "fullPathSupported": false
+    }
+  ],
+  "bothInstancesSupported": false,
+  "offlineFullDecoderQA": 3374,
+  "scope": "Exact trajectories retained. HV removal is final-region association, not a counterfactual run or independent cooperative performance gain."
+}

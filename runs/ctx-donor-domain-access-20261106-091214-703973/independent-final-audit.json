@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "recordedTargetCount": 379,
+      "preconditionPass": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "recordedTargetCount": 463,
+      "preconditionPass": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "recordedTargetCount": 1504,
+      "preconditionPass": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "recordedTargetCount": 2122,
+      "preconditionPass": true
+    }
+  ],
+  "pipelines": [
+    {
+      "arm": "SHARE_CTX_GOM",
+      "passes": 20,
+      "preconditionPass": false
+    },
+    {
+      "arm": "UNIFORM_CTX_GOM",
+      "passes": 20,
+      "preconditionPass": false
+    }
+  ],
+  "independentMembershipHVIGDplusAndCoverage": true,
+  "sameFrozenSourceClassAndInputIdentity": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "goalAchieved": false
+}

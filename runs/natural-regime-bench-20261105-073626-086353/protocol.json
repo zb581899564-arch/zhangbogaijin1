@@ -1,0 +1,258 @@
+{
+  "entrySource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-local-audit-20261105-073204-330248",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 12390003,
+  "methods": {
+    "FULL_NAT": [
+      "STRICT_FULL",
+      "record"
+    ],
+    "FULL_REPLAY": [
+      "STRICT_FULL",
+      "replay"
+    ],
+    "NSGA_NAT": [
+      "NSGA_STRICT",
+      "record"
+    ],
+    "NSGA_REPLAY": [
+      "NSGA_STRICT",
+      "replay"
+    ],
+    "LI_NAT": [
+      "LI_STRICT",
+      "record"
+    ],
+    "SYNC_NAT": [
+      "COST_SYNC",
+      "record"
+    ],
+    "UNIFORM_NAT": [
+      "COST_UNIFORM",
+      "record"
+    ],
+    "SHARE_BASE_NAT": [
+      "FORCE_STRICT",
+      "record"
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "FULL_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "FULL_REPLAY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "NSGA_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "NSGA_REPLAY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "LI_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "SYNC_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "UNIFORM_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "FE",
+      "method": "SHARE_BASE_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "NSGA_REPLAY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "LI_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "SYNC_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "UNIFORM_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "SHARE_BASE_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "FULL_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "FULL_REPLAY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "FE",
+      "method": "NSGA_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "SYNC_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "UNIFORM_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "SHARE_BASE_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "FULL_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "FULL_REPLAY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "NSGA_NAT"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "NSGA_REPLAY"
+    },
+    {
+      "stem": "20_8_5_1",
+      "budget": "TIME",
+      "method": "LI_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "FULL_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "FULL_REPLAY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "NSGA_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "NSGA_REPLAY"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "LI_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "SYNC_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "UNIFORM_NAT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "budget": "TIME",
+      "method": "SHARE_BASE_NAT"
+    }
+  ],
+  "plannedFixedSuccessfulFE": 8000000,
+  "fixedFELimit": 500000,
+  "plannedTrueTimeSeconds": 72,
+  "timeSafetyFECap": 500000,
+  "question": "Does the latest four-role search become competitive under its original state-dependent natural VNS stopping rather than an inherited fixed local-quota ledger?",
+  "changed": "NAT uses existingrecordmode: randomfactory, VNSnaturalreturn, unchangedouter rounds. No forced fill-quota restarts. REPLAY keeps20_2template visit/group/round/paid and independent factory draws as before. No CRITICAL routing or failed mechanism.",
+  "controls": "FULL_NAT/FULL_REPLAY,NSGA_NAT/NSGA_REPLAY isolate regime withinalgorithm;LI_NAT isv2reconstruction+commonnaturaldeepLS, not originalpublished algorithm. SYNC/UNIFORM/SHARE_BASE use same accepted settings except explicit ablations. All table templates forcedSTRICTM,OLDESTmemory,ANCHORcopy; identical initial100vectors/physical input perseed.",
+  "budget": "Separate exact500kFE and actualTIME_LIMIT4/5s perinstance, oneJVM atatime. Natural variants share LS rules but may spend different stage fees and complete different numbers of visits. All attempts/duplicates/cache/archive/capture charged; fullcheckpointQA separate.",
+  "metrics": "PrimaryHV1.5, sensitivity1.25/2, originalnumericnormalization. IGD+ perinstance/budget empiricalNDunionofall8arms, nosearchfeedback. Report stagefees, localvisits/slots/restarts, rawgenerationcounter definitions, extremeobjectives and capped/missingcoverage.",
+  "gate": "Bothinstances and BOTHbudgets FULL_NAT vsNSGA_NAT>=-1%HV; vsLI_NAT andSHARE_BASE_NAT>=+1%; vsFULL_REPLAY>=+1%. Ref1.25/2 nonnegative vsLi/base/oldregime and>=-2%vsNSGA. IGD+ symmetricworsening<=5%vsall4. Fourduties vsUNIFORM_NAT>=+1%bothbudgets/instances; sharing vsSYNC_NAT>=-0.5%everycase and>=+0.2%atleastone. Allforfreshseed-screen only. Failure retained; no changingT/seed/localrounds or choosingonly a winningbudget/instance.",
+  "limits": "One newseed on repeateddevelopmentinstances, not independent confirmation or an innovative newalgorithm. No causal attribution to role alone when naturalallocation differs; older ledger-conditioned evidence not overwritten.",
+  "preserved": "No default production, oldinput/source/records, Q/operator, roles/family/shared rule changes; no downloads/transfers/push."
+}

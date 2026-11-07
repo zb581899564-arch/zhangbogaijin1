@@ -1,0 +1,231 @@
+{
+  "classification": "POST_HOC_SENSITIVITY_ONLY",
+  "primaryReferenceUnchanged": [
+    1.1,
+    1.1,
+    1.1
+  ],
+  "reason": "1541 largest-instance frontier points outside frozen reference box; no new search or tuning",
+  "comparisons": [
+    {
+      "reference": 1.25,
+      "budget": "FE",
+      "comparison": "VALUE - BASELINE",
+      "meanDelta": 0.003456770691281761,
+      "meanRelativePercent": 1.8463154989333372,
+      "wins": 5,
+      "losses": 1
+    },
+    {
+      "reference": 1.25,
+      "budget": "FE",
+      "comparison": "VALUE - TAIL",
+      "meanDelta": -0.0012136805296052665,
+      "meanRelativePercent": -0.7481937258960422,
+      "wins": 2,
+      "losses": 4
+    },
+    {
+      "reference": 1.25,
+      "budget": "FE",
+      "comparison": "SHARE - BASELINE",
+      "meanDelta": 0.006345296788464264,
+      "meanRelativePercent": 3.77513135073865,
+      "wins": 4,
+      "losses": 2
+    },
+    {
+      "reference": 1.25,
+      "budget": "FE",
+      "comparison": "SHARE - SYNC",
+      "meanDelta": 0.007738073850627462,
+      "meanRelativePercent": 4.742631478785742,
+      "wins": 5,
+      "losses": 1
+    },
+    {
+      "reference": 1.25,
+      "budget": "FE",
+      "comparison": "VALUE_SHARE - SHARE",
+      "meanDelta": 0.001740220007774682,
+      "meanRelativePercent": 1.0314752423457956,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.25,
+      "budget": "FE",
+      "comparison": "VALUE_SHARE - VALUE_SYNC",
+      "meanDelta": 0.005860716973612762,
+      "meanRelativePercent": 3.910841432861545,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.25,
+      "budget": "TIME",
+      "comparison": "VALUE - BASELINE",
+      "meanDelta": -0.00019980585157355438,
+      "meanRelativePercent": -0.39870058555568355,
+      "wins": 3,
+      "losses": 3
+    },
+    {
+      "reference": 1.25,
+      "budget": "TIME",
+      "comparison": "VALUE - TAIL",
+      "meanDelta": -0.0012064506123120298,
+      "meanRelativePercent": -0.7053170093899014,
+      "wins": 2,
+      "losses": 4
+    },
+    {
+      "reference": 1.25,
+      "budget": "TIME",
+      "comparison": "SHARE - BASELINE",
+      "meanDelta": 0.007525294903630429,
+      "meanRelativePercent": 3.779541540918807,
+      "wins": 4,
+      "losses": 2
+    },
+    {
+      "reference": 1.25,
+      "budget": "TIME",
+      "comparison": "SHARE - SYNC",
+      "meanDelta": 0.0091022532433713,
+      "meanRelativePercent": 5.149124508214094,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.25,
+      "budget": "TIME",
+      "comparison": "VALUE_SHARE - SHARE",
+      "meanDelta": -0.0010540402672273828,
+      "meanRelativePercent": -0.6184816612882948,
+      "wins": 3,
+      "losses": 3
+    },
+    {
+      "reference": 1.25,
+      "budget": "TIME",
+      "comparison": "VALUE_SHARE - VALUE_SYNC",
+      "meanDelta": 0.008455772385931431,
+      "meanRelativePercent": 5.009224075455134,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.5,
+      "budget": "FE",
+      "comparison": "VALUE - BASELINE",
+      "meanDelta": 0.007767074275875391,
+      "meanRelativePercent": 1.356773243132011,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.5,
+      "budget": "FE",
+      "comparison": "VALUE - TAIL",
+      "meanDelta": -0.0025082386745161425,
+      "meanRelativePercent": -0.44526029205927964,
+      "wins": 3,
+      "losses": 3
+    },
+    {
+      "reference": 1.5,
+      "budget": "FE",
+      "comparison": "SHARE - BASELINE",
+      "meanDelta": 0.013109912091782907,
+      "meanRelativePercent": 2.426523697940216,
+      "wins": 4,
+      "losses": 2
+    },
+    {
+      "reference": 1.5,
+      "budget": "FE",
+      "comparison": "SHARE - SYNC",
+      "meanDelta": 0.01625867099837941,
+      "meanRelativePercent": 3.0821486265173466,
+      "wins": 5,
+      "losses": 1
+    },
+    {
+      "reference": 1.5,
+      "budget": "FE",
+      "comparison": "VALUE_SHARE - SHARE",
+      "meanDelta": 0.004271415193869477,
+      "meanRelativePercent": 0.7898308393040399,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.5,
+      "budget": "FE",
+      "comparison": "VALUE_SHARE - VALUE_SYNC",
+      "meanDelta": 0.01230309821375091,
+      "meanRelativePercent": 2.4487709286573254,
+      "wins": 6,
+      "losses": 0
+    },
+    {
+      "reference": 1.5,
+      "budget": "TIME",
+      "comparison": "VALUE - BASELINE",
+      "meanDelta": 0.0001383199950822737,
+      "meanRelativePercent": -0.0743214387897706,
+      "wins": 3,
+      "losses": 3
+    },
+    {
+      "reference": 1.5,
+      "budget": "TIME",
+      "comparison": "VALUE - TAIL",
+      "meanDelta": -0.001967596043263834,
+      "meanRelativePercent": -0.3089159163147763,
+      "wins": 2,
+      "losses": 4
+    },
+    {
+      "reference": 1.5,
+      "budget": "TIME",
+      "comparison": "SHARE - BASELINE",
+      "meanDelta": 0.014776302289647122,
+      "meanRelativePercent": 2.43389486238453,
+      "wins": 4,
+      "losses": 2
+    },
+    {
+      "reference": 1.5,
+      "budget": "TIME",
+      "comparison": "SHARE - SYNC",
+      "meanDelta": 0.018729996765846885,
+      "meanRelativePercent": 3.3578079268069643,
+      "wins": 5,
+      "losses": 1
+    },
+    {
+      "reference": 1.5,
+      "budget": "TIME",
+      "comparison": "VALUE_SHARE - SHARE",
+      "meanDelta": -0.001583235808522108,
+      "meanRelativePercent": -0.2927294664274864,
+      "wins": 3,
+      "losses": 3
+    },
+    {
+      "reference": 1.5,
+      "budget": "TIME",
+      "comparison": "VALUE_SHARE - VALUE_SYNC",
+      "meanDelta": 0.017279213101417806,
+      "meanRelativePercent": 3.1831718858286284,
+      "wins": 6,
+      "losses": 0
+    }
+  ],
+  "outsideCounts": {
+    "1.25": 724,
+    "1.5": 178
+  }
+}

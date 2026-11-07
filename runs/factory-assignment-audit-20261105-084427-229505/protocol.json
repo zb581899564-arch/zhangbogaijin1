@@ -1,0 +1,59 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 12390003,
+  "successfulFEPerRun": 500000,
+  "plannedSuccessfulFE": 4000000,
+  "question": "How much actual physical job-to-factory change is attempted/evaluated, suppressed by family restoration, accepted locally, and associated with sequential external archive gains?",
+  "design": "2existingdevelopmentinstances * FULL/NSGA * originalOFF/read-onlyON, eachnaturalrecord500k. SequentialsingleJVM. Everychild retains originalsearch rules; no newselector, acceptance, generator, cache, sharedpool or budgets.",
+  "measurement": "Compare FA byjob identity, not position. Capture rawintention beforefamilyrestore then actual afterrestore/commonrepair. Parenthint DynamicSchedule comes from copied first/current parent in auditedfrozenkernels; weak paididentity map must prove earlierpaidFE. Every noninitial parent must be known; protected actualFA changes0, intra physicalFA changes0. Recordstage/role/freeprotected/changedjobs/newFA perpaidcandidate and everyarchiveadmission; observe realinteracceptance afterunchangeddecision.",
+  "engineering": "6zeroDecoderencodingfixtures. ON/OFF fullpaidSHA, allcommonFEfronts/genomes/birthFE, initials, ledger andsearch/decodeoperationcounts identical. Also match originalfrozen500k artifacts; exclude nondeterministicNanos andactualtimefronts. Allcounts close tosuccessful500k.",
+  "metrics": "Primarycommon frozenHVref1.5. Reconstructexternalarchive fromalladmissionevents, exactlymatch everyFEfront. Sequential peradmissionHV credit bystage/role/protection/FAclass, totals telescope. Dedicatednumeric3Dsweep verified with67fixturefronts*3refs and up16systematicactualfronts perrun againstexistingindependentHV. RawFA changes canceledbyrestoration are counted, never asactualfactorymoves. Initializationexcluded fromsearchFEshares andgainshares.",
+  "descriptivePrediction": "On20_8, FAchangingcandidates<=5%postinitialFE but>=30%postinitialHVincrements, and FAHVshare exceeds100_2 by>=10percentagepoints, inBOTHFULL/NSGA. This physicallymotivated contrast is developmental, not independentconfirmation or a trigger toalterbudget. Ifsupported, onlydesigna separate fixedparent pairedcontinuation question; otherwise no broad reallocationhypothesis.",
+  "limits": "Existingseed used because exactfrozenreference available. Admissioncredit follows actualorder, not causal or orderfree. FAchangingmovesmayalsochangeJS/resources. No isolatedFAeffect, beta0control, same-time quality or novelty claim. No seed/window/threshold/role retuning torescue a missedprediction.",
+  "preserved": "Production/defaultmainline, originalmaterials, frozenrecords, physics/Q/family/sharing unchanged. No externaldownload/transfer."
+}

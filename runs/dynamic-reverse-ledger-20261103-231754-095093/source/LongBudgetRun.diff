@@ -1,0 +1,54 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-deep-roles-20261103-212007-121034\source\LongBudgetRun.java
++++ LongBudgetRun.java
+@@ -29,7 +29,7 @@
+         String mode = args[4];
+         long fe = Long.parseLong(args[5]), seed = Long.parseLong(args[6]);
+         if (useStatic || (!mode.equals("SHARE_JOB_ALIGNED")
+-                && !mode.equals("SHARE_JOB_ALIGNED_UNIFORM")))
++                && !mode.equals("SHARE_JOB_ALIGNED_UNIFORM") && !mode.equals("NSGA2_4V")))
+             throw new IllegalArgumentException("Unsupported model/search pairing");
+         if (args.length < 8) throw new IllegalArgumentException("Explicit FE checkpoints required");
+         long[] points = new long[args.length - 7];
+@@ -53,6 +53,8 @@
+         cfg.mergeGlobalLocal = !classic;
+         cfg.paperResourceOperators = !classic;
+         DynamicSearch search = DynamicSearch.create(mode, in, fatigue, dynamic, context, cfg, false, 0, 0);
++        ReverseClassOrigins.write(out);
++        org.uma.jmetal.util.research.search.ReverseAudit evidence = org.uma.jmetal.util.research.search.ReverseAudit.run();
+         AnytimeRecorder recorder = new AnytimeRecorder(fe, Double.POSITIVE_INFINITY, new double[0], points);
+         List<String> initial = new java.util.ArrayList<>();
+         List<String> admissions = new java.util.ArrayList<>();
+@@ -67,6 +69,7 @@
+             @Override public void completedSolution(org.uma.jmetal.solution.Solution<?> s,
+                     long paid, double seconds, boolean changed,
+                     org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive<?> archive) {
++                evidence.paid((PermutationSolution<?>) s, paid, changed, archive);
+                 if (changed)
+                     admissions.add(paid + "," + s.getObjective(0) + "," + s.getObjective(1) + "," + s.getObjective(2));
+                 if (paid <= 100) {
+@@ -80,12 +83,24 @@
+             }
+         });
+         try { context.run(search.algorithm); }
++        catch (RuntimeException | Error e) {
++            append(out.resolve("failures.jsonl"), org.uma.jmetal.util.research.search.ReverseAudit.row(
++                    "reason", e.toString(), "attempted", context.budget().attempted(),
++                    "successful", context.budget().successful(), "failed", context.budget().failed(),
++                    "lastValidFront", evidence.archive(), "log", "run.log"));
++            throw e;
++        }
+         finally { if (dynamic != null) dynamic.clearPrepared(); }
++        evidence.finish(out);
++        org.uma.jmetal.util.research.cooperation.ReversePoolSnapshots.finish(out);
++        append(out.resolve("search-end.jsonl"), org.uma.jmetal.util.research.search.ReverseAudit.row(
++                "attempted", context.budget().attempted(), "successful", context.budget().successful(),
++                "failed", context.budget().failed(), "stopReason", context.stopReason(), "lastValidFront", evidence.archive()));
+         if (!"plain".equals(options.get(0)))
+             org.uma.jmetal.util.research.search.QgsLocalLedger.finish(out);
+         Files.write(out.resolve("initial-population.jsonl"), initial, StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+         Map<String, Object> receipt = receipt(context, useStatic, mode, search);
+-        receipt.put("cooperation", search.cooperation.diagnostics());
++        if (search.cooperation != null) receipt.put("cooperation", search.cooperation.diagnostics());
+         Files.write(out.resolve("archive-admissions.csv"), admissions, StandardCharsets.UTF_8, StandardOpenOption.CREATE_NEW);
+         List<PermutationSolution<Integer>> results = context.result();
+         if (useStatic) {

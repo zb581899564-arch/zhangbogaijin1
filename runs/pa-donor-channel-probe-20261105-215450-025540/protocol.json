@@ -1,0 +1,152 @@
+{
+  "version": "DIRECT_SPECIALIST_DONOR_INCREMENT-v1",
+  "seeds": [
+    14130003,
+    14130037
+  ],
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      },
+      "feLimit": 7900
+    },
+    {
+      "stem": "100_2_3_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      },
+      "feLimit": 39900
+    }
+  ],
+  "methods": {
+    "JOINT_LIVE": [
+      "PA_JOINT",
+      "LIVE"
+    ],
+    "JOINT_REVERT_BRIDGE": [
+      "PA_JOINT",
+      "REVERT_BRIDGE"
+    ],
+    "JOINT_REVERT_COMMON": [
+      "PA_JOINT",
+      "REVERT_COMMON"
+    ],
+    "RELABEL_LIVE": [
+      "PA_RELABEL",
+      "LIVE"
+    ],
+    "RELABEL_REVERT_BRIDGE": [
+      "PA_RELABEL",
+      "REVERT_BRIDGE"
+    ],
+    "RELABEL_REVERT_COMMON": [
+      "PA_RELABEL",
+      "REVERT_COMMON"
+    ],
+    "NSGA2_DEEP": [
+      "NSGA2_DEEP",
+      "LIVE"
+    ],
+    "FULL_SHARED_DEEP": [
+      "FULL_SHARED_DEEP",
+      "LIVE"
+    ],
+    "LI_RECON_DEEP": [
+      "LI_RECON_DEEP",
+      "LIVE"
+    ]
+  },
+  "comparisons": [
+    [
+      "JOINT_LIVE",
+      "JOINT_REVERT_BRIDGE"
+    ],
+    [
+      "JOINT_LIVE",
+      "JOINT_REVERT_COMMON"
+    ],
+    [
+      "RELABEL_LIVE",
+      "RELABEL_REVERT_BRIDGE"
+    ],
+    [
+      "RELABEL_LIVE",
+      "RELABEL_REVERT_COMMON"
+    ],
+    [
+      "JOINT_LIVE",
+      "NSGA2_DEEP"
+    ],
+    [
+      "JOINT_LIVE",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "JOINT_LIVE",
+      "LI_RECON_DEEP"
+    ],
+    [
+      "RELABEL_LIVE",
+      "NSGA2_DEEP"
+    ],
+    [
+      "RELABEL_LIVE",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "RELABEL_LIVE",
+      "LI_RECON_DEEP"
+    ]
+  ],
+  "intervention": "Only cross-role donors from specialists may revert their latest accepted increment to the same slot's previous paid state. BRIDGE=own accepts,CENTERwouldreject at birth;COMMON=both accept. Initial/CENTER/same-role donors staylive.",
+  "notChanged": "Original working acceptance, continuation policy, current working samples for model learning, same donor-slot RNG, subset order, four roles, full fees and common external archive",
+  "feedback": "Closed-loop paths naturally differ; no claim that candidate streams or future working trajectories remain equal",
+  "neutralHistoryView": "Previous paid state gets a physical-neutral per-generation reencoding from independent gen/slot/seed RNG; never advances working RNG. LIVE maintains the same cache and bookkeeping.",
+  "commonControlLimit": "COMMON rollback checks general donor freshness, but opportunities/age distributions need not match. It is not a perfectly matched sham or proof of uniquely role-specific value.",
+  "engineering": "Three modes on both known two-generation fixtures with all channel transitions reconstructed; LIVE paidSHA/front equals original. Four LIVEcutoffs1/2/101/139 match known prefixes before science.",
+  "engineeringFE": 143643,
+  "scientificFE": 860400,
+  "maximumNewSearchFE": 1004043,
+  "sampling": "All36scientific runs, both models, two development instances and two fresh seeds; no winner stopping, seed replacement, model selection or skipped negative cells",
+  "metrics": "Joint HV1.5,sensitivity1.25/2,IGD+NDunion of9methods x2seeds perinstance,exact weak bidirectionalC on unique raw objectives including equality",
+  "effectMargins": "Descriptive mechanism study only; no numerical method-qualification/expansion margins, no significance claim or new gate",
+  "conflicts": "All raw and paired effects, medians and per-seed directions; no overall winner if metrics disagree, no weighted score or metric vote",
+  "time": "Seconds recorded, no TIMEcomparison or speedup claim; engineering logs and science costs kept separate",
+  "limits": "Direct effect of latest donor increment conditional on still-shared working model; not all bridge information removed, no proof beyond same-slot continuation/no-role restart/random origin",
+  "ordinaryAdaptationOnly": true,
+  "oldStoppedDecisionsReopened": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

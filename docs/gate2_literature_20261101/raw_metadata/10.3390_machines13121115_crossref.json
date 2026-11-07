@@ -1,0 +1,962 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2025-12-03T15:18:52Z",
+      "timestamp": 1764775132897,
+      "version": "3.46.0"
+    },
+    "reference-count": 68,
+    "publisher": "MDPI AG",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2025-12-03T00:00:00Z",
+          "timestamp": 1764720000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications",
+        "award": [
+          "202302AN360007"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "202302AN360007"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Machines"
+    ],
+    "abstract": "<jats:p>Production scheduling that involves distributed factories, machine maintenance, and resource constraints plays a crucial role in manufacturing. However, these realistic constraints have rarely been considered simultaneously in the hybrid flow shop (HFS). To address this issue, a distributed resource-constrained hybrid flow shop scheduling problem with machine breakdowns (DRCHFSP-MB) is studied. There are two optimization objectives, i.e., makespan and total energy consumption (TEC). To solve the strongly NP-hard problem, a mathematical model is established and a block–neighborhood-based multi-objective evolutionary algorithm (BNMOEA) is developed. In the proposed algorithm, an efficient hybrid initialization method is adopted to obtain high-quality individuals to participate in the evolutionary process of the population. Next, to enhance the search capability of the BNMOEA, three well-designed crossover operators are used in the global search. Then, the convergence of the proposed algorithm is improved by utilizing eight critical factory-based local search operators combined with block–neighborhood. Finally, the BNMOEA is compared with several of the most advanced multi-objective algorithms; the results indicate that the BNMOEA has an outstanding performance in solving DRCHFSP-MB.</jats:p>",
+    "DOI": "10.3390/machines13121115",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2025-12-03T15:02:48Z",
+      "timestamp": 1764774168000
+    },
+    "page": "1115",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Block–Neighborhood-Based Multi-Objective Evolutionary Algorithm for Distributed Resource-Constrained Hybrid Flow Shop with Machine Breakdown"
+    ],
+    "prefix": "10.3390",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Ying",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Information Engineering, Qingdao Hengxing University, Qingdao 266199, China"
+          },
+          {
+            "name": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-6453-6150",
+        "authenticated-orcid": false,
+        "given": "Shulan",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information Engineering, Qingdao Hengxing University, Qingdao 266199, China"
+          },
+          {
+            "name": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3617-6708",
+        "authenticated-orcid": false,
+        "given": "Junqing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "7291",
+        "DOI": "10.1109/TSMC.2024.3449413",
+        "article-title": "A hybrid graph-based imitation learning method for a realistic distributed hybrid flow shop with family setup time",
+        "volume": "54",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Syst. Man Cybern. Syst."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "106919",
+        "DOI": "10.1016/j.cor.2024.106919",
+        "article-title": "A Q-learning driven multi-objective evolutionary algorithm for worker fatigue dual-resource-constrained distributed hybrid flow shop",
+        "volume": "175",
+        "author": "Song",
+        "year": "2025",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1016/j.ijpe.2013.01.028",
+        "article-title": "Hybrid flow shop scheduling considering machine electricity consumption cost",
+        "volume": "146",
+        "author": "Luo",
+        "year": "2013",
+        "journal-title": "Int. J. Prod. Econ."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "116785",
+        "DOI": "10.1016/j.eswa.2022.116785",
+        "article-title": "Hybrid energy-efficient scheduling measures for flexible job-shop problem with variable machining speeds",
+        "volume": "197",
+        "author": "Wei",
+        "year": "2022",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "1167",
+        "DOI": "10.1016/j.promfg.2020.01.353",
+        "article-title": "Multi-objective flexible job shop scheduling problem considering machine switching off-on operation",
+        "volume": "39",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Procedia Manuf."
+      },
+      {
+        "key": "ref_6",
+        "first-page": "935",
+        "article-title": "Robust and Stable Flow Shop Scheduling Problem Under Uncertain Processing Times and Machines Disruption",
+        "volume": "34",
+        "author": "Abtahi",
+        "year": "2021",
+        "journal-title": "Int. J. Eng. Trans. A Basics"
+      },
+      {
+        "key": "ref_7",
+        "first-page": "512",
+        "article-title": "Assembly flow shop scheduling problem considering machine eligibility restrictions and auxiliary resource constraints",
+        "volume": "9",
+        "author": "Hosseini",
+        "year": "2022",
+        "journal-title": "Int. J. Syst. Sci. Oper. Logist."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.eswa.2017.09.032",
+        "article-title": "Minimizing makespan for the distributed hybrid flowshop scheduling problem with multiprocessor tasks",
+        "volume": "92",
+        "author": "Ying",
+        "year": "2018",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1158",
+        "DOI": "10.1016/j.promfg.2020.01.354",
+        "article-title": "An artificial bee colony algorithm for the distributed hybrid flowshop scheduling problem",
+        "volume": "39",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Procedia Manuf."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "103540",
+        "DOI": "10.1016/j.engappai.2020.103540",
+        "article-title": "Dynamic shuffled frog-leaping algorithm for distributed hybrid flow shop scheduling with multiprocessor tasks",
+        "volume": "90",
+        "author": "Cai",
+        "year": "2020",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1036",
+        "DOI": "10.1109/TETCI.2022.3145706",
+        "article-title": "Knowledge-Based Reinforcement Learning and Estimation of Distribution Algorithm for Flexible Job Shop Scheduling Problem",
+        "volume": "7",
+        "author": "Du",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Emerg. Top. Comput. Intell."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "8917",
+        "DOI": "10.1007/s00500-019-04420-6",
+        "article-title": "Variable neighborhood search-based methods for integrated hybrid flow shop scheduling with distribution",
+        "volume": "24",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Soft Comput."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "105536",
+        "DOI": "10.1016/j.knosys.2020.105536",
+        "article-title": "A cooperative coevolution algorithm for multi-objective fuzzy distributed hybrid flow shop",
+        "volume": "194",
+        "author": "Zheng",
+        "year": "2020",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "105527",
+        "DOI": "10.1016/j.knosys.2020.105527",
+        "article-title": "Modeling and multi-neighborhood iterated greedy algorithm for distributed hybrid flow shop scheduling problem",
+        "volume": "194",
+        "author": "Shao",
+        "year": "2020",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "947",
+        "DOI": "10.1109/TETCI.2020.3022372",
+        "article-title": "A Bi-Population Cooperative Memetic Algorithm for Distributed Hybrid Flow-Shop Scheduling",
+        "volume": "5",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Emerg. Top. Comput. Intell."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "115453",
+        "DOI": "10.1016/j.eswa.2021.115453",
+        "article-title": "Multi-objective evolutionary algorithm based on multiple neighborhoods local search for multi-objective distributed hybrid flow shop scheduling problem",
+        "volume": "183",
+        "author": "Shao",
+        "year": "2021",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "13181",
+        "DOI": "10.1007/s00500-021-06099-0",
+        "article-title": "A wale optimization algorithm for distributed flow shop with batch delivery",
+        "volume": "25",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Soft Comput."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "461",
+        "DOI": "10.1109/TEVC.2021.3106168",
+        "article-title": "A Cooperative Memetic Algorithm with Learning-Based Agent for Energy-Aware Distributed Hybrid Flow-Shop Scheduling",
+        "volume": "26",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Evol. Comput."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "117555",
+        "DOI": "10.1016/j.eswa.2022.117555",
+        "article-title": "A Pareto-based hybrid iterated greedy algorithm for energy-efficient scheduling of distributed hybrid flowshop",
+        "volume": "204",
+        "author": "Lu",
+        "year": "2022",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "101190",
+        "DOI": "10.1016/j.swevo.2022.101190",
+        "article-title": "A network memetic algorithm for energy and labor-aware distributed heterogeneous hybrid flow shop scheduling problem",
+        "volume": "75",
+        "author": "Shao",
+        "year": "2022",
+        "journal-title": "Swarm Evol. Comput."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "101058",
+        "DOI": "10.1016/j.swevo.2022.101058",
+        "article-title": "Novel MILP and CP models for distributed hybrid flowshop scheduling problem with sequence-dependent setup times",
+        "volume": "71",
+        "author": "Meng",
+        "year": "2022",
+        "journal-title": "Swarm Evol. Comput."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "110252",
+        "DOI": "10.1016/j.knosys.2023.110252",
+        "article-title": "A multi-class teaching–learning-based optimization for multi-objective distributed hybrid flow shop scheduling",
+        "volume": "263",
+        "author": "Lei",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "110309",
+        "DOI": "10.1016/j.knosys.2023.110309",
+        "article-title": "Toward automated algorithm configuration for distributed hybrid flow shop scheduling with multiprocessor tasks",
+        "volume": "264",
+        "author": "Gholami",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1007/s00170-008-1577-3",
+        "article-title": "Scheduling hybrid flow shop with sequence-dependent setup times and machines with random breakdowns",
+        "volume": "42",
+        "author": "Gholami",
+        "year": "2008",
+        "journal-title": "Int. J. Adv. Manuf. Technol."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6999",
+        "DOI": "10.1080/00207540802400636",
+        "article-title": "An immune algorithm for scheduling a hybrid flow shop with sequence-dependent setup times and machines with random breakdowns",
+        "volume": "47",
+        "author": "Zandieh",
+        "year": "2009",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2020",
+        "DOI": "10.1016/j.eswa.2010.07.138",
+        "article-title": "A hybrid method for flowshops scheduling with condition-based maintenance constraint and machines breakdown",
+        "volume": "38",
+        "author": "Safari",
+        "year": "2011",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1080/00207543.2011.571456",
+        "article-title": "A decomposition-based approach to flexible flow shop scheduling under machine breakdown",
+        "volume": "50",
+        "author": "Wang",
+        "year": "2011",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1007/s10845-011-0553-1",
+        "article-title": "A two-stage hybrid flowshop scheduling problem in machine breakdown condition",
+        "volume": "24",
+        "author": "Mirabi",
+        "year": "2011",
+        "journal-title": "J. Intell. Manuf."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1057/jors.2015.50",
+        "article-title": "A fuzzy logic-based hybrid estimation of distribution algorithm for distributed permutation flowshop scheduling problems under machine breakdown",
+        "volume": "67",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "J. Oper. Res. Soc."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.5267/j.dsl.2015.7.001",
+        "article-title": "Solving group scheduling problem in no-wait flexible flowshop with random machine breakdown",
+        "volume": "5",
+        "author": "Adressi",
+        "year": "2016",
+        "journal-title": "Decis. Sci. Lett."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "709",
+        "DOI": "10.1080/0951192X.2015.1067907",
+        "article-title": "A hybrid meta-heuristic algorithm for flowshop robust scheduling under machine breakdown uncertainty",
+        "volume": "29",
+        "author": "Fazayeli",
+        "year": "2016",
+        "journal-title": "Int. J. Comput. Integr. Manuf."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1504/IJOR.2017.083959",
+        "article-title": "Scheduling of assembly flow shop problem and machines with random breakdowns",
+        "volume": "29",
+        "author": "Seidgar",
+        "year": "2017",
+        "journal-title": "Int. J. Oper. Res."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1109/TCYB.2017.2771213",
+        "article-title": "Evolutionary Multiobjective Blocking Lot-Streaming Flow Shop Scheduling with Machine Breakdowns",
+        "volume": "49",
+        "author": "Han",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Cybern."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "944",
+        "DOI": "10.1108/AA-10-2018-0165",
+        "article-title": "Robust scheduling in two-stage assembly flow shop problem with random machine breakdowns: Integrated meta-heuristic algorithms and simulation approach",
+        "volume": "39",
+        "author": "Tadayonirad",
+        "year": "2019",
+        "journal-title": "Assem. Autom."
+      },
+      {
+        "key": "ref_35",
+        "first-page": "162",
+        "article-title": "A hybrid algorithm to solve the stochastic flow shop scheduling problems with machine break down",
+        "volume": "10",
+        "author": "Marichelvam",
+        "year": "2019",
+        "journal-title": "Int. J. Enterp. Netw. Manag."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "8377",
+        "DOI": "10.1007/s00500-019-04407-3",
+        "article-title": "Scheduling two-stage assembly flow shop with random machines breakdowns: Integrated new self-adapted differential evolutionary and simulation approach",
+        "volume": "24",
+        "author": "Seidgar",
+        "year": "2020",
+        "journal-title": "Soft Comput."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "106989",
+        "DOI": "10.1016/j.cie.2020.106989",
+        "article-title": "Metaheuristics for the flow shop scheduling problem with maintenance activities integrated",
+        "volume": "151",
+        "author": "Branda",
+        "year": "2021",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "112689",
+        "DOI": "10.1016/j.asoc.2024.112689",
+        "article-title": "A multi-dimensional co-evolutionary algorithm for multi-objective resource-constrained flexible flowshop with robotic transportation",
+        "volume": "170",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1016/S0926-5805(01)00083-8",
+        "article-title": "GA-based resource-constrained flow-shop scheduling model for mixed precast production",
+        "volume": "11",
+        "author": "Leu",
+        "year": "2002",
+        "journal-title": "Autom. Constr."
+      },
+      {
+        "key": "ref_40",
+        "first-page": "299",
+        "article-title": "A combinatorial particle swarm optimization for solving multi-mode resource-constrained project scheduling problems",
+        "volume": "195",
+        "author": "Jarboui",
+        "year": "2008",
+        "journal-title": "Appl. Math. Comput."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1107",
+        "DOI": "10.1016/j.apm.2010.07.057",
+        "article-title": "Hybrid flowshop scheduling with machine and resource-dependent processing times",
+        "volume": "35",
+        "author": "Behnamian",
+        "year": "2011",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "2409",
+        "DOI": "10.1080/00207541003709544",
+        "article-title": "A GRASP algorithm for flexible job-shop scheduling problem with limited resource constraints",
+        "volume": "49",
+        "author": "Rajkumar",
+        "year": "2011",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1206",
+        "DOI": "10.1016/j.cor.2010.07.015",
+        "article-title": "Resource-constrained flowshop scheduling with separate resource recycling operations",
+        "volume": "39",
+        "author": "Cheng",
+        "year": "2012",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1282",
+        "DOI": "10.1016/j.engappai.2012.10.006",
+        "article-title": "Multi-level genetic algorithm for the resource-constrained re-entrant scheduling problem in the flow shop",
+        "volume": "26",
+        "author": "Lin",
+        "year": "2013",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "649",
+        "DOI": "10.3846/13923730.2014.906496",
+        "article-title": "Solving Resource-Constrained Construction Scheduling Problems with Overlaps by Metaheuristic",
+        "volume": "20",
+        "author": "Hejducki",
+        "year": "2014",
+        "journal-title": "J. Civ. Eng. Manag."
+      },
+      {
+        "key": "ref_46",
+        "first-page": "1478",
+        "article-title": "Heuristics for solving flow shop scheduling problem under resources constraints",
+        "volume": "49",
+        "author": "Laribi",
+        "year": "2016",
+        "journal-title": "IFAC-Pap."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "103052",
+        "DOI": "10.1016/j.autcon.2019.103052",
+        "article-title": "Memetic algorithm for solving resource constrained project scheduling problems",
+        "volume": "111",
+        "author": "Rahman",
+        "year": "2020",
+        "journal-title": "Autom. Constr."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "106545",
+        "DOI": "10.1016/j.cie.2020.106545",
+        "article-title": "Solving the hybrid flow shop scheduling problem with limited human resource constraint",
+        "volume": "146",
+        "author": "Costa",
+        "year": "2020",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "104943",
+        "DOI": "10.1016/j.cor.2020.104943",
+        "article-title": "Bi-objective optimization algorithms for joint production and maintenance scheduling under a global resource constraint: Application to the permutation flow shop problem",
+        "volume": "122",
+        "author": "Boufellouh",
+        "year": "2020",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1502",
+        "DOI": "10.1109/TEVC.2025.3543770",
+        "article-title": "Optimizing dynamic flexible job shop scheduling using an evolutionary multi-task optimization framework and genetic programming",
+        "volume": "29",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Evol. Comput."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "114282",
+        "DOI": "10.1016/j.eswa.2020.114282",
+        "article-title": "Multi-objective evolutionary algorithms with heuristic decoding for hybrid flow shop scheduling problem with worker constraint",
+        "volume": "168",
+        "author": "Han",
+        "year": "2021",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "105625",
+        "DOI": "10.1016/j.cor.2021.105625",
+        "article-title": "Auxiliary resource planning in a flexible flow shop scheduling problem considering stage skipping",
+        "volume": "138",
+        "author": "Hasani",
+        "year": "2022",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "125344",
+        "DOI": "10.1016/j.eswa.2024.125344",
+        "article-title": "Two-stage learning scatter search algorithm for the distributed hybrid flow shop scheduling problem with machine breakdown",
+        "volume": "259",
+        "author": "Zuo",
+        "year": "2025",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "73",
+        "DOI": "10.1109/MCI.2017.2742868",
+        "article-title": "PlatEMO: A MATLAB platform for evolutionary multi-objective optimization [educational forum]",
+        "volume": "12",
+        "author": "Tian",
+        "year": "2017",
+        "journal-title": "IEEE Comput. Intell. Mag."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1109/4235.996017",
+        "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+        "volume": "6",
+        "author": "Deb",
+        "year": "2002",
+        "journal-title": "IEEE Trans. Evol. Comput."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Panichella, A. (2022, January 9–13). An improved Pareto front modeling algorithm for large-scale many-objective optimization. Proceedings of the Genetic and Evolutionary Computation Conference, Boston, MA, USA.",
+        "DOI": "10.1145/3512290.3528732"
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/j.ins.2017.10.037",
+        "article-title": "A competitive mechanism based multi-objective particle swarm optimizer with fast convergence",
+        "volume": "427",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.artint.2015.06.007",
+        "article-title": "Bi-goal evolution for many-objective optimization problems",
+        "volume": "228",
+        "author": "Li",
+        "year": "2015",
+        "journal-title": "Artif. Intell."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "5695",
+        "DOI": "10.1109/TNNLS.2022.3208942",
+        "article-title": "A Reinforcement Learning Approach for Flexible Job Shop Scheduling Problem with Crane Transportation and Setup Times",
+        "volume": "35",
+        "author": "Du",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1016/j.matcom.2025.02.026",
+        "article-title": "Solving the permutation flow shop scheduling problem with sequence-dependent setup time via iterative greedy algorithm and imitation learning",
+        "volume": "234",
+        "author": "Du",
+        "year": "2025",
+        "journal-title": "Math. Comput. Simul."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "124375",
+        "DOI": "10.1016/j.eswa.2024.124375",
+        "article-title": "Genetic programming hyper-heuristic-based solution for dynamic energy-efficient scheduling of hybrid flow shop scheduling with machine breakdowns and random job arrivals",
+        "volume": "254",
+        "author": "Duan",
+        "year": "2024",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "106817",
+        "DOI": "10.1016/j.cor.2024.106817",
+        "article-title": "Tri-objective lot-streaming scheduling optimization for hybrid flow shops with uncertainties in machine breakdowns and job arrivals using an enhanced genetic programming hyper-heuristic",
+        "volume": "172",
+        "author": "Duan",
+        "year": "2024",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "4686",
+        "DOI": "10.1109/TASE.2023.3300922",
+        "article-title": "Bi-population balancing multi-objective algorithm for fuzzy flexible job shop with energy and transportation",
+        "volume": "21",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "first-page": "110855",
+        "DOI": "10.1016/j.cie.2024.110855",
+        "article-title": "HGNP: A PCA-based heterogeneous graph neural network for a family distributed flexible job shop",
+        "volume": "200",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "López-Ibáñez, M., Paquete, L., and Stützle, T. (2010). Exploratory analysis of stochastic local search algorithms in biobjective optimization. Experimental Methods for the Analysis of Optimization Algorithms, Springer.",
+        "DOI": "10.1007/978-3-642-02538-9_9"
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "116354",
+        "DOI": "10.1016/j.apm.2025.116354",
+        "article-title": "An adaptive collaborative optimization algorithm for hybrid flow shop with group setup times and consistent sublots",
+        "volume": "150",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "Appl. Math. Model."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "18598",
+        "DOI": "10.1109/TNNLS.2025.3578368",
+        "article-title": "Uncertain Interruptibility Multiobjective Flexible Job Shop via Deep Reinforcement Learning Based on Heterogeneous Graph Self-Attention",
+        "volume": "36",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "897",
+        "DOI": "10.1080/00207543.2014.939244",
+        "article-title": "Genetic algorithm parameter optimisation using Taguchi method for a flexible manufacturing system scheduling problem",
+        "volume": "53",
+        "author": "Candan",
+        "year": "2015",
+        "journal-title": "Int. J. Prod. Res."
+      }
+    ],
+    "container-title": [
+      "Machines"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2075-1702/13/12/1115/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2025-12-03T15:14:07Z",
+      "timestamp": 1764774847000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2075-1702/13/12/1115"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ]
+    },
+    "references-count": 68,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "machines13121115"
+    ],
+    "URL": "https://doi.org/10.3390/machines13121115",
+    "relation": {},
+    "ISSN": [
+      "2075-1702"
+    ],
+    "issn-type": [
+      {
+        "value": "2075-1702",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          3
+        ]
+      ]
+    }
+  }
+}

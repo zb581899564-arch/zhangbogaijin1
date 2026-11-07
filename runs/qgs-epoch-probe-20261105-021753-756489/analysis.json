@@ -1,0 +1,483 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "cells": [
+        {
+          "seed": 10620007,
+          "arm": "SERIAL_STALE",
+          "HV": 0.48975663786188955,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 13,
+              "1:CENTER:INITIALIZATION:OLDER": 14,
+              "1:ENERGY:INITIALIZATION:OLDER": 18,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 13
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "SERIAL_FRESH",
+          "HV": 0.4790428492870251,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 17,
+              "1:MAKESPAN:INITIALIZATION:OLDER": 1,
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 2,
+              "1:CENTER:CENTER:SAME_EPOCH": 17,
+              "1:ENERGY:CENTER:SAME_EPOCH": 16,
+              "1:ENERGY:ENERGY:SAME_EPOCH": 2,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 18
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0081014
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "SWEEP_STALE",
+          "HV": 0.4777607117267775,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 15,
+              "1:ENERGY:INITIALIZATION:OLDER": 12,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 15,
+              "1:CENTER:INITIALIZATION:OLDER": 21
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "SWEEP_FRESH",
+          "HV": 0.481090527300288,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 4,
+              "1:ENERGY:INITIALIZATION:OLDER": 1,
+              "1:MAKESPAN:CENTER:SAME_EPOCH": 13,
+              "1:ENERGY:CENTER:SAME_EPOCH": 11,
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 5,
+              "1:CENTER:CENTER:SAME_EPOCH": 11,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 16,
+              "1:WORKER_COST:WORKER_COST:SAME_EPOCH": 1,
+              "1:CENTER:WORKER_COST:SAME_EPOCH": 2,
+              "1:ENERGY:MAKESPAN:SAME_EPOCH": 1,
+              "1:WORKER_COST:MAKESPAN:SAME_EPOCH": 2,
+              "1:ENERGY:ENERGY:SAME_EPOCH": 1
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0044228
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "NSGA",
+          "HV": 0.48817988518830324,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 0,
+            "action2CreatorEdges": {},
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SERIAL_STALE",
+          "HV": 0.47623854825109474,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 15,
+              "1:CENTER:INITIALIZATION:OLDER": 15,
+              "1:ENERGY:INITIALIZATION:OLDER": 13,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 13
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SERIAL_FRESH",
+          "HV": 0.47972951318553914,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 2,
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 16,
+              "1:CENTER:CENTER:SAME_EPOCH": 6,
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 2,
+              "1:ENERGY:CENTER:SAME_EPOCH": 12,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 13,
+              "1:WORKER_COST:ENERGY:SAME_EPOCH": 1
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0044949
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SWEEP_STALE",
+          "HV": 0.47757172699778705,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 21,
+              "1:ENERGY:INITIALIZATION:OLDER": 18,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 18,
+              "1:CENTER:INITIALIZATION:OLDER": 15
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SWEEP_FRESH",
+          "HV": 0.48740050982172134,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 1,
+              "1:ENERGY:INITIALIZATION:OLDER": 1,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 13,
+              "1:CENTER:CENTER:SAME_EPOCH": 18,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 1,
+              "1:MAKESPAN:CENTER:SAME_EPOCH": 15,
+              "1:CENTER:WORKER_COST:SAME_EPOCH": 1,
+              "1:WORKER_COST:WORKER_COST:SAME_EPOCH": 1,
+              "1:ENERGY:CENTER:SAME_EPOCH": 8,
+              "1:MAKESPAN:ENERGY:SAME_EPOCH": 1,
+              "1:CENTER:ENERGY:SAME_EPOCH": 1,
+              "1:ENERGY:ENERGY:SAME_EPOCH": 4
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0040768
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "NSGA",
+          "HV": 0.4769100653278653,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 0,
+            "action2CreatorEdges": {},
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        }
+      ],
+      "sweepFreshEffectsPct": {
+        "SERIAL_STALE": [
+          -1.7694728139744709,
+          2.343775322601882
+        ],
+        "SERIAL_FRESH": [
+          0.42745195264066727,
+          1.5990253727031778
+        ],
+        "SWEEP_STALE": [
+          0.6969630385628589,
+          2.0580746866490696
+        ],
+        "NSGA": [
+          -1.4522019655276663,
+          2.1996693415653024
+        ]
+      },
+      "makespanReverseSelections": [
+        13,
+        16
+      ],
+      "centerReverseSelections": [
+        2,
+        2
+      ],
+      "supported": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "cells": [
+        {
+          "seed": 10620007,
+          "arm": "SERIAL_STALE",
+          "HV": 0.5403376097267364,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 12,
+              "1:CENTER:INITIALIZATION:OLDER": 12,
+              "1:ENERGY:INITIALIZATION:OLDER": 10,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 13
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "SERIAL_FRESH",
+          "HV": 0.5459428765410592,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 2,
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 8,
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 5,
+              "1:CENTER:INITIALIZATION:OLDER": 1,
+              "1:CENTER:CENTER:SAME_EPOCH": 10,
+              "1:ENERGY:CENTER:SAME_EPOCH": 10,
+              "1:ENERGY:MAKESPAN:SAME_EPOCH": 1,
+              "1:ENERGY:ENERGY:SAME_EPOCH": 2,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 14
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0055307
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "SWEEP_STALE",
+          "HV": 0.5441060535354838,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:ENERGY:INITIALIZATION:OLDER": 19,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 16,
+              "1:MAKESPAN:INITIALIZATION:OLDER": 9,
+              "1:CENTER:INITIALIZATION:OLDER": 15
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "SWEEP_FRESH",
+          "HV": 0.564962217684963,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:ENERGY:INITIALIZATION:OLDER": 1,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 2,
+              "1:MAKESPAN:INITIALIZATION:OLDER": 1,
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 6,
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 5,
+              "1:CENTER:CENTER:SAME_EPOCH": 9,
+              "1:WORKER_COST:WORKER_COST:SAME_EPOCH": 2,
+              "1:ENERGY:MAKESPAN:SAME_EPOCH": 5,
+              "1:MAKESPAN:CENTER:SAME_EPOCH": 5,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 5,
+              "1:ENERGY:CENTER:SAME_EPOCH": 6,
+              "1:CENTER:ENERGY:SAME_EPOCH": 4,
+              "1:WORKER_COST:ENERGY:SAME_EPOCH": 3,
+              "1:ENERGY:ENERGY:SAME_EPOCH": 1
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0065015
+          }
+        },
+        {
+          "seed": 10620007,
+          "arm": "NSGA",
+          "HV": 0.5479100561503897,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 0,
+            "action2CreatorEdges": {},
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SERIAL_STALE",
+          "HV": 0.5452862597631731,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 21,
+              "1:CENTER:INITIALIZATION:OLDER": 14,
+              "1:ENERGY:INITIALIZATION:OLDER": 14,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 11
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SERIAL_FRESH",
+          "HV": 0.5651467174846146,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:MAKESPAN:INITIALIZATION:OLDER": 3,
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 18,
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 7,
+              "1:CENTER:CENTER:SAME_EPOCH": 12,
+              "1:ENERGY:CENTER:SAME_EPOCH": 14,
+              "1:ENERGY:MAKESPAN:SAME_EPOCH": 3,
+              "1:ENERGY:ENERGY:SAME_EPOCH": 1,
+              "1:WORKER_COST:ENERGY:SAME_EPOCH": 2,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 14
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.006716
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SWEEP_STALE",
+          "HV": 0.5660757281372847,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": false,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:CENTER:INITIALIZATION:OLDER": 18,
+              "1:ENERGY:INITIALIZATION:OLDER": 15,
+              "1:WORKER_COST:INITIALIZATION:OLDER": 10,
+              "1:MAKESPAN:INITIALIZATION:OLDER": 14
+            },
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "SWEEP_FRESH",
+          "HV": 0.5601753263279611,
+          "flow": {
+            "layout": "SWEEP",
+            "fresh": true,
+            "trace": true,
+            "epoch": 1,
+            "action2CreatorEdges": {
+              "1:CENTER:MAKESPAN:SAME_EPOCH": 5,
+              "1:WORKER_COST:MAKESPAN:SAME_EPOCH": 1,
+              "1:CENTER:CENTER:SAME_EPOCH": 13,
+              "1:MAKESPAN:ENERGY:SAME_EPOCH": 1,
+              "1:CENTER:ENERGY:SAME_EPOCH": 1,
+              "1:MAKESPAN:CENTER:SAME_EPOCH": 14,
+              "1:ENERGY:CENTER:SAME_EPOCH": 15,
+              "1:WORKER_COST:CENTER:SAME_EPOCH": 10,
+              "1:MAKESPAN:MAKESPAN:SAME_EPOCH": 3,
+              "1:CENTER:WORKER_COST:SAME_EPOCH": 2,
+              "1:WORKER_COST:WORKER_COST:SAME_EPOCH": 2
+            },
+            "offeredAcceptedCurrentStates": 5000,
+            "refreshSeconds": 0.0049735
+          }
+        },
+        {
+          "seed": 10620037,
+          "arm": "NSGA",
+          "HV": 0.5424257386757925,
+          "flow": {
+            "layout": "SERIAL",
+            "fresh": false,
+            "trace": true,
+            "epoch": 0,
+            "action2CreatorEdges": {},
+            "offeredAcceptedCurrentStates": 0,
+            "refreshSeconds": 0.0
+          }
+        }
+      ],
+      "sweepFreshEffectsPct": {
+        "SERIAL_STALE": [
+          4.5572633692257725,
+          2.7305046291198565
+        ],
+        "SERIAL_FRESH": [
+          3.4837602908943444,
+          -0.879663811687792
+        ],
+        "SWEEP_STALE": [
+          3.833106434666611,
+          -1.0423343584681333
+        ],
+        "NSGA": [
+          3.1122191212151984,
+          3.2722613229047903
+        ]
+      },
+      "makespanReverseSelections": [
+        5,
+        15
+      ],
+      "centerReverseSelections": [
+        4,
+        3
+      ],
+      "supported": true
+    }
+  ],
+  "pairedPositiveCounts": {
+    "SERIAL_STALE": 3,
+    "SERIAL_FRESH": 3
+  },
+  "worthClosedLoop": false,
+  "scope": "First-global-stage mechanism screen; creator-role selections are availability/exposure, not gene transmission or causal credit. No same-time or complete-search claim."
+}

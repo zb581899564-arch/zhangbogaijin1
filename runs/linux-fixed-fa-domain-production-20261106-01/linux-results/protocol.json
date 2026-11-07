@@ -1,0 +1,165 @@
+{
+  "name": "FIXED_FA_DOMAIN_PRODUCTION_V1",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seeds": [
+    16110003,
+    16110037,
+    16110069
+  ],
+  "arms": [
+    "GOM",
+    "LEGAL",
+    "NOVEL"
+  ],
+  "source": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-request-conditioned-production-20261106-01",
+  "sourceAcceptanceSHA256": "aa607e51d6127dec4b318f12caf781a7d5e47b7d497fa4dca64dc8232d155d3d",
+  "contexts": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "family": 0,
+      "crossJobInitialKeyTies": 0,
+      "sourceBeforeSHA256": "64f6fbb00101ef0f90ac5312bf3445b6f1d1d449e51970fb95aa63b7c4d83206",
+      "inputs": {
+        "pools.tsv": "6547b9313f80646cda9a664c9a84c931da2f14af46298cfd1a408b416075b77d",
+        "background.json": "818451aa4218b8315c4781bb75a5c24226ca16d89a3a2917d24661c33b87dece",
+        "background.tsv": "863cd5b89b7fc8c2fd667d035b02eff9650523bc3f30db7ef9b2b97430e42b84",
+        "points.tsv": "d2d833096aef899a7096193950654c06e9fb38e7d5b7a7f9b060727f2375451a",
+        "request.tsv": "8fa696c394dbc80c81a8a3dd72c65728703df689f522799dd2c19934193e8d3e",
+        "provenance.json": "e881368fd46466a29c2ad77ec5ec57d7070cf9a6c986301d99d5057f5e397172",
+        "effective-request.tsv": "a5896d33a2d7f2ec53f53d9430eaa21563e97a1f9e0268282ff3f2d0ef5b41d0"
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "family": 1,
+      "crossJobInitialKeyTies": 0,
+      "sourceBeforeSHA256": "7af4e3b29f44e6da06b111ea566c3e47f4fa0f0d668e9f1162717830319b7d43",
+      "inputs": {
+        "pools.tsv": "68bb3c577e69b0cf619e8538042e753777a0d3ed9252648918952365c14b41a0",
+        "background.json": "02d746a4d341f66c969b2e428b9a6831dc37d7f5fff3d6f361a2d5d69220aad7",
+        "background.tsv": "e13ddb0f9c3acc5623dff0cacf6fa4412a5ef66380e780e2072420570f00fdd9",
+        "points.tsv": "33405827357f203646e0b6a658d9fa4711ea9ce42178eb10bdf97deb03ec1dfb",
+        "request.tsv": "b05eebf404f2a1b2c3a2a917330094608f40649397f799c92cabaed28c7e7b81",
+        "provenance.json": "f11391fe9d4672a56c8f8d5f974ff3187e755ecc9a5e791d6f8d539705dfe4a0",
+        "effective-request.tsv": "bf785260f4a949b9ac531d38f4e863fc8fc937d03a1b1b64f52cf67f715ecbde"
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "family": 2,
+      "crossJobInitialKeyTies": 0,
+      "sourceBeforeSHA256": "cf4913fe14e12b6f601ed8fd222c2256c14fd1beedd80015371bc124b85e4ab9",
+      "inputs": {
+        "pools.tsv": "538bcbfa94d7231627b39c21f04efeb8412021c9576df7ed834f4e7c9d852720",
+        "background.json": "a8a9c4c972c5e00dad0478e87abda5f956466c243e4780130e0e048f2435ca7a",
+        "background.tsv": "1fb4f87d2d79e7ae7e382aee1422cb4cbb41d89a8d389af444a88578db8d5531",
+        "points.tsv": "ee72616e073a51951fe07d70b2c411a60cbe015686257a6b9fdc682c191e813c",
+        "request.tsv": "5435eac12dc5e4c942cf28a64363b614c4b62d72b977904dfa4bdfd4022d033d",
+        "provenance.json": "9c5628b364b5d1da8eca01872378beb7801a4fa96ffbf2d7e365f54377b367e2",
+        "effective-request.tsv": "06bea3c4ddcf75570a825c65936cee3aee6815f497ebf3298e548297ca6f425d"
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "family": 0,
+      "crossJobInitialKeyTies": 0,
+      "sourceBeforeSHA256": "9ab20e26302cae02dbc160fab74f1cba27cb65fe4d31b9fd7f0a30c1065c1610",
+      "inputs": {
+        "pools.tsv": "40d232455eaf87bef96a9515a272cbc1dcd76341c867cd3a407d99a2a9171f2c",
+        "background.json": "2677c07c965937fb55d1b2075ce4a764e280274a1f51aad98c14168729418948",
+        "background.tsv": "1ab3fbebfb67641c7b1e8ee748d127abe1427554b7e56001c232fd7f30655920",
+        "points.tsv": "1ccb149676781f7227aeba0882d14ec47f082a0f34073f2d3e91028c52252bf8",
+        "request.tsv": "fa0055ba96ba1b7cbbdb6df869e861ec2a8c33ecc2e4dff1fdc5e0f6e1de02b6",
+        "provenance.json": "cc7bd419f800cb14c9d40ab6a93b9c30b1da31622790374819d771c5d610e472",
+        "effective-request.tsv": "787fce1673ba08b7b6d18c9ea76555aafa7bd918ddf796fbaa4baefab0f4e863"
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "family": 1,
+      "crossJobInitialKeyTies": 0,
+      "sourceBeforeSHA256": "d13d920fc7f1b7d65aaf7bbc3941d8689de8934737ec514456f6114f48a43dcb",
+      "inputs": {
+        "pools.tsv": "ed031ca607753ead09fe5d9f4bef44fa8d95b09c0f87620faa8c8cee70b9ce82",
+        "background.json": "cc373da0a7553f6d4adfee7ef6f57961b348a293276ce264df9ef672b1769dcc",
+        "background.tsv": "34fd9c6f989b3cc81c255207278678aac1becb3456d8fc7006e8c19fdfc4d9da",
+        "points.tsv": "f9cbaf75bfa5c707a379942480a8633912af11f9f9b41803ea334ab9251cc2f7",
+        "request.tsv": "5f8410a381cd1622add3f44ec7ca64ea17a301784721534ac3d43500cddbe7f9",
+        "provenance.json": "3c07ccfd9345ede78f665a8246e7d5465dfa0803fa1c47b76127d68e02ff9dc9",
+        "effective-request.tsv": "2a94ed0e335047f9d624d67675461b56960388aea3783e6a6c5c1c3cf6c52e7d"
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "family": 2,
+      "crossJobInitialKeyTies": 0,
+      "sourceBeforeSHA256": "86c3356919412d174869abb747d20698f903ce8e68025cdda9faa326864f8682",
+      "inputs": {
+        "pools.tsv": "875cb27a0d09dc1d08bce2d4bbf28c041fe89a0f56cc88fa998f230930f3c24f",
+        "background.json": "f571f747a3bf95859140b743317454f34082f70f9296cd2f2d24cf4131b9b22c",
+        "background.tsv": "d917b74efd9d4deeeeb939c7567b0c8492738c6e571b9d106f7d7d65ef7c1d63",
+        "points.tsv": "efaf17ac84fb4660acde34f08d2f6dce66fd72c018a9cb7f716ae05aae70f46c",
+        "request.tsv": "d35b16fea61868751db9cd4b98a44a53bddd5c2c09764f357cc940bab034ba7a",
+        "provenance.json": "8484da7610fc04f8ca60caa2ace71e5d70426df095a19169883eb9af92c5fdd9",
+        "effective-request.tsv": "4609e6e1472340ea5c56ff9884ff91a43d9a55d75f1553760f88c0a48ca749cf"
+      }
+    }
+  ],
+  "sampledRequest": "q0 of every six previously fixed sources; no quality-based resampling",
+  "anchor": "Common mature P100 view; production confined to same five fixed-family slots M1/C2/E1/W1",
+  "unchanged": [
+    "FA",
+    "initial mature vectors and objectives",
+    "dynamic decoder and inputs",
+    "original role acceptance",
+    "A0",
+    "FactoryPool rules and capacity",
+    "actual q0 cap/eta and final original composition"
+  ],
+  "primary": "Does explicit outside-support production have material conditional value, and does novelty targeting beat ordinary legal generation?",
+  "mechanisms": {
+    "GOM": "Original learned factory-block FOS and live-donor paired copying",
+    "LEGAL": "Two jobs in same factory, jointly redraw whole legal resource tuples and independent priorities",
+    "NOVEL": "Same jobs, ranks, keys and costs as LEGAL; first tuple selected from complement of initial five donor tuples, or declared ordinary fallback if empty"
+  },
+  "sampling": "Uniform eligible factory, uniform first job, uniform other job; two tuple ranks and two priority draws; no objective filtering, retries, or hidden prefix decoding",
+  "RNG": "Original source seed xor0x37a9185b for GOM bookkeeping; new joint generator uses that seed xor0x4f2a91; matched LEGAL/NOVEL random stream",
+  "distinctionTyped": "No fieldwise inheritance from observed donor M/W/key marginals; whole legal tuples and fresh keys, two jobs jointly; old TYPED stop preserved",
+  "distinctionRenewal": "Never changes FA, family membership, history by reset, or pool initialization; no ELITE/RANDOM renewal",
+  "qualityScope": "Conditional production probe on reused development sources; not complete four-group competition, independent validation or novelty proof",
+  "productionFE": 4095,
+  "assemblyFE": 1,
+  "perArmFE": 4096,
+  "scienceRuns": 18,
+  "scienceFE": 73728,
+  "engineering": "Six GOM511+assembly bridges versus frozen ROLE; LEGAL/NOVEL production63+assembly on both instances; first-instance prefix1/2/63 and quiet64 for both; one NOVEL failure2",
+  "engineeringAttemptFE": 3590,
+  "expectedEngineeringFailures": 1,
+  "sequential": true,
+  "fullPaidTimelineQA": true,
+  "timeComparison": false,
+  "metricRule": "One per-instance ND reference union nine science endpoint fronts (three arms x three sources); no reference feedback; mainHV1.5, sensitivity1.25/2, IGD+,IGD,weak bidirectional C",
+  "endpoints": [
+    "ND(A0+every paid evaluation), primary",
+    "paid candidates alone",
+    "working five",
+    "terminal original shared assembly",
+    "best single paid outside-domain candidate versus A0"
+  ],
+  "capacityGate": "At least two of three sources in an instance have an actually outside-domain paid candidate adding>=0.1% A0 HV at1.5; report all references",
+  "targetedMechanismGate": "Beyond capacity, NOVEL versus LEGAL needs per-instance median HV>=1% or symmetric IGD+ improvement>=5%, improvement in at least2/3 sources; other instance must not have median HV<-1%, IGD+<-5%, or Cgap<-10pp. Indicator conflicts preclude automatic advance.",
+  "ordinaryOutcome": "If LEGAL has capacity but NOVEL lacks independent value, retain only the domain-expansion question, do not claim novelty targeting or promote ordinary control as a final algorithm",
+  "noSignal": "Stop this fixed two-job joint producer when neither expanded arm has material capacity; do not claim the full same-FA space is exhausted, tune ratios, or add seeds to chase a win",
+  "hiddenCosts": "Import QA and complete timeline QA separately counted; every proposed child, duplicate, unavailable-complement fallback and terminal parent fallback is charged",
+  "mainlineChanged": false,
+  "goalResumed": false
+}

@@ -1,0 +1,266 @@
+{
+  "stem": "20_8_5_1",
+  "snapshots": 6,
+  "materialExtraSupplySnapshots": 2,
+  "materialBySeed": {
+    "11730007": 1,
+    "11730037": 1
+  },
+  "worthCapturingPaidArchiveGenomes": true,
+  "maxIndependentHVError": 1.6653345369377348e-16,
+  "cases": [
+    {
+      "seed": 11730007,
+      "generation": 1,
+      "role": "CENTER",
+      "step": 0,
+      "paidFE": 850,
+      "paidArchivePoints": 23,
+      "fullCurrentParents": 100,
+      "fullInitialParents": 100,
+      "references": {
+        "1.25": {
+          "initialHV": 0.11136807260827968,
+          "currentHV": 0.11870075934403118,
+          "initialCurrentUnionHV": 0.11874538485566788,
+          "allPaidHV": 0.12211089653109995,
+          "unavailableUnionFractionPct": 2.756110855819426,
+          "bestSingleExtraGain": 0.0021543699616721587,
+          "bestSingleExtraGainPctOfPaidHV": 1.7642733145632672,
+          "material": true
+        },
+        "1.5": {
+          "initialHV": 0.4144855204153617,
+          "currentHV": 0.4353906279472633,
+          "initialCurrentUnionHV": 0.43545736871901974,
+          "allPaidHV": 0.44297672976877933,
+          "unavailableUnionFractionPct": 1.6974618629932254,
+          "bestSingleExtraGain": 0.00521121716041588,
+          "bestSingleExtraGainPctOfPaidHV": 1.1764087840767572,
+          "material": true
+        },
+        "2.0": {
+          "initialHV": 1.9883387985248855,
+          "currentHV": 2.0567210369066418,
+          "initialCurrentUnionHV": 2.056832008198638,
+          "allPaidHV": 2.0767593851888995,
+          "unavailableUnionFractionPct": 0.9595419253852892,
+          "bestSingleExtraGain": 0.014588530853600377,
+          "bestSingleExtraGainPctOfPaidHV": 0.702466109345326,
+          "material": true
+        }
+      }
+    },
+    {
+      "seed": 11730007,
+      "generation": 1,
+      "role": "CENTER",
+      "step": 24,
+      "paidFE": 2170,
+      "paidArchivePoints": 30,
+      "fullCurrentParents": 100,
+      "fullInitialParents": 100,
+      "references": {
+        "1.25": {
+          "initialHV": 0.11136807260827968,
+          "currentHV": 0.1302321427787971,
+          "initialCurrentUnionHV": 0.1302321427787967,
+          "allPaidHV": 0.13042696279655597,
+          "unavailableUnionFractionPct": 0.1493709686877895,
+          "bestSingleExtraGain": 8.860455454896119e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.06793423127330606,
+          "material": false
+        },
+        "1.5": {
+          "initialHV": 0.4144855204153617,
+          "currentHV": 0.4598747469026309,
+          "initialCurrentUnionHV": 0.4598747469026314,
+          "allPaidHV": 0.46021144457787017,
+          "unavailableUnionFractionPct": 0.07316151721250377,
+          "bestSingleExtraGain": 0.00016651279012726842,
+          "bestSingleExtraGainPctOfPaidHV": 0.036181801232692636,
+          "material": false
+        },
+        "2.0": {
+          "initialHV": 1.9883387985248855,
+          "currentHV": 2.119860815869306,
+          "initialCurrentUnionHV": 2.1198608158693046,
+          "allPaidHV": 2.1204812688595065,
+          "unavailableUnionFractionPct": 0.029260008061074125,
+          "bestSingleExtraGain": 0.0003223292612838828,
+          "bestSingleExtraGainPctOfPaidHV": 0.015200759658548953,
+          "material": false
+        }
+      }
+    },
+    {
+      "seed": 11730007,
+      "generation": 1,
+      "role": "CENTER",
+      "step": 49,
+      "paidFE": 3545,
+      "paidArchivePoints": 23,
+      "fullCurrentParents": 100,
+      "fullInitialParents": 100,
+      "references": {
+        "1.25": {
+          "initialHV": 0.11136807260827968,
+          "currentHV": 0.13570067060496943,
+          "initialCurrentUnionHV": 0.1357006706049697,
+          "allPaidHV": 0.13571584232202574,
+          "unavailableUnionFractionPct": 0.011179031715423884,
+          "bestSingleExtraGain": 1.5171717056309518e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.011179031715626947,
+          "material": false
+        },
+        "1.5": {
+          "initialHV": 0.4144855204153617,
+          "currentHV": 0.471870586608066,
+          "initialCurrentUnionHV": 0.47187058660806613,
+          "allPaidHV": 0.4718904012741351,
+          "unavailableUnionFractionPct": 0.004198997482356863,
+          "bestSingleExtraGain": 1.981466606913927e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.004198997482389633,
+          "material": false
+        },
+        "2.0": {
+          "initialHV": 1.9883387985248855,
+          "currentHV": 2.151149859731112,
+          "initialCurrentUnionHV": 2.151149859731113,
+          "allPaidHV": 2.1511789602952063,
+          "unavailableUnionFractionPct": 0.0013527728111061578,
+          "bestSingleExtraGain": 2.9100564094798784e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.0013527728111846777,
+          "material": false
+        }
+      }
+    },
+    {
+      "seed": 11730037,
+      "generation": 1,
+      "role": "CENTER",
+      "step": 0,
+      "paidFE": 850,
+      "paidArchivePoints": 26,
+      "fullCurrentParents": 100,
+      "fullInitialParents": 100,
+      "references": {
+        "1.25": {
+          "initialHV": 0.11612901385851349,
+          "currentHV": 0.11619503288058702,
+          "initialCurrentUnionHV": 0.11796572348025869,
+          "allPaidHV": 0.12233875682959151,
+          "unavailableUnionFractionPct": 3.574528189316264,
+          "bestSingleExtraGain": 0.003885515696701698,
+          "bestSingleExtraGainPctOfPaidHV": 3.1760300638937524,
+          "material": true
+        },
+        "1.5": {
+          "initialHV": 0.4271930210804056,
+          "currentHV": 0.4280032874868194,
+          "initialCurrentUnionHV": 0.4322313172714858,
+          "allPaidHV": 0.4421309149187197,
+          "unavailableUnionFractionPct": 2.2390647912629755,
+          "bestSingleExtraGain": 0.00916412094507279,
+          "bestSingleExtraGainPctOfPaidHV": 2.0727166176012597,
+          "material": true
+        },
+        "2.0": {
+          "initialHV": 2.028238151609401,
+          "currentHV": 2.0325108848444406,
+          "initialCurrentUnionHV": 2.044353817963521,
+          "allPaidHV": 2.0708997289416677,
+          "unavailableUnionFractionPct": 1.2818539983929116,
+          "bestSingleExtraGain": 0.025314516176924668,
+          "bestSingleExtraGainPctOfPaidHV": 1.2223921720179873,
+          "material": true
+        }
+      }
+    },
+    {
+      "seed": 11730037,
+      "generation": 1,
+      "role": "CENTER",
+      "step": 24,
+      "paidFE": 2170,
+      "paidArchivePoints": 52,
+      "fullCurrentParents": 100,
+      "fullInitialParents": 100,
+      "references": {
+        "1.25": {
+          "initialHV": 0.11612901385851349,
+          "currentHV": 0.13633898511456954,
+          "initialCurrentUnionHV": 0.13633898511456977,
+          "allPaidHV": 0.13642510679398964,
+          "unavailableUnionFractionPct": 0.06312744145395839,
+          "bestSingleExtraGain": 7.893092767081517e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.05785659951141234,
+          "material": false
+        },
+        "1.5": {
+          "initialHV": 0.4271930210804056,
+          "currentHV": 0.47384383613604586,
+          "initialCurrentUnionHV": 0.4738438361360462,
+          "allPaidHV": 0.47397375499688843,
+          "unavailableUnionFractionPct": 0.02741056007269651,
+          "bestSingleExtraGain": 0.0001185100767708156,
+          "bestSingleExtraGainPctOfPaidHV": 0.025003510325501802,
+          "material": false
+        },
+        "2.0": {
+          "initialHV": 2.028238151609401,
+          "currentHV": 2.15700546192269,
+          "initialCurrentUnionHV": 2.15700546192269,
+          "allPaidHV": 2.1572229751463765,
+          "unavailableUnionFractionPct": 0.01008301998413449,
+          "bestSingleExtraGain": 0.00019766837497081651,
+          "bestSingleExtraGainPctOfPaidHV": 0.009163094276677816,
+          "material": false
+        }
+      }
+    },
+    {
+      "seed": 11730037,
+      "generation": 1,
+      "role": "CENTER",
+      "step": 49,
+      "paidFE": 3545,
+      "paidArchivePoints": 67,
+      "fullCurrentParents": 100,
+      "fullInitialParents": 100,
+      "references": {
+        "1.25": {
+          "initialHV": 0.11612901385851349,
+          "currentHV": 0.1423230633949232,
+          "initialCurrentUnionHV": 0.14232306339492307,
+          "allPaidHV": 0.14237845083495976,
+          "unavailableUnionFractionPct": 0.03890156109430832,
+          "bestSingleExtraGain": 3.053655846630061e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.021447458015748145,
+          "material": false
+        },
+        "1.5": {
+          "initialHV": 0.4271930210804056,
+          "currentHV": 0.4880702937452619,
+          "initialCurrentUnionHV": 0.4880702937452619,
+          "allPaidHV": 0.4881466012236139,
+          "unavailableUnionFractionPct": 0.015632082280353076,
+          "bestSingleExtraGain": 3.993249907373101e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.00818043165180995,
+          "material": false
+        },
+        "2.0": {
+          "initialHV": 2.028238151609401,
+          "currentHV": 2.197646190709744,
+          "initialCurrentUnionHV": 2.1976461907097447,
+          "allPaidHV": 2.1977643382647267,
+          "unavailableUnionFractionPct": 0.005375806355806015,
+          "bestSingleExtraGain": 5.87243802885918e-05,
+          "bestSingleExtraGainPctOfPaidHV": 0.002672005331334041,
+          "material": false
+        }
+      }
+    }
+  ],
+  "scope": "Numeric availability only. No genotype or parent-history membership is inferred from objective absence. These are first-generation CENTER windows, with mostly MAKESPAN/earlier CENTER new supply, not all four roles or evidence of useful offspring."
+}

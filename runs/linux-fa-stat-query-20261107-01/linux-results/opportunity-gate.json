@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "contexts": [
+    {
+      "context": "104540",
+      "proposals": 128,
+      "changed": 126,
+      "byRole": {
+        "MAKESPAN": 32,
+        "CENTER": 31,
+        "ENERGY": 31,
+        "WORKER_COST": 32
+      },
+      "passed": true
+    },
+    {
+      "context": "179120",
+      "proposals": 128,
+      "changed": 117,
+      "byRole": {
+        "MAKESPAN": 29,
+        "CENTER": 30,
+        "ENERGY": 29,
+        "WORKER_COST": 29
+      },
+      "passed": true
+    },
+    {
+      "context": "228840",
+      "proposals": 128,
+      "changed": 109,
+      "byRole": {
+        "MAKESPAN": 27,
+        "CENTER": 26,
+        "ENERGY": 27,
+        "WORKER_COST": 29
+      },
+      "passed": true
+    }
+  ],
+  "newFE": 0,
+  "newQA": 0,
+  "queryConstructed": 1152,
+  "triggerRule": ">=26/128 physical differences, >=2 roles, all3 contexts",
+  "preparedHashes": {
+    "prepared/qa.jsonl": "ada77cf85c589e54d8d678ab133260c2b9e1d2ab06f29d5321a8cd7fbad01e0f",
+    "prepared/trees.json": "46f390baf453358700d716e412c7cb47b7ec04e25e0c9d1bb08896e1982fa972",
+    "prepared/queries.jsonl": "284b810886bda15c7f8a4864f166f425b159f303a968e21bf08a12fe298a52b2",
+    "prepared/schedule.jsonl": "8b30710029b226f52a7889d217fd5a68833cde5f96532b9e350991d1e21899da",
+    "prepared/native-fixture.tsv": "19c5e7fbdeda30ec935050e78e2217a6b02e330145f018021ff264b8a3b0f98c",
+    "prepared/qa/000.tsv": "f42d90de4f0bdda5f71137e2c1adc4e723d072c7e09b4a273b2393f8505451d6",
+    "prepared/paid/001.tsv": "50c0b810673d8547cf07c279e9c51471c281def1eb358d92c8536b249cb63eae",
+    "prepared/paid/000.tsv": "fa627bc77956fa889a729775ee2aa8de0c70e3fb78d94b81b06d3f2c1a8a50a6",
+    "prepared/paid/002.tsv": "7cf1a9bf5887355f49a5c7bf17b7a54140e3feb164d6eae0226e6ae8bfc5518d",
+    "prepared/paid/003.tsv": "93fd728bcb5171791b49f0738b15c5ab2cc161d9b2b84f1cc3907a65c05888d4"
+  },
+  "protocolSHA256": "87441840e5bb4ce39f8b2e406248191b8733aef30a52ce6ad2c0434dacf397f3"
+}

@@ -1,0 +1,66 @@
+{
+  "contract": {
+    "version": "CTX_FIRST_LOCAL_FORK_ENGINEERING-v1",
+    "registered": "2026-11-06",
+    "status": "READY_TO_IMPLEMENT_NOT_EXECUTED",
+    "engineeringOnly": true,
+    "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+    "sourceAuditSHA256": "af268026b87737841aa729f9228ce1d5595aa3c657437ed5e1be394c2f6a5c22",
+    "sourceEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-050127-857497",
+    "engineeringSeed": 14810003,
+    "maximumActualAttemptedFE": 500000,
+    "plannedFixedAttemptedFE": 392096,
+    "hypothesis": "FullQGS andfulljointlocalGOM may be overlyserial: localstartsfromQGSpoststates aftercombinationcompression. KeepactualQGScandidatebranch but allowonlyFIRSTlocalpass tostartfrompreQGS particle snapshots. Notpoolselector,operator,budgetratio,domainaccess orinitialencodingchange.",
+    "intervention": "Afteroriginaldecompose, snapshot100groupedparticles BEFOREQGS onlyifPRE_FIRST,cycle1; QGS/compose/50updates unchanged. Global-postsnapshotandreference remainactualG. GOMworkspaceandlocalreceivers useP snapshots insteadG onlythisfirstpass. EveryfollowingpassPOST. Finalpoolremains100actualG+100paidlocalexits withoriginalPDDR/familyquotas; no300pool,nomergeofunpaidoldparentresults.",
+    "kept": "Fourphysicalroles,scalar/CENTERpreferences,Qtable/actions/parameters,JOB_ALIGNED,80free4x5domains,models,FOS,livecompatible donors,all-paidinternalarchive,originalsharedpool/cap/eta andallchargedfees unchanged. Localbranch inheritsitsrealpreQGSpersonalhistory, globalbranch itsactualposthistory; thisislifecycleintervention,notfaithfulbaselinebugfix.",
+    "evidence": "OldGOMlocalstrongervsoldShared/Li,globalstage16/20HVdropsobservational,globalprefonecyclefailed,initialCONCATfailed. Initialfamilyprivateallelesnotcurrentall100supply,sofamilyaccessbranchstopped. Needcausalentrytestbeforemorelearning/globalgeneratorchanges.",
+    "distinction": "Old300parentkeepingaskedstaticcoverageandwasSKIPPED; thisdoesnotaddoldpointstocandidatepoolandcountsnewlocaloffspring. No reviveoldclosure. Independenthalfpoolorcommonworkingpooldifferent. InitialP/Galreadyinpaidprefix, anynewgainmustcomeafternewpaidlocalsteps. NotproofparallelismorGOMisnovel.",
+    "cases": [
+      {
+        "stem": "20_8_5_1",
+        "masterFE": 17741,
+        "firstLocalEnd": 8920,
+        "secondLocalEnd": 17740,
+        "passFees": 3820,
+        "cutoffs": [
+          1,
+          2,
+          5100,
+          5101,
+          8920,
+          17740
+        ]
+      },
+      {
+        "stem": "100_2_3_1",
+        "masterFE": 49821,
+        "firstLocalEnd": 24960,
+        "secondLocalEnd": 49820,
+        "passFees": 19860,
+        "cutoffs": [
+          1,
+          2,
+          5100,
+          5101,
+          24960,
+          49820
+        ]
+      }
+    ],
+    "master": "BothinstancesxSHARE/UNIFORMxPOST/PRE_FIRST complete2cycles+nextglobalfirstFE =270248FE. POSTwholepaidSHA/front mustmatchsourceengineering resolvedreuseifany. Everymasteroriginalpaidprefix throughFE5100same,allinitialsame. Thiscommonprefixisnot laterwholeRNGalignmentclaim.",
+    "cutoffs": "PRE_FIRST SHARE6cutoffsperinstance total121848FE; completepaidSHA mustequalmasterprefix. CoverFE1/2,globalend,firstlocalstep,firstlocalend,secondlocalend. No replace/reseedfailedrun.",
+    "timeline": "ExistingheavyGomEngineeringRun providesfulltimelineQAforeverypaidandneutralview,existingindependenttraceverifier checksallmodels/physicalproposals/archive/accept/FE. PREsourcecopiesmustbealready-paidsource,no futurevalue; 100receiverclaimsonce,domainsandfeesunchanged. Verifyrawgenes/objective/family/lineage/historybitssnapshotandfirstselectedinput; POSTsourcepathandlaterPOSTrestoreexact.",
+    "accounting": "Searchattempts=success=delegateDynamicEvaluation count forfixedruns,0failed; duplicate/fallbackcharged. HeavyQAseparatecost. Model/copy/IOclockretained,noqualityorsame-timeclaim. Originalfrozencoreanddefaultssourcehashesunchanged. SingleJVMsequentialXms32mXmx2g.",
+    "failure": "Stopengineeringonactualidentity/prefix/physics/cutoffmismatch;retainfailureandspentFE,fixengineeringonlyunderexplicitamendmentandremainingcap,notnewseed. No scientificqualitybeforeacceptance.",
+    "progression": "EngineeringpassonlypermitsseparateprospectivejointHV/IGD+/bidirectionalCmechanismpilotwithnativePOST,UNIFORMandmatchedNSGACTX,existing2instancesnewseeds. Needfirst-cycleentryeffectplusonefullrecoverycycle,notfull500kadvantage. Ifnegative,nointerventioncycleselection/frequency/horizon rescue.",
+    "defaultMainlineChanged": false,
+    "externalTransfers": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "e860642c68d52961e029e4963cbe9db4617fbccd1fcb5b753defd78039f940cf",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

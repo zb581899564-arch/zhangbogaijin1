@@ -1,0 +1,27 @@
+{
+  "newSearchFE": 0,
+  "newDecodes": 0,
+  "futureInformationAllowedOnlyForOfflineCapacity": true,
+  "sourceScope": "All paid production, excluding terminal composition",
+  "maxExpandedPerClosure": 1000000,
+  "maxFront": 50000,
+  "kernelSHA256": "2c5868e21098ef42553dc8f231d7d50d840751516fde833a55c5c58daeb80e0e",
+  "fixtures": [
+    {
+      "cartesian": 27,
+      "frontier": 7,
+      "status": "PASS"
+    },
+    {
+      "cartesian": 6,
+      "frontier": 6,
+      "status": "PASS"
+    },
+    {
+      "cartesian": 6,
+      "frontier": 2,
+      "status": "PASS"
+    }
+  ],
+  "floatingQualification": "Exact dyadic sums of recorded factory doubles, not bitwise complete decoder predictions"
+}

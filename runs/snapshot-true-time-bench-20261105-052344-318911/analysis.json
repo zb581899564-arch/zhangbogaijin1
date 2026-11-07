@@ -1,0 +1,358 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "seconds": 4.0,
+      "comparisons": [
+        {
+          "control": "FULL_SERIAL",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                0.004428836269276815,
+                0.04273992621353084,
+                0.006280401695990534
+              ],
+              "medianPct": 0.006280401695990534,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "1.5": {
+              "pairedPct": [
+                0.0018127199088890933,
+                0.025045383065580573,
+                0.002873982187656665
+              ],
+              "medianPct": 0.002873982187656665,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "2.0": {
+              "pairedPct": [
+                0.0006309828169515086,
+                0.013878419372836959,
+                0.0010998650818550004
+              ],
+              "medianPct": 0.0010998650818550004,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -0.2608268241542941,
+            -1.058598313462913,
+            -0.3386784966914805
+          ],
+          "medianIGDplusSymmetricWorseningPct": -0.3386784966914805
+        },
+        {
+          "control": "NSGA_ANCHOR",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                -8.040130445030325,
+                -3.3891084942210714,
+                -0.4496097399283805
+              ],
+              "medianPct": -3.3891084942210714,
+              "wins": 0,
+              "atLeastMinusOnePct": 1
+            },
+            "1.5": {
+              "pairedPct": [
+                -5.581384072994533,
+                -2.2048474107073,
+                -0.031399025600420405
+              ],
+              "medianPct": -2.2048474107073,
+              "wins": 0,
+              "atLeastMinusOnePct": 1
+            },
+            "2.0": {
+              "pairedPct": [
+                -3.5058689232823737,
+                -1.3260243422870244,
+                0.12494986106317274
+              ],
+              "medianPct": -1.3260243422870244,
+              "wins": 1,
+              "atLeastMinusOnePct": 1
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            177.80092231405598,
+            -8.668590472621801,
+            -10.124810156270756
+          ],
+          "medianIGDplusSymmetricWorseningPct": -8.668590472621801
+        },
+        {
+          "control": "LI_ANCHOR",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                1.3401841007743664,
+                5.752039783699914,
+                7.512306501954447
+              ],
+              "medianPct": 5.752039783699914,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "1.5": {
+              "pairedPct": [
+                0.9694994134042068,
+                3.9994478160470193,
+                5.14775404503518
+              ],
+              "medianPct": 3.9994478160470193,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "2.0": {
+              "pairedPct": [
+                0.6541107760452025,
+                2.5138774871849456,
+                3.2314168840060997
+              ],
+              "medianPct": 2.5138774871849456,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -9.187982406503298,
+            -119.04114953691716,
+            -109.02419562738682
+          ],
+          "medianIGDplusSymmetricWorseningPct": -109.02419562738682
+        },
+        {
+          "control": "FORCE_ANCHOR",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                -0.04186959298640991,
+                4.52858693451903,
+                7.06910423540974
+              ],
+              "medianPct": 4.52858693451903,
+              "wins": 2,
+              "atLeastMinusOnePct": 3
+            },
+            "1.5": {
+              "pairedPct": [
+                -0.07560884733451845,
+                3.0611602999527587,
+                4.918587789148243
+              ],
+              "medianPct": 3.0611602999527587,
+              "wins": 2,
+              "atLeastMinusOnePct": 3
+            },
+            "2.0": {
+              "pairedPct": [
+                -0.07865959166503123,
+                1.88922687299089,
+                3.1139908123195115
+              ],
+              "medianPct": 1.88922687299089,
+              "wins": 2,
+              "atLeastMinusOnePct": 3
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -14.105075855066715,
+            -110.02056129113544,
+            -107.07782540100791
+          ],
+          "medianIGDplusSymmetricWorseningPct": -107.07782540100791
+        }
+      ],
+      "ownTimeQualityGate": false,
+      "classicGate": false,
+      "baselineGate": true,
+      "referenceSensitivityGate": false,
+      "auxiliaryGate": true,
+      "primaryDevelopmentGate": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "seconds": 5.0,
+      "comparisons": [
+        {
+          "control": "FULL_SERIAL",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                0.2854028696378297,
+                0.8098927816511559,
+                3.9165177257852957
+              ],
+              "medianPct": 0.8098927816511559,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "1.5": {
+              "pairedPct": [
+                0.15269776914641486,
+                0.5659860353573798,
+                2.4198584886246044
+              ],
+              "medianPct": 0.5659860353573798,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "2.0": {
+              "pairedPct": [
+                0.06624987493604184,
+                0.353764265000156,
+                1.3827056286716655
+              ],
+              "medianPct": 0.353764265000156,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -24.230862370445227,
+            -42.37554649913334,
+            -10.439019180777713
+          ],
+          "medianIGDplusSymmetricWorseningPct": -24.230862370445227
+        },
+        {
+          "control": "NSGA_ANCHOR",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                -0.1603747382558529,
+                6.648280017447594,
+                -1.9746512369181124
+              ],
+              "medianPct": -0.1603747382558529,
+              "wins": 1,
+              "atLeastMinusOnePct": 2
+            },
+            "1.5": {
+              "pairedPct": [
+                -0.09772688537235119,
+                4.87628964295177,
+                -1.5072880160744706
+              ],
+              "medianPct": -0.09772688537235119,
+              "wins": 1,
+              "atLeastMinusOnePct": 2
+            },
+            "2.0": {
+              "pairedPct": [
+                -0.05871701060702339,
+                3.2631348100897073,
+                -1.0047609005670366
+              ],
+              "medianPct": -0.05871701060702339,
+              "wins": 1,
+              "atLeastMinusOnePct": 2
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -32.778956544643016,
+            -23.64834875017315,
+            67.70462683438575
+          ],
+          "medianIGDplusSymmetricWorseningPct": -23.64834875017315
+        },
+        {
+          "control": "LI_ANCHOR",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                -0.01637081137357832,
+                2.9710091315353404,
+                -4.563548743598345
+              ],
+              "medianPct": -0.01637081137357832,
+              "wins": 1,
+              "atLeastMinusOnePct": 2
+            },
+            "1.5": {
+              "pairedPct": [
+                1.3097673193314563,
+                2.31716285468897,
+                -3.3541707745976868
+              ],
+              "medianPct": 1.3097673193314563,
+              "wins": 2,
+              "atLeastMinusOnePct": 2
+            },
+            "2.0": {
+              "pairedPct": [
+                1.6260832286696836,
+                1.6018567169143738,
+                -2.2406047894794945
+              ],
+              "medianPct": 1.6018567169143738,
+              "wins": 2,
+              "atLeastMinusOnePct": 2
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -110.32851867829187,
+            -67.140267442589,
+            -0.9788566557592304
+          ],
+          "medianIGDplusSymmetricWorseningPct": -67.140267442589
+        },
+        {
+          "control": "FORCE_ANCHOR",
+          "effects": {
+            "1.25": {
+              "pairedPct": [
+                3.3382153816703397,
+                -0.7004491491008902,
+                2.977182786316823
+              ],
+              "medianPct": 2.977182786316823,
+              "wins": 2,
+              "atLeastMinusOnePct": 3
+            },
+            "1.5": {
+              "pairedPct": [
+                3.1582655386287684,
+                0.2952238448143074,
+                2.2370022483245933
+              ],
+              "medianPct": 2.2370022483245933,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            },
+            "2.0": {
+              "pairedPct": [
+                2.5104747103665837,
+                0.6549012522695907,
+                1.5505825149326524
+              ],
+              "medianPct": 1.5505825149326524,
+              "wins": 3,
+              "atLeastMinusOnePct": 3
+            }
+          },
+          "IGDplusSymmetricWorseningPct": [
+            -111.37581038846595,
+            -41.3151310743732,
+            -28.839131762993542
+          ],
+          "medianIGDplusSymmetricWorseningPct": -41.3151310743732
+        }
+      ],
+      "ownTimeQualityGate": false,
+      "classicGate": true,
+      "baselineGate": true,
+      "referenceSensitivityGate": false,
+      "auxiliaryGate": true,
+      "primaryDevelopmentGate": false
+    }
+  ],
+  "worthSeparateMechanismConfirmation": false,
+  "scope": "ActualTIME_LIMIT, two reused development instances and three new search seeds. Same-FE physics/search semantics are unchanged by the engineering kernel. A pass would still require role/sharing ablations, held-out instances, paper novelty and reproducibility; no automatic goal completion."
+}

@@ -1,0 +1,37 @@
+"""Predeclared v2 mechanism design; do not tune after seeing outcomes."""
+from copy import deepcopy
+from research.fatigue_mechanism.protocol import PROTOCOL as V1
+
+PROTOCOL = {
+    "version": "fatigue-topology-v2",
+    "scope": "diagnose local approximation, nonlinear/branch response and later dispatch changes; no optimizer",
+    "instances": deepcopy(V1["instances"]),
+    "parent_seeds": [11, 29, 67, 137, 307],
+    "setup_seed_base": V1["setup_seed_base"],
+    "profile_seed_base": V1["profile_seed_base"],
+    "profiles": deepcopy(V1["profiles"]),
+    "targets": deepcopy(V1["targets"]),
+    "pool_seed_base": 20261031,
+    "probe_relative_ST": [1e-5, .001, .01, .05],
+    "probe_jobs": 4,
+    "legal_pool_count": 16,
+    "pools": ["probe_1e-05", "probe_0.001", "probe_0.01", "probe_0.05", "legal_local", "legal_broad"],
+    "probe_scope": "paired +/- changes to first-stage ST for four fixed random jobs; sensitivity interventions, NOT legal optimizer genes",
+    "local_scope": "single-job machine/worker changes or same-factory adjacent JS swap; small edit count need not mean small duration change",
+    "broad_scope": "v1 same-factory two-job pool, regenerated on held-out parent seeds",
+    "prediction": "same v1 local-defect score; parent normalization fixed; no candidate truth or topology labels used",
+    "tangent": "base gradient times delta-base recorded separately on continuous probes",
+    "ordered_decomposition": ["cut-linear minus cheap prediction", "fixed-later minus cut-linear", "adaptive truth minus fixed-later"],
+    "cut_linear": "exact candidate stage0 + old downstream-only costates at stage boundary; diagnostic, not one of primary selectors",
+    "fixed_later": "exact candidate stage0, old later bindings/parent chains, recomputed earliest starts and fatigue; validated feasible counterfactual",
+    "strata": "post-hoc same full/later dependency graph with/without active-max or Cmax-sink changes; ECT execution order recorded separately",
+    "selection": "unconditional within pre-generated pools; fatigue/time-only/random uniform ties, reject-if-worse, same as v1",
+    "error": "normalized scalar MAE/WAPE; ordered signed errors sum exactly to truth-prediction; absolute component shares can cancel and are not unique causal shares",
+    "timing_repeats": 5,
+    "cache_pools_per_unchanged_parent": [1, 4, 16],
+    "cost_proxy": "(parent trace + adjoint)/q + generation + local defects + scores/choice + child trace; random uses minimal decode; q>1 only while parent unchanged",
+    "statistics": "paired instance/parent bootstrap 2000, each pool/profile/target/q separate; descriptive, no multiple-comparison significance claim",
+    "v1_exploration": "post-hoc strata of archived records only, no changed protocol or overwritten results; not independent validation",
+    "preservation": "new timestamp run, protocol/source snapshots before reading outcomes; preserve failures, count adaptive/fixed-later/stage0/timing calls separately",
+    "no_tuning": True,
+}

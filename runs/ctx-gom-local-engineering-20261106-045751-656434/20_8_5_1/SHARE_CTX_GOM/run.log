@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.IllegalStateException: Engineering failure retained
+	at research.dynamic.GomEngineeringRun.main(GomEngineeringRun.java:75)
+Caused by: java.lang.AssertionError: Working source was not observed as paid
+	at org.uma.jmetal.util.research.search.GomPaidRegistry.fee(GomPaidRegistry.java:23)
+	at org.uma.jmetal.util.research.search.GomWorkspace.prepare(GomWorkspace.java:32)
+	at org.uma.jmetal.util.research.search.GomRunScope.begin(GomRunScope.java:36)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.run(CanonicalHmopso.java:100)
+	at research.dynamic.GomEngineeringRun$Search.run(GomEngineeringRun.java:29)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.GomEngineeringRun.main(GomEngineeringRun.java:58)

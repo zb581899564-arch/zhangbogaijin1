@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "realEntryChecks": [
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_SPECIAL",
+      "FE": 20000,
+      "originalControlByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_DEMAND_SPECIAL",
+      "FE": 20000,
+      "originalControlByteExact": false
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE_SHAM_SPECIAL",
+      "FE": 20000,
+      "originalControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_SPECIAL",
+      "FE": 20000,
+      "originalControlByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_DEMAND_SPECIAL",
+      "FE": 20000,
+      "originalControlByteExact": false
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE_SHAM_SPECIAL",
+      "FE": 20000,
+      "originalControlByteExact": false
+    }
+  ],
+  "originalControlMatchesFrozen": true,
+  "fixedDeficitRoutingAndShamVerified": true,
+  "physicalScopeAndOriginalRandomDrawPreserved": true,
+  "poolAndQuotaReplay": true,
+  "timeInterruptions": [
+    "SHARE_SPECIAL",
+    "SHARE_DEMAND_SPECIAL",
+    "SHARE_SHAM_SPECIAL"
+  ],
+  "qualitySelectedParameters": false
+}

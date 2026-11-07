@@ -1,0 +1,356 @@
+{
+  "cases": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "kind": "FE",
+      "endpoint": 500000,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\FE-FULL_NAT",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\FE-NSGA_NAT",
+      "parentFrontPoints": 316,
+      "targetFrontPoints": 423,
+      "matchedStrictlyDominatedParents": 305,
+      "dominatedFraction": 0.9651898734177216,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 12.0,
+        "min": 7.0,
+        "max": 17.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 17.0,
+        "min": 13.0,
+        "max": 20.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.46875,
+        "min": 0.21875,
+        "max": 0.7878787878787878
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "kind": "TIME",
+      "endpoint": 4,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\TIME-FULL_NAT",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\20_8_5_1\\TIME-NSGA_NAT",
+      "parentFrontPoints": 248,
+      "targetFrontPoints": 184,
+      "matchedStrictlyDominatedParents": 244,
+      "dominatedFraction": 0.9838709677419355,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 12.0,
+        "min": 7.0,
+        "max": 13.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 18.0,
+        "min": 14.0,
+        "max": 20.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.4375,
+        "min": 0.22857142857142856,
+        "max": 0.7428571428571429
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "kind": "FE",
+      "endpoint": 100000,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\FE-13190007-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\FE-13190007-NSGA_OFF",
+      "parentFrontPoints": 155,
+      "targetFrontPoints": 150,
+      "matchedStrictlyDominatedParents": 154,
+      "dominatedFraction": 0.9935483870967742,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 12.0,
+        "min": 11.0,
+        "max": 16.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 17.0,
+        "min": 14.0,
+        "max": 20.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.5,
+        "min": 0.1935483870967742,
+        "max": 0.6571428571428571
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "kind": "TIME",
+      "endpoint": 4,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\TIME-13190007-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\TIME-13190007-NSGA_OFF",
+      "parentFrontPoints": 289,
+      "targetFrontPoints": 205,
+      "matchedStrictlyDominatedParents": 288,
+      "dominatedFraction": 0.9965397923875432,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 12.0,
+        "min": 10.0,
+        "max": 15.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 17.0,
+        "min": 13.0,
+        "max": 20.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.46190476190476193,
+        "min": 0.1935483870967742,
+        "max": 0.7096774193548387
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "kind": "FE",
+      "endpoint": 100000,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\FE-13190037-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\FE-13190037-NSGA_OFF",
+      "parentFrontPoints": 179,
+      "targetFrontPoints": 106,
+      "matchedStrictlyDominatedParents": 150,
+      "dominatedFraction": 0.8379888268156425,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 15.0,
+        "min": 12.0,
+        "max": 16.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 19.0,
+        "min": 15.0,
+        "max": 20.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.43243243243243246,
+        "min": 0.16216216216216217,
+        "max": 0.6176470588235294
+      }
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "kind": "TIME",
+      "endpoint": 4,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\TIME-13190037-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\20_8_5_1\\TIME-13190037-NSGA_OFF",
+      "parentFrontPoints": 222,
+      "targetFrontPoints": 121,
+      "matchedStrictlyDominatedParents": 214,
+      "dominatedFraction": 0.963963963963964,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 13.0,
+        "min": 11.0,
+        "max": 16.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 18.0,
+        "min": 14.0,
+        "max": 20.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.5142857142857142,
+        "min": 0.2647058823529412,
+        "max": 0.6764705882352942
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-FE",
+      "kind": "FE",
+      "endpoint": 500000,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\FE-FULL_NAT",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\FE-NSGA_NAT",
+      "parentFrontPoints": 635,
+      "targetFrontPoints": 526,
+      "matchedStrictlyDominatedParents": 412,
+      "dominatedFraction": 0.6488188976377953,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 65.0,
+        "min": 35.0,
+        "max": 74.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 90.0,
+        "min": 81.0,
+        "max": 96.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.48386128083293234,
+        "min": 0.4228187919463087,
+        "max": 0.5872057936028968
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 12390003,
+      "stratum": "NAT-TIME",
+      "kind": "TIME",
+      "endpoint": 5,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\TIME-FULL_NAT",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353\\100_2_3_1\\TIME-NSGA_NAT",
+      "parentFrontPoints": 420,
+      "targetFrontPoints": 173,
+      "matchedStrictlyDominatedParents": 240,
+      "dominatedFraction": 0.5714285714285714,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 62.0,
+        "min": 35.0,
+        "max": 71.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 89.0,
+        "min": 79.0,
+        "max": 96.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.4799398028468616,
+        "min": 0.4366110080395795,
+        "max": 0.5872057936028968
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-FE",
+      "kind": "FE",
+      "endpoint": 100000,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\FE-13190007-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\FE-13190007-NSGA_OFF",
+      "parentFrontPoints": 183,
+      "targetFrontPoints": 222,
+      "matchedStrictlyDominatedParents": 84,
+      "dominatedFraction": 0.45901639344262296,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 61.0,
+        "min": 57.0,
+        "max": 70.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 91.5,
+        "min": 85.0,
+        "max": 98.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.4954736883894416,
+        "min": 0.3799153055051422,
+        "max": 0.6086694762191451
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "stratum": "FRESH-OFF-TIME",
+      "kind": "TIME",
+      "endpoint": 5,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\TIME-13190007-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\TIME-13190007-NSGA_OFF",
+      "parentFrontPoints": 215,
+      "targetFrontPoints": 318,
+      "matchedStrictlyDominatedParents": 97,
+      "dominatedFraction": 0.4511627906976744,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 63.0,
+        "min": 57.0,
+        "max": 68.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 91.0,
+        "min": 84.0,
+        "max": 98.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.485160508782556,
+        "min": 0.3799153055051422,
+        "max": 0.6086694762191451
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-FE",
+      "kind": "FE",
+      "endpoint": 100000,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\FE-13190037-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\FE-13190037-NSGA_OFF",
+      "parentFrontPoints": 172,
+      "targetFrontPoints": 223,
+      "matchedStrictlyDominatedParents": 46,
+      "dominatedFraction": 0.26744186046511625,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 43.0,
+        "min": 43.0,
+        "max": 65.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 82.0,
+        "min": 75.0,
+        "max": 98.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.524484264164702,
+        "min": 0.4608745684695052,
+        "max": 0.5596046942557134
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "stratum": "FRESH-OFF-TIME",
+      "kind": "TIME",
+      "endpoint": 5,
+      "leftSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\TIME-13190037-FULL_OFF",
+      "rightSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\conditional-exchange-20261105-121825-633105\\100_2_3_1\\TIME-13190037-NSGA_OFF",
+      "parentFrontPoints": 296,
+      "targetFrontPoints": 241,
+      "matchedStrictlyDominatedParents": 115,
+      "dominatedFraction": 0.3885135135135135,
+      "dominatedParentsWithSomeSameFAObservedDominator": 0,
+      "minimumChangedFactoryJobs": {
+        "median": 61.0,
+        "min": 43.0,
+        "max": 76.0
+      },
+      "selectedChangedBundleJobs": {
+        "median": 87.0,
+        "min": 75.0,
+        "max": 98.0
+      },
+      "selectedWithinFactoryInversionFraction": {
+        "median": 0.5068903535050928,
+        "min": 0.4608745684695052,
+        "max": 0.5596046942557134
+      }
+    }
+  ],
+  "searchFE": 0,
+  "decoderCalls": 0,
+  "causalAttributionEstablished": false,
+  "goalAchieved": false
+}

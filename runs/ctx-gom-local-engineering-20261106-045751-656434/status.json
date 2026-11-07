@@ -1,0 +1,13 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "error": "RuntimeError('Command failed (1); see G:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\ctx-gom-local-engineering-20261106-045751-656434\\\\20_8_5_1\\\\SHARE_CTX_GOM\\\\run.log\\nException in thread \"main\" java.lang.IllegalStateException: Engineering failure retained\\n\\tat research.dynamic.GomEngineeringRun.main(GomEngineeringRun.java:75)\\nCaused by: java.lang.AssertionError: Working source was not observed as paid\\n\\tat org.uma.jmetal.util.research.search.GomPaidRegistry.fee(GomPaidRegistry.java:23)\\n\\tat org.uma.jmetal.util.research.search.GomWorkspace.prepare(GomWorkspace.java:32)\\n\\tat org.uma.jmetal.util.research.search.GomRunScope.begin(GomRunScope.java:36)\\n\\tat org.uma.jmetal.util.research.search.CanonicalHmopso.run(CanonicalHmopso.java:100)\\n\\tat research.dynamic.GomEngineeringRun$Search.run(GomEngineeringRun.java:29)\\n\\tat org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)\\n\\tat research.dynamic.GomEngineeringRun.main(GomEngineeringRun.java:58)\\n')",
+  "successfulFE": 54736,
+  "attemptedFE": 54736,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "paidFullTimelineQA": 54736,
+  "viewFullTimelineQA": 116,
+  "checkpointOfflineQA": 564,
+  "receiptCount": 9,
+  "goalAchieved": false
+}

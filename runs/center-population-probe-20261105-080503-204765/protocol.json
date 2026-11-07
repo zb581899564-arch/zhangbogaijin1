@@ -1,0 +1,71 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    12450003,
+    12450033
+  ],
+  "methods": {
+    "OFF": "OFF",
+    "FIXED_EA": "FIXED",
+    "UNIFORM_EA": "UNIFORM",
+    "TOURNAMENT_EA": "TOURNAMENT",
+    "NSGA": "OFF"
+  },
+  "candidate": "TOURNAMENT_EA",
+  "plannedDiagnosticFE": 102000,
+  "plannedNewEngineeringFE": 10200,
+  "reusedEngineeringFE": 500000,
+  "engineeringAmendment": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-population-probe-20261105-080354-637323 completedlongOFF reused after decodeNanos-only comparator correction; no search code change or repeated500k.",
+  "question": "Does population-level reproductive feedback in CENTER add value beyond changing its kernel and fresh-birth memory alone?",
+  "changed": "CENTER only: same-category parents, actual setting0 classic kernel, fresh child history, no CENTER Q agent. FIXED first parent is original slot; UNIFORM draws both uniformly; TOURNAMENT draws both by actual NSGA union ranks/crowding. Original FULL_ROLE survival remains and is not renamed NSGA. Union scores carried into next category-restricted tournaments, not truncated rescoring.",
+  "preserved": "Other3QGS roles50steps each, physical15/55/15/15, original families and perbatch quotas, original compose once pertargetslot with selected firstparent asreceiver, original local search untouched but never reached at5100. No cross-role donor, LP, path or selector.",
+  "controls": "OFF currentFULL; FIXED_EA samekernel/freshbirth without population parent pressure; UNIFORM_EA population reproduction without ranked pressure; actual NSGA100population/5000globalbirths. NSGA has no family sharing. Common100initialgenomes and physicalparameters.",
+  "gate": "Bothinstances medianHV1.5 TOURNAMENT vsOFF>=0.5%, vsFIXED/UNIFORM>=0.2%, vsNSGA>=-2%. Across4instance-seed pairs >=3positive versus eachOFF/FIXED/UNIFORM. Ref1.25/2 eachpair nonnegative vsall3 and>=-5%vsNSGA. Median symmetricIGD+worsening<=5%vsOFF/NSGA ineachinstance. Median actualsearchcost ratio<=1.25vsOFF/FIXED ineachinstance. Allnecessary, pass permits wholealgorithm closed-loop only. Failure stops thisfixed lifecycle, no seed/pressure/family/memory tuning or control promotion.",
+  "engineering": "ZeroDecoder union-score/category/RNG fixtures. OFF500k reproduce available old fronts/genomes/ledger/counters; short5100 OFF/base auditpair must have fullpaidSHA identical. Allattempts charged, endpoint genomesfullQAseparate. No longSHA claim where oldbaseline had audit disabled.",
+  "limits": "Developmentglobal-onlymechanism, not completealgorithm/fatigue-specificnovelty or same-time proof. Earlier conditionalparentweighting failed; this tests50batch nonlinear reproduction, not resampled one-step donor weights. No production edits, model expansion, localdownloads, transfer or push."
+}

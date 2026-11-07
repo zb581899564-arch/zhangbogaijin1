@@ -1,0 +1,50 @@
+{
+  "stem": "20_8_5_1",
+  "main": {
+    "passed": true,
+    "paidReconstructed": 15100,
+    "paidSHA256": "7f2c82bab315b0a486fd2129aacdd33c295b76def7112d8278774a95c673fb1d",
+    "prefixSHA256": {
+      "1": "a4a36f77eded100cc89280b53f99eb707aedd7822605f872a671802eb1d44068",
+      "2": "85ac2276f4681e627c403eed3ae53624665ff24b9be40dcbc7811a37e22fe154",
+      "100": "b12b20ae1a0d4d718a76d1ae7c3ed22aa6d191ea8148e40d6b6878940a791f0e",
+      "101": "b128c632e789ca7ae13c8be741f766d7f206a5ebbf9e03c7ad9879e9ccdaab13",
+      "102": "02d84013d25f0a1bfb007476f0384dff3d8716aee1c180fcabaf73bb992fab9b",
+      "15099": "b8d5108cf7782f20bd54a22d83bdc291343c9d0ee4b11514f37de1c043ea8fae",
+      "15100": "7f2c82bab315b0a486fd2129aacdd33c295b76def7112d8278774a95c673fb1d"
+    },
+    "completeGenerations": 2,
+    "completePrograms": 200,
+    "modelChecks": [
+      {
+        "componentPairs": 190,
+        "maximumAffinityError": 0.0,
+        "maximumMeanMergeDeficit": 0.0
+      },
+      {
+        "componentPairs": 190,
+        "maximumAffinityError": 0.0,
+        "maximumMeanMergeDeficit": 0.0
+      }
+    ],
+    "counts": {
+      "duplicates": 1445,
+      "accepted": 2663,
+      "fallbacks": 124,
+      "unchanged": 1195,
+      "programs": 200
+    },
+    "extraSearchFE": 0,
+    "decoderCalls": 0
+  },
+  "cutoffs": [
+    1,
+    2,
+    100,
+    101,
+    102,
+    15099
+  ],
+  "initial100EqualToOldPA": true,
+  "cutoffPaidDigestsMatchMainPrefixes": true
+}

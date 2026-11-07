@@ -1,0 +1,197 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "groups": [
+        {
+          "sourceMethod": "NSGA_STRICT",
+          "parents": 8,
+          "informativeParents": 5,
+          "candidateWinsVsRandom": 3,
+          "meanAddedHV": {
+            "FROZEN": 1.1953890637517173e-05,
+            "RANDOM": 1.6090445754568528e-05,
+            "CRITICAL": 0.0005685031380147365
+          },
+          "meanMakespanImprovementPct": {
+            "FROZEN": 0.0,
+            "RANDOM": 0.6801809044493918,
+            "CRITICAL": 2.791011076073975
+          },
+          "candidateMeanAddedHVPctOfBackground": 0.11922771090581477,
+          "candidateEffectsPct": {
+            "FROZEN": 4655.800059191563,
+            "RANDOM": 3433.1720866298724
+          },
+          "sensitivity": [
+            {
+              "reference": "1.25",
+              "means": {
+                "FROZEN": 7.122583272900496e-06,
+                "RANDOM": 9.982040827305472e-06,
+                "CRITICAL": 0.00020885840851858628
+              },
+              "candidatePositiveVsBoth": true
+            },
+            {
+              "reference": "2.0",
+              "means": {
+                "FROZEN": 2.161650536641746e-05,
+                "RANDOM": 2.830725560915015e-05,
+                "CRITICAL": 0.001794262031428684
+              },
+              "candidatePositiveVsBoth": true
+            }
+          ],
+          "qualityGate": false,
+          "medianRunCostVsRandom": 1.3252158725789265,
+          "necessaryCostGate": false
+        },
+        {
+          "sourceMethod": "STRICT_FULL",
+          "parents": 8,
+          "informativeParents": 3,
+          "candidateWinsVsRandom": 1,
+          "meanAddedHV": {
+            "FROZEN": 0.0002493872152685983,
+            "RANDOM": 4.9668130826519e-06,
+            "CRITICAL": 0.000465841020480362
+          },
+          "meanMakespanImprovementPct": {
+            "FROZEN": 0.4006889190521016,
+            "RANDOM": 0.4693094236133907,
+            "CRITICAL": 0.866667549062684
+          },
+          "candidateMeanAddedHVPctOfBackground": 0.09771444978271512,
+          "candidateEffectsPct": {
+            "FROZEN": 86.79426689080103,
+            "RANDOM": 9279.072913121152
+          },
+          "sensitivity": [
+            {
+              "reference": "1.25",
+              "means": {
+                "FROZEN": 8.713528302764506e-05,
+                "RANDOM": 3.135966952449998e-06,
+                "CRITICAL": 0.00016097916327265094
+              },
+              "candidatePositiveVsBoth": true
+            },
+            {
+              "reference": "2.0",
+              "means": {
+                "FROZEN": 0.0008168167945240001,
+                "RANDOM": 8.628505342556103e-06,
+                "CRITICAL": 0.001535873280793465
+              },
+              "candidatePositiveVsBoth": true
+            }
+          ],
+          "qualityGate": false,
+          "medianRunCostVsRandom": 1.0328999766139932,
+          "necessaryCostGate": true
+        }
+      ],
+      "independentHVCheckMaxError": 1.3322676295501878e-15,
+      "worthMatchedClosedLoop": false,
+      "limits": "Free M parents, olddevelopmenttrace,2paired samples. ActualVNS unchanged except method visibility. Finite256FEtask and recorded costs are not whole-method TIME_LIMIT, four-role-specific benefit or independent confirmation."
+    },
+    {
+      "stem": "100_2_3_1",
+      "groups": [
+        {
+          "sourceMethod": "NSGA_STRICT",
+          "parents": 8,
+          "informativeParents": 6,
+          "candidateWinsVsRandom": 4,
+          "meanAddedHV": {
+            "FROZEN": 3.565013424428054e-05,
+            "RANDOM": 3.0317014616976223e-05,
+            "CRITICAL": 0.00012457430555246063
+          },
+          "meanMakespanImprovementPct": {
+            "FROZEN": 0.41228210933956344,
+            "RANDOM": 0.8683948619970934,
+            "CRITICAL": 2.109896557922766
+          },
+          "candidateMeanAddedHVPctOfBackground": 0.023553153088235076,
+          "candidateEffectsPct": {
+            "FROZEN": 249.43572638144124,
+            "RANDOM": 310.90558264501544
+          },
+          "sensitivity": [
+            {
+              "reference": "1.25",
+              "means": {
+                "FROZEN": 1.935018866701388e-05,
+                "RANDOM": 1.6045650975501924e-05,
+                "CRITICAL": 4.855795309406663e-05
+              },
+              "candidatePositiveVsBoth": true
+            },
+            {
+              "reference": "2.0",
+              "means": {
+                "FROZEN": 7.785013236677463e-05,
+                "RANDOM": 6.845984886749701e-05,
+                "CRITICAL": 0.0003781623191922989
+              },
+              "candidatePositiveVsBoth": true
+            }
+          ],
+          "qualityGate": false,
+          "medianRunCostVsRandom": 1.0727208769112049,
+          "necessaryCostGate": true
+        },
+        {
+          "sourceMethod": "STRICT_FULL",
+          "parents": 8,
+          "informativeParents": 4,
+          "candidateWinsVsRandom": 1,
+          "meanAddedHV": {
+            "FROZEN": 1.757117885614612e-05,
+            "RANDOM": 5.284768577579202e-05,
+            "CRITICAL": 6.419876144628245e-05
+          },
+          "meanMakespanImprovementPct": {
+            "FROZEN": 0.5879226105536214,
+            "RANDOM": 0.7906351951421491,
+            "CRITICAL": 1.3132510020837171
+          },
+          "candidateMeanAddedHVPctOfBackground": 0.011290727742259692,
+          "candidateEffectsPct": {
+            "FROZEN": 265.3639973269451,
+            "RANDOM": 21.4788509730544
+          },
+          "sensitivity": [
+            {
+              "reference": "1.25",
+              "means": {
+                "FROZEN": 1.1655724103096232e-05,
+                "RANDOM": 2.2063244549022643e-05,
+                "CRITICAL": 2.6719167246710973e-05
+              },
+              "candidatePositiveVsBoth": true
+            },
+            {
+              "reference": "2.0",
+              "means": {
+                "FROZEN": 2.9402088362107115e-05,
+                "RANDOM": 0.00014952688922431623,
+                "CRITICAL": 0.0001825321713038175
+              },
+              "candidatePositiveVsBoth": true
+            }
+          ],
+          "qualityGate": false,
+          "medianRunCostVsRandom": 0.9993897286960964,
+          "necessaryCostGate": true
+        }
+      ],
+      "independentHVCheckMaxError": 1.3322676295501878e-15,
+      "worthMatchedClosedLoop": false,
+      "limits": "Free M parents, olddevelopmenttrace,2paired samples. ActualVNS unchanged except method visibility. Finite256FEtask and recorded costs are not whole-method TIME_LIMIT, four-role-specific benefit or independent confirmation."
+    }
+  ],
+  "worthMatchedClosedLoop": false
+}

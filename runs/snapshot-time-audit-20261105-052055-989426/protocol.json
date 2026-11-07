@@ -1,0 +1,15 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-anchor-audit-20261105-051047-172151",
+  "costSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-cost-bench-20261105-051417-528436",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seed": 10950003,
+  "plannedFixedFE": 2000000,
+  "fixedModes": "Both algorithms ANCHOR, infinite T, same500000FE old ledger.",
+  "scope": "New observer entry, same actual frozen search/physics classes. Deadline-only ledger permits unspent last slot/remaining rows ONLY when context clock has reached the registered T. Before that, original strict assertions remain. No scheduling operator or acceptance changes.",
+  "acceptance": "2models x2algorithms infiniteT full paidSHA must match accepted ANCHOR source; sameFE fronts, initials, ledger and search counters. ZeroFE forcedGLOBAL/INTER/INTRA cutoff fixtures and strict rejection. Actual T=0 and T=0.5s probes verify fee accounting, no future genomes, partial ledger and full physical QA.",
+  "timeAccounting": "Report attempted/successful/time-interrupted separately. No genuine evaluation failure allowed. All reported TIME fronts come from completed<=T admission evidence, never raw end archive.",
+  "limits": "Engineering only. Finite cutoffs not quality comparisons or new seeds. Actual fees retained on failure."
+}

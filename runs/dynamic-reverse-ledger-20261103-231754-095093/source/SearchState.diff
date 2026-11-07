@@ -1,0 +1,12 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-deep-roles-20261103-212007-121034\source\SearchState.java
++++ SearchState.java
+@@ -61,6 +61,9 @@
+     }
+     void count(String key) { counts.put(key, counts.getOrDefault(key, 0L) + 1); }
+     void observationGroup(Direction group) { observationGroup = group; }
++    void checkLocalSlot() {
++        ((org.uma.jmetal.util.research.runtime.BudgetedProblem<?>) problem).checkpoint();
++    }
+     int ledgerGroup(Direction preference) {
+         return (observationGroup == null ? preference : observationGroup).id();
+     }

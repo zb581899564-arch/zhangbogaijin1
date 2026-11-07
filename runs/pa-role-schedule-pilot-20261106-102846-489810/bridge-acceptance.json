@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "arm": "NATIVE",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "TASK_ONLY",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "ORDER_ONLY",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "FULL",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "RANDOM",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "CENTER_MATCHED",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "PA_EQUAL",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "QPA_DIRECT",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA2_DEEP",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA_CTX_GOM",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "FULL_SHARED_DEEP",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "LI_RECON_DEEP",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NATIVE",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "TASK_ONLY",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "ORDER_ONLY",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "FULL",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "RANDOM",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "CENTER_MATCHED",
+      "heavyLightWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "PA_EQUAL",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "QPA_DIRECT",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA2_DEEP",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA_CTX_GOM",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "FULL_SHARED_DEEP",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "LI_RECON_DEEP",
+      "oldNewWholePaidTraceInitialAndFrontEqual": true
+    }
+  ],
+  "runs": 36,
+  "successfulFE": 409248,
+  "attemptedFE": 409248,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 6340
+}

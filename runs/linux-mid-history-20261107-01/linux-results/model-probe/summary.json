@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "contexts": [
+    {
+      "cycle": 5,
+      "postFE": 104540,
+      "matrixMeanAbsChange": 0.053471039013586276,
+      "matrixMaxAbsChange": 0.7798333436452685,
+      "nativeNontrivialBlocks": 98,
+      "commonNontrivialBlocks": 29,
+      "changedBlocks": 69,
+      "nativeIndependentError": 2.220446049250313e-16,
+      "hybridIndependentError": 2.220446049250313e-16
+    },
+    {
+      "cycle": 6,
+      "postFE": 129400,
+      "matrixMeanAbsChange": 0.0813063047881944,
+      "matrixMaxAbsChange": 0.9239878139677372,
+      "nativeNontrivialBlocks": 98,
+      "commonNontrivialBlocks": 21,
+      "changedBlocks": 77,
+      "nativeIndependentError": 2.220446049250313e-16,
+      "hybridIndependentError": 2.220446049250313e-16
+    },
+    {
+      "cycle": 7,
+      "postFE": 154260,
+      "matrixMeanAbsChange": 0.07578678806526998,
+      "matrixMaxAbsChange": 0.8811697694587066,
+      "nativeNontrivialBlocks": 98,
+      "commonNontrivialBlocks": 46,
+      "changedBlocks": 52,
+      "nativeIndependentError": 2.220446049250313e-16,
+      "hybridIndependentError": 2.220446049250313e-16
+    },
+    {
+      "cycle": 8,
+      "postFE": 179120,
+      "matrixMeanAbsChange": 0.04151703211051795,
+      "matrixMaxAbsChange": 0.8302201604339274,
+      "nativeNontrivialBlocks": 98,
+      "commonNontrivialBlocks": 45,
+      "changedBlocks": 53,
+      "nativeIndependentError": 2.220446049250313e-16,
+      "hybridIndependentError": 3.3306690738754696e-16
+    },
+    {
+      "cycle": 9,
+      "postFE": 203980,
+      "matrixMeanAbsChange": 0.07186902606341912,
+      "matrixMaxAbsChange": 0.9766833575465769,
+      "nativeNontrivialBlocks": 98,
+      "commonNontrivialBlocks": 27,
+      "changedBlocks": 71,
+      "nativeIndependentError": 2.220446049250313e-16,
+      "hybridIndependentError": 2.220446049250313e-16
+    },
+    {
+      "cycle": 10,
+      "postFE": 228840,
+      "matrixMeanAbsChange": 0.04117335541776272,
+      "matrixMaxAbsChange": 0.760512158538149,
+      "nativeNontrivialBlocks": 98,
+      "commonNontrivialBlocks": 51,
+      "changedBlocks": 47,
+      "nativeIndependentError": 2.220446049250313e-16,
+      "hybridIndependentError": 2.220446049250313e-16
+    }
+  ],
+  "newFE": 0,
+  "newDecoderQA": 0,
+  "newCandidates": 0,
+  "meaning": "algebraic model opportunity only, not value of counterfactual schedules",
+  "sourceSHA256": "59f5ee82e9d5af3e828fe568f1cb33f8b5f306a7f09199fcb119509343d8bc6a",
+  "classSHA256": {
+    "research/dynamic/HistoryLinkage.class": "76ff71ac8a9ed757e2af2afca58a54f4bad71d5ed9746e2c5cfedffd028ec931"
+  }
+}

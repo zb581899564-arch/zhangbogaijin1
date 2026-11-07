@@ -1,0 +1,75 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\global-working-audit-20261105-055724-963327",
+  "base": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\schedule-factor-probe-20261105-124946-994085",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "engineeringCorrection": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\prefix-state-probe-20261105-131717-509469\\engineering-invalidity.json",
+  "seeds": [
+    11730007,
+    11730037
+  ],
+  "methods": [
+    "PARENT",
+    "TEACHER",
+    "PREFIX",
+    "ORDER_CONTROL",
+    "CONTEXT_CONTROL"
+  ],
+  "plannedFE": 10240,
+  "question": "Does copying a real factory first-stage prefix through its first worker reuse preserve teacher state and produce useful new schedules beyond matched order/context controls?",
+  "sourceWindow": "Reuse existing first-generation WORKER_COST step49 actualIndices at paidFE5100. All four roles have completed their global updates. First100 parent points use frozen Direction.values order15M,55C,15E,15W; additional15 children belong to W. category0 only: free80; do not change or invent protected-family labels.",
+  "sampling": "Each source:8 equally spaced CENTER receiver indices and8 equally spaced teacher indices in EACH of four roles, stable actual selection order. All512pairs per instance across2seeds. Factory=(receiverRank+teacherRank)%factoryCount. Same receiver/factory and teacher draw count for all roles. No gain-based selection, replacement, deduplication or missing-sample repair.",
+  "unit": "Shortest teacher first-stage factory chain ending at first repeated worker. Copy all its jobs with complete(factory,machine,worker) tuples. Other jobs retain receiver tuples. PREFIX puts ordered block first; ORDER_CONTROL puts same jobs/tuples first in receiver relative order; CONTEXT_CONTROL puts ordered teacher block last. All other within-factory receiver chains retained. Neutral cross-factory interleaving canonicalized in all3children.",
+  "fallback": "No repeated worker or any emptied receiver factory: all3children equal original receiver, fully paid. Never shorten block, repair, resample, or omit pair. Source parent/teacher always paid. Identity/repeated physical candidates counted and reported.",
+  "engineering": "Same frozen decoder/FAM policy, repair0. Every candidate paid through RunContext and independent full timeline QA. Dynamic PARENT/TEACHER objectives must exactly replay paid sources. For every eligible PREFIX, compare ALL teacher first-stage prefix operation identifiers and10numeric fields bit-exact, with identical leading job order. No claim later stages or whole factory remain identical. Preserve receipts on failure.",
+  "beta0": "Evaluate exactly same genes with only beta0, retaining alpha/mu/h0 and decoder policy; independently check parameter contract. Parent-singleton HV scoring identical in both models. Dynamic source selection remains a limitation; no beta0 optimization or unbiased landscape claim.",
+  "primaryScore": "DYNAMIC single-child HV gain against common original paid archive at5100, ref1.5 and original scales. Do not add enumeration outputs to background. PARENT/TEACHER must have zero new volume. Parent-relative gains secondary in BOTH models. No union of all teacher draws advertised as one candidate gain.",
+  "prefixGate": "BOTH instances: >=25% eligible pairs with both seeds represented; >=25% of16preselected receivers have PREFIX singlechild gain>=0.1% of common paid archiveHV; mean PREFIX gain >0 and >=1.05*max(meanORDER,meanCONTEXT); paired PREFIX-vs-max(ORDER,CONTEXT) wins>losses. Direction of mean difference must remain positive at reference1.25and2.0. Only permits a separate small continuation study, never full algorithm promotion.",
+  "roleGate": "Separate necessary condition for a four-role supply claim: for same8draw budgets, mean PREFIX gain averaged equally over M/E/W >=1.05*CENTER and positive, receiver-paired mean M/E/W wins>CENTER losses in BOTH instances. Report all roles, not maximum among3 as equal cost. Real-source association, not causal proof of responsibility specialization without matched UNIFORM source control.",
+  "stop": "Failing prefixGate stops this first-worker-reuse prefix rule. No block-length, factory, source window, role subset, seed, threshold, context or ordering scan to rescue it. If prefix passes but role fails, do not claim distinctive four-group collaboration.",
+  "limits": "Offline finite-sample mechanism probe; no same-time/complete-algorithm claim, new sharing selector, Q, budget allocation, production change or external transfer. Observation, construction, paid evaluation and full-QA times separate where possible."
+}

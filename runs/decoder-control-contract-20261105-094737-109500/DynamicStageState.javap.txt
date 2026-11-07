@@ -1,0 +1,230 @@
+Compiled from "DynamicStageState.java"
+final class org.uma.jmetal.util.research.model.DynamicStageState implements java.io.Serializable {
+  private static final long serialVersionUID;
+
+  final int factory;
+
+  final int stage;
+
+  final double[] machineEnd;
+
+  final double[] workerEnd;
+
+  final double[] workerFatigue;
+
+  final double[] workerExposure;
+
+  final boolean[] machineUsed;
+
+  org.uma.jmetal.util.research.model.DynamicStageState(org.uma.jmetal.util.research.model.Instance, org.uma.jmetal.util.research.model.DynamicParameters, int, int);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iload_3
+       6: putfield      #7                  // Field factory:I
+       9: aload_0
+      10: iload         4
+      12: putfield      #13                 // Field stage:I
+      15: aload_0
+      16: aload_1
+      17: iload_3
+      18: iload         4
+      20: invokevirtual #16                 // Method org/uma/jmetal/util/research/model/Instance.machines:(II)I
+      23: newarray       double
+      25: putfield      #22                 // Field machineEnd:[D
+      28: aload_0
+      29: aload_0
+      30: getfield      #22                 // Field machineEnd:[D
+      33: arraylength
+      34: newarray       boolean
+      36: putfield      #26                 // Field machineUsed:[Z
+      39: aload_0
+      40: aload_1
+      41: iload_3
+      42: iload         4
+      44: invokevirtual #30                 // Method org/uma/jmetal/util/research/model/Instance.workers:(II)I
+      47: newarray       double
+      49: putfield      #33                 // Field workerEnd:[D
+      52: aload_0
+      53: aload_0
+      54: getfield      #33                 // Field workerEnd:[D
+      57: arraylength
+      58: newarray       double
+      60: putfield      #36                 // Field workerFatigue:[D
+      63: aload_0
+      64: aload_0
+      65: getfield      #33                 // Field workerEnd:[D
+      68: arraylength
+      69: newarray       double
+      71: putfield      #39                 // Field workerExposure:[D
+      74: iconst_0
+      75: istore        5
+      77: iload         5
+      79: aload_0
+      80: getfield      #33                 // Field workerEnd:[D
+      83: arraylength
+      84: if_icmpge     109
+      87: aload_0
+      88: getfield      #36                 // Field workerFatigue:[D
+      91: iload         5
+      93: aload_2
+      94: iload_3
+      95: iload         4
+      97: iload         5
+      99: invokevirtual #42                 // Method org/uma/jmetal/util/research/model/DynamicParameters.h0:(III)D
+     102: dastore
+     103: iinc          5, 1
+     106: goto          77
+     109: return
+
+  private org.uma.jmetal.util.research.model.DynamicStageState(org.uma.jmetal.util.research.model.DynamicStageState);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: getfield      #7                  // Field factory:I
+       9: putfield      #7                  // Field factory:I
+      12: aload_0
+      13: aload_1
+      14: getfield      #13                 // Field stage:I
+      17: putfield      #13                 // Field stage:I
+      20: aload_0
+      21: aload_1
+      22: getfield      #22                 // Field machineEnd:[D
+      25: invokevirtual #48                 // Method "[D".clone:()Ljava/lang/Object;
+      28: checkcast     #49                 // class "[D"
+      31: putfield      #22                 // Field machineEnd:[D
+      34: aload_0
+      35: aload_1
+      36: getfield      #26                 // Field machineUsed:[Z
+      39: invokevirtual #53                 // Method "[Z".clone:()Ljava/lang/Object;
+      42: checkcast     #54                 // class "[Z"
+      45: putfield      #26                 // Field machineUsed:[Z
+      48: aload_0
+      49: aload_1
+      50: getfield      #33                 // Field workerEnd:[D
+      53: invokevirtual #48                 // Method "[D".clone:()Ljava/lang/Object;
+      56: checkcast     #49                 // class "[D"
+      59: putfield      #33                 // Field workerEnd:[D
+      62: aload_0
+      63: aload_1
+      64: getfield      #36                 // Field workerFatigue:[D
+      67: invokevirtual #48                 // Method "[D".clone:()Ljava/lang/Object;
+      70: checkcast     #49                 // class "[D"
+      73: putfield      #36                 // Field workerFatigue:[D
+      76: aload_0
+      77: aload_1
+      78: getfield      #39                 // Field workerExposure:[D
+      81: invokevirtual #48                 // Method "[D".clone:()Ljava/lang/Object;
+      84: checkcast     #49                 // class "[D"
+      87: putfield      #39                 // Field workerExposure:[D
+      90: return
+
+  org.uma.jmetal.util.research.model.DynamicStageState copy();
+    Code:
+       0: new           #8                  // class org/uma/jmetal/util/research/model/DynamicStageState
+       3: dup
+       4: aload_0
+       5: invokespecial #55                 // Method "<init>":(Lorg/uma/jmetal/util/research/model/DynamicStageState;)V
+       8: areturn
+
+  org.uma.jmetal.util.research.model.DynamicStep preview(org.uma.jmetal.util.research.model.Instance, org.uma.jmetal.util.research.model.DynamicParameters, int, int, int, double);
+    Code:
+       0: aload_1
+       1: aload_2
+       2: iload_3
+       3: aload_0
+       4: getfield      #7                  // Field factory:I
+       7: aload_0
+       8: getfield      #13                 // Field stage:I
+      11: iload         4
+      13: iload         5
+      15: dload         6
+      17: aload_0
+      18: getfield      #22                 // Field machineEnd:[D
+      21: iload         4
+      23: daload
+      24: aload_0
+      25: getfield      #26                 // Field machineUsed:[Z
+      28: iload         4
+      30: baload
+      31: aload_0
+      32: getfield      #33                 // Field workerEnd:[D
+      35: iload         5
+      37: daload
+      38: aload_0
+      39: getfield      #36                 // Field workerFatigue:[D
+      42: iload         5
+      44: daload
+      45: invokestatic  #58                 // Method org/uma/jmetal/util/research/model/DynamicPhysics.transition:(Lorg/uma/jmetal/util/research/model/Instance;Lorg/uma/jmetal/util/research/model/DynamicParameters;IIIIIDDZDD)Lorg/uma/jmetal/util/research/model/DynamicStep;
+      48: areturn
+
+  void accept(org.uma.jmetal.util.research.model.DynamicStep);
+    Code:
+       0: aload_1
+       1: invokevirtual #64                 // Method org/uma/jmetal/util/research/model/DynamicStep.machine:()I
+       4: istore_2
+       5: aload_1
+       6: invokevirtual #70                 // Method org/uma/jmetal/util/research/model/DynamicStep.worker:()I
+       9: istore_3
+      10: aload_0
+      11: getfield      #22                 // Field machineEnd:[D
+      14: iload_2
+      15: aload_1
+      16: invokevirtual #73                 // Method org/uma/jmetal/util/research/model/DynamicStep.completion:()D
+      19: dastore
+      20: aload_0
+      21: getfield      #26                 // Field machineUsed:[Z
+      24: iload_2
+      25: iconst_1
+      26: bastore
+      27: aload_0
+      28: getfield      #33                 // Field workerEnd:[D
+      31: iload_3
+      32: aload_1
+      33: invokevirtual #73                 // Method org/uma/jmetal/util/research/model/DynamicStep.completion:()D
+      36: dastore
+      37: aload_0
+      38: getfield      #36                 // Field workerFatigue:[D
+      41: iload_3
+      42: aload_1
+      43: invokevirtual #77                 // Method org/uma/jmetal/util/research/model/DynamicStep.v:()D
+      46: dastore
+      47: aload_0
+      48: getfield      #39                 // Field workerExposure:[D
+      51: iload_3
+      52: dup2
+      53: daload
+      54: aload_1
+      55: invokevirtual #80                 // Method org/uma/jmetal/util/research/model/DynamicStep.exposure:()D
+      58: dadd
+      59: dastore
+      60: return
+
+  static int firstAvailable(double[]);
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iconst_1
+       3: istore_2
+       4: iload_2
+       5: aload_0
+       6: arraylength
+       7: if_icmpge     28
+      10: aload_0
+      11: iload_2
+      12: daload
+      13: aload_0
+      14: iload_1
+      15: daload
+      16: dcmpg
+      17: ifge          22
+      20: iload_2
+      21: istore_1
+      22: iinc          2, 1
+      25: goto          4
+      28: iload_1
+      29: ireturn
+}

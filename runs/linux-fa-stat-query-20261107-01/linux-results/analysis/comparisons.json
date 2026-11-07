@@ -1,0 +1,566 @@
+[
+  {
+    "context": "104540",
+    "background": "S_archive",
+    "control": "POST_FA",
+    "HVpercent": -0.017336967953995863,
+    "HVsensitivity": {
+      "1.25": -0.03617174202958928,
+      "1.5": -0.017336967953995863,
+      "2.0": -0.006842954049934846
+    },
+    "IGDplusImprovementPercent": -0.3085827940662949,
+    "IGDplusAbsoluteReduction": -5.4142045718970355e-05,
+    "IGDImprovementPercent": -0.47309230511497524,
+    "C_A_B": {
+      "covered": 469,
+      "denominator": 476,
+      "C": 0.9852941176470589
+    },
+    "C_B_A": {
+      "covered": 471,
+      "denominator": 475,
+      "C": 0.991578947368421
+    },
+    "coverageDifferencePP": -0.6284829721362128,
+    "acceptedOnlyComparison": {
+      "HVpercent": 3.320503829673527e-05,
+      "HVsensitivity": {
+        "1.25": 4.7102430023038266e-05,
+        "1.5": 3.320503829673527e-05,
+        "2.0": 1.7255690920592315e-05
+      },
+      "IGDplusImprovementPercent": 0.007311774718328054,
+      "IGDplusAbsoluteReduction": 1.287995133263109e-06,
+      "IGDImprovementPercent": 0.011428174927475896,
+      "C_A_B": {
+        "covered": 471,
+        "denominator": 472,
+        "C": 0.9978813559322034
+      },
+      "C_B_A": {
+        "covered": 471,
+        "denominator": 472,
+        "C": 0.9978813559322034
+      },
+      "coverageDifferencePP": 0.0
+    }
+  },
+  {
+    "context": "104540",
+    "background": "S_archive",
+    "control": "RANDOM_FOS",
+    "HVpercent": 0.007838148052363714,
+    "HVsensitivity": {
+      "1.25": 0.016975912322547693,
+      "1.5": 0.007838148052363714,
+      "2.0": 0.002977695922501411
+    },
+    "IGDplusImprovementPercent": 0.2094366880221005,
+    "IGDplusAbsoluteReduction": 3.6841754355393386e-05,
+    "IGDImprovementPercent": 0.2525600058732122,
+    "C_A_B": {
+      "covered": 469,
+      "denominator": 472,
+      "C": 0.9936440677966102
+    },
+    "C_B_A": {
+      "covered": 471,
+      "denominator": 475,
+      "C": 0.991578947368421
+    },
+    "coverageDifferencePP": 0.20651204281891822,
+    "acceptedOnlyComparison": {
+      "HVpercent": 3.3668675714082497e-05,
+      "HVsensitivity": {
+        "1.25": 4.839965104252997e-05,
+        "1.5": 3.3668675714082497e-05,
+        "2.0": 1.7377008987295994e-05
+      },
+      "IGDplusImprovementPercent": 0.007311774718328054,
+      "IGDplusAbsoluteReduction": 1.287995133263109e-06,
+      "IGDImprovementPercent": 0.011775591637299907,
+      "C_A_B": {
+        "covered": 471,
+        "denominator": 471,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 471,
+        "denominator": 472,
+        "C": 0.9978813559322034
+      },
+      "coverageDifferencePP": 0.21186440677966045
+    }
+  },
+  {
+    "context": "104540",
+    "background": "A0",
+    "control": "POST_FA",
+    "HVpercent": -0.01380894404037214,
+    "HVsensitivity": {
+      "1.25": -0.028548451877308256,
+      "1.5": -0.01380894404037214,
+      "2.0": -0.005497844372104321
+    },
+    "IGDplusImprovementPercent": -0.288798217789263,
+    "IGDplusAbsoluteReduction": -8.101217566509195e-05,
+    "IGDImprovementPercent": -0.05571754811247119,
+    "C_A_B": {
+      "covered": 640,
+      "denominator": 647,
+      "C": 0.9891808346213292
+    },
+    "C_B_A": {
+      "covered": 642,
+      "denominator": 646,
+      "C": 0.9938080495356038
+    },
+    "coverageDifferencePP": -0.46272149142745356,
+    "acceptedOnlyComparison": {
+      "HVpercent": 3.240364643275484e-05,
+      "HVsensitivity": {
+        "1.25": 4.5566067785607345e-05,
+        "1.5": 3.240364643275484e-05,
+        "2.0": 1.6978076566864786e-05
+      },
+      "IGDplusImprovementPercent": 0.003139900594317351,
+      "IGDplusAbsoluteReduction": 8.820743010590215e-07,
+      "IGDImprovementPercent": 0.005511309429292197,
+      "C_A_B": {
+        "covered": 643,
+        "denominator": 644,
+        "C": 0.9984472049689441
+      },
+      "C_B_A": {
+        "covered": 643,
+        "denominator": 644,
+        "C": 0.9984472049689441
+      },
+      "coverageDifferencePP": 0.0
+    }
+  },
+  {
+    "context": "104540",
+    "background": "A0",
+    "control": "RANDOM_FOS",
+    "HVpercent": 0.005468641979544664,
+    "HVsensitivity": {
+      "1.25": 0.011615833703859657,
+      "1.5": 0.005468641979544664,
+      "2.0": 0.0021184820981234864
+    },
+    "IGDplusImprovementPercent": 0.003139900594317351,
+    "IGDplusAbsoluteReduction": 8.820743010590215e-07,
+    "IGDImprovementPercent": 0.005660857429949096,
+    "C_A_B": {
+      "covered": 641,
+      "denominator": 644,
+      "C": 0.9953416149068323
+    },
+    "C_B_A": {
+      "covered": 642,
+      "denominator": 646,
+      "C": 0.9938080495356038
+    },
+    "coverageDifferencePP": 0.1533565371228507,
+    "acceptedOnlyComparison": {
+      "HVpercent": 3.285609411207702e-05,
+      "HVsensitivity": {
+        "1.25": 4.682097671793173e-05,
+        "1.5": 3.285609411207702e-05,
+        "2.0": 1.7097442839286714e-05
+      },
+      "IGDplusImprovementPercent": 0.003139900594317351,
+      "IGDplusAbsoluteReduction": 8.820743010590215e-07,
+      "IGDImprovementPercent": 0.005660857429949096,
+      "C_A_B": {
+        "covered": 643,
+        "denominator": 643,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 643,
+        "denominator": 644,
+        "C": 0.9984472049689441
+      },
+      "coverageDifferencePP": 0.15527950310558758
+    }
+  },
+  {
+    "context": "179120",
+    "background": "S_archive",
+    "control": "POST_FA",
+    "HVpercent": -0.007174071597959575,
+    "HVsensitivity": {
+      "1.25": -0.013892566055451194,
+      "1.5": -0.007174071597959575,
+      "2.0": -0.003030067200671116
+    },
+    "IGDplusImprovementPercent": -0.15373661715062398,
+    "IGDplusAbsoluteReduction": -7.168918060071645e-06,
+    "IGDImprovementPercent": -0.29353068141824395,
+    "C_A_B": {
+      "covered": 718,
+      "denominator": 721,
+      "C": 0.9958391123439667
+    },
+    "C_B_A": {
+      "covered": 722,
+      "denominator": 724,
+      "C": 0.9972375690607734
+    },
+    "coverageDifferencePP": -0.13984567168067175,
+    "acceptedOnlyComparison": {
+      "HVpercent": 0.0,
+      "HVsensitivity": {
+        "1.25": 0.0,
+        "1.5": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 722,
+        "denominator": 722,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 722,
+        "denominator": 722,
+        "C": 1.0
+      },
+      "coverageDifferencePP": 0.0
+    }
+  },
+  {
+    "context": "179120",
+    "background": "S_archive",
+    "control": "RANDOM_FOS",
+    "HVpercent": -0.09228732397801309,
+    "HVsensitivity": {
+      "1.25": -0.13336800279816208,
+      "1.5": -0.09228732397801309,
+      "2.0": -0.05871177460917698
+    },
+    "IGDplusImprovementPercent": -0.03554432998294185,
+    "IGDplusAbsoluteReduction": -1.6584529606098602e-06,
+    "IGDImprovementPercent": -0.08855587083488178,
+    "C_A_B": {
+      "covered": 721,
+      "denominator": 723,
+      "C": 0.9972337482710927
+    },
+    "C_B_A": {
+      "covered": 722,
+      "denominator": 724,
+      "C": 0.9972375690607734
+    },
+    "coverageDifferencePP": -0.0003820789680752945,
+    "acceptedOnlyComparison": {
+      "HVpercent": -0.09216519534263057,
+      "HVsensitivity": {
+        "1.25": -0.13325989207461086,
+        "1.5": -0.09216519534263057,
+        "2.0": -0.058635425306963196
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 721,
+        "denominator": 722,
+        "C": 0.9986149584487535
+      },
+      "C_B_A": {
+        "covered": 722,
+        "denominator": 722,
+        "C": 1.0
+      },
+      "coverageDifferencePP": -0.13850415512465242
+    }
+  },
+  {
+    "context": "179120",
+    "background": "A0",
+    "control": "POST_FA",
+    "HVpercent": -3.333299125607425e-06,
+    "HVsensitivity": {
+      "1.25": -1.1321976867151307e-05,
+      "1.5": -3.333299125607425e-06,
+      "2.0": -4.3421704010171425e-07
+    },
+    "IGDplusImprovementPercent": 0.0,
+    "IGDplusAbsoluteReduction": 0.0,
+    "IGDImprovementPercent": 0.0,
+    "C_A_B": {
+      "covered": 1012,
+      "denominator": 1013,
+      "C": 0.9990128331688055
+    },
+    "C_B_A": {
+      "covered": 1013,
+      "denominator": 1015,
+      "C": 0.9980295566502463
+    },
+    "coverageDifferencePP": 0.09832765185592285,
+    "acceptedOnlyComparison": {
+      "HVpercent": 0.0,
+      "HVsensitivity": {
+        "1.25": 0.0,
+        "1.5": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 1013,
+        "denominator": 1013,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 1013,
+        "denominator": 1013,
+        "C": 1.0
+      },
+      "coverageDifferencePP": 0.0
+    }
+  },
+  {
+    "context": "179120",
+    "background": "A0",
+    "control": "RANDOM_FOS",
+    "HVpercent": -0.001372469796279141,
+    "HVsensitivity": {
+      "1.25": -0.0025995083637542216,
+      "1.5": -0.001372469796279141,
+      "2.0": -0.0005906605871741633
+    },
+    "IGDplusImprovementPercent": 0.0,
+    "IGDplusAbsoluteReduction": 0.0,
+    "IGDImprovementPercent": 0.0,
+    "C_A_B": {
+      "covered": 1012,
+      "denominator": 1013,
+      "C": 0.9990128331688055
+    },
+    "C_B_A": {
+      "covered": 1013,
+      "denominator": 1015,
+      "C": 0.9980295566502463
+    },
+    "coverageDifferencePP": 0.09832765185592285,
+    "acceptedOnlyComparison": {
+      "HVpercent": -0.001375589236762842,
+      "HVsensitivity": {
+        "1.25": -0.00260560388877229,
+        "1.5": -0.001375589236762842,
+        "2.0": -0.0005919656934083584
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 1012,
+        "denominator": 1013,
+        "C": 0.9990128331688055
+      },
+      "C_B_A": {
+        "covered": 1013,
+        "denominator": 1013,
+        "C": 1.0
+      },
+      "coverageDifferencePP": -0.09871668311944859
+    }
+  },
+  {
+    "context": "228840",
+    "background": "S_archive",
+    "control": "POST_FA",
+    "HVpercent": 0.0016022273540583498,
+    "HVsensitivity": {
+      "1.25": 0.0031189533906683664,
+      "1.5": 0.0016022273540583498,
+      "2.0": 0.0006731359136091797
+    },
+    "IGDplusImprovementPercent": 28.33124941344099,
+    "IGDplusAbsoluteReduction": 3.980617340017033e-06,
+    "IGDImprovementPercent": 31.57439900704647,
+    "C_A_B": {
+      "covered": 738,
+      "denominator": 738,
+      "C": 1.0
+    },
+    "C_B_A": {
+      "covered": 738,
+      "denominator": 741,
+      "C": 0.9959514170040485
+    },
+    "coverageDifferencePP": 0.4048582995951455,
+    "acceptedOnlyComparison": {
+      "HVpercent": 0.0,
+      "HVsensitivity": {
+        "1.25": 0.0,
+        "1.5": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 738,
+        "denominator": 738,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 738,
+        "denominator": 738,
+        "C": 1.0
+      },
+      "coverageDifferencePP": 0.0
+    }
+  },
+  {
+    "context": "228840",
+    "background": "S_archive",
+    "control": "RANDOM_FOS",
+    "HVpercent": 0.0013585694913498259,
+    "HVsensitivity": {
+      "1.25": 0.002591810546204165,
+      "1.5": 0.0013585694913498259,
+      "2.0": 0.0005810857035992711
+    },
+    "IGDplusImprovementPercent": -37.937761930960995,
+    "IGDplusAbsoluteReduction": -3.845778649864129e-06,
+    "IGDImprovementPercent": 16.902363959314176,
+    "C_A_B": {
+      "covered": 729,
+      "denominator": 735,
+      "C": 0.9918367346938776
+    },
+    "C_B_A": {
+      "covered": 736,
+      "denominator": 741,
+      "C": 0.9932523616734144
+    },
+    "coverageDifferencePP": -0.14156269795367882,
+    "acceptedOnlyComparison": {
+      "HVpercent": 2.830076395454739e-07,
+      "HVsensitivity": {
+        "1.25": 7.731619344752971e-07,
+        "1.5": 2.830076395454739e-07,
+        "2.0": 7.549552094587852e-08
+      },
+      "IGDplusImprovementPercent": 5.881761954022843,
+      "IGDplusAbsoluteReduction": 9.720557180315376e-07,
+      "IGDImprovementPercent": 10.442773207943974,
+      "C_A_B": {
+        "covered": 738,
+        "denominator": 739,
+        "C": 0.9986468200270636
+      },
+      "C_B_A": {
+        "covered": 736,
+        "denominator": 738,
+        "C": 0.997289972899729
+      },
+      "coverageDifferencePP": 0.13568471273346372
+    }
+  },
+  {
+    "context": "228840",
+    "background": "A0",
+    "control": "POST_FA",
+    "HVpercent": 0.0008279765114416193,
+    "HVsensitivity": {
+      "1.25": 0.0015767257895760167,
+      "1.5": 0.0008279765114416193,
+      "2.0": 0.0003543364057057019
+    },
+    "IGDplusImprovementPercent": 54.82715396174879,
+    "IGDplusAbsoluteReduction": 1.2798780584614854e-06,
+    "IGDImprovementPercent": 126.9978638982343,
+    "C_A_B": {
+      "covered": 1084,
+      "denominator": 1084,
+      "C": 1.0
+    },
+    "C_B_A": {
+      "covered": 1084,
+      "denominator": 1085,
+      "C": 0.9990783410138249
+    },
+    "coverageDifferencePP": 0.09216589861751334,
+    "acceptedOnlyComparison": {
+      "HVpercent": 0.0,
+      "HVsensitivity": {
+        "1.25": 0.0,
+        "1.5": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 1084,
+        "denominator": 1084,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 1084,
+        "denominator": 1084,
+        "C": 1.0
+      },
+      "coverageDifferencePP": 0.0
+    }
+  },
+  {
+    "context": "228840",
+    "background": "A0",
+    "control": "RANDOM_FOS",
+    "HVpercent": 0.0006603665113180668,
+    "HVsensitivity": {
+      "1.25": 0.001254297735253651,
+      "1.5": 0.0006603665113180668,
+      "2.0": 0.00028326314740478864
+    },
+    "IGDplusImprovementPercent": -3.6760095266623627,
+    "IGDplusAbsoluteReduction": -6.116388075487639e-08,
+    "IGDImprovementPercent": 120.19144959930023,
+    "C_A_B": {
+      "covered": 1078,
+      "denominator": 1080,
+      "C": 0.9981481481481481
+    },
+    "C_B_A": {
+      "covered": 1084,
+      "denominator": 1085,
+      "C": 0.9990783410138249
+    },
+    "coverageDifferencePP": -0.09301928656767489,
+    "acceptedOnlyComparison": {
+      "HVpercent": 0.0,
+      "HVsensitivity": {
+        "1.25": 0.0,
+        "1.5": 0.0,
+        "2.0": 0.0
+      },
+      "IGDplusImprovementPercent": 0.0,
+      "IGDplusAbsoluteReduction": 0.0,
+      "IGDImprovementPercent": 0.0,
+      "C_A_B": {
+        "covered": 1084,
+        "denominator": 1084,
+        "C": 1.0
+      },
+      "C_B_A": {
+        "covered": 1084,
+        "denominator": 1084,
+        "C": 1.0
+      },
+      "coverageDifferencePP": 0.0
+    }
+  }
+]

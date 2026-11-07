@@ -1,0 +1,22 @@
+{
+  "version": "JOINT_QGS_FAMILY_COMPATIBILITY-v1",
+  "registered": "2026-11-06",
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "sourceSeeds": [
+    14730003,
+    14730037
+  ],
+  "fixtureScope": "Eachfixed20parent xall100donors xallNsingletons+fullmask; eachfree80parent xall100donors xfullmask. NativePaMixingMove and actualFamilyContexts.restore; originalclassbytes, no policy override",
+  "unscoredFixtures": 520000,
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "objectiveUse": "Onlyimportalready-paid initial objectives for frozen grouping checks; no objective computation, candidate ranking, learning or feedback",
+  "guard": "Problem.evaluate throws if called; sourceencodingsimmutable; independentbyjob integeroracle checks allaggregatecounts and witnesses",
+  "interpretation": "Structural compatibility evidence only, not performance loss caused by projection. Equalweight parent/donor coverage is not QGS actual guide distribution",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

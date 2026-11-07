@@ -1,0 +1,1962 @@
+{
+  "stem": "100_2_3_1",
+  "uniquePaidGenomes": 2398,
+  "sourceRows": 2812,
+  "uniqueGenomeSummary": {
+    "firstStageEnergyShare": {
+      "median": 0.5697534072535789,
+      "q25": 0.5344080930112877,
+      "q75": 0.6039431618648489,
+      "minimum": 0.4836160145338017,
+      "maximum": 0.6537307050216179
+    },
+    "firstStageLaborShare": {
+      "median": 0.5464160204854704,
+      "q25": 0.5303372638189258,
+      "q75": 0.5611701832125934,
+      "minimum": 0.5176316813212094,
+      "maximum": 0.5801865651480161
+    },
+    "fatigueEnergyShare": {
+      "median": 0.15474540195874187,
+      "q25": 0.13417614766356312,
+      "q75": 0.17759080272540734,
+      "minimum": 0.10843618062732399,
+      "maximum": 0.25102885431826955
+    },
+    "idleEnergyShare": {
+      "median": 0.1146061502532009,
+      "q25": 0.10485651661058892,
+      "q75": 0.12779371743176282,
+      "minimum": 0.07514318535467752,
+      "maximum": 0.18888159562589754
+    },
+    "fatigueLaborShare": {
+      "median": 0.17433395496351875,
+      "q25": 0.15742118461268817,
+      "q75": 0.20439293394705443,
+      "minimum": 0.11652212826637023,
+      "maximum": 0.274659429949358
+    },
+    "firstStageFatigueLaborShare": {
+      "median": 0.11368681073910106,
+      "q25": 0.0905967840155211,
+      "q75": 0.13417531085743195,
+      "minimum": 0.06565004219371713,
+      "maximum": 0.16962518443811056
+    },
+    "laterMachineChangedFraction": {
+      "median": 0.29,
+      "q25": 0.18,
+      "q75": 0.37,
+      "minimum": 0.0,
+      "maximum": 0.59
+    },
+    "laterWorkerChangedFraction": {
+      "median": 0.25,
+      "q25": 0.14250000000000002,
+      "q75": 0.34,
+      "minimum": 0.0,
+      "maximum": 0.54
+    },
+    "laterDispatchRankChangedFraction": {
+      "median": 0.1,
+      "q25": 0.04,
+      "q75": 0.17,
+      "minimum": 0.0,
+      "maximum": 0.45
+    },
+    "positiveStartFatigueFraction": {
+      "median": 0.93,
+      "q25": 0.93,
+      "q75": 0.93,
+      "minimum": 0.93,
+      "maximum": 0.935
+    },
+    "atLeast0p1PctInflationFraction": {
+      "median": 0.925,
+      "q25": 0.92,
+      "q75": 0.93,
+      "minimum": 0.895,
+      "maximum": 0.935
+    },
+    "beta0FullPolicyRelativeEffectCPct": {
+      "median": 17.153250810552443,
+      "q25": 8.53502638714509,
+      "q75": 29.67978684410719,
+      "minimum": 3.5750454603352466,
+      "maximum": 48.96060537248601
+    },
+    "beta0FullPolicyRelativeEffectEPct": {
+      "median": 21.880261218444563,
+      "q25": 17.47568303946396,
+      "q75": 26.728602599716258,
+      "minimum": 13.93147070843781,
+      "maximum": 37.54890587240271
+    },
+    "beta0FullPolicyRelativeEffectWPct": {
+      "median": 21.087995869869417,
+      "q25": 18.613672214787393,
+      "q75": 25.634511166562014,
+      "minimum": 13.038050192528239,
+      "maximum": 37.69678650439931
+    }
+  },
+  "cohorts": {
+    "NAT/FE/FULL_NAT/100": {
+      "points": 5,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6366079730215886,
+          "q25": 0.6353616537871687,
+          "q75": 0.6454477927991485,
+          "minimum": 0.6124637263115952,
+          "maximum": 0.6537307050216179
+        },
+        "firstStageLaborShare": {
+          "median": 0.5786455225687537,
+          "q25": 0.5730173661276688,
+          "q75": 0.5797817007691857,
+          "minimum": 0.5564489275060556,
+          "maximum": 0.5801865651480161
+        },
+        "fatigueEnergyShare": {
+          "median": 0.18042755651787154,
+          "q25": 0.1786281903392855,
+          "q75": 0.18323584593507228,
+          "minimum": 0.1748122939669203,
+          "maximum": 0.1991834476816716
+        },
+        "idleEnergyShare": {
+          "median": 0.1487363835459652,
+          "q25": 0.14653901703885946,
+          "q75": 0.17694670602367996,
+          "minimum": 0.1278197199494214,
+          "maximum": 0.18888159562589754
+        },
+        "fatigueLaborShare": {
+          "median": 0.19123930811268056,
+          "q25": 0.19048981814126117,
+          "q75": 0.20368850393799237,
+          "minimum": 0.18500357000661397,
+          "maximum": 0.2158214294821676
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.14082181292280002,
+          "q25": 0.1368260639933208,
+          "q75": 0.14605337618569847,
+          "minimum": 0.12993949865534454,
+          "maximum": 0.15222857400745463
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.43,
+          "q25": 0.37,
+          "q75": 0.44,
+          "minimum": 0.36,
+          "maximum": 0.54
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.38,
+          "q25": 0.32,
+          "q75": 0.47,
+          "minimum": 0.24,
+          "maximum": 0.47
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.15,
+          "q25": 0.12,
+          "q75": 0.2,
+          "minimum": 0.08,
+          "maximum": 0.2
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.915,
+          "q25": 0.905,
+          "q75": 0.92,
+          "minimum": 0.9,
+          "maximum": 0.92
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 39.75587798797577,
+          "q25": 31.546068756531163,
+          "q75": 43.66505294822591,
+          "minimum": 30.001897541470647,
+          "maximum": 45.02677578934413
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 30.540825943441718,
+          "q25": 29.20241173668261,
+          "q75": 32.79530188017355,
+          "minimum": 28.220388508920614,
+          "maximum": 33.52694900359607
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 23.561262238592427,
+          "q25": 23.47200754816152,
+          "q75": 25.52644501781163,
+          "minimum": 22.614374167943474,
+          "maximum": 27.58584864586069
+        }
+      }
+    },
+    "NAT/FE/NSGA_NAT/100": {
+      "points": 5,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6366079730215886,
+          "q25": 0.6353616537871687,
+          "q75": 0.6454477927991485,
+          "minimum": 0.6124637263115952,
+          "maximum": 0.6537307050216179
+        },
+        "firstStageLaborShare": {
+          "median": 0.5786455225687537,
+          "q25": 0.5730173661276688,
+          "q75": 0.5797817007691857,
+          "minimum": 0.5564489275060556,
+          "maximum": 0.5801865651480161
+        },
+        "fatigueEnergyShare": {
+          "median": 0.18042755651787154,
+          "q25": 0.1786281903392855,
+          "q75": 0.18323584593507228,
+          "minimum": 0.1748122939669203,
+          "maximum": 0.1991834476816716
+        },
+        "idleEnergyShare": {
+          "median": 0.1487363835459652,
+          "q25": 0.14653901703885946,
+          "q75": 0.17694670602367996,
+          "minimum": 0.1278197199494214,
+          "maximum": 0.18888159562589754
+        },
+        "fatigueLaborShare": {
+          "median": 0.19123930811268056,
+          "q25": 0.19048981814126117,
+          "q75": 0.20368850393799237,
+          "minimum": 0.18500357000661397,
+          "maximum": 0.2158214294821676
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.14082181292280002,
+          "q25": 0.1368260639933208,
+          "q75": 0.14605337618569847,
+          "minimum": 0.12993949865534454,
+          "maximum": 0.15222857400745463
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.43,
+          "q25": 0.37,
+          "q75": 0.44,
+          "minimum": 0.36,
+          "maximum": 0.54
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.38,
+          "q25": 0.32,
+          "q75": 0.47,
+          "minimum": 0.24,
+          "maximum": 0.47
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.15,
+          "q25": 0.12,
+          "q75": 0.2,
+          "minimum": 0.08,
+          "maximum": 0.2
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.915,
+          "q25": 0.905,
+          "q75": 0.92,
+          "minimum": 0.9,
+          "maximum": 0.92
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 39.75587798797577,
+          "q25": 31.546068756531163,
+          "q75": 43.66505294822591,
+          "minimum": 30.001897541470647,
+          "maximum": 45.02677578934413
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 30.540825943441718,
+          "q25": 29.20241173668261,
+          "q75": 32.79530188017355,
+          "minimum": 28.220388508920614,
+          "maximum": 33.52694900359607
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 23.561262238592427,
+          "q25": 23.47200754816152,
+          "q75": 25.52644501781163,
+          "minimum": 22.614374167943474,
+          "maximum": 27.58584864586069
+        }
+      }
+    },
+    "NAT/FE/FULL_NAT/5100": {
+      "points": 86,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6028559844249837,
+          "q25": 0.5981424178445107,
+          "q75": 0.6219299268094693,
+          "minimum": 0.5886338959595492,
+          "maximum": 0.6337727662574065
+        },
+        "firstStageLaborShare": {
+          "median": 0.5619348761197774,
+          "q25": 0.5594091799168374,
+          "q75": 0.5654642773509054,
+          "minimum": 0.5471486982230783,
+          "maximum": 0.5746903948171841
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17658655649949145,
+          "q25": 0.16455523812083087,
+          "q75": 0.18889521972539258,
+          "minimum": 0.13108720470990928,
+          "maximum": 0.22495789442782396
+        },
+        "idleEnergyShare": {
+          "median": 0.12476162850226577,
+          "q25": 0.11171058409279044,
+          "q75": 0.13352799950349675,
+          "minimum": 0.09580527068483409,
+          "maximum": 0.188415392984204
+        },
+        "fatigueLaborShare": {
+          "median": 0.20239562290317198,
+          "q25": 0.18210443969692383,
+          "q75": 0.21476294736003548,
+          "minimum": 0.14081461232110734,
+          "maximum": 0.25353535081363315
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.13241922884549057,
+          "q25": 0.12010532180706146,
+          "q75": 0.1392085757852085,
+          "minimum": 0.10031079678002033,
+          "maximum": 0.15637453414604063
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.355,
+          "q25": 0.2625,
+          "q75": 0.42,
+          "minimum": 0.13,
+          "maximum": 0.51
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.305,
+          "q25": 0.25,
+          "q75": 0.37,
+          "minimum": 0.11,
+          "maximum": 0.49
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.16,
+          "q25": 0.1225,
+          "q75": 0.21,
+          "minimum": 0.04,
+          "maximum": 0.31
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.925,
+          "minimum": 0.915,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 25.885284066230373,
+          "q25": 24.476498865504446,
+          "q75": 29.48842067234177,
+          "minimum": 17.90117557940256,
+          "maximum": 41.02166582898468
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 26.66305204585211,
+          "q25": 24.445858001358534,
+          "q75": 28.263653538996486,
+          "minimum": 21.38694928192768,
+          "maximum": 33.977990554858465
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 25.277265069105514,
+          "q25": 22.19044071701762,
+          "q75": 27.235413270070108,
+          "minimum": 16.4102761669495,
+          "maximum": 33.91613013953012
+        }
+      }
+    },
+    "NAT/FE/FULL_NAT/500000": {
+      "points": 635,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.5438458603253273,
+          "q25": 0.5326432683932008,
+          "q75": 0.5633038798171428,
+          "minimum": 0.4836160145338017,
+          "maximum": 0.6181554716144687
+        },
+        "firstStageLaborShare": {
+          "median": 0.5333225667789115,
+          "q25": 0.5272332979257128,
+          "q75": 0.5449898073705904,
+          "minimum": 0.5182351178279542,
+          "maximum": 0.5637071298520264
+        },
+        "fatigueEnergyShare": {
+          "median": 0.1425745076030541,
+          "q25": 0.13219486258367377,
+          "q75": 0.16074426495344177,
+          "minimum": 0.11116404838423914,
+          "maximum": 0.25102885431826955
+        },
+        "idleEnergyShare": {
+          "median": 0.10868183425268836,
+          "q25": 0.09895038359123813,
+          "q75": 0.11297223038835238,
+          "minimum": 0.07514318535467752,
+          "maximum": 0.14396515659077233
+        },
+        "fatigueLaborShare": {
+          "median": 0.16635398990693137,
+          "q25": 0.15332441270600866,
+          "q75": 0.18382780379540103,
+          "minimum": 0.11652212826637023,
+          "maximum": 0.274659429949358
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.09703903285230875,
+          "q25": 0.08811184727757568,
+          "q75": 0.11372919356509331,
+          "minimum": 0.06565004219371713,
+          "maximum": 0.15822532631612984
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.26,
+          "q25": 0.11,
+          "q75": 0.34,
+          "minimum": 0.0,
+          "maximum": 0.56
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.2,
+          "q25": 0.09,
+          "q75": 0.31,
+          "minimum": 0.0,
+          "maximum": 0.54
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.08,
+          "q25": 0.02,
+          "q75": 0.14,
+          "minimum": 0.0,
+          "maximum": 0.45
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.93,
+          "q25": 0.925,
+          "q75": 0.93,
+          "minimum": 0.91,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 9.38708334865035,
+          "q25": 7.950341751266821,
+          "q75": 13.935483191910858,
+          "minimum": 4.754898928055207,
+          "maximum": 42.73570626825498
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 18.52190782412886,
+          "q25": 17.185209838606887,
+          "q75": 21.151073379113704,
+          "minimum": 13.93147070843781,
+          "maximum": 37.54890587240271
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 19.84909875563985,
+          "q25": 18.047130775978147,
+          "q75": 22.483668386527622,
+          "minimum": 13.038050192528239,
+          "maximum": 37.69678650439931
+        }
+      }
+    },
+    "NAT/TIME/FULL_NAT/5.0": {
+      "points": 420,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.5541196950439828,
+          "q25": 0.5409610437873641,
+          "q75": 0.5932097172866706,
+          "minimum": 0.5105976240665113,
+          "maximum": 0.6181554716144687
+        },
+        "firstStageLaborShare": {
+          "median": 0.5363589288261466,
+          "q25": 0.5291923902273268,
+          "q75": 0.5450693911564923,
+          "minimum": 0.5226312450415561,
+          "maximum": 0.5637071298520264
+        },
+        "fatigueEnergyShare": {
+          "median": 0.14902861984736498,
+          "q25": 0.1300007687784933,
+          "q75": 0.21306687724249534,
+          "minimum": 0.11116404838423914,
+          "maximum": 0.25102885431826955
+        },
+        "idleEnergyShare": {
+          "median": 0.10619411728689246,
+          "q25": 0.09670403764492942,
+          "q75": 0.11269500941617207,
+          "minimum": 0.07514318535467752,
+          "maximum": 0.14396515659077233
+        },
+        "fatigueLaborShare": {
+          "median": 0.170842337233731,
+          "q25": 0.14539887013297975,
+          "q75": 0.24141608860037617,
+          "minimum": 0.11652212826637023,
+          "maximum": 0.274659429949358
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.10054058771991559,
+          "q25": 0.08439260457447943,
+          "q75": 0.14055747686690878,
+          "minimum": 0.06565004219371713,
+          "maximum": 0.15822532631612984
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.315,
+          "q25": 0.2175,
+          "q75": 0.38,
+          "minimum": 0.07,
+          "maximum": 0.56
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.25,
+          "q25": 0.17,
+          "q75": 0.33,
+          "minimum": 0.08,
+          "maximum": 0.54
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.1,
+          "q25": 0.06,
+          "q75": 0.1825,
+          "minimum": 0.0,
+          "maximum": 0.45
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.93,
+          "q25": 0.925,
+          "q75": 0.93,
+          "minimum": 0.915,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 10.134622977630038,
+          "q25": 8.157418646108333,
+          "q75": 25.623323689720845,
+          "minimum": 3.5750454603352466,
+          "maximum": 42.73570626825498
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 19.42233407543975,
+          "q25": 16.509617973475425,
+          "q75": 31.275474808192214,
+          "minimum": 13.93147070843781,
+          "maximum": 37.54890587240271
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 20.531927009639496,
+          "q25": 16.904112685829855,
+          "q75": 31.7032927453965,
+          "minimum": 13.038050192528239,
+          "maximum": 37.69678650439931
+        }
+      }
+    },
+    "NAT/FE/NSGA_NAT/5100": {
+      "points": 93,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6024515425404414,
+          "q25": 0.596058622428037,
+          "q75": 0.6108345523214131,
+          "minimum": 0.5731270458035123,
+          "maximum": 0.6368063080979349
+        },
+        "firstStageLaborShare": {
+          "median": 0.5617065695520729,
+          "q25": 0.5587572453785178,
+          "q75": 0.5646594702963923,
+          "minimum": 0.5502465145179307,
+          "maximum": 0.5770722646703451
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17481098836985243,
+          "q25": 0.169115198308432,
+          "q75": 0.18601038258593916,
+          "minimum": 0.15589889750637137,
+          "maximum": 0.21241874876727782
+        },
+        "idleEnergyShare": {
+          "median": 0.12721771394580783,
+          "q25": 0.11572732079927629,
+          "q75": 0.13613799028495135,
+          "minimum": 0.09488632963899839,
+          "maximum": 0.156926471319951
+        },
+        "fatigueLaborShare": {
+          "median": 0.20220246636758726,
+          "q25": 0.19232227767429091,
+          "q75": 0.21433013369565793,
+          "minimum": 0.16984161465099198,
+          "maximum": 0.24383361554669328
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.13284714050976343,
+          "q25": 0.12611233136004132,
+          "q75": 0.14147051601512614,
+          "minimum": 0.1108566451572944,
+          "maximum": 0.16126316541558314
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.35,
+          "q25": 0.31,
+          "q75": 0.41,
+          "minimum": 0.12,
+          "maximum": 0.56
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.33,
+          "q25": 0.27,
+          "q75": 0.38,
+          "minimum": 0.12,
+          "maximum": 0.5
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.15,
+          "q25": 0.12,
+          "q75": 0.2,
+          "minimum": 0.04,
+          "maximum": 0.29
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.935
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.925,
+          "minimum": 0.91,
+          "maximum": 0.935
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 32.81114525775561,
+          "q25": 29.020037198064628,
+          "q75": 35.36604507385703,
+          "minimum": 21.719066174969548,
+          "maximum": 42.46301161569885
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 26.61890727655587,
+          "q25": 25.65592821805771,
+          "q75": 28.677024982889243,
+          "minimum": 23.61326697136579,
+          "maximum": 33.617876528539846
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 25.29536480719066,
+          "q25": 23.786528310291022,
+          "q75": 27.22951897115804,
+          "minimum": 20.423037822867496,
+          "maximum": 32.145941263058766
+        }
+      }
+    },
+    "NAT/FE/NSGA_NAT/500000": {
+      "points": 526,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.524881804463672,
+          "q25": 0.5024702026782517,
+          "q75": 0.5440020468222919,
+          "minimum": 0.49223886848064685,
+          "maximum": 0.6196258561261544
+        },
+        "firstStageLaborShare": {
+          "median": 0.5324943533277249,
+          "q25": 0.5237449561631665,
+          "q75": 0.5422970028184146,
+          "minimum": 0.5176316813212094,
+          "maximum": 0.5592655651865495
+        },
+        "fatigueEnergyShare": {
+          "median": 0.13192400982475086,
+          "q25": 0.12701955182523184,
+          "q75": 0.14538480887643032,
+          "minimum": 0.10843618062732399,
+          "maximum": 0.23501655505961858
+        },
+        "idleEnergyShare": {
+          "median": 0.11163640313917983,
+          "q25": 0.09580725340248121,
+          "q75": 0.1247870732111293,
+          "minimum": 0.08058577478286091,
+          "maximum": 0.14273647031943842
+        },
+        "fatigueLaborShare": {
+          "median": 0.1573769555940867,
+          "q25": 0.14655768348461262,
+          "q75": 0.16719840532025057,
+          "minimum": 0.12780115084568225,
+          "maximum": 0.26208153631707765
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.09084369216588908,
+          "q25": 0.08260367610694752,
+          "q75": 0.1042850402778367,
+          "minimum": 0.07103166827845328,
+          "maximum": 0.15742696757471372
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.18,
+          "q25": 0.08,
+          "q75": 0.24,
+          "minimum": 0.0,
+          "maximum": 0.53
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.15,
+          "q25": 0.07,
+          "q75": 0.24,
+          "minimum": 0.0,
+          "maximum": 0.45
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.02,
+          "q25": 0.02,
+          "q75": 0.06,
+          "minimum": 0.0,
+          "maximum": 0.36
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.93,
+          "minimum": 0.905,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 7.730385624615432,
+          "q25": 5.712453099920156,
+          "q75": 13.539626819334183,
+          "minimum": 3.7981334308244463,
+          "maximum": 32.87723679890169
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 16.925716210569597,
+          "q25": 16.137012192664066,
+          "q75": 18.409949453941508,
+          "minimum": 13.931619972499941,
+          "maximum": 34.486223026802065
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 18.574101555878798,
+          "q25": 17.049575185685956,
+          "q75": 19.95447110954539,
+          "minimum": 14.5453031780977,
+          "maximum": 35.43562411229997
+        }
+      }
+    },
+    "NAT/TIME/NSGA_NAT/5.0": {
+      "points": 173,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.5449405450954863,
+          "q25": 0.5346919215658675,
+          "q75": 0.5996946132118975,
+          "minimum": 0.5135437370226239,
+          "maximum": 0.6196258561261544
+        },
+        "firstStageLaborShare": {
+          "median": 0.5303340960387022,
+          "q25": 0.5236723986228577,
+          "q75": 0.5481914240484893,
+          "minimum": 0.5190147941330617,
+          "maximum": 0.5592655651865495
+        },
+        "fatigueEnergyShare": {
+          "median": 0.14514379192616786,
+          "q25": 0.13027274105006603,
+          "q75": 0.20371246290630485,
+          "minimum": 0.12207452501630889,
+          "maximum": 0.23501655505961858
+        },
+        "idleEnergyShare": {
+          "median": 0.09785730468620098,
+          "q25": 0.08807918247101965,
+          "q75": 0.11899081788979808,
+          "minimum": 0.08058577478286091,
+          "maximum": 0.1302471995197153
+        },
+        "fatigueLaborShare": {
+          "median": 0.1666952660804201,
+          "q25": 0.1534318678429861,
+          "q75": 0.22997991235250562,
+          "minimum": 0.14024351717917843,
+          "maximum": 0.26208153631707765
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.09172985037460615,
+          "q25": 0.08839906953804542,
+          "q75": 0.1428469320839534,
+          "minimum": 0.07974698429450572,
+          "maximum": 0.15742696757471372
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.18,
+          "q25": 0.17,
+          "q75": 0.33,
+          "minimum": 0.04,
+          "maximum": 0.53
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.22,
+          "q25": 0.11,
+          "q75": 0.29,
+          "minimum": 0.04,
+          "maximum": 0.45
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.02,
+          "q25": 0.02,
+          "q75": 0.16,
+          "minimum": 0.0,
+          "maximum": 0.36
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.93,
+          "q25": 0.92,
+          "q75": 0.93,
+          "minimum": 0.915,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 15.820851807649694,
+          "q25": 8.138680043142266,
+          "q75": 27.43370608355471,
+          "minimum": 5.431079446771903,
+          "maximum": 32.87723679890169
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 18.180175114985243,
+          "q25": 17.42629835019429,
+          "q75": 29.82201856089155,
+          "minimum": 15.721843431251203,
+          "maximum": 34.486223026802065
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 19.861427446801684,
+          "q25": 18.07395960480742,
+          "q75": 29.75953324702074,
+          "minimum": 16.301031984426274,
+          "maximum": 35.43562411229997
+        }
+      }
+    },
+    "POP/12450003/OFF/5100": {
+      "points": 96,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6047946482359425,
+          "q25": 0.598818854929841,
+          "q75": 0.6205259786842323,
+          "minimum": 0.577830618498785,
+          "maximum": 0.6317204651818491
+        },
+        "firstStageLaborShare": {
+          "median": 0.5600836170780373,
+          "q25": 0.5550360612347787,
+          "q75": 0.5647557569372612,
+          "minimum": 0.5445840315162557,
+          "maximum": 0.5719175290616634
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17118751184329745,
+          "q25": 0.15652124244256288,
+          "q75": 0.1846207194552871,
+          "minimum": 0.13730219505874355,
+          "maximum": 0.22299744628162502
+        },
+        "idleEnergyShare": {
+          "median": 0.1295866470136398,
+          "q25": 0.10843811224371483,
+          "q75": 0.16384079198290058,
+          "minimum": 0.09113688333355419,
+          "maximum": 0.18359298887429357
+        },
+        "fatigueLaborShare": {
+          "median": 0.19452848474386736,
+          "q25": 0.1719631413782023,
+          "q75": 0.2136821569279373,
+          "minimum": 0.1574901090453473,
+          "maximum": 0.2483799841592637
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.124671502448393,
+          "q25": 0.11829032224291672,
+          "q75": 0.13798499841346185,
+          "minimum": 0.11222192167995003,
+          "maximum": 0.1548648099228984
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.385,
+          "q25": 0.32,
+          "q75": 0.44,
+          "minimum": 0.14,
+          "maximum": 0.57
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.34,
+          "q25": 0.29,
+          "q75": 0.39,
+          "minimum": 0.14,
+          "maximum": 0.5
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.14,
+          "q25": 0.1,
+          "q75": 0.2,
+          "minimum": 0.02,
+          "maximum": 0.33
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.92,
+          "q25": 0.915,
+          "q75": 0.925,
+          "minimum": 0.9,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 30.887582731373598,
+          "q25": 26.219980474407564,
+          "q75": 32.6466665301363,
+          "minimum": 16.551990489562172,
+          "maximum": 45.77319067017165
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 25.849602140572394,
+          "q25": 24.750161312487307,
+          "q75": 27.709715594076044,
+          "minimum": 22.617321602100482,
+          "maximum": 33.752914967193995
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 24.109839268941222,
+          "q25": 20.78784116794972,
+          "q75": 27.12734144354489,
+          "minimum": 18.490495831289657,
+          "maximum": 33.013588739640085
+        }
+      }
+    },
+    "POP/12450003/FIXED_EA/5100": {
+      "points": 65,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6044987126457424,
+          "q25": 0.5890391405400538,
+          "q75": 0.6092009070628202,
+          "minimum": 0.5758595046765782,
+          "maximum": 0.6260146000090759
+        },
+        "firstStageLaborShare": {
+          "median": 0.5579743202740585,
+          "q25": 0.5559271004988939,
+          "q75": 0.5620098197558161,
+          "minimum": 0.5509847381169596,
+          "maximum": 0.5710917783336756
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17743636259700463,
+          "q25": 0.15812042020315392,
+          "q75": 0.18897333498606678,
+          "minimum": 0.1393493466870581,
+          "maximum": 0.22299744628162502
+        },
+        "idleEnergyShare": {
+          "median": 0.1247481980103111,
+          "q25": 0.11077569895676752,
+          "q75": 0.1441963890462305,
+          "minimum": 0.09113688333355419,
+          "maximum": 0.1681012656365194
+        },
+        "fatigueLaborShare": {
+          "median": 0.20142907473023028,
+          "q25": 0.1717721565713847,
+          "q75": 0.21431386893732504,
+          "minimum": 0.15847038206502342,
+          "maximum": 0.2483799841592637
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.1301650273085667,
+          "q25": 0.11866191061380137,
+          "q75": 0.1394000610839915,
+          "minimum": 0.10497044606711405,
+          "maximum": 0.1548648099228984
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.37,
+          "q25": 0.31,
+          "q75": 0.43,
+          "minimum": 0.17,
+          "maximum": 0.52
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.35,
+          "q25": 0.31,
+          "q75": 0.38,
+          "minimum": 0.15,
+          "maximum": 0.47
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.16,
+          "q25": 0.1,
+          "q75": 0.2,
+          "minimum": 0.04,
+          "maximum": 0.31
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.925,
+          "minimum": 0.905,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 30.04326714494394,
+          "q25": 25.815068423691145,
+          "q75": 33.67252719380778,
+          "minimum": 16.543725382588903,
+          "maximum": 39.3272361980628
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 27.135654679721345,
+          "q25": 24.28937013869612,
+          "q75": 28.680204674418253,
+          "minimum": 20.535788723363744,
+          "maximum": 33.752914967193995
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 25.007560550148543,
+          "q25": 20.688553456690695,
+          "q75": 27.241711054103025,
+          "minimum": 18.82716089716765,
+          "maximum": 33.013588739640085
+        }
+      }
+    },
+    "POP/12450003/UNIFORM_EA/5100": {
+      "points": 110,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6016866563219356,
+          "q25": 0.5977717997683288,
+          "q75": 0.6121061961175029,
+          "minimum": 0.5923149823341818,
+          "maximum": 0.6376748810341004
+        },
+        "firstStageLaborShare": {
+          "median": 0.5625679386359546,
+          "q25": 0.5584798070320967,
+          "q75": 0.5677963804906314,
+          "minimum": 0.5437725750110717,
+          "maximum": 0.5729829881637831
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17944188789992566,
+          "q25": 0.1726341524911557,
+          "q75": 0.18840913070876897,
+          "minimum": 0.1435697245612153,
+          "maximum": 0.22299744628162502
+        },
+        "idleEnergyShare": {
+          "median": 0.12400422710696903,
+          "q25": 0.11562152525559495,
+          "q75": 0.12940534491433744,
+          "minimum": 0.09113688333355419,
+          "maximum": 0.14565040763982262
+        },
+        "fatigueLaborShare": {
+          "median": 0.20760520064696233,
+          "q25": 0.1929659475774385,
+          "q75": 0.2170774594982092,
+          "minimum": 0.1580831272562274,
+          "maximum": 0.2483799841592637
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.1383618866716366,
+          "q25": 0.12758627862606287,
+          "q75": 0.14525466572234788,
+          "minimum": 0.10755996915540407,
+          "maximum": 0.15636209580151658
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.39,
+          "q25": 0.3225,
+          "q75": 0.43,
+          "minimum": 0.18,
+          "maximum": 0.57
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.35,
+          "q25": 0.32,
+          "q75": 0.4,
+          "minimum": 0.12,
+          "maximum": 0.5
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.17,
+          "q25": 0.14,
+          "q75": 0.21,
+          "minimum": 0.1,
+          "maximum": 0.31
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.925,
+          "q75": 0.93,
+          "minimum": 0.915,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 29.61043998321352,
+          "q25": 26.314757486992868,
+          "q75": 32.294308117480774,
+          "minimum": 16.903757360425953,
+          "maximum": 39.23439721281709
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 27.4101073873539,
+          "q25": 25.693494854814418,
+          "q75": 28.455907782699423,
+          "minimum": 21.85689131790165,
+          "maximum": 33.752914967193995
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 26.258538577419955,
+          "q25": 23.903625296551702,
+          "q75": 27.685831366684706,
+          "minimum": 18.80806875416152,
+          "maximum": 33.013588739640085
+        }
+      }
+    },
+    "POP/12450003/TOURNAMENT_EA/5100": {
+      "points": 88,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6038905670890784,
+          "q25": 0.5952688550258541,
+          "q75": 0.6116709767266875,
+          "minimum": 0.5647597105181705,
+          "maximum": 0.6332218507914261
+        },
+        "firstStageLaborShare": {
+          "median": 0.5620192921619596,
+          "q25": 0.5563407708942555,
+          "q75": 0.5667374325147496,
+          "minimum": 0.5490005313990869,
+          "maximum": 0.5745370069608117
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17088305289165368,
+          "q25": 0.1573474121739448,
+          "q75": 0.17867313901472193,
+          "minimum": 0.14786555704424392,
+          "maximum": 0.22299744628162502
+        },
+        "idleEnergyShare": {
+          "median": 0.1231357033624072,
+          "q25": 0.1175247266621077,
+          "q75": 0.13364205793486425,
+          "minimum": 0.09113688333355419,
+          "maximum": 0.16740770405153127
+        },
+        "fatigueLaborShare": {
+          "median": 0.1957019236589112,
+          "q25": 0.17558333882907617,
+          "q75": 0.20909390715364762,
+          "minimum": 0.15505789750205914,
+          "maximum": 0.2483799841592637
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.12980793827249226,
+          "q25": 0.11711967529005164,
+          "q75": 0.13662074742765978,
+          "minimum": 0.10656200440201695,
+          "maximum": 0.1548648099228984
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.35,
+          "q25": 0.29,
+          "q75": 0.4125,
+          "minimum": 0.17,
+          "maximum": 0.52
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.32,
+          "q25": 0.2675,
+          "q75": 0.38,
+          "minimum": 0.14,
+          "maximum": 0.5
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.12,
+          "q25": 0.1,
+          "q75": 0.18,
+          "minimum": 0.02,
+          "maximum": 0.31
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.935
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.925,
+          "q75": 0.93,
+          "minimum": 0.91,
+          "maximum": 0.935
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 29.684709207266113,
+          "q25": 26.187255293603418,
+          "q75": 33.59137424790624,
+          "minimum": 17.848080163722123,
+          "maximum": 46.48547688974287
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 25.65978139825362,
+          "q25": 24.269467291066903,
+          "q75": 26.650986575659246,
+          "minimum": 22.078316327862947,
+          "maximum": 33.752914967193995
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 24.244362266777344,
+          "q25": 21.2088260029912,
+          "q75": 26.392252409801753,
+          "minimum": 18.323563517969998,
+          "maximum": 33.013588739640085
+        }
+      }
+    },
+    "POP/12450003/NSGA/5100": {
+      "points": 81,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6106821930695681,
+          "q25": 0.6059139808876438,
+          "q75": 0.6139727929716671,
+          "minimum": 0.5910639270867226,
+          "maximum": 0.6344468335631033
+        },
+        "firstStageLaborShare": {
+          "median": 0.5614806646097187,
+          "q25": 0.5582497862672455,
+          "q75": 0.5638686484992661,
+          "minimum": 0.553525998825887,
+          "maximum": 0.569938726142519
+        },
+        "fatigueEnergyShare": {
+          "median": 0.1671417621274436,
+          "q25": 0.16203259626424954,
+          "q75": 0.1799120816923696,
+          "minimum": 0.14608049212613342,
+          "maximum": 0.2354489003800261
+        },
+        "idleEnergyShare": {
+          "median": 0.1331902235742426,
+          "q25": 0.12168631187292903,
+          "q75": 0.14301264027079613,
+          "minimum": 0.08872049162512506,
+          "maximum": 0.163868407851854
+        },
+        "fatigueLaborShare": {
+          "median": 0.1947076882199649,
+          "q25": 0.1860223941346947,
+          "q75": 0.2072830860215994,
+          "minimum": 0.17197743348901,
+          "maximum": 0.2564638467957315
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.12730235993938974,
+          "q25": 0.12434654914219605,
+          "q75": 0.13385412566010424,
+          "minimum": 0.117839631579986,
+          "maximum": 0.1563281818358952
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.37,
+          "q25": 0.32,
+          "q75": 0.4,
+          "minimum": 0.09,
+          "maximum": 0.51
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.33,
+          "q25": 0.28,
+          "q75": 0.38,
+          "minimum": 0.12,
+          "maximum": 0.48
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.18,
+          "q25": 0.14,
+          "q75": 0.23,
+          "minimum": 0.06,
+          "maximum": 0.31
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.925,
+          "minimum": 0.91,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 26.172448670272864,
+          "q25": 20.332178454391105,
+          "q75": 30.846402014968575,
+          "minimum": 14.490146461728038,
+          "maximum": 41.70023844617879
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 25.633562852890535,
+          "q25": 24.05968073402951,
+          "q75": 27.106319529764946,
+          "minimum": 21.835993527034937,
+          "maximum": 34.976389910216945
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 24.188790453334597,
+          "q25": 22.748947885228297,
+          "q75": 26.120549001971515,
+          "minimum": 20.74384990751725,
+          "maximum": 34.44546895089668
+        }
+      }
+    },
+    "POP/12450033/OFF/5100": {
+      "points": 107,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6155314346214225,
+          "q25": 0.6026375752702584,
+          "q75": 0.6229087769817303,
+          "minimum": 0.5715712547790393,
+          "maximum": 0.6344390809948172
+        },
+        "firstStageLaborShare": {
+          "median": 0.5648085299862879,
+          "q25": 0.5601091953678583,
+          "q75": 0.5685216492851451,
+          "minimum": 0.5510566007426494,
+          "maximum": 0.5762081609769742
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17906197933360216,
+          "q25": 0.17001184448070897,
+          "q75": 0.19178521087598155,
+          "minimum": 0.1518771445838666,
+          "maximum": 0.24271184646465627
+        },
+        "idleEnergyShare": {
+          "median": 0.12237708011232433,
+          "q25": 0.11208789657173138,
+          "q75": 0.13594251160357607,
+          "minimum": 0.07975738305683339,
+          "maximum": 0.15924655179311228
+        },
+        "fatigueLaborShare": {
+          "median": 0.20310267742543853,
+          "q25": 0.19214610780150215,
+          "q75": 0.21616437371002123,
+          "minimum": 0.1673502509951151,
+          "maximum": 0.2667808008454456
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.13458578990740638,
+          "q25": 0.1263924590609686,
+          "q75": 0.1451745270166985,
+          "minimum": 0.11366122466467118,
+          "maximum": 0.16413069711629813
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.33,
+          "q25": 0.28500000000000003,
+          "q75": 0.38,
+          "minimum": 0.13,
+          "maximum": 0.54
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.29,
+          "q25": 0.25,
+          "q75": 0.35,
+          "minimum": 0.12,
+          "maximum": 0.45
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.17,
+          "q25": 0.12,
+          "q75": 0.235,
+          "minimum": 0.06,
+          "maximum": 0.37
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.93,
+          "minimum": 0.895,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 31.970936460360534,
+          "q25": 28.097912229983415,
+          "q75": 35.26003511904713,
+          "minimum": 16.216632224559913,
+          "maximum": 48.96060537248601
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 27.270512372096455,
+          "q25": 26.007954265097702,
+          "q75": 29.31277237943346,
+          "minimum": 23.327111406718192,
+          "maximum": 36.59497631900091
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 25.465052326647243,
+          "q25": 23.68050691743531,
+          "q75": 27.516999721363334,
+          "minimum": 20.13694052257855,
+          "maximum": 36.21727832861148
+        }
+      }
+    },
+    "POP/12450033/TOURNAMENT_EA/5100": {
+      "points": 97,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6028003225847255,
+          "q25": 0.5927576023473397,
+          "q75": 0.6160554205134192,
+          "minimum": 0.5709691096553634,
+          "maximum": 0.6289574607763333
+        },
+        "firstStageLaborShare": {
+          "median": 0.5644992506669437,
+          "q25": 0.5584873846284502,
+          "q75": 0.5683367888451153,
+          "minimum": 0.5414783681507217,
+          "maximum": 0.5749898341614994
+        },
+        "fatigueEnergyShare": {
+          "median": 0.17382248675764725,
+          "q25": 0.1645539486719895,
+          "q75": 0.1833136154554126,
+          "minimum": 0.14971437914453187,
+          "maximum": 0.21390125927833498
+        },
+        "idleEnergyShare": {
+          "median": 0.11795015451715093,
+          "q25": 0.11363629801676331,
+          "q75": 0.12890815960140042,
+          "minimum": 0.09729400933793084,
+          "maximum": 0.15603033267682492
+        },
+        "fatigueLaborShare": {
+          "median": 0.19929587253753087,
+          "q25": 0.1856510778862055,
+          "q75": 0.21470572921412454,
+          "minimum": 0.16960697222748944,
+          "maximum": 0.24354542670338375
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.1312859651281679,
+          "q25": 0.11964000106763067,
+          "q75": 0.14450370192713535,
+          "minimum": 0.11065653657848881,
+          "maximum": 0.15531645068102243
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.32,
+          "q25": 0.24,
+          "q75": 0.38,
+          "minimum": 0.14,
+          "maximum": 0.49
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.27,
+          "q25": 0.22,
+          "q75": 0.32,
+          "minimum": 0.14,
+          "maximum": 0.45
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.13,
+          "q25": 0.08,
+          "q75": 0.19,
+          "minimum": 0.04,
+          "maximum": 0.37
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.925,
+          "q75": 0.93,
+          "minimum": 0.91,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 30.095136653504962,
+          "q25": 25.901588463988425,
+          "q75": 33.38682784771603,
+          "minimum": 17.842729921004885,
+          "maximum": 41.10102949865957
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 25.4380732751994,
+          "q25": 23.872990678482232,
+          "q75": 27.682841646738886,
+          "minimum": 21.898441878254427,
+          "maximum": 33.77444482434488
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 24.782873291488585,
+          "q25": 22.767320986303275,
+          "q75": 27.271321875254408,
+          "minimum": 20.446933136317867,
+          "maximum": 32.19429246315737
+        }
+      }
+    },
+    "POP/12450033/FIXED_EA/5100": {
+      "points": 72,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.5982239677044516,
+          "q25": 0.5889608472032289,
+          "q75": 0.6045909641935182,
+          "minimum": 0.5709577982168251,
+          "maximum": 0.6228549221419717
+        },
+        "firstStageLaborShare": {
+          "median": 0.5621169510413595,
+          "q25": 0.558223058895384,
+          "q75": 0.5656853534252746,
+          "minimum": 0.5512475296244436,
+          "maximum": 0.5708679701190741
+        },
+        "fatigueEnergyShare": {
+          "median": 0.18105748949054395,
+          "q25": 0.16477231598299225,
+          "q75": 0.19102057934961889,
+          "minimum": 0.14703034129798792,
+          "maximum": 0.2204891567913634
+        },
+        "idleEnergyShare": {
+          "median": 0.11806662867768067,
+          "q25": 0.10408946854979356,
+          "q75": 0.12778951966602442,
+          "minimum": 0.08870484799737612,
+          "maximum": 0.14012615668384407
+        },
+        "fatigueLaborShare": {
+          "median": 0.2095011089431485,
+          "q25": 0.19152859648356058,
+          "q75": 0.2201428758099393,
+          "minimum": 0.16758183749130282,
+          "maximum": 0.24496930598416827
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.13611154587825391,
+          "q25": 0.12451079714890967,
+          "q75": 0.14645364036216724,
+          "minimum": 0.10863788517685719,
+          "maximum": 0.15762223407369727
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.35,
+          "q25": 0.2775,
+          "q75": 0.4,
+          "minimum": 0.04,
+          "maximum": 0.59
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.31,
+          "q25": 0.2675,
+          "q75": 0.3625,
+          "minimum": 0.04,
+          "maximum": 0.54
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.185,
+          "q25": 0.1375,
+          "q75": 0.2325,
+          "minimum": 0.02,
+          "maximum": 0.36
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.93,
+          "minimum": 0.91,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 29.4365343070515,
+          "q25": 27.282147883136656,
+          "q75": 33.73843625314645,
+          "minimum": 15.417152218963249,
+          "maximum": 44.35712858561058
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 27.095393163561056,
+          "q25": 24.151516274978228,
+          "q75": 29.28917824347998,
+          "minimum": 21.189582756357893,
+          "maximum": 33.28206863442726
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 26.423437480790668,
+          "q25": 23.679412891326322,
+          "q75": 28.240033649740663,
+          "minimum": 20.020558092610806,
+          "maximum": 32.51115216686633
+        }
+      }
+    },
+    "POP/12450033/UNIFORM_EA/5100": {
+      "points": 91,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6050122516395878,
+          "q25": 0.5937216274797614,
+          "q75": 0.620619351862399,
+          "minimum": 0.5745245978420537,
+          "maximum": 0.6330497612641981
+        },
+        "firstStageLaborShare": {
+          "median": 0.5664549838629337,
+          "q25": 0.5647390159956093,
+          "q75": 0.5697114426315364,
+          "minimum": 0.5540252929637335,
+          "maximum": 0.5760289370195891
+        },
+        "fatigueEnergyShare": {
+          "median": 0.16971434672369823,
+          "q25": 0.1619326418286054,
+          "q75": 0.17981838079526954,
+          "minimum": 0.14705235989862325,
+          "maximum": 0.2214638676147899
+        },
+        "idleEnergyShare": {
+          "median": 0.13390395468846977,
+          "q25": 0.1215032822677597,
+          "q75": 0.1440327825252382,
+          "minimum": 0.09869877053721487,
+          "maximum": 0.17754701733015024
+        },
+        "fatigueLaborShare": {
+          "median": 0.19972564359298747,
+          "q25": 0.18200758619386653,
+          "q75": 0.21036532554022425,
+          "minimum": 0.15671888934691505,
+          "maximum": 0.2558276420835625
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.13421609722592398,
+          "q25": 0.12247412362352564,
+          "q75": 0.14167552807455028,
+          "minimum": 0.11318628883660949,
+          "maximum": 0.16962518443811056
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.34,
+          "q25": 0.28,
+          "q75": 0.4,
+          "minimum": 0.11,
+          "maximum": 0.56
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.32,
+          "q25": 0.275,
+          "q75": 0.36,
+          "minimum": 0.13,
+          "maximum": 0.54
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.16,
+          "q25": 0.13,
+          "q75": 0.2,
+          "minimum": 0.02,
+          "maximum": 0.35
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.93,
+          "minimum": 0.9,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 31.56776835901116,
+          "q25": 29.272638681656982,
+          "q75": 34.22116925886557,
+          "minimum": 16.231682712466224,
+          "maximum": 48.950540144666064
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 26.311678843038933,
+          "q25": 25.23433628103411,
+          "q75": 27.151397050400238,
+          "minimum": 23.235736159011488,
+          "maximum": 34.68939882466919
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 24.890643866421257,
+          "q25": 22.284583452474205,
+          "q75": 26.61082712944901,
+          "minimum": 18.627649213216692,
+          "maximum": 34.237118200994686
+        }
+      }
+    },
+    "POP/12450033/NSGA/5100": {
+      "points": 62,
+      "summary": {
+        "firstStageEnergyShare": {
+          "median": 0.6106375698538913,
+          "q25": 0.6056027872810895,
+          "q75": 0.6164916356925789,
+          "minimum": 0.5853391410167218,
+          "maximum": 0.6315623231583879
+        },
+        "firstStageLaborShare": {
+          "median": 0.5627388615082286,
+          "q25": 0.5599217669317117,
+          "q75": 0.5659221450717512,
+          "minimum": 0.552378181182441,
+          "maximum": 0.5763656406958277
+        },
+        "fatigueEnergyShare": {
+          "median": 0.1721373256245183,
+          "q25": 0.1603775097808484,
+          "q75": 0.18486849854921694,
+          "minimum": 0.14186835843308787,
+          "maximum": 0.2131719651240124
+        },
+        "idleEnergyShare": {
+          "median": 0.13013566026628862,
+          "q25": 0.12354923736614132,
+          "q75": 0.14261832515251271,
+          "minimum": 0.09522220951258631,
+          "maximum": 0.17026152701908615
+        },
+        "fatigueLaborShare": {
+          "median": 0.19710612227892088,
+          "q25": 0.18125216637866187,
+          "q75": 0.21208246378305595,
+          "minimum": 0.16225496193998776,
+          "maximum": 0.23420739813102978
+        },
+        "firstStageFatigueLaborShare": {
+          "median": 0.13225497906870198,
+          "q25": 0.12133883933601873,
+          "q75": 0.14237128063082918,
+          "minimum": 0.11183443230300044,
+          "maximum": 0.15938488384334293
+        },
+        "laterMachineChangedFraction": {
+          "median": 0.35,
+          "q25": 0.315,
+          "q75": 0.4175,
+          "minimum": 0.18,
+          "maximum": 0.54
+        },
+        "laterWorkerChangedFraction": {
+          "median": 0.325,
+          "q25": 0.26,
+          "q75": 0.37,
+          "minimum": 0.12,
+          "maximum": 0.51
+        },
+        "laterDispatchRankChangedFraction": {
+          "median": 0.175,
+          "q25": 0.125,
+          "q75": 0.2,
+          "minimum": 0.04,
+          "maximum": 0.32
+        },
+        "positiveStartFatigueFraction": {
+          "median": 0.93,
+          "q25": 0.93,
+          "q75": 0.93,
+          "minimum": 0.93,
+          "maximum": 0.93
+        },
+        "atLeast0p1PctInflationFraction": {
+          "median": 0.925,
+          "q25": 0.92,
+          "q75": 0.925,
+          "minimum": 0.905,
+          "maximum": 0.93
+        },
+        "beta0FullPolicyRelativeEffectCPct": {
+          "median": 29.17444506786574,
+          "q25": 26.80605363039025,
+          "q75": 32.34770243876608,
+          "minimum": 18.42457971879754,
+          "maximum": 41.125837466269545
+        },
+        "beta0FullPolicyRelativeEffectEPct": {
+          "median": 26.072789344942983,
+          "q25": 24.726585370158016,
+          "q75": 28.438406020226992,
+          "minimum": 22.191643750506906,
+          "maximum": 33.38882208741434
+        },
+        "beta0FullPolicyRelativeEffectWPct": {
+          "median": 24.533619865856902,
+          "q25": 22.10338681590013,
+          "q75": 26.8522832676832,
+          "minimum": 19.287943609582147,
+          "maximum": 30.488022668041094
+        }
+      }
+    }
+  },
+  "limits": "Descriptive saved-front sample; no independence, search-attempt incidence, causal algorithm ranking underbeta0, or new candidate claim."
+}

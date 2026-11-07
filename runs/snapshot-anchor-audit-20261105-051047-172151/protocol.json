@@ -1,0 +1,29 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\makespan-tie-screen-20261105-025223-471920",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seed": 10950003,
+  "methods": [
+    "STRICT_FULL",
+    "NSGA_STRICT"
+  ],
+  "modes": [
+    "SERIAL",
+    "ANCHOR"
+  ],
+  "plannedFE": 4000000,
+  "perRunSuccessfulFE": 500000,
+  "plannedContractDecoderCalls": 4,
+  "implementation": "DefaultSERIAL retains frozen serialization. ExplicitANCHOR only replaces exact audited final Instance/DynamicParameters/DynamicSchedule/DynamicStep/SchedulingMetadata with per-copy in-memory handles; all other fields, aliases, cycles and mutable attributes remain Java serialized. No solution.copy shortcut.",
+  "contracts": "Four fixtures before any search: actual private-final classes without serialization callbacks; defensive getters, unknown mutable nested graph/cycles, vector aliases, mutablePrefix, multiple snapshots independent, and failed dominating insertion does not remove old archive.",
+  "acceptance": "Both instances and methods must have500000successful/0failed, equal full paidSHA256, archive admissions, acceptance counters, FE fronts, final genomes, initial vectors, decoder operations, physical ledger and copy counts. SERIAL also reproduces original frozen output.",
+  "accounting": "All attempted evaluations guarded, source replays included. Contract decoder calls and return full-decoder QA separate. Observation/digest costs enabled; no speed/same-time claim.",
+  "nextGate": "Only all engineering acceptance passes permits a separately frozen observer-off cost comparison with the SAME implementation for four duties and matched NSGA-II. No algorithm quality promotion.",
+  "references": [
+    "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/ObjectOutputStream.html",
+    "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/ObjectInputStream.html"
+  ],
+  "preserved": "Production runtime/model/search unchanged, original materials and every frozen record unchanged; no installs or file transfers."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE",
+  "decision": {
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "tests": [
+          {
+            "A": "FOUR_JOINT",
+            "B": "CENTER_JOINT",
+            "pass": false
+          },
+          {
+            "A": "FOUR_RELABEL",
+            "B": "CENTER_RELABEL",
+            "pass": false
+          }
+        ],
+        "pass": false
+      },
+      {
+        "stem": "100_2_3_1",
+        "tests": [
+          {
+            "A": "FOUR_JOINT",
+            "B": "CENTER_JOINT",
+            "pass": false
+          },
+          {
+            "A": "FOUR_RELABEL",
+            "B": "CENTER_RELABEL",
+            "pass": false
+          }
+        ],
+        "pass": false
+      }
+    ],
+    "consistentRoleAcceptanceSignal": false,
+    "oldQualificationRevived": false,
+    "goalAchieved": false
+  },
+  "commonRuns": 20,
+  "nativeRuns": 4,
+  "actualAttemptedFE": 1095600,
+  "actualSuccessfulFE": 1095600,
+  "failedFE": 0,
+  "extraFullDecoderQA": 103267,
+  "goalAchieved": false
+}

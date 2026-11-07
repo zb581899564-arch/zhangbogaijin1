@@ -1,0 +1,261 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "sourceAudit": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\candidate-redundancy-20261105-120604-024210",
+  "seeds": [
+    13190007,
+    13190037
+  ],
+  "arms": [
+    "FULL_OFF",
+    "FULL_ON",
+    "NSGA_OFF",
+    "NSGA_ON"
+  ],
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "NSGA_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "NSGA_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "FULL_OFF",
+      "budget": "FE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "FULL_ON",
+      "budget": "FE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190007,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 13190037,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190007,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "NSGA_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "FULL_OFF",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "FULL_ON",
+      "budget": "TIME"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 13190037,
+      "arm": "NSGA_OFF",
+      "budget": "TIME"
+    }
+  ],
+  "hypothesis": "Removing incidental equal-valued resource exchanges by exact conditional sampling, with nonempty support, improves useful progress per paid evaluation enough to improve the four-duty method and compete with equally enhanced NSGA.",
+  "distinctFromStoppedHypothesis": "The four-cell >=5%whole-empty gate failed and stays stopped. Do NOT skip an empty neighborhood. When all values equal, call original generator and pay original identity evaluation. No historical duplicate filtering, caching or withoutreplacement memory. The new object is random pair selection inside nonempty resource-exchange operators5and8; all other proposals unchanged.",
+  "mechanism": "Each original ordered pair has equal mass1/(n*(n-1)). Conditional on unequal resource labels, sample one uniform integer in0..M-1 where M=n*n-sum(count_r^2); map bijectively to first-position block of lengthn-count(label), then a second position with a different label. One actual candidate; no resampling loop, objective preview or generated-candidate rejection. No new parameter.",
+  "engineering": "Actual frozen Intra class/source resolution and SHA/JDK; OFF shadow100k for both methods/instances seed12390003 equals existing baseline full paidSHA, fronts/genes/birthFE, initials, ledger, search and decoder counts. Exhaustive ternary vectors length0..6 prove uniform ordered-pair support exactly. ON cutoffs1/2/5100/10000 on bothinstances preserve actualFE accounting and fullQA. All engineering before32performance runs; no observer trace used for timing.",
+  "budgets": "32runs:16fixed100kFE=1600000successFE;16trueTIME_LIMIT4/5s=72s search, each500kFE safety cap. HittingFEcap beforeT is incomplete, not a time result. Engineering 4*100kOFF+2*(1+2+5100+10000)ON=430206successFE. Totalnew fixed2030206FE plus actual time-run attempts, at most10030206attemptFE if alltimecaps reached. One JVM sequential Xms32m/Xmx2g. Input/model100initials equal perinstance/seed and all4arms/budgets; originalnatural VNS depth and all roles/Q/family/sharing unchanged.",
+  "metrics": "PrimaryHV1.5 at declared100kFE and trueT. Sensitivity1.25/2 unchanged scales. IGD+ common empiricalND union of4arms*2seeds at eachinstance/budget; no search use. Report individual seeds, missing FE checkpoints, interruptions, stage fees and all registered curves; do not choose early windows. No mixingFE/time frontiers.",
+  "gate": "Bothinstances, eachbudget: FULL_ON medianHVvsFULL_OFF>=0%, everypair>=-0.5%; TIME medianvsFULL_OFF>=0.5%. Bothbudgets medianvsNSGA_ON>=-1%, everypair>=-5%. Ref1.25/2 medians>=0vsFULL_OFF and>=-2%vsNSGA_ON. IGD+symmetrical worsening median<=5%vsNSGA_ON. All necessary to justify full500k and duty/share/Li/common original sharing comparisons later. Failure stops this exact conditional kernel without changingpair rule, gate, seed, T, local depth or target operators.",
+  "scope": "Common operator engineering/search-distribution modification, not a new main four-duty innovation, full algorithm confirmation, fatigue specificity or guaranteed publication. A pass only permits further complete comparison. Default mainline, previous stopped experiments and model protected. No downloads/transfers/push."
+}

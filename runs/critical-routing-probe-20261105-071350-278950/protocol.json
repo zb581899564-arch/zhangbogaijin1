@@ -1,0 +1,59 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\critical-slot-audit-20261105-070658-179204",
+  "probeSeed": 12280003,
+  "plannedSuccessfulFE": 49344,
+  "question": "Can current-critical-factory routing recover useful M-task search value under equal actual FE, including incidental3Dvalue?",
+  "sampling": "For eachinstance and FULL/NSGA source, first M intra slot of each free visit, then8equally spaced such entries. No selection by criticality/improvement, no protected families.2paired construction replicas perparent.",
+  "rules": "FROZEN actual source slotfactory; RANDOM uniform perVNSrestart; CRITICAL current maximum factory perVNSrestart, retain fallback when tied else lowestid. Only factory argument changes, actual frozen VNS/strict acceptance unchanged. A separate paired policy RNG is drawn equally for all modes; it never advances native proposal RNG.",
+  "fees": "Eachtrial1paid exactparentreplay+256VNSactual evaluations, duplicates included.16parents*2rep*3modes*257 perinstance. Every paid fulltimeline independently replayed after run, QA timing separated. Source archive only offline scoring.",
+  "scoring": "All actual paid discoveries jointHV vs true source pre-slot archive, original norm/ref1.5 plus1.25/2. Minimum paidCmax equals returned scalar incumbent; certified FROZEN cannot improve initialC. No peer archive or cooperative feedback in this local task.",
+  "gate": "All4instance/source groups>=4/8informative parents,>=5/8parentwins vsRANDOM; mean jointaddedHV>=1.10times BOTH FROZEN/RANDOM, absolute>1e-10 and mean gain>=0.1%ofbackgroundHV; meanC improvement no worse thanboth. Reference1.25/2 gains positive vsboth. Median full finite-task clock ratioCRITICAL/RANDOM<=1.10. Allnecessary; failed fixed routing stops without changing quota, routing interval, seeds or neighbors.",
+  "limits": "Development contexts, not full algorithms, natural stopping, trueTIME_LIMIT or independent confirmation. Common routing, so any generic gain must also be offered to NSGA; no new novelty or four-role-specific claim. Only a complete gate pass permits a separately registered matched closed-loop experiment.",
+  "preserved": "No mainline, original/frozen records, Q, duty, family/shared rules or original ledger changed; no filetransfer."
+}

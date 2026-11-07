@@ -1,0 +1,251 @@
+{
+  "terminal": {
+    "CURRENT": {
+      "HV": 0.8504927852213597,
+      "IGDplus": 0.010134774961271091,
+      "launch": {
+        "mode": "CURRENT",
+        "counts": {
+          "visits": 112,
+          "fixedFamilyUnchanged": 21
+        },
+        "scope": "Only free particles; no new evaluation or uncharged donor creation; actual candidate evaluation remains guarded."
+      }
+    },
+    "POOLED_ELITE": {
+      "HV": 0.8346079386274888,
+      "IGDplus": 0.012179410855986469,
+      "launch": {
+        "mode": "POOLED_ELITE",
+        "counts": {
+          "visits": 112,
+          "changed": 87,
+          "changed.MAKESPAN": 20,
+          "dominatesPreviousCurrent": 71,
+          "fixedFamilyUnchanged": 21,
+          "changed.CENTER": 46,
+          "changed.ENERGY": 11,
+          "changed.WORKER_COST": 10
+        },
+        "scope": "Only free particles; no new evaluation or uncharged donor creation; actual candidate evaluation remains guarded."
+      }
+    },
+    "OWN_HISTORY": {
+      "HV": 0.8490397680846684,
+      "IGDplus": 0.008723781416043973,
+      "launch": {
+        "mode": "OWN_HISTORY",
+        "counts": {
+          "visits": 112,
+          "changed": 86,
+          "changed.MAKESPAN": 21,
+          "dominatesPreviousCurrent": 51,
+          "fixedFamilyUnchanged": 21,
+          "changed.CENTER": 45,
+          "changed.ENERGY": 11,
+          "changed.WORKER_COST": 9
+        },
+        "scope": "Only free particles; no new evaluation or uncharged donor creation; actual candidate evaluation remains guarded."
+      }
+    },
+    "NSGA": {
+      "HV": 0.8613806153279822,
+      "IGDplus": 0.0032653163896920307,
+      "launch": {
+        "mode": "CURRENT",
+        "counts": {},
+        "scope": "Only free particles; no new evaluation or uncharged donor creation; actual candidate evaluation remains guarded."
+      }
+    }
+  },
+  "ownEffectsPct": {
+    "1.25": {
+      "CURRENT": -0.12409704112761322,
+      "POOLED_ELITE": 2.3079866695940643,
+      "NSGA": -1.732868950498101
+    },
+    "1.5": {
+      "CURRENT": -0.17084414611620025,
+      "POOLED_ELITE": 1.7291747165636417,
+      "NSGA": -1.4326822572637954
+    },
+    "2": {
+      "CURRENT": -0.17072132385932415,
+      "POOLED_ELITE": 1.158743117245864,
+      "NSGA": -1.0668104792828537
+    }
+  },
+  "gate": "STOP_THIS_LAUNCH_RULE",
+  "FECurve": [
+    {
+      "fe": 100,
+      "HV": {
+        "CURRENT": 0.5766581470531825,
+        "POOLED_ELITE": 0.5766581470531825,
+        "OWN_HISTORY": 0.5766581470531825,
+        "NSGA": 0.5766581470531825
+      }
+    },
+    {
+      "fe": 5100,
+      "HV": {
+        "CURRENT": 0.6905249580429931,
+        "POOLED_ELITE": 0.6905249580429931,
+        "OWN_HISTORY": 0.6905249580429931,
+        "NSGA": 0.6961884075453159
+      }
+    },
+    {
+      "fe": 15000,
+      "HV": {
+        "CURRENT": 0.7089779470124494,
+        "POOLED_ELITE": 0.7140319606859805,
+        "OWN_HISTORY": 0.7316929095073261,
+        "NSGA": 0.7353576540635804
+      }
+    },
+    {
+      "fe": 50000,
+      "HV": {
+        "CURRENT": 0.7174238490450356,
+        "POOLED_ELITE": 0.7253756003672782,
+        "OWN_HISTORY": 0.7316929095073261,
+        "NSGA": 0.7472325794476353
+      }
+    },
+    {
+      "fe": 100000,
+      "HV": {
+        "CURRENT": 0.7951800894188611,
+        "POOLED_ELITE": 0.7931870311546547,
+        "OWN_HISTORY": 0.7998331776677355,
+        "NSGA": 0.8081229756384856
+      }
+    },
+    {
+      "fe": 250000,
+      "HV": {
+        "CURRENT": 0.8084198240741485,
+        "POOLED_ELITE": 0.7946447028735243,
+        "OWN_HISTORY": 0.8092549639166522,
+        "NSGA": 0.8184395532247446
+      }
+    },
+    {
+      "fe": 500000,
+      "HV": {
+        "CURRENT": 0.8504927852213597,
+        "POOLED_ELITE": 0.8346079386274888,
+        "OWN_HISTORY": 0.8490397680846684,
+        "NSGA": 0.8613806153279822
+      }
+    }
+  ],
+  "timeCurve": [
+    {
+      "seconds": 1.0,
+      "HV": {
+        "CURRENT": 0.7165215746376506,
+        "POOLED_ELITE": 0.7173690219620478,
+        "OWN_HISTORY": 0.7316929095073261,
+        "NSGA": 0.7470620551437533
+      },
+      "FE": {
+        "CURRENT": 42933,
+        "POOLED_ELITE": 36597,
+        "OWN_HISTORY": 37349,
+        "NSGA": 36650
+      }
+    },
+    {
+      "seconds": 2.0,
+      "HV": {
+        "CURRENT": 0.8001195795073092,
+        "POOLED_ELITE": 0.7940601923329963,
+        "OWN_HISTORY": 0.8002460769196171,
+        "NSGA": 0.8177934332371734
+      },
+      "FE": {
+        "CURRENT": 138208,
+        "POOLED_ELITE": 129279,
+        "OWN_HISTORY": 134557,
+        "NSGA": 142984
+      }
+    },
+    {
+      "seconds": 4.0,
+      "HV": {
+        "CURRENT": 0.842987004198795,
+        "POOLED_ELITE": 0.8207345427683754,
+        "OWN_HISTORY": 0.8442020213436496,
+        "NSGA": 0.8524213355088184
+      },
+      "FE": {
+        "CURRENT": 396671,
+        "POOLED_ELITE": 374901,
+        "OWN_HISTORY": 382962,
+        "NSGA": 423862
+      }
+    },
+    {
+      "seconds": 6.0,
+      "HV": {
+        "CURRENT": 0.8504927852213597,
+        "POOLED_ELITE": 0.8346079386274888,
+        "OWN_HISTORY": 0.8490397680846684,
+        "NSGA": 0.8613806153279822
+      },
+      "FE": {
+        "CURRENT": 500000,
+        "POOLED_ELITE": 500000,
+        "OWN_HISTORY": 500000,
+        "NSGA": 500000
+      }
+    },
+    {
+      "seconds": 8.0,
+      "HV": {
+        "CURRENT": 0.8504927852213597,
+        "POOLED_ELITE": 0.8346079386274888,
+        "OWN_HISTORY": 0.8490397680846684,
+        "NSGA": 0.8613806153279822
+      },
+      "FE": {
+        "CURRENT": 500000,
+        "POOLED_ELITE": 500000,
+        "OWN_HISTORY": 500000,
+        "NSGA": 500000
+      }
+    },
+    {
+      "seconds": 10.0,
+      "HV": {
+        "CURRENT": 0.8504927852213597,
+        "POOLED_ELITE": 0.8346079386274888,
+        "OWN_HISTORY": 0.8490397680846684,
+        "NSGA": 0.8613806153279822
+      },
+      "FE": {
+        "CURRENT": 500000,
+        "POOLED_ELITE": 500000,
+        "OWN_HISTORY": 500000,
+        "NSGA": 500000
+      }
+    },
+    {
+      "seconds": 12.0,
+      "HV": {
+        "CURRENT": 0.8504927852213597,
+        "POOLED_ELITE": 0.8346079386274888,
+        "OWN_HISTORY": 0.8490397680846684,
+        "NSGA": 0.8613806153279822
+      },
+      "FE": {
+        "CURRENT": 500000,
+        "POOLED_ELITE": 500000,
+        "OWN_HISTORY": 500000,
+        "NSGA": 500000
+      }
+    }
+  ]
+}

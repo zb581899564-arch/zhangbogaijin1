@@ -1,0 +1,2940 @@
+{
+  "status": "complete",
+  "parents": 90,
+  "candidate_truth_evaluations": 1440,
+  "full_decode_accounting": {
+    "parent_for_prediction": 90,
+    "offline_all_candidate_truth": 1440,
+    "timing_plain": 540,
+    "timing_trace": 540
+  },
+  "groups": [
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.07737116012011339,
+      "sign_accuracy": 0.81875,
+      "selected_raw_gain": 0.018234391673819683,
+      "accepted_gain": 0.027210728819732338,
+      "improvement_probability": 0.4400625763125763,
+      "oracle_regret": 0.029469279322911254,
+      "tie_count": 5.866666666666666,
+      "cost_proxy_ms": 10.537146666666667,
+      "accepted_gain_per_proxy_ms": 0.0038154703463673108,
+      "defined_rank_cases": 27
+    },
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.08692233861445872,
+      "sign_accuracy": 0.8333333333333334,
+      "selected_raw_gain": 0.018234391673819683,
+      "accepted_gain": 0.027210728819732338,
+      "improvement_probability": 0.4400625763125763,
+      "oracle_regret": 0.029469279322911254,
+      "tie_count": 5.866666666666666,
+      "cost_proxy_ms": 10.079423333333333,
+      "accepted_gain_per_proxy_ms": 0.003976008792876035,
+      "defined_rank_cases": 27
+    },
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.0029555096392419136,
+      "accepted_gain": 0.0062452854930732495,
+      "improvement_probability": 0.20208333333333334,
+      "oracle_regret": 0.050659180635972856,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.5783966666666664,
+      "accepted_gain_per_proxy_ms": 0.0017094199256582538,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.24901126614172156,
+      "sign_accuracy": 0.6145833333333334,
+      "selected_raw_gain": 0.008422279265315696,
+      "accepted_gain": 0.010185413208303446,
+      "improvement_probability": 0.6666666666666666,
+      "oracle_regret": 0.006686973863278882,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.504696666666666,
+      "accepted_gain_per_proxy_ms": 0.0013452396617971824,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.2544017078682312,
+      "sign_accuracy": 0.6104166666666667,
+      "selected_raw_gain": 0.008422279265315696,
+      "accepted_gain": 0.010185413208303446,
+      "improvement_probability": 0.6666666666666666,
+      "oracle_regret": 0.006686973863278882,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.04187,
+      "accepted_gain_per_proxy_ms": 0.0014063001320398893,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": 0.00078810985210644,
+      "accepted_gain": 0.0036431318885747545,
+      "improvement_probability": 0.5125,
+      "oracle_regret": 0.01432114327648814,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.5783966666666664,
+      "accepted_gain_per_proxy_ms": 0.0009598695013130705,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.22583058211550475,
+      "sign_accuracy": 0.5916666666666667,
+      "selected_raw_gain": 0.0004174270797788685,
+      "accepted_gain": 0.0007344791323383693,
+      "improvement_probability": 0.6,
+      "oracle_regret": 0.0017459751212239403,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.490623333333334,
+      "accepted_gain_per_proxy_ms": 8.782171365900111e-05,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.1884856558536391,
+      "sign_accuracy": 0.5791666666666667,
+      "selected_raw_gain": 0.000249465252795146,
+      "accepted_gain": 0.0006136119753280116,
+      "improvement_probability": 0.6,
+      "oracle_regret": 0.0019139369482076628,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.042396666666665,
+      "accepted_gain_per_proxy_ms": 5.7137085559335914e-05,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.00017952080300268476,
+      "accepted_gain": 0.00044280395938376457,
+      "improvement_probability": 0.43333333333333335,
+      "oracle_regret": 0.002342923004005493,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.5783966666666664,
+      "accepted_gain_per_proxy_ms": 0.00010792079719291157,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.129873894215503,
+      "sign_accuracy": 0.5854166666666667,
+      "selected_raw_gain": 0.00962774596710737,
+      "accepted_gain": 0.011713471849132231,
+      "improvement_probability": 0.7,
+      "oracle_regret": 0.009044120873625458,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.49457,
+      "accepted_gain_per_proxy_ms": 0.001641566703003408,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.14698350832207,
+      "sign_accuracy": 0.5854166666666667,
+      "selected_raw_gain": 0.009332602924177718,
+      "accepted_gain": 0.011613217389277451,
+      "improvement_probability": 0.6666666666666666,
+      "oracle_regret": 0.009339263916555108,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.04037,
+      "accepted_gain_per_proxy_ms": 0.0016860833915370579,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.0007823068633793859,
+      "accepted_gain": 0.0030697885670987538,
+      "improvement_probability": 0.51875,
+      "oracle_regret": 0.019454173704112215,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.5783966666666664,
+      "accepted_gain_per_proxy_ms": 0.0008321211270314938,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.055318452627860844,
+      "sign_accuracy": 0.8104166666666667,
+      "selected_raw_gain": 0.019639496282879684,
+      "accepted_gain": 0.02565885837842217,
+      "improvement_probability": 0.40363553113553113,
+      "oracle_regret": 0.02739151700051351,
+      "tie_count": 6.566666666666666,
+      "cost_proxy_ms": 10.619396666666663,
+      "accepted_gain_per_proxy_ms": 0.0034358055776721502,
+      "defined_rank_cases": 27
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.05890302254488059,
+      "sign_accuracy": 0.8166666666666667,
+      "selected_raw_gain": 0.016356564949093634,
+      "accepted_gain": 0.0259811605442762,
+      "improvement_probability": 0.4703021978021978,
+      "oracle_regret": 0.03067444833429956,
+      "tie_count": 5.666666666666667,
+      "cost_proxy_ms": 10.194483333333334,
+      "accepted_gain_per_proxy_ms": 0.0035319821670925216,
+      "defined_rank_cases": 27
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.0031751841580973123,
+      "accepted_gain": 0.006981484310519941,
+      "improvement_probability": 0.225,
+      "oracle_regret": 0.050206197441490505,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.500069999999999,
+      "accepted_gain_per_proxy_ms": 0.001840862573687206,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.2410309689937083,
+      "sign_accuracy": 0.59375,
+      "selected_raw_gain": 0.00981751778068587,
+      "accepted_gain": 0.010868992268692767,
+      "improvement_probability": 0.8333333333333334,
+      "oracle_regret": 0.0069132438941051245,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.58236,
+      "accepted_gain_per_proxy_ms": 0.0014952908688447104,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.23224594686369412,
+      "sign_accuracy": 0.5833333333333334,
+      "selected_raw_gain": 0.008140668011704662,
+      "accepted_gain": 0.009794807192179381,
+      "improvement_probability": 0.7666666666666667,
+      "oracle_regret": 0.008590093663086334,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.196646666666664,
+      "accepted_gain_per_proxy_ms": 0.0013588162343802798,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": 0.0012616796571670583,
+      "accepted_gain": 0.00372386259837823,
+      "improvement_probability": 0.5229166666666667,
+      "oracle_regret": 0.015469082017623937,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.500069999999999,
+      "accepted_gain_per_proxy_ms": 0.0010046522841092086,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.17689019250132587,
+      "sign_accuracy": 0.60625,
+      "selected_raw_gain": 0.0015203513845245256,
+      "accepted_gain": 0.0021664313021423427,
+      "improvement_probability": 0.5666666666666667,
+      "oracle_regret": 0.0030956058487132897,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.578943333333333,
+      "accepted_gain_per_proxy_ms": 0.0002809899849598914,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.13444577880055894,
+      "sign_accuracy": 0.6,
+      "selected_raw_gain": 0.0012156785575757445,
+      "accepted_gain": 0.001845699194064069,
+      "improvement_probability": 0.5666666666666667,
+      "oracle_regret": 0.0034002786756620698,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.15328,
+      "accepted_gain_per_proxy_ms": 0.00031002214083132666,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": 0.00012495178018049382,
+      "accepted_gain": 0.0009616473554781458,
+      "improvement_probability": 0.4625,
+      "oracle_regret": 0.004491005453057321,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.500069999999999,
+      "accepted_gain_per_proxy_ms": 0.0002556270393466697,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.1533960017231681,
+      "sign_accuracy": 0.575,
+      "selected_raw_gain": 0.009087853713048152,
+      "accepted_gain": 0.011797522072166406,
+      "improvement_probability": 0.7,
+      "oracle_regret": 0.009694953822767496,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.608749999999999,
+      "accepted_gain_per_proxy_ms": 0.0016052971348258704,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.13374362297767659,
+      "sign_accuracy": 0.58125,
+      "selected_raw_gain": 0.009795247302118688,
+      "accepted_gain": 0.011540108070521408,
+      "improvement_probability": 0.7666666666666667,
+      "oracle_regret": 0.008987560233696958,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.176503333333333,
+      "accepted_gain_per_proxy_ms": 0.0016278085843690264,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.0005961842402499199,
+      "accepted_gain": 0.00335049925986305,
+      "improvement_probability": 0.5020833333333333,
+      "oracle_regret": 0.019378991776065568,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.500069999999999,
+      "accepted_gain_per_proxy_ms": 0.0008915736652382916,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.07154103480666012,
+      "sign_accuracy": 0.8291666666666667,
+      "selected_raw_gain": 0.010889388044640643,
+      "accepted_gain": 0.02128335675186559,
+      "improvement_probability": 0.4439575702075702,
+      "oracle_regret": 0.033955343695931534,
+      "tie_count": 6.433333333333334,
+      "cost_proxy_ms": 10.520290000000001,
+      "accepted_gain_per_proxy_ms": 0.002404475111135503,
+      "defined_rank_cases": 26
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.026602801680188668,
+      "sign_accuracy": 0.8270833333333333,
+      "selected_raw_gain": 0.007670823015003136,
+      "accepted_gain": 0.020086221845228402,
+      "improvement_probability": 0.40395757020757017,
+      "oracle_regret": 0.037173908725569034,
+      "tie_count": 6.166666666666667,
+      "cost_proxy_ms": 9.985510000000001,
+      "accepted_gain_per_proxy_ms": 0.002407521049879889,
+      "defined_rank_cases": 26
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.00248762260811607,
+      "accepted_gain": 0.006174640693737782,
+      "improvement_probability": 0.2125,
+      "oracle_regret": 0.047332354348688245,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.483140000000001,
+      "accepted_gain_per_proxy_ms": 0.001580294104004803,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.18318465112953544,
+      "sign_accuracy": 0.6229166666666667,
+      "selected_raw_gain": 0.009783221771885453,
+      "accepted_gain": 0.011188779466547174,
+      "improvement_probability": 0.7333333333333333,
+      "oracle_regret": 0.009242004486437914,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.457126666666666,
+      "accepted_gain_per_proxy_ms": 0.0015385875951679016,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.18410280551713412,
+      "sign_accuracy": 0.6,
+      "selected_raw_gain": 0.010838976588185707,
+      "accepted_gain": 0.012181013300170015,
+      "improvement_probability": 0.7666666666666667,
+      "oracle_regret": 0.008186249670137662,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 9.976696666666667,
+      "accepted_gain_per_proxy_ms": 0.0016730095026283196,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": 0.0012306531454368645,
+      "accepted_gain": 0.0039934354436551005,
+      "improvement_probability": 0.5083333333333333,
+      "oracle_regret": 0.017794573112886503,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.483140000000001,
+      "accepted_gain_per_proxy_ms": 0.0011421353329170052,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.2607738016955689,
+      "sign_accuracy": 0.6354166666666666,
+      "selected_raw_gain": 0.0035164807301184386,
+      "accepted_gain": 0.005291977890002472,
+      "improvement_probability": 0.6666666666666666,
+      "oracle_regret": 0.005305690860002422,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.41515,
+      "accepted_gain_per_proxy_ms": 0.0008047470061903813,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.21327004610089167,
+      "sign_accuracy": 0.6208333333333333,
+      "selected_raw_gain": 0.003326159988600061,
+      "accepted_gain": 0.004515096589492342,
+      "improvement_probability": 0.6666666666666666,
+      "oracle_regret": 0.005496011601520797,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.006326666666666,
+      "accepted_gain_per_proxy_ms": 0.0007595224334140024,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.00019728549493418742,
+      "accepted_gain": 0.0016191696843092752,
+      "improvement_probability": 0.47291666666666665,
+      "oracle_regret": 0.009019457085055046,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.483140000000001,
+      "accepted_gain_per_proxy_ms": 0.00042086433274515805,
+      "defined_rank_cases": 0
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "method": "fatigue_adjoint",
+      "parents": 30,
+      "rank_spearman": 0.12949628379884265,
+      "sign_accuracy": 0.6333333333333333,
+      "selected_raw_gain": 0.005976249233397156,
+      "accepted_gain": 0.009762149379470291,
+      "improvement_probability": 0.7,
+      "oracle_regret": 0.012710711915834037,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 10.434899999999999,
+      "accepted_gain_per_proxy_ms": 0.0011466549295152118,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "method": "time_only",
+      "parents": 30,
+      "rank_spearman": 0.09134911797263205,
+      "sign_accuracy": 0.5875,
+      "selected_raw_gain": 0.006347323598914724,
+      "accepted_gain": 0.009590853759860596,
+      "improvement_probability": 0.7666666666666667,
+      "oracle_regret": 0.01233963755031647,
+      "tie_count": 1.0,
+      "cost_proxy_ms": 9.976206666666666,
+      "accepted_gain_per_proxy_ms": 0.001175742367301592,
+      "defined_rank_cases": 30
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "method": "random",
+      "parents": 30,
+      "rank_spearman": null,
+      "sign_accuracy": null,
+      "selected_raw_gain": -0.0004847516525377974,
+      "accepted_gain": 0.003274589917029347,
+      "improvement_probability": 0.4875,
+      "oracle_regret": 0.019171712801768985,
+      "tie_count": 16.0,
+      "cost_proxy_ms": 5.483140000000001,
+      "accepted_gain_per_proxy_ms": 0.0008701396159094102,
+      "defined_rank_cases": 0
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0,
+      "bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -0.00016053844650872382,
+      "bootstrap_95_interval": [
+        -0.00030950980072033413,
+        -4.683789008565268e-05
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.020965443326659092,
+      "bootstrap_95_interval": [
+        0.0047772044319814785,
+        0.04009740459984085
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0021060504207090574,
+      "bootstrap_95_interval": [
+        8.711427268265392e-05,
+        0.0046120484594981285
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0,
+      "bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -6.106047024270751e-05,
+      "bootstrap_95_interval": [
+        -0.0001463318533274583,
+        -1.2644474592672005e-05
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.006542281319728694,
+      "bootstrap_95_interval": [
+        0.0009413297370243309,
+        0.014813485614985264
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0003853701604841119,
+      "bootstrap_95_interval": [
+        -0.00019087357853216243,
+        0.001118391977728238
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.00012086715701035774,
+      "bootstrap_95_interval": [
+        -0.0003788907263753863,
+        0.0007400896456624747
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 3.0684628099665214e-05,
+      "bootstrap_95_interval": [
+        -3.50648107346217e-05,
+        0.0001192109118657751
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0002916751729546046,
+      "bootstrap_95_interval": [
+        -0.00011448723298448232,
+        0.0008192901529917169
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -2.0099083533910453e-05,
+      "bootstrap_95_interval": [
+        -8.904619152682233e-05,
+        5.245674854420357e-05
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.00010025445985477989,
+      "bootstrap_95_interval": [
+        0.0,
+        0.0005012722992738994
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -4.451668853364978e-05,
+      "bootstrap_95_interval": [
+        -0.00010380960773758817,
+        4.26399264153144e-05
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.008643683282033474,
+      "bootstrap_95_interval": [
+        0.0029510339416184547,
+        0.015089630408294589
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "weak",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0008094455759719145,
+      "bootstrap_95_interval": [
+        0.00012495718863117194,
+        0.0016386185796835224
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": -0.0003223021658540342,
+      "bootstrap_95_interval": [
+        -0.0012323330703186085,
+        0.0
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -9.617658942037154e-05,
+      "bootstrap_95_interval": [
+        -0.00026150003410312897,
+        9.966462869942546e-05
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.01867737406790222,
+      "bootstrap_95_interval": [
+        0.0024299737680604223,
+        0.03837483737047409
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0015949430039849445,
+      "bootstrap_95_interval": [
+        -0.00021657521324030033,
+        0.0037191080976817902
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0010741850765133853,
+      "bootstrap_95_interval": [
+        -0.0005859079190656643,
+        0.0037397794767112234
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.00013647463446443063,
+      "bootstrap_95_interval": [
+        -0.00014111695125587018,
+        0.0007430305048243711
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.007145129670314536,
+      "bootstrap_95_interval": [
+        0.0019145623611216186,
+        0.014592415105359767
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0004906385847355019,
+      "bootstrap_95_interval": [
+        -0.00018405569029568316,
+        0.0012991330069605182
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.00032073210807827366,
+      "bootstrap_95_interval": [
+        -0.0012053399145161743,
+        0.0018902684713172678
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -2.90321558714353e-05,
+      "bootstrap_95_interval": [
+        -0.00029489607799190157,
+        0.00017433969976018111
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0012047839466641972,
+      "bootstrap_95_interval": [
+        0.00011412162728611498,
+        0.0025132476141026716
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 2.5362945613221693e-05,
+      "bootstrap_95_interval": [
+        -0.00015137574927802437,
+        0.000213676638185328
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0002574140016449971,
+      "bootstrap_95_interval": [
+        -0.0017195868873831708,
+        0.0025477029082790906
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -2.2511449543156184e-05,
+      "bootstrap_95_interval": [
+        -0.00048549055472899276,
+        0.0004946709646001545
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.008447022812303357,
+      "bootstrap_95_interval": [
+        0.002774314627604386,
+        0.015090339879791075
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_slow_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0007137234695875785,
+      "bootstrap_95_interval": [
+        2.8445131095305326e-05,
+        0.0015264368049705981
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0011971349066371884,
+      "bootstrap_95_interval": [
+        0.0,
+        0.004560011358106188
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -3.0459387443868085e-06,
+      "bootstrap_95_interval": [
+        -0.00022889413500877087,
+        0.00034255664266445165
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.015108716058127806,
+      "bootstrap_95_interval": [
+        0.0003236914941983458,
+        0.03520896891273544
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "Cmax",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0008241810071306998,
+      "bootstrap_95_interval": [
+        -0.0006530036863538249,
+        0.0027113781511537527
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": -0.0009922338336228425,
+      "bootstrap_95_interval": [
+        -0.0030990235314466473,
+        0.0008527798014445577
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -0.00013442190746041786,
+      "bootstrap_95_interval": [
+        -0.00030200436282946925,
+        3.7155446875154664e-05
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0071953440228920695,
+      "bootstrap_95_interval": [
+        0.0008007442806255243,
+        0.01637349719540151
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TEC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.00039645226225089607,
+      "bootstrap_95_interval": [
+        -0.0004587072697616075,
+        0.00146414365849812
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0007768813005101298,
+      "bootstrap_95_interval": [
+        -0.0008445095860755356,
+        0.0025351315158947357
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 4.522457277637911e-05,
+      "bootstrap_95_interval": [
+        -0.00011356437549993721,
+        0.00021737688612017566
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.0036728082056931978,
+      "bootstrap_95_interval": [
+        0.0008796586296867348,
+        0.00755601866486675
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "TWC",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0003838826734452233,
+      "bootstrap_95_interval": [
+        -0.00010892482179721254,
+        0.0012950896581401664
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain",
+      "mean_difference": 0.00017129561960969755,
+      "bootstrap_95_interval": [
+        -0.0007191012402492949,
+        0.001889241869311603
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "time_only",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": -2.9087437786380282e-05,
+      "bootstrap_95_interval": [
+        -0.00014631687407138327,
+        0.00016479553053158676
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain",
+      "mean_difference": 0.006487559462440945,
+      "bootstrap_95_interval": [
+        0.001147423568826496,
+        0.013410943467707864
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    },
+    {
+      "profile": "strong_fast_recovery",
+      "target": "balanced",
+      "left": "fatigue_adjoint",
+      "right": "random",
+      "metric": "accepted_gain_per_proxy_ms",
+      "mean_difference": 0.0002765153136058016,
+      "bootstrap_95_interval": [
+        -0.00045286667774440607,
+        0.0009988119528013691
+      ],
+      "clusters": 6,
+      "paired_units": 30,
+      "scope": "descriptive diagnostic interval; six reconstructed instances are not population proof"
+    }
+  ],
+  "cases": [
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 7,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        383.8624228089714,
+        12334.30100934332,
+        11810.915804795884
+      ],
+      "mean_later_topology_changed_ops": 5.0,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        489.62834631469343,
+        15120.554044939841,
+        14229.055245039774
+      ],
+      "mean_later_topology_changed_ops": 5.0,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        483.35583681596586,
+        14259.908060267195,
+        13327.964659262723
+      ],
+      "mean_later_topology_changed_ops": 5.0,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 19,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        468.75933462933335,
+        12623.10434602437,
+        11756.485127618722
+      ],
+      "mean_later_topology_changed_ops": 5.0,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        644.8636055711207,
+        15801.86422669014,
+        14254.916850609072
+      ],
+      "mean_later_topology_changed_ops": 4.5,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        548.698012242134,
+        14715.287205810311,
+        13183.618316620605
+      ],
+      "mean_later_topology_changed_ops": 4.25,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 43,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        521.7364902679934,
+        13887.970110243537,
+        11977.893067079223
+      ],
+      "mean_later_topology_changed_ops": 4.1875,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        741.4718252174957,
+        18404.839172044216,
+        14910.516527266762
+      ],
+      "mean_later_topology_changed_ops": 4.125,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 4,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        738.8065758159488,
+        17654.34608400989,
+        14034.293870051171
+      ],
+      "mean_later_topology_changed_ops": 4.125,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 101,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        505.05902954787604,
+        13843.29683725653,
+        11636.269107697699
+      ],
+      "mean_later_topology_changed_ops": 6.9375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        724.6115556623224,
+        17947.158272202938,
+        14166.866318728957
+      ],
+      "mean_later_topology_changed_ops": 7.0625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        722.9980611074261,
+        17165.292035049624,
+        13367.197143349793
+      ],
+      "mean_later_topology_changed_ops": 7.0625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 271,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        365.5735913984579,
+        12414.201133289269,
+        11812.098102961247
+      ],
+      "mean_later_topology_changed_ops": 3.6875,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        478.41334295981073,
+        15409.156187079707,
+        14322.047048979914
+      ],
+      "mean_later_topology_changed_ops": 3.8125,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_2_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 40,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        471.4325603625331,
+        15015.60406769901,
+        13867.371195504746
+      ],
+      "mean_later_topology_changed_ops": 3.8125,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 7,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        591.0732498332521,
+        28344.562970331954,
+        30624.742688721177
+      ],
+      "mean_later_topology_changed_ops": 17.6875,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        850.4493452097655,
+        36475.50093999343,
+        37907.74360545961
+      ],
+      "mean_later_topology_changed_ops": 17.6875,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        809.6064955443572,
+        34205.206411436004,
+        35143.67405883346
+      ],
+      "mean_later_topology_changed_ops": 17.9375,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 19,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        470.817294723234,
+        29025.69793914444,
+        30443.403701214163
+      ],
+      "mean_later_topology_changed_ops": 25.4375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        668.5031766015052,
+        36161.453362321656,
+        37016.87046281698
+      ],
+      "mean_later_topology_changed_ops": 24.4375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        644.465113621902,
+        33854.84872942457,
+        34253.95838288151
+      ],
+      "mean_later_topology_changed_ops": 24.3125,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 43,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        457.84377186471954,
+        27684.541706249704,
+        30000.499333550775
+      ],
+      "mean_later_topology_changed_ops": 22.375,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        607.5533388322203,
+        35847.3075287074,
+        36675.01194600448
+      ],
+      "mean_later_topology_changed_ops": 23.1875,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        571.4299781025398,
+        33833.04811167709,
+        34097.950759958614
+      ],
+      "mean_later_topology_changed_ops": 23.0,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 101,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        449.7032553794969,
+        29377.22562659913,
+        30506.84781900464
+      ],
+      "mean_later_topology_changed_ops": 29.0625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        640.9732986687023,
+        38083.38651824176,
+        36745.52104201074
+      ],
+      "mean_later_topology_changed_ops": 26.0,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 5,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        595.6844404400005,
+        35537.0220727732,
+        33838.79135594486
+      ],
+      "mean_later_topology_changed_ops": 26.25,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 271,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        597.9303173392817,
+        27772.94576530538,
+        30440.302329710084
+      ],
+      "mean_later_topology_changed_ops": 13.875,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        853.5133229875382,
+        35528.27168299324,
+        37897.659772236046
+      ],
+      "mean_later_topology_changed_ops": 13.9375,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_5_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        807.4964440690734,
+        33331.213353275234,
+        35196.51104569234
+      ],
+      "mean_later_topology_changed_ops": 13.625,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 7,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        639.2535115750671,
+        44947.57048523679,
+        48045.00764937767
+      ],
+      "mean_later_topology_changed_ops": 36.5625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        823.0745274214628,
+        57867.23577949813,
+        59159.906501371624
+      ],
+      "mean_later_topology_changed_ops": 35.6875,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        770.3239522511727,
+        52635.84852711606,
+        54281.48039651577
+      ],
+      "mean_later_topology_changed_ops": 36.0625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 19,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        763.8514527745037,
+        47019.54313942683,
+        47956.902761501
+      ],
+      "mean_later_topology_changed_ops": 42.6875,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1028.6891824055222,
+        60413.18692904574,
+        58436.93546928052
+      ],
+      "mean_later_topology_changed_ops": 45.625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        872.4143314918197,
+        52638.50109800426,
+        52380.44078915657
+      ],
+      "mean_later_topology_changed_ops": 44.1875,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 43,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        667.1021216340183,
+        45856.74812445414,
+        48311.47042354524
+      ],
+      "mean_later_topology_changed_ops": 32.75,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        905.0599303924698,
+        58572.66918891485,
+        58467.5385181834
+      ],
+      "mean_later_topology_changed_ops": 34.4375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        806.9293506498352,
+        53123.9470315327,
+        53296.18178925453
+      ],
+      "mean_later_topology_changed_ops": 35.0625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 5
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 101,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        512.5347602579392,
+        43357.07573770611,
+        48222.570682399004
+      ],
+      "mean_later_topology_changed_ops": 36.8125,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 4
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        693.5703823282796,
+        55382.615060437995,
+        59541.83140365564
+      ],
+      "mean_later_topology_changed_ops": 36.3125,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 4
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        580.0414128479883,
+        49485.972647841925,
+        53576.14347137199
+      ],
+      "mean_later_topology_changed_ops": 36.875,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 4
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 271,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        731.5729065648754,
+        48141.48307696458,
+        48329.24786837213
+      ],
+      "mean_later_topology_changed_ops": 30.0,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1079.2597204337344,
+        62880.80514345801,
+        58577.57795811238
+      ],
+      "mean_later_topology_changed_ops": 32.9375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "20_8_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 160,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        977.7821529100444,
+        56634.69004320144,
+        52941.76666471291
+      ],
+      "mean_later_topology_changed_ops": 31.9375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 7,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        500.6479939598047,
+        25577.604640320533,
+        28556.351341789377
+      ],
+      "mean_later_topology_changed_ops": 5.25,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        734.173836291252,
+        34678.82523896701,
+        38020.18345928056
+      ],
+      "mean_later_topology_changed_ops": 5.75,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        710.1647803589816,
+        32127.632871729187,
+        34841.15012931115
+      ],
+      "mean_later_topology_changed_ops": 5.1875,
+      "candidates_with_later_topology_change": 13,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 19,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        508.05683981433054,
+        27748.159582596916,
+        28667.513345415886
+      ],
+      "mean_later_topology_changed_ops": 5.75,
+      "candidates_with_later_topology_change": 14,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        742.1250696356551,
+        37550.78522828551,
+        38148.02443403302
+      ],
+      "mean_later_topology_changed_ops": 5.625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        703.0617146371424,
+        34388.29510204375,
+        34336.27811026385
+      ],
+      "mean_later_topology_changed_ops": 5.6875,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 43,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        433.971102413955,
+        26036.522531883576,
+        28757.58940922626
+      ],
+      "mean_later_topology_changed_ops": 4.75,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        642.5738941926289,
+        35006.96899032916,
+        38387.893862679615
+      ],
+      "mean_later_topology_changed_ops": 4.4375,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        590.580280448261,
+        32707.557437170573,
+        36038.85602995957
+      ],
+      "mean_later_topology_changed_ops": 4.125,
+      "candidates_with_later_topology_change": 11,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 101,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        401.0951157731409,
+        25291.386295718265,
+        29115.072423447502
+      ],
+      "mean_later_topology_changed_ops": 6.5,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        576.0787911856843,
+        33788.9702893639,
+        38410.45094833596
+      ],
+      "mean_later_topology_changed_ops": 6.1875,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        546.2307592711835,
+        31386.976882771374,
+        35592.30209297204
+      ],
+      "mean_later_topology_changed_ops": 6.1875,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 6
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 271,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        492.14942404163025,
+        26323.850724585358,
+        29114.01523532054
+      ],
+      "mean_later_topology_changed_ops": 6.3125,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 9
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        705.273009067732,
+        35320.00628559856,
+        39028.342293787005
+      ],
+      "mean_later_topology_changed_ops": 6.375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 9
+    },
+    {
+      "instance": "50_2_4_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 100,
+        "negative_start_slope": 4,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        662.8366140794606,
+        32640.78274489868,
+        36165.37583124751
+      ],
+      "mean_later_topology_changed_ops": 6.1875,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 9
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 7,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        921.5243715643077,
+        75161.73650697444,
+        73268.69366565203
+      ],
+      "mean_later_topology_changed_ops": 43.375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1399.1956729509902,
+        105850.59790795729,
+        100846.6678784249
+      ],
+      "mean_later_topology_changed_ops": 43.0,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 1,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1338.078498349425,
+        94772.11579493982,
+        88674.15074001145
+      ],
+      "mean_later_topology_changed_ops": 40.6875,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 19,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        740.3445532615139,
+        71708.6239272861,
+        73020.2874481567
+      ],
+      "mean_later_topology_changed_ops": 52.4375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1147.5032997392016,
+        101070.91081960606,
+        100525.59872324245
+      ],
+      "mean_later_topology_changed_ops": 53.375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 4,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1077.772128074981,
+        90767.30180838934,
+        88065.94577173056
+      ],
+      "mean_later_topology_changed_ops": 49.5625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 43,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        832.0401381928631,
+        68804.2371290117,
+        72919.65980949129
+      ],
+      "mean_later_topology_changed_ops": 36.8125,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1201.758473451632,
+        97497.08948654946,
+        100602.30879276883
+      ],
+      "mean_later_topology_changed_ops": 38.5625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 3,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1155.399451542254,
+        87114.0336439683,
+        87136.44177378115
+      ],
+      "mean_later_topology_changed_ops": 36.375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 101,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        860.8515922802666,
+        74047.19203280602,
+        73241.2718731962
+      ],
+      "mean_later_topology_changed_ops": 37.0,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1238.1515741615303,
+        102535.37693188031,
+        100656.68108820048
+      ],
+      "mean_later_topology_changed_ops": 39.0625,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 5,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1226.6236831320725,
+        92114.2070889094,
+        87819.13842681068
+      ],
+      "mean_later_topology_changed_ops": 37.625,
+      "candidates_with_later_topology_change": 12,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 271,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        881.7403476204515,
+        69356.60884408091,
+        73559.87160941366
+      ],
+      "mean_later_topology_changed_ops": 42.0,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1326.597754426158,
+        98318.66165972127,
+        102419.78104500656
+      ],
+      "mean_later_topology_changed_ops": 41.0625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "50_5_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 250,
+        "negative_start_slope": 4,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1280.827632469522,
+        89811.9727164503,
+        90610.7279780116
+      ],
+      "mean_later_topology_changed_ops": 43.75,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 7,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1917.5073995717007,
+        65829.36968595331,
+        60310.1327100068
+      ],
+      "mean_later_topology_changed_ops": 13.9375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2936.916206760332,
+        95952.11697502626,
+        86390.09403523727
+      ],
+      "mean_later_topology_changed_ops": 15.5,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 7,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 13,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2872.3759479614555,
+        86612.1054189536,
+        75134.83365890181
+      ],
+      "mean_later_topology_changed_ops": 14.625,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 19,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1435.2372427763073,
+        62313.353270735606,
+        59758.23003990754
+      ],
+      "mean_later_topology_changed_ops": 12.375,
+      "candidates_with_later_topology_change": 16,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2247.061469056628,
+        92320.13376512483,
+        86969.67849523967
+      ],
+      "mean_later_topology_changed_ops": 12.125,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 19,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 5,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2023.011411641078,
+        82320.43006439057,
+        73835.85126411406
+      ],
+      "mean_later_topology_changed_ops": 11.4375,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 43,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2123.1619041571157,
+        67448.15890576261,
+        60797.71372217603
+      ],
+      "mean_later_topology_changed_ops": 14.0625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        3218.2244570983885,
+        98779.69749375264,
+        86920.79980722142
+      ],
+      "mean_later_topology_changed_ops": 15.0625,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 43,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 10,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        3059.3350954766884,
+        87134.56938457747,
+        73684.71495973539
+      ],
+      "mean_later_topology_changed_ops": 13.5,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 101,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1590.7813461715305,
+        64245.98371715494,
+        59355.84556271657
+      ],
+      "mean_later_topology_changed_ops": 15.5,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2336.7035235464014,
+        93876.18605573081,
+        85519.14508741157
+      ],
+      "mean_later_topology_changed_ops": 18.75,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 101,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 7,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2195.8707544544804,
+        83177.69518227334,
+        72709.5506918639
+      ],
+      "mean_later_topology_changed_ops": 14.8125,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 8
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 271,
+      "profile": "weak",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        1473.2648030153118,
+        66606.53128668126,
+        59465.89479860752
+      ],
+      "mean_later_topology_changed_ops": 12.5,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_slow_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 0,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2227.334138174957,
+        97551.37831031812,
+        85405.45567556945
+      ],
+      "mean_later_topology_changed_ops": 12.3125,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 7
+    },
+    {
+      "instance": "100_2_3_1.txt",
+      "parent_seed": 271,
+      "profile": "strong_fast_recovery",
+      "parent_validation": {
+        "operations": 200,
+        "negative_start_slope": 7,
+        "max_ties": 1
+      },
+      "parent_objectives": [
+        2206.651830036104,
+        88643.50837761418,
+        74491.00467206982
+      ],
+      "mean_later_topology_changed_ops": 13.5,
+      "candidates_with_later_topology_change": 15,
+      "max_direct_defects": 7
+    }
+  ],
+  "interpretation_limits": [
+    "synthetic fatigue and reconstructed setup/standby; not author benchmark replication",
+    "random parents, first-stage same-factory two-job edits only",
+    "all-candidate truth and diagnostic timing are offline costs, not optimizer FE",
+    "cost efficiency is one-decision proxy; no equal-time optimizer or Pareto/HV claim",
+    "six instance clusters, descriptive intervals; correlated objective directions not independent trials"
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "newSearchFE": 0,
+  "newDecoderQA": 0,
+  "historicalRuns": 12,
+  "sharedInitials": true,
+  "referenceRule": "All 3 methods x both old seeds final ND union, per instance",
+  "timingComparison": false,
+  "facts": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "arm": "SHARE_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 285000,
+        "global.g1.evaluations": 42750,
+        "global.g2.evaluations": 156750,
+        "global.g3.evaluations": 42750,
+        "global.g4.evaluations": 42750,
+        "jointLocal.evaluations": 214900,
+        "jointLocal.g1.evaluations": 32433,
+        "jointLocal.g2.evaluations": 118739,
+        "jointLocal.g3.evaluations": 31864,
+        "jointLocal.g4.evaluations": 31864
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "arm": "NSGA_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 281500,
+        "jointLocal.evaluations": 218400,
+        "jointLocal.g1.evaluations": 32760,
+        "jointLocal.g2.evaluations": 120120,
+        "jointLocal.g3.evaluations": 32760,
+        "jointLocal.g4.evaluations": 32760
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910003,
+      "arm": "PA_JOINT",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 499900
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "arm": "SHARE_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 285000,
+        "global.g1.evaluations": 42750,
+        "global.g2.evaluations": 156750,
+        "global.g3.evaluations": 42750,
+        "global.g4.evaluations": 42750,
+        "jointLocal.evaluations": 214900,
+        "jointLocal.g1.evaluations": 32433,
+        "jointLocal.g2.evaluations": 118739,
+        "jointLocal.g3.evaluations": 31864,
+        "jointLocal.g4.evaluations": 31864
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "arm": "NSGA_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 281500,
+        "jointLocal.evaluations": 218400,
+        "jointLocal.g1.evaluations": 32760,
+        "jointLocal.g2.evaluations": 120120,
+        "jointLocal.g3.evaluations": 32760,
+        "jointLocal.g4.evaluations": 32760
+      }
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 14910037,
+      "arm": "PA_JOINT",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 499900
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "arm": "SHARE_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 102700,
+        "global.g1.evaluations": 15750,
+        "global.g2.evaluations": 56950,
+        "global.g3.evaluations": 15000,
+        "global.g4.evaluations": 15000,
+        "jointLocal.evaluations": 397200,
+        "jointLocal.g1.evaluations": 59540,
+        "jointLocal.g2.evaluations": 218580,
+        "jointLocal.g3.evaluations": 59540,
+        "jointLocal.g4.evaluations": 59540
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "arm": "NSGA_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 101900,
+        "jointLocal.evaluations": 398000,
+        "jointLocal.g1.evaluations": 59700,
+        "jointLocal.g2.evaluations": 218900,
+        "jointLocal.g3.evaluations": 59700,
+        "jointLocal.g4.evaluations": 59700
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910003,
+      "arm": "PA_JOINT",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 499900
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "arm": "SHARE_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 102700,
+        "global.g1.evaluations": 15750,
+        "global.g2.evaluations": 56950,
+        "global.g3.evaluations": 15000,
+        "global.g4.evaluations": 15000,
+        "jointLocal.evaluations": 397200,
+        "jointLocal.g1.evaluations": 59540,
+        "jointLocal.g2.evaluations": 218580,
+        "jointLocal.g3.evaluations": 59540,
+        "jointLocal.g4.evaluations": 59540
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "arm": "NSGA_CTX_GOM",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 101900,
+        "jointLocal.evaluations": 398000,
+        "jointLocal.g1.evaluations": 59700,
+        "jointLocal.g2.evaluations": 218900,
+        "jointLocal.g3.evaluations": 59700,
+        "jointLocal.g4.evaluations": 59700
+      }
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 14910037,
+      "arm": "PA_JOINT",
+      "paidDigestAvailable": false,
+      "checkpointFEs": [
+        1,
+        2,
+        100,
+        5100,
+        15000,
+        50000,
+        100000,
+        250000,
+        500000
+      ],
+      "phaseFees": {
+        "initialization.evaluations": 100,
+        "global.evaluations": 499900
+      }
+    }
+  ],
+  "missing": [
+    "Strong control paid candidate acceptance and ancestry",
+    "Matched control working population lifecycle"
+  ],
+  "captureInstance": "100_2_3_1",
+  "captureSeed": 14910003,
+  "selectionReason": "Existing large-job failure structure; first old registered seed; no new favorable seed",
+  "limitation": "Checkpoint association cannot identify a causal search difference"
+}

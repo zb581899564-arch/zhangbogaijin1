@@ -1,0 +1,38 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\makespan-tie-screen-20261105-025223-471920",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seed": 10950003,
+  "methods": [
+    "STRICT_FULL",
+    "NSGA_STRICT"
+  ],
+  "cases": [
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT"
+    }
+  ],
+  "plannedFE": 2000000,
+  "perRunFE": 500000,
+  "sourceOfAllInputAndOptions": "Exact frozen command.json, unchanged source paths and classpath.",
+  "question": "Where do the frozen four-role and matched NSGA-II actually spend CPU and allocation effort?",
+  "observation": "Local existing JDK Flight Recorder, settings=profile, stackdepth128, max32MB, one JVM at a time. Helper-only classpath prefix exports identities; it contains no scheduling class.",
+  "acceptance": "500000 successful,0failed, old initialization/physical ledger/final genomes/allFE fronts/search counts/decoder operation counts identical. No whole-paid-sequence hash in frozen performance run; do not claim one.",
+  "limits": "Sampling is descriptive, can perturb time and omit inlined frames. No quality winner, same-time advantage, new algorithm, parameter scan or automatic optimization. Only a demonstrated hot path may motivate a separate exact-equivalence engineering protocol.",
+  "preserved": "Default production mainline, four duties, Q, family, sharing and every frozen result; no installs, transfers or public push."
+}

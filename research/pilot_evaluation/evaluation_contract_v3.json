@@ -1,0 +1,59 @@
+{
+  "version": "SMALL_PILOT_EVALUATION-v3",
+  "effectiveDate": "2026-11-06",
+  "authority": "User approved small-pilot evaluation, phase diagnosis and evidence-led iteration plan",
+  "objectives": ["Cmax", "TEC", "TWC"],
+  "directions": "All objectives minimized; HV higher, IGDplus and IGD lower",
+  "platform": "All search, decoder QA, statistics and plots on Linux; Windows development and results inspection only",
+  "anchor": "Frozen complete SHARE_CTX_GOM; no default-mainline promotion",
+  "primaryEndpointFE": 500000,
+  "checkpointsFE": [100, 10000, 50000, 100000, 250000, 500000],
+  "normalization": "Existing frozen instance scales; never fit new bounds to observed outcomes",
+  "hv": {"mainReference": 1.5, "sensitivity": [1.25, 2.0]},
+  "distance": {
+    "reference": "Common nondominated union of every preregistered method/seed final front within an instance and batch",
+    "IGDplus": "mean_r min_a ||max(a-r,0)||2",
+    "IGD": "mean_r min_a ||a-r||2",
+    "symmetricImprovementPercent": "200*(control-candidate)/(control+candidate); both zero gives zero",
+    "searchFeedback": false,
+    "crossBatch": "Recompute all compared runs using one common reference; do not append old IGD numbers"
+  },
+  "coverage": "Exact weak dominance; equality included; deduplicated vector counts and both denominators; directions not complementary",
+  "physicalExtremes": "Full actual objective vectors for each objective minimum; never combine extrema from distinct solutions",
+  "eaf": {
+    "minimumSeedsForDisplay": 5,
+    "threeSeeds": "Individual fronts, paired raw values, medians, ranges and improvement counts",
+    "conditionalSlices": "Common reference third-axis linear q25/q50/q75, reused identically for all methods",
+    "interpretation": "Projection does not imply three-objective dominance"
+  },
+  "tier1": {
+    "instances": ["20_8_5_1", "100_2_3_1"],
+    "seeds": 3,
+    "usualMethods": 2,
+    "usualScienceFE": 6000000,
+    "signal": {"pairedMedianHVPercent": 1, "pairedMedianIGDplusSymmetricPercent": 5, "improvingSeedsPerInstance": 2},
+    "degradationFlags": {"medianHVLossPercent": 1, "medianIGDplusSymmetricWorseningPercent": 5, "reverseCoverageGapPercentagePoints": 10},
+    "efficiencyCandidate": "Quality essentially unchanged and complete cost reduced by at least10%; then require true TIME_LIMIT",
+    "extension": "At most two additional preregistered seeds with unchanged algorithm for inconclusive/tradeoff cases",
+    "insufficientActivation": "Budget did not adequately test the mechanism, not proof of no value"
+  },
+  "tier2": {
+    "development": "Both development instances, five seeds each",
+    "validation": "One qualified held-out structural instance selected by outcome-independent fixed rotation, five seeds",
+    "controls": ["direct ablation", "plain NSGA-II", "matched-kernel NSGA-II", "ordinary PA", "original sharing", "Li sourced reconstruction"],
+    "reuse": "Only identical platform, source, inputs, seed, budget and accounting; changed kernel requires matched control rerun",
+    "timeBudget": "Per-instance median runtime of preregistered Linux matched NSGA-II500k; freeze before candidate TIME runs",
+    "noLargeMatrixByDefault": true
+  },
+  "attribution": {
+    "equation": "INITIAL_HV + GLOBAL_direct_gain + LOCAL_direct_gain = final_HV",
+    "sharing": "Nested source within its actual phase; never an additional summand",
+    "interpretation": "Descriptive chronological provenance, not causal contribution percentage",
+    "ablation": "Same total budget deletion/replacement includes budget redistribution effects"
+  },
+  "decision": ["PROMISING", "INCONCLUSIVE_OR_TRADEOFF", "STOP_FIXED_MECHANISM"],
+  "forbidden": ["arbitrary weighted total", "metric majority vote", "posthoc seed replacement", "moving endpoint or HV reference", "small-sample significance claims"],
+  "iteration": "One registered hypothesis per round; consolidate after three new hypotheses; preserve failures and remove unsupported complexity",
+  "frozenHistory": "Append interpretation without overwriting original results or prior stopping decisions",
+  "automaticGoalResume": false
+}

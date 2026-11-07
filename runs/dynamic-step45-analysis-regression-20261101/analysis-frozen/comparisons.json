@@ -1,0 +1,482 @@
+[
+  {
+    "step": 4,
+    "budget": "FE",
+    "comparison": "VALUE - BASELINE",
+    "meanDelta": 0.0017039999999999833,
+    "medianDelta": 0.0017039999999999833,
+    "bootstrap95": [
+      0.0017039999999999278,
+      0.0017040000000000388
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0017040000000000388,
+      0.0017039999999999278
+    ],
+    "meanRelativePercent": 0.5098791108800182,
+    "IGDplusDelta": -0.0040000000000000036,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "FE",
+    "comparison": "VALUE - RANDOM",
+    "meanDelta": 0.0012780000000000014,
+    "medianDelta": 0.0012780000000000014,
+    "bootstrap95": [
+      0.0012780000000000014,
+      0.0012780000000000014
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0012780000000000014,
+      0.0012780000000000014
+    ],
+    "meanRelativePercent": 0.38192249720425675,
+    "IGDplusDelta": -0.0030000000000000027,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "FE",
+    "comparison": "VALUE - GREEDY",
+    "meanDelta": 0.0008520000000000194,
+    "medianDelta": 0.0008520000000000194,
+    "bootstrap95": [
+      0.0008519999999999639,
+      0.0008520000000000749
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0008520000000000749,
+      0.0008519999999999639
+    ],
+    "meanRelativePercent": 0.2542912661538943,
+    "IGDplusDelta": -0.0020000000000000018,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "FE",
+    "comparison": "VALUE - TAIL",
+    "meanDelta": 0.00042600000000003746,
+    "medianDelta": 0.00042600000000003746,
+    "bootstrap95": [
+      0.00042600000000003746,
+      0.00042600000000003746
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00042600000000003746,
+      0.00042600000000003746
+    ],
+    "meanRelativePercent": 0.12698417817452734,
+    "IGDplusDelta": -0.0010000000000000009,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "FE",
+    "comparison": "RANDOM - BASELINE",
+    "meanDelta": 0.00042599999999998195,
+    "medianDelta": 0.00042599999999998195,
+    "bootstrap95": [
+      0.00042599999999992644,
+      0.00042600000000003746
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00042600000000003746,
+      0.00042599999999992644
+    ],
+    "meanRelativePercent": 0.1274697777200018,
+    "IGDplusDelta": -0.0010000000000000009,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "TIME",
+    "comparison": "VALUE - BASELINE",
+    "meanDelta": 0.0017039999999999833,
+    "medianDelta": 0.0017039999999999833,
+    "bootstrap95": [
+      0.0017039999999999278,
+      0.0017040000000000388
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0017040000000000388,
+      0.0017039999999999278
+    ],
+    "meanRelativePercent": 0.5098791108800182,
+    "IGDplusDelta": -0.0040000000000000036,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "TIME",
+    "comparison": "VALUE - RANDOM",
+    "meanDelta": 0.0012780000000000014,
+    "medianDelta": 0.0012780000000000014,
+    "bootstrap95": [
+      0.0012780000000000014,
+      0.0012780000000000014
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0012780000000000014,
+      0.0012780000000000014
+    ],
+    "meanRelativePercent": 0.38192249720425675,
+    "IGDplusDelta": -0.0030000000000000027,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "TIME",
+    "comparison": "VALUE - GREEDY",
+    "meanDelta": 0.0008520000000000194,
+    "medianDelta": 0.0008520000000000194,
+    "bootstrap95": [
+      0.0008519999999999639,
+      0.0008520000000000749
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0008520000000000749,
+      0.0008519999999999639
+    ],
+    "meanRelativePercent": 0.2542912661538943,
+    "IGDplusDelta": -0.0020000000000000018,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "TIME",
+    "comparison": "VALUE - TAIL",
+    "meanDelta": 0.00042600000000003746,
+    "medianDelta": 0.00042600000000003746,
+    "bootstrap95": [
+      0.00042600000000003746,
+      0.00042600000000003746
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00042600000000003746,
+      0.00042600000000003746
+    ],
+    "meanRelativePercent": 0.12698417817452734,
+    "IGDplusDelta": -0.0010000000000000009,
+    "holmP": 1.0
+  },
+  {
+    "step": 4,
+    "budget": "TIME",
+    "comparison": "RANDOM - BASELINE",
+    "meanDelta": 0.00042599999999998195,
+    "medianDelta": 0.00042599999999998195,
+    "bootstrap95": [
+      0.00042599999999992644,
+      0.00042600000000003746
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00042600000000003746,
+      0.00042599999999992644
+    ],
+    "meanRelativePercent": 0.1274697777200018,
+    "IGDplusDelta": -0.0010000000000000009,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "FE",
+    "comparison": "SHARE - BASELINE",
+    "meanDelta": 0.0029819999999999847,
+    "medianDelta": 0.0029819999999999847,
+    "bootstrap95": [
+      0.002981999999999929,
+      0.00298200000000004
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00298200000000004,
+      0.002981999999999929
+    ],
+    "meanRelativePercent": 0.8922884440400347,
+    "IGDplusDelta": -0.007000000000000006,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "FE",
+    "comparison": "VALUE_SHARE - VALUE",
+    "meanDelta": 0.0017039999999999833,
+    "medianDelta": 0.0017039999999999833,
+    "bootstrap95": [
+      0.0017039999999999278,
+      0.0017040000000000388
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0017039999999999278,
+      0.0017040000000000388
+    ],
+    "meanRelativePercent": 0.5072925311870646,
+    "IGDplusDelta": -0.0040000000000000036,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "FE",
+    "comparison": "VALUE_SHARE - SHARE",
+    "meanDelta": 0.00042599999999998195,
+    "medianDelta": 0.00042599999999998195,
+    "bootstrap95": [
+      0.00042599999999992644,
+      0.00042600000000003746
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00042599999999992644,
+      0.00042600000000003746
+    ],
+    "meanRelativePercent": 0.12634243828933966,
+    "IGDplusDelta": -0.0010000000000000009,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "FE",
+    "comparison": "SHARE - SYNC",
+    "meanDelta": 0.0008519999999999639,
+    "medianDelta": 0.0008519999999999639,
+    "bootstrap95": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "meanRelativePercent": 0.253324990775039,
+    "IGDplusDelta": -0.0020000000000000018,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "FE",
+    "comparison": "VALUE_SHARE - VALUE_SYNC",
+    "meanDelta": 0.0008519999999999639,
+    "medianDelta": 0.0008519999999999639,
+    "bootstrap95": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "meanRelativePercent": 0.2530045287970517,
+    "IGDplusDelta": -0.0020000000000000018,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "FE",
+    "comparison": "interaction (VALUE_SHARE-SHARE)-(VALUE-BASELINE)",
+    "meanDelta": -0.0012780000000000014,
+    "medianDelta": -0.0012780000000000014,
+    "bootstrap95": [
+      -0.0012780000000001124,
+      -0.0012779999999998903
+    ],
+    "wins": 0,
+    "ties": 0,
+    "losses": 2,
+    "signFlipOneSidedP": 1.0,
+    "instanceDeltas": [
+      -0.0012780000000001124,
+      -0.0012779999999998903
+    ],
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "TIME",
+    "comparison": "SHARE - BASELINE",
+    "meanDelta": 0.0029819999999999847,
+    "medianDelta": 0.0029819999999999847,
+    "bootstrap95": [
+      0.002981999999999929,
+      0.00298200000000004
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00298200000000004,
+      0.002981999999999929
+    ],
+    "meanRelativePercent": 0.8922884440400347,
+    "IGDplusDelta": -0.007000000000000006,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "TIME",
+    "comparison": "VALUE_SHARE - VALUE",
+    "meanDelta": 0.0017039999999999833,
+    "medianDelta": 0.0017039999999999833,
+    "bootstrap95": [
+      0.0017039999999999278,
+      0.0017040000000000388
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0017039999999999278,
+      0.0017040000000000388
+    ],
+    "meanRelativePercent": 0.5072925311870646,
+    "IGDplusDelta": -0.0040000000000000036,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "TIME",
+    "comparison": "VALUE_SHARE - SHARE",
+    "meanDelta": 0.00042599999999998195,
+    "medianDelta": 0.00042599999999998195,
+    "bootstrap95": [
+      0.00042599999999992644,
+      0.00042600000000003746
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.00042599999999992644,
+      0.00042600000000003746
+    ],
+    "meanRelativePercent": 0.12634243828933966,
+    "IGDplusDelta": -0.0010000000000000009,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "TIME",
+    "comparison": "SHARE - SYNC",
+    "meanDelta": 0.0008519999999999639,
+    "medianDelta": 0.0008519999999999639,
+    "bootstrap95": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "meanRelativePercent": 0.253324990775039,
+    "IGDplusDelta": -0.0020000000000000018,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "TIME",
+    "comparison": "VALUE_SHARE - VALUE_SYNC",
+    "meanDelta": 0.0008519999999999639,
+    "medianDelta": 0.0008519999999999639,
+    "bootstrap95": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "wins": 2,
+    "ties": 0,
+    "losses": 0,
+    "signFlipOneSidedP": 0.25,
+    "instanceDeltas": [
+      0.0008519999999999639,
+      0.0008519999999999639
+    ],
+    "meanRelativePercent": 0.2530045287970517,
+    "IGDplusDelta": -0.0020000000000000018,
+    "holmP": 1.0
+  },
+  {
+    "step": 5,
+    "budget": "TIME",
+    "comparison": "interaction (VALUE_SHARE-SHARE)-(VALUE-BASELINE)",
+    "meanDelta": -0.0012780000000000014,
+    "medianDelta": -0.0012780000000000014,
+    "bootstrap95": [
+      -0.0012780000000001124,
+      -0.0012779999999998903
+    ],
+    "wins": 0,
+    "ties": 0,
+    "losses": 2,
+    "signFlipOneSidedP": 1.0,
+    "instanceDeltas": [
+      -0.0012780000000001124,
+      -0.0012779999999998903
+    ],
+    "holmP": 1.0
+  }
+]

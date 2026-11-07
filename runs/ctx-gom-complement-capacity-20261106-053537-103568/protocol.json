@@ -1,0 +1,28 @@
+{
+  "version": "CTX_GOM_HALF_BUDGET_CAPACITY-v1",
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+  "sourceAnalysisSHA256": "a49dda0d214746c6acb7d0cb86cf929fcf18a8359843be4a49693451ae49d24a",
+  "seeds": [
+    14910003,
+    14910037
+  ],
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "hypothesis": "Observed extreme-HV versus interior-IGD/C tradeoff may contain enough complementary paid schedules to cover fullmethod gaps; test only optimistic capacity before implementing communication/allocation",
+  "registeredBeforeThisCalculation": true,
+  "developmentPosthocHypothesis": true,
+  "sourceFEPerStream": 250000,
+  "totalFEEveryPool": 500000,
+  "primary": "Two preregistered crossseed SHARE250k+UNIFORM250k pools; no same-seed/ratio/endpoint scan or quality selection",
+  "controls": "All five full500k versions plus frozen strongNSGA/oldsharing/Li; same-source250k+250k independentseed restart unions for each of five versions",
+  "reference": "Exactly the original per-instance all10arms/all2seeds full500k NDunion and frozen scales/references; does not alter original qualification",
+  "criterion": "Bothinstances: vsS/S andU/U restart pools use original improvementRule (HV>=1%,IGD/Cnonworse plus tails); vsallotherfull/restart controls use original strong noninferiorityRule. Every required comparison must pass; no2of3vote",
+  "limitation": "Optimistic free archive merge of already paid schedules only. Two pairings share sources and are not independent seeds; restart control duplicated across pairings. No search feedback, running-time or communication benefit claim",
+  "onFailure": "Do not implement simple halfbudget switch/restart/pooling or tune proportions; fixedfullalgorithm and prior stopped mechanisms remain stopped",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,21 @@
+{
+  "searchRerun": false,
+  "newFE": 0,
+  "issues": [
+    {
+      "step": "docUpload",
+      "error": "Chosen uploads folder did not exist",
+      "remedy": "Used existing dedicated run folder; transferred hash verified"
+    },
+    {
+      "step": "sealImport",
+      "error": "ModuleNotFoundError: run_helpers",
+      "remedy": "Set PYTHONPATH to frozen payload/scripts; no source or scientific result changed"
+    },
+    {
+      "step": "costSummaryRead",
+      "error": "None checkpointQA field in one-off summary loop",
+      "remedy": "Treat non-source empty checkpointQA as empty list; original audit unchanged"
+    }
+  ]
+}

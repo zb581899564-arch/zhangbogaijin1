@@ -1,0 +1,690 @@
+{
+  "SS": {
+    "comparisons": 239795,
+    "actualAccept": 20076,
+    "alternateAccept": 24477,
+    "actualOnly": 3136,
+    "alternateOnly": 7537,
+    "actualTie": 81304,
+    "alternateTie": 86949,
+    "blockProbe": [
+      {
+        "partition": "physical",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 1571,
+        "singleRecoversFullFlips": 668,
+        "restoringBlockCancelsFullFlips": 676,
+        "singleRejectToAccept": 729
+      },
+      {
+        "partition": "physical",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10673,
+        "singleFlips": 7274,
+        "singleRecoversFullFlips": 6419,
+        "restoringBlockCancelsFullFlips": 7339,
+        "singleRejectToAccept": 5348
+      },
+      {
+        "partition": "physical",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 1166,
+        "singleRecoversFullFlips": 811,
+        "restoringBlockCancelsFullFlips": 827,
+        "singleRejectToAccept": 674
+      },
+      {
+        "partition": "physical",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 3021,
+        "singleRecoversFullFlips": 2442,
+        "restoringBlockCancelsFullFlips": 3352,
+        "singleRejectToAccept": 1658
+      },
+      {
+        "partition": "mixed-1",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 1601,
+        "singleRecoversFullFlips": 1164,
+        "restoringBlockCancelsFullFlips": 1336,
+        "singleRejectToAccept": 1010
+      },
+      {
+        "partition": "mixed-1",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10673,
+        "singleFlips": 4486,
+        "singleRecoversFullFlips": 3959,
+        "restoringBlockCancelsFullFlips": 4740,
+        "singleRejectToAccept": 2965
+      },
+      {
+        "partition": "mixed-1",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 2855,
+        "singleRecoversFullFlips": 2499,
+        "restoringBlockCancelsFullFlips": 2112,
+        "singleRejectToAccept": 1915
+      },
+      {
+        "partition": "mixed-1",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 3715,
+        "singleRecoversFullFlips": 3126,
+        "restoringBlockCancelsFullFlips": 3147,
+        "singleRejectToAccept": 2535
+      },
+      {
+        "partition": "mixed-2",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 3532,
+        "singleRecoversFullFlips": 2409,
+        "restoringBlockCancelsFullFlips": 2254,
+        "singleRejectToAccept": 1990
+      },
+      {
+        "partition": "mixed-2",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10673,
+        "singleFlips": 7033,
+        "singleRecoversFullFlips": 6094,
+        "restoringBlockCancelsFullFlips": 6224,
+        "singleRejectToAccept": 4966
+      },
+      {
+        "partition": "mixed-2",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 2311,
+        "singleRecoversFullFlips": 2014,
+        "restoringBlockCancelsFullFlips": 1659,
+        "singleRejectToAccept": 1754
+      },
+      {
+        "partition": "mixed-2",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 2001,
+        "singleRecoversFullFlips": 935,
+        "restoringBlockCancelsFullFlips": 927,
+        "singleRejectToAccept": 958
+      },
+      {
+        "partition": "mixed-3",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 2459,
+        "singleRecoversFullFlips": 2096,
+        "restoringBlockCancelsFullFlips": 2866,
+        "singleRejectToAccept": 1897
+      },
+      {
+        "partition": "mixed-3",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10673,
+        "singleFlips": 6828,
+        "singleRecoversFullFlips": 5535,
+        "restoringBlockCancelsFullFlips": 5829,
+        "singleRejectToAccept": 4058
+      },
+      {
+        "partition": "mixed-3",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 1771,
+        "singleRecoversFullFlips": 938,
+        "restoringBlockCancelsFullFlips": 974,
+        "singleRejectToAccept": 856
+      },
+      {
+        "partition": "mixed-3",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10673,
+        "singleFlips": 2576,
+        "singleRecoversFullFlips": 2253,
+        "restoringBlockCancelsFullFlips": 1961,
+        "singleRejectToAccept": 2039
+      }
+    ],
+    "flipRate": 0.04450885131049438
+  },
+  "SU": {
+    "comparisons": 239795,
+    "actualAccept": 20227,
+    "alternateAccept": 24539,
+    "actualOnly": 3285,
+    "alternateOnly": 7597,
+    "actualTie": 86795,
+    "alternateTie": 82944,
+    "blockProbe": [
+      {
+        "partition": "physical",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1199,
+        "singleRecoversFullFlips": 655,
+        "restoringBlockCancelsFullFlips": 812,
+        "singleRejectToAccept": 797
+      },
+      {
+        "partition": "physical",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10882,
+        "singleFlips": 7469,
+        "singleRecoversFullFlips": 6018,
+        "restoringBlockCancelsFullFlips": 6599,
+        "singleRejectToAccept": 4475
+      },
+      {
+        "partition": "physical",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1195,
+        "singleRecoversFullFlips": 785,
+        "restoringBlockCancelsFullFlips": 1070,
+        "singleRejectToAccept": 770
+      },
+      {
+        "partition": "physical",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 4164,
+        "singleRecoversFullFlips": 3323,
+        "restoringBlockCancelsFullFlips": 3958,
+        "singleRejectToAccept": 2988
+      },
+      {
+        "partition": "mixed-1",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1254,
+        "singleRecoversFullFlips": 923,
+        "restoringBlockCancelsFullFlips": 1090,
+        "singleRejectToAccept": 727
+      },
+      {
+        "partition": "mixed-1",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10882,
+        "singleFlips": 5124,
+        "singleRecoversFullFlips": 4364,
+        "restoringBlockCancelsFullFlips": 4703,
+        "singleRejectToAccept": 3501
+      },
+      {
+        "partition": "mixed-1",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1928,
+        "singleRecoversFullFlips": 1547,
+        "restoringBlockCancelsFullFlips": 3039,
+        "singleRejectToAccept": 1334
+      },
+      {
+        "partition": "mixed-1",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 3855,
+        "singleRecoversFullFlips": 3077,
+        "restoringBlockCancelsFullFlips": 4227,
+        "singleRejectToAccept": 2496
+      },
+      {
+        "partition": "mixed-2",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 3664,
+        "singleRecoversFullFlips": 2302,
+        "restoringBlockCancelsFullFlips": 3566,
+        "singleRejectToAccept": 2505
+      },
+      {
+        "partition": "mixed-2",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10882,
+        "singleFlips": 7488,
+        "singleRecoversFullFlips": 5367,
+        "restoringBlockCancelsFullFlips": 6754,
+        "singleRejectToAccept": 4981
+      },
+      {
+        "partition": "mixed-2",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1887,
+        "singleRecoversFullFlips": 1440,
+        "restoringBlockCancelsFullFlips": 2531,
+        "singleRejectToAccept": 1143
+      },
+      {
+        "partition": "mixed-2",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1364,
+        "singleRecoversFullFlips": 839,
+        "restoringBlockCancelsFullFlips": 1089,
+        "singleRejectToAccept": 848
+      },
+      {
+        "partition": "mixed-3",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 2534,
+        "singleRecoversFullFlips": 1806,
+        "restoringBlockCancelsFullFlips": 1807,
+        "singleRejectToAccept": 1451
+      },
+      {
+        "partition": "mixed-3",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10882,
+        "singleFlips": 7175,
+        "singleRecoversFullFlips": 6240,
+        "restoringBlockCancelsFullFlips": 7387,
+        "singleRejectToAccept": 5100
+      },
+      {
+        "partition": "mixed-3",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 1162,
+        "singleRecoversFullFlips": 893,
+        "restoringBlockCancelsFullFlips": 1095,
+        "singleRejectToAccept": 725
+      },
+      {
+        "partition": "mixed-3",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10882,
+        "singleFlips": 2046,
+        "singleRecoversFullFlips": 1419,
+        "restoringBlockCancelsFullFlips": 2530,
+        "singleRejectToAccept": 1083
+      }
+    ],
+    "flipRate": 0.045380429116537044
+  },
+  "US": {
+    "comparisons": 239795,
+    "actualAccept": 19676,
+    "alternateAccept": 24246,
+    "actualOnly": 2987,
+    "alternateOnly": 7557,
+    "actualTie": 83234,
+    "alternateTie": 87907,
+    "blockProbe": [
+      {
+        "partition": "physical",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 1487,
+        "singleRecoversFullFlips": 589,
+        "restoringBlockCancelsFullFlips": 655,
+        "singleRejectToAccept": 714
+      },
+      {
+        "partition": "physical",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10544,
+        "singleFlips": 6958,
+        "singleRecoversFullFlips": 6014,
+        "restoringBlockCancelsFullFlips": 7014,
+        "singleRejectToAccept": 5134
+      },
+      {
+        "partition": "physical",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 984,
+        "singleRecoversFullFlips": 678,
+        "restoringBlockCancelsFullFlips": 710,
+        "singleRejectToAccept": 568
+      },
+      {
+        "partition": "physical",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 3381,
+        "singleRecoversFullFlips": 2764,
+        "restoringBlockCancelsFullFlips": 3758,
+        "singleRejectToAccept": 1896
+      },
+      {
+        "partition": "mixed-1",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 1550,
+        "singleRecoversFullFlips": 1136,
+        "restoringBlockCancelsFullFlips": 1508,
+        "singleRejectToAccept": 1012
+      },
+      {
+        "partition": "mixed-1",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10544,
+        "singleFlips": 4546,
+        "singleRecoversFullFlips": 3985,
+        "restoringBlockCancelsFullFlips": 4773,
+        "singleRejectToAccept": 3033
+      },
+      {
+        "partition": "mixed-1",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 2542,
+        "singleRecoversFullFlips": 2198,
+        "restoringBlockCancelsFullFlips": 2039,
+        "singleRejectToAccept": 1673
+      },
+      {
+        "partition": "mixed-1",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 3526,
+        "singleRecoversFullFlips": 2973,
+        "restoringBlockCancelsFullFlips": 3162,
+        "singleRejectToAccept": 2456
+      },
+      {
+        "partition": "mixed-2",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 3178,
+        "singleRecoversFullFlips": 2122,
+        "restoringBlockCancelsFullFlips": 2242,
+        "singleRejectToAccept": 1842
+      },
+      {
+        "partition": "mixed-2",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10544,
+        "singleFlips": 6943,
+        "singleRecoversFullFlips": 6017,
+        "restoringBlockCancelsFullFlips": 6271,
+        "singleRejectToAccept": 4939
+      },
+      {
+        "partition": "mixed-2",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 2110,
+        "singleRecoversFullFlips": 1836,
+        "restoringBlockCancelsFullFlips": 1494,
+        "singleRejectToAccept": 1587
+      },
+      {
+        "partition": "mixed-2",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 2318,
+        "singleRecoversFullFlips": 1049,
+        "restoringBlockCancelsFullFlips": 1125,
+        "singleRejectToAccept": 1215
+      },
+      {
+        "partition": "mixed-3",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 2353,
+        "singleRecoversFullFlips": 2032,
+        "restoringBlockCancelsFullFlips": 2729,
+        "singleRejectToAccept": 1829
+      },
+      {
+        "partition": "mixed-3",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 10544,
+        "singleFlips": 6484,
+        "singleRecoversFullFlips": 5485,
+        "restoringBlockCancelsFullFlips": 5983,
+        "singleRejectToAccept": 3906
+      },
+      {
+        "partition": "mixed-3",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 1956,
+        "singleRecoversFullFlips": 1001,
+        "restoringBlockCancelsFullFlips": 1180,
+        "singleRejectToAccept": 1050
+      },
+      {
+        "partition": "mixed-3",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 10544,
+        "singleFlips": 2505,
+        "singleRecoversFullFlips": 2216,
+        "restoringBlockCancelsFullFlips": 1855,
+        "singleRejectToAccept": 1962
+      }
+    ],
+    "flipRate": 0.043970891803415416
+  },
+  "UU": {
+    "comparisons": 239795,
+    "actualAccept": 20439,
+    "alternateAccept": 25478,
+    "actualOnly": 3307,
+    "alternateOnly": 8346,
+    "actualTie": 85744,
+    "alternateTie": 81399,
+    "blockProbe": [
+      {
+        "partition": "physical",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1227,
+        "singleRecoversFullFlips": 831,
+        "restoringBlockCancelsFullFlips": 764,
+        "singleRejectToAccept": 873
+      },
+      {
+        "partition": "physical",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 11653,
+        "singleFlips": 7692,
+        "singleRecoversFullFlips": 6467,
+        "restoringBlockCancelsFullFlips": 6739,
+        "singleRejectToAccept": 4687
+      },
+      {
+        "partition": "physical",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1200,
+        "singleRecoversFullFlips": 924,
+        "restoringBlockCancelsFullFlips": 1068,
+        "singleRejectToAccept": 816
+      },
+      {
+        "partition": "physical",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 4578,
+        "singleRecoversFullFlips": 3712,
+        "restoringBlockCancelsFullFlips": 4133,
+        "singleRejectToAccept": 3382
+      },
+      {
+        "partition": "mixed-1",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1204,
+        "singleRecoversFullFlips": 896,
+        "restoringBlockCancelsFullFlips": 885,
+        "singleRejectToAccept": 666
+      },
+      {
+        "partition": "mixed-1",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 11653,
+        "singleFlips": 5935,
+        "singleRecoversFullFlips": 5184,
+        "restoringBlockCancelsFullFlips": 5024,
+        "singleRejectToAccept": 4303
+      },
+      {
+        "partition": "mixed-1",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1859,
+        "singleRecoversFullFlips": 1583,
+        "restoringBlockCancelsFullFlips": 3197,
+        "singleRejectToAccept": 1259
+      },
+      {
+        "partition": "mixed-1",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 4028,
+        "singleRecoversFullFlips": 3281,
+        "restoringBlockCancelsFullFlips": 4298,
+        "singleRejectToAccept": 2720
+      },
+      {
+        "partition": "mixed-2",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 3096,
+        "singleRecoversFullFlips": 2135,
+        "restoringBlockCancelsFullFlips": 3431,
+        "singleRejectToAccept": 2114
+      },
+      {
+        "partition": "mixed-2",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 11653,
+        "singleFlips": 8131,
+        "singleRecoversFullFlips": 5956,
+        "restoringBlockCancelsFullFlips": 6965,
+        "singleRejectToAccept": 5646
+      },
+      {
+        "partition": "mixed-2",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1863,
+        "singleRecoversFullFlips": 1504,
+        "restoringBlockCancelsFullFlips": 2617,
+        "singleRejectToAccept": 1156
+      },
+      {
+        "partition": "mixed-2",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1931,
+        "singleRecoversFullFlips": 1401,
+        "restoringBlockCancelsFullFlips": 1352,
+        "singleRejectToAccept": 1408
+      },
+      {
+        "partition": "mixed-3",
+        "block": "MAKESPAN",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 2303,
+        "singleRecoversFullFlips": 1753,
+        "restoringBlockCancelsFullFlips": 1608,
+        "singleRejectToAccept": 1334
+      },
+      {
+        "partition": "mixed-3",
+        "block": "CENTER",
+        "size": 55,
+        "fullFlips": 11653,
+        "singleFlips": 7595,
+        "singleRecoversFullFlips": 6778,
+        "restoringBlockCancelsFullFlips": 7705,
+        "singleRejectToAccept": 5372
+      },
+      {
+        "partition": "mixed-3",
+        "block": "ENERGY",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 1445,
+        "singleRecoversFullFlips": 1166,
+        "restoringBlockCancelsFullFlips": 1221,
+        "singleRejectToAccept": 967
+      },
+      {
+        "partition": "mixed-3",
+        "block": "WORKER_COST",
+        "size": 15,
+        "fullFlips": 11653,
+        "singleFlips": 2003,
+        "singleRecoversFullFlips": 1504,
+        "restoringBlockCancelsFullFlips": 2736,
+        "singleRejectToAccept": 1105
+      }
+    ],
+    "flipRate": 0.048595675472799686
+  }
+}

@@ -1,0 +1,5 @@
+usage: run_baseline.py [-h] --chapter {3,4} [--instance INSTANCE] [--fe FE]
+                       [--seed SEED] --standby-power STANDBY_POWER
+                       [--setup-file SETUP_FILE | --reconstruct-setup-seed RECONSTRUCT_SETUP_SEED]
+                       [--diagnostic-model-exception] [--skip-build]
+run_baseline.py: error: Chapter4 requires --setup-file or explicit --reconstruct-setup-seed

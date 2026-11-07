@@ -1,0 +1,34 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "componentBeyondMoreVisits": false,
+      "preservesOriginal": false,
+      "classicNoninferiority": {
+        "NSGA2_PLAIN": true,
+        "NSGA2_DEEP": true
+      },
+      "oldControlsImproved": {
+        "FULL_SHARED_DEEP": true,
+        "LI_RECON_DEEP": true
+      },
+      "pass": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "componentBeyondMoreVisits": false,
+      "preservesOriginal": false,
+      "classicNoninferiority": {
+        "NSGA2_PLAIN": true,
+        "NSGA2_DEEP": false
+      },
+      "oldControlsImproved": {
+        "FULL_SHARED_DEEP": false,
+        "LI_RECON_DEEP": true
+      },
+      "pass": false
+    }
+  ],
+  "pass": false,
+  "scope": "Allocation of further study budget for this fixed ordinary basis only; no novel-method/paper qualification"
+}

@@ -1,0 +1,77 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\mating-pool-probe-20261105-062648-478040",
+  "probeSeed": 12060003,
+  "candidate": "COVER_PATH",
+  "methods": [
+    "COVER_PATH",
+    "REPAIR_PATH",
+    "RANDOM_PATH",
+    "CLASSIC"
+  ],
+  "plannedSuccessfulFE": 69696,
+  "plannedSourceFE": 0,
+  "plannedFullTimelineQA": 69696,
+  "question": "Can committed joint paths create useful intermediate solutions beyond known endpoints, more efficiently than one-shot joint crossover?",
+  "sampling": "All6existing pre-batch CENTER windows,8equally spaced freeCENTER parents per window; freeM/E/W donors floor(i*10/7) within the11current members. No quality-based donor or window selection.144pairs but48recipient clusters perinstance.",
+  "construction": "Commit each targetJS job: put job at its target absolute position by a job-aligned swap, transfer its fullFA/MA/WA. If this empties a factory, transfer smallest-id uncommitted job targeting that factory, until coverage restored. Each auxiliary transfer corrects another targetFA; committed positions/tuples remain fixed. Endpoints match known teacher.",
+  "controls": "REPAIR_PATH same commit order but ordinary common repair; laststep restores target to match known endpoint, all restoration work charged. RANDOM_PATH same cover rule, uniformly shuffled commit order. CLASSIC Nindependent actualsetting0 offspring from same fixed endpoints. All methods Npaid candidates; no uncharged lookahead or suffix rollout. Copy, construction, generic repair and evaluation measured.",
+  "engineering": "Before outcome evaluation,4assignment fixtures and every actual pair/path checked for encoding, coverage, untouched inputs and endpoint. Every guarded input and intermediate then compared bit-exact full timeline; known endpoints earn zero pre-batch novelty.",
+  "scoring": "Joint conditional HV gain of all Nintermediates per method, not sum of single-point gains. Average3teacher roles per recipient;48clusters perinstance. Frozen normalization, ref1.5 primary and1.25/2sensitivity.",
+  "gate": "Both instances>=24informative recipients; COVER_PATH mean union-addedHV>=10%overCLASSIC,>=5%overRANDOM_PATH,>=-1%overREPAIR_PATH; >=27/48recipient wins vsCLASSIC andvsRANDOM_PATH; both source seeds positive vsboth; eachstep aggregate nonnegative vsCLASSIC; reference1.25/2 directions vsCLASSIC/RANDOM_PATH positive. Median construction+evaluation+actualsetup cost ratio<=1.25 vsCLASSIC. All necessary, no seed/order/donor/length retuning on failure. Pass only permits separate closed-loop and supply-origin ablation.",
+  "novelty": "Ordinary path relinking is established. Cover chains are feasibility engineering, not an independent novelty claim; REPAIR_PATH near-equivalence would not establish special gain from cover. No claim four-role origin or fatigue adds independent value yet.",
+  "literature": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0305054824002557/pdf",
+      "doi": "10.1016/j.cor.2024.106783",
+      "scope": "Publisher search-extracted abstract/intro only; direct full page403, no full-method audit."
+    }
+  ],
+  "timeLimits": "Micro cost necessary only; shared probe archive and offline QA interleaved. No same-time whole-method claim.",
+  "preserved": "No production/default, original/frozen inputs, role, Q, family, shared selector, population or budget policy changed; no file transfers."
+}

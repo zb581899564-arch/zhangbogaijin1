@@ -1,0 +1,45 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\LocalSearch.java
++++ LocalSearch.java
+@@ -22,6 +22,7 @@
+         return improveIntra(improveInter(particle, direction, reference), direction, reference);
+     }
+     Particle improveInter(Particle particle, Direction direction, List<PermutationSolution<Integer>> reference) {
++        CenterEntryTrace.slot(state.ledgerGroup(direction), -1);
+         QgsLocalLedger.Slot slot = ledger.inter(state.ledgerGroup(direction));
+         try { return particle.descend(inter(particle.current, direction, reference, slot)); }
+         finally { ledger.end(slot); }
+@@ -45,6 +46,7 @@
+             state.count("audit.paperLS.particlesStarted");
+             for (int round = 0; round < config.localProposalCap && ledger.hasRound(); round++) {
+                 state.checkLocalSlot();
++                CenterEntryTrace.slot(state.ledgerGroup(direction), round);
+                 int factory = SeededRandom.current().nextInt(instance.factories());
+                 factory = state.localFactory(current, direction, factory);
+                 state.count("audit.paperLS.roundsStarted");
+@@ -75,7 +77,7 @@
+             state.count("inter.operator" + operator + ".proposals");
+             state.evaluate(child, "inter", direction);
+             slot.paid++;
+-            if (ReverseAudit.run().better(direction, child, current, reference)) {
++            if (CenterEntryTrace.better(direction, child, current, reference)) {
+                 current = child; operator = 0;
+                 state.count("inter.accepted");
+             } else operator++;
+@@ -93,7 +95,7 @@
+         while (operator < IntraNeighborhoods.COUNT && remaining[0] > 0) {
+             PermutationSolution<Integer> shaken = evaluateNeighborhood(incumbent, factory, operator, direction, remaining);
+             PermutationSolution<Integer> improved = descent(shaken, factory, direction, reference, remaining);
+-            if (ReverseAudit.run().better(direction, improved, incumbent, reference)) {
++            if (CenterEntryTrace.better(direction, improved, incumbent, reference)) {
+                 incumbent = improved; operator = 0; state.count("intra.accepted");
+             } else operator++;
+         }
+@@ -105,7 +107,7 @@
+         int operator = 0;
+         while (operator < IntraNeighborhoods.COUNT && remaining[0] > 0) {
+             PermutationSolution<Integer> child = evaluateNeighborhood(incumbent, factory, operator, direction, remaining);
+-            if (ReverseAudit.run().better(direction, child, incumbent, reference)) { incumbent = child; operator = 0; }
++            if (CenterEntryTrace.better(direction, child, incumbent, reference)) { incumbent = child; operator = 0; }
+             else operator++;
+         }
+         return incumbent;

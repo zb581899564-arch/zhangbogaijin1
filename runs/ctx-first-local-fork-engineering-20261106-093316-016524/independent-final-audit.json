@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "case": "cut1",
+      "actualFE": 1,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "cut17740",
+      "actualFE": 17740,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "cut2",
+      "actualFE": 2,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "cut5100",
+      "actualFE": 5100,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "cut5101",
+      "actualFE": 5101,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "cut8920",
+      "actualFE": 8920,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "SHARE_CTX_GOM-POST",
+      "actualFE": 17741,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "SHARE_CTX_GOM-PRE_FIRST",
+      "actualFE": 17741,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "UNIFORM_CTX_GOM-POST",
+      "actualFE": 17741,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "case": "UNIFORM_CTX_GOM-PRE_FIRST",
+      "actualFE": 17741,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "cut1",
+      "actualFE": 1,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "cut2",
+      "actualFE": 2,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "cut24960",
+      "actualFE": 24960,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "cut49820",
+      "actualFE": 49820,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "cut5100",
+      "actualFE": 5100,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "cut5101",
+      "actualFE": 5101,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "SHARE_CTX_GOM-POST",
+      "actualFE": 49821,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "SHARE_CTX_GOM-PRE_FIRST",
+      "actualFE": 49821,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "UNIFORM_CTX_GOM-POST",
+      "actualFE": 49821,
+      "stepTraceAndTimelinePassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "case": "UNIFORM_CTX_GOM-PRE_FIRST",
+      "actualFE": 49821,
+      "stepTraceAndTimelinePassed": true
+    }
+  ],
+  "successfulFE": 392096,
+  "attemptedFE": 392096,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "paidFullTimelineQA": 392096,
+  "viewFullTimelineQA": 2400,
+  "checkpointOfflineQA": 4120,
+  "receiptCount": 20,
+  "independentlyCheckedAncestryRecords": 7800,
+  "nativePOSTAndCommonFirst5100Proved": true,
+  "allCutoffPrefixesVerified": true,
+  "usesExistingAllStepAndFullTimelineChecks": true,
+  "performanceProved": false,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "goalAchieved": false
+}

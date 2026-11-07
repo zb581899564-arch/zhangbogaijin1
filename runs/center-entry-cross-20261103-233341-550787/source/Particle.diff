@@ -1,0 +1,12 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\Particle.java
++++ Particle.java
+@@ -6,7 +6,8 @@
+ import org.uma.jmetal.solution.PermutationSolution;
+ 
+ /** Particle identity carries its own non-dominated personal history through selection. */
+-final class Particle {
++final class Particle implements java.io.Serializable {
++    private static final long serialVersionUID = 1L;
+     private static final AtomicLong NEXT_BRANCH = new AtomicLong();
+     final PermutationSolution<Integer> current;
+     private final List<PermutationSolution<Integer>> history;

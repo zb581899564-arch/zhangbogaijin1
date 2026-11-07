@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "mode": "REGIONAL",
+  "paidFE": 686,
+  "completedPrograms": 15,
+  "completedGenerations": 0,
+  "models": [
+    {
+      "pairs": 190,
+      "maximumModelError": 9.020562075079397e-15,
+      "merges": 19,
+      "maximumChosenMeanDeficit": 0.0
+    }
+  ],
+  "policyCounts": {
+    "boundaryComparisons": 585,
+    "nativeDecisionDifferences": 0,
+    "centerComparisons": 1
+  },
+  "permanentTargetsAndAllPaidIdealsVerified": true,
+  "allMovesArchiveAcceptAndTimelineVerified": true,
+  "paidSHA256": "e4e6a30c005dd7332b2c6abb8864d7a2fe64c9ac3d0e7c4d74b0c0aa60c637b8",
+  "prefixSHA256": {
+    "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+    "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+    "100": "31649d3fc581825c21c4acbd295e17b32d3ba04994b52aff1f227e4754d5b706",
+    "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+    "686": "e4e6a30c005dd7332b2c6abb8864d7a2fe64c9ac3d0e7c4d74b0c0aa60c637b8"
+  },
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,25 @@
+{
+  "epoch": 1793951642.4232612,
+  "load": [
+    1.2,
+    0.68,
+    0.46
+  ],
+  "memory": "MemTotal:       131643232 kB\nMemFree:        118063896 kB\nMemAvailable:   123879708 kB\nBuffers:          238304 kB\nCached:          6470080 kB\nSwapCached:            0 kB\nActive:          3290516 kB\nInactive:        5737564 kB\nActive(anon):       3592 kB\nInactive(anon):  2491704 kB\nActive(file):    3286924 kB\nInactive(file):  3245860 kB\nUnevictable:           4 kB\nMlocked:               4 kB\nSwapTotal:      134217724 kB\nSwapFree:       134217724 kB\nDirty:             15020 kB\nWriteback:             0 kB\nAnonPages:       2319724 kB\nMapped:           958032 kB\nShmem:            175596 kB\nKReclaimable:     245576 kB\nSlab:             706144 kB\nSReclaimable:     245576 kB\nSUnreclaim:       460568 kB\nKernelStack:       25008 kB\nPageTables:        32704 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    200039340 kB\nCommitted_AS:   11461052 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      301116 kB\nVmallocChunk:          0 kB\nPercpu:            59520 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      740200 kB\nDirectMap2M:    11487232 kB\nDirectMap1G:    123731968 kB\n",
+  "processes": [
+    "    PID USER     %CPU %MEM COMMAND",
+    "   2757 whoopsie  9.1  0.0 whoopsie",
+    "   1187 root      2.8  0.0 polkitd",
+    "   2753 root      1.8  0.0 ToDesk_Service",
+    "   1164 message+  1.0  0.0 dbus-daemon",
+    "   3775 systemd+  0.9  0.0 mongod",
+    "   1312 root      0.8  0.4 devpi-server",
+    "   1623 inspur    0.8  0.0 easytier-core",
+    "   2469 gdm       0.7  0.2 gnome-shell",
+    "   5685 inspur    0.7  0.3 gnome-shell",
+    "   1166 root      0.6  0.0 NetworkManager",
+    "   6067 inspur    0.6  0.1 ToDesk",
+    "      1 root      0.5  0.0 systemd",
+    " 208712 root      0.5  0.0 sshd"
+  ]
+}

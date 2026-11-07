@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "successfulFE": 500000,
+  "failedFE": 0,
+  "sameInitials": true,
+  "samePhysicalLedger": true,
+  "sameFEFronts": true,
+  "sameFinalGenomes": true,
+  "sameSearchCounts": true,
+  "sameDecoderOperationCounts": true,
+  "scope": "Observable checkpoints and output equality only; these original performance traces have no whole-paid-sequence hash. No source or search class was changed. Profiling timing is not performance evidence."
+}

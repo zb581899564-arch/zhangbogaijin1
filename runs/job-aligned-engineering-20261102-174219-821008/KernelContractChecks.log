@@ -1,0 +1,6 @@
+PASS all 16 JS swaps and 32 no-resource-event updates preserve per-job FA/MA/WA
+PASS 48 closed FA/MA/WA intervals inherit by job across different JS permutations
+PASS FA mutations retain both unchanged-factory and changed-factory paper redraw rules
+PASS 128 matching-JS resource updates exactly match original paper outputs and next RNG state
+PASS 64 PAPER/direct and both classic/direct comparisons including next RNG; 256 independent children keep parents immutable; FE=0
+KERNEL_CONTRACT_CHECKS_PASS attemptedFE=0 successfulFE=0 failedFE=0 (single-proposal contracts only; no QGS or quality claim)

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "seeds": [
+    {
+      "seed": 14910003,
+      "nativeRRWholePaidSHAEqual": true,
+      "commonPrefixFE": 223840,
+      "commonPrefixSHA256": "10ccb778c70656958bf44f2780816252d4f83625e7285c44b2c349830ffac611",
+      "globalRowPrefixAndCohortEqual": true,
+      "commonInputFullParticleStateEqual": true
+    },
+    {
+      "seed": 14910037,
+      "nativeRRWholePaidSHAEqual": true,
+      "commonPrefixFE": 223840,
+      "commonPrefixSHA256": "b978644ec3a378f9515742bc067392441dfb86fb3b686a28173c5dfeb145c690",
+      "globalRowPrefixAndCohortEqual": true,
+      "commonInputFullParticleStateEqual": true
+    }
+  ],
+  "runs": 10,
+  "successfulFE": 2487010,
+  "attemptedFE": 2487010,
+  "failedFE": 0,
+  "extraCheckpointQA": 16833
+}

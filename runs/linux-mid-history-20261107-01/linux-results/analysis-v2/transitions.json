@@ -1,0 +1,2282 @@
+[
+  {
+    "cycle": 5,
+    "transition": "QGS",
+    "quality": {
+      "before": {
+        "n": 62,
+        "HV": 0.7496838436040553,
+        "IGDplus": 0.06031767285532471,
+        "IGD": 0.08965013794177448
+      },
+      "after": {
+        "n": 61,
+        "HV": 0.7488860315343789,
+        "IGDplus": 0.0644115946784569,
+        "IGD": 0.09333864677106289
+      },
+      "HVpercent": -0.10641980302534826,
+      "IGDplusImprovementPercent": -6.564492687369305,
+      "C_after_before": {
+        "covered": 40,
+        "denominator": 62,
+        "C": 0.6451612903225806
+      },
+      "C_before_after": {
+        "covered": 43,
+        "denominator": 61,
+        "C": 0.7049180327868853
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 98,
+        "after": 100,
+        "retained": 52,
+        "lost": 46,
+        "added": 48,
+        "retainedFraction": 0.5306122448979592
+      },
+      "FA": {
+        "before": 70,
+        "after": 49,
+        "retained": 45,
+        "lost": 25,
+        "added": 4,
+        "retainedFraction": 0.6428571428571429
+      },
+      "resources": {
+        "before": 92,
+        "after": 84,
+        "retained": 54,
+        "lost": 38,
+        "added": 30,
+        "retainedFraction": 0.5869565217391305
+      },
+      "singles": {
+        "before": 776,
+        "after": 829,
+        "retained": 748,
+        "lost": 28,
+        "added": 81,
+        "retainedFraction": 0.9639175257731959
+      },
+      "orderedPairs": {
+        "before": 30448,
+        "after": 32083,
+        "retained": 26302,
+        "lost": 4146,
+        "added": 5781,
+        "retainedFraction": 0.8638334209143458
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.034916666666666665,
+      "correlation": 0.9842017413463283
+    }
+  },
+  {
+    "cycle": 5,
+    "transition": "LOCAL",
+    "quality": {
+      "before": {
+        "n": 61,
+        "HV": 0.7488860315343789,
+        "IGDplus": 0.0644115946784569,
+        "IGD": 0.09333864677106289
+      },
+      "after": {
+        "n": 49,
+        "HV": 0.7611370682741595,
+        "IGDplus": 0.05189198313312168,
+        "IGD": 0.07850543224812681
+      },
+      "HVpercent": 1.635901355334357,
+      "IGDplusImprovementPercent": 21.52919416738499,
+      "C_after_before": {
+        "covered": 48,
+        "denominator": 61,
+        "C": 0.7868852459016393
+      },
+      "C_before_after": {
+        "covered": 0,
+        "denominator": 49,
+        "C": 0.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 99,
+        "retained": 2,
+        "lost": 98,
+        "added": 97,
+        "retainedFraction": 0.02
+      },
+      "FA": {
+        "before": 49,
+        "after": 69,
+        "retained": 19,
+        "lost": 30,
+        "added": 50,
+        "retainedFraction": 0.3877551020408163
+      },
+      "resources": {
+        "before": 84,
+        "after": 91,
+        "retained": 7,
+        "lost": 77,
+        "added": 84,
+        "retainedFraction": 0.08333333333333333
+      },
+      "singles": {
+        "before": 829,
+        "after": 780,
+        "retained": 780,
+        "lost": 49,
+        "added": 0,
+        "retainedFraction": 0.9408926417370326
+      },
+      "orderedPairs": {
+        "before": 32083,
+        "after": 31987,
+        "retained": 27963,
+        "lost": 4120,
+        "added": 4024,
+        "retainedFraction": 0.8715830813826637
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.030886363636363635,
+      "correlation": 0.9859629616160241
+    }
+  },
+  {
+    "cycle": 5,
+    "transition": "POOL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 62,
+        "HV": 0.761298187017239,
+        "IGDplus": 0.05187618355299181,
+        "IGD": 0.07839502142846379
+      },
+      "after": {
+        "n": 62,
+        "HV": 0.761298187017239,
+        "IGDplus": 0.05187618355299181,
+        "IGD": 0.07839502142846379
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 62,
+        "denominator": 62,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 62,
+        "denominator": 62,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 197,
+        "after": 100,
+        "retained": 100,
+        "lost": 97,
+        "added": 0,
+        "retainedFraction": 0.5076142131979695
+      },
+      "FA": {
+        "before": 99,
+        "after": 73,
+        "retained": 73,
+        "lost": 26,
+        "added": 0,
+        "retainedFraction": 0.7373737373737373
+      },
+      "resources": {
+        "before": 168,
+        "after": 94,
+        "retained": 94,
+        "lost": 74,
+        "added": 0,
+        "retainedFraction": 0.5595238095238095
+      },
+      "singles": {
+        "before": 829,
+        "after": 703,
+        "retained": 703,
+        "lost": 126,
+        "added": 0,
+        "retainedFraction": 0.8480096501809409
+      },
+      "orderedPairs": {
+        "before": 36107,
+        "after": 27683,
+        "retained": 27683,
+        "lost": 8424,
+        "added": 0,
+        "retainedFraction": 0.7666934389453569
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.02975631313131313,
+      "correlation": 0.9891292539374787
+    }
+  },
+  {
+    "cycle": 5,
+    "transition": "LOCAL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 49,
+        "HV": 0.7611370682741595,
+        "IGDplus": 0.05189198313312168,
+        "IGD": 0.07850543224812681
+      },
+      "after": {
+        "n": 62,
+        "HV": 0.761298187017239,
+        "IGDplus": 0.05187618355299181,
+        "IGD": 0.07839502142846379
+      },
+      "HVpercent": 0.021168164026597047,
+      "IGDplusImprovementPercent": 0.030451689828275497,
+      "C_after_before": {
+        "covered": 49,
+        "denominator": 49,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 49,
+        "denominator": 62,
+        "C": 0.7903225806451613
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 99,
+        "after": 100,
+        "retained": 71,
+        "lost": 28,
+        "added": 29,
+        "retainedFraction": 0.7171717171717171
+      },
+      "FA": {
+        "before": 69,
+        "after": 73,
+        "retained": 59,
+        "lost": 10,
+        "added": 14,
+        "retainedFraction": 0.855072463768116
+      },
+      "resources": {
+        "before": 91,
+        "after": 94,
+        "retained": 67,
+        "lost": 24,
+        "added": 27,
+        "retainedFraction": 0.7362637362637363
+      },
+      "singles": {
+        "before": 780,
+        "after": 703,
+        "retained": 689,
+        "lost": 91,
+        "added": 14,
+        "retainedFraction": 0.8833333333333333
+      },
+      "orderedPairs": {
+        "before": 31987,
+        "after": 27683,
+        "retained": 26327,
+        "lost": 5660,
+        "added": 1356,
+        "retainedFraction": 0.823053115328102
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.03229545454545455,
+      "correlation": 0.9870465119271984
+    }
+  },
+  {
+    "cycle": 5,
+    "transition": "SURVIVORS_TO_NEXT_PRE",
+    "quality": {
+      "before": {
+        "n": 62,
+        "HV": 0.761298187017239,
+        "IGDplus": 0.05187618355299181,
+        "IGD": 0.07839502142846379
+      },
+      "after": {
+        "n": 62,
+        "HV": 0.761298187017239,
+        "IGDplus": 0.05187618355299181,
+        "IGD": 0.07839502142846379
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 62,
+        "denominator": 62,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 62,
+        "denominator": 62,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 100,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "FA": {
+        "before": 73,
+        "after": 73,
+        "retained": 73,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "resources": {
+        "before": 94,
+        "after": 94,
+        "retained": 94,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "singles": {
+        "before": 703,
+        "after": 703,
+        "retained": 703,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "orderedPairs": {
+        "before": 27683,
+        "after": 27683,
+        "retained": 27683,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0,
+      "correlation": 1.0
+    }
+  },
+  {
+    "cycle": 6,
+    "transition": "QGS",
+    "quality": {
+      "before": {
+        "n": 62,
+        "HV": 0.761298187017239,
+        "IGDplus": 0.05187618355299181,
+        "IGD": 0.07839502142846379
+      },
+      "after": {
+        "n": 60,
+        "HV": 0.7607414941138588,
+        "IGDplus": 0.05378887286926638,
+        "IGD": 0.08076737527230546
+      },
+      "HVpercent": -0.07312415987239529,
+      "IGDplusImprovementPercent": -3.620287313586606,
+      "C_after_before": {
+        "covered": 44,
+        "denominator": 62,
+        "C": 0.7096774193548387
+      },
+      "C_before_after": {
+        "covered": 44,
+        "denominator": 60,
+        "C": 0.7333333333333333
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 52,
+        "lost": 48,
+        "added": 48,
+        "retainedFraction": 0.52
+      },
+      "FA": {
+        "before": 73,
+        "after": 49,
+        "retained": 46,
+        "lost": 27,
+        "added": 3,
+        "retainedFraction": 0.6301369863013698
+      },
+      "resources": {
+        "before": 94,
+        "after": 74,
+        "retained": 51,
+        "lost": 43,
+        "added": 23,
+        "retainedFraction": 0.5425531914893617
+      },
+      "singles": {
+        "before": 703,
+        "after": 839,
+        "retained": 692,
+        "lost": 11,
+        "added": 147,
+        "retainedFraction": 0.984352773826458
+      },
+      "orderedPairs": {
+        "before": 27683,
+        "after": 32788,
+        "retained": 25016,
+        "lost": 2667,
+        "added": 7772,
+        "retainedFraction": 0.9036592854820648
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.04825505050505051,
+      "correlation": 0.9726390039579882
+    }
+  },
+  {
+    "cycle": 6,
+    "transition": "LOCAL",
+    "quality": {
+      "before": {
+        "n": 60,
+        "HV": 0.7607414941138588,
+        "IGDplus": 0.05378887286926638,
+        "IGD": 0.08076737527230546
+      },
+      "after": {
+        "n": 56,
+        "HV": 0.7693158527454133,
+        "IGDplus": 0.04823398627189777,
+        "IGD": 0.0754740490627004
+      },
+      "HVpercent": 1.127105422524921,
+      "IGDplusImprovementPercent": 10.889494068545135,
+      "C_after_before": {
+        "covered": 36,
+        "denominator": 60,
+        "C": 0.6
+      },
+      "C_before_after": {
+        "covered": 1,
+        "denominator": 56,
+        "C": 0.017857142857142856
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 2,
+        "lost": 98,
+        "added": 98,
+        "retainedFraction": 0.02
+      },
+      "FA": {
+        "before": 49,
+        "after": 68,
+        "retained": 17,
+        "lost": 32,
+        "added": 51,
+        "retainedFraction": 0.3469387755102041
+      },
+      "resources": {
+        "before": 74,
+        "after": 95,
+        "retained": 13,
+        "lost": 61,
+        "added": 82,
+        "retainedFraction": 0.17567567567567569
+      },
+      "singles": {
+        "before": 839,
+        "after": 798,
+        "retained": 798,
+        "lost": 41,
+        "added": 0,
+        "retainedFraction": 0.9511323003575686
+      },
+      "orderedPairs": {
+        "before": 32788,
+        "after": 32242,
+        "retained": 28219,
+        "lost": 4569,
+        "added": 4023,
+        "retainedFraction": 0.8606502378919116
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.02684090909090909,
+      "correlation": 0.99006471509862
+    }
+  },
+  {
+    "cycle": 6,
+    "transition": "POOL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 79,
+        "HV": 0.7696627748857008,
+        "IGDplus": 0.04806661230059139,
+        "IGD": 0.07534400638419894
+      },
+      "after": {
+        "n": 79,
+        "HV": 0.7696627748857008,
+        "IGDplus": 0.04806661230059139,
+        "IGD": 0.07534400638419894
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 79,
+        "denominator": 79,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 79,
+        "denominator": 79,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 198,
+        "after": 100,
+        "retained": 100,
+        "lost": 98,
+        "added": 0,
+        "retainedFraction": 0.5050505050505051
+      },
+      "FA": {
+        "before": 100,
+        "after": 71,
+        "retained": 71,
+        "lost": 29,
+        "added": 0,
+        "retainedFraction": 0.71
+      },
+      "resources": {
+        "before": 156,
+        "after": 94,
+        "retained": 94,
+        "lost": 62,
+        "added": 0,
+        "retainedFraction": 0.6025641025641025
+      },
+      "singles": {
+        "before": 839,
+        "after": 705,
+        "retained": 705,
+        "lost": 134,
+        "added": 0,
+        "retainedFraction": 0.8402860548271752
+      },
+      "orderedPairs": {
+        "before": 36811,
+        "after": 27253,
+        "retained": 27253,
+        "lost": 9558,
+        "added": 0,
+        "retainedFraction": 0.740349352095841
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.03527146464646465,
+      "correlation": 0.9860848262456869
+    }
+  },
+  {
+    "cycle": 6,
+    "transition": "LOCAL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 56,
+        "HV": 0.7693158527454133,
+        "IGDplus": 0.04823398627189777,
+        "IGD": 0.0754740490627004
+      },
+      "after": {
+        "n": 79,
+        "HV": 0.7696627748857008,
+        "IGDplus": 0.04806661230059139,
+        "IGD": 0.07534400638419894
+      },
+      "HVpercent": 0.045094890356089934,
+      "IGDplusImprovementPercent": 0.347607333261573,
+      "C_after_before": {
+        "covered": 56,
+        "denominator": 56,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 55,
+        "denominator": 79,
+        "C": 0.6962025316455697
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 67,
+        "lost": 33,
+        "added": 33,
+        "retainedFraction": 0.67
+      },
+      "FA": {
+        "before": 68,
+        "after": 71,
+        "retained": 55,
+        "lost": 13,
+        "added": 16,
+        "retainedFraction": 0.8088235294117647
+      },
+      "resources": {
+        "before": 95,
+        "after": 94,
+        "retained": 68,
+        "lost": 27,
+        "added": 26,
+        "retainedFraction": 0.7157894736842105
+      },
+      "singles": {
+        "before": 798,
+        "after": 705,
+        "retained": 703,
+        "lost": 95,
+        "added": 2,
+        "retainedFraction": 0.8809523809523809
+      },
+      "orderedPairs": {
+        "before": 32242,
+        "after": 27253,
+        "retained": 26359,
+        "lost": 5883,
+        "added": 894,
+        "retainedFraction": 0.8175361329942311
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.03563131313131313,
+      "correlation": 0.9852996143079565
+    }
+  },
+  {
+    "cycle": 6,
+    "transition": "SURVIVORS_TO_NEXT_PRE",
+    "quality": {
+      "before": {
+        "n": 79,
+        "HV": 0.7696627748857008,
+        "IGDplus": 0.04806661230059139,
+        "IGD": 0.07534400638419894
+      },
+      "after": {
+        "n": 79,
+        "HV": 0.7696627748857008,
+        "IGDplus": 0.04806661230059139,
+        "IGD": 0.07534400638419894
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 79,
+        "denominator": 79,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 79,
+        "denominator": 79,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 100,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "FA": {
+        "before": 71,
+        "after": 71,
+        "retained": 71,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "resources": {
+        "before": 94,
+        "after": 94,
+        "retained": 94,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "singles": {
+        "before": 705,
+        "after": 705,
+        "retained": 705,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "orderedPairs": {
+        "before": 27253,
+        "after": 27253,
+        "retained": 27253,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0,
+      "correlation": 1.0
+    }
+  },
+  {
+    "cycle": 7,
+    "transition": "QGS",
+    "quality": {
+      "before": {
+        "n": 79,
+        "HV": 0.7696627748857008,
+        "IGDplus": 0.04806661230059139,
+        "IGD": 0.07534400638419894
+      },
+      "after": {
+        "n": 61,
+        "HV": 0.7694173486365223,
+        "IGDplus": 0.049629382528194224,
+        "IGD": 0.07937961755977435
+      },
+      "HVpercent": -0.031887504136451916,
+      "IGDplusImprovementPercent": -3.199251372262756,
+      "C_after_before": {
+        "covered": 49,
+        "denominator": 79,
+        "C": 0.620253164556962
+      },
+      "C_before_after": {
+        "covered": 47,
+        "denominator": 61,
+        "C": 0.7704918032786885
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 60,
+        "lost": 40,
+        "added": 40,
+        "retainedFraction": 0.6
+      },
+      "FA": {
+        "before": 71,
+        "after": 49,
+        "retained": 48,
+        "lost": 23,
+        "added": 1,
+        "retainedFraction": 0.676056338028169
+      },
+      "resources": {
+        "before": 94,
+        "after": 77,
+        "retained": 58,
+        "lost": 36,
+        "added": 19,
+        "retainedFraction": 0.6170212765957447
+      },
+      "singles": {
+        "before": 705,
+        "after": 821,
+        "retained": 686,
+        "lost": 19,
+        "added": 135,
+        "retainedFraction": 0.9730496453900709
+      },
+      "orderedPairs": {
+        "before": 27253,
+        "after": 32008,
+        "retained": 24843,
+        "lost": 2410,
+        "added": 7165,
+        "retainedFraction": 0.9115693685098888
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.04153282828282828,
+      "correlation": 0.9780418120408787
+    }
+  },
+  {
+    "cycle": 7,
+    "transition": "LOCAL",
+    "quality": {
+      "before": {
+        "n": 61,
+        "HV": 0.7694173486365223,
+        "IGDplus": 0.049629382528194224,
+        "IGD": 0.07937961755977435
+      },
+      "after": {
+        "n": 51,
+        "HV": 0.7758071296844624,
+        "IGDplus": 0.04395005077272782,
+        "IGD": 0.07356237159988067
+      },
+      "HVpercent": 0.8304701030283912,
+      "IGDplusImprovementPercent": 12.137991340903856,
+      "C_after_before": {
+        "covered": 33,
+        "denominator": 61,
+        "C": 0.5409836065573771
+      },
+      "C_before_after": {
+        "covered": 4,
+        "denominator": 51,
+        "C": 0.0784313725490196
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 100,
+        "retained": 3,
+        "lost": 97,
+        "added": 97,
+        "retainedFraction": 0.03
+      },
+      "FA": {
+        "before": 49,
+        "after": 63,
+        "retained": 18,
+        "lost": 31,
+        "added": 45,
+        "retainedFraction": 0.3673469387755102
+      },
+      "resources": {
+        "before": 77,
+        "after": 92,
+        "retained": 20,
+        "lost": 57,
+        "added": 72,
+        "retainedFraction": 0.2597402597402597
+      },
+      "singles": {
+        "before": 821,
+        "after": 773,
+        "retained": 773,
+        "lost": 48,
+        "added": 0,
+        "retainedFraction": 0.9415347137637028
+      },
+      "orderedPairs": {
+        "before": 32008,
+        "after": 31264,
+        "retained": 27764,
+        "lost": 4244,
+        "added": 3500,
+        "retainedFraction": 0.8674081479630092
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.030699494949494945,
+      "correlation": 0.986954138039589
+    }
+  },
+  {
+    "cycle": 7,
+    "transition": "POOL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 77,
+        "HV": 0.7762497359482783,
+        "IGDplus": 0.04359560655870261,
+        "IGD": 0.07239826470882299
+      },
+      "after": {
+        "n": 77,
+        "HV": 0.7762497359482783,
+        "IGDplus": 0.04359560655870261,
+        "IGD": 0.07239826470882299
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 197,
+        "after": 98,
+        "retained": 98,
+        "lost": 99,
+        "added": 0,
+        "retainedFraction": 0.49746192893401014
+      },
+      "FA": {
+        "before": 94,
+        "after": 66,
+        "retained": 66,
+        "lost": 28,
+        "added": 0,
+        "retainedFraction": 0.7021276595744681
+      },
+      "resources": {
+        "before": 149,
+        "after": 88,
+        "retained": 88,
+        "lost": 61,
+        "added": 0,
+        "retainedFraction": 0.5906040268456376
+      },
+      "singles": {
+        "before": 821,
+        "after": 692,
+        "retained": 692,
+        "lost": 129,
+        "added": 0,
+        "retainedFraction": 0.8428745432399513
+      },
+      "orderedPairs": {
+        "before": 35508,
+        "after": 27069,
+        "retained": 27069,
+        "lost": 8439,
+        "added": 0,
+        "retainedFraction": 0.762335248394728
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.042536616161616164,
+      "correlation": 0.9785299396717997
+    }
+  },
+  {
+    "cycle": 7,
+    "transition": "LOCAL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 51,
+        "HV": 0.7758071296844624,
+        "IGDplus": 0.04395005077272782,
+        "IGD": 0.07356237159988067
+      },
+      "after": {
+        "n": 77,
+        "HV": 0.7762497359482783,
+        "IGDplus": 0.04359560655870261,
+        "IGD": 0.07239826470882299
+      },
+      "HVpercent": 0.057051069380587016,
+      "IGDplusImprovementPercent": 0.8097356849657418,
+      "C_after_before": {
+        "covered": 51,
+        "denominator": 51,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 49,
+        "denominator": 77,
+        "C": 0.6363636363636364
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 98,
+        "retained": 62,
+        "lost": 38,
+        "added": 36,
+        "retainedFraction": 0.62
+      },
+      "FA": {
+        "before": 63,
+        "after": 66,
+        "retained": 46,
+        "lost": 17,
+        "added": 20,
+        "retainedFraction": 0.7301587301587301
+      },
+      "resources": {
+        "before": 92,
+        "after": 88,
+        "retained": 61,
+        "lost": 31,
+        "added": 27,
+        "retainedFraction": 0.6630434782608695
+      },
+      "singles": {
+        "before": 773,
+        "after": 692,
+        "retained": 685,
+        "lost": 88,
+        "added": 7,
+        "retainedFraction": 0.8861578266494179
+      },
+      "orderedPairs": {
+        "before": 31264,
+        "after": 27069,
+        "retained": 25707,
+        "lost": 5557,
+        "added": 1362,
+        "retainedFraction": 0.8222556294779939
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0475959595959596,
+      "correlation": 0.9732923024496022
+    }
+  },
+  {
+    "cycle": 7,
+    "transition": "SURVIVORS_TO_NEXT_PRE",
+    "quality": {
+      "before": {
+        "n": 77,
+        "HV": 0.7762497359482783,
+        "IGDplus": 0.04359560655870261,
+        "IGD": 0.07239826470882299
+      },
+      "after": {
+        "n": 77,
+        "HV": 0.7762497359482783,
+        "IGDplus": 0.04359560655870261,
+        "IGD": 0.07239826470882299
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 98,
+        "after": 98,
+        "retained": 98,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "FA": {
+        "before": 66,
+        "after": 66,
+        "retained": 66,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "resources": {
+        "before": 88,
+        "after": 88,
+        "retained": 88,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "singles": {
+        "before": 692,
+        "after": 692,
+        "retained": 692,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "orderedPairs": {
+        "before": 27069,
+        "after": 27069,
+        "retained": 27069,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0,
+      "correlation": 0.9999999999999998
+    }
+  },
+  {
+    "cycle": 8,
+    "transition": "QGS",
+    "quality": {
+      "before": {
+        "n": 77,
+        "HV": 0.7762497359482783,
+        "IGDplus": 0.04359560655870261,
+        "IGD": 0.07239826470882299
+      },
+      "after": {
+        "n": 66,
+        "HV": 0.7752483536187131,
+        "IGDplus": 0.04587282420322455,
+        "IGD": 0.07808068901209128
+      },
+      "HVpercent": -0.12900259841529538,
+      "IGDplusImprovementPercent": -5.0905500971209605,
+      "C_after_before": {
+        "covered": 47,
+        "denominator": 77,
+        "C": 0.6103896103896104
+      },
+      "C_before_after": {
+        "covered": 51,
+        "denominator": 66,
+        "C": 0.7727272727272727
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 98,
+        "after": 100,
+        "retained": 56,
+        "lost": 42,
+        "added": 44,
+        "retainedFraction": 0.5714285714285714
+      },
+      "FA": {
+        "before": 66,
+        "after": 49,
+        "retained": 49,
+        "lost": 17,
+        "added": 0,
+        "retainedFraction": 0.7424242424242424
+      },
+      "resources": {
+        "before": 88,
+        "after": 78,
+        "retained": 56,
+        "lost": 32,
+        "added": 22,
+        "retainedFraction": 0.6363636363636364
+      },
+      "singles": {
+        "before": 692,
+        "after": 782,
+        "retained": 680,
+        "lost": 12,
+        "added": 102,
+        "retainedFraction": 0.9826589595375722
+      },
+      "orderedPairs": {
+        "before": 27069,
+        "after": 30458,
+        "retained": 25251,
+        "lost": 1818,
+        "added": 5207,
+        "retainedFraction": 0.9328383021168126
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.01982828282828283,
+      "correlation": 0.9944036348394609
+    }
+  },
+  {
+    "cycle": 8,
+    "transition": "LOCAL",
+    "quality": {
+      "before": {
+        "n": 66,
+        "HV": 0.7752483536187131,
+        "IGDplus": 0.04587282420322455,
+        "IGD": 0.07808068901209128
+      },
+      "after": {
+        "n": 50,
+        "HV": 0.780127299211594,
+        "IGDplus": 0.04507903886649708,
+        "IGD": 0.07783809818017483
+      },
+      "HVpercent": 0.6293396909657245,
+      "IGDplusImprovementPercent": 1.7455064908763283,
+      "C_after_before": {
+        "covered": 39,
+        "denominator": 66,
+        "C": 0.5909090909090909
+      },
+      "C_before_after": {
+        "covered": 1,
+        "denominator": 50,
+        "C": 0.02
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 98,
+        "retained": 7,
+        "lost": 93,
+        "added": 91,
+        "retainedFraction": 0.07
+      },
+      "FA": {
+        "before": 49,
+        "after": 52,
+        "retained": 16,
+        "lost": 33,
+        "added": 36,
+        "retainedFraction": 0.32653061224489793
+      },
+      "resources": {
+        "before": 78,
+        "after": 84,
+        "retained": 24,
+        "lost": 54,
+        "added": 60,
+        "retainedFraction": 0.3076923076923077
+      },
+      "singles": {
+        "before": 782,
+        "after": 731,
+        "retained": 731,
+        "lost": 51,
+        "added": 0,
+        "retainedFraction": 0.9347826086956522
+      },
+      "orderedPairs": {
+        "before": 30458,
+        "after": 29112,
+        "retained": 26708,
+        "lost": 3750,
+        "added": 2404,
+        "retainedFraction": 0.876879637533653
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.03178535353535354,
+      "correlation": 0.9869129193162467
+    }
+  },
+  {
+    "cycle": 8,
+    "transition": "POOL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 77,
+        "HV": 0.7806292694717993,
+        "IGDplus": 0.04304148645378301,
+        "IGD": 0.07663535483859199
+      },
+      "after": {
+        "n": 77,
+        "HV": 0.7806292694717993,
+        "IGDplus": 0.04304148645378301,
+        "IGD": 0.07663535483859199
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 191,
+        "after": 97,
+        "retained": 97,
+        "lost": 94,
+        "added": 0,
+        "retainedFraction": 0.5078534031413613
+      },
+      "FA": {
+        "before": 85,
+        "after": 71,
+        "retained": 71,
+        "lost": 14,
+        "added": 0,
+        "retainedFraction": 0.8352941176470589
+      },
+      "resources": {
+        "before": 138,
+        "after": 88,
+        "retained": 88,
+        "lost": 50,
+        "added": 0,
+        "retainedFraction": 0.6376811594202898
+      },
+      "singles": {
+        "before": 782,
+        "after": 669,
+        "retained": 669,
+        "lost": 113,
+        "added": 0,
+        "retainedFraction": 0.8554987212276215
+      },
+      "orderedPairs": {
+        "before": 32862,
+        "after": 25816,
+        "retained": 25816,
+        "lost": 7046,
+        "added": 0,
+        "retainedFraction": 0.7855882173939505
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.054869949494949506,
+      "correlation": 0.9705136152206286
+    }
+  },
+  {
+    "cycle": 8,
+    "transition": "LOCAL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 50,
+        "HV": 0.780127299211594,
+        "IGDplus": 0.04507903886649708,
+        "IGD": 0.07783809818017483
+      },
+      "after": {
+        "n": 77,
+        "HV": 0.7806292694717993,
+        "IGDplus": 0.04304148645378301,
+        "IGD": 0.07663535483859199
+      },
+      "HVpercent": 0.06434466025131425,
+      "IGDplusImprovementPercent": 4.624467240313073,
+      "C_after_before": {
+        "covered": 50,
+        "denominator": 50,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 50,
+        "denominator": 77,
+        "C": 0.6493506493506493
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 98,
+        "after": 97,
+        "retained": 62,
+        "lost": 36,
+        "added": 35,
+        "retainedFraction": 0.6326530612244898
+      },
+      "FA": {
+        "before": 52,
+        "after": 71,
+        "retained": 49,
+        "lost": 3,
+        "added": 22,
+        "retainedFraction": 0.9423076923076923
+      },
+      "resources": {
+        "before": 84,
+        "after": 88,
+        "retained": 59,
+        "lost": 25,
+        "added": 29,
+        "retainedFraction": 0.7023809523809523
+      },
+      "singles": {
+        "before": 731,
+        "after": 669,
+        "retained": 663,
+        "lost": 68,
+        "added": 6,
+        "retainedFraction": 0.9069767441860465
+      },
+      "orderedPairs": {
+        "before": 29112,
+        "after": 25816,
+        "retained": 24390,
+        "lost": 4722,
+        "added": 1426,
+        "retainedFraction": 0.8377988458367683
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.06548484848484848,
+      "correlation": 0.9571423697890639
+    }
+  },
+  {
+    "cycle": 8,
+    "transition": "SURVIVORS_TO_NEXT_PRE",
+    "quality": {
+      "before": {
+        "n": 77,
+        "HV": 0.7806292694717993,
+        "IGDplus": 0.04304148645378301,
+        "IGD": 0.07663535483859199
+      },
+      "after": {
+        "n": 77,
+        "HV": 0.7806292694717993,
+        "IGDplus": 0.04304148645378301,
+        "IGD": 0.07663535483859199
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 77,
+        "denominator": 77,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 97,
+        "after": 97,
+        "retained": 97,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "FA": {
+        "before": 71,
+        "after": 71,
+        "retained": 71,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "resources": {
+        "before": 88,
+        "after": 88,
+        "retained": 88,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "singles": {
+        "before": 669,
+        "after": 669,
+        "retained": 669,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "orderedPairs": {
+        "before": 25816,
+        "after": 25816,
+        "retained": 25816,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0,
+      "correlation": 0.9999999999999998
+    }
+  },
+  {
+    "cycle": 9,
+    "transition": "QGS",
+    "quality": {
+      "before": {
+        "n": 77,
+        "HV": 0.7806292694717993,
+        "IGDplus": 0.04304148645378301,
+        "IGD": 0.07663535483859199
+      },
+      "after": {
+        "n": 70,
+        "HV": 0.7789696529338295,
+        "IGDplus": 0.047170298061924125,
+        "IGD": 0.07635658134896799
+      },
+      "HVpercent": -0.2125998348861291,
+      "IGDplusImprovementPercent": -9.153597016855892,
+      "C_after_before": {
+        "covered": 47,
+        "denominator": 77,
+        "C": 0.6103896103896104
+      },
+      "C_before_after": {
+        "covered": 51,
+        "denominator": 70,
+        "C": 0.7285714285714285
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 97,
+        "after": 99,
+        "retained": 52,
+        "lost": 45,
+        "added": 47,
+        "retainedFraction": 0.5360824742268041
+      },
+      "FA": {
+        "before": 71,
+        "after": 48,
+        "retained": 47,
+        "lost": 24,
+        "added": 1,
+        "retainedFraction": 0.6619718309859155
+      },
+      "resources": {
+        "before": 88,
+        "after": 72,
+        "retained": 51,
+        "lost": 37,
+        "added": 21,
+        "retainedFraction": 0.5795454545454546
+      },
+      "singles": {
+        "before": 669,
+        "after": 801,
+        "retained": 661,
+        "lost": 8,
+        "added": 140,
+        "retainedFraction": 0.9880418535127056
+      },
+      "orderedPairs": {
+        "before": 25816,
+        "after": 31030,
+        "retained": 23809,
+        "lost": 2007,
+        "added": 7221,
+        "retainedFraction": 0.9222575147195538
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.04974747474747475,
+      "correlation": 0.9751649244689656
+    }
+  },
+  {
+    "cycle": 9,
+    "transition": "LOCAL",
+    "quality": {
+      "before": {
+        "n": 70,
+        "HV": 0.7789696529338295,
+        "IGDplus": 0.047170298061924125,
+        "IGD": 0.07635658134896799
+      },
+      "after": {
+        "n": 62,
+        "HV": 0.7893285514783008,
+        "IGDplus": 0.04073364672513505,
+        "IGD": 0.07009735704211746
+      },
+      "HVpercent": 1.329820552759231,
+      "IGDplusImprovementPercent": 14.644738304706099,
+      "C_after_before": {
+        "covered": 48,
+        "denominator": 70,
+        "C": 0.6857142857142857
+      },
+      "C_before_after": {
+        "covered": 3,
+        "denominator": 62,
+        "C": 0.04838709677419355
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 99,
+        "after": 96,
+        "retained": 3,
+        "lost": 96,
+        "added": 93,
+        "retainedFraction": 0.030303030303030304
+      },
+      "FA": {
+        "before": 48,
+        "after": 59,
+        "retained": 19,
+        "lost": 29,
+        "added": 40,
+        "retainedFraction": 0.3958333333333333
+      },
+      "resources": {
+        "before": 72,
+        "after": 88,
+        "retained": 19,
+        "lost": 53,
+        "added": 69,
+        "retainedFraction": 0.2638888888888889
+      },
+      "singles": {
+        "before": 801,
+        "after": 767,
+        "retained": 767,
+        "lost": 34,
+        "added": 0,
+        "retainedFraction": 0.9575530586766542
+      },
+      "orderedPairs": {
+        "before": 31030,
+        "after": 29757,
+        "retained": 26932,
+        "lost": 4098,
+        "added": 2825,
+        "retainedFraction": 0.8679342571704802
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.03881565656565656,
+      "correlation": 0.9811597693212739
+    }
+  },
+  {
+    "cycle": 9,
+    "transition": "POOL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 84,
+        "HV": 0.7897603752944731,
+        "IGDplus": 0.04032719118015715,
+        "IGD": 0.06975134012820194
+      },
+      "after": {
+        "n": 84,
+        "HV": 0.7897603752944731,
+        "IGDplus": 0.04032719118015715,
+        "IGD": 0.06975134012820194
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 84,
+        "denominator": 84,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 84,
+        "denominator": 84,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 192,
+        "after": 97,
+        "retained": 97,
+        "lost": 95,
+        "added": 0,
+        "retainedFraction": 0.5052083333333334
+      },
+      "FA": {
+        "before": 88,
+        "after": 68,
+        "retained": 68,
+        "lost": 20,
+        "added": 0,
+        "retainedFraction": 0.7727272727272727
+      },
+      "resources": {
+        "before": 141,
+        "after": 87,
+        "retained": 87,
+        "lost": 54,
+        "added": 0,
+        "retainedFraction": 0.6170212765957447
+      },
+      "singles": {
+        "before": 801,
+        "after": 649,
+        "retained": 649,
+        "lost": 152,
+        "added": 0,
+        "retainedFraction": 0.8102372034956304
+      },
+      "orderedPairs": {
+        "before": 33855,
+        "after": 24650,
+        "retained": 24650,
+        "lost": 9205,
+        "added": 0,
+        "retainedFraction": 0.7281051543346625
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.028430555555555553,
+      "correlation": 0.9905689219684092
+    }
+  },
+  {
+    "cycle": 9,
+    "transition": "LOCAL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 62,
+        "HV": 0.7893285514783008,
+        "IGDplus": 0.04073364672513505,
+        "IGD": 0.07009735704211746
+      },
+      "after": {
+        "n": 84,
+        "HV": 0.7897603752944731,
+        "IGDplus": 0.04032719118015715,
+        "IGD": 0.06975134012820194
+      },
+      "HVpercent": 0.05470774056803851,
+      "IGDplusImprovementPercent": 1.0028407193441062,
+      "C_after_before": {
+        "covered": 62,
+        "denominator": 62,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 62,
+        "denominator": 84,
+        "C": 0.7380952380952381
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 96,
+        "after": 97,
+        "retained": 66,
+        "lost": 30,
+        "added": 31,
+        "retainedFraction": 0.6875
+      },
+      "FA": {
+        "before": 59,
+        "after": 68,
+        "retained": 52,
+        "lost": 7,
+        "added": 16,
+        "retainedFraction": 0.8813559322033898
+      },
+      "resources": {
+        "before": 88,
+        "after": 87,
+        "retained": 64,
+        "lost": 24,
+        "added": 23,
+        "retainedFraction": 0.7272727272727273
+      },
+      "singles": {
+        "before": 767,
+        "after": 649,
+        "retained": 643,
+        "lost": 124,
+        "added": 6,
+        "retainedFraction": 0.8383311603650587
+      },
+      "orderedPairs": {
+        "before": 29757,
+        "after": 24650,
+        "retained": 23328,
+        "lost": 6429,
+        "added": 1322,
+        "retainedFraction": 0.7839499949591693
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.04213131313131313,
+      "correlation": 0.9802432495929403
+    }
+  },
+  {
+    "cycle": 9,
+    "transition": "SURVIVORS_TO_NEXT_PRE",
+    "quality": {
+      "before": {
+        "n": 84,
+        "HV": 0.7897603752944731,
+        "IGDplus": 0.04032719118015715,
+        "IGD": 0.06975134012820194
+      },
+      "after": {
+        "n": 84,
+        "HV": 0.7897603752944731,
+        "IGDplus": 0.04032719118015715,
+        "IGD": 0.06975134012820194
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 84,
+        "denominator": 84,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 84,
+        "denominator": 84,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 97,
+        "after": 97,
+        "retained": 97,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "FA": {
+        "before": 68,
+        "after": 68,
+        "retained": 68,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "resources": {
+        "before": 87,
+        "after": 87,
+        "retained": 87,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "singles": {
+        "before": 649,
+        "after": 649,
+        "retained": 649,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "orderedPairs": {
+        "before": 24650,
+        "after": 24650,
+        "retained": 24650,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0,
+      "correlation": 1.0
+    }
+  },
+  {
+    "cycle": 10,
+    "transition": "QGS",
+    "quality": {
+      "before": {
+        "n": 84,
+        "HV": 0.7897603752944731,
+        "IGDplus": 0.04032719118015715,
+        "IGD": 0.06975134012820194
+      },
+      "after": {
+        "n": 71,
+        "HV": 0.7864293831832835,
+        "IGDplus": 0.04349776927713399,
+        "IGD": 0.07221307101752662
+      },
+      "HVpercent": -0.4217725040899345,
+      "IGDplusImprovementPercent": -7.564758944544323,
+      "C_after_before": {
+        "covered": 60,
+        "denominator": 84,
+        "C": 0.7142857142857143
+      },
+      "C_before_after": {
+        "covered": 58,
+        "denominator": 71,
+        "C": 0.8169014084507042
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 97,
+        "after": 100,
+        "retained": 65,
+        "lost": 32,
+        "added": 35,
+        "retainedFraction": 0.6701030927835051
+      },
+      "FA": {
+        "before": 68,
+        "after": 50,
+        "retained": 50,
+        "lost": 18,
+        "added": 0,
+        "retainedFraction": 0.7352941176470589
+      },
+      "resources": {
+        "before": 87,
+        "after": 77,
+        "retained": 60,
+        "lost": 27,
+        "added": 17,
+        "retainedFraction": 0.6896551724137931
+      },
+      "singles": {
+        "before": 649,
+        "after": 745,
+        "retained": 644,
+        "lost": 5,
+        "added": 101,
+        "retainedFraction": 0.9922958397534669
+      },
+      "orderedPairs": {
+        "before": 24650,
+        "after": 28666,
+        "retained": 23200,
+        "lost": 1450,
+        "added": 5466,
+        "retainedFraction": 0.9411764705882353
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.022237373737373736,
+      "correlation": 0.9933520436620211
+    }
+  },
+  {
+    "cycle": 10,
+    "transition": "LOCAL",
+    "quality": {
+      "before": {
+        "n": 71,
+        "HV": 0.7864293831832835,
+        "IGDplus": 0.04349776927713399,
+        "IGD": 0.07221307101752662
+      },
+      "after": {
+        "n": 65,
+        "HV": 0.7918722412506871,
+        "IGDplus": 0.0385090185960937,
+        "IGD": 0.06490587542636377
+      },
+      "HVpercent": 0.6920974958199322,
+      "IGDplusImprovementPercent": 12.166677443219156,
+      "C_after_before": {
+        "covered": 48,
+        "denominator": 71,
+        "C": 0.676056338028169
+      },
+      "C_before_after": {
+        "covered": 3,
+        "denominator": 65,
+        "C": 0.046153846153846156
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 100,
+        "after": 95,
+        "retained": 6,
+        "lost": 94,
+        "added": 89,
+        "retainedFraction": 0.06
+      },
+      "FA": {
+        "before": 50,
+        "after": 53,
+        "retained": 20,
+        "lost": 30,
+        "added": 33,
+        "retainedFraction": 0.4
+      },
+      "resources": {
+        "before": 77,
+        "after": 84,
+        "retained": 23,
+        "lost": 54,
+        "added": 61,
+        "retainedFraction": 0.2987012987012987
+      },
+      "singles": {
+        "before": 745,
+        "after": 708,
+        "retained": 708,
+        "lost": 37,
+        "added": 0,
+        "retainedFraction": 0.9503355704697987
+      },
+      "orderedPairs": {
+        "before": 28666,
+        "after": 27504,
+        "retained": 25252,
+        "lost": 3414,
+        "added": 2252,
+        "retainedFraction": 0.8809042070745832
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.031737373737373745,
+      "correlation": 0.989099644750066
+    }
+  },
+  {
+    "cycle": 10,
+    "transition": "POOL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 88,
+        "HV": 0.7923392804030864,
+        "IGDplus": 0.03835406710980406,
+        "IGD": 0.06463824632447622
+      },
+      "after": {
+        "n": 83,
+        "HV": 0.7922667601135819,
+        "IGDplus": 0.038425144787252,
+        "IGD": 0.06471086388632526
+      },
+      "HVpercent": -0.009152681344748448,
+      "IGDplusImprovementPercent": -0.1851482339861477,
+      "C_after_before": {
+        "covered": 83,
+        "denominator": 88,
+        "C": 0.9431818181818182
+      },
+      "C_before_after": {
+        "covered": 83,
+        "denominator": 83,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 189,
+        "after": 95,
+        "retained": 95,
+        "lost": 94,
+        "added": 0,
+        "retainedFraction": 0.5026455026455027
+      },
+      "FA": {
+        "before": 83,
+        "after": 65,
+        "retained": 65,
+        "lost": 18,
+        "added": 0,
+        "retainedFraction": 0.7831325301204819
+      },
+      "resources": {
+        "before": 138,
+        "after": 86,
+        "retained": 86,
+        "lost": 52,
+        "added": 0,
+        "retainedFraction": 0.6231884057971014
+      },
+      "singles": {
+        "before": 745,
+        "after": 624,
+        "retained": 624,
+        "lost": 121,
+        "added": 0,
+        "retainedFraction": 0.8375838926174497
+      },
+      "orderedPairs": {
+        "before": 30918,
+        "after": 22922,
+        "retained": 22922,
+        "lost": 7996,
+        "added": 0,
+        "retainedFraction": 0.7413804256420208
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.030088383838383838,
+      "correlation": 0.9907847524177585
+    }
+  },
+  {
+    "cycle": 10,
+    "transition": "LOCAL_TO_SURVIVORS",
+    "quality": {
+      "before": {
+        "n": 65,
+        "HV": 0.7918722412506871,
+        "IGDplus": 0.0385090185960937,
+        "IGD": 0.06490587542636377
+      },
+      "after": {
+        "n": 83,
+        "HV": 0.7922667601135819,
+        "IGDplus": 0.038425144787252,
+        "IGD": 0.06471086388632526
+      },
+      "HVpercent": 0.049821024446017326,
+      "IGDplusImprovementPercent": 0.21804047812614988,
+      "C_after_before": {
+        "covered": 63,
+        "denominator": 65,
+        "C": 0.9692307692307692
+      },
+      "C_before_after": {
+        "covered": 63,
+        "denominator": 83,
+        "C": 0.7590361445783133
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 95,
+        "after": 95,
+        "retained": 68,
+        "lost": 27,
+        "added": 27,
+        "retainedFraction": 0.7157894736842105
+      },
+      "FA": {
+        "before": 53,
+        "after": 65,
+        "retained": 50,
+        "lost": 3,
+        "added": 15,
+        "retainedFraction": 0.9433962264150944
+      },
+      "resources": {
+        "before": 84,
+        "after": 86,
+        "retained": 65,
+        "lost": 19,
+        "added": 21,
+        "retainedFraction": 0.7738095238095238
+      },
+      "singles": {
+        "before": 708,
+        "after": 624,
+        "retained": 619,
+        "lost": 89,
+        "added": 5,
+        "retainedFraction": 0.8742937853107344
+      },
+      "orderedPairs": {
+        "before": 27504,
+        "after": 22922,
+        "retained": 22071,
+        "lost": 5433,
+        "added": 851,
+        "retainedFraction": 0.8024650959860384
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.03953282828282828,
+      "correlation": 0.983987010012647
+    }
+  },
+  {
+    "cycle": 10,
+    "transition": "SURVIVORS_TO_NEXT_PRE",
+    "quality": {
+      "before": {
+        "n": 83,
+        "HV": 0.7922667601135819,
+        "IGDplus": 0.038425144787252,
+        "IGD": 0.06471086388632526
+      },
+      "after": {
+        "n": 83,
+        "HV": 0.7922667601135819,
+        "IGDplus": 0.038425144787252,
+        "IGD": 0.06471086388632526
+      },
+      "HVpercent": 0.0,
+      "IGDplusImprovementPercent": 0.0,
+      "C_after_before": {
+        "covered": 83,
+        "denominator": 83,
+        "C": 1.0
+      },
+      "C_before_after": {
+        "covered": 83,
+        "denominator": 83,
+        "C": 1.0
+      }
+    },
+    "retention": {
+      "physical": {
+        "before": 95,
+        "after": 95,
+        "retained": 95,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "FA": {
+        "before": 65,
+        "after": 65,
+        "retained": 65,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "resources": {
+        "before": 86,
+        "after": 86,
+        "retained": 86,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "singles": {
+        "before": 624,
+        "after": 624,
+        "retained": 624,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      },
+      "orderedPairs": {
+        "before": 22922,
+        "after": 22922,
+        "retained": 22922,
+        "lost": 0,
+        "added": 0,
+        "retainedFraction": 1.0
+      }
+    },
+    "freePairGeometry": {
+      "meanAbsoluteCoassignmentChange": 0.0,
+      "correlation": 0.9999999999999998
+    }
+  }
+]

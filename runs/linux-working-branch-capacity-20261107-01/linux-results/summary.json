@@ -1,0 +1,114 @@
+{
+  "all12CellsAvailable": true,
+  "eligibleNativeCandidates": 66,
+  "cases": [
+    {
+      "context": "104540",
+      "role": "MAKESPAN",
+      "parentSlot": 0,
+      "ordinaryOtherSlot": 1,
+      "eligibleNativeBranches": 4,
+      "chosenId": "104540-0-0-POST_FA"
+    },
+    {
+      "context": "104540",
+      "role": "CENTER",
+      "parentSlot": 15,
+      "ordinaryOtherSlot": 16,
+      "eligibleNativeBranches": 2,
+      "chosenId": "104540-15-0-POST_FA"
+    },
+    {
+      "context": "104540",
+      "role": "ENERGY",
+      "parentSlot": 70,
+      "ordinaryOtherSlot": 71,
+      "eligibleNativeBranches": 7,
+      "chosenId": "104540-70-1-POST_FA"
+    },
+    {
+      "context": "104540",
+      "role": "WORKER_COST",
+      "parentSlot": 85,
+      "ordinaryOtherSlot": 86,
+      "eligibleNativeBranches": 5,
+      "chosenId": "104540-85-2-POST_FA"
+    },
+    {
+      "context": "179120",
+      "role": "MAKESPAN",
+      "parentSlot": 0,
+      "ordinaryOtherSlot": 1,
+      "eligibleNativeBranches": 11,
+      "chosenId": "179120-0-0-POST_FA"
+    },
+    {
+      "context": "179120",
+      "role": "CENTER",
+      "parentSlot": 15,
+      "ordinaryOtherSlot": 16,
+      "eligibleNativeBranches": 2,
+      "chosenId": "179120-15-6-POST_FA"
+    },
+    {
+      "context": "179120",
+      "role": "ENERGY",
+      "parentSlot": 70,
+      "ordinaryOtherSlot": 71,
+      "eligibleNativeBranches": 5,
+      "chosenId": "179120-70-1-POST_FA"
+    },
+    {
+      "context": "179120",
+      "role": "WORKER_COST",
+      "parentSlot": 85,
+      "ordinaryOtherSlot": 86,
+      "eligibleNativeBranches": 3,
+      "chosenId": "179120-85-5-POST_FA"
+    },
+    {
+      "context": "228840",
+      "role": "MAKESPAN",
+      "parentSlot": 0,
+      "ordinaryOtherSlot": 1,
+      "eligibleNativeBranches": 7,
+      "chosenId": "228840-0-3-POST_FA"
+    },
+    {
+      "context": "228840",
+      "role": "CENTER",
+      "parentSlot": 15,
+      "ordinaryOtherSlot": 16,
+      "eligibleNativeBranches": 4,
+      "chosenId": "228840-15-5-POST_FA"
+    },
+    {
+      "context": "228840",
+      "role": "ENERGY",
+      "parentSlot": 70,
+      "ordinaryOtherSlot": 71,
+      "eligibleNativeBranches": 7,
+      "chosenId": "228840-70-0-POST_FA"
+    },
+    {
+      "context": "228840",
+      "role": "WORKER_COST",
+      "parentSlot": 85,
+      "ordinaryOtherSlot": 86,
+      "eligibleNativeBranches": 9,
+      "chosenId": "228840-85-1-POST_FA"
+    }
+  ],
+  "newFE": 0,
+  "newQA": 0,
+  "newDecoderCalls": 0,
+  "newCandidates": 0,
+  "provenance": "Q is a paid POST_FA counterfactual candidate, not an event of the original natural 500k trajectory.",
+  "selection": "first free parent/second same-role free parent; first eligible POST_FA step; no HV ranking",
+  "noveltyLimit": "feasible input states only, no continuation or algorithm benefit established",
+  "inputs": {
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/prepared/entries.json": "5f5da5281f51e7befd1572c9f205be815d25af664573d6c2d9e93293a0b84519",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-fa-stat-query-20261107-01/prepared/queries.jsonl": "284b810886bda15c7f8a4864f166f425b159f303a968e21bf08a12fe298a52b2",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-fa-stat-query-20261107-01/analysis/single-candidates.csv": "8d40fcda38a2a150035359364dc2ae10270d459309b72f187d29eccacba9b04b"
+  }
+}

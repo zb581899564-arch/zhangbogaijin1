@@ -1,0 +1,58 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 12390003,
+  "FELimit": 100000,
+  "plannedSuccessfulFE": 800000,
+  "sampling": "Same2developmentinstances, FULL/NSGA, actual100kFE originalnaturalrecord stopping. ON/OFF pairs, oneJVM atatime.",
+  "question": "Beyond the already-reused parent factory/prefix, how many recomputed operations belong to factory sequences paid earlier in this run?",
+  "observer": "FrozenDynamicEvaluation unchanged except postdecode callback. Key=ordered(job,firststageMA,WA,factory) chain, fullint equality, fixedcontext. 8192entryLRU history, no capacity scan. Every originaldecode executes; only read-only counts/digests stored. Potential saved work excludes existingparent reuse; independently reconstruct currentincrementaloperation count. All extra hit factory fulltimeline SHA256 must match previously paid result. Preparedprefix unsupported and aborts; originalconfig preparedCount0.",
+  "engineering": "ON vs originalacceptedentry baseline OFF fullpaidSHA, FEfront/genomes/bornFE, initials, ledger, search anddecoderoperationcounts must equal; exclude nondeterministicNanos andtimecheckpointfronts only. Both actual100k successes/zero failures, fullcheckpointQA separate.",
+  "gate": "Each of4instance/methodcells potentialSavedRecomputedOperations>=30%oforiginalrecomputedOperations. Allnecessary to justify a separate engineering cache implementation. No changinghistorycapacity/FEwindow/seed afterfailure. Pass is not measuredspeedup, searchquality or scientificgoal completion.",
+  "limits": "Prefix100k only, not whole500kregime. SHAverifiedphysicalidentity, not savedwallclock. Observercost belongs to audit, no performance comparison. Keyintegers/timelineopcounts not actualtotalmemory. Would count everyfuturecandidateFE evenforcachehits; not a candidate rejection or newselector.",
+  "preserved": "No production/defaultsearch, physicalmodel, roles/Q/FA/sharingrule changes. No downloads/transfers."
+}

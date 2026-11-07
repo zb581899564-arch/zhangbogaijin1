@@ -1,0 +1,424 @@
+{
+  "stem": "20_8_5_1",
+  "cells": [
+    {
+      "seed": 11730007,
+      "role": "MAKESPAN",
+      "step": 0,
+      "paidFE": 115,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4145468359207855,
+        "WITHIN_ALL": 0.4145468359207855,
+        "GLOBAL_ALL": 0.4145468359207855
+      },
+      "knownPaidArchiveHV": 0.4145468359207855,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "MAKESPAN",
+      "step": 24,
+      "paidFE": 475,
+      "internalWorkingHV": {
+        "ACTUAL": 0.42757569625074676,
+        "WITHIN_ALL": 0.42759897029103433,
+        "GLOBAL_ALL": 0.4276092168060145
+      },
+      "knownPaidArchiveHV": 0.4306008624513499,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.007784600122931014,
+        "WITHIN_ALL": 0.0023795853361345347
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "MAKESPAN",
+      "step": 49,
+      "paidFE": 850,
+      "internalWorkingHV": {
+        "ACTUAL": 0.43539062794726335,
+        "WITHIN_ALL": 0.4354136096106712,
+        "GLOBAL_ALL": 0.4354136096106712
+      },
+      "knownPaidArchiveHV": 0.4429767297687792,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.005188006923040275,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "CENTER",
+      "step": 0,
+      "paidFE": 905,
+      "internalWorkingHV": {
+        "ACTUAL": 0.43540796422372163,
+        "WITHIN_ALL": 0.43540796422372163,
+        "GLOBAL_ALL": 0.43540796422372163
+      },
+      "knownPaidArchiveHV": 0.4429767297687792,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "CENTER",
+      "step": 24,
+      "paidFE": 2225,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4598897221353353,
+        "WITHIN_ALL": 0.4598897221353353,
+        "GLOBAL_ALL": 0.4598897221353353
+      },
+      "knownPaidArchiveHV": 0.4602261296731855,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "CENTER",
+      "step": 49,
+      "paidFE": 3600,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47187068372942403,
+        "WITHIN_ALL": 0.47187068372942403,
+        "GLOBAL_ALL": 0.47187068372942403
+      },
+      "knownPaidArchiveHV": 0.47189049839549324,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "ENERGY",
+      "step": 0,
+      "paidFE": 3615,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47187068372942403,
+        "WITHIN_ALL": 0.47187068372942403,
+        "GLOBAL_ALL": 0.47187068372942403
+      },
+      "knownPaidArchiveHV": 0.47189049839549324,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "ENERGY",
+      "step": 24,
+      "paidFE": 3975,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47187068372942403,
+        "WITHIN_ALL": 0.47187068372942403,
+        "GLOBAL_ALL": 0.47187068372942403
+      },
+      "knownPaidArchiveHV": 0.47189049839549324,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "ENERGY",
+      "step": 49,
+      "paidFE": 4350,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47187068372942403,
+        "WITHIN_ALL": 0.47187068372942403,
+        "GLOBAL_ALL": 0.47187068372942403
+      },
+      "knownPaidArchiveHV": 0.47189049839549324,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "WORKER_COST",
+      "step": 0,
+      "paidFE": 4365,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47187068372942403,
+        "WITHIN_ALL": 0.47187068372942403,
+        "GLOBAL_ALL": 0.47187068372942403
+      },
+      "knownPaidArchiveHV": 0.47189049839549324,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "WORKER_COST",
+      "step": 24,
+      "paidFE": 4725,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47187068372942403,
+        "WITHIN_ALL": 0.47187068372942403,
+        "GLOBAL_ALL": 0.47187068372942403
+      },
+      "knownPaidArchiveHV": 0.47189049839549324,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730007,
+      "role": "WORKER_COST",
+      "step": 49,
+      "paidFE": 5100,
+      "internalWorkingHV": {
+        "ACTUAL": 0.47425308218281326,
+        "WITHIN_ALL": 0.47425308218281326,
+        "GLOBAL_ALL": 0.47425308218281326
+      },
+      "knownPaidArchiveHV": 0.4743097289562021,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "MAKESPAN",
+      "step": 0,
+      "paidFE": 115,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4272136652866351,
+        "WITHIN_ALL": 0.42721721992948325,
+        "GLOBAL_ALL": 0.42721721992948325
+      },
+      "knownPaidArchiveHV": 0.42721721992948325,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0008320457795946336,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "MAKESPAN",
+      "step": 24,
+      "paidFE": 475,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4231983740047964,
+        "WITHIN_ALL": 0.4233992943193897,
+        "GLOBAL_ALL": 0.4233992943193897
+      },
+      "knownPaidArchiveHV": 0.43820526046971253,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.04585073086023159,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "MAKESPAN",
+      "step": 49,
+      "paidFE": 850,
+      "internalWorkingHV": {
+        "ACTUAL": 0.42800328748681926,
+        "WITHIN_ALL": 0.42832103927385956,
+        "GLOBAL_ALL": 0.42832103927385956
+      },
+      "knownPaidArchiveHV": 0.4421309149187197,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.07186825809245069,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "CENTER",
+      "step": 0,
+      "paidFE": 905,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4281825804546567,
+        "WITHIN_ALL": 0.4281825804546567,
+        "GLOBAL_ALL": 0.4281825804546567
+      },
+      "knownPaidArchiveHV": 0.44213216355291907,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "CENTER",
+      "step": 24,
+      "paidFE": 2225,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4738761082723892,
+        "WITHIN_ALL": 0.4738761082723892,
+        "GLOBAL_ALL": 0.47389811244385927
+      },
+      "knownPaidArchiveHV": 0.47402664269473066,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.004641969351130076,
+        "WITHIN_ALL": 0.004641969351130076
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "CENTER",
+      "step": 49,
+      "paidFE": 3600,
+      "internalWorkingHV": {
+        "ACTUAL": 0.48811787423552083,
+        "WITHIN_ALL": 0.48811787423552083,
+        "GLOBAL_ALL": 0.4881611424219736
+      },
+      "knownPaidArchiveHV": 0.4882074118721661,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.008862664802006804,
+        "WITHIN_ALL": 0.008862664802006804
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "ENERGY",
+      "step": 0,
+      "paidFE": 3615,
+      "internalWorkingHV": {
+        "ACTUAL": 0.48811787423552083,
+        "WITHIN_ALL": 0.48811787423552083,
+        "GLOBAL_ALL": 0.48811787423552083
+      },
+      "knownPaidArchiveHV": 0.4882074118721661,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "ENERGY",
+      "step": 24,
+      "paidFE": 3975,
+      "internalWorkingHV": {
+        "ACTUAL": 0.48811787423552083,
+        "WITHIN_ALL": 0.48811787423552083,
+        "GLOBAL_ALL": 0.48811787423552083
+      },
+      "knownPaidArchiveHV": 0.4882074118721661,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "ENERGY",
+      "step": 49,
+      "paidFE": 4350,
+      "internalWorkingHV": {
+        "ACTUAL": 0.48811787423552083,
+        "WITHIN_ALL": 0.48811787423552083,
+        "GLOBAL_ALL": 0.48811787423552083
+      },
+      "knownPaidArchiveHV": 0.4882074118721661,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "WORKER_COST",
+      "step": 0,
+      "paidFE": 4365,
+      "internalWorkingHV": {
+        "ACTUAL": 0.48811787423552083,
+        "WITHIN_ALL": 0.48811787423552083,
+        "GLOBAL_ALL": 0.48811787423552083
+      },
+      "knownPaidArchiveHV": 0.4882074118721661,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "WORKER_COST",
+      "step": 24,
+      "paidFE": 4725,
+      "internalWorkingHV": {
+        "ACTUAL": 0.4881652871402824,
+        "WITHIN_ALL": 0.4881652871402824,
+        "GLOBAL_ALL": 0.4881652871402824
+      },
+      "knownPaidArchiveHV": 0.48825482477692767,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    },
+    {
+      "seed": 11730037,
+      "role": "WORKER_COST",
+      "step": 49,
+      "paidFE": 5100,
+      "internalWorkingHV": {
+        "ACTUAL": 0.49067164669666735,
+        "WITHIN_ALL": 0.49067164669666735,
+        "GLOBAL_ALL": 0.49067164669666735
+      },
+      "knownPaidArchiveHV": 0.4908918183675364,
+      "deltaPctOfPaidArchiveHV": {
+        "ACTUAL": 0.0,
+        "WITHIN_ALL": 0.0
+      },
+      "materialVsBoth": false
+    }
+  ],
+  "materialWindows": 0,
+  "totalWindows": 24,
+  "materialRoles": [],
+  "materialSeeds": [],
+  "meanDeltaPctOfPaidArchiveHV": {
+    "ACTUAL": 0.006042844830474378,
+    "WITHIN_ALL": 0.0006618424787196422
+  },
+  "offlinePaidGenomeFullQA": 1179,
+  "worthIndependentSharedWorkingProbe": false,
+  "scope": "Within-generation static internal retention on identical paid candidates and unchanged family quotas. The external paid archive already contains these points; no new external HV was discovered. Does not prove continuation value, role specificity, fatigue specificity, novelty, or time advantage."
+}

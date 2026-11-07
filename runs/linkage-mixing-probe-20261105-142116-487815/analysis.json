@@ -1,0 +1,276 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "summaries": {
+        "1.25": {
+          "meanProgramHVgain": {
+            "FA_LINKAGE": 0.00042203600103722,
+            "RELABEL_TREE": 0.00023677309904759003,
+            "SINGLE_JOB": 0.00035905228470120305,
+            "CLASSIC_KERNEL": 9.73362185306254e-05
+          },
+          "pairedWinsVsRelabel": 30,
+          "pairedLossesVsRelabel": 17,
+          "pairedTiesVsRelabel": 17,
+          "positiveReceivers": 44,
+          "meanBySourceSeedAndMethod": {
+            "11730007:FA_LINKAGE": 0.0005333794084721993,
+            "11730007:RELABEL_TREE": 0.00038634822577787546,
+            "11730007:SINGLE_JOB": 0.00044517576496267905,
+            "11730007:CLASSIC_KERNEL": 0.0001311548492053281,
+            "11730037:FA_LINKAGE": 0.0003106925936022407,
+            "11730037:RELABEL_TREE": 8.719797231730459e-05,
+            "11730037:SINGLE_JOB": 0.00027292880443972704,
+            "11730037:CLASSIC_KERNEL": 6.351758785592271e-05
+          },
+          "meanByRoleAndMethod": {
+            "MAKESPAN:FA_LINKAGE": 1.7137235730040057e-05,
+            "MAKESPAN:RELABEL_TREE": 1.6856362624811244e-05,
+            "MAKESPAN:SINGLE_JOB": 1.3190923035463764e-07,
+            "MAKESPAN:CLASSIC_KERNEL": 7.349539228188734e-05,
+            "CENTER:FA_LINKAGE": 0.0005432566944783401,
+            "CENTER:RELABEL_TREE": 9.2046415710232e-05,
+            "CENTER:SINGLE_JOB": 0.0004685078536573323,
+            "CENTER:CLASSIC_KERNEL": 8.11198293221918e-05,
+            "ENERGY:FA_LINKAGE": 0.0004932040629939544,
+            "ENERGY:RELABEL_TREE": 0.00032983227774158533,
+            "ENERGY:SINGLE_JOB": 0.0004991597873884018,
+            "ENERGY:CLASSIC_KERNEL": 0.00013658295024904753,
+            "WORKER_COST:FA_LINKAGE": 0.0006345460109465455,
+            "WORKER_COST:RELABEL_TREE": 0.0005083573401137315,
+            "WORKER_COST:SINGLE_JOB": 0.0004684095885287235,
+            "WORKER_COST:CLASSIC_KERNEL": 9.814670226937494e-05
+          }
+        },
+        "1.5": {
+          "meanProgramHVgain": {
+            "FA_LINKAGE": 0.0009723776523213471,
+            "RELABEL_TREE": 0.0005458325625063579,
+            "SINGLE_JOB": 0.0008154083958421248,
+            "CLASSIC_KERNEL": 0.00023854604581900665
+          },
+          "pairedWinsVsRelabel": 30,
+          "pairedLossesVsRelabel": 17,
+          "pairedTiesVsRelabel": 17,
+          "positiveReceivers": 44,
+          "meanBySourceSeedAndMethod": {
+            "11730007:FA_LINKAGE": 0.0012320275181281152,
+            "11730007:RELABEL_TREE": 0.0008881474345309795,
+            "11730007:SINGLE_JOB": 0.001017528156355231,
+            "11730007:CLASSIC_KERNEL": 0.00032569415002007586,
+            "11730037:FA_LINKAGE": 0.000712727786514579,
+            "11730037:RELABEL_TREE": 0.0002035176904817363,
+            "11730037:SINGLE_JOB": 0.0006132886353290186,
+            "11730037:CLASSIC_KERNEL": 0.00015139794161793743
+          },
+          "meanByRoleAndMethod": {
+            "MAKESPAN:FA_LINKAGE": 4.979250962469997e-05,
+            "MAKESPAN:RELABEL_TREE": 4.9280162742419004e-05,
+            "MAKESPAN:SINGLE_JOB": 2.260648255571207e-07,
+            "MAKESPAN:CLASSIC_KERNEL": 0.00021257400375334495,
+            "CENTER:FA_LINKAGE": 0.0011460950381364278,
+            "CENTER:RELABEL_TREE": 0.00012858476876924027,
+            "CENTER:SINGLE_JOB": 0.0009393505407484619,
+            "CENTER:CLASSIC_KERNEL": 0.00018991197467186152,
+            "ENERGY:FA_LINKAGE": 0.0011703634985227203,
+            "ENERGY:RELABEL_TREE": 0.0007829201094429541,
+            "ENERGY:SINGLE_JOB": 0.001188675223070583,
+            "ENERGY:CLASSIC_KERNEL": 0.00032892726816203394,
+            "WORKER_COST:FA_LINKAGE": 0.0015232595630015403,
+            "WORKER_COST:RELABEL_TREE": 0.0012225452090708182,
+            "WORKER_COST:SINGLE_JOB": 0.0011333817547238972,
+            "WORKER_COST:CLASSIC_KERNEL": 0.00022277093668878617
+          }
+        },
+        "2.0": {
+          "meanProgramHVgain": {
+            "FA_LINKAGE": 0.0026795414971824694,
+            "RELABEL_TREE": 0.0015131521578303844,
+            "SINGLE_JOB": 0.00222144652025575,
+            "CLASSIC_KERNEL": 0.0006897882257563756
+          },
+          "pairedWinsVsRelabel": 27,
+          "pairedLossesVsRelabel": 20,
+          "pairedTiesVsRelabel": 17,
+          "positiveReceivers": 44,
+          "meanBySourceSeedAndMethod": {
+            "11730007:FA_LINKAGE": 0.0033955206263308058,
+            "11730007:RELABEL_TREE": 0.0024517214423098177,
+            "11730007:SINGLE_JOB": 0.002783042709254946,
+            "11730007:CLASSIC_KERNEL": 0.0009548365514731316,
+            "11730037:FA_LINKAGE": 0.001963562368034133,
+            "11730037:RELABEL_TREE": 0.0005745828733509512,
+            "11730037:SINGLE_JOB": 0.0016598503312565543,
+            "11730037:CLASSIC_KERNEL": 0.0004247399000396196
+          },
+          "meanByRoleAndMethod": {
+            "MAKESPAN:FA_LINKAGE": 0.00016490836601065761,
+            "MAKESPAN:RELABEL_TREE": 0.0001639330715744458,
+            "MAKESPAN:SINGLE_JOB": 4.1437601611127306e-07,
+            "MAKESPAN:CLASSIC_KERNEL": 0.0007023757004821218,
+            "CENTER:FA_LINKAGE": 0.0029381960402131424,
+            "CENTER:RELABEL_TREE": 0.00020166147488734354,
+            "CENTER:SINGLE_JOB": 0.002309122525991275,
+            "CENTER:CLASSIC_KERNEL": 0.0005233338310466629,
+            "ENERGY:FA_LINKAGE": 0.0032459863172560055,
+            "ENERGY:RELABEL_TREE": 0.0021706988266582405,
+            "ENERGY:SINGLE_JOB": 0.003304819846007917,
+            "ENERGY:CLASSIC_KERNEL": 0.0009207307573938783,
+            "WORKER_COST:FA_LINKAGE": 0.004369075265250072,
+            "WORKER_COST:RELABEL_TREE": 0.003516315258201508,
+            "WORKER_COST:SINGLE_JOB": 0.003271429333007697,
+            "WORKER_COST:CLASSIC_KERNEL": 0.0006127126141028394
+          }
+        }
+      },
+      "gates": {
+        "meanIndependentBenefit": true,
+        "receiverCoverage": true,
+        "pairedBenefit": true,
+        "bothSourceSeeds": true,
+        "referenceRobustness": true
+      },
+      "pass": true,
+      "scope": "Paid whole-program offspring supply under fixed source/ref, not complete optimizer or same-time result."
+    },
+    {
+      "stem": "100_2_3_1",
+      "summaries": {
+        "1.25": {
+          "meanProgramHVgain": {
+            "FA_LINKAGE": 0.0019218581921347229,
+            "RELABEL_TREE": 0.0018157981249632268,
+            "SINGLE_JOB": 0.0017643270861489482,
+            "CLASSIC_KERNEL": 0.0017498812808482865
+          },
+          "pairedWinsVsRelabel": 34,
+          "pairedLossesVsRelabel": 30,
+          "pairedTiesVsRelabel": 0,
+          "positiveReceivers": 63,
+          "meanBySourceSeedAndMethod": {
+            "11730007:FA_LINKAGE": 0.0020072527043760507,
+            "11730007:RELABEL_TREE": 0.0018272739007669124,
+            "11730007:SINGLE_JOB": 0.0020163653533856202,
+            "11730007:CLASSIC_KERNEL": 0.0018277906238251852,
+            "11730037:FA_LINKAGE": 0.001836463679893395,
+            "11730037:RELABEL_TREE": 0.0018043223491595413,
+            "11730037:SINGLE_JOB": 0.0015122888189122762,
+            "11730037:CLASSIC_KERNEL": 0.0016719719378713877
+          },
+          "meanByRoleAndMethod": {
+            "MAKESPAN:FA_LINKAGE": 0.00018116364902445552,
+            "MAKESPAN:RELABEL_TREE": 0.00014437432056179852,
+            "MAKESPAN:SINGLE_JOB": 6.338917408616265e-05,
+            "MAKESPAN:CLASSIC_KERNEL": 0.0017943705500242518,
+            "CENTER:FA_LINKAGE": 0.002667177717508202,
+            "CENTER:RELABEL_TREE": 0.0024040483130472416,
+            "CENTER:SINGLE_JOB": 0.002876704405645405,
+            "CENTER:CLASSIC_KERNEL": 0.0003240701530674295,
+            "ENERGY:FA_LINKAGE": 0.0022786135219183355,
+            "ENERGY:RELABEL_TREE": 0.0021396377958952627,
+            "ENERGY:SINGLE_JOB": 0.0018906998424949497,
+            "ENERGY:CLASSIC_KERNEL": 0.00282932931145256,
+            "WORKER_COST:FA_LINKAGE": 0.0025604778800878986,
+            "WORKER_COST:RELABEL_TREE": 0.0025751320703486045,
+            "WORKER_COST:SINGLE_JOB": 0.0022265149223692753,
+            "WORKER_COST:CLASSIC_KERNEL": 0.0020517551088489044
+          }
+        },
+        "1.5": {
+          "meanProgramHVgain": {
+            "FA_LINKAGE": 0.004021137693311493,
+            "RELABEL_TREE": 0.003779954987143683,
+            "SINGLE_JOB": 0.0035997767380053607,
+            "CLASSIC_KERNEL": 0.00424459492716282
+          },
+          "pairedWinsVsRelabel": 34,
+          "pairedLossesVsRelabel": 30,
+          "pairedTiesVsRelabel": 0,
+          "positiveReceivers": 63,
+          "meanBySourceSeedAndMethod": {
+            "11730007:FA_LINKAGE": 0.00423610467860782,
+            "11730007:RELABEL_TREE": 0.003926364962976107,
+            "11730007:SINGLE_JOB": 0.0042049747842104294,
+            "11730007:CLASSIC_KERNEL": 0.004431352677095015,
+            "11730037:FA_LINKAGE": 0.003806170708015165,
+            "11730037:RELABEL_TREE": 0.0036335450113112594,
+            "11730037:SINGLE_JOB": 0.002994578691800292,
+            "11730037:CLASSIC_KERNEL": 0.004057837177230624
+          },
+          "meanByRoleAndMethod": {
+            "MAKESPAN:FA_LINKAGE": 0.0005110609289956727,
+            "MAKESPAN:RELABEL_TREE": 0.00039444769673421115,
+            "MAKESPAN:SINGLE_JOB": 0.00018438990952749507,
+            "MAKESPAN:CLASSIC_KERNEL": 0.005292760708270679,
+            "CENTER:FA_LINKAGE": 0.004496627066463303,
+            "CENTER:RELABEL_TREE": 0.003926162941267075,
+            "CENTER:SINGLE_JOB": 0.00478332747862413,
+            "CENTER:CLASSIC_KERNEL": 0.0005907744558253519,
+            "ENERGY:FA_LINKAGE": 0.0056442498926585274,
+            "ENERGY:RELABEL_TREE": 0.005341698771376857,
+            "ENERGY:SINGLE_JOB": 0.004670718417517893,
+            "ENERGY:CLASSIC_KERNEL": 0.0069446730409141386,
+            "WORKER_COST:FA_LINKAGE": 0.005432612885128467,
+            "WORKER_COST:RELABEL_TREE": 0.005457510539196589,
+            "WORKER_COST:SINGLE_JOB": 0.004760671146351925,
+            "WORKER_COST:CLASSIC_KERNEL": 0.004150171503641109
+          }
+        },
+        "2.0": {
+          "meanProgramHVgain": {
+            "FA_LINKAGE": 0.01033958539831814,
+            "RELABEL_TREE": 0.009665065336609102,
+            "SINGLE_JOB": 0.009069298301378481,
+            "CLASSIC_KERNEL": 0.012225022170686078
+          },
+          "pairedWinsVsRelabel": 34,
+          "pairedLossesVsRelabel": 30,
+          "pairedTiesVsRelabel": 0,
+          "positiveReceivers": 63,
+          "meanBySourceSeedAndMethod": {
+            "11730007:FA_LINKAGE": 0.01095650065447068,
+            "11730007:RELABEL_TREE": 0.010288534943434818,
+            "11730007:SINGLE_JOB": 0.010771822079357798,
+            "11730007:CLASSIC_KERNEL": 0.012779645984578036,
+            "11730037:FA_LINKAGE": 0.009722670142165601,
+            "11730037:RELABEL_TREE": 0.009041595729783386,
+            "11730037:SINGLE_JOB": 0.007366774523399164,
+            "11730037:CLASSIC_KERNEL": 0.01167039835679412
+          },
+          "meanByRoleAndMethod": {
+            "MAKESPAN:FA_LINKAGE": 0.0016444879852574312,
+            "MAKESPAN:RELABEL_TREE": 0.0012453201576308748,
+            "MAKESPAN:SINGLE_JOB": 0.0006059414748007808,
+            "MAKESPAN:CLASSIC_KERNEL": 0.017419569125483675,
+            "CENTER:FA_LINKAGE": 0.009395446577329325,
+            "CENTER:RELABEL_TREE": 0.00783139457891352,
+            "CENTER:SINGLE_JOB": 0.009801051370665032,
+            "CENTER:CLASSIC_KERNEL": 0.001365895377794385,
+            "ENERGY:FA_LINKAGE": 0.016071816216979534,
+            "ENERGY:RELABEL_TREE": 0.015284271904708352,
+            "ENERGY:SINGLE_JOB": 0.013301001906194682,
+            "ENERGY:CLASSIC_KERNEL": 0.019677805969589124,
+            "WORKER_COST:FA_LINKAGE": 0.014246590813706272,
+            "WORKER_COST:RELABEL_TREE": 0.014299274705183662,
+            "WORKER_COST:SINGLE_JOB": 0.01256919845385343,
+            "WORKER_COST:CLASSIC_KERNEL": 0.01043681820987713
+          }
+        }
+      },
+      "gates": {
+        "meanIndependentBenefit": false,
+        "receiverCoverage": true,
+        "pairedBenefit": true,
+        "bothSourceSeeds": true,
+        "referenceRobustness": false
+      },
+      "pass": false,
+      "scope": "Paid whole-program offspring supply under fixed source/ref, not complete optimizer or same-time result."
+    }
+  ],
+  "worthEvolvingPopulationProtocol": false,
+  "decision": "STOP_FIXED_FA_MI_RANK_DONATION_PROGRAM",
+  "newFullAlgorithmImplemented": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,1409 @@
+{
+  "stem": "100_2_3_1",
+  "cases": [
+    {
+      "case": "s11270003-p0",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0011133,
+          "scorePlusSelectedEvaluationSeconds": 0.0014361,
+          "raySpearman": -0.7999999999999999
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0011133,
+          "scorePlusSelectedEvaluationSeconds": 0.0014361,
+          "raySpearman": -0.7999999999999999
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0011133,
+          "scorePlusSelectedEvaluationSeconds": 0.0019987,
+          "raySpearman": 0.19999999999999998
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.015999999945051968,
+          "scorePlusSelectedEvaluationSeconds": 0.01632279994505197,
+          "raySpearman": -0.39999999999999997
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0470000000204891,
+          "scorePlusSelectedEvaluationSeconds": 0.047322800020489095,
+          "raySpearman": -0.39999999999999997
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.10900000005494803,
+          "scorePlusSelectedEvaluationSeconds": 0.10932280005494803,
+          "raySpearman": -0.39999999999999997
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.0004532,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0018128,
+      "constructionSeconds": 0.0045837
+    },
+    {
+      "case": "s11270003-p1",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003991,
+          "scorePlusSelectedEvaluationSeconds": 0.0006746,
+          "raySpearman": 0.7999999999999999
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003991,
+          "scorePlusSelectedEvaluationSeconds": 0.0006746,
+          "raySpearman": 0.7999999999999999
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003991,
+          "scorePlusSelectedEvaluationSeconds": 0.0006746,
+          "raySpearman": 0.39999999999999997
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.045999999972991645,
+          "scorePlusSelectedEvaluationSeconds": 0.04627549997299164,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.047999999951571226,
+          "scorePlusSelectedEvaluationSeconds": 0.04824689995157123,
+          "raySpearman": 0.7745966692414834
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.09499999997206032,
+          "scorePlusSelectedEvaluationSeconds": 0.09524689997206032,
+          "raySpearman": 0.7745966692414834
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00024937500000000003,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0009975000000000001,
+      "constructionSeconds": 0.0009219
+    },
+    {
+      "case": "s11270003-p2",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004824,
+          "scorePlusSelectedEvaluationSeconds": 0.0006819,
+          "raySpearman": 0.632455532033676
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004824,
+          "scorePlusSelectedEvaluationSeconds": 0.0006819,
+          "raySpearman": 0.9486832980505139
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004824,
+          "scorePlusSelectedEvaluationSeconds": 0.0020244,
+          "raySpearman": -0.632455532033676
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.015999999945051968,
+          "scorePlusSelectedEvaluationSeconds": 0.01754199994505197,
+          "raySpearman": -0.632455532033676
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.061000000103376806,
+          "scorePlusSelectedEvaluationSeconds": 0.061199500103376804,
+          "raySpearman": 0.632455532033676
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.14000000001396984,
+          "scorePlusSelectedEvaluationSeconds": 0.14019950001396983,
+          "raySpearman": 0.632455532033676
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00097135,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0038854,
+      "constructionSeconds": 0.000872
+    },
+    {
+      "case": "s11270003-p3",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004076,
+          "scorePlusSelectedEvaluationSeconds": 0.0006213,
+          "raySpearman": -0.19999999999999998
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004076,
+          "scorePlusSelectedEvaluationSeconds": 0.0006213,
+          "raySpearman": 0.7999999999999999
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004076,
+          "scorePlusSelectedEvaluationSeconds": 0.0006604499999999999,
+          "raySpearman": 0.9486832980505139
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.0002137,
+          "raySpearman": -0.19999999999999998
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.062000000034458935,
+          "scorePlusSelectedEvaluationSeconds": 0.06221370003445893,
+          "raySpearman": 0.7999999999999999
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.125,
+          "scorePlusSelectedEvaluationSeconds": 0.1252137,
+          "raySpearman": 0.7999999999999999
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00025035,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0010014,
+      "constructionSeconds": 0.0008318
+    },
+    {
+      "case": "s11270003-p4",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004014,
+          "scorePlusSelectedEvaluationSeconds": 0.0005798,
+          "raySpearman": 0.632455532033676
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004014,
+          "scorePlusSelectedEvaluationSeconds": 0.0005798,
+          "raySpearman": 0.10540925533894598
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004014,
+          "scorePlusSelectedEvaluationSeconds": 0.0005798,
+          "raySpearman": -0.10540925533894598
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.031999999890103936,
+          "scorePlusSelectedEvaluationSeconds": 0.03217839989010394,
+          "raySpearman": -0.10540925533894598
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.062000000034458935,
+          "scorePlusSelectedEvaluationSeconds": 0.06217840003445894,
+          "raySpearman": -0.10540925533894598
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.1080000001238659,
+          "scorePlusSelectedEvaluationSeconds": 0.1081784001238659,
+          "raySpearman": -0.10540925533894598
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.000181175,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0007247,
+      "constructionSeconds": 0.00084
+    },
+    {
+      "case": "s11270003-p5",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004583,
+          "scorePlusSelectedEvaluationSeconds": 0.0006221,
+          "raySpearman": 0.0
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004583,
+          "scorePlusSelectedEvaluationSeconds": 0.0006221,
+          "raySpearman": 0.0
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004583,
+          "scorePlusSelectedEvaluationSeconds": 0.0006221,
+          "raySpearman": 0.0
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.015999999945051968,
+          "scorePlusSelectedEvaluationSeconds": 0.016171999945051967,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.07800000021234155,
+          "scorePlusSelectedEvaluationSeconds": 0.07817200021234155,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.15600000007543713,
+          "scorePlusSelectedEvaluationSeconds": 0.15617200007543713,
+          "raySpearman": 0.39999999999999997
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.0001697,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0006788,
+      "constructionSeconds": 0.0007444
+    },
+    {
+      "case": "s11270003-p6",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003601,
+          "scorePlusSelectedEvaluationSeconds": 0.0005485,
+          "raySpearman": 0.632455532033676
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003601,
+          "scorePlusSelectedEvaluationSeconds": 0.0005948,
+          "raySpearman": 0.9486832980505139
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003601,
+          "scorePlusSelectedEvaluationSeconds": 0.0005948,
+          "raySpearman": 0.10540925533894598
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.01600000006146729,
+          "scorePlusSelectedEvaluationSeconds": 0.01621130006146729,
+          "raySpearman": 0.316227766016838
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.045999999972991645,
+          "scorePlusSelectedEvaluationSeconds": 0.04621129997299164,
+          "raySpearman": 0.316227766016838
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.10899999993853271,
+          "scorePlusSelectedEvaluationSeconds": 0.10921129993853271,
+          "raySpearman": 0.316227766016838
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00020197500000000002,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0008079000000000001,
+      "constructionSeconds": 0.0008745
+    },
+    {
+      "case": "s11270003-p7",
+      "seed": 11270003,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0001932,
+          "scorePlusSelectedEvaluationSeconds": 0.0003375,
+          "raySpearman": 0.39999999999999997
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0001932,
+          "scorePlusSelectedEvaluationSeconds": 0.0003375,
+          "raySpearman": 0.39999999999999997
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0001932,
+          "scorePlusSelectedEvaluationSeconds": 0.0003375,
+          "raySpearman": 0.39999999999999997
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.03100000007543713,
+          "scorePlusSelectedEvaluationSeconds": 0.03114430007543713,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.062000000034458935,
+          "scorePlusSelectedEvaluationSeconds": 0.062144300034458935,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.09399999992456287,
+          "scorePlusSelectedEvaluationSeconds": 0.09414429992456287,
+          "raySpearman": 0.39999999999999997
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.000141475,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0005659,
+      "constructionSeconds": 0.0005911
+    },
+    {
+      "case": "s11270033-p0",
+      "seed": 11270033,
+      "candidateCount": 4,
+      "informative": true,
+      "bestAddedHV": 5.899553840993388e-05,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 5.899553840993388e-05,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": 0.0,
+          "scoreSeconds": 0.0009003,
+          "scorePlusSelectedEvaluationSeconds": 0.0052848,
+          "raySpearman": -0.316227766016838
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 5.899553840993388e-05,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": 0.0,
+          "scoreSeconds": 0.0009003,
+          "scorePlusSelectedEvaluationSeconds": 0.0052848,
+          "raySpearman": -0.316227766016838
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 2.949776920496694e-05,
+          "selectedIndices": [
+            0,
+            1
+          ],
+          "regretFraction": 0.5,
+          "scoreSeconds": 0.0009003,
+          "scorePlusSelectedEvaluationSeconds": 0.0036614000000000004,
+          "raySpearman": -0.05555555555555556
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 5.899553840993388e-05,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": 0.0,
+          "scoreSeconds": 0.031999999890103936,
+          "scorePlusSelectedEvaluationSeconds": 0.036384499890103936,
+          "raySpearman": -0.316227766016838
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 5.899553840993388e-05,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": 0.0,
+          "scoreSeconds": 0.04600000008940697,
+          "scorePlusSelectedEvaluationSeconds": 0.05038450008940697,
+          "raySpearman": -0.316227766016838
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 5.899553840993388e-05,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": 0.0,
+          "scoreSeconds": 0.09300000010989606,
+          "scorePlusSelectedEvaluationSeconds": 0.09738450010989606,
+          "raySpearman": -0.316227766016838
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 1.9920534110623445e-05,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": 0.6623382945977292,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.002076725,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0083069,
+      "constructionSeconds": 0.0058261
+    },
+    {
+      "case": "s11270033-p1",
+      "seed": 11270033,
+      "candidateCount": 5,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0005763,
+          "scorePlusSelectedEvaluationSeconds": 0.0023005,
+          "raySpearman": 0.41039134083406165
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0005763,
+          "scorePlusSelectedEvaluationSeconds": 0.0052482,
+          "raySpearman": 0.15389675281277312
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0005763,
+          "scorePlusSelectedEvaluationSeconds": 0.0052482,
+          "raySpearman": -0.2894736842105264
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.045999999972991645,
+          "scorePlusSelectedEvaluationSeconds": 0.04772419997299165,
+          "raySpearman": -0.026315789473684213
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.06299999996554106,
+          "scorePlusSelectedEvaluationSeconds": 0.06472419996554106,
+          "raySpearman": 0.5526315789473686
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.14099999994505197,
+          "scorePlusSelectedEvaluationSeconds": 0.14272419994505198,
+          "raySpearman": 0.5526315789473686
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00142378,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.007118899999999999,
+      "constructionSeconds": 0.0011243
+    },
+    {
+      "case": "s11270033-p2",
+      "seed": 11270033,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004436,
+          "scorePlusSelectedEvaluationSeconds": 0.0016711,
+          "raySpearman": 0.7999999999999999
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004436,
+          "scorePlusSelectedEvaluationSeconds": 0.0016711,
+          "raySpearman": 1.0
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004436,
+          "scorePlusSelectedEvaluationSeconds": 0.0016711,
+          "raySpearman": 0.39999999999999997
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.04600000008940697,
+          "scorePlusSelectedEvaluationSeconds": 0.04722750008940697,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.046999999904073775,
+          "scorePlusSelectedEvaluationSeconds": 0.048227499904073774,
+          "raySpearman": 0.39999999999999997
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.07899999991059303,
+          "scorePlusSelectedEvaluationSeconds": 0.08022749991059304,
+          "raySpearman": 0.39999999999999997
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.0010676750000000001,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0042707000000000005,
+      "constructionSeconds": 0.0011212
+    },
+    {
+      "case": "s11270033-p3",
+      "seed": 11270033,
+      "candidateCount": 5,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0005051,
+          "scorePlusSelectedEvaluationSeconds": 0.0016530999999999998,
+          "raySpearman": -0.19999999999999998
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0005051,
+          "scorePlusSelectedEvaluationSeconds": 0.0016530999999999998,
+          "raySpearman": -0.09999999999999999
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1,
+            2,
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0005051,
+          "scorePlusSelectedEvaluationSeconds": 0.0016143999999999998,
+          "raySpearman": -0.22360679774997896
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.015999999945051968,
+          "scorePlusSelectedEvaluationSeconds": 0.017147999945051968,
+          "raySpearman": 0.3
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2,
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.07900000002700835,
+          "scorePlusSelectedEvaluationSeconds": 0.08006105002700835,
+          "raySpearman": 0.6668859288553503
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2,
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.1410000000614673,
+          "scorePlusSelectedEvaluationSeconds": 0.1420610500614673,
+          "raySpearman": 0.6668859288553503
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00075532,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0037765999999999997,
+      "constructionSeconds": 0.0011841
+    },
+    {
+      "case": "s11270033-p4",
+      "seed": 11270033,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004928,
+          "scorePlusSelectedEvaluationSeconds": 0.0006975,
+          "raySpearman": 0.7745966692414834
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004928,
+          "scorePlusSelectedEvaluationSeconds": 0.0006975,
+          "raySpearman": 0.7745966692414834
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0004928,
+          "scorePlusSelectedEvaluationSeconds": 0.0006975,
+          "raySpearman": 0.7745966692414834
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.030999999959021807,
+          "scorePlusSelectedEvaluationSeconds": 0.031204699959021805,
+          "raySpearman": 0.7745966692414834
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.06299999996554106,
+          "scorePlusSelectedEvaluationSeconds": 0.06320469996554107,
+          "raySpearman": 0.7745966692414834
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.10900000005494803,
+          "scorePlusSelectedEvaluationSeconds": 0.10920470005494803,
+          "raySpearman": 0.7745966692414834
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00036525,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.001461,
+      "constructionSeconds": 0.000898
+    },
+    {
+      "case": "s11270033-p5",
+      "seed": 11270033,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003989,
+          "scorePlusSelectedEvaluationSeconds": 0.0006405,
+          "raySpearman": 0.2581988897471611
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003989,
+          "scorePlusSelectedEvaluationSeconds": 0.0005756,
+          "raySpearman": -0.7745966692414834
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003989,
+          "scorePlusSelectedEvaluationSeconds": 0.0005756,
+          "raySpearman": -1.0
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.03200000012293458,
+          "scorePlusSelectedEvaluationSeconds": 0.03254170012293458,
+          "raySpearman": -0.3333333333333333
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.031999999890103936,
+          "scorePlusSelectedEvaluationSeconds": 0.032541699890103935,
+          "raySpearman": -0.3333333333333333
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.07799999986309558,
+          "scorePlusSelectedEvaluationSeconds": 0.07854169986309559,
+          "raySpearman": -0.3333333333333333
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00046615000000000003,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0018646000000000001,
+      "constructionSeconds": 0.0010896
+    },
+    {
+      "case": "s11270033-p6",
+      "seed": 11270033,
+      "candidateCount": 5,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003871,
+          "scorePlusSelectedEvaluationSeconds": 0.0005493,
+          "raySpearman": 0.6155870112510925
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003871,
+          "scorePlusSelectedEvaluationSeconds": 0.0005493,
+          "raySpearman": 0.41039134083406165
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0003871,
+          "scorePlusSelectedEvaluationSeconds": 0.0005493,
+          "raySpearman": 0.8720815992723809
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.07700000004842877,
+          "scorePlusSelectedEvaluationSeconds": 0.07716220004842878,
+          "raySpearman": 0.8720815992723809
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.03100000007543713,
+          "scorePlusSelectedEvaluationSeconds": 0.03116220007543713,
+          "raySpearman": 0.8720815992723809
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.07900000002700835,
+          "scorePlusSelectedEvaluationSeconds": 0.07916220002700836,
+          "raySpearman": 0.8720815992723809
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00015388,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0007694,
+      "constructionSeconds": 0.0007943
+    },
+    {
+      "case": "s11270033-p7",
+      "seed": 11270033,
+      "candidateCount": 4,
+      "informative": false,
+      "bestAddedHV": 0.0,
+      "methods": {
+        "GREEDY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0002363,
+          "scorePlusSelectedEvaluationSeconds": 0.0010165,
+          "raySpearman": 0.9486832980505139
+        },
+        "TAIL_SUM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            2
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0002363,
+          "scorePlusSelectedEvaluationSeconds": 0.0010165,
+          "raySpearman": 0.21081851067789195
+        },
+        "TAIL_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0002363,
+          "scorePlusSelectedEvaluationSeconds": 0.0010034,
+          "raySpearman": -0.316227766016838
+        },
+        "CHEAP_RAY": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0470000000204891,
+          "scorePlusSelectedEvaluationSeconds": 0.047481150020489096,
+          "raySpearman": null
+        },
+        "LP_TIME": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.015999999945051968,
+          "scorePlusSelectedEvaluationSeconds": 0.016767099945051968,
+          "raySpearman": -0.8164965809277261
+        },
+        "LP_FATIGUE": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            1
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.06199999991804361,
+          "scorePlusSelectedEvaluationSeconds": 0.06276709991804362,
+          "raySpearman": -0.316227766016838
+        },
+        "RANDOM": {
+          "selectedExpectedAddedHV": 0.0,
+          "selectedIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "regretFraction": null,
+          "scoreSeconds": 0.0,
+          "scorePlusSelectedEvaluationSeconds": 0.00048115,
+          "raySpearman": null
+        }
+      },
+      "allCandidateEvaluationSeconds": 0.0019246,
+      "constructionSeconds": 0.0009448
+    }
+  ],
+  "informativeCases": 1,
+  "totalCases": 16,
+  "meanSelectedAddedHV": {
+    "GREEDY": 3.6872211506208674e-06,
+    "TAIL_SUM": 3.6872211506208674e-06,
+    "TAIL_RAY": 1.8436105753104337e-06,
+    "CHEAP_RAY": 3.6872211506208674e-06,
+    "LP_TIME": 3.6872211506208674e-06,
+    "LP_FATIGUE": 3.6872211506208674e-06,
+    "RANDOM": 1.2450333819139653e-06
+  },
+  "effectsPct": {
+    "LP_TIME": {
+      "GREEDY": 0.0,
+      "TAIL_SUM": 0.0,
+      "TAIL_RAY": 100.0,
+      "CHEAP_RAY": 0.0,
+      "RANDOM": 196.15440069185738
+    },
+    "LP_FATIGUE": {
+      "GREEDY": 0.0,
+      "TAIL_SUM": 0.0,
+      "TAIL_RAY": 100.0,
+      "CHEAP_RAY": 0.0,
+      "RANDOM": 196.15440069185738,
+      "LP_TIME": 0.0
+    }
+  },
+  "qualityGate": {
+    "LP_TIME": false,
+    "LP_FATIGUE": false
+  },
+  "medianScoreCostVsFullEnumeration": {
+    "LP_TIME": 33.303379959374446,
+    "LP_FATIGUE": 67.52629471357699
+  },
+  "fatigueIndependentQuality": false,
+  "scope": "Same-pool, counterfactual one-evaluation selection with tie expectations. Not an online method run or closed-loop same-FE/time superiority. LP cost omits IO and is already a favorable lower accounting envelope."
+}

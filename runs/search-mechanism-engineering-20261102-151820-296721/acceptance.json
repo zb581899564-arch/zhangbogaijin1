@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "trajectoryChecks": [
+    {
+      "instance": "20_2_3_1",
+      "variant": "SO",
+      "fixedFE": 20000,
+      "frozenArchiveByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "SHARE",
+      "fixedFE": 20000,
+      "frozenArchiveByteExact": true
+    },
+    {
+      "instance": "20_2_3_1",
+      "variant": "NSGA",
+      "fixedFE": 20000,
+      "frozenArchiveByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SO",
+      "fixedFE": 20000,
+      "frozenArchiveByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "SHARE",
+      "fixedFE": 20000,
+      "frozenArchiveByteExact": true
+    },
+    {
+      "instance": "200_8_5_1",
+      "variant": "NSGA",
+      "fixedFE": 20000,
+      "frozenArchiveByteExact": true
+    },
+    {
+      "variant": "SO_PARENT",
+      "parentPool": 300,
+      "fixedFE": 20000
+    },
+    {
+      "variant": "SHARE_PARENT",
+      "parentPool": 300,
+      "fixedFE": 20000
+    }
+  ],
+  "timeInterruptions": [
+    "SO",
+    "SHARE",
+    "NSGA",
+    "SO_PARENT",
+    "SHARE_PARENT"
+  ],
+  "newPaidSearchModes": "diagnostic only; no quality selection",
+  "kernelContractChecksFE": 0,
+  "allCapturedPDDRReplayed": true
+}

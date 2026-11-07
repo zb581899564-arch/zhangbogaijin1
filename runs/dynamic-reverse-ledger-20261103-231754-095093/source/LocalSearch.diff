@@ -1,0 +1,37 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-deep-roles-20261103-212007-121034\source\LocalSearch.java
++++ LocalSearch.java
+@@ -44,6 +44,7 @@
+         } else {
+             state.count("audit.paperLS.particlesStarted");
+             for (int round = 0; round < config.localProposalCap && ledger.hasRound(); round++) {
++                state.checkLocalSlot();
+                 int factory = SeededRandom.current().nextInt(instance.factories());
+                 factory = state.localFactory(current, direction, factory);
+                 state.count("audit.paperLS.roundsStarted");
+@@ -74,7 +75,7 @@
+             state.count("inter.operator" + operator + ".proposals");
+             state.evaluate(child, "inter", direction);
+             slot.paid++;
+-            if (direction.better(child, current, reference)) {
++            if (ReverseAudit.run().better(direction, child, current, reference)) {
+                 current = child; operator = 0;
+                 state.count("inter.accepted");
+             } else operator++;
+@@ -92,7 +93,7 @@
+         while (operator < IntraNeighborhoods.COUNT && remaining[0] > 0) {
+             PermutationSolution<Integer> shaken = evaluateNeighborhood(incumbent, factory, operator, direction, remaining);
+             PermutationSolution<Integer> improved = descent(shaken, factory, direction, reference, remaining);
+-            if (direction.better(improved, incumbent, reference)) {
++            if (ReverseAudit.run().better(direction, improved, incumbent, reference)) {
+                 incumbent = improved; operator = 0; state.count("intra.accepted");
+             } else operator++;
+         }
+@@ -104,7 +105,7 @@
+         int operator = 0;
+         while (operator < IntraNeighborhoods.COUNT && remaining[0] > 0) {
+             PermutationSolution<Integer> child = evaluateNeighborhood(incumbent, factory, operator, direction, remaining);
+-            if (direction.better(child, incumbent, reference)) { incumbent = child; operator = 0; }
++            if (ReverseAudit.run().better(direction, child, incumbent, reference)) { incumbent = child; operator = 0; }
+             else operator++;
+         }
+         return incumbent;

@@ -1,0 +1,113 @@
+{
+  "accounting": {
+    "gains": [],
+    "groupAccounting": {},
+    "topCases": [],
+    "totalHVPctA0": 0.0,
+    "matchedParentComparisons": [],
+    "finalArchiveReconstructed": true
+  },
+  "entry": [
+    {
+      "slot": 12,
+      "role": "MAKESPAN",
+      "objectives": [
+        740.8130145401019,
+        44466.15013307676,
+        48868.82759945982
+      ],
+      "equalA0Point": false,
+      "strictDominators": 599,
+      "normalizedUniformEscapeDepth": 0.054167023964443076,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 64,
+      "role": "CENTER",
+      "objectives": [
+        817.9420942345128,
+        45531.193535256505,
+        48386.04986994961
+      ],
+      "equalA0Point": false,
+      "strictDominators": 576,
+      "normalizedUniformEscapeDepth": 0.04917117740733538,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 65,
+      "role": "CENTER",
+      "objectives": [
+        796.3369485331486,
+        43832.58588251778,
+        49236.592515216005
+      ],
+      "equalA0Point": false,
+      "strictDominators": 590,
+      "normalizedUniformEscapeDepth": 0.05820884777684738,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 82,
+      "role": "ENERGY",
+      "objectives": [
+        796.3369485331486,
+        43832.58588251778,
+        49236.592515216005
+      ],
+      "equalA0Point": false,
+      "strictDominators": 590,
+      "normalizedUniformEscapeDepth": 0.05820884777684738,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "slot": 97,
+      "role": "WORKER_COST",
+      "objectives": [
+        817.9420942345128,
+        45531.193535256505,
+        48386.04986994961
+      ],
+      "equalA0Point": false,
+      "strictDominators": 576,
+      "normalizedUniformEscapeDepth": 0.04917117740733538,
+      "zeroLocalCostImpossibility": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "local": {
+    "localChanged": 4067,
+    "localParetoImproved": 0,
+    "localParetoImprovedButCoveredA0": 0,
+    "zeroLocalCostCertifiedBlocked": 0
+  }
+}

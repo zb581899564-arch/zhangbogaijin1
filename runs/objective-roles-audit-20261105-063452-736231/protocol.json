@@ -1,0 +1,68 @@
+{
+  "sourceTime": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-true-time-bench-20261105-052344-318911",
+  "sourcePools": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\mating-pool-probe-20261105-062648-478040",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    11610003,
+    11610033,
+    11610063
+  ],
+  "methods": [
+    "FULL_ANCHOR",
+    "NSGA_ANCHOR"
+  ],
+  "checkpoints": "Actual FE100/5100/100000 and true finalT4/5s; missing is reported, no substitution.",
+  "question": "Are energy and wage empirically identical preferences, and how much original3D coverage is removed by C/E or C/W ND filtering?",
+  "projection": "Exact2DND on already-paid3Dfront, equal2Dprojection keeps best omitted coordinate. Score retained original3Dpoints, no model/objective deletion.",
+  "poolComparison": "Current80free working parents at all6frozen pre-batch contexts per instance; exact E/W strict-pair rank disagreement.",
+  "engineering": "Six synthetic fast-vs-brute projection fixtures; real firstsource finalT per method/instance independent brute projection and slowHV at all3references. No decode/newcandidate/search.",
+  "limits": "Descriptive reused fronts and correlated points. Nonzero projection loss or strict inversions disprove exact redundancy on these data; zero loss on sampledfronts cannot prove global objective redundancy. No new selector or performance gate; no novelty or causal role benefit.",
+  "newSearchFE": 0,
+  "additionalDecodes": 0,
+  "preserved": "No source/default mainline/objective/family/shared rule changes; no network transfer."
+}

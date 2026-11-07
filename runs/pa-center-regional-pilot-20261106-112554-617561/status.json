@@ -1,0 +1,11 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "error": "RuntimeError('Command failed (1); see G:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\pa-center-regional-pilot-20261106-112554-617561\\\\compile.log\\nG:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\pa-center-regional-pilot-20261106-112554-617561\\\\source\\\\MoeadReferenceAlgorithm.java:67: 错误: 找不到符号\\n        org.uma.jmetal.util.research.modelglobal.PaInitialBridge initial = new org.uma.jmetal.util.research.modelglobal.PaInitialBridge(instance);\\n                                                ^\\n  符号:   类 PaInitialBridge\\n  位置: 程序包 org.uma.jmetal.util.research.modelglobal\\nG:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\pa-center-regional-pilot-20261106-112554-617561\\\\source\\\\MoeadReferenceAlgorithm.java:67: 错误: 找不到符号\\n        org.uma.jmetal.util.research.modelglobal.PaInitialBridge initial = new org.uma.jmetal.util.research.modelglobal.PaInitialBridge(instance);\\n                                                                                                                       ^\\n  符号:   类 PaInitialBridge\\n  位置: 程序包 org.uma.jmetal.util.research.modelglobal\\nG:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\pa-center-regional-pilot-20261106-112554-617561\\\\source\\\\PlainMoeadRun.java:32: 错误: 找不到符号\\n        Map<String,Object> receipt=GomRecords.row(\"arm\",\"MOEAD_4V\",\"seed\",seed,\"feLimit\",limit,\"attempted\",run.budget().attempted(),\\n                                   ^\\n  符号:   变量 GomRecords\\n  位置: 类 PlainMoeadRun\\n3 个错误\\n')",
+  "runs": 0,
+  "successfulFE": 0,
+  "attemptedFE": 0,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 0,
+  "goalAchieved": false
+}

@@ -1,0 +1,1068 @@
+{
+  "status": "complete",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "exploratoryDiagnosisOnly": true,
+  "contexts": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 14330003,
+      "sources": [
+        {
+          "source": "S",
+          "sourcePrefixFrontSize": 85,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "15",
+              "group": "1",
+              "round": "7",
+              "factory": "3",
+              "paid": "90",
+              "restarts": "0",
+              "consumedAtPrefix": 65,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 47091,
+              "2": 47809
+            },
+            "boundary": {
+              "visit": "26",
+              "group": "2",
+              "round": "19",
+              "factory": "4",
+              "paid": "66",
+              "restarts": "0",
+              "consumedAtPrefix": 66,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 20,
+            "jobsWithNovelTuple": 17,
+            "distinctNovelJobTuples": 52,
+            "totalDistinctDonorJobTuples": 261,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 141,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 141,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 184,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 184,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 166,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 166,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 210,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 210,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "U",
+          "sourcePrefixFrontSize": 135,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "10",
+              "group": "1",
+              "round": "14",
+              "factory": "3",
+              "paid": "188",
+              "restarts": "0",
+              "consumedAtPrefix": 110,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 69841,
+              "2": 25059
+            },
+            "boundary": {
+              "visit": "21",
+              "group": "2",
+              "round": "13",
+              "factory": "2",
+              "paid": "292",
+              "restarts": "0",
+              "consumedAtPrefix": 292,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 20,
+            "jobsWithNovelTuple": 17,
+            "distinctNovelJobTuples": 50,
+            "totalDistinctDonorJobTuples": 171,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 141,
+              "strictlyDominatedBySource": 10,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 131,
+              "strictlyDominatedFraction": 0.07092198581560284,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 184,
+              "strictlyDominatedBySource": 52,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 132,
+              "strictlyDominatedFraction": 0.2826086956521739,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 417,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 417,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 384,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 384,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "N",
+          "sourcePrefixFrontSize": 78,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "15",
+              "group": "1",
+              "round": "11",
+              "factory": "2",
+              "paid": "109",
+              "restarts": "0",
+              "consumedAtPrefix": 105,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 46836,
+              "2": 48064
+            },
+            "boundary": {
+              "visit": "25",
+              "group": "2",
+              "round": "29",
+              "factory": "2",
+              "paid": "62",
+              "restarts": "0",
+              "consumedAtPrefix": 62,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 20,
+            "jobsWithNovelTuple": 19,
+            "distinctNovelJobTuples": 61,
+            "totalDistinctDonorJobTuples": 214,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 141,
+              "strictlyDominatedBySource": 21,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 120,
+              "strictlyDominatedFraction": 0.14893617021276595,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 184,
+              "strictlyDominatedBySource": 22,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 162,
+              "strictlyDominatedFraction": 0.11956521739130435,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 277,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 277,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 326,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 326,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 14330037,
+      "sources": [
+        {
+          "source": "S",
+          "sourcePrefixFrontSize": 99,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "15",
+              "group": "1",
+              "round": "24",
+              "factory": "0",
+              "paid": "90",
+              "restarts": "0",
+              "consumedAtPrefix": 41,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 45424,
+              "2": 49476
+            },
+            "boundary": {
+              "visit": "26",
+              "group": "2",
+              "round": "22",
+              "factory": "0",
+              "paid": "41",
+              "restarts": "0",
+              "consumedAtPrefix": 41,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 20,
+            "jobsWithNovelTuple": 18,
+            "distinctNovelJobTuples": 52,
+            "totalDistinctDonorJobTuples": 247,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 159,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 159,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 123,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 123,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 159,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 159,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 247,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 247,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "U",
+          "sourcePrefixFrontSize": 125,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "10",
+              "group": "1",
+              "round": "27",
+              "factory": "3",
+              "paid": "128",
+              "restarts": "0",
+              "consumedAtPrefix": 44,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 68572,
+              "2": 26328
+            },
+            "boundary": {
+              "visit": "21",
+              "group": "2",
+              "round": "23",
+              "factory": "4",
+              "paid": "11",
+              "restarts": "0",
+              "consumedAtPrefix": 11,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 20,
+            "jobsWithNovelTuple": 15,
+            "distinctNovelJobTuples": 38,
+            "totalDistinctDonorJobTuples": 154,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 159,
+              "strictlyDominatedBySource": 5,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 154,
+              "strictlyDominatedFraction": 0.031446540880503145,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 123,
+              "strictlyDominatedBySource": 15,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 108,
+              "strictlyDominatedFraction": 0.12195121951219512,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 448,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 2,
+              "notWeaklyCoveredBySource": 446,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 506,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 506,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "N",
+          "sourcePrefixFrontSize": 100,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "14",
+              "group": "1",
+              "round": "16",
+              "factory": "4",
+              "paid": "98",
+              "restarts": "0",
+              "consumedAtPrefix": 75,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 49284,
+              "2": 45616
+            },
+            "boundary": {
+              "visit": "25",
+              "group": "2",
+              "round": "28",
+              "factory": "1",
+              "paid": "40",
+              "restarts": "0",
+              "consumedAtPrefix": 40,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 20,
+            "jobsWithNovelTuple": 18,
+            "distinctNovelJobTuples": 59,
+            "totalDistinctDonorJobTuples": 263,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 159,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 159,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 123,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 123,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 164,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 164,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 278,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 278,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 14330003,
+      "sources": [
+        {
+          "source": "S",
+          "sourcePrefixFrontSize": 135,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "12",
+              "group": "1",
+              "round": "9",
+              "factory": "2",
+              "paid": "123",
+              "restarts": "0",
+              "consumedAtPrefix": 53,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 59068,
+              "2": 35832
+            },
+            "boundary": {
+              "visit": "21",
+              "group": "2",
+              "round": "6",
+              "factory": "1",
+              "paid": "117",
+              "restarts": "0",
+              "consumedAtPrefix": 117,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 100,
+            "jobsWithNovelTuple": 42,
+            "distinctNovelJobTuples": 75,
+            "totalDistinctDonorJobTuples": 1090,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 361,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 361,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 213,
+              "strictlyDominatedBySource": 1,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 212,
+              "strictlyDominatedFraction": 0.004694835680751174,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 362,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 362,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 391,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 391,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "U",
+          "sourcePrefixFrontSize": 129,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "7",
+              "group": "1",
+              "round": "26",
+              "factory": "1",
+              "paid": "211",
+              "restarts": "0",
+              "consumedAtPrefix": 11,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 94900
+            },
+            "boundary": {
+              "visit": "15",
+              "group": "1",
+              "round": "8",
+              "factory": "1",
+              "paid": "165",
+              "restarts": "0",
+              "consumedAtPrefix": 165,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 100,
+            "jobsWithNovelTuple": 35,
+            "distinctNovelJobTuples": 42,
+            "totalDistinctDonorJobTuples": 628,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 361,
+              "strictlyDominatedBySource": 230,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 131,
+              "strictlyDominatedFraction": 0.6371191135734072,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 213,
+              "strictlyDominatedBySource": 131,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 82,
+              "strictlyDominatedFraction": 0.6150234741784038,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 631,
+              "strictlyDominatedBySource": 9,
+              "equalToSource": 9,
+              "notWeaklyCoveredBySource": 613,
+              "strictlyDominatedFraction": 0.014263074484944533,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 836,
+              "strictlyDominatedBySource": 1,
+              "equalToSource": 2,
+              "notWeaklyCoveredBySource": 833,
+              "strictlyDominatedFraction": 0.0011961722488038277,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "N",
+          "sourcePrefixFrontSize": 244,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "12",
+              "group": "1",
+              "round": "13",
+              "factory": "2",
+              "paid": "126",
+              "restarts": "0",
+              "consumedAtPrefix": 63,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 58684,
+              "2": 36216
+            },
+            "boundary": {
+              "visit": "21",
+              "group": "2",
+              "round": "5",
+              "factory": "1",
+              "paid": "462",
+              "restarts": "0",
+              "consumedAtPrefix": 462,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 100,
+            "jobsWithNovelTuple": 44,
+            "distinctNovelJobTuples": 63,
+            "totalDistinctDonorJobTuples": 1068,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 361,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 361,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 213,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 213,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 295,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 295,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 395,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 395,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 14330037,
+      "sources": [
+        {
+          "source": "S",
+          "sourcePrefixFrontSize": 132,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "11",
+              "group": "1",
+              "round": "23",
+              "factory": "2",
+              "paid": "146",
+              "restarts": "0",
+              "consumedAtPrefix": 133,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 60932,
+              "2": 33968
+            },
+            "boundary": {
+              "visit": "21",
+              "group": "2",
+              "round": "0",
+              "factory": "0",
+              "paid": "170",
+              "restarts": "0",
+              "consumedAtPrefix": 170,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 100,
+            "jobsWithNovelTuple": 49,
+            "distinctNovelJobTuples": 76,
+            "totalDistinctDonorJobTuples": 1342,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 221,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 221,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 316,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 316,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 313,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 313,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 363,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 363,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "U",
+          "sourcePrefixFrontSize": 155,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "7",
+              "group": "1",
+              "round": "17",
+              "factory": "0",
+              "paid": "404",
+              "restarts": "0",
+              "consumedAtPrefix": 102,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 94900
+            },
+            "boundary": {
+              "visit": "15",
+              "group": "1",
+              "round": "1",
+              "factory": "0",
+              "paid": "289",
+              "restarts": "0",
+              "consumedAtPrefix": 289,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 100,
+            "jobsWithNovelTuple": 46,
+            "distinctNovelJobTuples": 70,
+            "totalDistinctDonorJobTuples": 720,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 221,
+              "strictlyDominatedBySource": 163,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 58,
+              "strictlyDominatedFraction": 0.7375565610859729,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 316,
+              "strictlyDominatedBySource": 237,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 79,
+              "strictlyDominatedFraction": 0.75,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 660,
+              "strictlyDominatedBySource": 9,
+              "equalToSource": 9,
+              "notWeaklyCoveredBySource": 642,
+              "strictlyDominatedFraction": 0.013636363636363636,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 876,
+              "strictlyDominatedBySource": 2,
+              "equalToSource": 7,
+              "notWeaklyCoveredBySource": 867,
+              "strictlyDominatedFraction": 0.00228310502283105,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        },
+        {
+          "source": "N",
+          "sourcePrefixFrontSize": 152,
+          "at50000": {
+            "prefixFE": 50000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 44900
+            },
+            "boundary": {
+              "visit": "13",
+              "group": "1",
+              "round": "4",
+              "factory": "1",
+              "paid": "106",
+              "restarts": "0",
+              "consumedAtPrefix": 80,
+              "partiallyConsumed": true
+            }
+          },
+          "at100000": {
+            "prefixFE": 100000,
+            "initialFE": 100,
+            "globalFE": 5000,
+            "localFEByPhysicalGroup": {
+              "1": 54867,
+              "2": 40033
+            },
+            "boundary": {
+              "visit": "21",
+              "group": "2",
+              "round": "17",
+              "factory": "1",
+              "paid": "513",
+              "restarts": "0",
+              "consumedAtPrefix": 513,
+              "partiallyConsumed": false
+            }
+          },
+          "sampledPoolSupport": {
+            "jobs": 100,
+            "jobsWithNovelTuple": 45,
+            "distinctNovelJobTuples": 83,
+            "totalDistinctDonorJobTuples": 988,
+            "note": "Resource repertoire only, not schedule reachability or objective quality"
+          },
+          "receiverFronts": [
+            {
+              "method": "NONE",
+              "privateFrontSize": 221,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 221,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INIT",
+              "privateFrontSize": 316,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 316,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "GRAFT",
+              "privateFrontSize": 355,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 355,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            },
+            {
+              "method": "INHERIT",
+              "privateFrontSize": 336,
+              "strictlyDominatedBySource": 0,
+              "equalToSource": 0,
+              "notWeaklyCoveredBySource": 336,
+              "strictlyDominatedFraction": 0.0,
+              "scope": "Terminal private result front; does not count all accepted states or prove an acceptance bottleneck"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Original recipient-private archive is a design choice, not an implementation error",
+    "Final front redundancy is not a count of waste or a causal search explanation",
+    "Professional source means original role preferences; not all roles have performed local search by50000",
+    "No donor ratio, source timing or endpoint gate changed; failed protocol remains stopped"
+  ]
+}

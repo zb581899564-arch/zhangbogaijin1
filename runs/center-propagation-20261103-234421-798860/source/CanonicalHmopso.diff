@@ -1,0 +1,18 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\CanonicalHmopso.java
++++ CanonicalHmopso.java
+@@ -142,6 +142,7 @@
+                 SurvivorSelection.Result selected = SurvivorSelection.select(candidates, config.populationSize,
+                         config.mergeGlobalLocal ? support : null, guarded::checkpoint);
+                 ReverseAudit.run().selection(candidates, selected, globalSnapshots.size());
++                CenterPropagationTrace.selection(candidates, selected, globalSnapshots.size());
+                 population = selected.survivors();
+                 if (audit != null) audit.pool(candidates, selected, globalSnapshots == null ? 0 : globalSnapshots.size());
+             } else population = select(candidates, config.populationSize);
+@@ -233,6 +234,7 @@
+             }
+             if (audit != null) audit.generated(child, particle.current, composed);
+             state.evaluate(child, "global", direction);
++            CenterPropagationTrace.evaluated(particle, personal, leader, child, direction, composed);
+             if (updatePolicy != null && !composed) updatePolicy.evaluated(child, preference);
+             result.add(particle.descend(child));
+         }

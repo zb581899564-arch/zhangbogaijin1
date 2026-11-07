@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "paidSHA256": "792387ef48257e8a474d3ea7adaa12160f1080355866dfbf48fe83ccc9bcb801",
+  "sameEveryPaidGenomeAndObjective": true,
+  "sameInitialsAndAllCommonFEFronts": true,
+  "sameDecoderReuseAndRecomputeCounts": true,
+  "searchCounterDifferences": {
+    "intra.g2.proposals": {
+      "current": 256287,
+      "prior": 256288
+    },
+    "audit.paperLS.roundsCompleted": {
+      "current": 3481,
+      "prior": 3480
+    },
+    "intra.proposals": {
+      "current": 489586,
+      "prior": 489587
+    },
+    "audit.paperLS.particlesCompleted": {
+      "current": 117,
+      "prior": 116
+    },
+    "intra.neighborhood5.proposals": {
+      "current": 48509,
+      "prior": 48510
+    }
+  },
+  "scope": "At-budget bookkeeping may finish a truncated natural slot during self-replay; all paid candidates/objectives and reported fronts must still be exact. Does not assert identical post-budget internal population."
+}

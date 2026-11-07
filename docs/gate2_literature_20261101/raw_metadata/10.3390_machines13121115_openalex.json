@@ -1,0 +1,1141 @@
+{
+  "id": "https://openalex.org/W4416953827",
+  "doi": "https://doi.org/10.3390/machines13121115",
+  "title": "Block–Neighborhood-Based Multi-Objective Evolutionary Algorithm for Distributed Resource-Constrained Hybrid Flow Shop with Machine Breakdown",
+  "display_name": "Block–Neighborhood-Based Multi-Objective Evolutionary Algorithm for Distributed Resource-Constrained Hybrid Flow Shop with Machine Breakdown",
+  "publication_year": 2025,
+  "publication_date": "2025-12-03",
+  "ids": {
+    "openalex": "https://openalex.org/W4416953827",
+    "doi": "https://doi.org/10.3390/machines13121115"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3390/machines13121115",
+    "doi": "https://doi.org/10.3390/machines13121115",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/machines13121115",
+    "pdf_url": "https://www.mdpi.com/2075-1702/13/12/1115/pdf?version=1764764330",
+    "source": {
+      "id": "https://openalex.org/S4210219839",
+      "display_name": "Machines",
+      "issn_l": "2075-1702",
+      "issn": [
+        "2075-1702"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "norway-1",
+        "poland-20",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+        "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Machines",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2075-1702/13/12/1115/pdf?version=1764764330",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5101344329",
+        "display_name": "Ying Xu",
+        "orcid": "https://orcid.org/0009-0000-3624-0792",
+        "observed_orcids": [
+          "https://orcid.org/0009-0000-3624-0792"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I120825670",
+          "display_name": "Yunnan Normal University",
+          "ror": "https://ror.org/00sc9n023",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I120825670"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405281478",
+          "display_name": "Hengxing University",
+          "ror": "https://ror.org/04dehkj86",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ying Xu",
+      "raw_affiliation_strings": [
+        "School of Information Engineering, Qingdao Hengxing University, Qingdao 266199, China",
+        "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information Engineering, Qingdao Hengxing University, Qingdao 266199, China",
+          "institution_ids": [
+            "https://openalex.org/I4405281478"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China",
+          "institution_ids": [
+            "https://openalex.org/I120825670"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109219536",
+        "display_name": "S.-Y. Lin",
+        "orcid": "https://orcid.org/0009-0008-6453-6150",
+        "observed_orcids": [
+          "https://orcid.org/0009-0008-6453-6150"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I120825670",
+          "display_name": "Yunnan Normal University",
+          "ror": "https://ror.org/00sc9n023",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I120825670"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405281478",
+          "display_name": "Hengxing University",
+          "ror": "https://ror.org/04dehkj86",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405281478"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shulan Lin",
+      "raw_affiliation_strings": [
+        "School of Information Engineering, Qingdao Hengxing University, Qingdao 266199, China",
+        "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0008-6453-6150",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Information Engineering, Qingdao Hengxing University, Qingdao 266199, China",
+          "institution_ids": [
+            "https://openalex.org/I4405281478"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China",
+          "institution_ids": [
+            "https://openalex.org/I120825670"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5100623231",
+        "display_name": "Junqing Li",
+        "orcid": "https://orcid.org/0000-0002-3617-6708",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3617-6708",
+          "https://orcid.org/0000-0001-7340-2551"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I120825670",
+          "display_name": "Yunnan Normal University",
+          "ror": "https://ror.org/00sc9n023",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I120825670"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Junqing Li",
+      "raw_affiliation_strings": [
+        "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-3617-6708",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Yunnan Key Laboratory of Modern Analytical Mathematics and Applications, Department of Mathematics, Yunnan Normal University, Kunming 650500, China",
+          "institution_ids": [
+            "https://openalex.org/I120825670"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100623231"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I120825670"
+  ],
+  "apc_list": {
+    "value": 2400,
+    "currency": "CHF",
+    "value_usd": 2896
+  },
+  "apc_paid": {
+    "value": 2400,
+    "currency": "CHF",
+    "value_usd": 2896
+  },
+  "fwci": 0.0,
+  "has_fulltext": true,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.27389285,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "13",
+    "issue": "12",
+    "first_page": "1115",
+    "last_page": "1115"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10551",
+    "display_name": "Scheduling and Optimization Algorithms",
+    "score": 0.9994999766349792,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2209",
+      "display_name": "Industrial and Manufacturing Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10551",
+      "display_name": "Scheduling and Optimization Algorithms",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12177",
+      "display_name": "Resource-Constrained Project Scheduling",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12782",
+      "display_name": "Assembly Line Balancing Optimization",
+      "score": 0.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/machine-failures",
+      "display_name": "machine breakdowns",
+      "score": 0.8709999918937683
+    },
+    {
+      "id": "https://openalex.org/keywords/production-scheduling",
+      "display_name": "production scheduling",
+      "score": 0.8809999823570251
+    },
+    {
+      "id": "https://openalex.org/keywords/multi-objective-evolutionary-algorithms",
+      "display_name": "multi-objective evolutionary algorithms",
+      "score": 0.8690000176429749
+    },
+    {
+      "id": "https://openalex.org/keywords/makespan-minimization",
+      "display_name": "makespan minimization",
+      "score": 0.7860000133514404
+    },
+    {
+      "id": "https://openalex.org/keywords/total-energy-consumption",
+      "display_name": "total energy consumption",
+      "score": 0.9779999852180481
+    },
+    {
+      "id": "https://openalex.org/keywords/hybrid-initialization",
+      "display_name": "hybrid initialization",
+      "score": 0.8059999942779541
+    },
+    {
+      "id": "https://openalex.org/keywords/crossover-operator",
+      "display_name": "crossover operator",
+      "score": 0.9200000166893005
+    },
+    {
+      "id": "https://openalex.org/keywords/local-search-operators",
+      "display_name": "local search operators",
+      "score": 0.7929999828338623
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C158336966",
+      "wikidata": "https://www.wikidata.org/wiki/Q3074426",
+      "display_name": "Flow shop scheduling",
+      "level": 4,
+      "score": 0.7271999716758728
+    },
+    {
+      "id": "https://openalex.org/C55416958",
+      "wikidata": "https://www.wikidata.org/wiki/Q6206757",
+      "display_name": "Job shop scheduling",
+      "level": 3,
+      "score": 0.6944000124931335
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.6639999747276306
+    },
+    {
+      "id": "https://openalex.org/C114466953",
+      "wikidata": "https://www.wikidata.org/wiki/Q6034165",
+      "display_name": "Initialization",
+      "level": 2,
+      "score": 0.6190999746322632
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6147000193595886
+    },
+    {
+      "id": "https://openalex.org/C122507166",
+      "wikidata": "https://www.wikidata.org/wiki/Q628906",
+      "display_name": "Crossover",
+      "level": 2,
+      "score": 0.6014999747276306
+    },
+    {
+      "id": "https://openalex.org/C159149176",
+      "wikidata": "https://www.wikidata.org/wiki/Q14489129",
+      "display_name": "Evolutionary algorithm",
+      "level": 2,
+      "score": 0.5708000063896179
+    },
+    {
+      "id": "https://openalex.org/C206729178",
+      "wikidata": "https://www.wikidata.org/wiki/Q2271896",
+      "display_name": "Scheduling (production processes)",
+      "level": 2,
+      "score": 0.48539999127388
+    },
+    {
+      "id": "https://openalex.org/C2777303404",
+      "wikidata": "https://www.wikidata.org/wiki/Q759757",
+      "display_name": "Convergence (economics)",
+      "level": 2,
+      "score": 0.39340001344680786
+    },
+    {
+      "id": "https://openalex.org/C98045186",
+      "wikidata": "https://www.wikidata.org/wiki/Q205663",
+      "display_name": "Process (computing)",
+      "level": 2,
+      "score": 0.38019999861717224
+    },
+    {
+      "id": "https://openalex.org/C135320971",
+      "wikidata": "https://www.wikidata.org/wiki/Q1868524",
+      "display_name": "Local search (optimization)",
+      "level": 2,
+      "score": 0.37630000710487366
+    },
+    {
+      "id": "https://openalex.org/C2780165032",
+      "wikidata": "https://www.wikidata.org/wiki/Q16869822",
+      "display_name": "Energy consumption",
+      "level": 2,
+      "score": 0.29910001158714294
+    },
+    {
+      "id": "https://openalex.org/C62469222",
+      "wikidata": "https://www.wikidata.org/wiki/Q17092103",
+      "display_name": "Hybrid algorithm (constraint satisfaction)",
+      "level": 5,
+      "score": 0.29170000553131104
+    },
+    {
+      "id": "https://openalex.org/C38349280",
+      "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+      "display_name": "Flow (mathematics)",
+      "level": 2,
+      "score": 0.2874000072479248
+    },
+    {
+      "id": "https://openalex.org/C121835503",
+      "wikidata": "https://www.wikidata.org/wiki/Q2596288",
+      "display_name": "Evolutionary programming",
+      "level": 3,
+      "score": 0.2849999964237213
+    },
+    {
+      "id": "https://openalex.org/C120314980",
+      "wikidata": "https://www.wikidata.org/wiki/Q180634",
+      "display_name": "Distributed computing",
+      "level": 1,
+      "score": 0.28279998898506165
+    },
+    {
+      "id": "https://openalex.org/C3017813396",
+      "wikidata": "https://www.wikidata.org/wiki/Q17078173",
+      "display_name": "Resource constraints",
+      "level": 2,
+      "score": 0.2734000086784363
+    },
+    {
+      "id": "https://openalex.org/C137836250",
+      "wikidata": "https://www.wikidata.org/wiki/Q984063",
+      "display_name": "Optimization problem",
+      "level": 2,
+      "score": 0.2635999917984009
+    },
+    {
+      "id": "https://openalex.org/C57869625",
+      "wikidata": "https://www.wikidata.org/wiki/Q1783502",
+      "display_name": "Rate of convergence",
+      "level": 3,
+      "score": 0.2549999952316284
+    },
+    {
+      "id": "https://openalex.org/C125583679",
+      "wikidata": "https://www.wikidata.org/wiki/Q755673",
+      "display_name": "Search algorithm",
+      "level": 2,
+      "score": 0.25189998745918274
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.3390/machines13121115",
+      "doi": "https://doi.org/10.3390/machines13121115",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/machines13121115",
+      "pdf_url": "https://www.mdpi.com/2075-1702/13/12/1115/pdf?version=1764764330",
+      "source": {
+        "id": "https://openalex.org/S4210219839",
+        "display_name": "Machines",
+        "issn_l": "2075-1702",
+        "issn": [
+          "2075-1702"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Machines",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:d6e2dc2465f44e7d925c1137f97d07bf",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/d6e2dc2465f44e7d925c1137f97d07bf",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Machines, Vol 13, Iss 12, p 1115 (2025)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.3390/machines13121115",
+    "doi": "https://doi.org/10.3390/machines13121115",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/machines13121115",
+    "pdf_url": "https://www.mdpi.com/2075-1702/13/12/1115/pdf?version=1764764330",
+    "source": {
+      "id": "https://openalex.org/S4210219839",
+      "display_name": "Machines",
+      "issn_l": "2075-1702",
+      "issn": [
+        "2075-1702"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "norway-1",
+        "poland-20",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+        "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Machines",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Industry, innovation and infrastructure",
+      "score": 0.7207000255584717,
+      "id": "https://metadata.un.org/sdg/9"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4416953827.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4416953827.grobid-xml"
+  },
+  "referenced_works_count": 63,
+  "referenced_works": [
+    "https://openalex.org/W760913798",
+    "https://openalex.org/W1497425225",
+    "https://openalex.org/W1949153500",
+    "https://openalex.org/W1990248249",
+    "https://openalex.org/W2007738794",
+    "https://openalex.org/W2011447885",
+    "https://openalex.org/W2011513937",
+    "https://openalex.org/W2014606064",
+    "https://openalex.org/W2016921772",
+    "https://openalex.org/W2027841430",
+    "https://openalex.org/W2035265995",
+    "https://openalex.org/W2059505949",
+    "https://openalex.org/W2067331878",
+    "https://openalex.org/W2074871661",
+    "https://openalex.org/W2098803166",
+    "https://openalex.org/W2126105956",
+    "https://openalex.org/W2139242502",
+    "https://openalex.org/W2258674730",
+    "https://openalex.org/W2326965752",
+    "https://openalex.org/W2756151170",
+    "https://openalex.org/W2764251381",
+    "https://openalex.org/W2766133347",
+    "https://openalex.org/W2768102642",
+    "https://openalex.org/W2969497951",
+    "https://openalex.org/W2979879312",
+    "https://openalex.org/W2980647483",
+    "https://openalex.org/W2997424880",
+    "https://openalex.org/W2998765444",
+    "https://openalex.org/W3000727691",
+    "https://openalex.org/W3008243669",
+    "https://openalex.org/W3008810219",
+    "https://openalex.org/W3008866734",
+    "https://openalex.org/W3031737217",
+    "https://openalex.org/W3034149880",
+    "https://openalex.org/W3088906353",
+    "https://openalex.org/W3102115455",
+    "https://openalex.org/W3110102350",
+    "https://openalex.org/W3176610539",
+    "https://openalex.org/W3194382969",
+    "https://openalex.org/W3195920364",
+    "https://openalex.org/W3212661937",
+    "https://openalex.org/W4210876519",
+    "https://openalex.org/W4214818039",
+    "https://openalex.org/W4220889966",
+    "https://openalex.org/W4253270511",
+    "https://openalex.org/W4280537970",
+    "https://openalex.org/W4285734629",
+    "https://openalex.org/W4304481271",
+    "https://openalex.org/W4304843050",
+    "https://openalex.org/W4315476324",
+    "https://openalex.org/W4320351800",
+    "https://openalex.org/W4385899584",
+    "https://openalex.org/W4399221052",
+    "https://openalex.org/W4401800715",
+    "https://openalex.org/W4402435386",
+    "https://openalex.org/W4402509629",
+    "https://openalex.org/W4404727063",
+    "https://openalex.org/W4406018902",
+    "https://openalex.org/W4406160951",
+    "https://openalex.org/W4407782832",
+    "https://openalex.org/W4408265868",
+    "https://openalex.org/W4412493957",
+    "https://openalex.org/W4413189849"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387610328",
+    "https://openalex.org/W7081959189",
+    "https://openalex.org/W3176610539",
+    "https://openalex.org/W7155793558",
+    "https://openalex.org/W4280537970",
+    "https://openalex.org/W2974441652",
+    "https://openalex.org/W3159449736",
+    "https://openalex.org/W7161055604",
+    "https://openalex.org/W4387423996",
+    "https://openalex.org/W3216589706"
+  ],
+  "abstract_inverted_index": {
+    "Production": [
+      0
+    ],
+    "scheduling": [
+      1,
+      42
+    ],
+    "that": [
+      2,
+      161
+    ],
+    "involves": [
+      3
+    ],
+    "distributed": [
+      4,
+      37
+    ],
+    "factories,": [
+      5
+    ],
+    "machine": [
+      6,
+      45
+    ],
+    "maintenance,": [
+      7
+    ],
+    "and": [
+      8,
+      57,
+      73
+    ],
+    "resource": [
+      9
+    ],
+    "constraints": [
+      10,
+      20
+    ],
+    "plays": [
+      11
+    ],
+    "a": [
+      12,
+      36,
+      68,
+      74
+    ],
+    "crucial": [
+      13
+    ],
+    "role": [
+      14
+    ],
+    "in": [
+      15,
+      26,
+      99,
+      121,
+      168
+    ],
+    "manufacturing.": [
+      16
+    ],
+    "However,": [
+      17
+    ],
+    "these": [
+      18
+    ],
+    "realistic": [
+      19
+    ],
+    "have": [
+      21
+    ],
+    "rarely": [
+      22
+    ],
+    "been": [
+      23
+    ],
+    "considered": [
+      24
+    ],
+    "simultaneously": [
+      25
+    ],
+    "the": [
+      27,
+      64,
+      83,
+      100,
+      104,
+      109,
+      113,
+      122,
+      126,
+      129,
+      146,
+      153,
+      158,
+      162
+    ],
+    "hybrid": [
+      28,
+      39,
+      88
+    ],
+    "flow": [
+      29,
+      40
+    ],
+    "shop": [
+      30,
+      41
+    ],
+    "(HFS).": [
+      31
+    ],
+    "To": [
+      32,
+      62
+    ],
+    "address": [
+      33
+    ],
+    "this": [
+      34
+    ],
+    "issue,": [
+      35
+    ],
+    "resource-constrained": [
+      38
+    ],
+    "problem": [
+      43
+    ],
+    "with": [
+      44,
+      143,
+      150
+    ],
+    "breakdowns": [
+      46
+    ],
+    "(DRCHFSP-MB)": [
+      47
+    ],
+    "is": [
+      48,
+      71,
+      80,
+      91,
+      132,
+      148
+    ],
+    "studied.": [
+      49
+    ],
+    "There": [
+      50
+    ],
+    "are": [
+      51,
+      119
+    ],
+    "two": [
+      52
+    ],
+    "optimization": [
+      53
+    ],
+    "objectives,": [
+      54
+    ],
+    "i.e.,": [
+      55
+    ],
+    "makespan": [
+      56
+    ],
+    "total": [
+      58
+    ],
+    "energy": [
+      59
+    ],
+    "consumption": [
+      60
+    ],
+    "(TEC).": [
+      61
+    ],
+    "solve": [
+      63
+    ],
+    "strongly": [
+      65
+    ],
+    "NP-hard": [
+      66
+    ],
+    "problem,": [
+      67
+    ],
+    "mathematical": [
+      69
+    ],
+    "model": [
+      70
+    ],
+    "established": [
+      72
+    ],
+    "block–neighborhood-based": [
+      75
+    ],
+    "multi-objective": [
+      76,
+      156
+    ],
+    "evolutionary": [
+      77,
+      101
+    ],
+    "algorithm": [
+      78,
+      131
+    ],
+    "(BNMOEA)": [
+      79
+    ],
+    "developed.": [
+      81
+    ],
+    "In": [
+      82
+    ],
+    "proposed": [
+      84,
+      130
+    ],
+    "algorithm,": [
+      85
+    ],
+    "an": [
+      86,
+      165
+    ],
+    "efficient": [
+      87
+    ],
+    "initialization": [
+      89
+    ],
+    "method": [
+      90
+    ],
+    "adopted": [
+      92
+    ],
+    "to": [
+      93,
+      97,
+      107
+    ],
+    "obtain": [
+      94
+    ],
+    "high-quality": [
+      95
+    ],
+    "individuals": [
+      96
+    ],
+    "participate": [
+      98
+    ],
+    "process": [
+      102
+    ],
+    "of": [
+      103,
+      112,
+      128,
+      152
+    ],
+    "population.": [
+      105
+    ],
+    "Next,": [
+      106
+    ],
+    "enhance": [
+      108
+    ],
+    "search": [
+      110,
+      140
+    ],
+    "capability": [
+      111
+    ],
+    "BNMOEA,": [
+      114
+    ],
+    "three": [
+      115
+    ],
+    "well-designed": [
+      116
+    ],
+    "crossover": [
+      117
+    ],
+    "operators": [
+      118,
+      141
+    ],
+    "used": [
+      120
+    ],
+    "global": [
+      123
+    ],
+    "search.": [
+      124
+    ],
+    "Then,": [
+      125
+    ],
+    "convergence": [
+      127
+    ],
+    "improved": [
+      133
+    ],
+    "by": [
+      134
+    ],
+    "utilizing": [
+      135
+    ],
+    "eight": [
+      136
+    ],
+    "critical": [
+      137
+    ],
+    "factory-based": [
+      138
+    ],
+    "local": [
+      139
+    ],
+    "combined": [
+      142
+    ],
+    "block–neighborhood.": [
+      144
+    ],
+    "Finally,": [
+      145
+    ],
+    "BNMOEA": [
+      147,
+      163
+    ],
+    "compared": [
+      149
+    ],
+    "several": [
+      151
+    ],
+    "most": [
+      154
+    ],
+    "advanced": [
+      155
+    ],
+    "algorithms;": [
+      157
+    ],
+    "results": [
+      159
+    ],
+    "indicate": [
+      160
+    ],
+    "has": [
+      164
+    ],
+    "outstanding": [
+      166
+    ],
+    "performance": [
+      167
+    ],
+    "solving": [
+      169
+    ],
+    "DRCHFSP-MB.": [
+      170
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-10-28T10:33:24.094632",
+  "created_date": "2025-12-03T00:00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "requiredReceipts": [
+    "engineering-acceptance.json",
+    "engineering-independent-audit.json",
+    "science-complete.json",
+    "science-independent-audit.json",
+    "request-audit-v2.json"
+  ],
+  "scientificRuns": 72,
+  "scienceFE": 36864,
+  "scienceFailures": 0,
+  "allNewAttemptedFE": 1662360,
+  "allNewSuccessfulFE": 1662358,
+  "expectedInjectedFailures": 2,
+  "independentlyRecomputedHV": 216,
+  "statisticsPending": false,
+  "initialSamplingAmendedBeforeAnyProbe": true,
+  "defaultMainlineChanged": false,
+  "newInstanceOrSeed": false,
+  "goalResumed": false,
+  "fullAlgorithmOrTimeClaim": false,
+  "newSearchFEAtDelivery": 0,
+  "newDecodesAtDelivery": 0
+}

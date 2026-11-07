@@ -1,0 +1,12 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\java\search\Particle.java
++++ Particle.java
+@@ -30,6 +30,8 @@
+     long branchId() { return branchId; }
+     List<PermutationSolution<Integer>> personalArchive() { return ParetoTools.copies(history); }
+     PermutationSolution<Integer> personalBest(Direction direction) {
+-        return ParetoTools.copy(history.get(ParetoTools.order(history, direction).get(0)));
++        PermutationSolution<Integer> best = history.get(ParetoTools.order(history, direction).get(0));
++        ReverseAudit.run().pbest(direction, best, history.size());
++        return ParetoTools.copy(best);
+     }
+ }

@@ -1,0 +1,156 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "informativeCases": 37,
+      "totalCases": 64,
+      "meanSelectedAddedHV": {
+        "QGS_RAW": 1.3475232830423875e-05,
+        "QGS_RANDOM": 2.749967044531358e-05,
+        "QGS_ALIGNED": 1.2056905122595127e-05,
+        "CLASSIC_RAW": 1.9885352785272326e-05,
+        "CLASSIC_RANDOM": 1.7736968124975282e-05,
+        "CLASSIC_ALIGNED": 1.9143969035976898e-05
+      },
+      "meanAddedHVPctOfBackground": {
+        "QGS_RAW": 0.0031011000149203105,
+        "QGS_RANDOM": 0.006052315281872977,
+        "QGS_ALIGNED": 0.0026670540581093206,
+        "CLASSIC_RAW": 0.004622059943381665,
+        "CLASSIC_RANDOM": 0.004140389398845782,
+        "CLASSIC_ALIGNED": 0.004445977654487025
+      },
+      "qgsAlignedEffectsPct": {
+        "RAW": -10.525441197769148,
+        "RANDOM": -56.156183229279996
+      },
+      "roleEffects": {
+        "CENTER": {
+          "meanAddedHV": {
+            "RAW": 1.2897712812936276e-06,
+            "RANDOM": 2.3614627413378773e-05,
+            "ALIGNED": 2.6760983496559605e-06
+          },
+          "effectVsRawPct": 107.48627205994698,
+          "alignedAtLeastRaw": true
+        },
+        "ENERGY": {
+          "meanAddedHV": {
+            "RAW": 6.6802020529013306e-06,
+            "RANDOM": 4.435497641725947e-05,
+            "ALIGNED": 2.3802627501386424e-05
+          },
+          "effectVsRawPct": 256.31598135641,
+          "alignedAtLeastRaw": true
+        },
+        "MAKESPAN": {
+          "meanAddedHV": {
+            "RAW": 4.59183212572936e-05,
+            "RANDOM": 4.202907795061608e-05,
+            "ALIGNED": 2.1724293495764026e-05
+          },
+          "effectVsRawPct": -52.68926889980027,
+          "alignedAtLeastRaw": false
+        },
+        "WORKER_COST": {
+          "meanAddedHV": {
+            "RAW": 1.263673020694342e-08,
+            "RANDOM": 0.0,
+            "ALIGNED": 2.460114357409962e-08
+          },
+          "effectVsRawPct": 94.67966136194153,
+          "alignedAtLeastRaw": true
+        }
+      },
+      "classicAlignedEffectVsRawPct": -3.7282906534326976,
+      "medianQgsAlignedCostVsRaw": 1.116549968916342,
+      "qualityGate": false,
+      "necessaryCostGate": false,
+      "meanPhysicalChangeVsRaw": {
+        "QGS_RAW": 0.0,
+        "QGS_RANDOM": 0.9775390625,
+        "QGS_ALIGNED": 0.90234375,
+        "CLASSIC_RAW": 0.0,
+        "CLASSIC_RANDOM": 0.83984375,
+        "CLASSIC_ALIGNED": 0.8408203125
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "informativeCases": 24,
+      "totalCases": 64,
+      "meanSelectedAddedHV": {
+        "QGS_RAW": 6.055584129378096e-06,
+        "QGS_RANDOM": 4.489235491517878e-06,
+        "QGS_ALIGNED": 2.108621775213308e-06,
+        "CLASSIC_RAW": 6.903593223249493e-06,
+        "CLASSIC_RANDOM": 8.657843238098835e-06,
+        "CLASSIC_ALIGNED": 6.7455880323544215e-06
+      },
+      "meanAddedHVPctOfBackground": {
+        "QGS_RAW": 0.0012575107914550362,
+        "QGS_RANDOM": 0.0009311342761061205,
+        "QGS_ALIGNED": 0.00042958397551233024,
+        "CLASSIC_RAW": 0.001432843185780369,
+        "CLASSIC_RANDOM": 0.0017974352996971599,
+        "CLASSIC_ALIGNED": 0.0013996602162367308
+      },
+      "qgsAlignedEffectsPct": {
+        "RAW": -65.17888728548039,
+        "RANDOM": -53.02937929637657
+      },
+      "roleEffects": {
+        "CENTER": {
+          "meanAddedHV": {
+            "RAW": 7.545021443776737e-08,
+            "RANDOM": 1.754840172488517e-07,
+            "ALIGNED": 6.850167980913986e-07
+          },
+          "effectVsRawPct": 807.9057007272157,
+          "alignedAtLeastRaw": true
+        },
+        "ENERGY": {
+          "meanAddedHV": {
+            "RAW": 0.0,
+            "RANDOM": 0.0,
+            "ALIGNED": 0.0
+          },
+          "effectVsRawPct": null,
+          "alignedAtLeastRaw": true
+        },
+        "MAKESPAN": {
+          "meanAddedHV": {
+            "RAW": 2.4040244870467782e-05,
+            "RANDOM": 1.776729894786052e-05,
+            "ALIGNED": 7.676048253838939e-06
+          },
+          "effectVsRawPct": -68.07000804193733,
+          "alignedAtLeastRaw": false
+        },
+        "WORKER_COST": {
+          "meanAddedHV": {
+            "RAW": 1.0664143260683337e-07,
+            "RANDOM": 1.415900096213979e-08,
+            "ALIGNED": 7.342204892289358e-08
+          },
+          "effectVsRawPct": -31.150541465823434,
+          "alignedAtLeastRaw": false
+        }
+      },
+      "classicAlignedEffectVsRawPct": -2.288738426287218,
+      "medianQgsAlignedCostVsRaw": 1.6534155337237877,
+      "qualityGate": false,
+      "necessaryCostGate": false,
+      "meanPhysicalChangeVsRaw": {
+        "QGS_RAW": 0.0,
+        "QGS_RANDOM": 0.9990234375,
+        "QGS_ALIGNED": 0.984375,
+        "CLASSIC_RAW": 0.0,
+        "CLASSIC_RANDOM": 0.89453125,
+        "CLASSIC_ALIGNED": 0.8974609375
+      }
+    }
+  ],
+  "worthFreshClosedLoop": false,
+  "scope": "New offspring on reused development contexts. Conditional per-offspring gain at equal evaluated counts; not independent method trajectories, same-time superiority, novelty, or a new full algorithm."
+}

@@ -1,0 +1,51 @@
+{
+  "completed": true,
+  "decision": {
+    "continueHypothesis": false,
+    "decision": "STOP_FIXED_FA_STAT_SOURCE_HYPOTHESIS",
+    "comparisons": [
+      {
+        "control": "POST_FA",
+        "signalContexts": [
+          "228840"
+        ],
+        "majorReverseContexts": [],
+        "HVReferenceFlipContexts": [],
+        "passed": false
+      },
+      {
+        "control": "RANDOM_FOS",
+        "signalContexts": [],
+        "majorReverseContexts": [
+          "228840"
+        ],
+        "HVReferenceFlipContexts": [],
+        "passed": false
+      }
+    ],
+    "fullAlgorithmPromoted": false,
+    "mainlineChanged": false,
+    "independentSeeds": 1,
+    "correlatedContexts": 3,
+    "rule": "Both direct and size-matched random controls must pass the frozen joint-indicator criteria"
+  },
+  "accounting": {
+    "passed": true,
+    "actualAttemptedFE": 1152,
+    "successfulFE": 1152,
+    "failedFE": 0,
+    "actualQA": 24,
+    "passedQA": 24,
+    "failedQA": 0,
+    "sourceRerunFE": 0,
+    "candidateAndQAFullDecoder": true,
+    "sameTimeClaim": false,
+    "searchStateUpdated": false
+  },
+  "zeroOpportunityCheckPassed": true,
+  "scienceAuditPassed": true,
+  "defaultMainlineChanged": false,
+  "expandedInstancesOrSeeds": false,
+  "followupExperimentStarted": false,
+  "goalCreated": false
+}

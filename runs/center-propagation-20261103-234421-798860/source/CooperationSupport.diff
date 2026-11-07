@@ -1,0 +1,12 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\CooperationSupport.java
++++ CooperationSupport.java
+@@ -185,6 +185,9 @@
+         predictions.put(child, predicted);
+         if (timing != null) timing.proposed(child, chosen, family);
+         observeRequest(parent, family, cycle, cap, eta, "PROPOSED");
++        long[] paidSources = new long[chosen.length];
++        for (int f = 0; f < chosen.length; f++) paidSources[f] = chosen[f].paidFE;
++        org.uma.jmetal.util.research.search.CenterPropagationTrace.composition(paidSources);
+         count("assembliesProposed"); nanos += System.nanoTime() - start; return child;
+     }
+     private void observeRequest(PermutationSolution<Integer> parent, int family, int cycle, double cap, double eta, String outcome) {

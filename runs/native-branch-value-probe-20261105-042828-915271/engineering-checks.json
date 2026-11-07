@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "LPCalls": 8,
+  "checks": [
+    {
+      "name": "one-job",
+      "expected": 1,
+      "primalMultiplier": 0.9999999998999997,
+      "dual": {
+        "lowerDecimal": "0.999999999899999658669055547504501500727574537593051913486516",
+        "lower": 0.9999999998999997,
+        "priceMassUpper": "1",
+        "fixedContributionDecimal": "0E-60",
+        "prices": [
+          {
+            "row": 4,
+            "kind": 2,
+            "label": "totalLabor",
+            "value": "1"
+          }
+        ],
+        "excludesTarget": false
+      },
+      "solverSeconds": 0.015000000013969839,
+      "variables": 1,
+      "inequalityRows": 5,
+      "operationAssignmentGroups": 1
+    },
+    {
+      "name": "tight-time",
+      "expected": 2,
+      "primalMultiplier": 1.9999999997999993,
+      "dual": {
+        "lowerDecimal": "1.99999999979999931733811109500900300145514907518610382697302",
+        "lower": 1.9999999997999993,
+        "priceMassUpper": "1",
+        "fixedContributionDecimal": "0E-59",
+        "prices": [
+          {
+            "row": 2,
+            "kind": 0,
+            "label": "job0/chain",
+            "value": "1"
+          }
+        ],
+        "excludesTarget": true
+      },
+      "solverSeconds": 0.0,
+      "variables": 1,
+      "inequalityRows": 5,
+      "operationAssignmentGroups": 1
+    },
+    {
+      "name": "parallel-capacity",
+      "expected": 1,
+      "primalMultiplier": 0.9999999998999997,
+      "dual": {
+        "lowerDecimal": "0.999999999899999658669055547504501500727574537593051913486514",
+        "lower": 0.9999999998999997,
+        "priceMassUpper": "1.0",
+        "fixedContributionDecimal": "0E-60",
+        "prices": [
+          {
+            "row": 0,
+            "kind": 0,
+            "label": "f0/s0/machine0",
+            "value": "0.5"
+          },
+          {
+            "row": 1,
+            "kind": 0,
+            "label": "f0/s0/machine1",
+            "value": "0.5"
+          }
+        ],
+        "excludesTarget": false
+      },
+      "solverSeconds": 0.0,
+      "variables": 8,
+      "inequalityRows": 8,
+      "operationAssignmentGroups": 2
+    },
+    {
+      "name": "joint-time-energy",
+      "expected": 1.1111111111111112,
+      "primalMultiplier": 1.1111111109999996,
+      "dual": {
+        "lowerDecimal": "1.11111111099999959607177228579503680149571314707621430597111",
+        "lower": 1.1111111109999996,
+        "priceMassUpper": "1.0000000000000000000000000000",
+        "fixedContributionDecimal": "0E-60",
+        "prices": [
+          {
+            "row": 2,
+            "kind": 0,
+            "label": "f0/s0/worker0",
+            "value": "0.6666666666666666296592325125"
+          },
+          {
+            "row": 4,
+            "kind": 1,
+            "label": "totalEnergy",
+            "value": "0.3333333333333333703407674875"
+          }
+        ],
+        "excludesTarget": true
+      },
+      "solverSeconds": 0.0,
+      "variables": 2,
+      "inequalityRows": 6,
+      "operationAssignmentGroups": 1
+    },
+    {
+      "mode": "TIME",
+      "expected": 0.9090909090909091,
+      "primalMultiplier": 0.9090909089999997,
+      "dual": {
+        "lowerDecimal": "0.909090908999999616295966239674409117155966227428138429950740",
+        "lower": 0.9090909089999997,
+        "priceMassUpper": "1",
+        "fixedContributionDecimal": "0.454545454499999808147983119837204558577983113714069214975370",
+        "prices": [
+          {
+            "row": 5,
+            "kind": 2,
+            "label": "totalLabor",
+            "value": "1"
+          }
+        ],
+        "excludesTarget": false
+      },
+      "solverSeconds": 0.015999999945051968,
+      "variables": 1,
+      "inequalityRows": 6,
+      "operationAssignmentGroups": 1
+    },
+    {
+      "mode": "FATIGUE",
+      "expected": 1.1363636363636362,
+      "primalMultiplier": 1.1363636361590903,
+      "dual": {
+        "lowerDecimal": "1.13636363615909034625108150073761106674313088375348721378809",
+        "lower": 1.1363636361590903,
+        "priceMassUpper": "1",
+        "fixedContributionDecimal": "0.454545454499999808147983119837204558577983113714069214975370",
+        "prices": [
+          {
+            "row": 5,
+            "kind": 2,
+            "label": "totalLabor",
+            "value": "1"
+          }
+        ],
+        "excludesTarget": true
+      },
+      "solverSeconds": 0.0,
+      "variables": 1,
+      "inequalityRows": 6,
+      "operationAssignmentGroups": 1
+    },
+    {
+      "pair": [
+        0,
+        0
+      ],
+      "expected": 1.3333333333333333,
+      "primalMultiplier": 1.3333333331999995,
+      "dual": {
+        "lowerDecimal": "1.33333333319999954489207406333933533430343271679073588464868",
+        "lower": 1.3333333331999995,
+        "priceMassUpper": "1",
+        "fixedContributionDecimal": "0E-59",
+        "prices": [
+          {
+            "row": 3,
+            "kind": 0,
+            "label": "job0/chain",
+            "value": "1"
+          }
+        ],
+        "excludesTarget": true
+      },
+      "solverSeconds": 0.0,
+      "variables": 1,
+      "inequalityRows": 6,
+      "operationAssignmentGroups": 1
+    },
+    {
+      "pair": [
+        1,
+        0
+      ],
+      "expected": 2,
+      "primalMultiplier": 1.999999999799999,
+      "dual": {
+        "lowerDecimal": "1.99999999979999909529350619218215724421679883337932769946638",
+        "lower": 1.999999999799999,
+        "priceMassUpper": "1",
+        "fixedContributionDecimal": "0E-60",
+        "prices": [
+          {
+            "row": 4,
+            "kind": 1,
+            "label": "totalEnergy",
+            "value": "1"
+          }
+        ],
+        "excludesTarget": true
+      },
+      "solverSeconds": 0.0,
+      "variables": 1,
+      "inequalityRows": 6,
+      "operationAssignmentGroups": 1
+    }
+  ]
+}

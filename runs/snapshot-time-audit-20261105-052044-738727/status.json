@@ -1,0 +1,5 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "completedRuns": 0,
+  "error": "Command failed (1); see G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-time-audit-20261105-052044-738727\\20_8_5_1\\STRICT_FULL-INFINITE\\run.log\nException in thread \"main\" java.lang.NumberFormatException: For input string: \"inf\"\n\tat java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)\n\tat java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)\n\tat java.base/java.lang.Double.parseDouble(Double.java:651)\n\tat research.dynamic.SnapshotTimeRun.main(SnapshotTimeRun.java:46)\n"
+}

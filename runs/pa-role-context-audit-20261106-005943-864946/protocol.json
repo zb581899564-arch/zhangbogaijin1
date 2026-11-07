@@ -1,0 +1,24 @@
+{
+  "version": "PA_ROLE_CONTEXT_STRUCTURE_ZERO_FE-v1",
+  "registered": "2026-11-06",
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-paid-donor-probe-20261106-001143-747475",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "datasets": "6 unique native engineering model inputs plus4 paid scientific initial populations; identical NONE/GRAFT first model counted once",
+  "features": "Actual factory-pair categorical distributions and within-factory physical order; noM/W marginal substituted for actualmodel features",
+  "queries": "All100workingpoints; exact physical genotype duplicate weights sumto1; grouping uses genes only, not objectives",
+  "folds": "5 deterministic SHA256 folds, separately blocked by physicalgenotype and wholeFApattern. Same groups never cross train/test",
+  "models": [
+    "GLOBALalltraining",
+    "ROLEsamepreference",
+    "RANDOM_MATCHED16uniformsame-ntraining draws",
+    "OBJECTIVE_NEAREST_MATCHEDsame-ntraining neighbors in existing frozen normalizedobjectives"
+  ],
+  "scores": "HeldoutfactorypairNLLlower, joint-vs-independentloggainhigher, samefactoryorderNLLlower; commonJeffreys0.5cellprior. No feature/alpha/fold tuning",
+  "regionControl": "Simple objective nearestneighbors with equal training count, not an implementation of fullMO-GOMEA clustering",
+  "fallback": "EmptyroletrainingusesGLOBALforROLEandbothsame-sizecontrols; recorded, no droppedqueries",
+  "interpretation": "Structural likelihood is diagnostic, not decoder objective performance, acceptance quality, innovation or scientific confirmation",
+  "decision": "Do not launch role-specific model on distribution difference alone. Descriptive role signal is consistent onlyifROLE beatsGLOBALandOBJECTIVE_NEARESTon factoryNLLand dependencegain, and is not worse on orderNLL, at bothfoldtypes in all4 generation2engineeringinputs. Otherwise stopthis explanationas immediatepaidmechanismbasis",
+  "notGlobalVeto": "Failure stops this engineering-input argument, not fourroles or allconditionalmethods. Even successneedsproperactual-search observation and ordinaryregioncontrol beforepaidperformance",
+  "costQualification": "No search, decoder, newselector, operator or change to frozen decisions; time and bootstrap costs not performance evidence"
+}

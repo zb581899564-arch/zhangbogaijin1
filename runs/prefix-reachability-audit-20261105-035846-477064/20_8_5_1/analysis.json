@@ -1,0 +1,3066 @@
+{
+  "stem": "20_8_5_1",
+  "summary": [
+    {
+      "seed": 10950003,
+      "requests": 36,
+      "jointOnly": 0,
+      "fatigueJointOnly": 0,
+      "jointOnlyFraction": 0.0,
+      "fatigueJointOnlyFraction": 0.0
+    },
+    {
+      "seed": 10950033,
+      "requests": 36,
+      "jointOnly": 0,
+      "fatigueJointOnly": 0,
+      "jointOnlyFraction": 0.0,
+      "fatigueJointOnlyFraction": 0.0
+    },
+    {
+      "seed": 10950063,
+      "requests": 36,
+      "jointOnly": 0,
+      "fatigueJointOnly": 0,
+      "jointOnlyFraction": 0.0,
+      "fatigueJointOnlyFraction": 0.0
+    }
+  ],
+  "requests": [
+    {
+      "profile": "10950003-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 72,
+      "fatigueSolve": 73,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 74,
+      "fatigueSolve": 75,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 76,
+      "fatigueSolve": 77,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 78,
+      "fatigueSolve": 79,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 80,
+      "fatigueSolve": 81,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 82,
+      "fatigueSolve": 83,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 84,
+      "fatigueSolve": 85,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 86,
+      "fatigueSolve": 87,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 88,
+      "fatigueSolve": 89,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 90,
+      "fatigueSolve": 91,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 92,
+      "fatigueSolve": 93,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 94,
+      "fatigueSolve": 95,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 96,
+      "fatigueSolve": 97,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950003-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 98,
+      "fatigueSolve": 99,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 100,
+      "fatigueSolve": 101,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 102,
+      "fatigueSolve": 103,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950003-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 104,
+      "fatigueSolve": 105,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 106,
+      "fatigueSolve": 107,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 108,
+      "fatigueSolve": 109,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 110,
+      "fatigueSolve": 111,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 112,
+      "fatigueSolve": 113,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 114,
+      "fatigueSolve": 115,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 116,
+      "fatigueSolve": 117,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 118,
+      "fatigueSolve": 119,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 120,
+      "fatigueSolve": 121,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 122,
+      "fatigueSolve": 123,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 124,
+      "fatigueSolve": 125,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 126,
+      "fatigueSolve": 127,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 128,
+      "fatigueSolve": 129,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 130,
+      "fatigueSolve": 131,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 132,
+      "fatigueSolve": 133,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 134,
+      "fatigueSolve": 135,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 136,
+      "fatigueSolve": 137,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 138,
+      "fatigueSolve": 139,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 140,
+      "fatigueSolve": 141,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 142,
+      "fatigueSolve": 143,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 12,
+      "fatigueSolve": 13,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 144,
+      "fatigueSolve": 145,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 146,
+      "fatigueSolve": 147,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 148,
+      "fatigueSolve": 149,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 150,
+      "fatigueSolve": 151,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 152,
+      "fatigueSolve": 153,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 154,
+      "fatigueSolve": 155,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 14,
+      "fatigueSolve": 15,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 156,
+      "fatigueSolve": 157,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 158,
+      "fatigueSolve": 159,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 160,
+      "fatigueSolve": 161,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 162,
+      "fatigueSolve": 163,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 164,
+      "fatigueSolve": 165,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 166,
+      "fatigueSolve": 167,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 16,
+      "fatigueSolve": 17,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 168,
+      "fatigueSolve": 169,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 170,
+      "fatigueSolve": 171,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 172,
+      "fatigueSolve": 173,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 174,
+      "fatigueSolve": 175,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 176,
+      "fatigueSolve": 177,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 178,
+      "fatigueSolve": 179,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 18,
+      "fatigueSolve": 19,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 180,
+      "fatigueSolve": 181,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 182,
+      "fatigueSolve": 183,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 184,
+      "fatigueSolve": 185,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 186,
+      "fatigueSolve": 187,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 188,
+      "fatigueSolve": 189,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 190,
+      "fatigueSolve": 191,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 20,
+      "fatigueSolve": 21,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 192,
+      "fatigueSolve": 193,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 194,
+      "fatigueSolve": 195,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 196,
+      "fatigueSolve": 197,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 198,
+      "fatigueSolve": 199,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 200,
+      "fatigueSolve": 201,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 202,
+      "fatigueSolve": 203,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950003-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950003,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 22,
+      "fatigueSolve": 23,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 204,
+      "fatigueSolve": 205,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 206,
+      "fatigueSolve": 207,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 208,
+      "fatigueSolve": 209,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 210,
+      "fatigueSolve": 211,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 212,
+      "fatigueSolve": 213,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 214,
+      "fatigueSolve": 215,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 216,
+      "fatigueSolve": 217,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 218,
+      "fatigueSolve": 219,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 220,
+      "fatigueSolve": 221,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 222,
+      "fatigueSolve": 223,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 224,
+      "fatigueSolve": 225,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 226,
+      "fatigueSolve": 227,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 228,
+      "fatigueSolve": 229,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 230,
+      "fatigueSolve": 231,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 232,
+      "fatigueSolve": 233,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 234,
+      "fatigueSolve": 235,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 236,
+      "fatigueSolve": 237,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 238,
+      "fatigueSolve": 239,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 240,
+      "fatigueSolve": 241,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 242,
+      "fatigueSolve": 243,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 244,
+      "fatigueSolve": 245,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 246,
+      "fatigueSolve": 247,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 248,
+      "fatigueSolve": 249,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 250,
+      "fatigueSolve": 251,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 252,
+      "fatigueSolve": 253,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 254,
+      "fatigueSolve": 255,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 256,
+      "fatigueSolve": 257,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 258,
+      "fatigueSolve": 259,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 260,
+      "fatigueSolve": 261,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 262,
+      "fatigueSolve": 263,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 264,
+      "fatigueSolve": 265,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950033-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 266,
+      "fatigueSolve": 267,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 268,
+      "fatigueSolve": 269,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 270,
+      "fatigueSolve": 271,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 272,
+      "fatigueSolve": 273,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 274,
+      "fatigueSolve": 275,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 36,
+      "fatigueSolve": 37,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 276,
+      "fatigueSolve": 277,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 278,
+      "fatigueSolve": 279,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 280,
+      "fatigueSolve": 281,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 282,
+      "fatigueSolve": 283,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 284,
+      "fatigueSolve": 285,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 286,
+      "fatigueSolve": 287,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 38,
+      "fatigueSolve": 39,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 288,
+      "fatigueSolve": 289,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 290,
+      "fatigueSolve": 291,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 292,
+      "fatigueSolve": 293,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 294,
+      "fatigueSolve": 295,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 296,
+      "fatigueSolve": 297,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 298,
+      "fatigueSolve": 299,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 40,
+      "fatigueSolve": 41,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 300,
+      "fatigueSolve": 301,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 302,
+      "fatigueSolve": 303,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 304,
+      "fatigueSolve": 305,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 306,
+      "fatigueSolve": 307,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 308,
+      "fatigueSolve": 309,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 310,
+      "fatigueSolve": 311,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 42,
+      "fatigueSolve": 43,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 312,
+      "fatigueSolve": 313,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 314,
+      "fatigueSolve": 315,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 316,
+      "fatigueSolve": 317,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 318,
+      "fatigueSolve": 319,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 320,
+      "fatigueSolve": 321,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 322,
+      "fatigueSolve": 323,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 44,
+      "fatigueSolve": 45,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 324,
+      "fatigueSolve": 325,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 326,
+      "fatigueSolve": 327,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 328,
+      "fatigueSolve": 329,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 330,
+      "fatigueSolve": 331,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 332,
+      "fatigueSolve": 333,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 334,
+      "fatigueSolve": 335,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950033-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950033,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 46,
+      "fatigueSolve": 47,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 336,
+      "fatigueSolve": 337,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 338,
+      "fatigueSolve": 339,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 340,
+      "fatigueSolve": 341,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 342,
+      "fatigueSolve": 343,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 344,
+      "fatigueSolve": 345,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-0",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 346,
+      "fatigueSolve": 347,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 348,
+      "fatigueSolve": 349,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 350,
+      "fatigueSolve": 351,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 352,
+      "fatigueSolve": 353,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 354,
+      "fatigueSolve": 355,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 356,
+      "fatigueSolve": 357,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-1",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 358,
+      "fatigueSolve": 359,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 360,
+      "fatigueSolve": 361,
+      "cheapTimeExcludes": true,
+      "timeLPExcludes": true,
+      "cheapFatigueExcludes": true,
+      "fatigueLPExcludes": true
+    },
+    {
+      "profile": "10950063-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 362,
+      "fatigueSolve": 363,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 364,
+      "fatigueSolve": 365,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 366,
+      "fatigueSolve": 367,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 368,
+      "fatigueSolve": 369,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-2",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 370,
+      "fatigueSolve": 371,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 372,
+      "fatigueSolve": 373,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 374,
+      "fatigueSolve": 375,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 376,
+      "fatigueSolve": 377,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 378,
+      "fatigueSolve": 379,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 380,
+      "fatigueSolve": 381,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-3",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 382,
+      "fatigueSolve": 383,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 384,
+      "fatigueSolve": 385,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 386,
+      "fatigueSolve": 387,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 388,
+      "fatigueSolve": 389,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 390,
+      "fatigueSolve": 391,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 392,
+      "fatigueSolve": 393,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-4",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 394,
+      "fatigueSolve": 395,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 396,
+      "fatigueSolve": 397,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 398,
+      "fatigueSolve": 399,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 400,
+      "fatigueSolve": 401,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 402,
+      "fatigueSolve": 403,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 404,
+      "fatigueSolve": 405,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-STRICT_FULL-5",
+      "method": "STRICT_FULL",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 406,
+      "fatigueSolve": 407,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 60,
+      "fatigueSolve": 61,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 408,
+      "fatigueSolve": 409,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 410,
+      "fatigueSolve": 411,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 412,
+      "fatigueSolve": 413,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 414,
+      "fatigueSolve": 415,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-0",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 416,
+      "fatigueSolve": 417,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 418,
+      "fatigueSolve": 419,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 62,
+      "fatigueSolve": 63,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 420,
+      "fatigueSolve": 421,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 422,
+      "fatigueSolve": 423,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 424,
+      "fatigueSolve": 425,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-1",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 426,
+      "fatigueSolve": 427,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 428,
+      "fatigueSolve": 429,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 430,
+      "fatigueSolve": 431,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 64,
+      "fatigueSolve": 65,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 432,
+      "fatigueSolve": 433,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 434,
+      "fatigueSolve": 435,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-2",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 436,
+      "fatigueSolve": 437,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 438,
+      "fatigueSolve": 439,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 440,
+      "fatigueSolve": 441,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 442,
+      "fatigueSolve": 443,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 66,
+      "fatigueSolve": 67,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 444,
+      "fatigueSolve": 445,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-3",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 446,
+      "fatigueSolve": 447,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 448,
+      "fatigueSolve": 449,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 450,
+      "fatigueSolve": 451,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 452,
+      "fatigueSolve": 453,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 454,
+      "fatigueSolve": 455,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 68,
+      "fatigueSolve": 69,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-4",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 456,
+      "fatigueSolve": 457,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective0"
+      ],
+      "timeSolve": 458,
+      "fatigueSolve": 459,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective1"
+      ],
+      "timeSolve": 460,
+      "fatigueSolve": 461,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "minObjective2"
+      ],
+      "timeSolve": 462,
+      "fatigueSolve": 463,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile1"
+      ],
+      "timeSolve": 464,
+      "fatigueSolve": 465,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile2"
+      ],
+      "timeSolve": 466,
+      "fatigueSolve": 467,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    },
+    {
+      "profile": "10950063-NSGA_STRICT-5",
+      "method": "NSGA_STRICT",
+      "seed": 10950063,
+      "targetLabels": [
+        "CmaxQuartile3"
+      ],
+      "timeSolve": 70,
+      "fatigueSolve": 71,
+      "cheapTimeExcludes": false,
+      "timeLPExcludes": false,
+      "cheapFatigueExcludes": false,
+      "fatigueLPExcludes": false
+    }
+  ],
+  "prefixQA": {
+    "status": "PASS",
+    "completedProfiles": 36,
+    "fullDecodeAttempts": 72,
+    "successfulFullDecodes": 72,
+    "prefixAppendTransitions": 360,
+    "searchFE": 0,
+    "error": null
+  },
+  "ordinaryJointInformationSupported": false,
+  "fatigueJointInformationSupported": false
+}

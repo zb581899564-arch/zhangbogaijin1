@@ -1,0 +1,334 @@
+[
+  {
+    "stem": "20_8_5_1",
+    "metrics": {
+      "FORCE": {
+        "HV": {
+          "1.25": 0.15547060151154884,
+          "1.5": 0.5163467558173602,
+          "2": 2.272104338860546
+        },
+        "timeHV": 0.4782541918031564,
+        "IGDplus": 0.011822424908847958,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "PAIR_OLD": {
+        "HV": {
+          "1.25": 0.15290664875546817,
+          "1.5": 0.5106851708233326,
+          "2": 2.257363698679377
+        },
+        "timeHV": 0.48489684614709827,
+        "IGDplus": 0.023472662555893635,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "PAIR_GROUP": {
+        "HV": {
+          "1.25": 0.15290664875546817,
+          "1.5": 0.5106851708233326,
+          "2": 2.257363698679377
+        },
+        "timeHV": 0.48489684614709827,
+        "IGDplus": 0.023472662555893635,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "GROUP"
+        }
+      },
+      "FULL_ROLE": {
+        "HV": {
+          "1.25": 0.16023397594812416,
+          "1.5": 0.52670795919918,
+          "2": 2.2998973088044092
+        },
+        "timeHV": 0.5077423447852745,
+        "IGDplus": 0.0037977189194934933,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 11,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 222,
+            "retiredLineages.CENTER": 52,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 883,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 182,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 177
+          },
+          "reward": "GROUP"
+        }
+      },
+      "FULL_DUP": {
+        "HV": {
+          "1.25": 0.1585278325514656,
+          "1.5": 0.5235733420394547,
+          "2": 2.2931157182814768
+        },
+        "timeHV": 0.5135283461922043,
+        "IGDplus": 0.007717159227251895,
+        "group": {
+          "mode": "FULL_DUP",
+          "counts": {
+            "retiredLineages.MAKESPAN": 12,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 202,
+            "retiredLineages.CENTER": 50,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 775,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 212,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 175
+          },
+          "reward": "GROUP"
+        }
+      },
+      "FULL_ALL": {
+        "HV": {
+          "1.25": 0.15456950039676515,
+          "1.5": 0.5142892363959523,
+          "2": 2.2670463824044145
+        },
+        "timeHV": 0.49476222062906705,
+        "IGDplus": 0.009709660684264168,
+        "group": {
+          "mode": "FULL_ALL",
+          "counts": {
+            "retiredLineages.MAKESPAN": 11,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 157,
+            "retiredLineages.CENTER": 50,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 795,
+            "retiredLineages.ENERGY": 9,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 189,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 200
+          },
+          "reward": "GROUP"
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.165664773962809,
+          "1.5": 0.538064826458218,
+          "2": 2.3289355693292824
+        },
+        "timeHV": 0.5144302741852109,
+        "IGDplus": 0.0034251633592946792,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.15237737331271972,
+          "1.5": 0.509091120551417,
+          "2": 2.251743848041612
+        },
+        "timeHV": 0.48848293884764765,
+        "IGDplus": 0.017060301237137584,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      }
+    },
+    "fullRoleEffectsPct": {
+      "FORCE": 2.00663667682357,
+      "PAIR_OLD": 3.1375080560916313,
+      "PAIR_GROUP": 3.1375080560916313,
+      "FULL_DUP": 0.5986968602173626,
+      "FULL_ALL": 2.414735118754563,
+      "NSGA": -2.110687541832812,
+      "LI_MATCHED_DEEP": 3.460449011304978
+    },
+    "eligible": false
+  },
+  {
+    "stem": "100_2_3_1",
+    "metrics": {
+      "FORCE": {
+        "HV": {
+          "1.25": 0.286327322334464,
+          "1.5": 0.7812143954201957,
+          "2": 2.9367346277494293
+        },
+        "timeHV": 0.6926756461195919,
+        "IGDplus": 0.012672193703825257,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "PAIR_OLD": {
+        "HV": {
+          "1.25": 0.2881655016607675,
+          "1.5": 0.7873368180689797,
+          "2": 2.957443902551846
+        },
+        "timeHV": 0.7153514896605675,
+        "IGDplus": 0.008976463945608828,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "PAIR_GROUP": {
+        "HV": {
+          "1.25": 0.2881655016607675,
+          "1.5": 0.7873368180689797,
+          "2": 2.957443902551846
+        },
+        "timeHV": 0.7153514896605675,
+        "IGDplus": 0.008976463945608828,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "GROUP"
+        }
+      },
+      "FULL_ROLE": {
+        "HV": {
+          "1.25": 0.29274177153678904,
+          "1.5": 0.7979233134145404,
+          "2": 2.987874128546334
+        },
+        "timeHV": 0.7053505780582427,
+        "IGDplus": 0.008233529432799456,
+        "group": {
+          "mode": "FULL_ROLE",
+          "counts": {
+            "retiredLineages.MAKESPAN": 10,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 208,
+            "retiredLineages.CENTER": 49,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 701,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 191,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 189
+          },
+          "reward": "GROUP"
+        }
+      },
+      "FULL_DUP": {
+        "HV": {
+          "1.25": 0.28537337112712335,
+          "1.5": 0.7820191698408454,
+          "2": 2.9452304535173575
+        },
+        "timeHV": 0.704053954876823,
+        "IGDplus": 0.008606511597043441,
+        "group": {
+          "mode": "FULL_DUP",
+          "counts": {
+            "retiredLineages.MAKESPAN": 11,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 202,
+            "retiredLineages.CENTER": 50,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 673,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 162,
+            "retiredLineages.WORKER_COST": 11,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 190
+          },
+          "reward": "GROUP"
+        }
+      },
+      "FULL_ALL": {
+        "HV": {
+          "1.25": 0.2910960423227504,
+          "1.5": 0.7920669990536863,
+          "2": 2.966488008577088
+        },
+        "timeHV": 0.7017742719985489,
+        "IGDplus": 0.005607487809912042,
+        "group": {
+          "mode": "FULL_ALL",
+          "counts": {
+            "retiredLineages.MAKESPAN": 10,
+            "survivors.MAKESPAN": 1500,
+            "selectedChildren.MAKESPAN": 187,
+            "retiredLineages.CENTER": 50,
+            "survivors.CENTER": 5500,
+            "selectedChildren.CENTER": 634,
+            "retiredLineages.ENERGY": 10,
+            "survivors.ENERGY": 1500,
+            "selectedChildren.ENERGY": 243,
+            "retiredLineages.WORKER_COST": 10,
+            "survivors.WORKER_COST": 1500,
+            "selectedChildren.WORKER_COST": 259
+          },
+          "reward": "GROUP"
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.2980536455122218,
+          "1.5": 0.8092646294168275,
+          "2": 3.0175315748701887
+        },
+        "timeHV": 0.722978890341146,
+        "IGDplus": 0.00943370998290389,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.28186751327019804,
+          "1.5": 0.7742511155188145,
+          "2": 2.922967787717157
+        },
+        "timeHV": 0.6897509310556913,
+        "IGDplus": 0.015795863110269,
+        "group": {
+          "mode": "PAIR",
+          "counts": {},
+          "reward": "INDIVIDUAL"
+        }
+      }
+    },
+    "fullRoleEffectsPct": {
+      "FORCE": 2.138838978428881,
+      "PAIR_OLD": 1.3445954898343437,
+      "PAIR_GROUP": 1.3445954898343437,
+      "FULL_DUP": 2.033728096068499,
+      "FULL_ALL": 0.7393710844980195,
+      "NSGA": -1.4014347828917195,
+      "LI_MATCHED_DEEP": 3.0574315517599704
+    },
+    "eligible": false
+  }
+]

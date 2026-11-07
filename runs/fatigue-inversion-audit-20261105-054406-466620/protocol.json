@@ -1,0 +1,29 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-true-time-bench-20261105-052344-318911",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seeds": [
+    11610003,
+    11610033,
+    11610063
+  ],
+  "methods": [
+    "FULL_ANCHOR",
+    "NSGA_ANCHOR"
+  ],
+  "FECheckpoints": [
+    100,
+    5100,
+    100000
+  ],
+  "timeCheckpoints": "Actual T4/5seconds",
+  "searchFE": 0,
+  "selection": "All paid objective representatives of the predeclared fronts. Deduplicate exactly by four-vectors per instance, retain every seed/method/checkpoint reference, no gain or lambda-based sampling.",
+  "engineering": "Full decode and objective bits exact vs paid record, validator, then exact original transition replay of every operation. Four analytic derivative fixtures. All offline calls separately counted.",
+  "test": "lambda=base*beta*mu*startFatigue; lambda>1+1e-8 indicates negative instantaneous completion derivative. Split first/later stage and actual makespan-terminal operations. Hypothetical half-optimal wait only verifies local physics and is never inserted in a schedule or search archive.",
+  "directControl": "For negative first-stage operations only, preview later-available machines with EXACT same speed/power/standby, same worker and prefix. Legal MA encoding exists, but downstream schedule and HV unknown. Material local completion decrease>=0.1% of original operation duration.",
+  "gate": "Both instances >=8 unique paid genomes with material compatible-machine local witness, covering >=2 source seeds. Pass only permits a fresh guarded complete-candidate probe. Failure stops this specified delayed-equivalent-machine hypothesis, without adding waiting controls or changing thresholds.",
+  "limits": "No new search, beta tuning, adjoint selector, delay genome or decoder rule; no causal explanation of NSGA quality gap from frequencies. Zero-FE physics replay is not an online time advantage."
+}

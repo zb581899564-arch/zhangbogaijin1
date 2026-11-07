@@ -1,0 +1,215 @@
+{
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "mode": "OFF",
+      "primary": true,
+      "paidRowsReplayed": 7900,
+      "knownMixedGenomesRebuilt": 7800,
+      "neutralViewsVerified": 200,
+      "sourcePaidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700",
+      "summary": {
+        "centerPrograms": 110,
+        "archiveDominatingPrograms": 89,
+        "liveDominatingPrograms": 74,
+        "archiveOnlyPrograms": 15,
+        "archiveOnlyProgramFraction": 0.13636363636363635,
+        "distinctPhysicalWitnesses": 20,
+        "opportunityGenerations": [
+          1,
+          2
+        ],
+        "generation2MaximumMatches": 6,
+        "generation2MatchesWithoutSpecialists": 6,
+        "generation2ExtraSpecialistMatches": 0,
+        "generalChecks": {
+          "programFraction": false,
+          "distinctWitnesses": true,
+          "generation2Matching": false,
+          "bothGenerations": true
+        },
+        "generalPass": false,
+        "specialistSupplyPass": false
+      },
+      "evidence": "case-1-20_8_5_1-OFF.json"
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "REGIONAL",
+      "primary": true,
+      "paidRowsReplayed": 7900,
+      "knownMixedGenomesRebuilt": 7800,
+      "neutralViewsVerified": 200,
+      "sourcePaidSHA256": "5e6c1f7dec6bed06149d21a53a57d417aec263987d53bbc95aabec4c0240c855",
+      "summary": {
+        "centerPrograms": 110,
+        "archiveDominatingPrograms": 86,
+        "liveDominatingPrograms": 61,
+        "archiveOnlyPrograms": 25,
+        "archiveOnlyProgramFraction": 0.22727272727272727,
+        "distinctPhysicalWitnesses": 29,
+        "opportunityGenerations": [
+          1,
+          2
+        ],
+        "generation2MaximumMatches": 8,
+        "generation2MatchesWithoutSpecialists": 8,
+        "generation2ExtraSpecialistMatches": 0,
+        "generalChecks": {
+          "programFraction": true,
+          "distinctWitnesses": true,
+          "generation2Matching": false,
+          "bothGenerations": true
+        },
+        "generalPass": false,
+        "specialistSupplyPass": false
+      },
+      "evidence": "case-2-20_8_5_1-REGIONAL.json"
+    },
+    {
+      "instance": "20_8_5_1",
+      "mode": "NO_SPECIALIST",
+      "primary": false,
+      "paidRowsReplayed": 7900,
+      "knownMixedGenomesRebuilt": 7800,
+      "neutralViewsVerified": 200,
+      "sourcePaidSHA256": "0fd89fd9857577756709edf0e52eb63f155715af20856473700aec770996dfef",
+      "summary": {
+        "centerPrograms": 110,
+        "archiveDominatingPrograms": 89,
+        "liveDominatingPrograms": 64,
+        "archiveOnlyPrograms": 25,
+        "archiveOnlyProgramFraction": 0.22727272727272727,
+        "distinctPhysicalWitnesses": 40,
+        "opportunityGenerations": [
+          1,
+          2
+        ],
+        "generation2MaximumMatches": 10,
+        "generation2MatchesWithoutSpecialists": 10,
+        "generation2ExtraSpecialistMatches": 0,
+        "generalChecks": {
+          "programFraction": true,
+          "distinctWitnesses": true,
+          "generation2Matching": true,
+          "bothGenerations": true
+        },
+        "generalPass": true,
+        "specialistSupplyPass": false
+      },
+      "evidence": "case-3-20_8_5_1-NO_SPECIALIST.json"
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "OFF",
+      "primary": true,
+      "paidRowsReplayed": 39900,
+      "knownMixedGenomesRebuilt": 39800,
+      "neutralViewsVerified": 200,
+      "sourcePaidSHA256": "91214103c563ae12044c75bccdc8a9efbc51f5f0c644ae0757c32c4a751a0be0",
+      "summary": {
+        "centerPrograms": 110,
+        "archiveDominatingPrograms": 107,
+        "liveDominatingPrograms": 95,
+        "archiveOnlyPrograms": 12,
+        "archiveOnlyProgramFraction": 0.10909090909090909,
+        "distinctPhysicalWitnesses": 102,
+        "opportunityGenerations": [
+          1,
+          2
+        ],
+        "generation2MaximumMatches": 14,
+        "generation2MatchesWithoutSpecialists": 14,
+        "generation2ExtraSpecialistMatches": 0,
+        "generalChecks": {
+          "programFraction": false,
+          "distinctWitnesses": true,
+          "generation2Matching": true,
+          "bothGenerations": true
+        },
+        "generalPass": false,
+        "specialistSupplyPass": false
+      },
+      "evidence": "case-4-100_2_3_1-OFF.json"
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "REGIONAL",
+      "primary": true,
+      "paidRowsReplayed": 39900,
+      "knownMixedGenomesRebuilt": 39800,
+      "neutralViewsVerified": 200,
+      "sourcePaidSHA256": "e8303dea9b2e21c4cb780b59e9a39aabffd9d921ad30cba6d32c8a78f3247df9",
+      "summary": {
+        "centerPrograms": 110,
+        "archiveDominatingPrograms": 97,
+        "liveDominatingPrograms": 82,
+        "archiveOnlyPrograms": 15,
+        "archiveOnlyProgramFraction": 0.13636363636363635,
+        "distinctPhysicalWitnesses": 44,
+        "opportunityGenerations": [
+          1,
+          2
+        ],
+        "generation2MaximumMatches": 7,
+        "generation2MatchesWithoutSpecialists": 7,
+        "generation2ExtraSpecialistMatches": 0,
+        "generalChecks": {
+          "programFraction": false,
+          "distinctWitnesses": true,
+          "generation2Matching": false,
+          "bothGenerations": true
+        },
+        "generalPass": false,
+        "specialistSupplyPass": false
+      },
+      "evidence": "case-5-100_2_3_1-REGIONAL.json"
+    },
+    {
+      "instance": "100_2_3_1",
+      "mode": "NO_SPECIALIST",
+      "primary": false,
+      "paidRowsReplayed": 39900,
+      "knownMixedGenomesRebuilt": 39800,
+      "neutralViewsVerified": 200,
+      "sourcePaidSHA256": "c35b976fee3bb10d09a179514fc4d1676ef8fc59d5f54481b300421eb65fe23d",
+      "summary": {
+        "centerPrograms": 110,
+        "archiveDominatingPrograms": 108,
+        "liveDominatingPrograms": 101,
+        "archiveOnlyPrograms": 7,
+        "archiveOnlyProgramFraction": 0.06363636363636363,
+        "distinctPhysicalWitnesses": 28,
+        "opportunityGenerations": [
+          1,
+          2
+        ],
+        "generation2MaximumMatches": 5,
+        "generation2MatchesWithoutSpecialists": 5,
+        "generation2ExtraSpecialistMatches": 0,
+        "generalChecks": {
+          "programFraction": false,
+          "distinctWitnesses": true,
+          "generation2Matching": false,
+          "bothGenerations": true
+        },
+        "generalPass": false,
+        "specialistSupplyPass": false
+      },
+      "evidence": "case-6-100_2_3_1-NO_SPECIALIST.json"
+    }
+  ],
+  "generalCapacityPass": false,
+  "specialistCapacityPass": false,
+  "decision": "STOP_FIXED_ARCHIVE_PARENT_CAPACITY",
+  "existingPaidRowsReplayed": 143400,
+  "knownMixedGenomesRebuilt": 142800,
+  "centerPrograms": 660,
+  "seconds": 34.26600000006147,
+  "newSearchFE": 0,
+  "newObjectiveQueries": 0,
+  "newDecoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "previousStopsUnchanged": true,
+  "goalAchieved": false
+}

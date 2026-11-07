@@ -1,0 +1,127 @@
+{
+  "instances": [
+    {
+      "arm": "SHARE_CTX_GOM",
+      "groups": [
+        {
+          "origin": "GLOBAL_MAKESPAN",
+          "n": 13,
+          "objectiveReturned": 0,
+          "objectiveLocalExit": 0,
+          "objectiveSurvivors": 0,
+          "objectiveBirthTeacher": 0,
+          "objectiveEverTeacher": 0,
+          "objectiveEverCohort": 0
+        },
+        {
+          "origin": "GLOBAL_WORKER_COST",
+          "n": 5,
+          "objectiveReturned": 0,
+          "objectiveLocalExit": 0,
+          "objectiveSurvivors": 0,
+          "objectiveBirthTeacher": 0,
+          "objectiveEverTeacher": 0,
+          "objectiveEverCohort": 0
+        },
+        {
+          "origin": "LOCAL_CENTER",
+          "n": 784,
+          "objectiveReturned": 57,
+          "objectiveLocalExit": 57,
+          "objectiveSurvivors": 51,
+          "objectiveBirthTeacher": 51,
+          "objectiveEverTeacher": 51,
+          "objectiveEverCohort": 57
+        },
+        {
+          "origin": "LOCAL_ENERGY",
+          "n": 53,
+          "objectiveReturned": 4,
+          "objectiveLocalExit": 4,
+          "objectiveSurvivors": 3,
+          "objectiveBirthTeacher": 3,
+          "objectiveEverTeacher": 3,
+          "objectiveEverCohort": 4
+        },
+        {
+          "origin": "LOCAL_MAKESPAN",
+          "n": 86,
+          "objectiveReturned": 1,
+          "objectiveLocalExit": 1,
+          "objectiveSurvivors": 0,
+          "objectiveBirthTeacher": 0,
+          "objectiveEverTeacher": 0,
+          "objectiveEverCohort": 1
+        },
+        {
+          "origin": "LOCAL_WORKER_COST",
+          "n": 101,
+          "objectiveReturned": 6,
+          "objectiveLocalExit": 6,
+          "objectiveSurvivors": 3,
+          "objectiveBirthTeacher": 3,
+          "objectiveEverTeacher": 3,
+          "objectiveEverCohort": 6
+        }
+      ]
+    },
+    {
+      "arm": "UNIFORM_CTX_GOM",
+      "groups": [
+        {
+          "origin": "GLOBAL_ENERGY",
+          "n": 1,
+          "objectiveReturned": 0,
+          "objectiveLocalExit": 0,
+          "objectiveSurvivors": 0,
+          "objectiveBirthTeacher": 0,
+          "objectiveEverTeacher": 0,
+          "objectiveEverCohort": 0
+        },
+        {
+          "origin": "LOCAL_CENTER",
+          "n": 617,
+          "objectiveReturned": 57,
+          "objectiveLocalExit": 57,
+          "objectiveSurvivors": 25,
+          "objectiveBirthTeacher": 25,
+          "objectiveEverTeacher": 25,
+          "objectiveEverCohort": 57
+        },
+        {
+          "origin": "LOCAL_ENERGY",
+          "n": 101,
+          "objectiveReturned": 12,
+          "objectiveLocalExit": 12,
+          "objectiveSurvivors": 9,
+          "objectiveBirthTeacher": 9,
+          "objectiveEverTeacher": 9,
+          "objectiveEverCohort": 12
+        },
+        {
+          "origin": "LOCAL_MAKESPAN",
+          "n": 107,
+          "objectiveReturned": 11,
+          "objectiveLocalExit": 11,
+          "objectiveSurvivors": 7,
+          "objectiveBirthTeacher": 7,
+          "objectiveEverTeacher": 7,
+          "objectiveEverCohort": 11
+        },
+        {
+          "origin": "LOCAL_WORKER_COST",
+          "n": 135,
+          "objectiveReturned": 18,
+          "objectiveLocalExit": 18,
+          "objectiveSurvivors": 10,
+          "objectiveBirthTeacher": 10,
+          "objectiveEverTeacher": 10,
+          "objectiveEverCohort": 18
+        }
+      ]
+    }
+  ],
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "caution": "Equal objective vectors are not proof of identical physical schedules; distinguishes score availability from exact raw genotype availability"
+}

@@ -1,0 +1,704 @@
+Compiled from "DynamicValidator.java"
+public final class org.uma.jmetal.util.research.model.DynamicValidator {
+  private static final double TOLERANCE;
+
+  private org.uma.jmetal.util.research.model.DynamicValidator();
+    Code:
+       0: aload_0
+       1: invokespecial #11                 // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void validate(org.uma.jmetal.util.research.model.Instance, org.uma.jmetal.util.research.model.DynamicParameters, org.uma.jmetal.util.research.model.DynamicSchedule);
+    Code:
+       0: aload_1
+       1: ifnull        8
+       4: aload_2
+       5: ifnonnull     13
+       8: ldc           #17                 // String Parameters and schedule are required
+      10: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+      13: aload_1
+      14: aload_0
+      15: invokevirtual #23                 // Method org/uma/jmetal/util/research/model/DynamicParameters.validateFor:(Lorg/uma/jmetal/util/research/model/Instance;)V
+      18: aload_2
+      19: aload_0
+      20: aload_1
+      21: invokevirtual #29                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.validateContext:(Lorg/uma/jmetal/util/research/model/Instance;Lorg/uma/jmetal/util/research/model/DynamicParameters;)V
+      24: aload_2
+      25: invokevirtual #35                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.js:()[I
+      28: astore_3
+      29: aload_2
+      30: invokevirtual #39                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.fa:()[I
+      33: astore        4
+      35: aload_2
+      36: invokevirtual #42                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.ma:()[I
+      39: astore        5
+      41: aload_2
+      42: invokevirtual #45                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.wa:()[I
+      45: astore        6
+      47: aload_0
+      48: aload_3
+      49: aload         4
+      51: aload         5
+      53: aload         6
+      55: invokestatic  #48                 // Method org/uma/jmetal/util/research/model/Encoding.validate:(Lorg/uma/jmetal/util/research/model/Instance;[I[I[I[I)V
+      58: aload_2
+      59: invokevirtual #54                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.steps:()Ljava/util/List;
+      62: invokeinterface #58,  1           // InterfaceMethod java/util/List.size:()I
+      67: aload_0
+      68: invokevirtual #64                 // Method org/uma/jmetal/util/research/model/Instance.jobs:()I
+      71: aload_0
+      72: invokevirtual #69                 // Method org/uma/jmetal/util/research/model/Instance.stages:()I
+      75: imul
+      76: if_icmpeq     84
+      79: ldc           #72                 // String Missing or extra operations
+      81: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+      84: new           #74                 // class org/uma/jmetal/util/research/model/DynamicValidator$Audit
+      87: dup
+      88: aload_0
+      89: aload_1
+      90: invokespecial #76                 // Method org/uma/jmetal/util/research/model/DynamicValidator$Audit."<init>":(Lorg/uma/jmetal/util/research/model/Instance;Lorg/uma/jmetal/util/research/model/DynamicParameters;)V
+      93: astore        7
+      95: iconst_0
+      96: istore        8
+      98: iconst_0
+      99: istore        9
+     101: iload         9
+     103: aload_0
+     104: invokevirtual #78                 // Method org/uma/jmetal/util/research/model/Instance.factories:()I
+     107: if_icmpge     367
+     110: new           #81                 // class java/util/ArrayList
+     113: dup
+     114: invokespecial #83                 // Method java/util/ArrayList."<init>":()V
+     117: astore        10
+     119: iconst_0
+     120: istore        11
+     122: iload         11
+     124: aload_3
+     125: arraylength
+     126: if_icmpge     158
+     129: aload         4
+     131: iload         11
+     133: iaload
+     134: iload         9
+     136: if_icmpne     152
+     139: aload         10
+     141: iload         11
+     143: invokestatic  #84                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     146: invokeinterface #90,  2           // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     151: pop
+     152: iinc          11, 1
+     155: goto          122
+     158: aload_0
+     159: invokevirtual #64                 // Method org/uma/jmetal/util/research/model/Instance.jobs:()I
+     162: newarray       double
+     164: astore        11
+     166: iconst_0
+     167: istore        12
+     169: iload         12
+     171: aload_0
+     172: invokevirtual #69                 // Method org/uma/jmetal/util/research/model/Instance.stages:()I
+     175: if_icmpge     361
+     178: iload         12
+     180: ifle          191
+     183: aload         10
+     185: aload_3
+     186: aload         11
+     188: invokestatic  #94                 // Method stableSort:(Ljava/util/List;[I[D)V
+     191: new           #98                 // class org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit
+     194: dup
+     195: aload_0
+     196: aload_1
+     197: iload         9
+     199: iload         12
+     201: invokespecial #100                // Method org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit."<init>":(Lorg/uma/jmetal/util/research/model/Instance;Lorg/uma/jmetal/util/research/model/DynamicParameters;II)V
+     204: astore        13
+     206: aload         10
+     208: invokeinterface #103,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     213: astore        14
+     215: aload         14
+     217: invokeinterface #107,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     222: ifeq          355
+     225: aload         14
+     227: invokeinterface #113,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     232: checkcast     #85                 // class java/lang/Integer
+     235: invokevirtual #117                // Method java/lang/Integer.intValue:()I
+     238: istore        15
+     240: aload_2
+     241: invokevirtual #54                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.steps:()Ljava/util/List;
+     244: iload         8
+     246: iinc          8, 1
+     249: invokeinterface #120,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     254: checkcast     #124                // class org/uma/jmetal/util/research/model/DynamicStep
+     257: astore        16
+     259: iload         12
+     261: ifne          272
+     264: aload         5
+     266: iload         15
+     268: iaload
+     269: goto          280
+     272: aload         13
+     274: getfield      #126                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.machineEnd:[D
+     277: invokestatic  #130                // Method earliest:([D)I
+     280: istore        17
+     282: iload         12
+     284: ifne          295
+     287: aload         6
+     289: iload         15
+     291: iaload
+     292: goto          303
+     295: aload         13
+     297: getfield      #134                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.workerEnd:[D
+     300: invokestatic  #130                // Method earliest:([D)I
+     303: istore        18
+     305: aload_0
+     306: aload_1
+     307: aload         16
+     309: aload_3
+     310: iload         15
+     312: iaload
+     313: iload         9
+     315: iload         12
+     317: iload         17
+     319: iload         18
+     321: aload         11
+     323: aload_3
+     324: iload         15
+     326: iaload
+     327: daload
+     328: aload         13
+     330: invokestatic  #137                // Method auditOperation:(Lorg/uma/jmetal/util/research/model/Instance;Lorg/uma/jmetal/util/research/model/DynamicParameters;Lorg/uma/jmetal/util/research/model/DynamicStep;IIIIIDLorg/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit;)V
+     333: aload         11
+     335: aload_3
+     336: iload         15
+     338: iaload
+     339: aload         16
+     341: invokevirtual #141                // Method org/uma/jmetal/util/research/model/DynamicStep.completion:()D
+     344: dastore
+     345: aload         7
+     347: aload         16
+     349: invokevirtual #145                // Method org/uma/jmetal/util/research/model/DynamicValidator$Audit.add:(Lorg/uma/jmetal/util/research/model/DynamicStep;)V
+     352: goto          215
+     355: iinc          12, 1
+     358: goto          169
+     361: iinc          9, 1
+     364: goto          101
+     367: aload         7
+     369: aload_2
+     370: invokevirtual #148                // Method org/uma/jmetal/util/research/model/DynamicValidator$Audit.check:(Lorg/uma/jmetal/util/research/model/DynamicSchedule;)V
+     373: aload_2
+     374: invokevirtual #152                // Method org/uma/jmetal/util/research/model/DynamicSchedule.reusedOperations:()I
+     377: iflt          408
+     380: aload_2
+     381: invokevirtual #155                // Method org/uma/jmetal/util/research/model/DynamicSchedule.recomputedOperations:()I
+     384: iflt          408
+     387: aload_2
+     388: invokevirtual #152                // Method org/uma/jmetal/util/research/model/DynamicSchedule.reusedOperations:()I
+     391: aload_2
+     392: invokevirtual #155                // Method org/uma/jmetal/util/research/model/DynamicSchedule.recomputedOperations:()I
+     395: iadd
+     396: aload_2
+     397: invokevirtual #54                 // Method org/uma/jmetal/util/research/model/DynamicSchedule.steps:()Ljava/util/List;
+     400: invokeinterface #58,  1           // InterfaceMethod java/util/List.size:()I
+     405: if_icmpeq     413
+     408: ldc           #158                // String Invalid operation work counters
+     410: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+     413: return
+
+  private static void auditOperation(org.uma.jmetal.util.research.model.Instance, org.uma.jmetal.util.research.model.DynamicParameters, org.uma.jmetal.util.research.model.DynamicStep, int, int, int, int, int, double, org.uma.jmetal.util.research.model.DynamicValidator$ResourceAudit);
+    Code:
+       0: aload_2
+       1: invokevirtual #160                // Method org/uma/jmetal/util/research/model/DynamicStep.job:()I
+       4: iload_3
+       5: if_icmpne     44
+       8: aload_2
+       9: invokevirtual #163                // Method org/uma/jmetal/util/research/model/DynamicStep.factory:()I
+      12: iload         4
+      14: if_icmpne     44
+      17: aload_2
+      18: invokevirtual #166                // Method org/uma/jmetal/util/research/model/DynamicStep.stage:()I
+      21: iload         5
+      23: if_icmpne     44
+      26: aload_2
+      27: invokevirtual #169                // Method org/uma/jmetal/util/research/model/DynamicStep.machine:()I
+      30: iload         6
+      32: if_icmpne     44
+      35: aload_2
+      36: invokevirtual #172                // Method org/uma/jmetal/util/research/model/DynamicStep.worker:()I
+      39: iload         7
+      41: if_icmpeq     49
+      44: ldc           #175                // String Wrong operation order or resource binding
+      46: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+      49: dload         8
+      51: aload         10
+      53: getfield      #126                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.machineEnd:[D
+      56: iload         6
+      58: daload
+      59: invokestatic  #177                // Method java/lang/Math.max:(DD)D
+      62: aload         10
+      64: getfield      #134                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.workerEnd:[D
+      67: iload         7
+      69: daload
+      70: invokestatic  #177                // Method java/lang/Math.max:(DD)D
+      73: dstore        11
+      75: aload         10
+      77: getfield      #183                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.fatigue:[D
+      80: iload         7
+      82: daload
+      83: aload_1
+      84: iload         4
+      86: iload         5
+      88: iload         7
+      90: invokevirtual #186                // Method org/uma/jmetal/util/research/model/DynamicParameters.mu:(III)D
+      93: dneg
+      94: dload         11
+      96: aload         10
+      98: getfield      #134                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.workerEnd:[D
+     101: iload         7
+     103: daload
+     104: dsub
+     105: dmul
+     106: invokestatic  #190                // Method java/lang/Math.exp:(D)D
+     109: dmul
+     110: dstore        13
+     112: aload_0
+     113: iload_3
+     114: iload         5
+     116: invokevirtual #194                // Method org/uma/jmetal/util/research/model/Instance.processing:(II)D
+     119: aload_0
+     120: iload         4
+     122: iload         5
+     124: iload         6
+     126: invokevirtual #198                // Method org/uma/jmetal/util/research/model/Instance.speed:(III)D
+     129: ddiv
+     130: aload_0
+     131: iload_3
+     132: iload         5
+     134: invokevirtual #201                // Method org/uma/jmetal/util/research/model/Instance.setup:(II)D
+     137: dadd
+     138: aload_0
+     139: iload         4
+     141: iload         5
+     143: iload         7
+     145: invokevirtual #204                // Method org/uma/jmetal/util/research/model/Instance.efficiency:(III)D
+     148: ddiv
+     149: dstore        15
+     151: dload         15
+     153: dconst_1
+     154: aload_1
+     155: iload         4
+     157: iload         5
+     159: iload         7
+     161: invokevirtual #207                // Method org/uma/jmetal/util/research/model/DynamicParameters.beta:(III)D
+     164: dload         13
+     166: dmul
+     167: dadd
+     168: dmul
+     169: dstore        17
+     171: dconst_1
+     172: dconst_1
+     173: dload         13
+     175: dsub
+     176: aload_1
+     177: iload         4
+     179: iload         5
+     181: iload         7
+     183: invokevirtual #210                // Method org/uma/jmetal/util/research/model/DynamicParameters.alpha:(III)D
+     186: dneg
+     187: dload         17
+     189: dmul
+     190: invokestatic  #190                // Method java/lang/Math.exp:(D)D
+     193: dmul
+     194: dsub
+     195: dstore        19
+     197: aload_0
+     198: iload         4
+     200: iload         5
+     202: iload         6
+     204: invokevirtual #213                // Method org/uma/jmetal/util/research/model/Instance.power:(III)D
+     207: dload         17
+     209: dmul
+     210: dstore        21
+     212: aload         10
+     214: getfield      #216                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.used:[Z
+     217: iload         6
+     219: baload
+     220: ifeq          250
+     223: dload         21
+     225: aload_0
+     226: iload         4
+     228: iload         5
+     230: iload         6
+     232: invokevirtual #220                // Method org/uma/jmetal/util/research/model/Instance.standby:(III)D
+     235: dload         11
+     237: aload         10
+     239: getfield      #126                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.machineEnd:[D
+     242: iload         6
+     244: daload
+     245: dsub
+     246: dmul
+     247: dadd
+     248: dstore        21
+     250: aload_2
+     251: invokevirtual #223                // Method org/uma/jmetal/util/research/model/DynamicStep.start:()D
+     254: dconst_0
+     255: dcmpg
+     256: iflt          313
+     259: aload_2
+     260: invokevirtual #226                // Method org/uma/jmetal/util/research/model/DynamicStep.duration:()D
+     263: dconst_0
+     264: dcmpg
+     265: ifle          313
+     268: aload_2
+     269: invokevirtual #229                // Method org/uma/jmetal/util/research/model/DynamicStep.u:()D
+     272: dconst_0
+     273: dcmpg
+     274: iflt          313
+     277: aload_2
+     278: invokevirtual #229                // Method org/uma/jmetal/util/research/model/DynamicStep.u:()D
+     281: dconst_1
+     282: dcmpl
+     283: ifgt          313
+     286: aload_2
+     287: invokevirtual #232                // Method org/uma/jmetal/util/research/model/DynamicStep.v:()D
+     290: dconst_0
+     291: dcmpg
+     292: iflt          313
+     295: aload_2
+     296: invokevirtual #232                // Method org/uma/jmetal/util/research/model/DynamicStep.v:()D
+     299: dconst_1
+     300: dcmpl
+     301: ifgt          313
+     304: aload_2
+     305: invokevirtual #235                // Method org/uma/jmetal/util/research/model/DynamicStep.exposure:()D
+     308: dconst_0
+     309: dcmpg
+     310: ifge          318
+     313: ldc           #238                // String Invalid transition range
+     315: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+     318: aload_2
+     319: invokevirtual #223                // Method org/uma/jmetal/util/research/model/DynamicStep.start:()D
+     322: dload         11
+     324: ldc           #240                // String start/resource/precedence
+     326: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     329: aload_2
+     330: invokevirtual #242                // Method org/uma/jmetal/util/research/model/DynamicStep.base:()D
+     333: dload         15
+     335: ldc           #245                // String base
+     337: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     340: aload_2
+     341: invokevirtual #226                // Method org/uma/jmetal/util/research/model/DynamicStep.duration:()D
+     344: dload         17
+     346: ldc           #246                // String duration
+     348: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     351: aload_2
+     352: invokevirtual #141                // Method org/uma/jmetal/util/research/model/DynamicStep.completion:()D
+     355: dload         11
+     357: dload         17
+     359: dadd
+     360: ldc           #247                // String completion
+     362: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     365: aload_2
+     366: invokevirtual #248                // Method org/uma/jmetal/util/research/model/DynamicStep.setupDuration:()D
+     369: aload_0
+     370: iload_3
+     371: iload         5
+     373: invokevirtual #201                // Method org/uma/jmetal/util/research/model/Instance.setup:(II)D
+     376: aload_0
+     377: iload         4
+     379: iload         5
+     381: iload         7
+     383: invokevirtual #204                // Method org/uma/jmetal/util/research/model/Instance.efficiency:(III)D
+     386: ddiv
+     387: dconst_1
+     388: aload_1
+     389: iload         4
+     391: iload         5
+     393: iload         7
+     395: invokevirtual #207                // Method org/uma/jmetal/util/research/model/DynamicParameters.beta:(III)D
+     398: dload         13
+     400: dmul
+     401: dadd
+     402: dmul
+     403: ldc           #251                // String setup
+     405: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     408: aload_2
+     409: invokevirtual #229                // Method org/uma/jmetal/util/research/model/DynamicStep.u:()D
+     412: dload         13
+     414: ldc           #252                // String recovery continuity
+     416: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     419: aload_2
+     420: invokevirtual #232                // Method org/uma/jmetal/util/research/model/DynamicStep.v:()D
+     423: dload         19
+     425: ldc           #254                // String fatigue continuity
+     427: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     430: aload_2
+     431: invokevirtual #256                // Method org/uma/jmetal/util/research/model/DynamicStep.energy:()D
+     434: dload         21
+     436: ldc_w         #259                // String operation energy
+     439: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     442: aload_2
+     443: invokevirtual #261                // Method org/uma/jmetal/util/research/model/DynamicStep.labor:()D
+     446: aload_0
+     447: iload         4
+     449: iload         5
+     451: iload         7
+     453: invokevirtual #264                // Method org/uma/jmetal/util/research/model/Instance.cost:(III)D
+     456: dload         17
+     458: dmul
+     459: ldc_w         #267                // String operation labor
+     462: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     465: aload_2
+     466: invokevirtual #235                // Method org/uma/jmetal/util/research/model/DynamicStep.exposure:()D
+     469: dload         13
+     471: aload_1
+     472: iload         4
+     474: iload         5
+     476: iload         7
+     478: invokevirtual #210                // Method org/uma/jmetal/util/research/model/DynamicParameters.alpha:(III)D
+     481: dload         17
+     483: invokestatic  #269                // Method independentIntegral:(DDD)D
+     486: ldc_w         #273                // String work exposure
+     489: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+     492: aload         10
+     494: getfield      #126                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.machineEnd:[D
+     497: iload         6
+     499: aload_2
+     500: invokevirtual #141                // Method org/uma/jmetal/util/research/model/DynamicStep.completion:()D
+     503: dastore
+     504: aload         10
+     506: getfield      #216                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.used:[Z
+     509: iload         6
+     511: iconst_1
+     512: bastore
+     513: aload         10
+     515: getfield      #134                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.workerEnd:[D
+     518: iload         7
+     520: aload_2
+     521: invokevirtual #141                // Method org/uma/jmetal/util/research/model/DynamicStep.completion:()D
+     524: dastore
+     525: aload         10
+     527: getfield      #183                // Field org/uma/jmetal/util/research/model/DynamicValidator$ResourceAudit.fatigue:[D
+     530: iload         7
+     532: aload_2
+     533: invokevirtual #232                // Method org/uma/jmetal/util/research/model/DynamicStep.v:()D
+     536: dastore
+     537: return
+
+  private static double independentIntegral(double, double, double);
+    Code:
+       0: dload_2
+       1: dconst_0
+       2: dcmpl
+       3: ifne          11
+       6: dload_0
+       7: dload         4
+       9: dmul
+      10: dreturn
+      11: dload_2
+      12: dload         4
+      14: dmul
+      15: dstore        6
+      17: dload         6
+      19: ldc2_w        #275                // double 1.0E-4d
+      22: dcmpg
+      23: ifge          107
+      26: dload         6
+      28: ldc2_w        #277                // double 2.0d
+      31: ddiv
+      32: dload         6
+      34: dload         6
+      36: dmul
+      37: ldc2_w        #279                // double 6.0d
+      40: ddiv
+      41: dsub
+      42: dload         6
+      44: dload         6
+      46: dmul
+      47: dload         6
+      49: dmul
+      50: ldc2_w        #281                // double 24.0d
+      53: ddiv
+      54: dadd
+      55: dload         6
+      57: dload         6
+      59: dmul
+      60: dload         6
+      62: dmul
+      63: dload         6
+      65: dmul
+      66: ldc2_w        #283                // double 120.0d
+      69: ddiv
+      70: dsub
+      71: dload         6
+      73: dload         6
+      75: dmul
+      76: dload         6
+      78: dmul
+      79: dload         6
+      81: dmul
+      82: dload         6
+      84: dmul
+      85: ldc2_w        #285                // double 720.0d
+      88: ddiv
+      89: dadd
+      90: dstore        8
+      92: dload_0
+      93: dload         4
+      95: dmul
+      96: dconst_1
+      97: dload_0
+      98: dsub
+      99: dload         4
+     101: dmul
+     102: dload         8
+     104: dmul
+     105: dadd
+     106: dreturn
+     107: dload         4
+     109: dconst_1
+     110: dload_0
+     111: dsub
+     112: dload         6
+     114: dneg
+     115: invokestatic  #287                // Method java/lang/Math.expm1:(D)D
+     118: dmul
+     119: dload_2
+     120: ddiv
+     121: dadd
+     122: dreturn
+
+  private static void stableSort(java.util.List<java.lang.Integer>, int[], double[]);
+    Code:
+       0: aload_0
+       1: new           #290                // class org/uma/jmetal/util/research/model/DynamicValidator$1
+       4: dup
+       5: aload_2
+       6: aload_1
+       7: invokespecial #292                // Method org/uma/jmetal/util/research/model/DynamicValidator$1."<init>":([D[I)V
+      10: invokestatic  #295                // Method java/util/Collections.sort:(Ljava/util/List;Ljava/util/Comparator;)V
+      13: return
+
+  private static int earliest(double[]);
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iconst_1
+       3: istore_2
+       4: iload_2
+       5: aload_0
+       6: arraylength
+       7: if_icmpge     28
+      10: aload_0
+      11: iload_2
+      12: daload
+      13: aload_0
+      14: iload_1
+      15: daload
+      16: dcmpg
+      17: ifge          22
+      20: iload_2
+      21: istore_1
+      22: iinc          2, 1
+      25: goto          4
+      28: iload_1
+      29: ireturn
+
+  private static void close(double, double, java.lang.String);
+    Code:
+       0: dload_0
+       1: invokestatic  #301                // Method java/lang/Double.isFinite:(D)Z
+       4: ifeq          36
+       7: dload_2
+       8: invokestatic  #301                // Method java/lang/Double.isFinite:(D)Z
+      11: ifeq          36
+      14: dload_0
+      15: dload_2
+      16: dsub
+      17: invokestatic  #307                // Method java/lang/Math.abs:(D)D
+      20: ldc2_w        #310                // double 1.0E-9d
+      23: dconst_1
+      24: dload_2
+      25: invokestatic  #307                // Method java/lang/Math.abs:(D)D
+      28: invokestatic  #177                // Method java/lang/Math.max:(DD)D
+      31: dmul
+      32: dcmpl
+      33: ifle          80
+      36: new           #312                // class java/lang/StringBuilder
+      39: dup
+      40: invokespecial #314                // Method java/lang/StringBuilder."<init>":()V
+      43: ldc_w         #315                // String Dynamic schedule has wrong
+      46: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      49: aload         4
+      51: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      54: ldc_w         #321                // String :
+      57: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      60: dload_0
+      61: invokevirtual #323                // Method java/lang/StringBuilder.append:(D)Ljava/lang/StringBuilder;
+      64: ldc_w         #326                // String  !=
+      67: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      70: dload_2
+      71: invokevirtual #323                // Method java/lang/StringBuilder.append:(D)Ljava/lang/StringBuilder;
+      74: invokevirtual #328                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      77: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+      80: return
+
+  private static void checkArray(double[], double[], java.lang.String);
+    Code:
+       0: aload_0
+       1: arraylength
+       2: aload_1
+       3: arraylength
+       4: if_icmpeq     36
+       7: new           #312                // class java/lang/StringBuilder
+      10: dup
+      11: invokespecial #314                // Method java/lang/StringBuilder."<init>":()V
+      14: ldc_w         #332                // String Wrong
+      17: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      20: aload_2
+      21: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      24: ldc_w         #334                // String  count
+      27: invokevirtual #317                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      30: invokevirtual #328                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      33: invokestatic  #19                 // Method fail:(Ljava/lang/String;)V
+      36: iconst_0
+      37: istore_3
+      38: iload_3
+      39: aload_0
+      40: arraylength
+      41: if_icmpge     60
+      44: aload_0
+      45: iload_3
+      46: daload
+      47: aload_1
+      48: iload_3
+      49: daload
+      50: aload_2
+      51: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+      54: iinc          3, 1
+      57: goto          38
+      60: return
+
+  private static void fail(java.lang.String);
+    Code:
+       0: new           #336                // class java/lang/IllegalStateException
+       3: dup
+       4: aload_0
+       5: invokespecial #338                // Method java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+       8: athrow
+
+  static void access$000(double[], double[], java.lang.String);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokestatic  #7                  // Method checkArray:([D[DLjava/lang/String;)V
+       6: return
+
+  static void access$100(double, double, java.lang.String);
+    Code:
+       0: dload_0
+       1: dload_2
+       2: aload         4
+       4: invokestatic  #1                  // Method close:(DDLjava/lang/String;)V
+       7: return
+}

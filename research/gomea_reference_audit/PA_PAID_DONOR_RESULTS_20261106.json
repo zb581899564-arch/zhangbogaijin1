@@ -1,0 +1,54 @@
+{
+  "runDirectory": "runs\\pa-paid-donor-probe-20261106-001143-747475",
+  "decision": "STOP_FIXED_PAID_JOINT_SUPPLY",
+  "status": "COMPLETE",
+  "totalActualFE": 3137200,
+  "totalFullQA": 123751,
+  "totalFailedEvaluations": 0,
+  "readiness": {
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "controls": {
+          "NONE_S": false,
+          "INIT_S": false,
+          "INHERIT_S": false,
+          "SELF_S": false,
+          "PURE": false,
+          "GRAFT_U": false,
+          "GRAFT_N": false,
+          "SELF_N": false
+        },
+        "pass": false
+      },
+      {
+        "stem": "100_2_3_1",
+        "controls": {
+          "NONE_S": false,
+          "INIT_S": false,
+          "INHERIT_S": false,
+          "SELF_S": false,
+          "PURE": false,
+          "GRAFT_U": false,
+          "GRAFT_N": false,
+          "SELF_N": false
+        },
+        "pass": false
+      }
+    ],
+    "pass": false,
+    "scope": "Further study of this fixed50k+50k/100slot staged mechanism only, not paper or finalalgorithm approval"
+  },
+  "indicators": [
+    "HV",
+    "IGD+",
+    "C(A,B)",
+    "C(B,A)"
+  ],
+  "postAudit": "runs\\pa-paid-donor-probe-20261106-001143-747475\\post-audit.json",
+  "zeroFEDiagnosis": "runs\\pa-paid-donor-probe-20261106-001143-747475\\source-scope-diagnosis.json",
+  "report": "docs/已付费联合供体完整成本与三指标结果-2026-11-06.md",
+  "defaultMainlineChanged": false,
+  "sameTimeProved": false,
+  "goalAchieved": false
+}

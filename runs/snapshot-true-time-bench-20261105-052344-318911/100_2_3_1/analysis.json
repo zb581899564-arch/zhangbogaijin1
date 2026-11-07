@@ -1,0 +1,538 @@
+{
+  "stem": "100_2_3_1",
+  "seconds": 5.0,
+  "observations": [
+    {
+      "seed": 11610003,
+      "method": "FULL_SERIAL",
+      "successfulFE": 116265,
+      "attemptedFE": 116266,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0015639,
+      "deadlineOvershootSeconds": 0.0015638999999998404,
+      "HV": {
+        "1.25": 0.2463746582876932,
+        "1.5": 0.7064909585695756,
+        "2.0": 2.7623706626012106
+      },
+      "IGDplus": 0.00811705930099445,
+      "rawObjectiveMin": [
+        912.3409215500791,
+        57842.157821136825,
+        65230.91992035427
+      ]
+    },
+    {
+      "seed": 11610003,
+      "method": "FULL_ANCHOR",
+      "successfulFE": 146511,
+      "attemptedFE": 146512,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0032789,
+      "deadlineOvershootSeconds": 0.0032788999999997515,
+      "HV": {
+        "1.25": 0.2470778186325067,
+        "1.5": 0.7075697545025323,
+        "2.0": 2.764200729710454
+      },
+      "IGDplus": 0.006362766027571596,
+      "rawObjectiveMin": [
+        912.3409215500791,
+        57842.157821136825,
+        65230.91992035427
+      ]
+    },
+    {
+      "seed": 11610003,
+      "method": "NSGA_SERIAL",
+      "successfulFE": 137963,
+      "attemptedFE": 137963,
+      "timeInterruptedAttempts": 0,
+      "searchSeconds": 5.006194,
+      "deadlineOvershootSeconds": 0.006193999999999811,
+      "HV": {
+        "1.25": 0.23705842764665458,
+        "1.5": 0.6896985907722575,
+        "2.0": 2.7241318366117397
+      },
+      "IGDplus": 0.014878317723959644,
+      "rawObjectiveMin": [
+        913.8760676470723,
+        58003.802317311136,
+        66394.54867457764
+      ]
+    },
+    {
+      "seed": 11610003,
+      "method": "NSGA_ANCHOR",
+      "successfulFE": 166933,
+      "attemptedFE": 166934,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0154332,
+      "deadlineOvershootSeconds": 0.015433200000000369,
+      "HV": {
+        "1.25": 0.24747470554377196,
+        "1.5": 0.7082619168141133,
+        "2.0": 2.76582473931601
+      },
+      "IGDplus": 0.00885724670789555,
+      "rawObjectiveMin": [
+        913.8760676470723,
+        58003.802317311136,
+        64998.21452274957
+      ]
+    },
+    {
+      "seed": 11610003,
+      "method": "LI_ANCHOR",
+      "successfulFE": 171055,
+      "attemptedFE": 171056,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0075906,
+      "deadlineOvershootSeconds": 0.007590600000000336,
+      "HV": {
+        "1.25": 0.24711827389899635,
+        "1.5": 0.6984220507310525,
+        "2.0": 2.71997172565502
+      },
+      "IGDplus": 0.022019796338023073,
+      "rawObjectiveMin": [
+        1137.7143680314468,
+        57645.26285410829,
+        63628.05516287519
+      ]
+    },
+    {
+      "seed": 11610003,
+      "method": "FORCE_ANCHOR",
+      "successfulFE": 175414,
+      "attemptedFE": 175415,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0072878,
+      "deadlineOvershootSeconds": 0.0072878000000002885,
+      "HV": {
+        "1.25": 0.23909627016486318,
+        "1.5": 0.6859069903977544,
+        "2.0": 2.696505637614532
+      },
+      "IGDplus": 0.02235519937425143,
+      "rawObjectiveMin": [
+        1099.1385858178596,
+        57536.8421274224,
+        65000.216765133526
+      ]
+    },
+    {
+      "seed": 11610033,
+      "method": "FULL_SERIAL",
+      "successfulFE": 117250,
+      "attemptedFE": 117251,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0070104,
+      "deadlineOvershootSeconds": 0.007010400000000416,
+      "HV": {
+        "1.25": 0.2497646555137139,
+        "1.5": 0.7121010137682087,
+        "2.0": 2.7742940981084514
+      },
+      "IGDplus": 0.014783956900078457,
+      "rawObjectiveMin": [
+        914.6303427120422,
+        58444.38835065565,
+        64319.72231094413
+      ]
+    },
+    {
+      "seed": 11610033,
+      "method": "FULL_ANCHOR",
+      "successfulFE": 148788,
+      "attemptedFE": 148789,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0124509,
+      "deadlineOvershootSeconds": 0.012450900000000154,
+      "HV": {
+        "1.25": 0.25178748142983537,
+        "1.5": 0.716131406063775,
+        "2.0": 2.7841085592335673
+      },
+      "IGDplus": 0.009614472914508997,
+      "rawObjectiveMin": [
+        914.6303427120422,
+        57987.210929469635,
+        64319.72231094413
+      ]
+    },
+    {
+      "seed": 11610033,
+      "method": "NSGA_SERIAL",
+      "successfulFE": 134705,
+      "attemptedFE": 134706,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0150845,
+      "deadlineOvershootSeconds": 0.01508450000000039,
+      "HV": {
+        "1.25": 0.2358016915667313,
+        "1.5": 0.6823802543733348,
+        "2.0": 2.695347230780099
+      },
+      "IGDplus": 0.012367276704214983,
+      "rawObjectiveMin": [
+        975.4693957898576,
+        59741.12031611097,
+        65516.758063429814
+      ]
+    },
+    {
+      "seed": 11610033,
+      "method": "NSGA_ANCHOR",
+      "successfulFE": 173065,
+      "attemptedFE": 173066,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0189058,
+      "deadlineOvershootSeconds": 0.01890579999999975,
+      "HV": {
+        "1.25": 0.23609146006728202,
+        "1.5": 0.6828344218715433,
+        "2.0": 2.696130196273623
+      },
+      "IGDplus": 0.012193030097501358,
+      "rawObjectiveMin": [
+        975.4693957898576,
+        59741.12031611097,
+        65516.758063429814
+      ]
+    },
+    {
+      "seed": 11610033,
+      "method": "LI_ANCHOR",
+      "successfulFE": 169767,
+      "attemptedFE": 169768,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0114228,
+      "deadlineOvershootSeconds": 0.011422800000000066,
+      "HV": {
+        "1.25": 0.24452268998180024,
+        "1.5": 0.699913275625934,
+        "2.0": 2.7402142531614553
+      },
+      "IGDplus": 0.019331763027534365,
+      "rawObjectiveMin": [
+        959.3621046507634,
+        59206.4748557273,
+        64325.38186406049
+      ]
+    },
+    {
+      "seed": 11610033,
+      "method": "FORCE_ANCHOR",
+      "successfulFE": 173611,
+      "attemptedFE": 173612,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0001538,
+      "deadlineOvershootSeconds": 0.00015379999999964866,
+      "HV": {
+        "1.25": 0.2535635652651651,
+        "1.5": 0.7140234386154193,
+        "2.0": 2.76599402969539
+      },
+      "IGDplus": 0.014620913810397094,
+      "rawObjectiveMin": [
+        1034.5465624772733,
+        58063.12923460326,
+        63191.30420449158
+      ]
+    },
+    {
+      "seed": 11610063,
+      "method": "FULL_SERIAL",
+      "successfulFE": 129211,
+      "attemptedFE": 129212,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0001621,
+      "deadlineOvershootSeconds": 0.00016209999999983182,
+      "HV": {
+        "1.25": 0.2331904397164131,
+        "1.5": 0.6779052887481172,
+        "2.0": 2.68580367403782
+      },
+      "IGDplus": 0.019825512077232394,
+      "rawObjectiveMin": [
+        1006.8717936711934,
+        58989.48889896638,
+        65664.3251469383
+      ]
+    },
+    {
+      "seed": 11610063,
+      "method": "FULL_ANCHOR",
+      "successfulFE": 159318,
+      "attemptedFE": 159319,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0054981,
+      "deadlineOvershootSeconds": 0.005498099999999617,
+      "HV": {
+        "1.25": 0.24232338462274308,
+        "1.5": 0.6943096374227237,
+        "2.0": 2.7229404326138114
+      },
+      "IGDplus": 0.01785858691621764,
+      "rawObjectiveMin": [
+        1006.8717936711934,
+        58989.48889896638,
+        64399.92927470864
+      ]
+    },
+    {
+      "seed": 11610063,
+      "method": "NSGA_SERIAL",
+      "successfulFE": 142320,
+      "attemptedFE": 142320,
+      "timeInterruptedAttempts": 0,
+      "searchSeconds": 5.0131438,
+      "deadlineOvershootSeconds": 0.013143799999999928,
+      "HV": {
+        "1.25": 0.24704277923669776,
+        "1.5": 0.7046843090213782,
+        "2.0": 2.7501490438848104
+      },
+      "IGDplus": 0.010008611156131234,
+      "rawObjectiveMin": [
+        983.3404055460354,
+        57607.56261032008,
+        64903.804165810674
+      ]
+    },
+    {
+      "seed": 11610063,
+      "method": "NSGA_ANCHOR",
+      "successfulFE": 176283,
+      "attemptedFE": 176284,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0115077,
+      "deadlineOvershootSeconds": 0.01150770000000012,
+      "HV": {
+        "1.25": 0.24720481761142832,
+        "1.5": 0.704935038783416,
+        "2.0": 2.7505771564214627
+      },
+      "IGDplus": 0.00882542990843855,
+      "rawObjectiveMin": [
+        983.3404055460354,
+        57607.56261032008,
+        64903.804165810674
+      ]
+    },
+    {
+      "seed": 11610063,
+      "method": "LI_ANCHOR",
+      "successfulFE": 171005,
+      "attemptedFE": 171006,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0065886,
+      "deadlineOvershootSeconds": 0.0065885999999997225,
+      "HV": {
+        "1.25": 0.2539107242909858,
+        "1.5": 0.7184062085115122,
+        "2.0": 2.785349097905199
+      },
+      "IGDplus": 0.018034256660362943,
+      "rawObjectiveMin": [
+        989.3964030751525,
+        56643.32153445282,
+        63939.707983559616
+      ]
+    },
+    {
+      "seed": 11610063,
+      "method": "FORCE_ANCHOR",
+      "successfulFE": 168851,
+      "attemptedFE": 168852,
+      "timeInterruptedAttempts": 1,
+      "searchSeconds": 5.0024735,
+      "deadlineOvershootSeconds": 0.0024734999999997953,
+      "HV": {
+        "1.25": 0.2353175510011544,
+        "1.5": 0.6791177579095162,
+        "2.0": 2.6813636762875412
+      },
+      "IGDplus": 0.023876623006856258,
+      "rawObjectiveMin": [
+        1091.3332548972194,
+        57758.558206846814,
+        65480.37070065783
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "control": "FULL_SERIAL",
+      "effects": {
+        "1.25": {
+          "pairedPct": [
+            0.2854028696378297,
+            0.8098927816511559,
+            3.9165177257852957
+          ],
+          "medianPct": 0.8098927816511559,
+          "wins": 3,
+          "atLeastMinusOnePct": 3
+        },
+        "1.5": {
+          "pairedPct": [
+            0.15269776914641486,
+            0.5659860353573798,
+            2.4198584886246044
+          ],
+          "medianPct": 0.5659860353573798,
+          "wins": 3,
+          "atLeastMinusOnePct": 3
+        },
+        "2.0": {
+          "pairedPct": [
+            0.06624987493604184,
+            0.353764265000156,
+            1.3827056286716655
+          ],
+          "medianPct": 0.353764265000156,
+          "wins": 3,
+          "atLeastMinusOnePct": 3
+        }
+      },
+      "IGDplusSymmetricWorseningPct": [
+        -24.230862370445227,
+        -42.37554649913334,
+        -10.439019180777713
+      ],
+      "medianIGDplusSymmetricWorseningPct": -24.230862370445227
+    },
+    {
+      "control": "NSGA_ANCHOR",
+      "effects": {
+        "1.25": {
+          "pairedPct": [
+            -0.1603747382558529,
+            6.648280017447594,
+            -1.9746512369181124
+          ],
+          "medianPct": -0.1603747382558529,
+          "wins": 1,
+          "atLeastMinusOnePct": 2
+        },
+        "1.5": {
+          "pairedPct": [
+            -0.09772688537235119,
+            4.87628964295177,
+            -1.5072880160744706
+          ],
+          "medianPct": -0.09772688537235119,
+          "wins": 1,
+          "atLeastMinusOnePct": 2
+        },
+        "2.0": {
+          "pairedPct": [
+            -0.05871701060702339,
+            3.2631348100897073,
+            -1.0047609005670366
+          ],
+          "medianPct": -0.05871701060702339,
+          "wins": 1,
+          "atLeastMinusOnePct": 2
+        }
+      },
+      "IGDplusSymmetricWorseningPct": [
+        -32.778956544643016,
+        -23.64834875017315,
+        67.70462683438575
+      ],
+      "medianIGDplusSymmetricWorseningPct": -23.64834875017315
+    },
+    {
+      "control": "LI_ANCHOR",
+      "effects": {
+        "1.25": {
+          "pairedPct": [
+            -0.01637081137357832,
+            2.9710091315353404,
+            -4.563548743598345
+          ],
+          "medianPct": -0.01637081137357832,
+          "wins": 1,
+          "atLeastMinusOnePct": 2
+        },
+        "1.5": {
+          "pairedPct": [
+            1.3097673193314563,
+            2.31716285468897,
+            -3.3541707745976868
+          ],
+          "medianPct": 1.3097673193314563,
+          "wins": 2,
+          "atLeastMinusOnePct": 2
+        },
+        "2.0": {
+          "pairedPct": [
+            1.6260832286696836,
+            1.6018567169143738,
+            -2.2406047894794945
+          ],
+          "medianPct": 1.6018567169143738,
+          "wins": 2,
+          "atLeastMinusOnePct": 2
+        }
+      },
+      "IGDplusSymmetricWorseningPct": [
+        -110.32851867829187,
+        -67.140267442589,
+        -0.9788566557592304
+      ],
+      "medianIGDplusSymmetricWorseningPct": -67.140267442589
+    },
+    {
+      "control": "FORCE_ANCHOR",
+      "effects": {
+        "1.25": {
+          "pairedPct": [
+            3.3382153816703397,
+            -0.7004491491008902,
+            2.977182786316823
+          ],
+          "medianPct": 2.977182786316823,
+          "wins": 2,
+          "atLeastMinusOnePct": 3
+        },
+        "1.5": {
+          "pairedPct": [
+            3.1582655386287684,
+            0.2952238448143074,
+            2.2370022483245933
+          ],
+          "medianPct": 2.2370022483245933,
+          "wins": 3,
+          "atLeastMinusOnePct": 3
+        },
+        "2.0": {
+          "pairedPct": [
+            2.5104747103665837,
+            0.6549012522695907,
+            1.5505825149326524
+          ],
+          "medianPct": 1.5505825149326524,
+          "wins": 3,
+          "atLeastMinusOnePct": 3
+        }
+      },
+      "IGDplusSymmetricWorseningPct": [
+        -111.37581038846595,
+        -41.3151310743732,
+        -28.839131762993542
+      ],
+      "medianIGDplusSymmetricWorseningPct": -41.3151310743732
+    }
+  ],
+  "ownTimeQualityGate": false,
+  "classicGate": true,
+  "baselineGate": true,
+  "referenceSensitivityGate": false,
+  "auxiliaryGate": true,
+  "primaryDevelopmentGate": false
+}

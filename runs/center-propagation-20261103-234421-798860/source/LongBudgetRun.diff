@@ -1,0 +1,19 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\dynamic-reverse-ledger-20261103-231754-095093\source\LongBudgetRun.java
++++ LongBudgetRun.java
+@@ -53,6 +53,8 @@
+         cfg.mergeGlobalLocal = !classic;
+         cfg.paperResourceOperators = !classic;
+         DynamicSearch search = DynamicSearch.create(mode, in, fatigue, dynamic, context, cfg, false, 0, 0);
++        System.setProperty("research.center.from", "70132");
++        System.setProperty("research.center.through", "309927");
+         ReverseClassOrigins.write(out);
+         org.uma.jmetal.util.research.search.ReverseAudit evidence = org.uma.jmetal.util.research.search.ReverseAudit.run();
+         AnytimeRecorder recorder = new AnytimeRecorder(fe, Double.POSITIVE_INFINITY, new double[0], points);
+@@ -91,6 +93,7 @@
+             throw e;
+         }
+         finally { if (dynamic != null) dynamic.clearPrepared(); }
++        org.uma.jmetal.util.research.search.CenterPropagationTrace.finish(out);
+         evidence.finish(out);
+         org.uma.jmetal.util.research.cooperation.ReversePoolSnapshots.finish(out);
+         append(out.resolve("search-end.jsonl"), org.uma.jmetal.util.research.search.ReverseAudit.row(

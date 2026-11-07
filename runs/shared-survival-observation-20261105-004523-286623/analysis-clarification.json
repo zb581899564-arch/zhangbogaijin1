@@ -1,0 +1,7 @@
+{
+  "clarification": "Original JSON sibling aggregate is common original lineage, which may predate the current batch. The stricter reanalysis uses the recorded pool indices to require the composed child AND its own immediate parent selected in the same batch. Final descendants must have paidFE strictly later than the composed root. Parent genealogy remains association, not gene transfer or causality.",
+  "frozenOriginalsPreserved": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "authoritativeAnalysis": "analysis-strict-descendant.json"
+}

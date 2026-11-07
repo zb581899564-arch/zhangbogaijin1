@@ -1,0 +1,60 @@
+{
+  "contract": {
+    "version": "QPA_COMPLETED_DONOR_ENGINEERING-v1",
+    "registered": "2026-11-06",
+    "status": "READY_NOT_EXECUTED",
+    "seed": 14670003,
+    "visibilityEvidence": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-completed-donor-visibility-20261106-074514-818135",
+    "visibilityAnalysisSHA256": "de08d93fd691d40905259682fc60bd4347f36ae1a8f5f00837ac586d5181cde0",
+    "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174",
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "syncTwoGenerationFE": 15100,
+        "firstGenerationFE": 7700,
+        "activeMasks": 38,
+        "cuts": [
+          101,
+          3899,
+          3900
+        ]
+      },
+      {
+        "stem": "100_2_3_1",
+        "syncTwoGenerationFE": 78100,
+        "firstGenerationFE": 39100,
+        "activeMasks": 195,
+        "cuts": [
+          101,
+          19599,
+          19600
+        ]
+      }
+    ],
+    "modes": [
+      "SYNC",
+      "OWN",
+      "ALL"
+    ],
+    "plannedActualSearchFE": 234000,
+    "maximumActualAttemptedSearchFE": 250000,
+    "soleChange": "Copied frozenQpaPopulation donor fetch: SYNC uses parent snapshot; OWN uses already-completed offspring only if source role equalsreceiver; ALL uses any already-completedoffspring. Self/future donors frozen. Same chosen donor used for both phases ofone mask.",
+    "invariants": "Original direct encoding, two phase operators, model/active mask filtering, RNG drawcalls/order, role preferences, archive, acceptance, initial100, common physics, full paid costs and cutoff unchanged. No mainline/QGS/shared edits. Synchronous source is legitimate ordinary semantics, not a bug.",
+    "executions": "Sequential eachinstance: SYNC two fullgenerations exactold SHA/front/wholepaid comparison, OWN firstfullgeneration, ALL firstfullgeneration, ALL at101/middleProgram50-1/middleProgram50. Default initcuts1/2/100 reuse unchanged oldinitialization proof; first100 actualfourvectors/targets mustmatch everynewarm.",
+    "engineeringAcceptance": "Everycandidate fulltimeline QA, independentgenotype/archive/acceptance/donor-source reconstruction; firstgen allarms identical model/slot/mask/donorSlot/reference drawsequence; paidSHA beforefirstvisible donor read identical; self/future neverupdated; OWN crossrole reads frozen; cutoff wholepaid prefixes match ALLmain; loadedclass bytes/JDK/input/protecteddefault unchanged.",
+    "accounting": "At most250000 actualattempts inclretained failures. FullpaidQA separately counted once each. No unpaidobjective queries. Everyduplicate/noop/fallback stillpaid. Firstgen totals mayonlybeused asengineering, not performance threshold.",
+    "onFailure": "Stop engineering andretainallartifacts. Do not begin performance ifoffparity,source/physics/accounting/replay,orcutoff fails.",
+    "progression": "Engineeringpass permits only separate prospective newseed fullcost threeindicator study with SYNC,OWN,ALL,strongordinarykernel/classic,oldshared/Li controls; no engineeringseed performance promotion and no publication noveltyclaim.",
+    "conceptualBoundary": "Ordinary donor lifecycle ablation differs from old PA livechannel, old QGS commonpool, originalsameFAsharingselector and failed independentPA/QPAhalfpool. Does not revive them or prove four-role independent benefit.",
+    "defaultMainlineChanged": false,
+    "externalTransfers": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "b146e1fb1d0c72ce8947b16b9dae7e7e23d107e7cebe41d52b9dd18a23769e77",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  },
+  "originalQpaPopulationSHA256": "737687eb7ae18959a5326fdff910853067b428715e26aba8682aa6e228559779"
+}

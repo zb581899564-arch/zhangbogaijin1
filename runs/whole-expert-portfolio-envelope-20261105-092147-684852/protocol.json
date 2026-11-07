@@ -1,0 +1,64 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "oldSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\makespan-tie-screen-20261105-025223-471920",
+  "naturalSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353",
+  "oldSeeds": [
+    10950003,
+    10950033,
+    10950063
+  ],
+  "hypothesis": "Keep whole four-role search intact; do its paid fronts complement a strong classic beyond ordinary independent NSGA restarts?",
+  "fixedRule": "ONLY equal250k+250k=500ktotalFE. Eachprefix includes100initialFE, duplicates charged, no sharedinitial discount. Fixedsame-output-rule numericNDunion, not merging bothheterogeneousorientations asone500k method. No fraction/window/seed search.",
+  "controls": "Oldreplay3seeds: all3unorderedpairs, twoheterogeneousorientations averaged aspairedreplicates; ordinaryNSGA250k+NSGA250k andFULL250k+FULL250k restart controls, plusmeanofpaired500k single-run metrics. Natural1seed: FULL/UNIFORM/SYNC250k+NSGA250k and500k singles; independentrestart missing explicitly.",
+  "gate": "Botholdinstances medianpairheterogeneousHV>=+0.5%vsNSGArestart and>=2/3pairmeanspositive; vsNSGA500ksinglemean median>=0 andvsFULL500ksinglemean>=+1%; refs1.25/2 medianvsNSGArestart nonnegative; median symmetricIGD+worsening<=5%. Bothnaturalinstances hetero>=both500ksingles andFULLmixvsUNIFORMmix>=+0.5%. Allnecessary foractualpre-registeredportfolioengineering only. Failure stopsblindhalf-halfwhole-expert combination; nofraction/racingcontroller torescue.",
+  "evidence": "Source500k receipts/strictmodes/verified initial&ledger/finalgenomes match; 250k numericalcheckpoint reached. Oldprefixfullgenomes unavailable; exactretainednumericfrontonly. Naturalprefix includespaidgenomes/birthFE. No new schedule or evaluator call, no candidate feedback.",
+  "metrics": "Oldfixednormalization/HVrefs, IGD+old commonNDunionof6single500kfronts; naturalperinstanceNDunionof4single500kfronts. OneFAmodel, oldreplayandnatural regimes separate, seedpairs/FAcontexts notindependentinstances.",
+  "limits": "Idealized numericquality envelope with freearchive union. Realmerge/state/RNG/initialization clocks and sequentialexecution cost NOT validated; no same-time claim. Genericportfolio is not establishednovelty or proof originalfourrole mechanism causescomplementarity. No rawsource reproduction, newalgorithm implementation, model/mainline/sharedselector change or externaltransfer.",
+  "searchFE": 0,
+  "decoderCalls": 0
+}

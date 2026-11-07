@@ -1,0 +1,1136 @@
+[
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5429092891043688,
+    "total_delta_hv": 0.5429092891043688,
+    "sum_event_delta_hv": 0.5429092891043688,
+    "sum_stage_delta_hv": 0.5429092891043688,
+    "event_count": 8406,
+    "last_event": 499965,
+    "last_completed_at": 41.155827946,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 18,
+        "positive_hv_events": 18,
+        "delta_hv": 0.4227853084633872,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 18,
+            "positive_hv_events": 18,
+            "delta_hv": 0.4227853084633872
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 2246,
+        "positive_hv_events": 2241,
+        "delta_hv": 0.08981729283939971,
+        "sharing": {
+          "event_count": 85,
+          "positive_hv_events": 85,
+          "delta_hv": 0.0061275150891546
+        },
+        "by_source": {
+          "global": {
+            "event_count": 2161,
+            "positive_hv_events": 2156,
+            "delta_hv": 0.08368977775024511
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 85,
+            "positive_hv_events": 85,
+            "delta_hv": 0.0061275150891546
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 6142,
+        "positive_hv_events": 6130,
+        "delta_hv": 0.030306687801581855,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 6142,
+            "positive_hv_events": 6130,
+            "delta_hv": 0.030306687801581855
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110003,
+    "arm": "FULL",
+    "inclusivePhaseSecondsMinusSearchSeconds": 1.4210854715202004e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5444189505907033,
+    "total_delta_hv": 0.5444189505907033,
+    "sum_event_delta_hv": 0.5444189505907033,
+    "sum_stage_delta_hv": 0.5444189505907033,
+    "event_count": 5705,
+    "last_event": 499222,
+    "last_completed_at": 53.905695998,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 18,
+        "positive_hv_events": 18,
+        "delta_hv": 0.4227853084633872,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 18,
+            "positive_hv_events": 18,
+            "delta_hv": 0.4227853084633872
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 5687,
+        "positive_hv_events": 5677,
+        "delta_hv": 0.12163364212731614,
+        "sharing": {
+          "event_count": 187,
+          "positive_hv_events": 187,
+          "delta_hv": 0.007303407927216621
+        },
+        "by_source": {
+          "global": {
+            "event_count": 5500,
+            "positive_hv_events": 5490,
+            "delta_hv": 0.11433023420009952
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 187,
+            "positive_hv_events": 187,
+            "delta_hv": 0.007303407927216621
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110003,
+    "arm": "GLOBAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -6.394884621840902e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5322812260042736,
+    "total_delta_hv": 0.5322812260042736,
+    "sum_event_delta_hv": 0.5322812260042736,
+    "sum_stage_delta_hv": 0.5322812260042736,
+    "event_count": 2753,
+    "last_event": 488499,
+    "last_completed_at": 22.254154479,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 18,
+        "positive_hv_events": 18,
+        "delta_hv": 0.4227853084633872,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 18,
+            "positive_hv_events": 18,
+            "delta_hv": 0.4227853084633872
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 2735,
+        "positive_hv_events": 2711,
+        "delta_hv": 0.10949591754088644,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 2735,
+            "positive_hv_events": 2711,
+            "delta_hv": 0.10949591754088644
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110003,
+    "arm": "LOCAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -4.263256414560601e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5476092017831925,
+    "total_delta_hv": 0.5476092017831925,
+    "sum_event_delta_hv": 0.5476092017831925,
+    "sum_stage_delta_hv": 0.5476092017831925,
+    "event_count": 7785,
+    "last_event": 499999,
+    "last_completed_at": 41.869555084,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 28,
+        "positive_hv_events": 28,
+        "delta_hv": 0.40953386473379544,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 28,
+            "positive_hv_events": 28,
+            "delta_hv": 0.40953386473379544
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 1942,
+        "positive_hv_events": 1933,
+        "delta_hv": 0.10153987859192753,
+        "sharing": {
+          "event_count": 15,
+          "positive_hv_events": 15,
+          "delta_hv": 0.006649639856735279
+        },
+        "by_source": {
+          "global": {
+            "event_count": 1927,
+            "positive_hv_events": 1918,
+            "delta_hv": 0.09489023873519226
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 15,
+            "positive_hv_events": 15,
+            "delta_hv": 0.006649639856735279
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 5815,
+        "positive_hv_events": 5802,
+        "delta_hv": 0.03653545845746953,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 5815,
+            "positive_hv_events": 5802,
+            "delta_hv": 0.03653545845746953
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110037,
+    "arm": "FULL",
+    "inclusivePhaseSecondsMinusSearchSeconds": 3.552713678800501e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5376561421775063,
+    "total_delta_hv": 0.5376561421775063,
+    "sum_event_delta_hv": 0.5376561421775063,
+    "sum_stage_delta_hv": 0.5376561421775063,
+    "event_count": 5053,
+    "last_event": 498168,
+    "last_completed_at": 52.393465785,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 28,
+        "positive_hv_events": 28,
+        "delta_hv": 0.40953386473379544,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 28,
+            "positive_hv_events": 28,
+            "delta_hv": 0.40953386473379544
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 5025,
+        "positive_hv_events": 5003,
+        "delta_hv": 0.1281222774437109,
+        "sharing": {
+          "event_count": 34,
+          "positive_hv_events": 34,
+          "delta_hv": 0.006736136859111619
+        },
+        "by_source": {
+          "global": {
+            "event_count": 4991,
+            "positive_hv_events": 4969,
+            "delta_hv": 0.12138614058459929
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 34,
+            "positive_hv_events": 34,
+            "delta_hv": 0.006736136859111619
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110037,
+    "arm": "GLOBAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -2.1316282072803006e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5359276569187899,
+    "total_delta_hv": 0.5359276569187899,
+    "sum_event_delta_hv": 0.5359276569187899,
+    "sum_stage_delta_hv": 0.5359276569187899,
+    "event_count": 2441,
+    "last_event": 486546,
+    "last_completed_at": 20.038371171,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 28,
+        "positive_hv_events": 28,
+        "delta_hv": 0.40953386473379544,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 28,
+            "positive_hv_events": 28,
+            "delta_hv": 0.40953386473379544
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 2413,
+        "positive_hv_events": 2398,
+        "delta_hv": 0.1263937921849944,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 2413,
+            "positive_hv_events": 2398,
+            "delta_hv": 0.1263937921849944
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110037,
+    "arm": "LOCAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -3.552713678800501e-15,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5535725577886439,
+    "total_delta_hv": 0.5535725577886439,
+    "sum_event_delta_hv": 0.5535725577886439,
+    "sum_stage_delta_hv": 0.5535725577886439,
+    "event_count": 8749,
+    "last_event": 499971,
+    "last_completed_at": 46.456858444,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 18,
+        "positive_hv_events": 18,
+        "delta_hv": 0.4167114036102449,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 18,
+            "positive_hv_events": 18,
+            "delta_hv": 0.4167114036102449
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 2281,
+        "positive_hv_events": 2275,
+        "delta_hv": 0.09041255846835827,
+        "sharing": {
+          "event_count": 8,
+          "positive_hv_events": 8,
+          "delta_hv": 0.007038343981636885
+        },
+        "by_source": {
+          "global": {
+            "event_count": 2273,
+            "positive_hv_events": 2267,
+            "delta_hv": 0.08337421448672139
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 8,
+            "positive_hv_events": 8,
+            "delta_hv": 0.007038343981636885
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 6450,
+        "positive_hv_events": 6432,
+        "delta_hv": 0.04644859571004073,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 6450,
+            "positive_hv_events": 6432,
+            "delta_hv": 0.04644859571004073
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110069,
+    "arm": "FULL",
+    "inclusivePhaseSecondsMinusSearchSeconds": -7.105427357601002e-15,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5479605549586266,
+    "total_delta_hv": 0.5479605549586266,
+    "sum_event_delta_hv": 0.5479605549586266,
+    "sum_stage_delta_hv": 0.5479605549586266,
+    "event_count": 5183,
+    "last_event": 499503,
+    "last_completed_at": 55.396230981,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 18,
+        "positive_hv_events": 18,
+        "delta_hv": 0.4167114036102449,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 18,
+            "positive_hv_events": 18,
+            "delta_hv": 0.4167114036102449
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 5165,
+        "positive_hv_events": 5141,
+        "delta_hv": 0.13124915134838172,
+        "sharing": {
+          "event_count": 8,
+          "positive_hv_events": 8,
+          "delta_hv": 0.007038343981636885
+        },
+        "by_source": {
+          "global": {
+            "event_count": 5157,
+            "positive_hv_events": 5133,
+            "delta_hv": 0.12421080736674484
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 8,
+            "positive_hv_events": 8,
+            "delta_hv": 0.007038343981636885
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110069,
+    "arm": "GLOBAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -4.263256414560601e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.5327416640986188,
+    "total_delta_hv": 0.5327416640986188,
+    "sum_event_delta_hv": 0.5327416640986188,
+    "sum_stage_delta_hv": 0.5327416640986188,
+    "event_count": 2334,
+    "last_event": 447688,
+    "last_completed_at": 18.117761848,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 18,
+        "positive_hv_events": 18,
+        "delta_hv": 0.4167114036102449,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 18,
+            "positive_hv_events": 18,
+            "delta_hv": 0.4167114036102449
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 2316,
+        "positive_hv_events": 2297,
+        "delta_hv": 0.11603026048837389,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 2316,
+            "positive_hv_events": 2297,
+            "delta_hv": 0.11603026048837389
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "20_8_5_1",
+    "seed": 16110069,
+    "arm": "LOCAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": 2.4868995751603507e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.8210527377250292,
+    "total_delta_hv": 0.8210527377250292,
+    "sum_event_delta_hv": 0.8210527377250292,
+    "sum_stage_delta_hv": 0.8210527377250292,
+    "event_count": 18889,
+    "last_event": 496408,
+    "last_completed_at": 64.075612597,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 31,
+        "positive_hv_events": 31,
+        "delta_hv": 0.4649271225517572,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 31,
+            "positive_hv_events": 31,
+            "delta_hv": 0.4649271225517572
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 1136,
+        "positive_hv_events": 1136,
+        "delta_hv": 0.14179855091322208,
+        "sharing": {
+          "event_count": 59,
+          "positive_hv_events": 59,
+          "delta_hv": 0.021813508395658987
+        },
+        "by_source": {
+          "global": {
+            "event_count": 1077,
+            "positive_hv_events": 1077,
+            "delta_hv": 0.11998504251756309
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 59,
+            "positive_hv_events": 59,
+            "delta_hv": 0.021813508395658987
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 17722,
+        "positive_hv_events": 17700,
+        "delta_hv": 0.21432706426004988,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 17722,
+            "positive_hv_events": 17700,
+            "delta_hv": 0.21432706426004988
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110003,
+    "arm": "FULL",
+    "inclusivePhaseSecondsMinusSearchSeconds": 0.0,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.7672021241668566,
+    "total_delta_hv": 0.7672021241668566,
+    "sum_event_delta_hv": 0.7672021241668566,
+    "sum_stage_delta_hv": 0.7672021241668566,
+    "event_count": 8889,
+    "last_event": 499931,
+    "last_completed_at": 107.950925472,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 31,
+        "positive_hv_events": 31,
+        "delta_hv": 0.4649271225517572,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 31,
+            "positive_hv_events": 31,
+            "delta_hv": 0.4649271225517572
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 8858,
+        "positive_hv_events": 8848,
+        "delta_hv": 0.3022750016150994,
+        "sharing": {
+          "event_count": 444,
+          "positive_hv_events": 444,
+          "delta_hv": 0.03510948077045717
+        },
+        "by_source": {
+          "global": {
+            "event_count": 8414,
+            "positive_hv_events": 8404,
+            "delta_hv": 0.26716552084464223
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 444,
+            "positive_hv_events": 444,
+            "delta_hv": 0.03510948077045717
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110003,
+    "arm": "GLOBAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -2.842170943040401e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.8382353508498306,
+    "total_delta_hv": 0.8382353508498306,
+    "sum_event_delta_hv": 0.8382353508498306,
+    "sum_stage_delta_hv": 0.8382353508498306,
+    "event_count": 27978,
+    "last_event": 499975,
+    "last_completed_at": 61.959362497,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 31,
+        "positive_hv_events": 31,
+        "delta_hv": 0.4649271225517572,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 31,
+            "positive_hv_events": 31,
+            "delta_hv": 0.4649271225517572
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 27947,
+        "positive_hv_events": 27942,
+        "delta_hv": 0.37330822829807336,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 27947,
+            "positive_hv_events": 27942,
+            "delta_hv": 0.37330822829807336
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110003,
+    "arm": "LOCAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": 0.0,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.8086936246165181,
+    "total_delta_hv": 0.8086936246165181,
+    "sum_event_delta_hv": 0.8086936246165181,
+    "sum_stage_delta_hv": 0.8086936246165181,
+    "event_count": 21854,
+    "last_event": 498441,
+    "last_completed_at": 66.021246871,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 20,
+        "positive_hv_events": 20,
+        "delta_hv": 0.4414877588931816,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 20,
+            "positive_hv_events": 20,
+            "delta_hv": 0.4414877588931816
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 1180,
+        "positive_hv_events": 1179,
+        "delta_hv": 0.14500381093248493,
+        "sharing": {
+          "event_count": 120,
+          "positive_hv_events": 120,
+          "delta_hv": 0.028902735203940544
+        },
+        "by_source": {
+          "global": {
+            "event_count": 1060,
+            "positive_hv_events": 1059,
+            "delta_hv": 0.11610107572854439
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 120,
+            "positive_hv_events": 120,
+            "delta_hv": 0.028902735203940544
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 20654,
+        "positive_hv_events": 20621,
+        "delta_hv": 0.22220205479085153,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 20654,
+            "positive_hv_events": 20621,
+            "delta_hv": 0.22220205479085153
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110037,
+    "arm": "FULL",
+    "inclusivePhaseSecondsMinusSearchSeconds": -1.4210854715202004e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.764981479464798,
+    "total_delta_hv": 0.764981479464798,
+    "sum_event_delta_hv": 0.764981479464798,
+    "sum_stage_delta_hv": 0.764981479464798,
+    "event_count": 8986,
+    "last_event": 499915,
+    "last_completed_at": 110.569843731,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 20,
+        "positive_hv_events": 20,
+        "delta_hv": 0.4414877588931816,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 20,
+            "positive_hv_events": 20,
+            "delta_hv": 0.4414877588931816
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 8966,
+        "positive_hv_events": 8958,
+        "delta_hv": 0.3234937205716164,
+        "sharing": {
+          "event_count": 587,
+          "positive_hv_events": 587,
+          "delta_hv": 0.09792248736268067
+        },
+        "by_source": {
+          "global": {
+            "event_count": 8379,
+            "positive_hv_events": 8371,
+            "delta_hv": 0.22557123320893574
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 587,
+            "positive_hv_events": 587,
+            "delta_hv": 0.09792248736268067
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110037,
+    "arm": "GLOBAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": -1.4210854715202004e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.8399102132798517,
+    "total_delta_hv": 0.8399102132798517,
+    "sum_event_delta_hv": 0.8399102132798517,
+    "sum_stage_delta_hv": 0.8399102132798517,
+    "event_count": 27287,
+    "last_event": 499963,
+    "last_completed_at": 63.551770438,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 20,
+        "positive_hv_events": 20,
+        "delta_hv": 0.4414877588931816,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 20,
+            "positive_hv_events": 20,
+            "delta_hv": 0.4414877588931816
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 27267,
+        "positive_hv_events": 27253,
+        "delta_hv": 0.3984224543866701,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 27267,
+            "positive_hv_events": 27253,
+            "delta_hv": 0.3984224543866701
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110037,
+    "arm": "LOCAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": 2.842170943040401e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.806305001176419,
+    "total_delta_hv": 0.806305001176419,
+    "sum_event_delta_hv": 0.806305001176419,
+    "sum_stage_delta_hv": 0.806305001176419,
+    "event_count": 20996,
+    "last_event": 499539,
+    "last_completed_at": 65.442867143,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 27,
+        "positive_hv_events": 27,
+        "delta_hv": 0.42704772379266775,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 27,
+            "positive_hv_events": 27,
+            "delta_hv": 0.42704772379266775
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 1120,
+        "positive_hv_events": 1120,
+        "delta_hv": 0.15459424981179726,
+        "sharing": {
+          "event_count": 108,
+          "positive_hv_events": 108,
+          "delta_hv": 0.0243585572548497
+        },
+        "by_source": {
+          "global": {
+            "event_count": 1012,
+            "positive_hv_events": 1012,
+            "delta_hv": 0.13023569255694756
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 108,
+            "positive_hv_events": 108,
+            "delta_hv": 0.0243585572548497
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 19849,
+        "positive_hv_events": 19818,
+        "delta_hv": 0.224663027571954,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 19849,
+            "positive_hv_events": 19818,
+            "delta_hv": 0.224663027571954
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110069,
+    "arm": "FULL",
+    "inclusivePhaseSecondsMinusSearchSeconds": 1.4210854715202004e-14,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.7820379835260083,
+    "total_delta_hv": 0.7820379835260083,
+    "sum_event_delta_hv": 0.7820379835260083,
+    "sum_stage_delta_hv": 0.7820379835260083,
+    "event_count": 8808,
+    "last_event": 499867,
+    "last_completed_at": 120.913483592,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 27,
+        "positive_hv_events": 27,
+        "delta_hv": 0.42704772379266775,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 27,
+            "positive_hv_events": 27,
+            "delta_hv": 0.42704772379266775
+          }
+        }
+      },
+      "GLOBAL": {
+        "event_count": 8781,
+        "positive_hv_events": 8774,
+        "delta_hv": 0.35499025973334053,
+        "sharing": {
+          "event_count": 483,
+          "positive_hv_events": 480,
+          "delta_hv": 0.04031076267964073
+        },
+        "by_source": {
+          "global": {
+            "event_count": 8298,
+            "positive_hv_events": 8294,
+            "delta_hv": 0.3146794970536998
+          },
+          "SHARED_COMPOSITION": {
+            "event_count": 483,
+            "positive_hv_events": 480,
+            "delta_hv": 0.04031076267964073
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110069,
+    "arm": "GLOBAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": 0.0,
+    "initialIncludedAndSeparate": true
+  },
+  {
+    "initial_hv": 0.0,
+    "final_hv": 0.8340613851765876,
+    "total_delta_hv": 0.8340613851765876,
+    "sum_event_delta_hv": 0.8340613851765876,
+    "sum_stage_delta_hv": 0.8340613851765876,
+    "event_count": 25218,
+    "last_event": 499986,
+    "last_completed_at": 61.143154199,
+    "by_stage": {
+      "INITIAL": {
+        "event_count": 27,
+        "positive_hv_events": 27,
+        "delta_hv": 0.42704772379266775,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "initialization": {
+            "event_count": 27,
+            "positive_hv_events": 27,
+            "delta_hv": 0.42704772379266775
+          }
+        }
+      },
+      "LOCAL": {
+        "event_count": 25191,
+        "positive_hv_events": 25177,
+        "delta_hv": 0.4070136613839198,
+        "sharing": {
+          "event_count": 0,
+          "positive_hv_events": 0,
+          "delta_hv": 0.0
+        },
+        "by_source": {
+          "jointLocal": {
+            "event_count": 25191,
+            "positive_hv_events": 25177,
+            "delta_hv": 0.4070136613839198
+          }
+        }
+      }
+    },
+    "events": [],
+    "attribution": "Chronological descriptive increments; sharing is a subset, not an extra stage",
+    "causal_claim": false,
+    "instance": "100_2_3_1",
+    "seed": 16110069,
+    "arm": "LOCAL_ONLY",
+    "inclusivePhaseSecondsMinusSearchSeconds": 0.0,
+    "initialIncludedAndSeparate": true
+  }
+]

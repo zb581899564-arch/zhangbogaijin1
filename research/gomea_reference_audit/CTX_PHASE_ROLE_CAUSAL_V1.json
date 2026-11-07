@@ -1,0 +1,65 @@
+{
+  "version": "CTX_PHASE_ROLE_CAUSAL-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "diagnosticOnly": true,
+  "observationSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-pipeline-probe-20261106-060047-432151",
+  "geometrySource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-stage-geometry-20261106-054905-442894",
+  "sourceAnalysisSHA256": "de7b654733c19801687d7f11dc3078ddcdb96d1084ecc7b56420ccfcfca42c28",
+  "instance": "100_2_3_1",
+  "seeds": [
+    14910003,
+    14910037
+  ],
+  "seedStatus": "Existing development seeds; not independent confirmation",
+  "hypothesis": "Keep specialist local duties, but protect multiobjective quality of the global supply entering joint local learning; test whether global objective pressure causes the observed central-quality gap",
+  "design": "2x2 intervention only in completed cycle10, after nine identical default cycles. First fixed midpoint of20complete observedcycles, not best/worst window selection. Allvariants reset to original roles outside cycle10",
+  "physicalGrouping": "Original fourobjective physical decomposition in every arm,15/55/15/15 and80free+fourFAfamiliesx5; never switch to old UNIFORM grouping",
+  "levels": [
+    "ROLE",
+    "CENTER"
+  ],
+  "arms": {
+    "RR": [
+      "ROLE",
+      "ROLE"
+    ],
+    "RC": [
+      "ROLE",
+      "CENTER"
+    ],
+    "CR": [
+      "CENTER",
+      "ROLE"
+    ],
+    "CC": [
+      "CENTER",
+      "CENTER"
+    ]
+  },
+  "primary": "CR only (CENTER global, ROLE local); RC/CC causal controls, no posthoc replacement primary",
+  "globalIntervention": "Only effective global preference used by original QGS personal/leader selection, group reward and global batch survival. Same four independent original Q tables/threeactions/50steps/alpha/gamma/exploration; explicitly a preference bundle, not a newQformula or isolated survivor effect",
+  "localIntervention": "Only GOM effective acceptance preference, all else unchanged. Physical stage counters, domains/FOS/live compatible donors/same per-role FE remain fixed",
+  "protected": "Original shared factory pool/cap/eta/cycle/FAfamilies/physicalgrouping/decode/model/normalization/outer200to100/pbest update and default sources",
+  "commonPrefixFE": 223840,
+  "afterIntervenedGlobalFE": 228840,
+  "afterIntervenedCycleFE": 248700,
+  "runLimitFE": 248701,
+  "budgetMeaning": "Nine default complete cycles,oneintervenedcycle,then1paidpoint to allow the guarded unpaid survival commit; primary measures at248700,extra1never chosen as a better endpoint",
+  "nativeControls": "Original frozen RR semantics with same read-only observer at248701 for eachseed",
+  "factorialSuccessfulFE": 1989608,
+  "nativeControlSuccessfulFE": 497402,
+  "plannedActualFE": 2487010,
+  "maximumActualAttemptedFE": 2500000,
+  "runOrder": "Perseed nativeRR, RR, RC, CR, CC; no metric inspection until all10complete",
+  "engineering": "RR fullpaidSHA,initial100,publiccheckpoints/stagecounts equal native; paidSHA prefix223840 equal across all5arms perseed; global-only prefix228840 equal within RR/RC and CR/CC. Prefix digest checked against common final digest. Source/class/JDK/protected identity and fees verified",
+  "metrics": "Frozen full500k all10arms/all2seeds empiricalreference and normalization from sourcepilot; HV1.5 with1.25/2sensitivity, IGD+ and exactdedup bidirectionalC. Read-only allpaid archive snapshot at248700, current postlocal100 and survivors100; no newobjective feedback",
+  "primaryCausalCriterion": "Bothseeds CRvsRR: postlocal100 HV>=-.1%, IGD+symworsening<=-5%, C(CR,RR)-C(RR,CR)>=.05; aftersurvival and allpaid248700 HV>=-.1%,IGD+sym<=0,Cdelta>=0",
+  "localRoleCriterion": "Bothseeds CRvsCC: postlocal100 HV>=+.5%,IGD+sym<=0,Cdelta>=0; allpaid248700 HV>=0,IGD+sym<=0,Cdelta>=0. This tests retaining local duties under balanced supply, not HV-only value",
+  "interpretation": "Resource-screening margins chosen before new intervention data, not significance or novelty. Report allfactorial outcomes and rawmetrics. Passing allows only a separately registered fullalgorithm validation; cannot claim competitiveness from onecycle",
+  "failure": "Any engineering fault retains costs and stops. Causal or role criterion failure stops this fixedphase-decoupling hypothesis; no epoch/threshold/preference scan, no promotion of RC/CC",
+  "priorStops": "FixedCTX capability,TIME,halfpooling,oldsurvivor/lexicographic/neutral mechanisms all unchanged",
+  "defaultMainlineChanged": false,
+  "externalTransfers": false,
+  "goalAchieved": false
+}

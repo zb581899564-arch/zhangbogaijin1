@@ -1,0 +1,236 @@
+{
+  "status": "ENGINEERING_ACCEPTED",
+  "run": "runs\\ctx-gom-local-engineering-20261106-050127-857497",
+  "contractSHA256": "872484451278f08a0aaec9a4cd79d8cb9dcbbf1651a2df7e2e7ddc39a994c9d5",
+  "coveredProtocolCases": {
+    "successfulFE": 521760,
+    "attemptedFE": 521760,
+    "failedFE": 0,
+    "timeInterruptedAttempts": 0,
+    "paidFullTimelineQA": 521760,
+    "viewFullTimelineQA": 3200,
+    "checkpointOfflineQA": 6970,
+    "receiptCount": 40
+  },
+  "combinedActualCostsIncludingRetainedFailures": {
+    "successfulFE": 581598,
+    "attemptedFE": 581598,
+    "failedFE": 0,
+    "timeInterruptedAttempts": 0,
+    "paidFullTimelineQA": 581598,
+    "viewFullTimelineQA": 3316,
+    "checkpointOfflineQA": 7534,
+    "receiptCount": 49
+  },
+  "retainedFailures": [
+    {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-045650-707259",
+      "costs": {
+        "successfulFE": 0,
+        "attemptedFE": 0,
+        "failedFE": 0,
+        "timeInterruptedAttempts": 0,
+        "paidFullTimelineQA": 0,
+        "viewFullTimelineQA": 0,
+        "checkpointOfflineQA": 0,
+        "receiptCount": 0
+      },
+      "originalStatus": "INCOMPLETE_RETAINED"
+    },
+    {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-045701-843878",
+      "costs": {
+        "successfulFE": 0,
+        "attemptedFE": 0,
+        "failedFE": 0,
+        "timeInterruptedAttempts": 0,
+        "paidFullTimelineQA": 0,
+        "viewFullTimelineQA": 0,
+        "checkpointOfflineQA": 0,
+        "receiptCount": 0
+      },
+      "originalStatus": "INCOMPLETE_RETAINED"
+    },
+    {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-045716-025330",
+      "costs": {
+        "successfulFE": 5102,
+        "attemptedFE": 5102,
+        "failedFE": 0,
+        "timeInterruptedAttempts": 0,
+        "paidFullTimelineQA": 5102,
+        "viewFullTimelineQA": 0,
+        "checkpointOfflineQA": 0,
+        "receiptCount": 0
+      },
+      "originalStatus": "INCOMPLETE_RETAINED"
+    },
+    {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-045751-656434",
+      "costs": {
+        "successfulFE": 54736,
+        "attemptedFE": 54736,
+        "failedFE": 0,
+        "timeInterruptedAttempts": 0,
+        "paidFullTimelineQA": 54736,
+        "viewFullTimelineQA": 116,
+        "checkpointOfflineQA": 564,
+        "receiptCount": 9
+      },
+      "originalStatus": "INCOMPLETE_RETAINED"
+    },
+    {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-045956-033279",
+      "costs": {
+        "successfulFE": 58557,
+        "attemptedFE": 58557,
+        "failedFE": 0,
+        "timeInterruptedAttempts": 0,
+        "paidFullTimelineQA": 58557,
+        "viewFullTimelineQA": 200,
+        "checkpointOfflineQA": 834,
+        "receiptCount": 9
+      },
+      "originalStatus": "INCOMPLETE_RETAINED"
+    }
+  ],
+  "mainCases": [
+    {
+      "instance": "20_8_5_1",
+      "variant": "SHARE_CTX_GOM",
+      "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-045956-033279\\20_8_5_1\\SHARE_CTX_GOM",
+      "successfulFE": 17741,
+      "completePasses": 2,
+      "localFE": 7640,
+      "physicalRoleLocalFE": {
+        "1": 1138,
+        "2": 4226,
+        "3": 1138,
+        "4": 1138
+      },
+      "exactPaidCopyRecoveries": 6,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": 148
+    },
+    {
+      "instance": "20_8_5_1",
+      "variant": "SYNC_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\20_8_5_1\\SYNC_CTX_GOM",
+      "successfulFE": 17741,
+      "completePasses": 2,
+      "localFE": 7640,
+      "physicalRoleLocalFE": {
+        "1": 1138,
+        "2": 4226,
+        "3": 1138,
+        "4": 1138
+      },
+      "exactPaidCopyRecoveries": 6,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": 0
+    },
+    {
+      "instance": "20_8_5_1",
+      "variant": "UNIFORM_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\20_8_5_1\\UNIFORM_CTX_GOM",
+      "successfulFE": 17741,
+      "completePasses": 2,
+      "localFE": 7640,
+      "physicalRoleLocalFE": {
+        "1": 1138,
+        "2": 4226,
+        "3": 1138,
+        "4": 1138
+      },
+      "exactPaidCopyRecoveries": 3,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": 133
+    },
+    {
+      "instance": "20_8_5_1",
+      "variant": "NSGA_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\20_8_5_1\\NSGA_CTX_GOM",
+      "successfulFE": 17901,
+      "completePasses": 2,
+      "localFE": 7800,
+      "physicalRoleLocalFE": {
+        "1": 1170,
+        "2": 4290,
+        "3": 1170,
+        "4": 1170
+      },
+      "exactPaidCopyRecoveries": 0,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": null
+    },
+    {
+      "instance": "100_2_3_1",
+      "variant": "SHARE_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\100_2_3_1\\SHARE_CTX_GOM",
+      "successfulFE": 49821,
+      "completePasses": 2,
+      "localFE": 39720,
+      "physicalRoleLocalFE": {
+        "1": 5954,
+        "2": 21858,
+        "3": 5954,
+        "4": 5954
+      },
+      "exactPaidCopyRecoveries": 2,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": 148
+    },
+    {
+      "instance": "100_2_3_1",
+      "variant": "SYNC_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\100_2_3_1\\SYNC_CTX_GOM",
+      "successfulFE": 49821,
+      "completePasses": 2,
+      "localFE": 39720,
+      "physicalRoleLocalFE": {
+        "1": 5954,
+        "2": 21858,
+        "3": 5954,
+        "4": 5954
+      },
+      "exactPaidCopyRecoveries": 2,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "variant": "UNIFORM_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\100_2_3_1\\UNIFORM_CTX_GOM",
+      "successfulFE": 49821,
+      "completePasses": 2,
+      "localFE": 39720,
+      "physicalRoleLocalFE": {
+        "1": 5954,
+        "2": 21858,
+        "3": 5954,
+        "4": 5954
+      },
+      "exactPaidCopyRecoveries": 1,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": 157
+    },
+    {
+      "instance": "100_2_3_1",
+      "variant": "NSGA_CTX_GOM",
+      "source": "runs\\ctx-gom-local-engineering-20261106-050127-857497\\100_2_3_1\\NSGA_CTX_GOM",
+      "successfulFE": 49901,
+      "completePasses": 2,
+      "localFE": 39800,
+      "physicalRoleLocalFE": {
+        "1": 5970,
+        "2": 21890,
+        "3": 5970,
+        "4": 5970
+      },
+      "exactPaidCopyRecoveries": 0,
+      "composedCandidatesValidatedByUnchangedRuntimeGuard": null
+    }
+  ],
+  "initial100EqualAcrossAllEightSources": true,
+  "originalFrozenSourcesAndDefaultProtectedFilesUnchanged": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceEvidence": false,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false,
+  "limitation": "Serialization failure retains all5102 paid objective/hash notifications and recovered objective front; encoded front unavailable for that failed pre-fix run. Final valid runs have full encodings.",
+  "next": "Light-observer exact trajectory acceptance, then a separately frozen sameFE/realtime protocol jointly using HV, IGD+ and bidirectional C; old sharing, sourced Li, old strong NSGA, same-GOM NSGA, roles and sharing ablations required"
+}

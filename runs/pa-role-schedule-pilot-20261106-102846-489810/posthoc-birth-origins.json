@@ -1,0 +1,1756 @@
+{
+  "observations": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "NATIVE",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 29,
+        "CENTER": 269,
+        "WORKER_COST": 8,
+        "ENERGY": 14
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 62699.0,
+        "CENTER": 82855.0,
+        "WORKER_COST": 83866.0,
+        "ENERGY": 79199.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 19.066403681788298,
+        "CENTER": 48.52092352092352,
+        "ENERGY": 9.572649572649572,
+        "WORKER_COST": 5.47008547008547
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 320,
+          "byObservedBirthRole": {
+            "MAKESPAN": 29,
+            "CENTER": 269,
+            "WORKER_COST": 8,
+            "ENERGY": 14
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 74,
+          "byObservedBirthRole": {
+            "CENTER": 73,
+            "WORKER_COST": 1
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 293,
+          "byObservedBirthRole": {
+            "MAKESPAN": 28,
+            "CENTER": 244,
+            "WORKER_COST": 7,
+            "ENERGY": 14
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "TASK_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "ENERGY": 14859,
+        "WORKER_COST": 15210,
+        "CENTER": 54834,
+        "MAKESPAN": 14997
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 183,
+        "WORKER_COST": 23,
+        "MAKESPAN": 21,
+        "ENERGY": 14
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 76732.0,
+        "WORKER_COST": 66555.0,
+        "MAKESPAN": 74857.0,
+        "ENERGY": 85921.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "ENERGY": 9.421899185678713,
+        "WORKER_COST": 15.121630506245891,
+        "CENTER": 33.373454426086006,
+        "MAKESPAN": 14.002800560112023
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 49,
+          "byObservedBirthRole": {
+            "CENTER": 30,
+            "WORKER_COST": 19
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 23,
+          "byObservedBirthRole": {
+            "CENTER": 23
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 151,
+          "byObservedBirthRole": {
+            "CENTER": 118,
+            "WORKER_COST": 23,
+            "ENERGY": 9,
+            "MAKESPAN": 1
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "ORDER_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 55401,
+        "ENERGY": 14625,
+        "WORKER_COST": 14664,
+        "MAKESPAN": 15210
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 320,
+        "ENERGY": 14,
+        "MAKESPAN": 19,
+        "WORKER_COST": 30
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 75121.5,
+        "ENERGY": 61436.5,
+        "MAKESPAN": 70825.0,
+        "WORKER_COST": 77770.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 57.76069024024837,
+        "ENERGY": 9.572649572649572,
+        "WORKER_COST": 20.458265139116204,
+        "MAKESPAN": 12.491781722550954
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 205,
+          "byObservedBirthRole": {
+            "CENTER": 183,
+            "ENERGY": 2,
+            "WORKER_COST": 15,
+            "MAKESPAN": 5
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 103,
+          "byObservedBirthRole": {
+            "CENTER": 101,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 364,
+          "byObservedBirthRole": {
+            "CENTER": 311,
+            "ENERGY": 11,
+            "MAKESPAN": 12,
+            "WORKER_COST": 30
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "FULL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 9,
+        "CENTER": 235,
+        "ENERGY": 22,
+        "WORKER_COST": 18
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 39259.0,
+        "CENTER": 60631.0,
+        "ENERGY": 67613.5,
+        "WORKER_COST": 58280.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 5.9171597633136095,
+        "CENTER": 42.38816738816739,
+        "ENERGY": 15.042735042735043,
+        "WORKER_COST": 12.307692307692308
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 19,
+          "byObservedBirthRole": {
+            "MAKESPAN": 8,
+            "CENTER": 11
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 77,
+          "byObservedBirthRole": {
+            "MAKESPAN": 5,
+            "CENTER": 71,
+            "ENERGY": 1
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 187,
+          "byObservedBirthRole": {
+            "MAKESPAN": 9,
+            "CENTER": 156,
+            "ENERGY": 8,
+            "WORKER_COST": 14
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "RANDOM",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 115,
+        "WORKER_COST": 17,
+        "ENERGY": 8,
+        "MAKESPAN": 16
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 87196.0,
+        "WORKER_COST": 85526.0,
+        "ENERGY": 81306.5,
+        "MAKESPAN": 87945.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 10.51939513477975,
+        "CENTER": 20.743145743145742,
+        "ENERGY": 5.47008547008547,
+        "WORKER_COST": 11.623931623931623
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 3,
+          "byObservedBirthRole": {
+            "WORKER_COST": 1,
+            "CENTER": 2
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 42,
+          "byObservedBirthRole": {
+            "CENTER": 32,
+            "WORKER_COST": 8,
+            "MAKESPAN": 2
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 78,
+          "byObservedBirthRole": {
+            "CENTER": 61,
+            "WORKER_COST": 10,
+            "ENERGY": 2,
+            "MAKESPAN": 5
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "CENTER_MATCHED",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 99900
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 354
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 56949.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 35.43543543543544
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 7,
+          "byObservedBirthRole": {
+            "CENTER": 7
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 125,
+          "byObservedBirthRole": {
+            "CENTER": 125
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 244,
+          "byObservedBirthRole": {
+            "CENTER": 244
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610003,
+      "mode": "PA_EQUAL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 269,
+        "WORKER_COST": 28,
+        "ENERGY": 18,
+        "MAKESPAN": 17
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 74987.0,
+        "WORKER_COST": 75791.5,
+        "ENERGY": 85018.5,
+        "MAKESPAN": 89836.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 11.176857330703484,
+        "CENTER": 48.52092352092352,
+        "ENERGY": 12.307692307692308,
+        "WORKER_COST": 19.145299145299145
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 234,
+          "byObservedBirthRole": {
+            "CENTER": 201,
+            "WORKER_COST": 23,
+            "ENERGY": 9,
+            "MAKESPAN": 1
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 111,
+          "byObservedBirthRole": {
+            "CENTER": 109,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 297,
+          "byObservedBirthRole": {
+            "CENTER": 248,
+            "WORKER_COST": 28,
+            "ENERGY": 18,
+            "MAKESPAN": 3
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "NATIVE",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 249,
+        "MAKESPAN": 7,
+        "ENERGY": 19,
+        "WORKER_COST": 11
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 74808.0,
+        "MAKESPAN": 78633.0,
+        "ENERGY": 85234.0,
+        "WORKER_COST": 89416.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 4.602235371466141,
+        "CENTER": 44.913419913419915,
+        "ENERGY": 12.991452991452991,
+        "WORKER_COST": 7.521367521367521
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 286,
+          "byObservedBirthRole": {
+            "CENTER": 249,
+            "MAKESPAN": 7,
+            "ENERGY": 19,
+            "WORKER_COST": 11
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 4,
+          "byObservedBirthRole": {
+            "CENTER": 4
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 176,
+          "byObservedBirthRole": {
+            "CENTER": 150,
+            "ENERGY": 12,
+            "WORKER_COST": 11,
+            "MAKESPAN": 3
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "TASK_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "WORKER_COST": 15036,
+        "CENTER": 54600,
+        "ENERGY": 15210,
+        "MAKESPAN": 15054
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 21,
+        "CENTER": 237,
+        "WORKER_COST": 21,
+        "ENERGY": 10
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 62886.0,
+        "CENTER": 75215.0,
+        "WORKER_COST": 86100.0,
+        "ENERGY": 66623.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "WORKER_COST": 13.966480446927374,
+        "CENTER": 43.40659340659341,
+        "ENERGY": 6.574621959237344,
+        "MAKESPAN": 13.949780789159027
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 118,
+          "byObservedBirthRole": {
+            "MAKESPAN": 6,
+            "CENTER": 109,
+            "ENERGY": 3
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 15,
+          "byObservedBirthRole": {
+            "CENTER": 15
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 237,
+          "byObservedBirthRole": {
+            "MAKESPAN": 18,
+            "CENTER": 193,
+            "WORKER_COST": 16,
+            "ENERGY": 10
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 7,
+          "byObservedBirthRole": {
+            "CENTER": 7
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "ORDER_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "ENERGY": 14742,
+        "CENTER": 55245,
+        "WORKER_COST": 14703,
+        "MAKESPAN": 15210
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 26,
+        "CENTER": 368,
+        "ENERGY": 33,
+        "WORKER_COST": 21
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 70584.0,
+        "CENTER": 82703.5,
+        "ENERGY": 86870.0,
+        "WORKER_COST": 93501.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "ENERGY": 22.385022385022385,
+        "CENTER": 66.61236310978369,
+        "WORKER_COST": 14.282799428688023,
+        "MAKESPAN": 17.094017094017094
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 143,
+          "byObservedBirthRole": {
+            "MAKESPAN": 26,
+            "CENTER": 110,
+            "ENERGY": 7
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 21,
+          "byObservedBirthRole": {
+            "CENTER": 21
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 287,
+          "byObservedBirthRole": {
+            "MAKESPAN": 26,
+            "CENTER": 240,
+            "ENERGY": 16,
+            "WORKER_COST": 5
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 4,
+          "byObservedBirthRole": {
+            "CENTER": 4
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "FULL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 308,
+        "WORKER_COST": 18,
+        "MAKESPAN": 16,
+        "ENERGY": 43
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 79117.5,
+        "WORKER_COST": 73828.5,
+        "MAKESPAN": 74603.0,
+        "ENERGY": 80928.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 10.51939513477975,
+        "CENTER": 55.55555555555556,
+        "ENERGY": 29.4017094017094,
+        "WORKER_COST": 12.307692307692308
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 96,
+          "byObservedBirthRole": {
+            "CENTER": 78,
+            "MAKESPAN": 16,
+            "ENERGY": 2
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 21,
+          "byObservedBirthRole": {
+            "CENTER": 21
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 183,
+          "byObservedBirthRole": {
+            "CENTER": 148,
+            "WORKER_COST": 3,
+            "MAKESPAN": 16,
+            "ENERGY": 16
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 5,
+          "byObservedBirthRole": {
+            "CENTER": 4,
+            "ENERGY": 1
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "RANDOM",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "ENERGY": 16,
+        "CENTER": 154,
+        "MAKESPAN": 32,
+        "WORKER_COST": 40
+      },
+      "medianRecordedBirthFE": {
+        "ENERGY": 67709.0,
+        "CENTER": 71631.5,
+        "MAKESPAN": 78239.5,
+        "WORKER_COST": 64119.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 21.0387902695595,
+        "CENTER": 27.77777777777778,
+        "ENERGY": 10.94017094017094,
+        "WORKER_COST": 27.35042735042735
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 46,
+          "byObservedBirthRole": {
+            "ENERGY": 5,
+            "MAKESPAN": 13,
+            "CENTER": 26,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 70,
+          "byObservedBirthRole": {
+            "ENERGY": 4,
+            "CENTER": 46,
+            "WORKER_COST": 12,
+            "MAKESPAN": 8
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "CENTER_MATCHED",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 99900
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 297
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 66147.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 29.72972972972973
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 105,
+          "byObservedBirthRole": {
+            "CENTER": 105
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 1,
+          "byObservedBirthRole": {
+            "CENTER": 1
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 115,
+          "byObservedBirthRole": {
+            "CENTER": 115
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 15610037,
+      "mode": "PA_EQUAL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15210,
+        "CENTER": 55440,
+        "ENERGY": 14625,
+        "WORKER_COST": 14625
+      },
+      "frontPointsByRecordedBirthRole": {
+        "ENERGY": 11,
+        "CENTER": 343,
+        "WORKER_COST": 23,
+        "MAKESPAN": 10
+      },
+      "medianRecordedBirthFE": {
+        "ENERGY": 73385.0,
+        "CENTER": 84269.0,
+        "WORKER_COST": 81747.0,
+        "MAKESPAN": 76496.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 6.574621959237344,
+        "CENTER": 61.86868686868687,
+        "ENERGY": 7.521367521367521,
+        "WORKER_COST": 15.726495726495726
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 24,
+          "byObservedBirthRole": {
+            "CENTER": 24
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 78,
+          "byObservedBirthRole": {
+            "ENERGY": 9,
+            "CENTER": 69
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "NATIVE",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "ENERGY": 72,
+        "CENTER": 400,
+        "WORKER_COST": 51,
+        "MAKESPAN": 17
+      },
+      "medianRecordedBirthFE": {
+        "ENERGY": 95274.5,
+        "CENTER": 87419.5,
+        "WORKER_COST": 77384.0,
+        "MAKESPAN": 81114.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 11.092985318107667,
+        "CENTER": 73.09273640931933,
+        "ENERGY": 48.24120603015076,
+        "WORKER_COST": 34.17085427135678
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 540,
+          "byObservedBirthRole": {
+            "ENERGY": 72,
+            "CENTER": 400,
+            "WORKER_COST": 51,
+            "MAKESPAN": 17
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 189,
+          "byObservedBirthRole": {
+            "ENERGY": 24,
+            "CENTER": 162,
+            "WORKER_COST": 3
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 76,
+          "byObservedBirthRole": {
+            "WORKER_COST": 9,
+            "CENTER": 59,
+            "ENERGY": 1,
+            "MAKESPAN": 7
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 208,
+          "byObservedBirthRole": {
+            "ENERGY": 4,
+            "CENTER": 170,
+            "WORKER_COST": 34
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "TASK_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "ENERGY": 14925,
+        "CENTER": 55125,
+        "WORKER_COST": 14925,
+        "MAKESPAN": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 318,
+        "MAKESPAN": 65,
+        "ENERGY": 89,
+        "WORKER_COST": 40
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 94198.5,
+        "MAKESPAN": 89117.0,
+        "ENERGY": 83832.0,
+        "WORKER_COST": 94781.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "ENERGY": 59.63149078726968,
+        "CENTER": 57.68707482993197,
+        "WORKER_COST": 26.80067001675042,
+        "MAKESPAN": 43.551088777219434
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 380,
+          "byObservedBirthRole": {
+            "CENTER": 255,
+            "MAKESPAN": 48,
+            "WORKER_COST": 24,
+            "ENERGY": 53
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 219,
+          "byObservedBirthRole": {
+            "WORKER_COST": 5,
+            "ENERGY": 27,
+            "CENTER": 187
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 161,
+          "byObservedBirthRole": {
+            "CENTER": 113,
+            "MAKESPAN": 35,
+            "WORKER_COST": 13
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 204,
+          "byObservedBirthRole": {
+            "WORKER_COST": 19,
+            "CENTER": 184,
+            "ENERGY": 1
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "ORDER_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 54725,
+        "WORKER_COST": 14925,
+        "ENERGY": 14925,
+        "MAKESPAN": 15325
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 45,
+        "CENTER": 290,
+        "ENERGY": 137,
+        "WORKER_COST": 97
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 59984.0,
+        "CENTER": 85180.0,
+        "ENERGY": 94593.0,
+        "WORKER_COST": 98404.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 52.99223389675651,
+        "WORKER_COST": 64.99162479061977,
+        "ENERGY": 91.79229480737018,
+        "MAKESPAN": 29.363784665579118
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 139,
+          "byObservedBirthRole": {
+            "MAKESPAN": 9,
+            "CENTER": 96,
+            "ENERGY": 23,
+            "WORKER_COST": 11
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 185,
+          "byObservedBirthRole": {
+            "CENTER": 161,
+            "ENERGY": 22,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 25,
+          "byObservedBirthRole": {
+            "MAKESPAN": 10,
+            "CENTER": 15
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 159,
+          "byObservedBirthRole": {
+            "CENTER": 141,
+            "WORKER_COST": 17,
+            "ENERGY": 1
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "FULL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 51,
+        "CENTER": 215,
+        "ENERGY": 73,
+        "WORKER_COST": 47
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 62533.0,
+        "CENTER": 84992.0,
+        "ENERGY": 94159.0,
+        "WORKER_COST": 97284.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 33.278955954323,
+        "CENTER": 39.287345820009136,
+        "ENERGY": 48.91122278056952,
+        "WORKER_COST": 31.490787269681743
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 194,
+          "byObservedBirthRole": {
+            "MAKESPAN": 22,
+            "CENTER": 135,
+            "ENERGY": 35,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 128,
+          "byObservedBirthRole": {
+            "ENERGY": 14,
+            "CENTER": 113,
+            "WORKER_COST": 1
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 98,
+          "byObservedBirthRole": {
+            "MAKESPAN": 26,
+            "CENTER": 71,
+            "ENERGY": 1
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 137,
+          "byObservedBirthRole": {
+            "ENERGY": 2,
+            "CENTER": 131,
+            "WORKER_COST": 4
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "RANDOM",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 31,
+        "CENTER": 334,
+        "ENERGY": 97,
+        "WORKER_COST": 60
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 81459.0,
+        "CENTER": 88535.5,
+        "ENERGY": 95962.0,
+        "WORKER_COST": 99197.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 20.22838499184339,
+        "CENTER": 61.032434901781635,
+        "ENERGY": 64.99162479061977,
+        "WORKER_COST": 40.20100502512563
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 60,
+          "byObservedBirthRole": {
+            "CENTER": 27,
+            "ENERGY": 29,
+            "MAKESPAN": 4
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 236,
+          "byObservedBirthRole": {
+            "CENTER": 184,
+            "ENERGY": 43,
+            "WORKER_COST": 9
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 12,
+          "byObservedBirthRole": {
+            "MAKESPAN": 1,
+            "CENTER": 11
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 168,
+          "byObservedBirthRole": {
+            "CENTER": 135,
+            "ENERGY": 13,
+            "WORKER_COST": 20
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "CENTER_MATCHED",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 99900
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 265
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 95108.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 26.526526526526528
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 114,
+          "byObservedBirthRole": {
+            "CENTER": 114
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 99,
+          "byObservedBirthRole": {
+            "CENTER": 99
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 28,
+          "byObservedBirthRole": {
+            "CENTER": 28
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 108,
+          "byObservedBirthRole": {
+            "CENTER": 108
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610003,
+      "mode": "PA_EQUAL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "ENERGY": 77,
+        "CENTER": 344,
+        "WORKER_COST": 53,
+        "MAKESPAN": 26
+      },
+      "medianRecordedBirthFE": {
+        "ENERGY": 96071.0,
+        "CENTER": 89984.5,
+        "WORKER_COST": 98506.0,
+        "MAKESPAN": 81216.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 16.965742251223492,
+        "CENTER": 62.85975331201462,
+        "ENERGY": 51.59128978224456,
+        "WORKER_COST": 35.5108877721943
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 153,
+          "byObservedBirthRole": {
+            "ENERGY": 37,
+            "CENTER": 112,
+            "WORKER_COST": 4
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 199,
+          "byObservedBirthRole": {
+            "ENERGY": 20,
+            "CENTER": 179
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 55,
+          "byObservedBirthRole": {
+            "CENTER": 48,
+            "WORKER_COST": 7
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 201,
+          "byObservedBirthRole": {
+            "ENERGY": 2,
+            "WORKER_COST": 11,
+            "CENTER": 188
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "NATIVE",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "WORKER_COST": 65,
+        "CENTER": 311,
+        "ENERGY": 63,
+        "MAKESPAN": 28
+      },
+      "medianRecordedBirthFE": {
+        "WORKER_COST": 98194.0,
+        "CENTER": 89943.0,
+        "ENERGY": 94358.0,
+        "MAKESPAN": 80861.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 18.270799347471453,
+        "CENTER": 56.829602558245774,
+        "ENERGY": 42.21105527638191,
+        "WORKER_COST": 43.551088777219434
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 467,
+          "byObservedBirthRole": {
+            "WORKER_COST": 65,
+            "CENTER": 311,
+            "ENERGY": 63,
+            "MAKESPAN": 28
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 259,
+          "byObservedBirthRole": {
+            "WORKER_COST": 2,
+            "ENERGY": 4,
+            "MAKESPAN": 5,
+            "CENTER": 248
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 43,
+          "byObservedBirthRole": {
+            "WORKER_COST": 4,
+            "CENTER": 30,
+            "MAKESPAN": 9
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 195,
+          "byObservedBirthRole": {
+            "WORKER_COST": 22,
+            "MAKESPAN": 3,
+            "CENTER": 156,
+            "ENERGY": 14
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "TASK_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 55125,
+        "MAKESPAN": 14925,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "MAKESPAN": 60,
+        "CENTER": 241,
+        "ENERGY": 111,
+        "WORKER_COST": 67
+      },
+      "medianRecordedBirthFE": {
+        "MAKESPAN": 80552.0,
+        "CENTER": 91896.0,
+        "ENERGY": 89395.0,
+        "WORKER_COST": 95910.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 43.718820861678005,
+        "MAKESPAN": 40.20100502512563,
+        "ENERGY": 74.37185929648241,
+        "WORKER_COST": 44.891122278056955
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 87,
+          "byObservedBirthRole": {
+            "MAKESPAN": 1,
+            "CENTER": 22,
+            "ENERGY": 49,
+            "WORKER_COST": 15
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 183,
+          "byObservedBirthRole": {
+            "ENERGY": 24,
+            "MAKESPAN": 3,
+            "CENTER": 154,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 21,
+          "byObservedBirthRole": {
+            "MAKESPAN": 8,
+            "CENTER": 13
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 139,
+          "byObservedBirthRole": {
+            "ENERGY": 28,
+            "CENTER": 69,
+            "WORKER_COST": 41,
+            "MAKESPAN": 1
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "ORDER_ONLY",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 54924,
+        "ENERGY": 14925,
+        "MAKESPAN": 15126,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 335,
+        "WORKER_COST": 69,
+        "ENERGY": 94,
+        "MAKESPAN": 12
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 85948.0,
+        "WORKER_COST": 96947.0,
+        "ENERGY": 94025.5,
+        "MAKESPAN": 80876.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 60.993372660403466,
+        "ENERGY": 62.981574539363486,
+        "MAKESPAN": 7.933359777865927,
+        "WORKER_COST": 46.231155778894475
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 77,
+          "byObservedBirthRole": {
+            "CENTER": 28,
+            "ENERGY": 38,
+            "MAKESPAN": 9,
+            "WORKER_COST": 2
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 172,
+          "byObservedBirthRole": {
+            "CENTER": 165,
+            "ENERGY": 7
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 1,
+          "byObservedBirthRole": {
+            "WORKER_COST": 1
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 102,
+          "byObservedBirthRole": {
+            "WORKER_COST": 9,
+            "CENTER": 76,
+            "ENERGY": 17
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "FULL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "WORKER_COST": 44,
+        "CENTER": 314,
+        "ENERGY": 94,
+        "MAKESPAN": 32
+      },
+      "medianRecordedBirthFE": {
+        "WORKER_COST": 96943.0,
+        "CENTER": 88023.0,
+        "ENERGY": 94326.0,
+        "MAKESPAN": 80050.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 20.880913539967374,
+        "CENTER": 57.37779808131567,
+        "ENERGY": 62.981574539363486,
+        "WORKER_COST": 29.48073701842546
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 167,
+          "byObservedBirthRole": {
+            "ENERGY": 58,
+            "WORKER_COST": 16,
+            "MAKESPAN": 9,
+            "CENTER": 84
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 233,
+          "byObservedBirthRole": {
+            "WORKER_COST": 1,
+            "CENTER": 218,
+            "ENERGY": 14
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 24,
+          "byObservedBirthRole": {
+            "WORKER_COST": 14,
+            "CENTER": 8,
+            "MAKESPAN": 2
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 187,
+          "byObservedBirthRole": {
+            "WORKER_COST": 28,
+            "CENTER": 145,
+            "ENERGY": 14
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "RANDOM",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 240,
+        "ENERGY": 47,
+        "MAKESPAN": 35,
+        "WORKER_COST": 132
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 85457.0,
+        "ENERGY": 95021.0,
+        "MAKESPAN": 82016.0,
+        "WORKER_COST": 98097.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 22.838499184339316,
+        "CENTER": 43.85564184559159,
+        "ENERGY": 31.490787269681743,
+        "WORKER_COST": 88.44221105527639
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 56,
+          "byObservedBirthRole": {
+            "CENTER": 39,
+            "ENERGY": 10,
+            "MAKESPAN": 4,
+            "WORKER_COST": 3
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 159,
+          "byObservedBirthRole": {
+            "CENTER": 128,
+            "ENERGY": 14,
+            "WORKER_COST": 16,
+            "MAKESPAN": 1
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 4,
+          "byObservedBirthRole": {
+            "CENTER": 4
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 156,
+          "byObservedBirthRole": {
+            "CENTER": 85,
+            "ENERGY": 15,
+            "WORKER_COST": 56
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "CENTER_MATCHED",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "CENTER": 99900
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 225
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 95203.0
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "CENTER": 22.52252252252252
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 5,
+          "byObservedBirthRole": {
+            "CENTER": 5
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 131,
+          "byObservedBirthRole": {
+            "CENTER": 131
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 0,
+          "byObservedBirthRole": {}
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 100,
+          "byObservedBirthRole": {
+            "CENTER": 100
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 15610037,
+      "mode": "PA_EQUAL",
+      "paidFEByActualReceiverRole": {
+        "INITIAL": 100,
+        "MAKESPAN": 15325,
+        "CENTER": 54725,
+        "ENERGY": 14925,
+        "WORKER_COST": 14925
+      },
+      "frontPointsByRecordedBirthRole": {
+        "CENTER": 303,
+        "ENERGY": 99,
+        "WORKER_COST": 76,
+        "MAKESPAN": 44
+      },
+      "medianRecordedBirthFE": {
+        "CENTER": 88374.0,
+        "ENERGY": 94903.0,
+        "WORKER_COST": 96817.0,
+        "MAKESPAN": 80337.5
+      },
+      "nondominatedRecordedBirthsPer10000PaidFE": {
+        "INITIAL": 0.0,
+        "MAKESPAN": 28.71125611745514,
+        "CENTER": 55.367747830059386,
+        "ENERGY": 66.33165829145729,
+        "WORKER_COST": 50.9212730318258
+      },
+      "pointsCoveredByOpponent": {
+        "NATIVE": {
+          "totalCovered": 144,
+          "byObservedBirthRole": {
+            "ENERGY": 53,
+            "MAKESPAN": 2,
+            "CENTER": 82,
+            "WORKER_COST": 7
+          }
+        },
+        "NSGA2_DEEP": {
+          "totalCovered": 224,
+          "byObservedBirthRole": {
+            "ENERGY": 13,
+            "WORKER_COST": 2,
+            "CENTER": 209
+          }
+        },
+        "NSGA_CTX_GOM": {
+          "totalCovered": 28,
+          "byObservedBirthRole": {
+            "WORKER_COST": 5,
+            "CENTER": 22,
+            "ENERGY": 1
+          }
+        },
+        "FULL_SHARED_DEEP": {
+          "totalCovered": 198,
+          "byObservedBirthRole": {
+            "WORKER_COST": 45,
+            "CENTER": 127,
+            "ENERGY": 26
+          }
+        }
+      },
+      "multipleRecordedCarriersForSameObjective": 0,
+      "interpretation": "Recorded representative birth only; not independent causal contribution, no accepted/rejected status inferred"
+    }
+  ],
+  "descriptiveOnly": true,
+  "mapping": "All full-FOS programs have2N-1 paid evaluations; infer actual receiver role from accepted per-generation traversal/metadata. Validate total FE, complete programs/generations/model builds and final-front coverage counts. Initialization separately labelled.",
+  "caveat": "The checkpoint stores a recorded carrier, not every alternative origin. Objective-identical alternatives and first-record conventions cannot establish causal role value or benefit of changing acceptance. All-paid result archive already includes rejected candidate points; internal work states are a different question.",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "noControlPromotion": true,
+  "originalStopUnchanged": true,
+  "goalAchieved": false
+}

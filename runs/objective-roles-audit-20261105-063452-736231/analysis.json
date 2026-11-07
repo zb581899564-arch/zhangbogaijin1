@@ -1,0 +1,49 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "fronts": 24,
+      "poolContexts": 6,
+      "finalTProjectionLosses": {
+        "C_E": {
+          "finalTPairedFronts": 6,
+          "median3DHVLossPct": 2.249320323322027,
+          "min3DHVLossPct": 1.7689983318025682,
+          "max3DHVLossPct": 3.61179033350346
+        },
+        "C_W": {
+          "finalTPairedFronts": 6,
+          "median3DHVLossPct": 1.754045335907623,
+          "min3DHVLossPct": 1.0215460685545168,
+          "max3DHVLossPct": 2.5410492865948204
+        }
+      },
+      "poolOppositePairPctMin": 33.41772151898734,
+      "poolOppositePairPctMax": 55.348101265822784
+    },
+    {
+      "stem": "100_2_3_1",
+      "fronts": 24,
+      "poolContexts": 6,
+      "finalTProjectionLosses": {
+        "C_E": {
+          "finalTPairedFronts": 6,
+          "median3DHVLossPct": 3.3850367935618024,
+          "min3DHVLossPct": 2.83269146005205,
+          "max3DHVLossPct": 4.623552590113707
+        },
+        "C_W": {
+          "finalTPairedFronts": 6,
+          "median3DHVLossPct": 1.6678383715888279,
+          "min3DHVLossPct": 0.9279620979099589,
+          "max3DHVLossPct": 2.018568130781846
+        }
+      },
+      "poolOppositePairPctMin": 50.25316455696203,
+      "poolOppositePairPctMax": 71.29746835443038
+    }
+  ],
+  "missing": [],
+  "newSearchFE": 0,
+  "additionalDecodes": 0
+}

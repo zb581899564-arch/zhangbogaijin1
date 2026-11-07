@@ -1,0 +1,144 @@
+[
+  {
+    "stem": "20_8_5_1",
+    "metrics": {
+      "FIXED_FORCE": {
+        "HV": 0.5184233762687673,
+        "IGDplus": 0.012198747262650302,
+        "timeHV": 0.4928462823409936,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FIXED_SHARE": {
+        "HV": 0.5226575532700506,
+        "IGDplus": 0.008651518566532847,
+        "timeHV": 0.5051507214114015,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FIXED_SYNC": {
+        "HV": 0.524085928011635,
+        "IGDplus": 0.0068866718924188485,
+        "timeHV": 0.4954744219441499,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FREE_JOB": {
+        "HV": 0.5335408776065025,
+        "IGDplus": 0.005907901546698527,
+        "timeHV": 0.5043218400201411,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FREE_PAPER_SO": {
+        "HV": 0.535292534820559,
+        "IGDplus": 0.0069657043331243325,
+        "timeHV": 0.5015702700396227,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true"
+      },
+      "FREE_PAPER_V2": {
+        "HV": 0.5340428730603878,
+        "IGDplus": 0.004352953695111703,
+        "timeHV": 0.4974993903372454,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION"
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": 0.5138037785290503,
+        "IGDplus": 0.016278218982905854,
+        "timeHV": 0.49416858781482187,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION"
+      },
+      "NSGA": {
+        "HV": 0.5413067595861452,
+        "IGDplus": 0.0018566128932432997,
+        "timeHV": 0.5130214296680272,
+        "config": "mode=NSGA2_4V;setting=0;population=100;SPEA2Archive=100;PC=0.9;mutationScale=1.0;variation=OX_JS+job-aligned-uniform_FA_MA_WA;mutation=per-JS-position-swap-and-per-job-per-resource-resample,p=min(1,scale/jobs);repair=shared-deterministic;all-proposals=guarded-paid;SPEA2Distance=frozen-mean-normalized-objective-Euclidean;k=floor(sqrt(union-size)),self-excluded;MOEAD=normalized-Tchebycheff;weights=100-deterministic-maximin-H30-simplex;neighbors=20;delta=.9;maxReplacement=2;zeroWeight=1e-6;SPEA2-and-MOEAD-scale=initial-100-absolute-mean-frozen,zero-to-1;ideal=own-paid-minimum;VNS=chapter4-ordinary-inter+intra,CENTER,support-null,every-50-global-offspring;localProposalCap=30-intra-only;inter=additional-paid-proposals;selectionTie=stable-index;NSGATournamentTie=seeded-random;NSGACrowding=retain-union-front,constant-objective-interior-zero;sources=10.1109/4235.996017,TIK103,10.1109/TEVC.2007.892759;status=explicit-discrete-adaptation,not-author-score-reproduction"
+      }
+    },
+    "diagnosticEffectsPct": {
+      "familyScaffoldingNet": -1.7721134390457527,
+      "sharingUnderFixedScaffolding": -0.2725459061653557,
+      "fixedSharingNetVsFree": -2.039829522580383,
+      "alignedVsPaperSO": -0.3272336339687154,
+      "paperSOvsV2": 0.2340002691188392,
+      "V2SelectionImprovement": 3.939070784819676
+    },
+    "vsNSGApct": {
+      "FIXED_FORCE": -4.227433504594192,
+      "FIXED_SHARE": -3.4452195517293727,
+      "FIXED_SYNC": -3.1813442691305593,
+      "FREE_JOB": -1.4346545359197216,
+      "FREE_PAPER_SO": -1.1110566530121102,
+      "FREE_PAPER_V2": -1.3419168331300635,
+      "LI_MATCHED_DEEP": -5.080849364992623,
+      "NSGA": 0.0
+    }
+  },
+  {
+    "stem": "100_2_3_1",
+    "metrics": {
+      "FIXED_FORCE": {
+        "HV": 0.773950550893274,
+        "IGDplus": 0.01505632015565481,
+        "timeHV": 0.6993253185085947,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FIXED_SHARE": {
+        "HV": 0.7988408298298252,
+        "IGDplus": 0.008254540937824734,
+        "timeHV": 0.7322693553419328,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FIXED_SYNC": {
+        "HV": 0.7967086217386402,
+        "IGDplus": 0.011847484945395297,
+        "timeHV": 0.7223924729274854,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FREE_JOB": {
+        "HV": 0.7925493285491007,
+        "IGDplus": 0.010213534551022788,
+        "timeHV": 0.7176526357110987,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true;globalKernel=JOB_ALIGNED"
+      },
+      "FREE_PAPER_SO": {
+        "HV": 0.7878286738330875,
+        "IGDplus": 0.01323655157289206,
+        "timeHV": 0.6976399303705718,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION;semanticS=true;semanticO=true"
+      },
+      "FREE_PAPER_V2": {
+        "HV": 0.7985225609076938,
+        "IGDplus": 0.009848625128392479,
+        "timeHV": 0.6986879767135554,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION"
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": 0.7659227980255894,
+        "IGDplus": 0.020462834396530828,
+        "timeHV": 0.6938426275389702,
+        "config": "population=100;boundaryEach=15;central=55;Q=50;localProposalCap=30;alpha=1.0;gamma=0.8;exploration=0.8;randScale=0.6;PC_FA_MA_WA=0.2,0.3,0.3;PM_FA_MA_WA=0.08,0.15,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION"
+      },
+      "NSGA": {
+        "HV": 0.8049812671909183,
+        "IGDplus": 0.011073545309276749,
+        "timeHV": 0.6575814037707589,
+        "config": "mode=NSGA2_4V;setting=0;population=100;SPEA2Archive=100;PC=0.9;mutationScale=1.0;variation=OX_JS+job-aligned-uniform_FA_MA_WA;mutation=per-JS-position-swap-and-per-job-per-resource-resample,p=min(1,scale/jobs);repair=shared-deterministic;all-proposals=guarded-paid;SPEA2Distance=frozen-mean-normalized-objective-Euclidean;k=floor(sqrt(union-size)),self-excluded;MOEAD=normalized-Tchebycheff;weights=100-deterministic-maximin-H30-simplex;neighbors=20;delta=.9;maxReplacement=2;zeroWeight=1e-6;SPEA2-and-MOEAD-scale=initial-100-absolute-mean-frozen,zero-to-1;ideal=own-paid-minimum;VNS=chapter4-ordinary-inter+intra,CENTER,support-null,every-50-global-offspring;localProposalCap=30-intra-only;inter=additional-paid-proposals;selectionTie=stable-index;NSGATournamentTie=seeded-random;NSGACrowding=retain-union-front,constant-objective-interior-zero;sources=10.1109/4235.996017,TIK103,10.1109/TEVC.2007.892759;status=explicit-discrete-adaptation,not-author-score-reproduction"
+      }
+    },
+    "diagnosticEffectsPct": {
+      "familyScaffoldingNet": 0.5247992824817471,
+      "sharingUnderFixedScaffolding": 0.2676270888762211,
+      "fixedSharingNetVsFree": 0.7938308764001034,
+      "alignedVsPaperSO": 0.5991981344174002,
+      "paperSOvsV2": -1.3392091342353973,
+      "V2SelectionImprovement": 4.2562726904253
+    },
+    "vsNSGApct": {
+      "FIXED_FORCE": -3.8548370704239887,
+      "FIXED_SHARE": -0.7628050007326248,
+      "FIXED_SYNC": -1.027681734898822,
+      "FREE_JOB": -1.5443761424660862,
+      "FREE_PAPER_SO": -2.130806523943951,
+      "FREE_PAPER_V2": -0.8023424328572282,
+      "LI_MATCHED_DEEP": -4.8520966583021625,
+      "NSGA": 0.0
+    }
+  }
+]

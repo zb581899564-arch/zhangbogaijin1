@@ -1,0 +1,344 @@
+{
+  "mainThreadCpuSamples": 152,
+  "searchCpuSamples": 150,
+  "truncatedSearchStacks": 0,
+  "topLeafMethods": [
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.repair",
+      "samples": 18,
+      "pctOfSearchCpuSamples": 12.0
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.AbstractGenericSolutionWithid.<init>",
+      "samples": 14,
+      "pctOfSearchCpuSamples": 9.333333333333334
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>",
+      "samples": 12,
+      "pctOfSearchCpuSamples": 8.0
+    },
+    {
+      "name": "java.util.Arrays.copyOf",
+      "samples": 12,
+      "pctOfSearchCpuSamples": 8.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.SchedulingEncoding.integers",
+      "samples": 10,
+      "pctOfSearchCpuSamples": 6.666666666666667
+    },
+    {
+      "name": "java.util.Arrays.fill",
+      "samples": 8,
+      "pctOfSearchCpuSamples": 5.333333333333333
+    },
+    {
+      "name": "java.io.ObjectInputStream.readArray",
+      "samples": 7,
+      "pctOfSearchCpuSamples": 4.666666666666667
+    },
+    {
+      "name": "java.io.ObjectInputStream$PeekInputStream.readFully",
+      "samples": 5,
+      "pctOfSearchCpuSamples": 3.3333333333333335
+    },
+    {
+      "name": "java.util.HashMap.getNode",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 2.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.cooperation.FactoryRecord.<init>",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 2.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive.dominates",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 2.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.cooperation.FamilyContexts.restore",
+      "samples": 3,
+      "pctOfSearchCpuSamples": 2.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.mechanism.JobAlignedPaperKernel.moveJobSequence",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "java.util.HashMap$HashIterator.<init>",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicSchedule.<init>",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "java.io.ObjectStreamClass$FieldReflector.getPrimFieldValues",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "java.io.ObjectInputStream$BlockDataInputStream.readFully",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "java.io.ObjectStreamClass$FieldReflector.setPrimFieldValues",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "java.lang.StringLatin1.hashCode",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "java.util.LinkedHashMap.afterNodeInsertion",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "org.uma.jmetal.util.research.cooperation.FactoryPool.truncate",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "org.uma.jmetal.util.research.model.DynamicPhysics.transition",
+      "samples": 2,
+      "pctOfSearchCpuSamples": 1.3333333333333333
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive.objectiveSnapshot",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.6666666666666666
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.ParetoTools.dominates",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.6666666666666666
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.AbstractGenericSolutionWithid.getVariableValue",
+      "samples": 1,
+      "pctOfSearchCpuSamples": 0.6666666666666666
+    }
+  ],
+  "topInclusiveMethods": [
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso.run",
+      "samples": 150,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.RunContext.run",
+      "samples": 150,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "research.dynamic.PddrIsolationRun.main",
+      "samples": 150,
+      "pctOfSearchCpuSamples": 100.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.improve",
+      "samples": 124,
+      "pctOfSearchCpuSamples": 82.66666666666667
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.improveIntra",
+      "samples": 123,
+      "pctOfSearchCpuSamples": 82.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.vns",
+      "samples": 123,
+      "pctOfSearchCpuSamples": 82.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.evaluateNeighborhood",
+      "samples": 122,
+      "pctOfSearchCpuSamples": 81.33333333333333
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.LocalSearch.descent",
+      "samples": 109,
+      "pctOfSearchCpuSamples": 72.66666666666667
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.SearchState.evaluate",
+      "samples": 94,
+      "pctOfSearchCpuSamples": 62.666666666666664
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate",
+      "samples": 69,
+      "pctOfSearchCpuSamples": 46.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.ThreeObjectiveArchive.addEvaluated",
+      "samples": 39,
+      "pctOfSearchCpuSamples": 26.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.runtime.SolutionSnapshots.copy",
+      "samples": 36,
+      "pctOfSearchCpuSamples": 24.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.IntraNeighborhoods.propose",
+      "samples": 35,
+      "pctOfSearchCpuSamples": 23.333333333333332
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.<init>",
+      "samples": 34,
+      "pctOfSearchCpuSamples": 22.666666666666668
+    },
+    {
+      "name": "org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution.copy",
+      "samples": 33,
+      "pctOfSearchCpuSamples": 22.0
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.ParetoTools.copy",
+      "samples": 31,
+      "pctOfSearchCpuSamples": 20.666666666666668
+    },
+    {
+      "name": "org.uma.jmetal.util.research.DynamicEvaluation.evaluate",
+      "samples": 29,
+      "pctOfSearchCpuSamples": 19.333333333333332
+    },
+    {
+      "name": "java.lang.reflect.Method.invoke",
+      "samples": 26,
+      "pctOfSearchCpuSamples": 17.333333333333332
+    },
+    {
+      "name": "jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke",
+      "samples": 26,
+      "pctOfSearchCpuSamples": 17.333333333333332
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso.global",
+      "samples": 23,
+      "pctOfSearchCpuSamples": 15.333333333333334
+    },
+    {
+      "name": "org.uma.jmetal.util.research.search.CanonicalHmopso.qgs",
+      "samples": 23,
+      "pctOfSearchCpuSamples": 15.333333333333334
+    },
+    {
+      "name": "java.io.ObjectInputStream.readSerialData",
+      "samples": 22,
+      "pctOfSearchCpuSamples": 14.666666666666666
+    },
+    {
+      "name": "java.io.ObjectInputStream.readOrdinaryObject",
+      "samples": 22,
+      "pctOfSearchCpuSamples": 14.666666666666666
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject",
+      "samples": 22,
+      "pctOfSearchCpuSamples": 14.666666666666666
+    },
+    {
+      "name": "java.io.ObjectInputStream.readObject0",
+      "samples": 22,
+      "pctOfSearchCpuSamples": 14.666666666666666
+    }
+  ],
+  "searchAllocationSamples": 4609,
+  "sampledAllocationWeightBytes": 19492209432,
+  "topSampledAllocationWeights": [
+    {
+      "class": "[Ljava.lang.Object;",
+      "weightBytes": 6260263512
+    },
+    {
+      "class": "[B",
+      "weightBytes": 5341019680
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicStep",
+      "weightBytes": 2876290192
+    },
+    {
+      "class": "[I",
+      "weightBytes": 2516229424
+    },
+    {
+      "class": "[D",
+      "weightBytes": 1061736336
+    },
+    {
+      "class": "org.uma.jmetal.util.research.model.DynamicSchedule",
+      "weightBytes": 231040512
+    },
+    {
+      "class": "java.io.ObjectStreamClass",
+      "weightBytes": 142522040
+    },
+    {
+      "class": "java.util.ArrayList",
+      "weightBytes": 113604168
+    },
+    {
+      "class": "java.util.ArrayList$Itr",
+      "weightBytes": 112860456
+    },
+    {
+      "class": "java.util.HashMap",
+      "weightBytes": 101325576
+    },
+    {
+      "class": "java.util.HashMap$Node",
+      "weightBytes": 98431456
+    },
+    {
+      "class": "java.lang.StringBuilder",
+      "weightBytes": 92011696
+    },
+    {
+      "class": "java.util.LinkedHashMap$LinkedValueIterator",
+      "weightBytes": 70466592
+    },
+    {
+      "class": "java.io.ObjectInputStream$FieldValues",
+      "weightBytes": 63466656
+    },
+    {
+      "class": "java.lang.String",
+      "weightBytes": 54079848
+    },
+    {
+      "class": "[[[D",
+      "weightBytes": 49186816
+    },
+    {
+      "class": "[Ljava.io.ObjectInputStream$FieldValues;",
+      "weightBytes": 36674984
+    },
+    {
+      "class": "[Ljava.io.ObjectInputStream$HandleTable$HandleList;",
+      "weightBytes": 35556352
+    },
+    {
+      "class": "[Ljava.util.HashMap$Node;",
+      "weightBytes": 34227400
+    },
+    {
+      "class": "[[D",
+      "weightBytes": 26493688
+    }
+  ],
+  "scope": "Sampled evidence, not exact method timers or total allocated bytes. CPU percentages conditioned on main-thread samples containing RunContext.run; inclusive percentages overlap. Startup and return QA excluded by stack, except inlining/truncation can make some samples unclassifiable. Not an algorithm performance comparison."
+}

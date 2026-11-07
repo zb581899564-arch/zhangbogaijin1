@@ -1,0 +1,480 @@
+Compiled from "IntraNeighborhoods.java"
+public final class org.uma.jmetal.util.research.search.IntraNeighborhoods {
+  public static final int COUNT;
+
+  private final org.uma.jmetal.util.research.model.Instance instance;
+
+  public org.uma.jmetal.util.research.search.IntraNeighborhoods(org.uma.jmetal.util.research.model.Instance);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: aload_1
+       6: putfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+       9: return
+
+  public org.uma.jmetal.solution.PermutationSolution<java.lang.Integer> propose(org.uma.jmetal.solution.PermutationSolution<java.lang.Integer>, int, int);
+    Code:
+       0: iload_3
+       1: iflt          10
+       4: iload_3
+       5: bipush        9
+       7: if_icmplt     20
+      10: new           #13                 // class java/lang/IllegalArgumentException
+      13: dup
+      14: ldc           #15                 // String Neighborhood must be 0..8
+      16: invokespecial #17                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+      19: athrow
+      20: aload_1
+      21: invokestatic  #20                 // Method org/uma/jmetal/util/research/search/ParetoTools.copy:(Lorg/uma/jmetal/solution/PermutationSolution;)Lorg/uma/jmetal/solution/PermutationSolution;
+      24: astore        4
+      26: aload         4
+      28: iload_2
+      29: invokestatic  #26                 // Method positions:(Lorg/uma/jmetal/solution/PermutationSolution;I)Ljava/util/List;
+      32: astore        5
+      34: iload_3
+      35: iconst_3
+      36: if_icmpge     55
+      39: aload         4
+      41: invokeinterface #30,  1           // InterfaceMethod org/uma/jmetal/solution/PermutationSolution.getVariables:()Ljava/util/List;
+      46: aload         5
+      48: iload_3
+      49: invokestatic  #36                 // Method permute:(Ljava/util/List;Ljava/util/List;I)V
+      52: goto          189
+      55: aload_0
+      56: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+      59: invokevirtual #40                 // Method org/uma/jmetal/util/research/model/Instance.kind:()Lorg/uma/jmetal/util/research/model/ModelKind;
+      62: getstatic     #46                 // Field org/uma/jmetal/util/research/model/ModelKind.CHAPTER3_FIXED_WORKER:Lorg/uma/jmetal/util/research/model/ModelKind;
+      65: if_acmpne     112
+      68: iload_3
+      69: bipush        6
+      71: if_icmpge     90
+      74: aload         4
+      76: invokestatic  #52                 // Method org/uma/jmetal/util/research/search/ParticleOperators.machines:(Lorg/uma/jmetal/solution/PermutationSolution;)Ljava/util/List;
+      79: aload         5
+      81: iload_3
+      82: iconst_3
+      83: isub
+      84: invokestatic  #36                 // Method permute:(Ljava/util/List;Ljava/util/List;I)V
+      87: goto          189
+      90: aload         4
+      92: invokeinterface #58,  1           // InterfaceMethod org/uma/jmetal/solution/PermutationSolution.getVariablesworker:()Ljava/util/List;
+      97: aload_0
+      98: iload_2
+      99: invokespecial #61                 // Method fixedWorkerPositions:(I)Ljava/util/List;
+     102: iload_3
+     103: bipush        6
+     105: isub
+     106: invokestatic  #36                 // Method permute:(Ljava/util/List;Ljava/util/List;I)V
+     109: goto          189
+     112: iload_3
+     113: iconst_5
+     114: if_icmpne     131
+     117: aload         4
+     119: invokestatic  #52                 // Method org/uma/jmetal/util/research/search/ParticleOperators.machines:(Lorg/uma/jmetal/solution/PermutationSolution;)Ljava/util/List;
+     122: aload         5
+     124: iconst_2
+     125: invokestatic  #36                 // Method permute:(Ljava/util/List;Ljava/util/List;I)V
+     128: goto          189
+     131: iload_3
+     132: bipush        8
+     134: if_icmpne     153
+     137: aload         4
+     139: invokeinterface #58,  1           // InterfaceMethod org/uma/jmetal/solution/PermutationSolution.getVariablesworker:()Ljava/util/List;
+     144: aload         5
+     146: iconst_2
+     147: invokestatic  #36                 // Method permute:(Ljava/util/List;Ljava/util/List;I)V
+     150: goto          189
+     153: aload_0
+     154: aload         4
+     156: iload_2
+     157: aload         5
+     159: iload_3
+     160: bipush        6
+     162: if_icmpge     169
+     165: iconst_1
+     166: goto          170
+     169: iconst_0
+     170: iload_3
+     171: iconst_4
+     172: if_icmpeq     181
+     175: iload_3
+     176: bipush        7
+     178: if_icmpne     185
+     181: iconst_1
+     182: goto          186
+     185: iconst_0
+     186: invokespecial #65                 // Method reallocate:(Lorg/uma/jmetal/solution/PermutationSolution;ILjava/util/List;ZZ)V
+     189: aload         4
+     191: aload_0
+     192: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+     195: invokestatic  #69                 // Method org/uma/jmetal/util/research/SchedulingEncoding.repair:(Lorg/uma/jmetal/solution/PermutationSolution;Lorg/uma/jmetal/util/research/model/Instance;)I
+     198: pop
+     199: aload         4
+     201: areturn
+
+  private void reallocate(org.uma.jmetal.solution.PermutationSolution<java.lang.Integer>, int, java.util.List<java.lang.Integer>, boolean, boolean);
+    Code:
+       0: aload_3
+       1: invokeinterface #75,  1           // InterfaceMethod java/util/List.isEmpty:()Z
+       6: ifeq          10
+       9: return
+      10: iload         4
+      12: ifeq          22
+      15: aload_1
+      16: invokestatic  #52                 // Method org/uma/jmetal/util/research/search/ParticleOperators.machines:(Lorg/uma/jmetal/solution/PermutationSolution;)Ljava/util/List;
+      19: goto          28
+      22: aload_1
+      23: invokeinterface #58,  1           // InterfaceMethod org/uma/jmetal/solution/PermutationSolution.getVariablesworker:()Ljava/util/List;
+      28: astore        6
+      30: iload         4
+      32: ifeq          47
+      35: aload_0
+      36: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+      39: iload_2
+      40: iconst_0
+      41: invokevirtual #81                 // Method org/uma/jmetal/util/research/model/Instance.machines:(II)I
+      44: goto          56
+      47: aload_0
+      48: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+      51: iload_2
+      52: iconst_0
+      53: invokevirtual #84                 // Method org/uma/jmetal/util/research/model/Instance.workers:(II)I
+      56: istore        7
+      58: iload         7
+      60: iconst_2
+      61: if_icmpge     65
+      64: return
+      65: iload         7
+      67: newarray       int
+      69: astore        8
+      71: aload_3
+      72: invokeinterface #87,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      77: astore        9
+      79: aload         9
+      81: invokeinterface #91,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+      86: ifeq          129
+      89: aload         9
+      91: invokeinterface #96,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      96: checkcast     #100                // class java/lang/Integer
+      99: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+     102: istore        10
+     104: aload         8
+     106: aload         6
+     108: iload         10
+     110: invokeinterface #106,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     115: checkcast     #100                // class java/lang/Integer
+     118: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+     121: dup2
+     122: iaload
+     123: iconst_1
+     124: iadd
+     125: iastore
+     126: goto          79
+     129: iconst_m1
+     130: istore        9
+     132: iconst_0
+     133: istore        10
+     135: iconst_0
+     136: istore        11
+     138: iload         11
+     140: iload         7
+     142: if_icmpge     258
+     145: aload         8
+     147: iload         11
+     149: iaload
+     150: ifle          205
+     153: iload         9
+     155: iflt          201
+     158: iload         5
+     160: ifeq          188
+     163: aload_0
+     164: iload_2
+     165: iload         11
+     167: iload         4
+     169: invokespecial #110                // Method capacity:(IIZ)D
+     172: aload_0
+     173: iload_2
+     174: iload         9
+     176: iload         4
+     178: invokespecial #110                // Method capacity:(IIZ)D
+     181: dcmpg
+     182: ifge          205
+     185: goto          201
+     188: aload         8
+     190: iload         11
+     192: iaload
+     193: aload         8
+     195: iload         9
+     197: iaload
+     198: if_icmple     205
+     201: iload         11
+     203: istore        9
+     205: iload         5
+     207: ifeq          235
+     210: aload_0
+     211: iload_2
+     212: iload         11
+     214: iload         4
+     216: invokespecial #110                // Method capacity:(IIZ)D
+     219: aload_0
+     220: iload_2
+     221: iload         10
+     223: iload         4
+     225: invokespecial #110                // Method capacity:(IIZ)D
+     228: dcmpl
+     229: ifle          252
+     232: goto          248
+     235: aload         8
+     237: iload         11
+     239: iaload
+     240: aload         8
+     242: iload         10
+     244: iaload
+     245: if_icmpge     252
+     248: iload         11
+     250: istore        10
+     252: iinc          11, 1
+     255: goto          138
+     258: iload         9
+     260: iload         10
+     262: if_icmpne     266
+     265: return
+     266: new           #114                // class java/util/ArrayList
+     269: dup
+     270: invokespecial #116                // Method java/util/ArrayList."<init>":()V
+     273: astore        11
+     275: aload_3
+     276: invokeinterface #87,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     281: astore        12
+     283: aload         12
+     285: invokeinterface #91,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+     290: ifeq          344
+     293: aload         12
+     295: invokeinterface #96,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     300: checkcast     #100                // class java/lang/Integer
+     303: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+     306: istore        13
+     308: aload         6
+     310: iload         13
+     312: invokeinterface #106,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     317: checkcast     #100                // class java/lang/Integer
+     320: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+     323: iload         9
+     325: if_icmpne     341
+     328: aload         11
+     330: iload         13
+     332: invokestatic  #117                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     335: invokeinterface #121,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     340: pop
+     341: goto          283
+     344: aload         11
+     346: invokestatic  #125                // Method org/uma/jmetal/util/research/runtime/SeededRandom.current:()Ljava/util/Random;
+     349: aload         11
+     351: invokeinterface #131,  1          // InterfaceMethod java/util/List.size:()I
+     356: invokevirtual #134                // Method java/util/Random.nextInt:(I)I
+     359: invokeinterface #106,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     364: checkcast     #100                // class java/lang/Integer
+     367: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+     370: istore        12
+     372: aload         6
+     374: iload         12
+     376: iload         10
+     378: invokestatic  #117                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     381: invokeinterface #140,  3          // InterfaceMethod java/util/List.set:(ILjava/lang/Object;)Ljava/lang/Object;
+     386: pop
+     387: return
+
+  private double capacity(int, int, boolean);
+    Code:
+       0: iload_3
+       1: ifeq          17
+       4: aload_0
+       5: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+       8: iload_1
+       9: iconst_0
+      10: iload_2
+      11: invokevirtual #144                // Method org/uma/jmetal/util/research/model/Instance.speed:(III)D
+      14: goto          27
+      17: aload_0
+      18: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+      21: iload_1
+      22: iconst_0
+      23: iload_2
+      24: invokevirtual #148                // Method org/uma/jmetal/util/research/model/Instance.efficiency:(III)D
+      27: dreturn
+
+  private static java.util.List<java.lang.Integer> positions(org.uma.jmetal.solution.PermutationSolution<java.lang.Integer>, int);
+    Code:
+       0: new           #114                // class java/util/ArrayList
+       3: dup
+       4: invokespecial #116                // Method java/util/ArrayList."<init>":()V
+       7: astore_2
+       8: iconst_0
+       9: istore_3
+      10: iload_3
+      11: aload_0
+      12: invokeinterface #151,  1          // InterfaceMethod org/uma/jmetal/solution/PermutationSolution.getNumberOfVariables:()I
+      17: if_icmpge     54
+      20: aload_0
+      21: iload_3
+      22: invokeinterface #154,  2          // InterfaceMethod org/uma/jmetal/solution/PermutationSolution.getVariableValueid:(I)Ljava/lang/Object;
+      27: checkcast     #100                // class java/lang/Integer
+      30: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+      33: iload_1
+      34: if_icmpne     48
+      37: aload_2
+      38: iload_3
+      39: invokestatic  #117                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      42: invokeinterface #121,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+      47: pop
+      48: iinc          3, 1
+      51: goto          10
+      54: aload_2
+      55: areturn
+
+  private java.util.List<java.lang.Integer> fixedWorkerPositions(int);
+    Code:
+       0: iconst_0
+       1: istore_2
+       2: iconst_0
+       3: istore_3
+       4: iload_3
+       5: iload_1
+       6: if_icmpge     27
+       9: iload_2
+      10: aload_0
+      11: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+      14: iload_3
+      15: iconst_0
+      16: invokevirtual #84                 // Method org/uma/jmetal/util/research/model/Instance.workers:(II)I
+      19: iadd
+      20: istore_2
+      21: iinc          3, 1
+      24: goto          4
+      27: new           #114                // class java/util/ArrayList
+      30: dup
+      31: invokespecial #116                // Method java/util/ArrayList."<init>":()V
+      34: astore_3
+      35: iconst_0
+      36: istore        4
+      38: iload         4
+      40: aload_0
+      41: getfield      #7                  // Field instance:Lorg/uma/jmetal/util/research/model/Instance;
+      44: iload_1
+      45: iconst_0
+      46: invokevirtual #84                 // Method org/uma/jmetal/util/research/model/Instance.workers:(II)I
+      49: if_icmpge     72
+      52: aload_3
+      53: iload_2
+      54: iload         4
+      56: iadd
+      57: invokestatic  #117                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+      60: invokeinterface #121,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+      65: pop
+      66: iinc          4, 1
+      69: goto          38
+      72: aload_3
+      73: areturn
+
+  private static void permute(java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>, int);
+    Code:
+       0: aload_1
+       1: invokeinterface #131,  1          // InterfaceMethod java/util/List.size:()I
+       6: iconst_2
+       7: if_icmpge     11
+      10: return
+      11: invokestatic  #125                // Method org/uma/jmetal/util/research/runtime/SeededRandom.current:()Ljava/util/Random;
+      14: astore_3
+      15: aload_3
+      16: aload_1
+      17: invokeinterface #131,  1          // InterfaceMethod java/util/List.size:()I
+      22: invokevirtual #134                // Method java/util/Random.nextInt:(I)I
+      25: istore        4
+      27: aload_3
+      28: aload_1
+      29: invokeinterface #131,  1          // InterfaceMethod java/util/List.size:()I
+      34: iconst_1
+      35: isub
+      36: invokevirtual #134                // Method java/util/Random.nextInt:(I)I
+      39: istore        5
+      41: iload         5
+      43: iload         4
+      45: if_icmplt     51
+      48: iinc          5, 1
+      51: new           #114                // class java/util/ArrayList
+      54: dup
+      55: invokespecial #116                // Method java/util/ArrayList."<init>":()V
+      58: astore        6
+      60: aload_1
+      61: invokeinterface #87,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      66: astore        7
+      68: aload         7
+      70: invokeinterface #91,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+      75: ifeq          115
+      78: aload         7
+      80: invokeinterface #96,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      85: checkcast     #100                // class java/lang/Integer
+      88: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+      91: istore        8
+      93: aload         6
+      95: aload_0
+      96: iload         8
+      98: invokeinterface #106,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     103: checkcast     #100                // class java/lang/Integer
+     106: invokeinterface #121,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     111: pop
+     112: goto          68
+     115: iload_2
+     116: ifne          147
+     119: aload         6
+     121: iload         5
+     123: invokeinterface #157,  2          // InterfaceMethod java/util/List.remove:(I)Ljava/lang/Object;
+     128: checkcast     #100                // class java/lang/Integer
+     131: astore        7
+     133: aload         6
+     135: iload         4
+     137: aload         7
+     139: invokeinterface #160,  3          // InterfaceMethod java/util/List.add:(ILjava/lang/Object;)V
+     144: goto          190
+     147: iload_2
+     148: iconst_1
+     149: if_icmpne     181
+     152: aload         6
+     154: iload         4
+     156: iload         5
+     158: invokestatic  #163                // Method java/lang/Math.min:(II)I
+     161: iload         4
+     163: iload         5
+     165: invokestatic  #168                // Method java/lang/Math.max:(II)I
+     168: iconst_1
+     169: iadd
+     170: invokeinterface #171,  3          // InterfaceMethod java/util/List.subList:(II)Ljava/util/List;
+     175: invokestatic  #175                // Method java/util/Collections.reverse:(Ljava/util/List;)V
+     178: goto          190
+     181: aload         6
+     183: iload         4
+     185: iload         5
+     187: invokestatic  #181                // Method java/util/Collections.swap:(Ljava/util/List;II)V
+     190: iconst_0
+     191: istore        7
+     193: iload         7
+     195: aload_1
+     196: invokeinterface #131,  1          // InterfaceMethod java/util/List.size:()I
+     201: if_icmpge     243
+     204: aload_0
+     205: aload_1
+     206: iload         7
+     208: invokeinterface #106,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     213: checkcast     #100                // class java/lang/Integer
+     216: invokevirtual #102                // Method java/lang/Integer.intValue:()I
+     219: aload         6
+     221: iload         7
+     223: invokeinterface #106,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     228: checkcast     #100                // class java/lang/Integer
+     231: invokeinterface #140,  3          // InterfaceMethod java/util/List.set:(ILjava/lang/Object;)Ljava/lang/Object;
+     236: pop
+     237: iinc          7, 1
+     240: goto          193
+     243: return
+}

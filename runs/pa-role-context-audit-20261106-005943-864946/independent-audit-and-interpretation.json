@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "scalarQueryScoreComparisons": 60,
+  "physicalDuplicatesAndFactoryPatternsNeverCrossFolds": true,
+  "duplicateQueryWeightsSumToPhysicalGenotypeCount": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "interpretationCorrection": "Requiring conditional JointGain exceed pooled Global is overly strong: conditioning may remove mixture-induced dependence while improving predictions. Original protocol/decision are retained; use the two prediction-loss comparisons below for the narrower factual conclusion, not a contribution veto",
+  "roleVsOrdinaryPrediction": [
+    {
+      "id": "20_8_5_1-ENGINE-NONE-G2",
+      "blocking": "PHYSICAL",
+      "roleMinusOrdinaryFactoryNLL": -0.0002919804500527423,
+      "roleMinusOrdinaryOrderNLL": 0.006191066013438884,
+      "roleNotWorseOnBothPredictionLosses": false
+    },
+    {
+      "id": "20_8_5_1-ENGINE-NONE-G2",
+      "blocking": "FACTORY",
+      "roleMinusOrdinaryFactoryNLL": 0.03562323344463936,
+      "roleMinusOrdinaryOrderNLL": 0.001945471574626545,
+      "roleNotWorseOnBothPredictionLosses": false
+    },
+    {
+      "id": "20_8_5_1-ENGINE-GRAFT-G2",
+      "blocking": "PHYSICAL",
+      "roleMinusOrdinaryFactoryNLL": -0.060433753225441755,
+      "roleMinusOrdinaryOrderNLL": -0.0029844083384577003,
+      "roleNotWorseOnBothPredictionLosses": true
+    },
+    {
+      "id": "20_8_5_1-ENGINE-GRAFT-G2",
+      "blocking": "FACTORY",
+      "roleMinusOrdinaryFactoryNLL": -0.0298480336402851,
+      "roleMinusOrdinaryOrderNLL": -0.0023378197953802804,
+      "roleNotWorseOnBothPredictionLosses": true
+    },
+    {
+      "id": "100_2_3_1-ENGINE-NONE-G2",
+      "blocking": "PHYSICAL",
+      "roleMinusOrdinaryFactoryNLL": 0.01655821455143247,
+      "roleMinusOrdinaryOrderNLL": 0.0022226448387039355,
+      "roleNotWorseOnBothPredictionLosses": false
+    },
+    {
+      "id": "100_2_3_1-ENGINE-NONE-G2",
+      "blocking": "FACTORY",
+      "roleMinusOrdinaryFactoryNLL": 0.011348963568300396,
+      "roleMinusOrdinaryOrderNLL": 0.00405403764781298,
+      "roleNotWorseOnBothPredictionLosses": false
+    },
+    {
+      "id": "100_2_3_1-ENGINE-GRAFT-G2",
+      "blocking": "PHYSICAL",
+      "roleMinusOrdinaryFactoryNLL": 0.007237744595768314,
+      "roleMinusOrdinaryOrderNLL": -0.004046261288117914,
+      "roleNotWorseOnBothPredictionLosses": false
+    },
+    {
+      "id": "100_2_3_1-ENGINE-GRAFT-G2",
+      "blocking": "FACTORY",
+      "roleMinusOrdinaryFactoryNLL": -0.005742328226638005,
+      "roleMinusOrdinaryOrderNLL": -0.007947562813145792,
+      "roleNotWorseOnBothPredictionLosses": true
+    }
+  ],
+  "allEightRoleOrdinaryPairsNotWorseOnBothLosses": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,2301 @@
+{
+  "stem": "20_8_5_1",
+  "cells": [
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 0,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 8.081094002566364e-07,
+          "meanCallSeconds": 0.0003201765625,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00011185078125,
+          "donorRoleCounts": {
+            "ENERGY": 5,
+            "CENTER": 5,
+            "WORKER_COST": 2,
+            "MAKESPAN": 4
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.776484375e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "WORKER_COST": 3,
+            "ENERGY": 3,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00016780234375000003,
+          "donorRoleCounts": {
+            "ENERGY": 6,
+            "CENTER": 5,
+            "WORKER_COST": 2,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 1,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.0001595140625,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00019301328124999998,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "WORKER_COST": 4,
+            "MAKESPAN": 7,
+            "CENTER": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.965859375e-05,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "CENTER": 8,
+            "MAKESPAN": 5,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00021863359375,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "WORKER_COST": 4,
+            "MAKESPAN": 7,
+            "CENTER": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 2,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 1.0361009142957776e-05,
+          "meanCallSeconds": 0.0002109578125,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 2.3751835821513523e-05,
+          "meanCallSeconds": 0.00022696328125000002,
+          "donorRoleCounts": {
+            "CENTER": 3,
+            "ENERGY": 2,
+            "WORKER_COST": 8,
+            "MAKESPAN": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 6.561185032533147e-05,
+          "meanCallSeconds": 0.00011494609375,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "MAKESPAN": 4,
+            "WORKER_COST": 2,
+            "ENERGY": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 1.4891858509850446e-05,
+          "meanCallSeconds": 0.00025582734375,
+          "donorRoleCounts": {
+            "CENTER": 3,
+            "ENERGY": 3,
+            "WORKER_COST": 8,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 3,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.0001655703125,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00011258828124999999,
+          "donorRoleCounts": {
+            "WORKER_COST": 8,
+            "CENTER": 3,
+            "MAKESPAN": 1,
+            "ENERGY": 4
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00010759609375,
+          "donorRoleCounts": {
+            "WORKER_COST": 4,
+            "CENTER": 4,
+            "ENERGY": 6,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00017715859375000003,
+          "donorRoleCounts": {
+            "WORKER_COST": 7,
+            "CENTER": 3,
+            "MAKESPAN": 2,
+            "ENERGY": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 4,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00015231406249999999,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00011330703125,
+          "donorRoleCounts": {
+            "MAKESPAN": 4,
+            "WORKER_COST": 3,
+            "ENERGY": 2,
+            "CENTER": 7
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.484609375e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "WORKER_COST": 2,
+            "ENERGY": 3,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00017315859374999998,
+          "donorRoleCounts": {
+            "MAKESPAN": 3,
+            "WORKER_COST": 3,
+            "ENERGY": 3,
+            "CENTER": 7
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 5,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00015538281250000003,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00010310078125000001,
+          "donorRoleCounts": {
+            "ENERGY": 3,
+            "CENTER": 4,
+            "WORKER_COST": 4,
+            "MAKESPAN": 5
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.992109375e-05,
+          "donorRoleCounts": {
+            "ENERGY": 4,
+            "CENTER": 8,
+            "MAKESPAN": 1,
+            "WORKER_COST": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00011739609375,
+          "donorRoleCounts": {
+            "ENERGY": 3,
+            "CENTER": 4,
+            "WORKER_COST": 4,
+            "MAKESPAN": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 6,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00015980781250000002,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00011332578125,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "WORKER_COST": 2,
+            "MAKESPAN": 3,
+            "ENERGY": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.562109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "ENERGY": 3,
+            "MAKESPAN": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00011344609375,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "WORKER_COST": 2,
+            "MAKESPAN": 3,
+            "ENERGY": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "recipient": 7,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.0001522828125,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00010945078125000001,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "WORKER_COST": 3,
+            "MAKESPAN": 5,
+            "ENERGY": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.715859375e-05,
+          "donorRoleCounts": {
+            "CENTER": 11,
+            "WORKER_COST": 1,
+            "MAKESPAN": 3,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 7.648302855896588e-06,
+          "meanCallSeconds": 0.00015132734375,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "WORKER_COST": 3,
+            "ENERGY": 4,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 0,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00024803203125,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 8.775703125e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "WORKER_COST": 1,
+            "ENERGY": 2,
+            "MAKESPAN": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.18046875e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "WORKER_COST": 3,
+            "ENERGY": 2,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 8.27734375e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 2,
+            "CENTER": 7,
+            "WORKER_COST": 2,
+            "ENERGY": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 1,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.980703125e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.278828125e-05,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "WORKER_COST": 1,
+            "ENERGY": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.77734375e-05,
+          "donorRoleCounts": {
+            "ENERGY": 6,
+            "WORKER_COST": 1,
+            "MAKESPAN": 2,
+            "CENTER": 7
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.86671875e-05,
+          "donorRoleCounts": {
+            "CENTER": 4,
+            "WORKER_COST": 5,
+            "MAKESPAN": 2,
+            "ENERGY": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 2,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 1.3272235524097137e-06,
+          "meanCallSeconds": 0.00010008828125000001,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 2.8594527494635635e-07,
+          "meanCallSeconds": 9.766328124999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 3,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.7513317293617986e-06,
+          "meanCallSeconds": 8.06984375e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "ENERGY": 1,
+            "MAKESPAN": 2,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 8.16609375e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "MAKESPAN": 4,
+            "WORKER_COST": 3,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 3,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 2.4554876217929214e-06,
+          "meanCallSeconds": 0.00011872578125000001,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.913203125e-05,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "MAKESPAN": 4,
+            "ENERGY": 1,
+            "WORKER_COST": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.00359375e-05,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "MAKESPAN": 3,
+            "WORKER_COST": 4
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.71671875e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "MAKESPAN": 4,
+            "ENERGY": 2,
+            "WORKER_COST": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 4,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.9963281249999996e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.760078125000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "WORKER_COST": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 2.6996015809802832e-08,
+          "meanCallSeconds": 7.30546875e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "ENERGY": 3,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.67046875e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "ENERGY": 1,
+            "MAKESPAN": 2,
+            "WORKER_COST": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 5,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.952578125e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 1.7997406619122634e-07,
+          "meanCallSeconds": 9.455703125e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "WORKER_COST": 1,
+            "MAKESPAN": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.7997406619122634e-07,
+          "meanCallSeconds": 0.00012519218750000003,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "ENERGY": 2,
+            "WORKER_COST": 5,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.79234375e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "WORKER_COST": 5,
+            "MAKESPAN": 2,
+            "ENERGY": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 6,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 1.63777596917292e-08,
+          "meanCallSeconds": 8.140703125e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 8.844059002742195e-08,
+          "meanCallSeconds": 0.00011032578125000001,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "WORKER_COST": 1,
+            "MAKESPAN": 4,
+            "ENERGY": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 8.844059002742195e-08,
+          "meanCallSeconds": 5.059843749999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "WORKER_COST": 3,
+            "ENERGY": 4,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.06421875e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "WORKER_COST": 3,
+            "MAKESPAN": 4,
+            "ENERGY": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "recipient": 7,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 2.2633676758430021e-07,
+          "meanCallSeconds": 0.00012898203125,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.921953125000001e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 3,
+            "CENTER": 12,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.5342187500000004e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 5,
+            "CENTER": 8,
+            "WORKER_COST": 2,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.96546875e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 7,
+            "CENTER": 5,
+            "WORKER_COST": 2,
+            "ENERGY": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 0,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 3.688545231907429e-07,
+          "meanCallSeconds": 7.957421875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.00012419840705524065,
+          "meanCallSeconds": 8.763984375e-05,
+          "donorRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.00012430704282524778,
+          "meanCallSeconds": 6.15125e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "ENERGY": 2,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.85375e-05,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "MAKESPAN": 3,
+            "ENERGY": 2,
+            "WORKER_COST": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 1,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 4.1313829147060113e-07,
+          "meanCallSeconds": 7.879296875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 2.0664865725096407e-07,
+          "meanCallSeconds": 8.702734375e-05,
+          "donorRoleCounts": {
+            "CENTER": 15,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.0156250000000004e-05,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "WORKER_COST": 3,
+            "MAKESPAN": 3,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.44e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 4,
+            "WORKER_COST": 7,
+            "CENTER": 4,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 2,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00020613671875,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 5.3785417466418875e-09,
+          "meanCallSeconds": 8.237109374999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 2,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 5.3785417466418875e-09,
+          "meanCallSeconds": 3.508125e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 2,
+            "ENERGY": 1,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.335625000000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "ENERGY": 2,
+            "WORKER_COST": 2,
+            "MAKESPAN": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 3,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.8055468749999996e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.993984374999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "MAKESPAN": 5,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.613125e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "MAKESPAN": 5,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.0906250000000007e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "MAKESPAN": 7,
+            "WORKER_COST": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 4,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.824296875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 2.530068615147591e-06,
+          "meanCallSeconds": 8.553359375e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 1,
+            "CENTER": 12,
+            "MAKESPAN": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.453812961367644e-08,
+          "meanCallSeconds": 5.51e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 5,
+            "CENTER": 7,
+            "MAKESPAN": 3,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00023526249999999998,
+          "donorRoleCounts": {
+            "WORKER_COST": 5,
+            "CENTER": 7,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 5,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 3.5306467488424372e-06,
+          "meanCallSeconds": 0.00010513671875,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 3.7474057151469437e-07,
+          "meanCallSeconds": 7.864609375e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 4
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.511249999999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 6,
+            "MAKESPAN": 4,
+            "WORKER_COST": 3,
+            "ENERGY": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.20875e-05,
+          "donorRoleCounts": {
+            "CENTER": 4,
+            "MAKESPAN": 7,
+            "WORKER_COST": 3,
+            "ENERGY": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 6,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.746171875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 1.7768475404362217e-06,
+          "meanCallSeconds": 8.948359375e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 1,
+            "ENERGY": 1,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.7768475404362217e-06,
+          "meanCallSeconds": 3.545e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "MAKESPAN": 1,
+            "ENERGY": 3,
+            "WORKER_COST": 4
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.235e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 3,
+            "ENERGY": 4,
+            "CENTER": 3,
+            "WORKER_COST": 6
+          }
+        }
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "recipient": 7,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.834921875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.067109375000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 9,
+            "WORKER_COST": 3,
+            "ENERGY": 1,
+            "MAKESPAN": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.684375e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 7,
+            "ENERGY": 4,
+            "CENTER": 5
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.213125e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 6,
+            "WORKER_COST": 4,
+            "ENERGY": 2,
+            "CENTER": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 0,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.96109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.987421875e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "MAKESPAN": 3,
+            "WORKER_COST": 6,
+            "ENERGY": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.64109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "MAKESPAN": 3,
+            "WORKER_COST": 5,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.442734375000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "MAKESPAN": 7,
+            "WORKER_COST": 3,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 1,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.39546875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 8.439296875e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 7,
+            "CENTER": 6,
+            "WORKER_COST": 1,
+            "ENERGY": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.92921875e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 6,
+            "CENTER": 9,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.297109375e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 6,
+            "CENTER": 6,
+            "WORKER_COST": 1,
+            "ENERGY": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 2,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.19109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.470546875e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 2,
+            "MAKESPAN": 5,
+            "CENTER": 7,
+            "ENERGY": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.67921875e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 2,
+            "CENTER": 10,
+            "ENERGY": 1,
+            "MAKESPAN": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.127109375000001e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 2,
+            "MAKESPAN": 4,
+            "CENTER": 7,
+            "ENERGY": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 3,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 7.01046875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.321796875e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "ENERGY": 4,
+            "WORKER_COST": 3,
+            "MAKESPAN": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.47921875e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "ENERGY": 2,
+            "WORKER_COST": 1,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.430234375e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "ENERGY": 4,
+            "WORKER_COST": 3,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 4,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 8.111093749999998e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.236171875000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "MAKESPAN": 2,
+            "ENERGY": 1,
+            "WORKER_COST": 5
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.41484375e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "WORKER_COST": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.535859375e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "MAKESPAN": 2,
+            "ENERGY": 1,
+            "WORKER_COST": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 5,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.6960937500000005e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.578046875000001e-05,
+          "donorRoleCounts": {
+            "ENERGY": 6,
+            "CENTER": 3,
+            "WORKER_COST": 3,
+            "MAKESPAN": 4
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.48171875e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "ENERGY": 5,
+            "WORKER_COST": 2,
+            "MAKESPAN": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 9.515234375e-05,
+          "donorRoleCounts": {
+            "ENERGY": 7,
+            "CENTER": 3,
+            "WORKER_COST": 2,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 6,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.9767187499999995e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.211171875e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 4,
+            "CENTER": 7,
+            "MAKESPAN": 4,
+            "ENERGY": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.487968749999999e-05,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "CENTER": 9,
+            "MAKESPAN": 3,
+            "WORKER_COST": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.708359375e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 4,
+            "CENTER": 6,
+            "MAKESPAN": 5,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "recipient": 7,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.7192187499999993e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.111171875e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 4,
+            "ENERGY": 2,
+            "MAKESPAN": 4,
+            "CENTER": 6
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.55609375e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 2,
+            "CENTER": 11,
+            "MAKESPAN": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 6.870859374999999e-05,
+          "donorRoleCounts": {
+            "WORKER_COST": 4,
+            "ENERGY": 2,
+            "MAKESPAN": 4,
+            "CENTER": 6
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 0,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.8639843749999996e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.613437500000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "MAKESPAN": 3,
+            "WORKER_COST": 2,
+            "ENERGY": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 3.790061440348432e-07,
+          "meanCallSeconds": 6.510468750000001e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "MAKESPAN": 2,
+            "ENERGY": 4,
+            "WORKER_COST": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.963515625e-05,
+          "donorRoleCounts": {
+            "CENTER": 6,
+            "MAKESPAN": 3,
+            "WORKER_COST": 4,
+            "ENERGY": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 1,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 3.7005828505039702e-06,
+          "meanCallSeconds": 9.448984375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 2.6324630484133716e-06,
+          "meanCallSeconds": 6.684687499999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 11,
+            "ENERGY": 2,
+            "WORKER_COST": 3
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.7110937499999997e-05,
+          "donorRoleCounts": {
+            "CENTER": 6,
+            "WORKER_COST": 5,
+            "MAKESPAN": 2,
+            "ENERGY": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.924140625e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "ENERGY": 5,
+            "MAKESPAN": 2,
+            "WORKER_COST": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 2,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 2.362811754418295e-07,
+          "meanCallSeconds": 4.195859375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 2.470451384791276e-06,
+          "meanCallSeconds": 8.590312500000001e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 3,
+            "CENTER": 12,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 2.362811754418295e-07,
+          "meanCallSeconds": 3.8354687499999996e-05,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "MAKESPAN": 5,
+            "WORKER_COST": 1,
+            "CENTER": 8
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 2.362811754418295e-07,
+          "meanCallSeconds": 4.608515625e-05,
+          "donorRoleCounts": {
+            "ENERGY": 3,
+            "MAKESPAN": 6,
+            "WORKER_COST": 2,
+            "CENTER": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 3,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 2.311070702153888e-07,
+          "meanCallSeconds": 6.0827343749999994e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.8359374999999995e-05,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "ENERGY": 1,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.83609375e-05,
+          "donorRoleCounts": {
+            "CENTER": 11,
+            "WORKER_COST": 4,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.947890625e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "WORKER_COST": 3,
+            "MAKESPAN": 3,
+            "ENERGY": 5
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 4,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.00023896753342364518,
+          "meanCallSeconds": 6.254609375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 3.4142283002286416e-07,
+          "meanCallSeconds": 4.6946875e-05,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 2,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.6910937500000005e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "WORKER_COST": 1,
+            "MAKESPAN": 6,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.177890625e-05,
+          "donorRoleCounts": {
+            "CENTER": 8,
+            "WORKER_COST": 3,
+            "MAKESPAN": 4,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 5,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 1.3927889194712802e-06,
+          "meanCallSeconds": 9.242109374999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 7.77520311971437e-09,
+          "meanCallSeconds": 8.1121875e-05,
+          "donorRoleCounts": {
+            "CENTER": 15,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.1736718603928818e-05,
+          "meanCallSeconds": 3.91046875e-05,
+          "donorRoleCounts": {
+            "ENERGY": 3,
+            "WORKER_COST": 5,
+            "MAKESPAN": 1,
+            "CENTER": 7
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 1.1736718603928818e-05,
+          "meanCallSeconds": 6.929765624999999e-05,
+          "donorRoleCounts": {
+            "ENERGY": 3,
+            "WORKER_COST": 7,
+            "CENTER": 5,
+            "MAKESPAN": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 6,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.643984375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.1190625000000006e-05,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "ENERGY": 1,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.53359375e-05,
+          "donorRoleCounts": {
+            "CENTER": 11,
+            "ENERGY": 1,
+            "MAKESPAN": 2,
+            "WORKER_COST": 2
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.8853906250000005e-05,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "MAKESPAN": 2,
+            "ENERGY": 1,
+            "WORKER_COST": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "recipient": 7,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.477109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 4.9341837159595075e-06,
+          "meanCallSeconds": 0.000104759375,
+          "donorRoleCounts": {
+            "CENTER": 15,
+            "MAKESPAN": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 4.768926440573848e-07,
+          "meanCallSeconds": 0.0002366296875,
+          "donorRoleCounts": {
+            "CENTER": 10,
+            "WORKER_COST": 2,
+            "MAKESPAN": 4
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.8435156250000005e-05,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "WORKER_COST": 3,
+            "CENTER": 7,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 0,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.1917968750000004e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.6333593750000003e-05,
+          "donorRoleCounts": {
+            "CENTER": 6,
+            "MAKESPAN": 9,
+            "ENERGY": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.38171875e-05,
+          "donorRoleCounts": {
+            "CENTER": 6,
+            "MAKESPAN": 6,
+            "ENERGY": 4
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.75421875e-05,
+          "donorRoleCounts": {
+            "CENTER": 4,
+            "MAKESPAN": 10,
+            "WORKER_COST": 1,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 1,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 6.578626358406493e-05,
+          "meanCallSeconds": 8.231796875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 0.00022002109375,
+          "donorRoleCounts": {
+            "CENTER": 13,
+            "MAKESPAN": 2,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.47859375e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 4,
+            "CENTER": 10,
+            "ENERGY": 1,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.3142187500000004e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 4,
+            "CENTER": 9,
+            "WORKER_COST": 2,
+            "ENERGY": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 2,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.0124218750000004e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.6652343749999994e-05,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "MAKESPAN": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 4.5737195132888245e-10,
+          "meanCallSeconds": 4.5548437500000005e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "WORKER_COST": 1,
+            "ENERGY": 2,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.0548437500000005e-05,
+          "donorRoleCounts": {
+            "CENTER": 11,
+            "WORKER_COST": 1,
+            "MAKESPAN": 4
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 3,
+      "informative": false,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.338671875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.2171093750000004e-05,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "WORKER_COST": 1,
+            "ENERGY": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.41109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "WORKER_COST": 2,
+            "ENERGY": 1,
+            "MAKESPAN": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 5.05859375e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "ENERGY": 5,
+            "WORKER_COST": 4,
+            "MAKESPAN": 2
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 4,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 5.57494841821611e-06,
+          "meanCallSeconds": 0.00014934296874999999,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 4.632021337507563e-06,
+          "meanCallSeconds": 4.322109375e-05,
+          "donorRoleCounts": {
+            "CENTER": 12,
+            "MAKESPAN": 1,
+            "ENERGY": 2,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 4.632021337507563e-06,
+          "meanCallSeconds": 3.48921875e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "MAKESPAN": 6,
+            "ENERGY": 3
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 4.632021337507563e-06,
+          "meanCallSeconds": 4.98609375e-05,
+          "donorRoleCounts": {
+            "CENTER": 5,
+            "MAKESPAN": 5,
+            "ENERGY": 5,
+            "WORKER_COST": 1
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 5,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 4.784521660192965e-06,
+          "meanCallSeconds": 6.891796875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 1.0530724824884238e-05,
+          "meanCallSeconds": 0.00017619609375,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "ENERGY": 1,
+            "WORKER_COST": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.0530724824884238e-05,
+          "meanCallSeconds": 3.35484375e-05,
+          "donorRoleCounts": {
+            "CENTER": 11,
+            "ENERGY": 4,
+            "WORKER_COST": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 4.7364882019030466e-06,
+          "meanCallSeconds": 4.24796875e-05,
+          "donorRoleCounts": {
+            "CENTER": 7,
+            "ENERGY": 5,
+            "MAKESPAN": 1,
+            "WORKER_COST": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 6,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 1.9025105153544379e-06,
+          "meanCallSeconds": 7.793046874999999e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 6.182538231034426e-08,
+          "meanCallSeconds": 4.808359375e-05,
+          "donorRoleCounts": {
+            "CENTER": 15,
+            "ENERGY": 1
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 3.59921875e-05,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "MAKESPAN": 5,
+            "CENTER": 9
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 0.0,
+          "meanCallSeconds": 4.30984375e-05,
+          "donorRoleCounts": {
+            "ENERGY": 2,
+            "MAKESPAN": 7,
+            "CENTER": 4,
+            "WORKER_COST": 3
+          }
+        }
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "recipient": 7,
+      "informative": true,
+      "methods": {
+        "WITHIN": {
+          "meanSingleAddedHV": 1.0358993274132776e-06,
+          "meanCallSeconds": 4.424296875e-05,
+          "donorRoleCounts": {
+            "CENTER": 16
+          }
+        },
+        "SHARED": {
+          "meanSingleAddedHV": 1.051447836354391e-06,
+          "meanCallSeconds": 6.173359375e-05,
+          "donorRoleCounts": {
+            "CENTER": 14,
+            "WORKER_COST": 2
+          }
+        },
+        "RANDOM_SHARED": {
+          "meanSingleAddedHV": 1.0358993274132776e-06,
+          "meanCallSeconds": 3.1679687500000003e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 3,
+            "CENTER": 9,
+            "WORKER_COST": 3,
+            "ENERGY": 1
+          }
+        },
+        "INITIAL_SHARED": {
+          "meanSingleAddedHV": 1.0358993274132776e-06,
+          "meanCallSeconds": 4.13921875e-05,
+          "donorRoleCounts": {
+            "MAKESPAN": 4,
+            "CENTER": 7,
+            "WORKER_COST": 3,
+            "ENERGY": 2
+          }
+        }
+      }
+    }
+  ],
+  "contexts": [
+    {
+      "context": "c0",
+      "seed": 11730007,
+      "step": 0,
+      "preBatchFE": 850,
+      "backgroundHV": 0.4429767297687792,
+      "sharedDonorRoles": {
+        "ENERGY": 24,
+        "CENTER": 38,
+        "WORKER_COST": 34,
+        "MAKESPAN": 32
+      }
+    },
+    {
+      "context": "c1",
+      "seed": 11730007,
+      "step": 24,
+      "preBatchFE": 2170,
+      "backgroundHV": 0.46021144457787033,
+      "sharedDonorRoles": {
+        "CENTER": 94,
+        "MAKESPAN": 17,
+        "WORKER_COST": 11,
+        "ENERGY": 6
+      }
+    },
+    {
+      "context": "c2",
+      "seed": 11730007,
+      "step": 49,
+      "preBatchFE": 3545,
+      "backgroundHV": 0.4718904012741352,
+      "sharedDonorRoles": {
+        "CENTER": 99,
+        "WORKER_COST": 8,
+        "MAKESPAN": 19,
+        "ENERGY": 2
+      }
+    },
+    {
+      "context": "c3",
+      "seed": 11730037,
+      "step": 0,
+      "preBatchFE": 850,
+      "backgroundHV": 0.4421309149187197,
+      "sharedDonorRoles": {
+        "CENTER": 49,
+        "MAKESPAN": 31,
+        "WORKER_COST": 28,
+        "ENERGY": 20
+      }
+    },
+    {
+      "context": "c4",
+      "seed": 11730037,
+      "step": 24,
+      "preBatchFE": 2170,
+      "backgroundHV": 0.47397375499688843,
+      "sharedDonorRoles": {
+        "CENTER": 104,
+        "MAKESPAN": 9,
+        "ENERGY": 5,
+        "WORKER_COST": 10
+      }
+    },
+    {
+      "context": "c5",
+      "seed": 11730037,
+      "step": 49,
+      "preBatchFE": 3545,
+      "backgroundHV": 0.48814660122361386,
+      "sharedDonorRoles": {
+        "CENTER": 102,
+        "MAKESPAN": 14,
+        "WORKER_COST": 6,
+        "ENERGY": 6
+      }
+    }
+  ],
+  "informativeParents": 28,
+  "totalParents": 48,
+  "candidateWinsVsWithin": 11,
+  "meanSingleAddedHV": {
+    "WITHIN": 7.148325432348254e-06,
+    "SHARED": 3.7512625478620536e-06,
+    "RANDOM_SHARED": 4.641466691520528e-06,
+    "INITIAL_SHARED": 9.35782708582116e-07
+  },
+  "candidateEffectsPct": {
+    "WITHIN": -47.52249903331908,
+    "RANDOM_SHARED": -19.179371582796957,
+    "INITIAL_SHARED": 300.8689745449465
+  },
+  "groupedMeans": [
+    {
+      "key": "seed",
+      "value": 11730007,
+      "WITHIN": 8.127993253415357e-07,
+      "SHARED": 6.391595280583971e-06,
+      "RANDOM_SHARED": 8.073433323490253e-06,
+      "INITIAL_SHARED": 9.391733902394598e-07
+    },
+    {
+      "key": "seed",
+      "value": 11730037,
+      "WITHIN": 1.3483851539354972e-05,
+      "SHARED": 1.1109298151401362e-06,
+      "RANDOM_SHARED": 1.2095000595508034e-06,
+      "INITIAL_SHARED": 9.323920269247722e-07
+    },
+    {
+      "key": "step",
+      "value": 0,
+      "WITHIN": 6.980699089509008e-07,
+      "SHARED": 1.4844897388445952e-06,
+      "RANDOM_SHARED": 4.100740645333217e-06,
+      "INITIAL_SHARED": 1.4087600853591897e-06
+    },
+    {
+      "key": "step",
+      "value": 24,
+      "WITHIN": 1.553460744629727e-05,
+      "SHARED": 6.837910070919837e-07,
+      "RANDOM_SHARED": 9.297275605533202e-07,
+      "INITIAL_SHARED": 7.483124862106654e-07
+    },
+    {
+      "key": "step",
+      "value": 49,
+      "WITHIN": 5.212298941796593e-06,
+      "SHARED": 9.085506897649582e-06,
+      "RANDOM_SHARED": 8.893931868675045e-06,
+      "INITIAL_SHARED": 6.50275554176493e-07
+    }
+  ],
+  "medianCallCostVsWithin": 1.0568352794398463,
+  "qualityGate": false,
+  "necessaryCostGate": true,
+  "independentHVCheckMaxError": 3.9107511174731047e-17,
+  "scope": "Reused source seeds, exact pre-batch archive. New offspring and same fixed recipient; only free parents. No whole-loop, same-time, four-role specificity or novelty conclusion. Score costs actually recomputed per8-child batch."
+}

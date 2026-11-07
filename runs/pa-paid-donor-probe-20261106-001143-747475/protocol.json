@@ -1,0 +1,99 @@
+{
+  "version": "PA_PAST_PAID_JOINT_SUPPLY-v1",
+  "registered": "2026-11-06",
+  "seeds": [
+    14330003,
+    14330037
+  ],
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "sourceAlgorithms": {
+    "S": [
+      "FULL_SHARED_DEEP",
+      false
+    ],
+    "U": [
+      "FULL_SHARED_DEEP",
+      true
+    ],
+    "N": [
+      "NSGA2_DEEP",
+      false
+    ]
+  },
+  "prefixFE": 50000,
+  "receiverFE": 50000,
+  "logicalTotalFE": 100000,
+  "sourceRuns": "Each source paid100k, own continuation is the100kendpoint. Only exact50ksnapshot used for imports; future50knever enters recipient",
+  "memory": "100uniform-with-replacement sampled pastpaid states, same fixed capacity and independent sampler for initial/NDpools; no objective ranking",
+  "recipientSeed": "sourceSeed XOR0x73164c9d, shared acrossrecipientarms; four roles15/55/15/15, unchanged atomic job-packet mixing",
+  "recipientModes": [
+    "PURE100koriginalinitials",
+    "INIT_GRAFT50kinitialpaiddonors",
+    "GRAFT_S/U/N50kpastNDdonors",
+    "INHERIT_S/U/N50ksameNDsampleasinitials,noborrow"
+  ],
+  "endpoints": "Per source: NDunion(source50k,recipient50k). NONEusesPURE'spaid50kprefix. INITusescommonINIT_GRAFT. SELFsource100kandPURE100k included.16logical endpoints percontext",
+  "realCost": "3source100k +PURE100k +7recipient50k=750k/context;4contexts=3000000newactualscienceFE. Source prefixes and sharedreceiverbranches reused, not64independent experiments",
+  "sameInitials": "Allsources begin with same100fresh fourvectors/objectives. Allnoninheritrecipients re-evaluate them as part of50k; INHERIT deliberately re-evaluates sampledknown states. No free initialization",
+  "sourceUniform": "ExistingSHARE_JOB_ALIGNED_UNIFORMpreference; QGStables/guidance remain active, no uniform-random-guide substitution; learnedvalues/paths maydiffer",
+  "donation": "Uniform among99otherliveworkingstates+100fixedmemoryviews, no memory ratio/score learning. CompleteFMW+key jobpackets only. Importedpoints never free-enter working population/archive",
+  "teacherViews": "Physical-neutral per-generation reencoding by independent seed/gen/slot RNG; no working RNG advances. NONEmaintains same memoryview machinery for parity",
+  "sourceLimits": "A50kprefix maynot finish all physicalgroups' deepLS. Record actual sourcecoverage; no claim everyprofessional localrole contributed. Imported role tags are neutral, not producer credit",
+  "engineeringFE": 137200,
+  "scientificFE": 3000000,
+  "maximumQuestionFE": 3137200,
+  "engineering": "Bothinstances: old/new SPECIAL5200paid parity,UNIFORM5200andNSGA5200; NONEandGRAFTtwofullrecipientgenerations withallpaidfulltimelineQA/importQA/independentviews/mixing reconstruction",
+  "metrics": "Commonfrozennormalization;HV1.5with1.25/2;IGD+NDunionofall16logicalmethods x2seedsperinstance; rawweakbidirectionalCincludingequality",
+  "primary": "GRAFT_S, notposthoc bestsource/mode",
+  "necessaryComparisons": "BOTHinstances vsNONE_S/INIT_S/INHERIT_S/SELF_S/PURE/GRAFT_U:medianHV>=0.5%,IGD+worsening<=0,Cdelta>=0; perseedHV>=-1%,IGD+<=5%,Cdelta>=-0.02; sensitivitymedianHV>=0",
+  "strongOrdinary": "vsGRAFT_NandSELF_N:medianHV>=-1%,IGD+<=5%,Cdelta>=-0.02; perseedHV>=-5%,IGD+<=15%,Cdelta>=-0.1;sensitivitymedianHV>=-1%",
+  "interpretation": "Project resource margins, not statisticalsignificance, universal constants or contribution veto; all3joint, no weighted score/vote",
+  "sampling": "Completeall44scientific JVMruns beforeaggregateanalysis; no seed changes, intermediate-win stopping,50/50split/poolsize tuning orchoosingN/Uasnewprimary",
+  "time": "No sameTIMEclaim: sourceprefixclock and recipientclock/loader/QA recorded; staged JVM prototype is not a commonwall-deadline implementation",
+  "scope": "Newmechanism only; no revival of stoppedTYPED,oldlearnedtreeorordinaryqualification. MainlineQGS/families/sharing untouched",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

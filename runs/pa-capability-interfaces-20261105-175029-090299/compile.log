@@ -1,0 +1,6 @@
+G:\ai\limingzhegaijin\张博改进\runs\pa-capability-interfaces-20261105-175029-090299\source\PaCapabilitySearch.java:69: 错误: 不兼容的类型: Map<String,CAP#1>无法转换为Map<String,Object>
+        if (frozen != null) return frozen.diagnostics(); if (plain != null) return plain.diagnostics();
+                                                     ^
+  其中, CAP#1是新类型变量:
+    CAP#1从?的捕获扩展Object
+1 个错误

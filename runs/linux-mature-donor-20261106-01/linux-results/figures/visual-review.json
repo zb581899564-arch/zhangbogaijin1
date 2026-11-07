@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "reviewedUTC": "2026-11-06T08:22:33.351630+00:00",
+  "reviewer": "Primary assistant viewed both actual 300dpi preview images after Linux rendering",
+  "figures": [
+    "paired-effects-20_8_5_1",
+    "paired-effects-100_2_3_1"
+  ],
+  "checks": [
+    "Readable labels, axes, legends and panel marks; no clipping or overlap",
+    "All three paired seeds, both endpoints and all five comparisons displayed",
+    "Same metric axes across instances/endpoints; units and improvement direction explicit",
+    "One-pass developmental probe boundary and absence of confidence intervals labelled"
+  ],
+  "warningAccepted": "No TIFF required for pilot; editableSVG/PDF and600dpiPNG supplied",
+  "history": "First150dpi sourcepreflight failed before rendering; retained and fixed without search rerun",
+  "closesPending": "figure-export.json visualInspection flag is historical; this record supersedes it"
+}

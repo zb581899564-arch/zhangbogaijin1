@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE",
+  "decision": {
+    "checks": [
+      {
+        "id": "20_8_5_1-ENGINE-NONE-G2",
+        "foldConditions": {
+          "PHYSICAL": false,
+          "FACTORY": false
+        },
+        "pass": false
+      },
+      {
+        "id": "20_8_5_1-ENGINE-GRAFT-G2",
+        "foldConditions": {
+          "PHYSICAL": false,
+          "FACTORY": false
+        },
+        "pass": false
+      },
+      {
+        "id": "100_2_3_1-ENGINE-NONE-G2",
+        "foldConditions": {
+          "PHYSICAL": false,
+          "FACTORY": false
+        },
+        "pass": false
+      },
+      {
+        "id": "100_2_3_1-ENGINE-GRAFT-G2",
+        "foldConditions": {
+          "PHYSICAL": false,
+          "FACTORY": false
+        },
+        "pass": false
+      }
+    ],
+    "consistentDescriptiveRoleSignal": false,
+    "goalAchieved": false,
+    "scientificPerformanceProved": false
+  },
+  "newSearchFE": 0,
+  "newDecoderCalls": 0
+}

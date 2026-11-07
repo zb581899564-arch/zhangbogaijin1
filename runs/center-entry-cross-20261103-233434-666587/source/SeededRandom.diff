@@ -1,0 +1,13 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\java\runtime\SeededRandom.java
++++ SeededRandom.java
+@@ -28,6 +28,10 @@
+         return random;
+     }
+ 
++    public static void restoreForCenterReplay(Random state) {
++        current();
++        random = java.util.Objects.requireNonNull(state);
++    }
+     public static long seed() { current(); return seed; }
+     public static <T> void shuffle(List<T> values) { Collections.shuffle(values, current()); }
+ 

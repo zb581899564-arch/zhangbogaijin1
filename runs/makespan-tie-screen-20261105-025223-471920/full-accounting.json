@@ -1,0 +1,496 @@
+{
+  "successfulPerformanceFE": 30000000,
+  "failedPerformanceFE": 0,
+  "successfulEngineeringFE": 500000,
+  "performanceFullReturnQA": 25070,
+  "engineeringFullReturnQA": 183,
+  "phasePostanalysisFE": 0,
+  "objectiveFixtureFE": 0,
+  "previousContinuationDiscoveryFE": 98880,
+  "previousContinuationEngineeringFE": 500000,
+  "previousCenterAcceptanceAuditReplayFE": 2000000,
+  "previousMakespanPlateauAuditReplayFE": 1000000,
+  "scope": "Current screen plus explicitly separate preceding evidence; search uses exact incremental evaluation including duplicates, QA uses full decoding. Previous broader campaign expenses not included in this local receipt.",
+  "runs": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "STRICT_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 199
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "COST_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 208
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "PARETO_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 205
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "COST_SYNC",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 191
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "COST_UNIFORM",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 123
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "LI_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 182
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "LI_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 271
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "NSGA_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 438
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "NSGA_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 315
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950003,
+      "arm": "FORCE_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 218
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "COST_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 240
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "PARETO_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 238
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "COST_SYNC",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 377
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "COST_UNIFORM",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 187
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "LI_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 188
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "LI_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 227
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "NSGA_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 278
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "NSGA_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 364
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "FORCE_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 144
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950033,
+      "arm": "STRICT_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 178
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "PARETO_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 231
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "COST_SYNC",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 91
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "COST_UNIFORM",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 144
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "LI_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 156
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "LI_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 177
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "NSGA_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 300
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "NSGA_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 283
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "FORCE_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 183
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "STRICT_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 249
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10950063,
+      "arm": "COST_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 258
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "COST_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 824
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "PARETO_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 632
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "COST_SYNC",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 693
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "COST_UNIFORM",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 368
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "LI_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 468
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "LI_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 786
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "NSGA_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 558
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "NSGA_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 784
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "FORCE_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 511
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950003,
+      "arm": "STRICT_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 767
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "PARETO_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 588
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "COST_SYNC",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 945
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "COST_UNIFORM",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 239
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "LI_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 409
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "LI_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 647
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "NSGA_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 503
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "NSGA_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 742
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "FORCE_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 414
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "STRICT_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 567
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950033,
+      "arm": "COST_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 792
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "COST_SYNC",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 728
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "COST_UNIFORM",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 212
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "LI_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 641
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "LI_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 626
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "NSGA_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 703
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "NSGA_COST",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 730
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "FORCE_STRICT",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 450
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "STRICT_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 508
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "COST_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 661
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10950063,
+      "arm": "PARETO_FULL",
+      "successful": 500000,
+      "failed": 0,
+      "returnQA": 731
+    }
+  ]
+}

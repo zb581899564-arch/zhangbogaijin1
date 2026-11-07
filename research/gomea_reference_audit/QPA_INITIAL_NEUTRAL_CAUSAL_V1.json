@@ -1,0 +1,120 @@
+{
+  "sourceQpa": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    15290003,
+    15290037
+  ],
+  "fixedFE": 100000,
+  "criteria": {
+    "improvement": {
+      "medianHVEffectPct": 1.0,
+      "medianIGDSymmetricWorseningPct": 0.0,
+      "medianCdelta": 0.0,
+      "referenceHVEffectFloor": 0.0,
+      "seedHVEffectFloor": -1.0,
+      "seedIGDWorseningCeiling": 5.0,
+      "seedCdeltaFloor": -0.02
+    },
+    "mechanism": {
+      "medianHVEffectPct": 0.5,
+      "medianIGDSymmetricWorseningPct": 0.0,
+      "medianCdelta": 0.0,
+      "referenceHVEffectFloor": 0.0,
+      "seedHVEffectFloor": -1.0,
+      "seedIGDWorseningCeiling": 5.0,
+      "seedCdeltaFloor": -0.02
+    },
+    "noninferiority": {
+      "medianHVEffectPct": -1.0,
+      "medianIGDSymmetricWorseningPct": 5.0,
+      "medianCdelta": -0.02,
+      "referenceHVEffectFloor": -1.0,
+      "seedHVEffectFloor": -3.0,
+      "seedIGDWorseningCeiling": 10.0,
+      "seedCdeltaFloor": -0.05
+    }
+  },
+  "version": "QPA_INITIAL_NEUTRAL_CAUSAL-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "sourcePilot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-completed-donor-pilot-20261106-081125-188445",
+  "sourceGeometry": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-neutral-geometry-20261106-084031-147741",
+  "sourceGeometryAuditSHA256": "4dd62127c228026b3702c650b850cf6193407574cc1bbf736352267ecac9bdf1",
+  "sourcePilotAuditSHA256": "40402716951608340a02f397ae7009b713ae0f0b62fc29a2dabddbe991806971",
+  "arms": [
+    "Q_ORIGINAL",
+    "Q_CONCAT",
+    "Q_RANDOM",
+    "P_ORIGINAL",
+    "P_CONCAT",
+    "P_RANDOM"
+  ],
+  "primary": "Q_CONCAT",
+  "privateInterleavingSeed": 15350003,
+  "plannedScientificFE": 2400000,
+  "maximumTotalAttemptedFE": 2400000,
+  "extraSearchEngineeringFE": 0,
+  "hypothesis": "Onlyneutralinitialinterleaving: factoryconcatenation may removeharmfulinitialcoordinate dependence inoriginalSYNC QPA. PA strictinvariancecontrol andneutralRANDOM arbitraryperturbationcontrol. Notcompletealgorithm orrevivalofstoppedALL.",
+  "intervention": "Afteroriginalinitializer.prepare, beforegenome/evaluation: ORIGINALnochange; CONCATascendingfactoryqueues; RANDOMprivateJavaRandom FisherYates offactorylabels then dequeuefactorychain. PreserveperjobFMW/within-factoryorder; oneprivatestreamseed15350003 perrun,100transformcalls,zeromainRNGdraws. No furthernormalization.",
+  "bridge": "Firstseed15290003 eachinstance: Q_ORIGINAL/P_ORIGINAL100k wholepaidSHA/commonFEfronts mustequalpriorSYNC/PA_JOINT. ThenP_CONCAT/P_RANDOM100k initialphysicalkeys/objectivebits equal; FE101..100000paidsuffixSHA andcommonFEfrontobjectives identical. Reuseall8bridge runsasscience; noQ_CONCAT/Q_RANDOMbeforebothinstancebridgespass.",
+  "initialEquality": "Same100physicalfactorychains/objectivebits, rawfourvectorsintentionallydiffer; sourcecapturematches. EqualinitialseeddoesnotguaranteeQPA latercandidatesorRNG alignment.",
+  "engineeringImplementation": "CopyonlyQpaPaidEvaluation/PaPaidEvaluation, oneinitialtransformandonepaidreadonlydigesthook each. FrozenoriginalQpaPopulation,models,operators,roles,acceptance,FOS,archive unchanged. Verifyactualclassidentity; allsciencefechecks reused. No extraengineeringsearchFE.",
+  "criterionByControl": {
+    "Q_ORIGINAL": "improvement",
+    "Q_RANDOM": "improvement",
+    "P_ORIGINAL": "noninferiority"
+  },
+  "allConditionsRequired": "Bothinstances allcomparisonsandseedfloors required, noHV-onlyorvote. Q_CONCAT beatbothoriginalandrandom andnoninferiorPA. PAinvarianceexact. Thisonlytestsinitialencoding, notroleuniqueness/500kqualification.",
+  "metricContext": "Original128initialscales; HVrefs1.25/1.5/2.0; IGD+empiricalNDunionofallsixarms/bothseeds100kperinstance. ExactweakbidirectionalC/sharedobjectivecounts. Computequalityaftercompletingmatrix. Existingdevelopmentseeds,notheldout.",
+  "accounting": "Everyinitial/noop/fallbackattemptpaid; success=attempts=dynamic.evaluations=100000,0failed/timeinterrupted. Post100suffixreadonly. ExtraCheckpointfullQAseparate. Costsincludeobserver, no same-timeclaim. Noadditionalengineeringsearchoutside2.4M.",
+  "execution": "SingleJVMsequentialXms32mXmx2g, noexternaltransfer/machinechanges/expansion. Failure retainsusedFE/receipts/lastfront, nooverwrite/reseed/replacement.",
+  "onFailure": "StopfixedinitialCONCAThypothesis; nointerleavingseed,factoryorder,horizon,dynamicrecanonicalizationorRANDOM/PApromotionrescue. Preservegeometryobservationandalloldstops; donotcallnoninvarianceabug.",
+  "progression": "Onlyseparaterepresentation/integrationcontract ifalljointcriteriapass. Notfourrole/QGS/sharedindependentbenefit/equal-time/500k/heldout/journalqualification. Retaincompletedfeedbackpositivecomponentwithoutautomaticcombining.",
+  "defaultMainlineChanged": false,
+  "externalTransfers": false,
+  "goalAchieved": false
+}

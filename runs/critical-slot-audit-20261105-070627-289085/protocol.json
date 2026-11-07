@@ -1,0 +1,63 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\snapshot-anchor-audit-20261105-051047-172151",
+  "methods": [
+    "STRICT_FULL",
+    "NSGA_STRICT"
+  ],
+  "seed": 10950003,
+  "plannedReplayFE": 2000000,
+  "question": "How many M intra evaluations have no possible strict Cmax improvement because a different unchanged factory remains maximal? Do those slots still contribute paid multiobjective archive value?",
+  "sourceIdentity": "Resolve actual LocalSearch/SearchState/QgsLocalLedger/IntraNeighborhoods before choosing source; retain loaded.class SHA and JDK, inspect actual neighborhood and ledger bytecode. Shadow only observer hooks, not production.",
+  "observation": "Every M intra slot before entry: actual forced factory, pre-draw factory, quota, paidFE, genome/family, factoryC/E/W, paid archive. Every active paid candidate: other factoryC/E/W exact unchanged and impossible slots cannot lower entryCmax. After exit: actualFE, normal/partial return, exact exit and archive. Inter/global/other roles unchanged.",
+  "engineering": "6zeroFEcertificate fixtures. Each4replay500k/0failed exactly old paidSHA, initialization, everyFEfront, finalgenes, admissions, physical ledger, search/acceptance/decoder and snapshot counts. Join observed M slots to complete real ledger. Any engineering mismatch stops before scientific routing conclusions.",
+  "scoring": "Frozen normalization/ref1.5. Sequential actual archiveHV increment by Mslot, cached offline with independent slowHV checks; absdelta<1e-12 treated0 symmetrically. Report scalar eligibility and incidental3Dvalue separately.",
+  "gate": "Eachinstance and eachmethod>=20%M intra successfulFE in pre-certified impossible slots. Only permits separate matched routing probe. No automatic budget deletion or full algorithm promotion; incidental archivevalue reported regardless.",
+  "limits": "Olddevelopmentseed and fixed replayledger, not independent confirmation, native naturalVNS or same-time experiment. No strict C improvement does not imply no Pareto discovery or no future value. No claim unique contribution or NSGAgap explained.",
+  "preserved": "No default search, Q, fourroles, family, shared rule, frozen/source inputs or ledger changed; no filetransfers."
+}

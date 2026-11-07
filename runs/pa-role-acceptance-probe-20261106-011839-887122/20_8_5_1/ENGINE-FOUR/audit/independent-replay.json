@@ -1,0 +1,35 @@
+{
+  "allPaidStatesAndAcceptanceReconstructed": true,
+  "successfulFE": 7900,
+  "neutralFullQA": 200,
+  "programs": 200,
+  "generations": 2,
+  "modelChecks": [
+    {
+      "pairs": 190,
+      "maximumModelError": 9.020562075079397e-15,
+      "merges": 19,
+      "maximumChosenMeanDeficit": 0.0
+    },
+    {
+      "pairs": 190,
+      "maximumModelError": 8.520961713998076e-15,
+      "merges": 19,
+      "maximumChosenMeanDeficit": 0.0
+    }
+  ],
+  "duplicates": 250,
+  "currentGenerationDonorReads": 3460,
+  "changedCurrentGenerationDonorReads": 3440,
+  "prefixPaidSHA256": {
+    "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+    "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+    "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+    "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+    "4000": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b"
+  },
+  "paidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700",
+  "defaultMainlineChanged": false,
+  "performanceEvidence": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,31 @@
+{
+  "completedUTC": "2026-11-06T07:20:04.397828+00:00",
+  "reviewer": "Primary assistant inspected all 10 actual figures in three Linux-rendered contact sheets",
+  "passed": true,
+  "figuresInspected": [
+    "convergence-20_8_5_1",
+    "convergence-100_2_3_1",
+    "fronts-20_8_5_1-16110003",
+    "fronts-20_8_5_1-16110037",
+    "fronts-20_8_5_1-16110069",
+    "fronts-100_2_3_1-16110003",
+    "fronts-100_2_3_1-16110037",
+    "fronts-100_2_3_1-16110069",
+    "budgets-20_8_5_1",
+    "budgets-100_2_3_1"
+  ],
+  "checks": [
+    "Labels, legends, panel marks and axes readable without clipping",
+    "Same per-instance coordinates across all arms and seeds",
+    "Individual seeds and range bands labelled, not confidence intervals",
+    "All front points shown; 2D projection limitation labelled",
+    "Phase FE and time nested correctly; no duplicate sharing bar"
+  ],
+  "sourcePreflight": "figure-source-preflight-context.json: PASS12 WARN2 FAIL0",
+  "acceptedWarnings": [
+    "TIFF not required for this pilot; SVG/PDF/600dpi PNG supplied",
+    "Static regex misreads 183*MM as inches; actual export metadata is183mm"
+  ],
+  "history": "Original export figure-qa.json remains an earlier pending record; this closes its visual review",
+  "scientificEAF": "Suppressed with three seeds; no five-seed scientific EAF display claimed"
+}

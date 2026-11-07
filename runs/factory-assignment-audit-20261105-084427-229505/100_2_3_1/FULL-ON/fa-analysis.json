@@ -1,0 +1,247 @@
+{
+  "stem": "100_2_3_1",
+  "method": "FULL",
+  "successfulFE": 500000,
+  "actualFAChangedFE": 1323,
+  "FAChangedPctOfPostInitialFE": 0.2646529305861172,
+  "FAChangedSequentialHVIncrement": 0.024603024780207983,
+  "initialHV": 0.43659854972733225,
+  "finalHV": 0.7643082343385035,
+  "postInitialHVIncrement": 0.3277096846111712,
+  "FAChangedShareOfPostInitialHVIncrementPct": 7.507567196068546,
+  "interAcceptedFAChanges": 95,
+  "counters": {
+    "initialization/NONE/PROTECTED/INITIAL": {
+      "successfulFE": 20,
+      "admissions": 16,
+      "novelFA": 4
+    },
+    "initialization/NONE/FREE/INITIAL": {
+      "successfulFE": 80,
+      "admissions": 12,
+      "novelFA": 80
+    },
+    "global/MAKESPAN/FREE/FA_SAME": {
+      "successfulFE": 419,
+      "admissions": 79
+    },
+    "global/MAKESPAN/FREE/FA_CHANGED": {
+      "successfulFE": 131,
+      "admissions": 9,
+      "novelFA": 111,
+      "rawFAIntentFE": 131,
+      "changedJobsTotal": 1504
+    },
+    "global/MAKESPAN/PROTECTED/FA_SAME": {
+      "successfulFE": 200,
+      "admissions": 5,
+      "rawFAIntentFE": 56,
+      "rawFAIntentCanceledFE": 56
+    },
+    "global/CENTER/FREE/FA_CHANGED": {
+      "successfulFE": 690,
+      "novelFA": 628,
+      "rawFAIntentFE": 690,
+      "changedJobsTotal": 10818,
+      "admissions": 17
+    },
+    "global/CENTER/FREE/FA_SAME": {
+      "successfulFE": 1660,
+      "admissions": 108
+    },
+    "global/CENTER/PROTECTED/FA_SAME": {
+      "successfulFE": 400,
+      "rawFAIntentFE": 89,
+      "rawFAIntentCanceledFE": 89,
+      "admissions": 43
+    },
+    "global/ENERGY/FREE/FA_SAME": {
+      "successfulFE": 445,
+      "admissions": 3
+    },
+    "global/ENERGY/FREE/FA_CHANGED": {
+      "successfulFE": 105,
+      "novelFA": 97,
+      "rawFAIntentFE": 105,
+      "changedJobsTotal": 1187
+    },
+    "global/ENERGY/PROTECTED/FA_SAME": {
+      "successfulFE": 200,
+      "rawFAIntentFE": 52,
+      "rawFAIntentCanceledFE": 52
+    },
+    "global/WORKER_COST/FREE/FA_SAME": {
+      "successfulFE": 434,
+      "admissions": 30
+    },
+    "global/WORKER_COST/FREE/FA_CHANGED": {
+      "successfulFE": 116,
+      "novelFA": 103,
+      "rawFAIntentFE": 116,
+      "changedJobsTotal": 1056,
+      "admissions": 5
+    },
+    "global/WORKER_COST/PROTECTED/FA_SAME": {
+      "successfulFE": 200,
+      "rawFAIntentFE": 52,
+      "rawFAIntentCanceledFE": 52
+    },
+    "inter/MAKESPAN/FREE/FA_CHANGED": {
+      "successfulFE": 114,
+      "admissions": 17,
+      "novelFA": 114,
+      "rawFAIntentFE": 114,
+      "changedJobsTotal": 186,
+      "interAccepted": 61
+    },
+    "intra/MAKESPAN/FREE/FA_SAME": {
+      "successfulFE": 43272,
+      "admissions": 664
+    },
+    "inter/MAKESPAN/PROTECTED/FA_SAME": {
+      "successfulFE": 10,
+      "rawFAIntentFE": 10,
+      "rawFAIntentCanceledFE": 10,
+      "interAccepted": 2
+    },
+    "intra/MAKESPAN/PROTECTED/FA_SAME": {
+      "successfulFE": 15161
+    },
+    "inter/CENTER/PROTECTED/FA_SAME": {
+      "successfulFE": 18,
+      "admissions": 2,
+      "rawFAIntentFE": 18,
+      "rawFAIntentCanceledFE": 18,
+      "interAccepted": 1
+    },
+    "intra/CENTER/PROTECTED/FA_SAME": {
+      "successfulFE": 51342,
+      "admissions": 2365
+    },
+    "inter/CENTER/FREE/FA_CHANGED": {
+      "successfulFE": 135,
+      "novelFA": 126,
+      "rawFAIntentFE": 135,
+      "changedJobsTotal": 206,
+      "interAccepted": 24
+    },
+    "intra/CENTER/FREE/FA_SAME": {
+      "successfulFE": 313570,
+      "admissions": 4962
+    },
+    "inter/ENERGY/FREE/FA_CHANGED": {
+      "successfulFE": 32,
+      "novelFA": 32,
+      "rawFAIntentFE": 32,
+      "changedJobsTotal": 51,
+      "interAccepted": 10
+    },
+    "intra/ENERGY/FREE/FA_SAME": {
+      "successfulFE": 71246,
+      "admissions": 1059
+    }
+  },
+  "sequentialHVCredits": {
+    "initialization/NONE/PROTECTED/INITIAL": 0.4045295182543674,
+    "initialization/NONE/FREE/INITIAL": 0.03206903147296486,
+    "global/MAKESPAN/FREE/FA_CHANGED": 0.011680756743813137,
+    "global/MAKESPAN/PROTECTED/FA_SAME": 0.008543929249169413,
+    "global/MAKESPAN/FREE/FA_SAME": 0.0488247697359071,
+    "global/CENTER/PROTECTED/FA_SAME": 0.018092671411714667,
+    "global/CENTER/FREE/FA_CHANGED": 0.0005326828558912533,
+    "global/CENTER/FREE/FA_SAME": 0.016670574067827126,
+    "global/ENERGY/FREE/FA_SAME": 3.5898896294517257e-06,
+    "global/WORKER_COST/FREE/FA_SAME": 0.011551210066375495,
+    "global/WORKER_COST/FREE/FA_CHANGED": 0.0015901509067358655,
+    "inter/MAKESPAN/FREE/FA_CHANGED": 0.010799434273767727,
+    "intra/MAKESPAN/FREE/FA_SAME": 0.009227047590116166,
+    "inter/CENTER/PROTECTED/FA_SAME": 3.13394726723093e-05,
+    "intra/CENTER/PROTECTED/FA_SAME": 0.10312144345820207,
+    "intra/CENTER/FREE/FA_SAME": 0.05509300477315704,
+    "intra/ENERGY/FREE/FA_SAME": 0.031947080116192406
+  },
+  "independentRealFrontHVChecks": [
+    {
+      "admissionOrdinal": 0,
+      "frontSize": 1,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 257,
+      "frontSize": 71,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 514,
+      "frontSize": 123,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 771,
+      "frontSize": 178,
+      "maxAbsoluteError": 2.220446049250313e-16
+    },
+    {
+      "admissionOrdinal": 1028,
+      "frontSize": 233,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 1285,
+      "frontSize": 246,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 1542,
+      "frontSize": 231,
+      "maxAbsoluteError": 5.551115123125783e-16
+    },
+    {
+      "admissionOrdinal": 1799,
+      "frontSize": 276,
+      "maxAbsoluteError": 2.220446049250313e-16
+    },
+    {
+      "admissionOrdinal": 2056,
+      "frontSize": 269,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 2313,
+      "frontSize": 246,
+      "maxAbsoluteError": 5.551115123125783e-16
+    },
+    {
+      "admissionOrdinal": 2570,
+      "frontSize": 252,
+      "maxAbsoluteError": 4.440892098500626e-16
+    },
+    {
+      "admissionOrdinal": 2827,
+      "frontSize": 255,
+      "maxAbsoluteError": 4.440892098500626e-16
+    },
+    {
+      "admissionOrdinal": 3084,
+      "frontSize": 272,
+      "maxAbsoluteError": 4.440892098500626e-16
+    },
+    {
+      "admissionOrdinal": 3341,
+      "frontSize": 331,
+      "maxAbsoluteError": 7.771561172376096e-16
+    },
+    {
+      "admissionOrdinal": 3598,
+      "frontSize": 343,
+      "maxAbsoluteError": 6.661338147750939e-16
+    },
+    {
+      "admissionOrdinal": 3855,
+      "frontSize": 314,
+      "maxAbsoluteError": 3.3306690738754696e-16
+    }
+  ],
+  "uniquePaidAssignments": 1295,
+  "scope": "Sequential successful-admission attribution, conditional on actual history. FA_CHANGED may also alter JS/resources; no isolated causal payoff, same-time comparison or budget intervention."
+}

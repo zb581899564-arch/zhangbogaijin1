@@ -1,0 +1,56 @@
+{
+  "instance": "20_2_3_1",
+  "paidSnapshotFE": 5100,
+  "sourceOrigins": {
+    "S": {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-entry-cross-20261103-233341-550787\\capture-S\\trials\\fatigue\\SHARE_JOB_ALIGNED\\entry.jsonl",
+      "SHA256": "5851a6193901ba6054d7ac36e17912f33e31c468bed7dbb3accd5aab39492772"
+    },
+    "U": {
+      "path": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-entry-cross-20261103-233341-550787\\capture-U\\trials\\fatigue\\SHARE_JOB_ALIGNED_UNIFORM\\entry.jsonl",
+      "SHA256": "ceab729386ea254436c610fd0ff48880acaca0557b4b5d19a2cb58cd6d141371"
+    }
+  },
+  "roles": [
+    "MAKESPAN",
+    "CENTER",
+    "ENERGY",
+    "WORKER_COST"
+  ],
+  "freeSamplesPerSource": 8,
+  "cohorts": [
+    "S",
+    "U"
+  ],
+  "sampling": "Evenly spaced by original free-particle index within each role, alternating TRAIN/HOLDOUT.",
+  "continuation": "Unchanged deep LocalSearch with natural slots; repeat visits only if the visit returns before the common budget. Four recipient preferences; common 200-point frozen paid reference, new personal history, no inherited Q state or family.",
+  "actualFEPerTrial": 257,
+  "trialCount": 512,
+  "maxPaidFE": 131584,
+  "baseline": "All known paid archive points up to FE5100 in S and U plus all source reference solutions are in A0 before any continuation. Already-good donor copies earn zero gain.",
+  "ordinaryControls": [
+    "SELF same-source role",
+    "ELITE by target objective or PDDR",
+    "uniform RANDOM"
+  ],
+  "gate": "Select best off-diagonal source on TRAIN only, test its four HOLDOUT parents per target. At least two SPECIAL target tasks must beat SELF/ELITE/RANDOM in mean heldout batch new HV to warrant an isolated closed-loop proposal; no tuning the threshold after results.",
+  "limits": "Association of source role and solution quality remains; no novelty claim or full-cost efficacy from this screen. Uniform cohort is a diagnostic, not a weak final benchmark.",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  }
+}

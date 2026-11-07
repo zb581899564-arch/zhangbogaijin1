@@ -1,0 +1,427 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    10510003,
+    10510033,
+    10510063
+  ],
+  "methods": {
+    "OLD_FULL": [
+      "OLDEST",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "LATEST_FULL": [
+      "LATEST",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "CURRENT_FULL": [
+      "CURRENT",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "RANDOM_FULL": [
+      "UNIFORM",
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "LATEST_SYNC": [
+      "LATEST",
+      "SYNC_JOB_ALIGNED",
+      "FULL_ROLE",
+      false
+    ],
+    "LATEST_UNIFORM": [
+      "LATEST",
+      "SHARE_JOB_ALIGNED_UNIFORM",
+      "FULL_ROLE",
+      false
+    ],
+    "LI_MATCHED_DEEP": [
+      "OLDEST",
+      "BASELINE",
+      "PAIR",
+      true
+    ],
+    "LI_LATEST": [
+      "LATEST",
+      "BASELINE",
+      "PAIR",
+      true
+    ],
+    "NSGA": [
+      "OLDEST",
+      "NSGA2_4V",
+      "PAIR",
+      false
+    ],
+    "OLD_FORCE": [
+      "OLDEST",
+      "SHARE_JOB_ALIGNED",
+      "PAIR",
+      false
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "OLD_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LATEST_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "CURRENT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "RANDOM_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LATEST_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LATEST_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "LI_LATEST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510003,
+      "arm": "OLD_FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LATEST_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "CURRENT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "RANDOM_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LATEST_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LATEST_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "LI_LATEST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "OLD_FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510033,
+      "arm": "OLD_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "CURRENT_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "RANDOM_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LATEST_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LATEST_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LI_LATEST"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "OLD_FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "OLD_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 10510063,
+      "arm": "LATEST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LATEST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "CURRENT_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "RANDOM_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LATEST_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LATEST_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "LI_LATEST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "OLD_FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510003,
+      "arm": "OLD_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "CURRENT_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "RANDOM_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LATEST_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LATEST_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LI_LATEST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "OLD_FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "OLD_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510033,
+      "arm": "LATEST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "RANDOM_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LATEST_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LATEST_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LI_LATEST"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "OLD_FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "OLD_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "LATEST_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 10510063,
+      "arm": "CURRENT_FULL"
+    }
+  ],
+  "candidate": "LATEST_FULL",
+  "basis": "CONTEXT primary failed paired probe; its pre-fixed ordinary CURRENT/LATEST controls improved vs oldest on all four discovery source cells. New hypothesis and new seeds here; no previous gate relabeled.",
+  "changed": "CENTER personalBest selects latest surviving ND insertion instead of oldest. No history reset, extra learning, new proposal, role/family/pool or local quota changes. Other directions keep their original best-objective rule.",
+  "commonEngine": "OLDEST selects first ND insertion in O(1), mathematically identical to original stable PDDR sort over its own ND history. All methods use this same policy engine; original full500k paid-sequence equivalence required before performance.",
+  "controls": "CURRENT and random ND memory; specialization-uniform with original Q table; no composition; original FORCE shared; original Li v2 with matched deep search; Li with the same generic latest-memory enhancement; matched NSGA-II. Li flags explicitly v2 and FORCE, not accidentally full-survival.",
+  "efficacyGate": "Each instance median >=1% vs OLD_FULL with >=2/3 paired wins; median >=-1% vs NSGA; nonnegative vs CURRENT/RANDOM/Li_latest; positive vs original Li and original FORCE shared. Positive old-full direction at refs1.25/2. Exact CURRENT equivalence means no extra memory-value claim.",
+  "cooperativeGate": "Separate from efficacy: four-duty vs uniform median >=1% on both; sharing vs SYNC median >=0.2% on at least one and >=-0.5% on the other. No claim universal sharing benefit. Failure here prevents a cooperative novelty claim even if baseline memory improves.",
+  "budget": "60 x500000 successfulFE =30000000 searchFE, plus500000 engineeringFE. Failure stops this parameter-free policy; no tie/age-probability or seed scan.",
+  "timeScope": "All generation/selection cost in search clock, no full trace/digest in performance. Existing common time cuts diagnostic; actual TIME_LIMIT independent runs still required.",
+  "scope": "Three-seed development screen. Original baseline/author materials/default mainline unchanged; not faithful-author score reproduction, novelty proof or independent final confirmation."
+}

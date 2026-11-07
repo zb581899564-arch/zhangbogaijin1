@@ -1,0 +1,8 @@
+警告: [options] 未与 -source 8 一起设置引导类路径
+G:\ai\limingzhegaijin\张博改进\src\java\dynamicchecks\CheckpointGenomeChecks.java:111: 错误: 找不到符号
+            solution.setVariableValuemachine(p, genome[2][p]); solution.setVariableValueworker(p, genome[3][p]);
+                    ^
+  符号:   方法 setVariableValuemachine(int,int)
+  位置: 类型为PermutationSolution<Integer>的变量 solution
+1 个错误
+1 个警告

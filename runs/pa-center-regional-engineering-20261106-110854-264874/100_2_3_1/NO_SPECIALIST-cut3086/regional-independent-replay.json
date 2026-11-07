@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "mode": "NO_SPECIALIST",
+  "paidFE": 3086,
+  "completedPrograms": 15,
+  "completedGenerations": 0,
+  "models": [
+    {
+      "pairs": 4950,
+      "maximumModelError": 3.552713678800501e-15,
+      "merges": 99,
+      "maximumChosenMeanDeficit": 0.0
+    }
+  ],
+  "policyCounts": {
+    "boundaryComparisons": 2985,
+    "nativeDecisionDifferences": 630,
+    "centerComparisons": 1
+  },
+  "permanentTargetsAndAllPaidIdealsVerified": true,
+  "allMovesArchiveAcceptAndTimelineVerified": true,
+  "paidSHA256": "4d01e843dfecb0f17cbd560b1ebc8c9125c1e62ce41f1f3884a9bdda5a4ba64c",
+  "prefixSHA256": {
+    "1": "bfec59558dd167fb497c8761c96b8b73288339c7a60481978a3b75b2d7d322f9",
+    "2": "db882b1440a4ac7f705e0340cf84007454846fec0b5088dbb1ffd715504f0fbb",
+    "100": "7423d14bcb9dc0154b8e120952bfc8bd40b229eb60123ff6132186c04baa8516",
+    "101": "180cc78d1de28bd211cb5011cc7fd44a77977dd504effcc42ad694baae164834",
+    "3086": "4d01e843dfecb0f17cbd560b1ebc8c9125c1e62ce41f1f3884a9bdda5a4ba64c"
+  },
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

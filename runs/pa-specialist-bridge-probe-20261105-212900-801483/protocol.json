@@ -1,0 +1,158 @@
+{
+  "version": "SPECIALIST_INTERMEDIATE_ACCEPTANCE_CAUSAL-v1",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      },
+      "feLimit": 7900
+    },
+    {
+      "stem": "100_2_3_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      },
+      "feLimit": 39900
+    }
+  ],
+  "seeds": [
+    14030003,
+    14030037
+  ],
+  "methods": {
+    "JOINT_FREE": [
+      "PA_JOINT",
+      false
+    ],
+    "JOINT_BLOCKED": [
+      "PA_JOINT",
+      true
+    ],
+    "RELABEL_FREE": [
+      "PA_RELABEL",
+      false
+    ],
+    "RELABEL_BLOCKED": [
+      "PA_RELABEL",
+      true
+    ],
+    "NSGA2_DEEP": [
+      "NSGA2_DEEP",
+      false
+    ],
+    "FULL_SHARED_DEEP": [
+      "FULL_SHARED_DEEP",
+      false
+    ],
+    "LI_RECON_DEEP": [
+      "LI_RECON_DEEP",
+      false
+    ]
+  },
+  "comparisons": [
+    [
+      "JOINT_FREE",
+      "JOINT_BLOCKED"
+    ],
+    [
+      "RELABEL_FREE",
+      "RELABEL_BLOCKED"
+    ],
+    [
+      "JOINT_FREE",
+      "NSGA2_DEEP"
+    ],
+    [
+      "JOINT_FREE",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "JOINT_FREE",
+      "LI_RECON_DEEP"
+    ],
+    [
+      "JOINT_BLOCKED",
+      "NSGA2_DEEP"
+    ],
+    [
+      "JOINT_BLOCKED",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "JOINT_BLOCKED",
+      "LI_RECON_DEEP"
+    ],
+    [
+      "RELABEL_FREE",
+      "NSGA2_DEEP"
+    ],
+    [
+      "RELABEL_FREE",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "RELABEL_FREE",
+      "LI_RECON_DEEP"
+    ],
+    [
+      "RELABEL_BLOCKED",
+      "NSGA2_DEEP"
+    ],
+    [
+      "RELABEL_BLOCKED",
+      "FULL_SHARED_DEEP"
+    ],
+    [
+      "RELABEL_BLOCKED",
+      "LI_RECON_DEEP"
+    ]
+  ],
+  "question": "Does allowing objective-specific improvement through globally dominated intermediates help the full mixed-population search?",
+  "onlyIntervention": "BLOCKED requires specialist own strict improvement AND the originalCENTERacceptance; FREE is unchanged. CENTER, all four role labels, model, donors, generation, initializer and budget unchanged",
+  "reasonTwoGenerations": "Minimum full update cycle in which late ENERGY/WORKER_COST states can feed next-generation CENTER; same actual FE for all compared methods within instance",
+  "modelControl": "Run both pre-existingJOINT andRELABEL, no posthoc model selection and no claim of renewed learned-tree benefit",
+  "engineeringFE": 95600,
+  "scientificFE": 669200,
+  "maximumNewSearchFE": 764800,
+  "sampling": "All28scientific trajectories finish, no seed substitution or intermediate-win stopping",
+  "metrics": "HVmain1.5,sensitivity1.25/2;IGD+empiricalNDunion of all7methods x2seeds perinstance;raw-objective weak bidirectionalC including equality",
+  "effectMargins": "Descriptive one-shot mechanism diagnosis only: no practical/significance/pass thresholds and no algorithm qualification or expansion decision from this short horizon",
+  "conflicts": "Report all three directions and per-seed conflicts, no vote/weighted score; any evidence limited to this ablation and horizon",
+  "noTimeStage": "True search seconds recorded, but observation/audit strata not a matched TIME experiment",
+  "stoppedVersionsRemainStopped": true,
+  "newSelectorOrOperator": false,
+  "defaultMainlineChanged": false,
+  "scope": "Ordinary PA adaptation without originalQGS/sharing; shared/Li/classic arms retained as context, not final innovation performance",
+  "goalAchieved": false
+}

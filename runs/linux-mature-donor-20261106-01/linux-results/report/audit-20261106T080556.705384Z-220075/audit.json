@@ -1,0 +1,2884 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "instance": "20_8_5_1",
+      "sourceSeed": 16110003,
+      "capture": {
+        "passed": true,
+        "beforeGlobalFE": 255880,
+        "afterGlobalFE": 260880,
+        "receivers": 100,
+        "globalPaidCandidates": 5000,
+        "sharedPaidCandidates": 65,
+        "ordinaryPaidCandidates": 4935,
+        "backgroundPoints": 636,
+        "pointSource": "Already paid by the recorded fee; P uses upper-bound paidByFE, not earliest birth",
+        "readOnly": true,
+        "captureThreshold": 250000,
+        "loaded": {
+          "javaVersion": "17.0.21",
+          "javaHome": "/home/inspur/codex-workspace/projects/limingzhegaijin/runtime/jdk17",
+          "org.uma.jmetal.util.research.search.DonorCapture": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/DonorCapture.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "e035ef96d675aced9c81fac08148c4945e90e4e929ceb6412a8dbe50ff816754"
+          },
+          "org.uma.jmetal.util.research.search.CanonicalHmopso": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "f6950ecfc7389dcc4e0a869a2b922a8d335f08532beb04daebbb8312b70cb025"
+          }
+        }
+      },
+      "runs": [
+        {
+          "arm": "R",
+          "sourceSeed": 16110003,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 637,
+          "flags": {
+            "dominated": 2936,
+            "equal": 830,
+            "admitted": 54,
+            "accepted": 1028
+          },
+          "paidSHA256": "871e15e10768307b0c1087da3ff50d99a918282fc6c5f29ada6d408bd233e707",
+          "scheduleSHA256": "a9291a73a317d4e77049742902131092eeabd4f65196dc9aedae7b3a29484b44",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 3120,
+              "accepted": 849,
+              "admitted": 52,
+              "equal": 820,
+              "dominated": 2248,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 700,
+              "accepted": 179,
+              "admitted": 2,
+              "equal": 10,
+              "dominated": 688,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "G",
+          "sourceSeed": 16110003,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 632,
+          "flags": {
+            "dominated": 3442,
+            "admitted": 38,
+            "accepted": 619,
+            "equal": 340
+          },
+          "paidSHA256": "58d4b010b03fa4ec7a2bedbb0d571a49a5224cf5311153573e332fa3d32868f8",
+          "scheduleSHA256": "a9291a73a317d4e77049742902131092eeabd4f65196dc9aedae7b3a29484b44",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 73,
+              "accepted": 24,
+              "admitted": 4,
+              "equal": 15,
+              "dominated": 54,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 3047,
+              "accepted": 506,
+              "admitted": 34,
+              "equal": 325,
+              "dominated": 2688,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 14,
+              "accepted": 4,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 14,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 686,
+              "accepted": 85,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 686,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "S",
+          "sourceSeed": 16110003,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 637,
+          "flags": {
+            "dominated": 2935,
+            "equal": 831,
+            "admitted": 54,
+            "accepted": 964
+          },
+          "paidSHA256": "112ef36c8ec5560910a266033cd0d2ffad1ffe8bea5df08ecd82dd8d41142586",
+          "scheduleSHA256": "a9291a73a317d4e77049742902131092eeabd4f65196dc9aedae7b3a29484b44",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 3120,
+              "accepted": 849,
+              "admitted": 52,
+              "equal": 820,
+              "dominated": 2248,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 250,
+              "accepted": 48,
+              "admitted": 0,
+              "equal": 5,
+              "dominated": 245,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 450,
+              "accepted": 67,
+              "admitted": 2,
+              "equal": 6,
+              "dominated": 442,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "UNION",
+          "sourceSeed": 16110003,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 633,
+          "flags": {
+            "dominated": 3438,
+            "admitted": 40,
+            "accepted": 625,
+            "equal": 342
+          },
+          "paidSHA256": "38437cf702b616d0312aed7bd02789e61f49680a9b574ab5fc7d2eddde022cde",
+          "scheduleSHA256": "a9291a73a317d4e77049742902131092eeabd4f65196dc9aedae7b3a29484b44",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 73,
+              "accepted": 24,
+              "admitted": 4,
+              "equal": 15,
+              "dominated": 54,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 3047,
+              "accepted": 506,
+              "admitted": 34,
+              "equal": 325,
+              "dominated": 2688,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 12,
+              "accepted": 4,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 12,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 666,
+              "accepted": 84,
+              "admitted": 1,
+              "equal": 2,
+              "dominated": 663,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 22,
+              "accepted": 7,
+              "admitted": 1,
+              "equal": 0,
+              "dominated": 21,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        }
+      ],
+      "rawCaptureCounts": {
+        "fixed20/G": 935,
+        "fixed20/P": 20,
+        "fixed20/S": 65,
+        "free80/G": 4000,
+        "free80/P": 80
+      },
+      "uniqueExternalCounts": {
+        "fixed20/G": 933,
+        "fixed20/S": 32,
+        "free80/G": 3874
+      },
+      "initialModelsViewsAndProposalScheduleEqual": true,
+      "externalDeduplicationAndPaidAvailabilityVerified": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "sourceSeed": 16110037,
+      "capture": {
+        "passed": true,
+        "beforeGlobalFE": 255880,
+        "afterGlobalFE": 260880,
+        "receivers": 100,
+        "globalPaidCandidates": 5000,
+        "sharedPaidCandidates": 56,
+        "ordinaryPaidCandidates": 4944,
+        "backgroundPoints": 600,
+        "pointSource": "Already paid by the recorded fee; P uses upper-bound paidByFE, not earliest birth",
+        "readOnly": true,
+        "captureThreshold": 250000,
+        "loaded": {
+          "javaVersion": "17.0.21",
+          "javaHome": "/home/inspur/codex-workspace/projects/limingzhegaijin/runtime/jdk17",
+          "org.uma.jmetal.util.research.search.DonorCapture": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/DonorCapture.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "e035ef96d675aced9c81fac08148c4945e90e4e929ceb6412a8dbe50ff816754"
+          },
+          "org.uma.jmetal.util.research.search.CanonicalHmopso": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "f6950ecfc7389dcc4e0a869a2b922a8d335f08532beb04daebbb8312b70cb025"
+          }
+        }
+      },
+      "runs": [
+        {
+          "arm": "R",
+          "sourceSeed": 16110037,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 627,
+          "flags": {
+            "dominated": 3124,
+            "admitted": 112,
+            "equal": 584,
+            "accepted": 750
+          },
+          "paidSHA256": "b62468f419b259356c9b965273fe819c74cee5100c5eace6b4591a250fe4cab1",
+          "scheduleSHA256": "a1cc1ca8920f3713aa5dd9d49463da75fba7ebe5c3afd1400b3128cdf8a69d38",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 3120,
+              "accepted": 582,
+              "admitted": 112,
+              "equal": 584,
+              "dominated": 2424,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 700,
+              "accepted": 168,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 700,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "G",
+          "sourceSeed": 16110037,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 618,
+          "flags": {
+            "dominated": 3364,
+            "equal": 396,
+            "admitted": 60,
+            "accepted": 481
+          },
+          "paidSHA256": "0b40e4d68dae56a13efe1c732e7fadf8f800b4bce5c693077ce1e5ba9f26fd39",
+          "scheduleSHA256": "a1cc1ca8920f3713aa5dd9d49463da75fba7ebe5c3afd1400b3128cdf8a69d38",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 71,
+              "accepted": 13,
+              "admitted": 3,
+              "equal": 10,
+              "dominated": 58,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 3049,
+              "accepted": 394,
+              "admitted": 57,
+              "equal": 386,
+              "dominated": 2606,
+              "fallback": 1
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 17,
+              "accepted": 4,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 17,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 683,
+              "accepted": 70,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 683,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "S",
+          "sourceSeed": 16110037,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 627,
+          "flags": {
+            "dominated": 3124,
+            "admitted": 112,
+            "equal": 584,
+            "accepted": 742
+          },
+          "paidSHA256": "69ec9e38d05441c0181e1cbd621bf4e9c863b0bb4f90b48001d70621c0cb91b9",
+          "scheduleSHA256": "a1cc1ca8920f3713aa5dd9d49463da75fba7ebe5c3afd1400b3128cdf8a69d38",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 3120,
+              "accepted": 582,
+              "admitted": 112,
+              "equal": 584,
+              "dominated": 2424,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 336,
+              "accepted": 93,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 336,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 364,
+              "accepted": 67,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 364,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "UNION",
+          "sourceSeed": 16110037,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 618,
+          "flags": {
+            "dominated": 3364,
+            "equal": 396,
+            "admitted": 60,
+            "accepted": 499
+          },
+          "paidSHA256": "a5f52830c61f5ad75fe2c78c2e0a34ef2ce3028d8a772018ba4d8bf911ecaa8e",
+          "scheduleSHA256": "a1cc1ca8920f3713aa5dd9d49463da75fba7ebe5c3afd1400b3128cdf8a69d38",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 71,
+              "accepted": 13,
+              "admitted": 3,
+              "equal": 10,
+              "dominated": 58,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 3049,
+              "accepted": 394,
+              "admitted": 57,
+              "equal": 386,
+              "dominated": 2606,
+              "fallback": 1
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 10,
+              "accepted": 5,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 10,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 680,
+              "accepted": 85,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 680,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 10,
+              "accepted": 2,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 10,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        }
+      ],
+      "rawCaptureCounts": {
+        "fixed20/G": 944,
+        "fixed20/P": 20,
+        "fixed20/S": 56,
+        "free80/G": 4000,
+        "free80/P": 80
+      },
+      "uniqueExternalCounts": {
+        "fixed20/G": 939,
+        "fixed20/S": 18,
+        "free80/G": 3766
+      },
+      "initialModelsViewsAndProposalScheduleEqual": true,
+      "externalDeduplicationAndPaidAvailabilityVerified": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "sourceSeed": 16110069,
+      "capture": {
+        "passed": true,
+        "beforeGlobalFE": 255880,
+        "afterGlobalFE": 260880,
+        "receivers": 100,
+        "globalPaidCandidates": 5000,
+        "sharedPaidCandidates": 72,
+        "ordinaryPaidCandidates": 4928,
+        "backgroundPoints": 688,
+        "pointSource": "Already paid by the recorded fee; P uses upper-bound paidByFE, not earliest birth",
+        "readOnly": true,
+        "captureThreshold": 250000,
+        "loaded": {
+          "javaVersion": "17.0.21",
+          "javaHome": "/home/inspur/codex-workspace/projects/limingzhegaijin/runtime/jdk17",
+          "org.uma.jmetal.util.research.search.DonorCapture": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/DonorCapture.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "e035ef96d675aced9c81fac08148c4945e90e4e929ceb6412a8dbe50ff816754"
+          },
+          "org.uma.jmetal.util.research.search.CanonicalHmopso": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "f6950ecfc7389dcc4e0a869a2b922a8d335f08532beb04daebbb8312b70cb025"
+          }
+        }
+      },
+      "runs": [
+        {
+          "arm": "R",
+          "sourceSeed": 16110069,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 732,
+          "flags": {
+            "dominated": 3162,
+            "equal": 554,
+            "accepted": 808,
+            "admitted": 104
+          },
+          "paidSHA256": "e870a2bc84c4bd25179ea23fde8fe3fa035d2cf5234fd3e3bb1f0bd452d5eefa",
+          "scheduleSHA256": "584d7aaf5e722f8277d8134c5842e1724a06f133d8dd18ef227c6fad9f0d0356",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 3120,
+              "accepted": 617,
+              "admitted": 104,
+              "equal": 554,
+              "dominated": 2462,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 700,
+              "accepted": 191,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 700,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "G",
+          "sourceSeed": 16110069,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 714,
+          "flags": {
+            "dominated": 3413,
+            "equal": 344,
+            "accepted": 546,
+            "admitted": 63
+          },
+          "paidSHA256": "ce751c6f9bdb7a4f6decac65d5f08b74f624210fb9829f8e75cfa968a36637bf",
+          "scheduleSHA256": "584d7aaf5e722f8277d8134c5842e1724a06f133d8dd18ef227c6fad9f0d0356",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 68,
+              "accepted": 10,
+              "admitted": 1,
+              "equal": 13,
+              "dominated": 54,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 3052,
+              "accepted": 431,
+              "admitted": 62,
+              "equal": 331,
+              "dominated": 2659,
+              "fallback": 1
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 9,
+              "accepted": 3,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 9,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 691,
+              "accepted": 102,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 691,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "S",
+          "sourceSeed": 16110069,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 732,
+          "flags": {
+            "dominated": 3162,
+            "equal": 554,
+            "accepted": 767,
+            "admitted": 104
+          },
+          "paidSHA256": "b35c97d64c5f98fcef79e171604d20e0a5595437098d1c86af669a5181221771",
+          "scheduleSHA256": "584d7aaf5e722f8277d8134c5842e1724a06f133d8dd18ef227c6fad9f0d0356",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 3120,
+              "accepted": 617,
+              "admitted": 104,
+              "equal": 554,
+              "dominated": 2462,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 266,
+              "accepted": 65,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 266,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 434,
+              "accepted": 85,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 434,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "UNION",
+          "sourceSeed": 16110069,
+          "expectedFE": 3820,
+          "successfulFE": 3820,
+          "finalArchiveSize": 714,
+          "flags": {
+            "dominated": 3413,
+            "equal": 344,
+            "accepted": 542,
+            "admitted": 63
+          },
+          "paidSHA256": "8d084644ad0dcb229b2a79203972c8f89a19286138e109c3a8901e886a03f8b7",
+          "scheduleSHA256": "584d7aaf5e722f8277d8134c5842e1724a06f133d8dd18ef227c6fad9f0d0356",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 68,
+              "accepted": 10,
+              "admitted": 1,
+              "equal": 13,
+              "dominated": 54,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 3052,
+              "accepted": 431,
+              "admitted": 62,
+              "equal": 331,
+              "dominated": 2659,
+              "fallback": 1
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 9,
+              "accepted": 2,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 9,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 668,
+              "accepted": 97,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 668,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 23,
+              "accepted": 2,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 23,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        }
+      ],
+      "rawCaptureCounts": {
+        "fixed20/G": 928,
+        "fixed20/P": 20,
+        "fixed20/S": 72,
+        "free80/G": 4000,
+        "free80/P": 80
+      },
+      "uniqueExternalCounts": {
+        "fixed20/G": 925,
+        "fixed20/S": 30,
+        "free80/G": 3835
+      },
+      "initialModelsViewsAndProposalScheduleEqual": true,
+      "externalDeduplicationAndPaidAvailabilityVerified": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "sourceSeed": 16110003,
+      "capture": {
+        "passed": true,
+        "beforeGlobalFE": 273560,
+        "afterGlobalFE": 278560,
+        "receivers": 100,
+        "globalPaidCandidates": 5000,
+        "sharedPaidCandidates": 78,
+        "ordinaryPaidCandidates": 4922,
+        "backgroundPoints": 745,
+        "pointSource": "Already paid by the recorded fee; P uses upper-bound paidByFE, not earliest birth",
+        "readOnly": true,
+        "captureThreshold": 250000,
+        "loaded": {
+          "javaVersion": "17.0.21",
+          "javaHome": "/home/inspur/codex-workspace/projects/limingzhegaijin/runtime/jdk17",
+          "org.uma.jmetal.util.research.search.DonorCapture": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/DonorCapture.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "e035ef96d675aced9c81fac08148c4945e90e4e929ceb6412a8dbe50ff816754"
+          },
+          "org.uma.jmetal.util.research.search.CanonicalHmopso": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "f6950ecfc7389dcc4e0a869a2b922a8d335f08532beb04daebbb8312b70cb025"
+          }
+        }
+      },
+      "runs": [
+        {
+          "arm": "R",
+          "sourceSeed": 16110003,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 773,
+          "flags": {
+            "dominated": 18509,
+            "admitted": 814,
+            "accepted": 2181,
+            "equal": 537
+          },
+          "paidSHA256": "e1c1e50a885b01e9635194fda5b1d62fe3cf14c24ef463c303f2426dc38f0faa",
+          "scheduleSHA256": "9f5b6f654860f7cd73367e06e11d823142e544601fa67853e3095c4df506773d",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 15920,
+              "accepted": 1305,
+              "admitted": 762,
+              "equal": 393,
+              "dominated": 14765,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 3940,
+              "accepted": 876,
+              "admitted": 52,
+              "equal": 144,
+              "dominated": 3744,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "G",
+          "sourceSeed": 16110003,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 759,
+          "flags": {
+            "dominated": 18931,
+            "admitted": 648,
+            "equal": 281,
+            "accepted": 1429
+          },
+          "paidSHA256": "55e1311aa0ce441dfaf5807294dd22e6e6fcd5c899b9e21f890aa3dd0a2bbefd",
+          "scheduleSHA256": "9f5b6f654860f7cd73367e06e11d823142e544601fa67853e3095c4df506773d",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 296,
+              "accepted": 16,
+              "admitted": 8,
+              "equal": 5,
+              "dominated": 283,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 15624,
+              "accepted": 1016,
+              "admitted": 599,
+              "equal": 227,
+              "dominated": 14798,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 71,
+              "accepted": 14,
+              "admitted": 2,
+              "equal": 2,
+              "dominated": 67,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 3869,
+              "accepted": 383,
+              "admitted": 39,
+              "equal": 47,
+              "dominated": 3783,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "S",
+          "sourceSeed": 16110003,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 788,
+          "flags": {
+            "dominated": 18506,
+            "admitted": 836,
+            "accepted": 1979,
+            "equal": 518
+          },
+          "paidSHA256": "cc76c9beeebe7ec447efef48f324c5ca39347ce9e442040f557c2bca367b3891",
+          "scheduleSHA256": "9f5b6f654860f7cd73367e06e11d823142e544601fa67853e3095c4df506773d",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 15920,
+              "accepted": 1305,
+              "admitted": 762,
+              "equal": 393,
+              "dominated": 14765,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 1581,
+              "accepted": 310,
+              "admitted": 28,
+              "equal": 51,
+              "dominated": 1502,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 2359,
+              "accepted": 364,
+              "admitted": 46,
+              "equal": 74,
+              "dominated": 2239,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "UNION",
+          "sourceSeed": 16110003,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 761,
+          "flags": {
+            "dominated": 18938,
+            "admitted": 640,
+            "equal": 282,
+            "accepted": 1459
+          },
+          "paidSHA256": "448e0bae52daf129f6d8de091d2406b20803175c324fc7dab9a81156bab67e64",
+          "scheduleSHA256": "9f5b6f654860f7cd73367e06e11d823142e544601fa67853e3095c4df506773d",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 296,
+              "accepted": 16,
+              "admitted": 8,
+              "equal": 5,
+              "dominated": 283,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 15624,
+              "accepted": 1016,
+              "admitted": 599,
+              "equal": 227,
+              "dominated": 14798,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 75,
+              "accepted": 15,
+              "admitted": 1,
+              "equal": 4,
+              "dominated": 70,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 3769,
+              "accepted": 396,
+              "admitted": 30,
+              "equal": 46,
+              "dominated": 3693,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 96,
+              "accepted": 16,
+              "admitted": 2,
+              "equal": 0,
+              "dominated": 94,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        }
+      ],
+      "rawCaptureCounts": {
+        "fixed20/G": 922,
+        "fixed20/P": 20,
+        "fixed20/S": 78,
+        "free80/G": 4000,
+        "free80/P": 80
+      },
+      "uniqueExternalCounts": {
+        "fixed20/G": 922,
+        "fixed20/S": 24,
+        "free80/G": 3948
+      },
+      "initialModelsViewsAndProposalScheduleEqual": true,
+      "externalDeduplicationAndPaidAvailabilityVerified": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "sourceSeed": 16110037,
+      "capture": {
+        "passed": true,
+        "beforeGlobalFE": 273560,
+        "afterGlobalFE": 278560,
+        "receivers": 100,
+        "globalPaidCandidates": 5000,
+        "sharedPaidCandidates": 95,
+        "ordinaryPaidCandidates": 4905,
+        "backgroundPoints": 853,
+        "pointSource": "Already paid by the recorded fee; P uses upper-bound paidByFE, not earliest birth",
+        "readOnly": true,
+        "captureThreshold": 250000,
+        "loaded": {
+          "javaVersion": "17.0.21",
+          "javaHome": "/home/inspur/codex-workspace/projects/limingzhegaijin/runtime/jdk17",
+          "org.uma.jmetal.util.research.search.DonorCapture": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/DonorCapture.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "e035ef96d675aced9c81fac08148c4945e90e4e929ceb6412a8dbe50ff816754"
+          },
+          "org.uma.jmetal.util.research.search.CanonicalHmopso": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "f6950ecfc7389dcc4e0a869a2b922a8d335f08532beb04daebbb8312b70cb025"
+          }
+        }
+      },
+      "runs": [
+        {
+          "arm": "R",
+          "sourceSeed": 16110037,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 714,
+          "flags": {
+            "dominated": 18159,
+            "admitted": 1139,
+            "equal": 562,
+            "accepted": 2321
+          },
+          "paidSHA256": "d21b3c6c696d0d8ca95d8e3d540565f3ba7303bc37843bb5b73e58b5eb9b2aa8",
+          "scheduleSHA256": "3b3706124bb6784a558f1cdba0fbb093eef47cef9bc5f6d643a4746715714c07",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 15920,
+              "accepted": 1651,
+              "admitted": 1074,
+              "equal": 389,
+              "dominated": 14457,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 3940,
+              "accepted": 670,
+              "admitted": 65,
+              "equal": 173,
+              "dominated": 3702,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "G",
+          "sourceSeed": 16110037,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 757,
+          "flags": {
+            "dominated": 18708,
+            "admitted": 904,
+            "accepted": 1497,
+            "equal": 248
+          },
+          "paidSHA256": "68b202910a4e09c9b2be5f4b6b10616a1565d2ee7b5da92f2f1f8f13002c0c9d",
+          "scheduleSHA256": "3b3706124bb6784a558f1cdba0fbb093eef47cef9bc5f6d643a4746715714c07",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 321,
+              "accepted": 28,
+              "admitted": 21,
+              "equal": 3,
+              "dominated": 297,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 15599,
+              "accepted": 1134,
+              "admitted": 838,
+              "equal": 204,
+              "dominated": 14557,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 82,
+              "accepted": 20,
+              "admitted": 2,
+              "equal": 5,
+              "dominated": 75,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 3858,
+              "accepted": 315,
+              "admitted": 43,
+              "equal": 36,
+              "dominated": 3779,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "S",
+          "sourceSeed": 16110037,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 717,
+          "flags": {
+            "dominated": 18144,
+            "admitted": 1166,
+            "equal": 550,
+            "accepted": 2238
+          },
+          "paidSHA256": "c1a9e62537ef7d7957d1152df5692fa448bceeb5121655ed2c444eb3839b7a88",
+          "scheduleSHA256": "3b3706124bb6784a558f1cdba0fbb093eef47cef9bc5f6d643a4746715714c07",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 15920,
+              "accepted": 1651,
+              "admitted": 1074,
+              "equal": 389,
+              "dominated": 14457,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 1099,
+              "accepted": 185,
+              "admitted": 20,
+              "equal": 57,
+              "dominated": 1022,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 2841,
+              "accepted": 402,
+              "admitted": 72,
+              "equal": 104,
+              "dominated": 2665,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "UNION",
+          "sourceSeed": 16110037,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 757,
+          "flags": {
+            "dominated": 18671,
+            "admitted": 921,
+            "accepted": 1504,
+            "equal": 268
+          },
+          "paidSHA256": "bd63097933cac8500038241a2d1b59a6313eaa89beaba6e55ee43f734c57e0a8",
+          "scheduleSHA256": "3b3706124bb6784a558f1cdba0fbb093eef47cef9bc5f6d643a4746715714c07",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 321,
+              "accepted": 28,
+              "admitted": 21,
+              "equal": 3,
+              "dominated": 297,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 15599,
+              "accepted": 1134,
+              "admitted": 838,
+              "equal": 204,
+              "dominated": 14557,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 70,
+              "accepted": 11,
+              "admitted": 4,
+              "equal": 4,
+              "dominated": 62,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 3681,
+              "accepted": 299,
+              "admitted": 50,
+              "equal": 50,
+              "dominated": 3581,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 189,
+              "accepted": 32,
+              "admitted": 8,
+              "equal": 7,
+              "dominated": 174,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        }
+      ],
+      "rawCaptureCounts": {
+        "fixed20/G": 905,
+        "fixed20/P": 20,
+        "fixed20/S": 95,
+        "free80/G": 4000,
+        "free80/P": 80
+      },
+      "uniqueExternalCounts": {
+        "fixed20/G": 903,
+        "fixed20/S": 46,
+        "free80/G": 3936
+      },
+      "initialModelsViewsAndProposalScheduleEqual": true,
+      "externalDeduplicationAndPaidAvailabilityVerified": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "sourceSeed": 16110069,
+      "capture": {
+        "passed": true,
+        "beforeGlobalFE": 273560,
+        "afterGlobalFE": 278560,
+        "receivers": 100,
+        "globalPaidCandidates": 5000,
+        "sharedPaidCandidates": 69,
+        "ordinaryPaidCandidates": 4931,
+        "backgroundPoints": 765,
+        "pointSource": "Already paid by the recorded fee; P uses upper-bound paidByFE, not earliest birth",
+        "readOnly": true,
+        "captureThreshold": 250000,
+        "loaded": {
+          "javaVersion": "17.0.21",
+          "javaHome": "/home/inspur/codex-workspace/projects/limingzhegaijin/runtime/jdk17",
+          "org.uma.jmetal.util.research.search.DonorCapture": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/DonorCapture.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "e035ef96d675aced9c81fac08148c4945e90e4e929ceb6412a8dbe50ff816754"
+          },
+          "org.uma.jmetal.util.research.search.CanonicalHmopso": {
+            "resource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/org/uma/jmetal/util/research/search/CanonicalHmopso.class",
+            "codeSource": "file:/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/build-01/classes/",
+            "sha256": "f6950ecfc7389dcc4e0a869a2b922a8d335f08532beb04daebbb8312b70cb025"
+          }
+        }
+      },
+      "runs": [
+        {
+          "arm": "R",
+          "sourceSeed": 16110069,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 803,
+          "flags": {
+            "dominated": 18133,
+            "admitted": 978,
+            "accepted": 2202,
+            "equal": 749
+          },
+          "paidSHA256": "d8f19f1035c75dfab5044ca1fc00762d85551a447d0149401613ae2071c45279",
+          "scheduleSHA256": "eb7ea25257d7f6182167252a1a210e86e1d23d91bee0ad9ef8f40b07badeac5b",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 15920,
+              "accepted": 1443,
+              "admitted": 871,
+              "equal": 471,
+              "dominated": 14578,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 3940,
+              "accepted": 759,
+              "admitted": 107,
+              "equal": 278,
+              "dominated": 3555,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "G",
+          "sourceSeed": 16110069,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 818,
+          "flags": {
+            "dominated": 18660,
+            "admitted": 845,
+            "accepted": 1597,
+            "equal": 355
+          },
+          "paidSHA256": "a46d9464d3eb14b37e32dc21bf19533ab3d524806498e9698e0479e6bb648370",
+          "scheduleSHA256": "eb7ea25257d7f6182167252a1a210e86e1d23d91bee0ad9ef8f40b07badeac5b",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 302,
+              "accepted": 28,
+              "admitted": 17,
+              "equal": 8,
+              "dominated": 277,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 15618,
+              "accepted": 1163,
+              "admitted": 788,
+              "equal": 297,
+              "dominated": 14533,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 75,
+              "accepted": 8,
+              "admitted": 1,
+              "equal": 1,
+              "dominated": 73,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 3865,
+              "accepted": 398,
+              "admitted": 39,
+              "equal": 49,
+              "dominated": 3777,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "S",
+          "sourceSeed": 16110069,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 815,
+          "flags": {
+            "dominated": 18226,
+            "admitted": 966,
+            "accepted": 2125,
+            "equal": 668
+          },
+          "paidSHA256": "912786be89acc8795a4e18c7d01b9753f8dec2e8226ca7843f6ac8d5181a73c8",
+          "scheduleSHA256": "eb7ea25257d7f6182167252a1a210e86e1d23d91bee0ad9ef8f40b07badeac5b",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 15920,
+              "accepted": 1443,
+              "admitted": 871,
+              "equal": 471,
+              "dominated": 14578,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 1465,
+              "accepted": 260,
+              "admitted": 33,
+              "equal": 89,
+              "dominated": 1343,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 2475,
+              "accepted": 422,
+              "admitted": 62,
+              "equal": 108,
+              "dominated": 2305,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        },
+        {
+          "arm": "UNION",
+          "sourceSeed": 16110069,
+          "expectedFE": 19860,
+          "successfulFE": 19860,
+          "finalArchiveSize": 812,
+          "flags": {
+            "dominated": 18665,
+            "admitted": 848,
+            "accepted": 1616,
+            "equal": 347
+          },
+          "paidSHA256": "2808fb5b8cf647e127528e6ad1bef94a4d6b0523f25eb9eb5ad7dec72d285f21",
+          "scheduleSHA256": "eb7ea25257d7f6182167252a1a210e86e1d23d91bee0ad9ef8f40b07badeac5b",
+          "byReceiverDomainAndSource": {
+            "free80/R": {
+              "proposals": 302,
+              "accepted": 28,
+              "admitted": 17,
+              "equal": 8,
+              "dominated": 277,
+              "fallback": 0
+            },
+            "free80/G": {
+              "proposals": 15618,
+              "accepted": 1163,
+              "admitted": 788,
+              "equal": 297,
+              "dominated": 14533,
+              "fallback": 0
+            },
+            "free80/S": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "free80/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            },
+            "fixed20/R": {
+              "proposals": 74,
+              "accepted": 6,
+              "admitted": 0,
+              "equal": 1,
+              "dominated": 73,
+              "fallback": 0
+            },
+            "fixed20/G": {
+              "proposals": 3749,
+              "accepted": 394,
+              "admitted": 42,
+              "equal": 39,
+              "dominated": 3668,
+              "fallback": 0
+            },
+            "fixed20/S": {
+              "proposals": 117,
+              "accepted": 25,
+              "admitted": 1,
+              "equal": 2,
+              "dominated": 114,
+              "fallback": 0
+            },
+            "fixed20/GS": {
+              "proposals": 0,
+              "accepted": 0,
+              "admitted": 0,
+              "equal": 0,
+              "dominated": 0,
+              "fallback": 0
+            }
+          },
+          "completeCausalReplay": true,
+          "poolAndDrawIndependentlyReconstructed": true,
+          "physicalObjectivesIndependentlyDecoded": false
+        }
+      ],
+      "rawCaptureCounts": {
+        "fixed20/G": 931,
+        "fixed20/P": 20,
+        "fixed20/S": 69,
+        "free80/G": 4000,
+        "free80/P": 80
+      },
+      "uniqueExternalCounts": {
+        "fixed20/G": 931,
+        "fixed20/S": 29,
+        "free80/G": 3927
+      },
+      "initialModelsViewsAndProposalScheduleEqual": true,
+      "externalDeduplicationAndPaidAvailabilityVerified": true
+    }
+  ],
+  "metricChecks": [
+    {
+      "instance": "20_8_5_1",
+      "referenceSize": 966,
+      "endpoints": [
+        {
+          "seed": 16110003,
+          "arm": "COMMON",
+          "endpoint": "A0",
+          "absoluteHVErrors": {
+            "1.5": 4.440892098500626e-16,
+            "1.25": 2.220446049250313e-16,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "R",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 5.551115123125783e-16,
+            "1.25": 1.6653345369377348e-16,
+            "2.0": 2.220446049250313e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "R",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 1.1102230246251565e-16,
+            "1.25": 0.0,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "G",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 7.771561172376096e-16,
+            "1.25": 1.942890293094024e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "G",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 2.7755575615628914e-17,
+            "2.0": 0.0
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "S",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 5.551115123125783e-16,
+            "1.25": 1.6653345369377348e-16,
+            "2.0": 2.220446049250313e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "S",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 2.7755575615628914e-17,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "UNION",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 7.771561172376096e-16,
+            "1.25": 1.942890293094024e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "UNION",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 2.7755575615628914e-17,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "COMMON",
+          "endpoint": "A0",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 1.6653345369377348e-16,
+            "2.0": 2.6645352591003757e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "R",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 7.771561172376096e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "R",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 0.0,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "G",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 2.7755575615628914e-17,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "G",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 1.1102230246251565e-16,
+            "1.25": 0.0,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "S",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 7.771561172376096e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "S",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 0.0,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "UNION",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 2.7755575615628914e-17,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "UNION",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 1.1102230246251565e-16,
+            "1.25": 0.0,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "COMMON",
+          "endpoint": "A0",
+          "absoluteHVErrors": {
+            "1.5": 1.1102230246251565e-16,
+            "1.25": 1.942890293094024e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "R",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 3.9968028886505635e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "R",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 8.326672684688674e-17,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "G",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 3.552713678800501e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "G",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 0.0,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "S",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 3.9968028886505635e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "S",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 8.326672684688674e-17,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "UNION",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 3.552713678800501e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "UNION",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 0.0,
+            "2.0": 4.440892098500626e-16
+          }
+        }
+      ],
+      "acceptedPythonHVDifferentAxisOrder": [
+        2,
+        0,
+        1
+      ],
+      "allEndpointHVsVerified": true,
+      "analysisReportVerified": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "referenceSize": 1108,
+      "endpoints": [
+        {
+          "seed": 16110003,
+          "arm": "COMMON",
+          "endpoint": "A0",
+          "absoluteHVErrors": {
+            "1.5": 7.771561172376096e-16,
+            "1.25": 2.7755575615628914e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "R",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 1.7763568394002505e-15,
+            "1.25": 3.885780586188048e-16,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "R",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 1.1102230246251565e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "G",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 5.551115123125783e-16,
+            "1.25": 7.771561172376096e-16,
+            "2.0": 8.43769498715119e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "G",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 0.0
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "S",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 1.7763568394002505e-15,
+            "1.25": 3.3306690738754696e-16,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "S",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "UNION",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 6.661338147750939e-16,
+            "1.25": 7.771561172376096e-16,
+            "2.0": 5.773159728050814e-15
+          }
+        },
+        {
+          "seed": 16110003,
+          "arm": "UNION",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "COMMON",
+          "endpoint": "A0",
+          "absoluteHVErrors": {
+            "1.5": 1.5543122344752192e-15,
+            "1.25": 2.220446049250313e-16,
+            "2.0": 0.0
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "R",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "R",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "G",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 9.992007221626409e-16,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 4.440892098500626e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "G",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 1.6653345369377348e-16,
+            "2.0": 1.7763568394002505e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "S",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "S",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 0.0,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "UNION",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 9.992007221626409e-16,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 4.440892098500626e-15
+          }
+        },
+        {
+          "seed": 16110037,
+          "arm": "UNION",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "COMMON",
+          "endpoint": "A0",
+          "absoluteHVErrors": {
+            "1.5": 1.2212453270876722e-15,
+            "1.25": 4.996003610813204e-16,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "R",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 1.1102230246251565e-16,
+            "1.25": 3.3306690738754696e-16,
+            "2.0": 9.769962616701378e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "R",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 2.220446049250313e-16,
+            "1.25": 1.6653345369377348e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "G",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 8.881784197001252e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "G",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 4.440892098500626e-16,
+            "1.25": 5.551115123125783e-17,
+            "2.0": 1.3322676295501878e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "S",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 6.661338147750939e-16,
+            "1.25": 2.7755575615628914e-16,
+            "2.0": 8.881784197001252e-15
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "S",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 1.6653345369377348e-16,
+            "2.0": 4.440892098500626e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "UNION",
+          "endpoint": "finalArchive",
+          "absoluteHVErrors": {
+            "1.5": 1.2212453270876722e-15,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        },
+        {
+          "seed": 16110069,
+          "arm": "UNION",
+          "endpoint": "workingPopulation",
+          "absoluteHVErrors": {
+            "1.5": 3.3306690738754696e-16,
+            "1.25": 1.1102230246251565e-16,
+            "2.0": 8.881784197001252e-16
+          }
+        }
+      ],
+      "acceptedPythonHVDifferentAxisOrder": [
+        2,
+        0,
+        1
+      ],
+      "allEndpointHVsVerified": true,
+      "analysisReportVerified": true
+    }
+  ],
+  "successfulProbeFE": 284160,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "analysisPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/report/analyze-20261106T080443.357319Z-219133/analysis.json",
+  "exactAcceptanceArchiveStateAndCausalDonorReplayVerified": true,
+  "allPoolsAndRandomDrawsIndependentlyReconstructed": true,
+  "physicalObjectivesIndependentlyDecoded": false,
+  "limitations": [
+    "No independent physical objective decoder was run; Java per-child physics QA is separate evidence",
+    "Frozen model equality and valid full FOS are checked; model learning itself is not independently retrained",
+    "Mature complete capture and all paid availability are checked; first eligible PRE_GLOBAL and observer equivalence require controller/source evidence",
+    "An empirical final union is offline only; n=3 is descriptive and no EAF or equal-time advantage is claimed"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "host": "inspur-NP5570M5",
+  "user": "inspur",
+  "load": [
+    0.28,
+    0.2,
+    0.19
+  ],
+  "capturedEpoch": 1794025511.9802425,
+  "processes": [
+    "    PID USER      NI %CPU %MEM COMMAND",
+    "   2757 whoopsie   0  7.8  0.0 /usr/bin/whoopsie -f",
+    "   1187 root       0  3.0  0.0 /usr/lib/policykit-1/polkitd --no-debug",
+    "1196107 inspur     0  2.8  0.0 sshd: inspur@notty",
+    "1196108 inspur     0  2.4  0.0 python3 -u -c \"\"\"Receive and return one new random file through the existing direct SSH path.\"\"\" from datetime import datetime, timezone import hashlib import json import os from pathlib import Path import socket import sys import time  SIZE = 32 * 1024 * 1024 ROOT = Path('/home/inspur/aic_video_work/network_verification/ssh_speed_20261107_v1')   def send(value):     print(json.dumps(value), flush=True)   def main():     assert socket.gethostname() == 'inspur-NP5570M5'     assert os.stat(ROOT.parent.parent).st_dev != os.stat('/').st_dev     os.umask(0o077)     ROOT.mkdir(exist_ok=False)     target = ROOT / 'probe32.bin'     send({'stage': 'READY', 'host': socket.gethostname(), 'bytes': SIZE})     digest = hashlib.sha256()     started = time.monotonic()     remaining = SIZE     with target.open('xb') as out:         while remaining:             chunk = sys.stdin.buffer.read(min(1024 * 1024, remaining))             if not chunk:                 raise EOFError('Upload ended before the registered random payload')             out.write(chunk)             digest.update(chunk)             remaining -= len(chunk)         out.flush()         os.fsync(out.fileno())     upload = {'stage': 'UPLOADED', 'bytes': SIZE, 'sha256': digest.hexdigest(),               'receive_and_disk_flush_seconds': time.monotonic() - started}     send(upload)     assert sys.stdin.buffer.read(1) == b'D'     started = time.monotonic()     with target.open('rb') as stream:         for chunk in iter(lambda: stream.read(1024 * 1024), b''):             sys.stdout.buffer.write(chunk)     sys.stdout.buffer.flush()     download = {'stage': 'RETURNED', 'bytes': SIZE,                 'send_seconds': time.monotonic() - started}     send(download)     assert sys.stdin.buffer.read(1) == b'C'     assert target.parent.resolve() == ROOT.resolve() and not target.is_symlink()     target.unlink()     result = {'status': 'ROUNDTRIP_COMPLETE_PAYLOAD_CLEANED',               'utc': datetime.now(timezone.utc).isoformat(),               'upload': upload, 'download': download,               'temporary_payload_exists': target.exists(),               'configuration_or_service_changed': False}     with (ROOT / 'receipt.json').open('x') as out:         json.dump(result, out, indent=2)     send(result)   if __name__ == '__main__':     main() ",
+    "1196196 root       0  2.0  0.0 sshd: inspur [priv]",
+    "   2753 root       0  1.9  0.0 /opt/todesk/bin/ToDesk_Service",
+    "   1164 message+   0  1.0  0.0 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+    "   3775 systemd+   0  0.9  0.0 mongod --keyFile /data/mongodb.key --replSet rs0 --auth --bind_ip_all",
+    "   1166 root       0  0.7  0.0 /usr/sbin/NetworkManager --no-daemon",
+    "   1623 inspur     0  0.6  0.0 /home/inspur/codex-network-test-20261013/easytier-core -c /home/inspur/codex-network-test-20261013/direct-test.toml --rpc-portal 127.0.0.1:15889 --console-log-level warn",
+    "      1 root       0  0.5  0.0 /sbin/init splash",
+    "   6067 inspur     0  0.5  0.1 /opt/todesk/bin/ToDesk",
+    "1196252 root       0  0.5  0.0 sshd: [accepted]",
+    "   5685 inspur     0  0.4  0.3 /usr/bin/gnome-shell",
+    "   2469 gdm        0  0.3  0.2 /usr/bin/gnome-shell"
+  ]
+}

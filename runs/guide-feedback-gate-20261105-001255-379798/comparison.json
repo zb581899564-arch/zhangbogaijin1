@@ -1,0 +1,290 @@
+[
+  {
+    "stem": "20_8_5_1",
+    "metrics": {
+      "GEN": {
+        "HV": {
+          "1.25": 0.16322399407049432,
+          "1.5": 0.5333118354092735,
+          "2": 2.3171194183583683
+        },
+        "IGDplus": 0.01056212109435037,
+        "timeHV": 0.4994310767468198,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      },
+      "BATCH": {
+        "HV": {
+          "1.25": 0.158122232253108,
+          "1.5": 0.5218202490309408,
+          "2": 2.2862730918600462
+        },
+        "IGDplus": 0.017122160857099156,
+        "timeHV": 0.5000070270898556,
+        "guide": {
+          "mode": "BATCH",
+          "trace": false,
+          "offerCount": 10000,
+          "refreshSeconds": 0.0044195,
+          "selections": []
+        }
+      },
+      "ROLE_END": {
+        "HV": {
+          "1.25": 0.15843023159897335,
+          "1.5": 0.5226868173177133,
+          "2": 2.289153892791992
+        },
+        "IGDplus": 0.010413667365880688,
+        "timeHV": 0.5031056576830071,
+        "guide": {
+          "mode": "ROLE_END",
+          "trace": false,
+          "offerCount": 732,
+          "refreshSeconds": 0.0015043,
+          "selections": []
+        }
+      },
+      "BATCH_SYNC": {
+        "HV": {
+          "1.25": 0.16104702649384897,
+          "1.5": 0.5281431918126215,
+          "2": 2.3028980306444415
+        },
+        "IGDplus": 0.011808016661338372,
+        "timeHV": 0.4962018794565185,
+        "guide": {
+          "mode": "BATCH",
+          "trace": false,
+          "offerCount": 10000,
+          "refreshSeconds": 0.0038955,
+          "selections": []
+        }
+      },
+      "BATCH_UNIFORM": {
+        "HV": {
+          "1.25": 0.15085759315243114,
+          "1.5": 0.5047428150022817,
+          "2": 2.2384449052374578
+        },
+        "IGDplus": 0.010940342616081086,
+        "timeHV": 0.4985033894548613,
+        "guide": {
+          "mode": "BATCH",
+          "trace": false,
+          "offerCount": 10000,
+          "refreshSeconds": 0.0047172,
+          "selections": []
+        }
+      },
+      "FORCE": {
+        "HV": {
+          "1.25": 0.15860072646181556,
+          "1.5": 0.5237899889658664,
+          "2": 2.2939820763975205
+        },
+        "IGDplus": 0.012619141471196043,
+        "timeHV": 0.4907581525223267,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.1723294070090732,
+          "1.5": 0.5534829858881848,
+          "2": 2.3717930970634025
+        },
+        "IGDplus": 0.0007413739167828408,
+        "timeHV": 0.5255794020256649,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.15710588778697473,
+          "1.5": 0.5193941820642474,
+          "2": 2.2795416534565773
+        },
+        "IGDplus": 0.022396936069626196,
+        "timeHV": 0.4923139653898167,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      }
+    },
+    "batchEffectsPct": {
+      "GEN": -2.154759301284559,
+      "ROLE_END": -0.16579111201224794,
+      "BATCH_SYNC": -1.1972023647564,
+      "BATCH_UNIFORM": 3.3833931897736758,
+      "FORCE": -0.37605528483171113,
+      "NSGA": -5.720634177477768,
+      "LI_MATCHED_DEEP": 0.46709552214301286
+    },
+    "referenceDirectionStable": false,
+    "eligible": false
+  },
+  {
+    "stem": "100_2_3_1",
+    "metrics": {
+      "GEN": {
+        "HV": {
+          "1.25": 0.28413971280992917,
+          "1.5": 0.7804474993910168,
+          "2": 2.9435662971754684
+        },
+        "IGDplus": 0.010748940611123735,
+        "timeHV": 0.718115767070383,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      },
+      "BATCH": {
+        "HV": {
+          "1.25": 0.28438019669051834,
+          "1.5": 0.7786381254936838,
+          "2": 2.932894272146175
+        },
+        "IGDplus": 0.010710835356057859,
+        "timeHV": 0.698209818992417,
+        "guide": {
+          "mode": "BATCH",
+          "trace": false,
+          "offerCount": 10000,
+          "refreshSeconds": 0.0053957,
+          "selections": []
+        }
+      },
+      "ROLE_END": {
+        "HV": {
+          "1.25": 0.2888651904358406,
+          "1.5": 0.7885968109472036,
+          "2": 2.9605702196423787
+        },
+        "IGDplus": 0.008340079638274885,
+        "timeHV": 0.707385902274564,
+        "guide": {
+          "mode": "ROLE_END",
+          "trace": false,
+          "offerCount": 661,
+          "refreshSeconds": 0.0047821,
+          "selections": []
+        }
+      },
+      "BATCH_SYNC": {
+        "HV": {
+          "1.25": 0.2839521344110243,
+          "1.5": 0.7771123521911807,
+          "2": 2.927864022574314
+        },
+        "IGDplus": 0.011790471177359811,
+        "timeHV": 0.714942250565574,
+        "guide": {
+          "mode": "BATCH",
+          "trace": false,
+          "offerCount": 10000,
+          "refreshSeconds": 0.0052964,
+          "selections": []
+        }
+      },
+      "BATCH_UNIFORM": {
+        "HV": {
+          "1.25": 0.2591327959868424,
+          "1.5": 0.7244128838354512,
+          "2": 2.788622142047563
+        },
+        "IGDplus": 0.01346330964264895,
+        "timeHV": 0.6903443780253976,
+        "guide": {
+          "mode": "BATCH",
+          "trace": false,
+          "offerCount": 10000,
+          "refreshSeconds": 0.0047393,
+          "selections": []
+        }
+      },
+      "FORCE": {
+        "HV": {
+          "1.25": 0.2854683355476695,
+          "1.5": 0.7792184490218548,
+          "2": 2.930742956652332
+        },
+        "IGDplus": 0.013222941640348713,
+        "timeHV": 0.6890323311862312,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      },
+      "NSGA": {
+        "HV": {
+          "1.25": 0.287989564982804,
+          "1.5": 0.7858001594278076,
+          "2": 2.95137644073215
+        },
+        "IGDplus": 0.009056227462215613,
+        "timeHV": 0.6776902076314869,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      },
+      "LI_MATCHED_DEEP": {
+        "HV": {
+          "1.25": 0.2799049132608755,
+          "1.5": 0.7650339924558353,
+          "2": 2.8881495186520887
+        },
+        "IGDplus": 0.017188760462779135,
+        "timeHV": 0.668766312011505,
+        "guide": {
+          "mode": "GEN",
+          "trace": false,
+          "offerCount": 0,
+          "refreshSeconds": 0.0,
+          "selections": []
+        }
+      }
+    },
+    "batchEffectsPct": {
+      "GEN": -0.23183800303605562,
+      "ROLE_END": -1.262836130615097,
+      "BATCH_SYNC": 0.19633883031211496,
+      "BATCH_UNIFORM": 7.485405473620732,
+      "FORCE": -0.07447507549384058,
+      "NSGA": -0.9114319777357771,
+      "LI_MATCHED_DEEP": 1.7782390288538563
+    },
+    "referenceDirectionStable": false,
+    "eligible": false
+  }
+]

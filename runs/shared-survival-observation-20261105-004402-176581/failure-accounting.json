@@ -1,0 +1,8 @@
+{
+  "successfulReplayFE": 5100,
+  "attemptedReplayFE": 5100,
+  "failedEvaluationFE": 0,
+  "newPerformanceFE": 0,
+  "evidence": "runs\\shared-survival-observation-20261105-004402-176581\\20_8_5_1\\9940003\\SHARE_PAIR_OFF\\failure.jsonl",
+  "cause": "Shadow SearchState source was selected from the nightly source rather than the class actually resolved from batch-survival-study; LocalSearch requires ledgerGroup. Fix uses the source paired with that loaded class. Original trajectory/configuration unchanged."
+}

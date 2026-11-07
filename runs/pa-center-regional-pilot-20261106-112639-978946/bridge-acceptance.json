@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "arm": "PA_JOINT",
+      "fullTwoGenerationHeavyLightSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "REGIONAL",
+      "fullTwoGenerationHeavyLightSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NO_SPECIALIST",
+      "fullTwoGenerationHeavyLightSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "PA_EQUAL",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA2_DEEP",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "NSGA_CTX_GOM",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "FULL_SHARED_DEEP",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "LI_RECON_DEEP",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "MOEAD_4V",
+      "independentlySourcedAdaptersWholePaidSHAInitialsFrontAndCutsEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "PA_JOINT",
+      "fullTwoGenerationHeavyLightSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "REGIONAL",
+      "fullTwoGenerationHeavyLightSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NO_SPECIALIST",
+      "fullTwoGenerationHeavyLightSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "PA_EQUAL",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA2_DEEP",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "NSGA_CTX_GOM",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "FULL_SHARED_DEEP",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "LI_RECON_DEEP",
+      "frozenControlWholePaidSHAAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "MOEAD_4V",
+      "independentlySourcedAdaptersWholePaidSHAInitialsFrontAndCutsEqual": true
+    }
+  ],
+  "runs": 46,
+  "successfulFE": 266664,
+  "attemptedFE": 266664,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 3903
+}

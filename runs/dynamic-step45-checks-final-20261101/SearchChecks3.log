@@ -1,0 +1,4 @@
+PASS Bellman alpha/bootstrap, isolated Q tables, group reward/state, strict PDDR-FF
+PASS 100 forced crossover/mutation updates + all nine neighborhoods; parents immutable and schedules valid
+PASS all four directions, global/inter/intra, nine neighborhoods and chapter-specific Q path; FE=800
+SEARCH_CHECKS_PASS chapter=3 (engineering/contract evidence only; no performance comparison)

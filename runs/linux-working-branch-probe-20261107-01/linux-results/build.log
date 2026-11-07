@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-working-branch-probe-20261107-01/code/execute.py", line 48, in <module>
+    args=p.parse_args();linux();globals()[args.phase](args.root)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-working-branch-probe-20261107-01/code/execute.py", line 9, in build
+    execute([str(BASE/'runtime/jdk17/bin/javac'),'-encoding','UTF-8','--release','8','-implicit:none',
+  File "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/source/scripts/common.py", line 54, in execute
+    assert result.returncode == 0, 'Failure retained, no automatic retry: ' + str(folder)
+           ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Failure retained, no automatic retry: /home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-working-branch-probe-20261107-01/build/compile

@@ -1,0 +1,618 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "empiricalAxisCuts": {
+        "0": [
+          0.0,
+          0.3966100204601471,
+          0.43399189187251946,
+          0.5014460087495944,
+          1.5
+        ],
+        "1": [
+          0.0,
+          0.7882859635484067,
+          0.8135909206931423,
+          0.8458181938784656,
+          1.5
+        ],
+        "2": [
+          0.0,
+          0.922522881331773,
+          0.9274110814996859,
+          0.9396876869851667,
+          1.5
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 12450003,
+          "mainHV": 0.4737573182542929,
+          "nsgaHV": 0.48322865292832246,
+          "jointHV": 0.4853749610014903,
+          "mainMissingNsgaVolume": 0.011617642747197399,
+          "nsgaMissingMainVolume": 0.0021463080731678463,
+          "mainMissingNsgaPctOfMainHV": 2.452234994491745,
+          "nsgaMissingMainPctOfNsgaHV": 0.44415993550080507,
+          "mainWeakCoverageOfNsgaPoints": 0.23214285714285715,
+          "nsgaWeakCoverageOfMainPoints": 0.6626506024096386,
+          "mainMinimum": [
+            0.3683721135701734,
+            0.7779408619231863,
+            0.9162127652317599
+          ],
+          "nsgaMinimum": [
+            0.3601282540231684,
+            0.7649930864156016,
+            0.918935499006997
+          ],
+          "axisPartitions": [
+            {
+              "axis": 0,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.3966100204601471,
+                  "mainHV": 0.011105152172350249,
+                  "nsgaHV": 0.014323757372315905,
+                  "signedNsgaMinusMain": 0.0032186051999656563
+                },
+                {
+                  "lower": 0.3966100204601471,
+                  "upper": 0.43399189187251946,
+                  "mainHV": 0.015193236063357925,
+                  "nsgaHV": 0.015555537298782325,
+                  "signedNsgaMinusMain": 0.00036230123542439936
+                },
+                {
+                  "lower": 0.43399189187251946,
+                  "upper": 0.5014460087495944,
+                  "mainHV": 0.027847469891170297,
+                  "nsgaHV": 0.028305182541051226,
+                  "signedNsgaMinusMain": 0.00045771264988092933
+                },
+                {
+                  "lower": 0.5014460087495944,
+                  "upper": 1.5,
+                  "mainHV": 0.41961146012741446,
+                  "nsgaHV": 0.425044175716173,
+                  "signedNsgaMinusMain": 0.005432715588758519
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": 0.33982593908238595
+            },
+            {
+              "axis": 1,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.7882859635484067,
+                  "mainHV": 0.006243824577960664,
+                  "nsgaHV": 0.014435966453020565,
+                  "signedNsgaMinusMain": 0.008192141875059901
+                },
+                {
+                  "lower": 0.7882859635484067,
+                  "upper": 0.8135909206931423,
+                  "mainHV": 0.016088250516502763,
+                  "nsgaHV": 0.01616797762985526,
+                  "signedNsgaMinusMain": 7.972711335249572e-05
+                },
+                {
+                  "lower": 0.8135909206931423,
+                  "upper": 0.8458181938784656,
+                  "mainHV": 0.021030974610070866,
+                  "nsgaHV": 0.02097149352291312,
+                  "signedNsgaMinusMain": -5.9481087157746415e-05
+                },
+                {
+                  "lower": 0.8458181938784656,
+                  "upper": 1.5,
+                  "mainHV": 0.4303942685497586,
+                  "nsgaHV": 0.43165321532253353,
+                  "signedNsgaMinusMain": 0.0012589467727749382
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": 0.8649405978148778
+            },
+            {
+              "axis": 2,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.922522881331773,
+                  "mainHV": 0.0038768864163762646,
+                  "nsgaHV": 0.00224516034213991,
+                  "signedNsgaMinusMain": -0.0016317260742363545
+                },
+                {
+                  "lower": 0.922522881331773,
+                  "upper": 0.9274110814996859,
+                  "mainHV": 0.003404061560451011,
+                  "nsgaHV": 0.0031487677354213694,
+                  "signedNsgaMinusMain": -0.0002552938250296416
+                },
+                {
+                  "lower": 0.9274110814996859,
+                  "upper": 0.9396876869851667,
+                  "mainHV": 0.009175987326151665,
+                  "nsgaHV": 0.009297378016164983,
+                  "signedNsgaMinusMain": 0.00012139069001331805
+                },
+                {
+                  "lower": 0.9396876869851667,
+                  "upper": 1.5,
+                  "mainHV": 0.457300382951314,
+                  "nsgaHV": 0.4685373468345962,
+                  "signedNsgaMinusMain": 0.011236963883282214
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": -0.17228047898154794
+            }
+          ]
+        },
+        {
+          "seed": 12450033,
+          "mainHV": 0.4836051565860944,
+          "nsgaHV": 0.4879559646145226,
+          "jointHV": 0.48803894869248726,
+          "mainMissingNsgaVolume": 0.0044337921063928865,
+          "nsgaMissingMainVolume": 8.298407796464291e-05,
+          "mainMissingNsgaPctOfMainHV": 0.9168206843972218,
+          "nsgaMissingMainPctOfNsgaHV": 0.01700646861242879,
+          "mainWeakCoverageOfNsgaPoints": 0.0,
+          "nsgaWeakCoverageOfMainPoints": 0.8709677419354839,
+          "mainMinimum": [
+            0.358205867750393,
+            0.770004871152246,
+            0.9137901978272325
+          ],
+          "nsgaMinimum": [
+            0.3576856323192148,
+            0.7675360465084204,
+            0.9123633028033774
+          ],
+          "axisPartitions": [
+            {
+              "axis": 0,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.3966100204601471,
+                  "mainHV": 0.015271543571132118,
+                  "nsgaHV": 0.015715701725166443,
+                  "signedNsgaMinusMain": 0.0004441581540343253
+                },
+                {
+                  "lower": 0.3966100204601471,
+                  "upper": 0.43399189187251946,
+                  "mainHV": 0.015268754993382367,
+                  "nsgaHV": 0.015609320547059453,
+                  "signedNsgaMinusMain": 0.0003405655536770861
+                },
+                {
+                  "lower": 0.43399189187251946,
+                  "upper": 0.5014460087495944,
+                  "mainHV": 0.02803693582827741,
+                  "nsgaHV": 0.028450876068074928,
+                  "signedNsgaMinusMain": 0.0004139402397975167
+                },
+                {
+                  "lower": 0.5014460087495944,
+                  "upper": 1.5,
+                  "mainHV": 0.4250279221933025,
+                  "nsgaHV": 0.4281800662742218,
+                  "signedNsgaMinusMain": 0.0031521440809192947
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": 0.10208635985136309
+            },
+            {
+              "axis": 1,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.7882859635484067,
+                  "mainHV": 0.010795107569509828,
+                  "nsgaHV": 0.013013887511300152,
+                  "signedNsgaMinusMain": 0.0022187799417903234
+                },
+                {
+                  "lower": 0.7882859635484067,
+                  "upper": 0.8135909206931423,
+                  "mainHV": 0.016231591338884126,
+                  "nsgaHV": 0.016443431437692294,
+                  "signedNsgaMinusMain": 0.00021184009880816784
+                },
+                {
+                  "lower": 0.8135909206931423,
+                  "upper": 0.8458181938784656,
+                  "mainHV": 0.02116632828444799,
+                  "nsgaHV": 0.02128501456218364,
+                  "signedNsgaMinusMain": 0.00011868627773565024
+                },
+                {
+                  "lower": 0.8458181938784656,
+                  "upper": 1.5,
+                  "mainHV": 0.4354121293932524,
+                  "nsgaHV": 0.43721363110334655,
+                  "signedNsgaMinusMain": 0.0018015017100941333
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": 0.5099696257092435
+            },
+            {
+              "axis": 2,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.922522881331773,
+                  "mainHV": 0.005127024217741383,
+                  "nsgaHV": 0.0063927809606868806,
+                  "signedNsgaMinusMain": 0.0012657567429454975
+                },
+                {
+                  "lower": 0.922522881331773,
+                  "upper": 0.9274110814996859,
+                  "mainHV": 0.0033447308711066995,
+                  "nsgaHV": 0.0035077126521346385,
+                  "signedNsgaMinusMain": 0.00016298178102793891
+                },
+                {
+                  "lower": 0.9274110814996859,
+                  "upper": 0.9396876869851667,
+                  "mainHV": 0.009176046141851593,
+                  "nsgaHV": 0.009617610907380222,
+                  "signedNsgaMinusMain": 0.00044156476552862853
+                },
+                {
+                  "lower": 0.9396876869851667,
+                  "upper": 1.5,
+                  "mainHV": 0.4659573553553947,
+                  "nsgaHV": 0.46843786009432087,
+                  "signedNsgaMinusMain": 0.0024805047389261925
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": 0.29092452130156615
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "100_2_3_1",
+      "empiricalAxisCuts": {
+        "0": [
+          0.0,
+          0.3655242887907219,
+          0.40630159885096423,
+          0.44897108734544383,
+          1.5
+        ],
+        "1": [
+          0.0,
+          0.7026333670398853,
+          0.7232699721678382,
+          0.7455088193253243,
+          1.5
+        ],
+        "2": [
+          0.0,
+          0.9259353134334761,
+          0.9595058263054435,
+          0.9765923804876274,
+          1.5
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 12450003,
+          "mainHV": 0.5798330873740126,
+          "nsgaHV": 0.5300178777462718,
+          "jointHV": 0.5799621798803626,
+          "mainMissingNsgaVolume": 0.00012909250634995928,
+          "nsgaMissingMainVolume": 0.049944302134090734,
+          "mainMissingNsgaPctOfMainHV": 0.022263735747575595,
+          "nsgaMissingMainPctOfNsgaHV": 9.423135375444803,
+          "mainWeakCoverageOfNsgaPoints": 0.6790123456790124,
+          "nsgaWeakCoverageOfMainPoints": 0.022727272727272728,
+          "mainMinimum": [
+            0.3011820861694578,
+            0.6806271485726281,
+            0.8954973092684352
+          ],
+          "nsgaMinimum": [
+            0.3266353132716312,
+            0.724092472414458,
+            0.9128811051685681
+          ],
+          "axisPartitions": [
+            {
+              "axis": 0,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.3655242887907219,
+                  "mainHV": 0.02583417860263273,
+                  "nsgaHV": 0.01530716732725154,
+                  "signedNsgaMinusMain": -0.010527011275381191
+                },
+                {
+                  "lower": 0.3655242887907219,
+                  "upper": 0.40630159885096423,
+                  "mainHV": 0.01848233170711502,
+                  "nsgaHV": 0.01768756716180426,
+                  "signedNsgaMinusMain": -0.0007947645453107617
+                },
+                {
+                  "lower": 0.40630159885096423,
+                  "upper": 0.44897108734544383,
+                  "mainHV": 0.019872622057277432,
+                  "nsgaHV": 0.019060603298580753,
+                  "signedNsgaMinusMain": -0.0008120187586966796
+                },
+                {
+                  "lower": 0.44897108734544383,
+                  "upper": 1.5,
+                  "mainHV": 0.5156439550069875,
+                  "nsgaHV": 0.4779625399586353,
+                  "signedNsgaMinusMain": -0.03768141504835215
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": null
+            },
+            {
+              "axis": 1,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.7026333670398853,
+                  "mainHV": 0.012468910176216166,
+                  "nsgaHV": 0.0,
+                  "signedNsgaMinusMain": -0.012468910176216166
+                },
+                {
+                  "lower": 0.7026333670398853,
+                  "upper": 0.7232699721678382,
+                  "mainHV": 0.012928281432297746,
+                  "nsgaHV": 0.0,
+                  "signedNsgaMinusMain": -0.012928281432297746
+                },
+                {
+                  "lower": 0.7232699721678382,
+                  "upper": 0.7455088193253243,
+                  "mainHV": 0.0146590603081335,
+                  "nsgaHV": 0.013756315800833608,
+                  "signedNsgaMinusMain": -0.0009027445072998918
+                },
+                {
+                  "lower": 0.7455088193253243,
+                  "upper": 1.5,
+                  "mainHV": 0.5397768354573652,
+                  "nsgaHV": 0.5162615619454383,
+                  "signedNsgaMinusMain": -0.02351527351192695
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": null
+            },
+            {
+              "axis": 2,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.9259353134334761,
+                  "mainHV": 0.02327196940530938,
+                  "nsgaHV": 0.010097637308275686,
+                  "signedNsgaMinusMain": -0.013174332097033694
+                },
+                {
+                  "lower": 0.9259353134334761,
+                  "upper": 0.9595058263054435,
+                  "mainHV": 0.029779667383937093,
+                  "nsgaHV": 0.028951821131901447,
+                  "signedNsgaMinusMain": -0.000827846252035646
+                },
+                {
+                  "lower": 0.9595058263054435,
+                  "upper": 0.9765923804876274,
+                  "mainHV": 0.016098022706298537,
+                  "nsgaHV": 0.015238025810979529,
+                  "signedNsgaMinusMain": -0.0008599968953190082
+                },
+                {
+                  "lower": 0.9765923804876274,
+                  "upper": 1.5,
+                  "mainHV": 0.5106834278784677,
+                  "nsgaHV": 0.4757303934951152,
+                  "signedNsgaMinusMain": -0.034953034383352455
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": null
+            }
+          ]
+        },
+        {
+          "seed": 12450033,
+          "mainHV": 0.5758469684825324,
+          "nsgaHV": 0.5406535507961003,
+          "jointHV": 0.5762671535481914,
+          "mainMissingNsgaVolume": 0.0004201850656589956,
+          "nsgaMissingMainVolume": 0.03561360275209102,
+          "mainMissingNsgaPctOfMainHV": 0.07296818228743379,
+          "nsgaMissingMainPctOfNsgaHV": 6.587139342680869,
+          "mainWeakCoverageOfNsgaPoints": 0.6129032258064516,
+          "nsgaWeakCoverageOfMainPoints": 0.10309278350515463,
+          "mainMinimum": [
+            0.3187420133428475,
+            0.6662554443073636,
+            0.9029314830553307
+          ],
+          "nsgaMinimum": [
+            0.3253623157328522,
+            0.7188028009009896,
+            0.9046790573213639
+          ],
+          "axisPartitions": [
+            {
+              "axis": 0,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.3655242887907219,
+                  "mainHV": 0.018996107092845767,
+                  "nsgaHV": 0.015778490693901446,
+                  "signedNsgaMinusMain": -0.0032176163989443216
+                },
+                {
+                  "lower": 0.3655242887907219,
+                  "upper": 0.40630159885096423,
+                  "mainHV": 0.018260330353649646,
+                  "nsgaHV": 0.017995000266440988,
+                  "signedNsgaMinusMain": -0.0002653300872086581
+                },
+                {
+                  "lower": 0.40630159885096423,
+                  "upper": 0.44897108734544383,
+                  "mainHV": 0.020168190121408386,
+                  "nsgaHV": 0.01964852311146794,
+                  "signedNsgaMinusMain": -0.0005196670099404457
+                },
+                {
+                  "lower": 0.44897108734544383,
+                  "upper": 1.5,
+                  "mainHV": 0.5184223409146286,
+                  "nsgaHV": 0.48723153672429,
+                  "signedNsgaMinusMain": -0.031190804190338595
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": null
+            },
+            {
+              "axis": 1,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.7026333670398853,
+                  "mainHV": 0.020320565905084652,
+                  "nsgaHV": 0.0,
+                  "signedNsgaMinusMain": -0.020320565905084652
+                },
+                {
+                  "lower": 0.7026333670398853,
+                  "upper": 0.7232699721678382,
+                  "mainHV": 0.012666986302272941,
+                  "nsgaHV": 0.0025390936263700358,
+                  "signedNsgaMinusMain": -0.010127892675902906
+                },
+                {
+                  "lower": 0.7232699721678382,
+                  "upper": 0.7455088193253243,
+                  "mainHV": 0.014356694102960504,
+                  "nsgaHV": 0.014355756333414169,
+                  "signedNsgaMinusMain": -9.377695463358426e-07
+                },
+                {
+                  "lower": 0.7455088193253243,
+                  "upper": 1.5,
+                  "mainHV": 0.5285027221722143,
+                  "nsgaHV": 0.5237587008363161,
+                  "signedNsgaMinusMain": -0.00474402133589813
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": null
+            },
+            {
+              "axis": 2,
+              "slabs": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.9259353134334761,
+                  "mainHV": 0.018430137323634313,
+                  "nsgaHV": 0.017029322123823687,
+                  "signedNsgaMinusMain": -0.001400815199810626
+                },
+                {
+                  "lower": 0.9259353134334761,
+                  "upper": 0.9595058263054435,
+                  "mainHV": 0.02982836056227004,
+                  "nsgaHV": 0.029077981233673472,
+                  "signedNsgaMinusMain": -0.000750379328596569
+                },
+                {
+                  "lower": 0.9595058263054435,
+                  "upper": 0.9765923804876274,
+                  "mainHV": 0.015947398672779965,
+                  "nsgaHV": 0.01521642151750053,
+                  "signedNsgaMinusMain": -0.0007309771552794359
+                },
+                {
+                  "lower": 0.9765923804876274,
+                  "upper": 1.5,
+                  "mainHV": 0.511641071923848,
+                  "nsgaHV": 0.4793298259211026,
+                  "signedNsgaMinusMain": -0.032311246002745375
+                }
+              ],
+              "firstSlabShareOfPositiveNetGap": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "retainedAccounting": [
+    {
+      "root": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-population-probe-20261105-080354-637323",
+      "runReceipts": 1,
+      "successfulFE": 500000,
+      "attemptedFE": 500000,
+      "failedFE": 0,
+      "checkpointFullDecoderQA": 584,
+      "status": {
+        "status": "INCOMPLETE_RETAINED",
+        "completedRuns": 0,
+        "successfulFECompleted": 0,
+        "error": "AssertionError()"
+      }
+    },
+    {
+      "root": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-population-probe-20261105-080503-204765",
+      "runReceipts": 0,
+      "successfulFE": 0,
+      "attemptedFE": 0,
+      "failedFE": 0,
+      "checkpointFullDecoderQA": 0,
+      "status": {
+        "status": "INCOMPLETE_RETAINED",
+        "completedRuns": 0,
+        "successfulFECompleted": 0,
+        "actualSuccessfulFEInReceipts": 0,
+        "actualAttemptedFEInReceipts": 0,
+        "error": "FileExistsError(17, 'File exists')"
+      }
+    },
+    {
+      "root": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-population-probe-20261105-080512-453517",
+      "runReceipts": 22,
+      "successfulFE": 112200,
+      "attemptedFE": 112200,
+      "failedFE": 0,
+      "checkpointFullDecoderQA": 1885,
+      "status": {
+        "status": "COMPLETE",
+        "runs": 22,
+        "successfulFE": 112200,
+        "attemptedFE": 112200,
+        "unexpectedEvaluationFailures": 0,
+        "checkpointFullDecoderQA": 1885,
+        "reusedEngineeringSuccessfulFE": 500000,
+        "worthClosedLoop": false
+      }
+    }
+  ],
+  "searchFE": 0,
+  "decoderCalls": 0,
+  "actualSuccessfulFEAllRetained": 612200,
+  "actualCheckpointQAAllRetained": 2469
+}

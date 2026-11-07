@@ -1,0 +1,81 @@
+{
+  "version": "REAL_SHARED_REQUEST_CAPTURE-v1",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seeds": [
+    16110003,
+    16110037,
+    16110069
+  ],
+  "contexts": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "family": 0,
+      "before": 255880,
+      "after": 260880,
+      "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/20_8_5_1/16110003/capture.json",
+      "sourceSHA256": "5bb406f39d333f336db43d456c4cf9f9354cad3f3c4691821971bdfa5f2b50f6"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "family": 1,
+      "before": 255880,
+      "after": 260880,
+      "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/20_8_5_1/16110037/capture.json",
+      "sourceSHA256": "98883b0d08d6fafc17f546744c85496f095f78eb25d373eff7748d14b6319e4d"
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "family": 2,
+      "before": 255880,
+      "after": 260880,
+      "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/20_8_5_1/16110069/capture.json",
+      "sourceSHA256": "6da7eaa0c9dfcf01a0235a933dccfa9d3281e350ff578bd4c15d7e266dd2614b"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "family": 0,
+      "before": 273560,
+      "after": 278560,
+      "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/100_2_3_1/16110003/capture.json",
+      "sourceSHA256": "7879de94b9678b031c0f36e9833ee644e02de13e49d23b2f1282cc8f22db72ce"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "family": 1,
+      "before": 273560,
+      "after": 278560,
+      "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/100_2_3_1/16110037/capture.json",
+      "sourceSHA256": "f906276a3b60d762be7ad5e02f04b3435fc82edf2d0f67e38d02bc0f345f5d2e"
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "family": 2,
+      "before": 273560,
+      "after": 278560,
+      "sourceCapture": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/capture/100_2_3_1/16110069/capture.json",
+      "sourceSHA256": "5e013f95aba89228e67e4b9726b06927dbb7f9d0a7c6c0439f0daa42ca362765"
+    }
+  ],
+  "sourceAdditionalAttemptedFE": 1618320,
+  "historicalSourceFE": 3000000,
+  "source": "Frozen mature-donor Linux FULL prefixes",
+  "capture": "All actual compose requests in the previously fixed mature global phase",
+  "sampling": "Per source seed select family seedIndex%4 and its first four requests; keep all outcomes; no benefit-based replacement",
+  "probeUpperBoundFE": 49152,
+  "barrier": "All requests, parents, models, pools and background used only at the common recorded POST_GLOBAL barrier; this is conditional batch replay, not immediate online feedback",
+  "shuffle": "Within each source and the selected fixed FA family, cyclic shift of the four observed cap/eta pairs; all existed by common barrier",
+  "actualRequest": "cap = parent Cmax * [0.9,1,1.1][cycle//3]; eta=[0,1,4][cycle%3]. No three-objective bounds existed",
+  "oldDemand": "Only chose a factory for makespan local search using the latest tight cap and retained-pool minimum C; did not alter donor acceptance",
+  "sourceAcceptance": "Compare all paid rows excluding elapsed time, all available stage population/selection/admission records, common FE checkpoint fronts, initial vectors, and the full captured mature global genomes against frozen original prefix",
+  "limits": "No mainline modification, no new instance or seed, no full algorithm/TIME/NSGA competitiveness claim, no Goal",
+  "failures": "Retain logs and paid costs; no replacement seed or outcome-based retries"
+}

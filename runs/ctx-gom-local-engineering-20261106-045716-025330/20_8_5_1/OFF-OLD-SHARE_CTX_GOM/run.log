@@ -1,0 +1,5 @@
+Exception in thread "main" java.lang.IllegalArgumentException: Non-finite JSON number
+	at research.dynamic.DynamicJson.encode(DynamicJson.java:13)
+	at research.dynamic.DynamicJson.encode(DynamicJson.java:22)
+	at research.dynamic.NeutralProbeSupport.append(NeutralProbeSupport.java:22)
+	at research.dynamic.GomEngineeringRun.main(GomEngineeringRun.java:71)

@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "instances": [
+    {
+      "instance": "20_8_5_1",
+      "metrics": [
+        {
+          "seed": 15290003,
+          "arm": "Q_ORIGINAL",
+          "maximumHVError": 4.440892098500626e-16,
+          "IGDplusError": 3.469446951953614e-18
+        },
+        {
+          "seed": 15290003,
+          "arm": "Q_CONCAT",
+          "maximumHVError": 4.440892098500626e-16,
+          "IGDplusError": 1.734723475976807e-18
+        },
+        {
+          "seed": 15290003,
+          "arm": "Q_RANDOM",
+          "maximumHVError": 1.1102230246251565e-16,
+          "IGDplusError": 1.734723475976807e-18
+        },
+        {
+          "seed": 15290003,
+          "arm": "P_ORIGINAL",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 2.168404344971009e-19
+        },
+        {
+          "seed": 15290003,
+          "arm": "P_CONCAT",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 2.168404344971009e-19
+        },
+        {
+          "seed": 15290003,
+          "arm": "P_RANDOM",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 2.168404344971009e-19
+        },
+        {
+          "seed": 15290037,
+          "arm": "Q_ORIGINAL",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 3.469446951953614e-18
+        },
+        {
+          "seed": 15290037,
+          "arm": "Q_CONCAT",
+          "maximumHVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290037,
+          "arm": "Q_RANDOM",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 1.734723475976807e-18
+        },
+        {
+          "seed": 15290037,
+          "arm": "P_ORIGINAL",
+          "maximumHVError": 1.3322676295501878e-15,
+          "IGDplusError": 2.168404344971009e-19
+        },
+        {
+          "seed": 15290037,
+          "arm": "P_CONCAT",
+          "maximumHVError": 1.3322676295501878e-15,
+          "IGDplusError": 2.168404344971009e-19
+        },
+        {
+          "seed": 15290037,
+          "arm": "P_RANDOM",
+          "maximumHVError": 1.3322676295501878e-15,
+          "IGDplusError": 2.168404344971009e-19
+        }
+      ],
+      "pass_": false,
+      "allNativeAndPAInvarianceChecksPassed": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "metrics": [
+        {
+          "seed": 15290003,
+          "arm": "Q_ORIGINAL",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290003,
+          "arm": "Q_CONCAT",
+          "maximumHVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290003,
+          "arm": "Q_RANDOM",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290003,
+          "arm": "P_ORIGINAL",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 4.336808689942018e-19
+        },
+        {
+          "seed": 15290003,
+          "arm": "P_CONCAT",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 4.336808689942018e-19
+        },
+        {
+          "seed": 15290003,
+          "arm": "P_RANDOM",
+          "maximumHVError": 8.881784197001252e-16,
+          "IGDplusError": 4.336808689942018e-19
+        },
+        {
+          "seed": 15290037,
+          "arm": "Q_ORIGINAL",
+          "maximumHVError": 4.440892098500626e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290037,
+          "arm": "Q_CONCAT",
+          "maximumHVError": 4.440892098500626e-16,
+          "IGDplusError": 6.938893903907228e-18
+        },
+        {
+          "seed": 15290037,
+          "arm": "Q_RANDOM",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 6.938893903907228e-18
+        },
+        {
+          "seed": 15290037,
+          "arm": "P_ORIGINAL",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290037,
+          "arm": "P_CONCAT",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 0.0
+        },
+        {
+          "seed": 15290037,
+          "arm": "P_RANDOM",
+          "maximumHVError": 2.220446049250313e-16,
+          "IGDplusError": 0.0
+        }
+      ],
+      "pass_": false,
+      "allNativeAndPAInvarianceChecksPassed": true
+    }
+  ],
+  "runs": 24,
+  "successfulFE": 2400000,
+  "attemptedFE": 2400000,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 17258,
+  "nativeWholeTraceAndPAViewInvariance": true,
+  "independentlyVerifiedHVIGDplusBidirectionalCoverageAndCriteria": true,
+  "initialPhysicalAndObjectiveBitsEqual": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "goalAchieved": false
+}

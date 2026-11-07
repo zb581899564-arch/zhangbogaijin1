@@ -1,0 +1,8 @@
+{
+  "status": "POSTCONDITION_CONFIRMED_ENGINEERING_FE_RETAINED",
+  "successfulFE": 5100,
+  "failedEvaluationFE": 0,
+  "evidence": "PddrIsolationRun checks attempted=successful=limit and failed=0 before QgsLocalLedger.finish; exception stack is inside finish after these checks. No run receipt was exported because finish failed.",
+  "failure": "A full local ledger was incorrectly supplied to a global-only5100FE run. No local slot was consumed.",
+  "correction": "New isolated run uses a header-only ledger representing zero local FE. The original successful5100FE are retained and added to engineering costs; not counted as performance data."
+}

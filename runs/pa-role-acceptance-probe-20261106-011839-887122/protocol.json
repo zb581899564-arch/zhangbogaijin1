@@ -1,0 +1,92 @@
+{
+  "version": "PA_COMPLETE_ROLE_ACCEPTANCE_ISOLATION-v1",
+  "registered": "2026-11-06",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    14590003,
+    14590037
+  ],
+  "methods": {
+    "FOUR_JOINT": [
+      "PA_JOINT",
+      "FOUR"
+    ],
+    "CENTER_JOINT": [
+      "PA_JOINT",
+      "CENTER"
+    ],
+    "FOUR_RELABEL": [
+      "PA_RELABEL",
+      "FOUR"
+    ],
+    "CENTER_RELABEL": [
+      "PA_RELABEL",
+      "CENTER"
+    ],
+    "NSGA_DEEP": [
+      "NSGA2_DEEP",
+      "FOUR"
+    ]
+  },
+  "primary": "FOUR_JOINTvsCENTER_JOINT",
+  "robustness": "FOUR_RELABELvsCENTER_RELABEL",
+  "change": "OnlyinitialPaIndividualrole metadata becomesCENTER; storedgenes/initialization/generationmodel/FOS/mixing/donoravailability/order and budget unchanged",
+  "effectivePreferences": "FOUR15/55/15/15 extreme/center, CENTER100middlePareto+privatearchiveacceptance. All source initializer roles stillprepare identical genotypes",
+  "whyDistinct": "Earlier specialistbridge blocked scalarstates using an additionalCENTERcondition, not allCENTER; priorS/Uchanged the originalQGSsource, not this receiving population. This tests complete-loop necessity, not role-conditionedtrees",
+  "modelScope": "OrdinaryPA has original fourroleacceptance but no originalQGS/conditionalsharing integration; no claimfinalalgorithm or role novelty",
+  "initials": "All5arms same100rawvectors/objectives perinstance/seed; everyinitial and subsequent attempt fullypaid",
+  "engine": "Twoinstances, FOURandCENTERtwofullnativegenerations, allpaidfulltimelineQA and independentreconstruction. FOURfullpaidSHA mustequal the retained13630003NONEreference",
+  "engineeringFE": 95600,
+  "scienceFE": 1000000,
+  "maximumActualFE": 1095600,
+  "budget": "Eachscientificarm50000successfulactualFE, zero failures; all20runspaid, no archivedprefixreused as independent samples",
+  "roleEvidence": "For both modelversions at bothinstances: medianHV1.5effect>=0.5%, medianIGD+symmetricworsening<=0, medianC_AB-C_BA>=0; perseedHV>=-1%,IGD<=5%,Cdelta>=-0.02;medianHV1.25and2direction>=0",
+  "notQualification": "StrongNSGAcomparison and JOINTvsRELABEL jointindicators recorded, but no result revives oldordinary500kqualification/learning claim; no newTIMEarm in this mechanismstudy",
+  "indicators": "Frozencommonperinstancenorm; HV1.5with1.25/2; IGD+commonNDunion of all5methods/seeds; exactweakdeduplicatedbidirectionalC, equalitycounts; no metricvote",
+  "stopping": "Completeall20prespecifiedruns unless engineering/evaluation failure. No role-count/acceptance/seed/modeltuning or pickingRELABELasnewprimary",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.IllegalStateException: Natural/replay run failed; receipt and available front retained
+	at research.dynamic.NaturalLocalRun.main(NaturalLocalRun.java:79)
+Caused by: java.lang.IllegalStateException: NATURAL_FAILURE_FIXTURE_AFTER_FE=2
+	at research.dynamic.NaturalRunEvidence.maybeInject(NaturalRunEvidence.java:21)
+	at research.dynamic.NaturalLocalRun$Evidence.completedSolution(NaturalLocalRun.java:37)
+	at org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate(BudgetedProblem.java:51)
+	at org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate(BudgetedProblem.java:8)
+	at org.uma.jmetal.util.research.classic.ClassicAlgorithm.evaluate(ClassicAlgorithm.java:181)
+	at org.uma.jmetal.util.research.classic.ClassicAlgorithm.run(ClassicAlgorithm.java:74)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.NaturalLocalRun.main(NaturalLocalRun.java:67)

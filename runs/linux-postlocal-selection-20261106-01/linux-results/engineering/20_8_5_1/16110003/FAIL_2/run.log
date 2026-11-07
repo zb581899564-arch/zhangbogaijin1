@@ -1,0 +1,13 @@
+Exception in thread "main" java.lang.IllegalStateException: Preserved post-local probe failure
+	at research.dynamic.PostLocalProbeRun.main(PostLocalProbeRun.java:57)
+Caused by: java.lang.IllegalStateException: EXPECTED_PAID_FAILURE
+	at research.dynamic.PilotPhysics$1.evaluate(PilotPhysics.java:38)
+	at research.dynamic.PilotPhysics$1.evaluate(PilotPhysics.java:36)
+	at org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate(BudgetedProblem.java:40)
+	at org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate(BudgetedProblem.java:8)
+	at org.uma.jmetal.util.research.search.SearchState.evaluate(SearchState.java:47)
+	at org.uma.jmetal.util.research.search.GomLocalProgram.improve(GomLocalProgram.java:33)
+	at org.uma.jmetal.util.research.search.PostLocalPass.execute(PostLocalPass.java:35)
+	at org.uma.jmetal.util.research.search.PostLocalReplay.run(PostLocalReplay.java:66)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.PostLocalProbeRun.main(PostLocalProbeRun.java:43)

@@ -1,0 +1,27 @@
+{
+  "kind": "Posthoc reporting supplement, not a replacement gate",
+  "sources": [
+    [
+      "pa-capability-pilot-20261105-175700-160861",
+      "FE100K"
+    ],
+    [
+      "pa-base-qualification-20261105-180835-751659",
+      "FE500K"
+    ]
+  ],
+  "sampling": "All registered terminal fronts, 6arms x 2instances x 2seeds per source",
+  "metrics": [
+    "HV",
+    "IGDplus",
+    "C(A,B)",
+    "C(B,A)"
+  ],
+  "coverage": "Objective-deduplicated raw vectors, exact weak minimization dominance, equality included; no epsilon",
+  "primary": "PA_JOINT",
+  "HV_IGDplus": "Reuse original common normalization/reference construction; recompute to check identity",
+  "aggregation": "Paired seed effects and median within instance; no weighted score, majority vote, new pass gate or statistical inference",
+  "defaultMainlineChanged": false,
+  "newSearchFE": 0,
+  "decoderCalls": 0
+}

@@ -1,0 +1,60 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "parentSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\global-working-audit-20261105-055724-963327",
+  "physicalMotivation": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\fatigue-stage-structure-20261105-081926-044334",
+  "sampling": "2existinginstances, source11730007/37, all4roles atglobalstep24/49, 8equidistantfreeparents percontext. 128parents perinstance, no gain-based sampling/replacement. Labels and actualpaidprovenance retained.",
+  "relaxation": "Perjobfactory sum over ALL stages of minimum baseE or baseW across legalmachine/worker pairs. Independent minima perobjective, no claim jointlyrealizableresources. Fatigue/idle/order ignored. Keep eachparent factoryjobcounts exact; optimize byduplicatedslotlinearassignment. Compare original, complete deterministic steepest2job-swap descent toconvergence, exactglobalassignment and firststage-only exactproxy.",
+  "question": "Is there material all-stage allocation opportunity BEYOND ordinary pair-exchange closure, rather than merely another heuristic for already covered swaps?",
+  "gate": "Eachinstance >=20%of256costcases exact beats2swaplocal by>=0.2%oflocalrelaxationcost, covering>=2source roles andbothsource seeds. Allnecessary to retain global-cycle hypothesis; failure stops this static-capacity-preserving allocation mechanism without changedquota, costweights, sourcewindows or seeds. Pass only allows design of a separate actual legal dynamic candidate probe; boundgain is not true objective gain.",
+  "engineering": "16N6/F3 fixedquota instances exactchecked againstall90assignments; explicit3cycle fixture hidden fromallpairs. Allsourceparents free andpaid; actual counts/feasibility preserved. Negative closed assignment trails retained.",
+  "limits": "This is a zeroDecoder offline mathematical diagnostic, not new fullalgorithm or beta0 search. Earlier fixedFA LP target-exclusion failed; here FA changes under fixedcounts and the primarycontrol is pair-swapclosure. Do not infer novel fatigue-specific complementarity from static algebra or promote ordinarycontrol after failure.",
+  "runtime": {
+    "scipy": "1.17.1"
+  },
+  "preserved": "0searchFE/0decoder calls, no candidate fedback, production/model/Q/family/sharedrule unchanged; no download/transfer."
+}

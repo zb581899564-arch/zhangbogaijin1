@@ -1,0 +1,154 @@
+{
+  "decision": "STOP_FIXED_POST_ROLE_DO_NOT_EXPAND",
+  "reason": "No material final all-paid gain; IGDplus worsens in all six pairs and100-case C reverses in all three. Ordinary post-local Pareto selection also does not pass.",
+  "primaryComparisons": [
+    {
+      "instance": "20_8_5_1",
+      "HVEffectPct": {
+        "1.25": {
+          "median": -8.574777192738026e-05,
+          "range": [
+            -0.009865016973797935,
+            0.0035835481417390014
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 2,
+          "tieTolerance": 0.0
+        },
+        "1.5": {
+          "median": -5.87651398653577e-06,
+          "range": [
+            -0.003780740017367279,
+            0.0015000646554241825
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 2,
+          "tieTolerance": 0.0
+        },
+        "2.0": {
+          "median": 8.224414438373628e-06,
+          "range": [
+            -0.001214351759137866,
+            0.0005303112717403025
+          ],
+          "wins": 2,
+          "ties": 0,
+          "losses": 1,
+          "tieTolerance": 0.0
+        }
+      },
+      "IGDplusEffect": {
+        "median": -2.1484972992872815,
+        "range": [
+          -4.103940442061789,
+          -1.5099706948063236
+        ],
+        "wins": 0,
+        "ties": 0,
+        "losses": 3,
+        "tieTolerance": 0.0
+      },
+      "pairedCDelta": {
+        "median": -0.09134265204538783,
+        "range": [
+          -0.11667664608841077,
+          0.022218636346710063
+        ],
+        "wins": 1,
+        "ties": 0,
+        "losses": 2,
+        "tieTolerance": 0.0
+      },
+      "materialSignal": false
+    },
+    {
+      "instance": "100_2_3_1",
+      "HVEffectPct": {
+        "1.25": {
+          "median": -0.012590221172903426,
+          "range": [
+            -0.41607431761729874,
+            0.02510064995364658
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 2,
+          "tieTolerance": 0.0
+        },
+        "1.5": {
+          "median": 0.006541027210738015,
+          "range": [
+            -0.28249325320275354,
+            0.01165791671107197
+          ],
+          "wins": 2,
+          "ties": 0,
+          "losses": 1,
+          "tieTolerance": 0.0
+        },
+        "2.0": {
+          "median": -0.0006242244392828944,
+          "range": [
+            -0.18027545720523674,
+            0.02515508511797826
+          ],
+          "wins": 1,
+          "ties": 0,
+          "losses": 2,
+          "tieTolerance": 0.0
+        }
+      },
+      "IGDplusEffect": {
+        "median": -5.221050175179745,
+        "range": [
+          -20.289976428247467,
+          -3.7079497755062225
+        ],
+        "wins": 0,
+        "ties": 0,
+        "losses": 3,
+        "tieTolerance": 0.0
+      },
+      "pairedCDelta": {
+        "median": -0.17197970457547734,
+        "range": [
+          -0.3648163548163548,
+          -0.13184534933681719
+        ],
+        "wins": 0,
+        "ties": 0,
+        "losses": 3,
+        "tieTolerance": 0.0
+      },
+      "materialSignal": false
+    }
+  ],
+  "engineeringPassed": true,
+  "mechanismTriggered": true,
+  "sourceSharedProposalCount": 0,
+  "historicalSharingRefuted": false,
+  "fourRoleNovelGainDemonstrated": false,
+  "ordinaryControlPromoted": false,
+  "retain": [
+    "four objective responsibilities",
+    "QGS",
+    "fixedFA families",
+    "existing structural sharing",
+    "native joint local search"
+  ],
+  "doNotRetune": [
+    "seeds",
+    "selection window",
+    "donor ratio",
+    "local pass count"
+  ],
+  "mainlineChanged": false,
+  "goalResumed": false,
+  "sameTimeAdvantageProved": false,
+  "fullAlgorithmCompetitivenessProved": false,
+  "nextSearchStarted": false,
+  "sampleScope": "Three reused developmental source seeds; sequential role-first batches; conditional matureA0; no direct shared candidates",
+  "nextResearchBoundary": "Require a distinct structural hypothesis and ordinary refuter before another search, preserve all prior stops."
+}

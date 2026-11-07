@@ -1,0 +1,37 @@
+{
+  "version": "NEUTRAL_RELAY_AND_NATURAL_SUFFIX_RESULTS-v1",
+  "traceAndPairRun": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-neutral-relay-probe-20261106-033038-764322",
+  "naturalSuffixRun": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-neutral-suffix-closure-20261106-034455-222718",
+  "preferenceGeometryRun": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\role-preference-geometry-20261106-034921-620868",
+  "pairStatus": {
+    "status": "COMPLETE",
+    "decision": "STOP_LATEST_NEUTRAL_RELAY_HYPOTHESIS",
+    "successfulFE": 95696,
+    "attemptedFE": 95696,
+    "failedFE": 0,
+    "paidFullTimelineQA": 95696,
+    "neutralFullTimelineQA": 800,
+    "runs": 6,
+    "goalAchieved": false
+  },
+  "suffixStatus": {
+    "status": "COMPLETE",
+    "runs": 6,
+    "successfulFE": 318,
+    "attemptedFE": 318,
+    "failedFE": 0,
+    "paidFullTimelineQA": 318,
+    "oldOneStepStopUnchanged": true,
+    "goalAchieved": false
+  },
+  "totalActualSearchFE": 96014,
+  "failedFE": 0,
+  "extraFullTimelineQA": 96814,
+  "oneStepArchivesAllEqualToPrior": 48,
+  "exactEquivalentSuffixesPruned": 45,
+  "nonidenticalSuffixesEvaluated": 3,
+  "positiveSuffixArchiveOutcomes": 0,
+  "oldStopUnchanged": true,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "fixture": "20_8_5_1",
+      "exactAssignmentAndIdeal": true,
+      "LPObjectiveError": 0.0
+    },
+    {
+      "fixture": "100_2_3_1",
+      "exactAssignmentAndIdeal": true,
+      "LPObjectiveError": 3.552713678800501e-15
+    },
+    {
+      "fixture": "ALL_TIED",
+      "exactAssignmentAndIdeal": true,
+      "LPObjectiveError": 0.0
+    },
+    {
+      "fixture": "ANTICHAIN",
+      "exactAssignmentAndIdeal": true,
+      "LPObjectiveError": 0.0
+    },
+    {
+      "fixture": "SCALED_FIRST",
+      "exactAssignmentAndIdeal": true,
+      "LPObjectiveError": 0.0
+    }
+  ],
+  "scaleInvariant": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0
+}

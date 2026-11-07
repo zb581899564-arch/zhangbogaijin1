@@ -1,0 +1,23 @@
+{
+  "sources": [
+    [
+      "pa-capability-pilot-20261105-175700-160861",
+      "FE100K"
+    ],
+    [
+      "pa-base-qualification-20261105-180835-751659",
+      "FE500K"
+    ]
+  ],
+  "engineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339",
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "question": "Separate immediate accepted cross-role state reads from first-paid-admission role of terminal points",
+  "performanceSampling": "All registered endpoints, both PA arms, both instances and seeds, both completed budgets",
+  "engineeringSampling": "Only two independent main fixtures; cutoff prefixes excluded from summaries",
+  "roleFormula": "FE<=100:INITIAL; else slot=floor((FE-101)/(2N-1))mod100;15M55C15E15W",
+  "metrics": "HV/IGD+ and bidirectional C with original common scales/reference; omission is retrospective deletion, not algorithm ablation",
+  "interpretation": "First caller not ultimate origin; state read not causal benefit; no contribution veto or revival of stopped versions",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

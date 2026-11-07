@@ -1,0 +1,6 @@
+Exception in thread "main" java.lang.NoSuchMethodError: 'int org.uma.jmetal.util.research.search.SearchState.ledgerGroup(org.uma.jmetal.util.research.search.Direction)'
+	at org.uma.jmetal.util.research.search.LocalSearch.improveInter(LocalSearch.java:25)
+	at org.uma.jmetal.util.research.search.LocalSearch.improve(LocalSearch.java:22)
+	at org.uma.jmetal.util.research.search.CanonicalHmopso.run(CanonicalHmopso.java:119)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.PddrIsolationRun.main(PddrIsolationRun.java:60)

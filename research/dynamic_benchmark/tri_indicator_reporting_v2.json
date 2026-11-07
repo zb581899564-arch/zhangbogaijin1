@@ -1,0 +1,32 @@
+{
+  "version": "TRI_INDICATOR_REPORTING-v2",
+  "effectiveDate": "2026-11-05",
+  "authority": "User explicitly requested joint HV, IGD+ and bidirectional C assessment",
+  "scope": "All prospective performance, ablation and progression protocols; no algorithm change",
+  "requiredIndicators": ["HV", "IGDplus", "C(A,B)", "C(B,A)"],
+  "directionsForCandidateA": {"HV": "higher", "IGDplus": "lower", "C(A,B)": "higher", "C(B,A)": "lower"},
+  "coverage": {
+    "objectives": "all minimized",
+    "relation": "exact weak dominance, all a[k] <= b[k]; equality included",
+    "deduplication": "unique raw objective vectors",
+    "epsilon": 0,
+    "emptyPolicy": "missing or invalid comparison, not invented coverage",
+    "bothDirectionsRequired": true,
+    "notComplements": true,
+    "mustReport": ["covered points", "target points", "shared objective vectors", "front sizes"],
+    "source": "https://sop.tik.ee.ethz.ch/publicationListFiles/zitz1999a.pdf, Definition 9"
+  },
+  "HV_IGDplus": "Common frozen per-instance normalization; frozen HV references and disclosed common empirical IGD+ reference",
+  "IGDplusSymmetricWorsening": "200*(IA-IB)/(IA+IB); both zero gives0; positive is worse, not conventional relative change",
+  "reporting": "Raw per-seed metrics, paired effects, within-instance summaries, reference sensitivity, failures, tails and costs; same-FE and same-time separately",
+  "interpretation": {
+    "aligned": "Joint benefit only when effects are meaningful and robust under the next preregistered protocol",
+    "conflicting": "Report tradeoff; no overall win from HV alone or a2-of3vote",
+    "uninformative": "Do not demand strict improvement of a metric that cannot distinguish fronts; do not claim it favours the candidate",
+    "weightedAggregate": false,
+    "newPassThresholdsDefinedHere": false
+  },
+  "prospectiveProtocolMustFreeze": ["effect and noninferiority margins", "reference construction", "coverage contract", "conflict handling", "primary comparisons", "repeats and budgets"],
+  "frozenRunPolicy": "Append dated supplementary analysis only; retain original source, metrics, gates and stopped decisions unchanged",
+  "defaultMainlineChanged": false
+}

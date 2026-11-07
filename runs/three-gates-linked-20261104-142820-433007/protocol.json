@@ -1,0 +1,75 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "order": [
+    "BASE",
+    "RANDOM",
+    "LINKED",
+    "NSGA"
+  ],
+  "actualFEPerArm": 500000,
+  "ledger": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pddr-role-budget-20261104-095957\\DEEP\\ledger.csv",
+  "timePrimarySeconds": 4,
+  "auxTimeSeconds": [
+    1,
+    2,
+    6,
+    8,
+    10,
+    12
+  ],
+  "candidate": "After each unchanged QGS JS swap-prefix, copy donor FA/MA/WA jointly for exactly the jobs touched by applied swaps, gated by the existing PC_FA=0.2. Preserve initial job/resource swap, personal then global guidance, mutation probabilities, fixed-family restore, repair, Q settings, four roles, sharing, PDDR and LS ledger.",
+  "ordinaryControl": "Identical joint operator and number of selected jobs, but choose a uniform random job set independently of the moved set. Both arms compute the same shuffle.",
+  "scope": "One generator change, not four-matrix crossover novelty or fatigue-specificity evidence. Vector-coupling oracle was an attribution probe and supplies no donor to this search.",
+  "gate1": "Actionable coupling hypothesis; originality and fatigue-specific value remain unproven. Do not claim conventional synchronous crossover as the paper contribution.",
+  "gate2": {
+    "minimumHVgainOverBASEandRANDOMpct": 1,
+    "primaryFE": 500000,
+    "referenceChecks": [
+      1.25,
+      1.5,
+      2
+    ],
+    "sameTimeHVmustNotRegressAgainstEither": 4,
+    "pooledIGDPlusMustNotRegressAgainstEither": true,
+    "required": "Actual intervention, zero failures, equal physical ledger, original BASE objective trajectory and final genomes unchanged, same initialization. No quota/seed retry."
+  },
+  "gate3Conditional": {
+    "instances": [
+      "20_2_3_1",
+      "100_2_3_1"
+    ],
+    "seeds": [
+      8117003,
+      8117029,
+      8117051
+    ],
+    "arms": [
+      "BASE",
+      "RANDOM",
+      "LINKED",
+      "NSGA"
+    ],
+    "actualFE": 500000,
+    "decision": "Only run if gate2 passes; require each-instance median >=1% over BASE, 2/3 positive seeds, no >1% median NSGA deficit, and no material same-time or IGD+ regression."
+  },
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "witness": "Read-only all-proposal dominance/pbest-history counters, survivor branch counts and later-generation archive admissions. Propagation is not causal credit. All observation cost paid in time."
+}

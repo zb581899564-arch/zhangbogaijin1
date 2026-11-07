@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "source": "same instance/seed, old paid full pipeline and PA prefix only",
+  "cycles": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "newFE": 0,
+  "newDecoderQA": 0,
+  "newObjectiveQueries": 0,
+  "selectedAndNextPrePhysicalMultisetsExact": true,
+  "scope": "descriptive associations, not causal effect",
+  "inputHashes": {
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/historical-share/pipeline.jsonl": "dc81fbb18178d2b966bedeae5d73a6e65294baab90807e1b97ba84129c352c50",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/pa-source/models.jsonl": "c940be023cc38de0011211f60a93caded0d31fd5e04355d6ed7c751c0e3a9c7f",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mid-support-20261107-01/pa-source/trajectory-events.jsonl": "e396109b93f381cc2acb16666543cca135e664f251a80e4eef94704b9519979d",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-trajectory-gap-20261107-01/capture/SHARE_CTX_GOM/trajectory-paid.csv": "2b7787e883e3c8e13394f65e6d859f9cfe1f2de0616fb76ba64dd1ecd7f55015",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-trajectory-gap-20261107-01/step1/100_2_3_1-reference.json": "483279c47201e030ee1e0282af592495d2c43931b38c3cb75185e7e13006b744"
+  },
+  "seconds": 7.548904987001151
+}

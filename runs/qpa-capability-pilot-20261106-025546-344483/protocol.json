@@ -1,0 +1,89 @@
+{
+  "version": "QPA_COMPLETE_ORDINARY_CAPABILITY-v1",
+  "registered": "2026-11-06",
+  "engineeringAccepted": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    14730003,
+    14730037
+  ],
+  "arms": [
+    "QPA_DIRECT",
+    "PA_JOINT",
+    "PA_EQUAL",
+    "NSGA2_DEEP",
+    "FULL_SHARED_DEEP",
+    "LI_RECON_DEEP"
+  ],
+  "primary": "QPA_DIRECT only; do not select the better control as a replacement primary",
+  "initialization": "Same100 fresh canonical fourvectors/objectives in every arm, paired per seed; all attempts charged",
+  "core": "Accepted QPA canonical fixed100 noFI snapshot unchanged; synchronous parent donors, filtered FOS, both joint phases charged",
+  "notSourceExact": "Canonical average linkage, fixed100 and joint FMW extend the native permutation preset; no QGS/shared mechanism in ordinary QPA",
+  "equalityControl": "PA_EQUAL changes only boundary strict< to non-worse<=; CENTER/model/representation/donors/reencoding untouched. Both PA arms use same isolated switch class; off must match frozenPA",
+  "engineeringFE": 236600,
+  "engineering": "QPA light allpaidSHA/finalfront equals both full two-gen native runs; oldPA switch-off exact frozen two-gen paidSHA/finalfront; allinitials identical; equal2gens legal",
+  "fixedFE": 500000,
+  "plannedFixedScienceFE": 12000000,
+  "plannedEngineeringPlusFixedFE": 12236600,
+  "timeSafetyFE": 5000000,
+  "phases": [
+    "FE500K all24 runs",
+    "TIME all24 runs only if fixedFE joint gate passes bothinstances vsall5controls"
+  ],
+  "sameTime": "Prior registered4s/5s per instance; new isolated sequential JVMs, same heap and common observer/archives, no cross-resource timing comparison",
+  "indicators": "HV1.5 plus1.25/2 sensitivity, IGD+same NDunion of all6arms/all2seeds at that phase endpoint, exactdeduplicated bidirectional weakC includingequal. Preserve rawvalues/covered counts, no voting",
+  "gate": "For BOTHinstances vsEACHof5controls: medianHV1.5>=1%, medianHV1.25/2>=0; medianIGD+symmetricworsening<=0; median(CAB-CBA)>=0. EveryseedHV>=-1%,IGD+worsening<=5%,Cdelta>=-0.02. No majority vote or posthoc relaxation",
+  "interpretation": "Passing qualifies an ordinary search base only. Differences fromPA_EQUAL still combine directrepresentation, positionalmodel, donor lifecycle and two-phase program; not proof of a single cause or four-role/shared innovation",
+  "order": "Rotate six-arm order by(instanceIndex+seedIndex); finishall prescribed fixed runs before deciding. No selective seeds/timepoints/arms",
+  "scope": "Two reused development instances/two fresh seeds, exploratory capability; no large matrix, no heldout claim",
+  "failure": "Engineering/evaluation failure stops and preserves spentFE/log/lastfront. Negative or metric-conflicting primary ends this fixedQPA qualification; do not retune masks/roles/phase ratio/FI or extendhorizon to chase it",
+  "oldNegativeEvidence": "All old PA/typed/donor/role/shadow stops remain; current qualification cannot restore them",
+  "defaultMainlineChanged": false,
+  "externalTransfers": false,
+  "goalAchieved": false
+}

@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "onlyOneDonorFetchExpressionChanged": true,
+  "runs": [
+    {
+      "run": "20_8_5_1\\ALL",
+      "mode": "ALL",
+      "successfulFE": 7700,
+      "freshMaskReads": 1899,
+      "crossRoleFreshMaskReads": 1213,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "20_8_5_1\\ALL-cut101",
+      "mode": "ALL",
+      "successfulFE": 101,
+      "freshMaskReads": 0,
+      "crossRoleFreshMaskReads": 0,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "20_8_5_1\\ALL-cut3899",
+      "mode": "ALL",
+      "successfulFE": 3899,
+      "freshMaskReads": 467,
+      "crossRoleFreshMaskReads": 205,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "20_8_5_1\\ALL-cut3900",
+      "mode": "ALL",
+      "successfulFE": 3900,
+      "freshMaskReads": 467,
+      "crossRoleFreshMaskReads": 205,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "20_8_5_1\\OWN",
+      "mode": "OWN",
+      "successfulFE": 7700,
+      "freshMaskReads": 686,
+      "crossRoleFreshMaskReads": 0,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "20_8_5_1\\SYNC",
+      "mode": "SYNC",
+      "successfulFE": 15100,
+      "freshMaskReads": 0,
+      "crossRoleFreshMaskReads": 0,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "100_2_3_1\\ALL",
+      "mode": "ALL",
+      "successfulFE": 39100,
+      "freshMaskReads": 9606,
+      "crossRoleFreshMaskReads": 6068,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "100_2_3_1\\ALL-cut101",
+      "mode": "ALL",
+      "successfulFE": 101,
+      "freshMaskReads": 0,
+      "crossRoleFreshMaskReads": 0,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "100_2_3_1\\ALL-cut19599",
+      "mode": "ALL",
+      "successfulFE": 19599,
+      "freshMaskReads": 2431,
+      "crossRoleFreshMaskReads": 1021,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "100_2_3_1\\ALL-cut19600",
+      "mode": "ALL",
+      "successfulFE": 19600,
+      "freshMaskReads": 2431,
+      "crossRoleFreshMaskReads": 1021,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "100_2_3_1\\OWN",
+      "mode": "OWN",
+      "successfulFE": 39100,
+      "freshMaskReads": 3538,
+      "crossRoleFreshMaskReads": 0,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    },
+    {
+      "run": "100_2_3_1\\SYNC",
+      "mode": "SYNC",
+      "successfulFE": 78100,
+      "freshMaskReads": 0,
+      "crossRoleFreshMaskReads": 0,
+      "nativePrefixAndDonorClosureChecked": true,
+      "loadedClassesChecked": true
+    }
+  ],
+  "successfulFE": 234000,
+  "attemptedFE": 234000,
+  "failedFE": 0,
+  "paidFullTimelineQA": 234000,
+  "oldPAOfflineQA": 0,
+  "receiptCount": 12,
+  "firstGenerationRngSchedulesAndPreFreshPrefixesEqual": true,
+  "loadedClassesInputsProtectedMainlineEqual": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "performanceProved": false,
+  "goalAchieved": false
+}

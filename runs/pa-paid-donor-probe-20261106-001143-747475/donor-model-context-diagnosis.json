@@ -1,0 +1,329 @@
+{
+  "status": "complete",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "fixtures": [
+    {
+      "stem": "20_8_5_1",
+      "mode": "NONE",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.9696633741177557,
+          "sameSizeShuffledRoleMean": 0.27371945395344593,
+          "sameSizeShuffledRoleMaximum": 0.33916937940044417,
+          "memoryJobEntriesOutsideModelSupport": 1112,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.6832221031509311,
+          "sameSizeShuffledRoleMean": 0.20354127642123632,
+          "sameSizeShuffledRoleMaximum": 0.24469394958127283,
+          "memoryJobEntriesOutsideModelSupport": 1229,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorNovelToGenerationModel": false,
+          "attempts": 7600,
+          "accepted": 989,
+          "archiveFreshAtEvaluation": 362,
+          "fallbacks": 16,
+          "terminalObjectiveHitsIncludingDuplicates": 140
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorNovelToGenerationModel": false,
+          "attempts": 200,
+          "accepted": 28,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 16
+        }
+      ],
+      "paidFEReconstructed": 7900,
+      "paidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700"
+    },
+    {
+      "stem": "20_8_5_1",
+      "mode": "GRAFT",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.9696633741177557,
+          "sameSizeShuffledRoleMean": 0.27371945395344593,
+          "sameSizeShuffledRoleMaximum": 0.33916937940044417,
+          "memoryJobEntriesOutsideModelSupport": 1112,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.7621796575131956,
+          "sameSizeShuffledRoleMean": 0.27055809876286674,
+          "sameSizeShuffledRoleMaximum": 0.32121685180724563,
+          "memoryJobEntriesOutsideModelSupport": 269,
+          "memoryJobEntries": 2000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorNovelToGenerationModel": false,
+          "attempts": 3519,
+          "accepted": 322,
+          "archiveFreshAtEvaluation": 111,
+          "fallbacks": 8,
+          "terminalObjectiveHitsIncludingDuplicates": 63
+        },
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorNovelToGenerationModel": true,
+          "attempts": 268,
+          "accepted": 18,
+          "archiveFreshAtEvaluation": 5,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorNovelToGenerationModel": false,
+          "attempts": 88,
+          "accepted": 9,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 9
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorNovelToGenerationModel": true,
+          "attempts": 14,
+          "accepted": 5,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 3
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorNovelToGenerationModel": false,
+          "attempts": 2040,
+          "accepted": 204,
+          "archiveFreshAtEvaluation": 84,
+          "fallbacks": 6,
+          "terminalObjectiveHitsIncludingDuplicates": 52
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorNovelToGenerationModel": true,
+          "attempts": 1773,
+          "accepted": 111,
+          "archiveFreshAtEvaluation": 40,
+          "fallbacks": 24,
+          "terminalObjectiveHitsIncludingDuplicates": 13
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorNovelToGenerationModel": false,
+          "attempts": 7,
+          "accepted": 1,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorNovelToGenerationModel": true,
+          "attempts": 91,
+          "accepted": 20,
+          "archiveFreshAtEvaluation": 13,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 2
+        }
+      ],
+      "paidFEReconstructed": 7900,
+      "paidSHA256": "8573192dada730d4f6a7b4fe1f2dfd69cab22daf29587f559eb6218413107e51"
+    },
+    {
+      "stem": "100_2_3_1",
+      "mode": "NONE",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.8450355600349948,
+          "sameSizeShuffledRoleMean": 0.2058645024735411,
+          "sameSizeShuffledRoleMaximum": 0.3066846943690015,
+          "memoryJobEntriesOutsideModelSupport": 4373,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.506928438953448,
+          "sameSizeShuffledRoleMean": 0.16908483979458344,
+          "sameSizeShuffledRoleMaximum": 0.2066613937482206,
+          "memoryJobEntriesOutsideModelSupport": 5105,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorNovelToGenerationModel": false,
+          "attempts": 39600,
+          "accepted": 4462,
+          "archiveFreshAtEvaluation": 2736,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 338
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorNovelToGenerationModel": false,
+          "attempts": 200,
+          "accepted": 26,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 10
+        }
+      ],
+      "paidFEReconstructed": 39900,
+      "paidSHA256": "91214103c563ae12044c75bccdc8a9efbc51f5f0c644ae0757c32c4a751a0be0"
+    },
+    {
+      "stem": "100_2_3_1",
+      "mode": "GRAFT",
+      "modelScopes": [
+        {
+          "generation": 1,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.8450355600349948,
+          "sameSizeShuffledRoleMean": 0.2058645024735411,
+          "sameSizeShuffledRoleMaximum": 0.3066846943690015,
+          "memoryJobEntriesOutsideModelSupport": 4373,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        },
+        {
+          "generation": 2,
+          "livePoints": 100,
+          "memorySlots": 100,
+          "roleResourceInformationNatsPerJob": 0.5776100637705865,
+          "sameSizeShuffledRoleMean": 0.2263002720589473,
+          "sameSizeShuffledRoleMaximum": 0.2727699371711988,
+          "memoryJobEntriesOutsideModelSupport": 820,
+          "memoryJobEntries": 10000,
+          "warning": "Role information is descriptive and finite-sample biased; duplicate and related individuals are not independent samples"
+        }
+      ],
+      "steps": [
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorNovelToGenerationModel": false,
+          "attempts": 18926,
+          "accepted": 2012,
+          "archiveFreshAtEvaluation": 1099,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 128
+        },
+        {
+          "source": "live",
+          "subset": "partial",
+          "donorNovelToGenerationModel": true,
+          "attempts": 939,
+          "accepted": 76,
+          "archiveFreshAtEvaluation": 33,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 2
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorNovelToGenerationModel": false,
+          "attempts": 74,
+          "accepted": 8,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        },
+        {
+          "source": "live",
+          "subset": "root",
+          "donorNovelToGenerationModel": true,
+          "attempts": 26,
+          "accepted": 8,
+          "archiveFreshAtEvaluation": 0,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 1
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorNovelToGenerationModel": false,
+          "attempts": 11585,
+          "accepted": 1217,
+          "archiveFreshAtEvaluation": 723,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 114
+        },
+        {
+          "source": "memory",
+          "subset": "partial",
+          "donorNovelToGenerationModel": true,
+          "attempts": 8150,
+          "accepted": 634,
+          "archiveFreshAtEvaluation": 354,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 20
+        },
+        {
+          "source": "memory",
+          "subset": "root",
+          "donorNovelToGenerationModel": true,
+          "attempts": 100,
+          "accepted": 4,
+          "archiveFreshAtEvaluation": 5,
+          "fallbacks": 0,
+          "terminalObjectiveHitsIncludingDuplicates": 0
+        }
+      ],
+      "paidFEReconstructed": 39900,
+      "paidSHA256": "a0a796ae5719873dc603227957e8b537d22a451a432b0f509f088029b7fa967b"
+    }
+  ],
+  "scope": "Existing two-generation engineering fixtures only; different initialization and teacher source from the scientific arms",
+  "interpretation": "Novel donor values absent from learned marginals are real, but this is not a causal performance test or proof of erroneous dependencies",
+  "nextPaidMechanismAuthorizedByThisDiagnosis": false,
+  "goalAchieved": false
+}

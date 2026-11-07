@@ -1,0 +1,1794 @@
+{
+  "phases": [
+    {
+      "instances": [
+        {
+          "stem": "20_8_5_1",
+          "feLimit": 100000,
+          "empiricalReferenceSize": 535,
+          "observations": [
+            {
+              "seed": 14230003,
+              "method": "ATOM",
+              "frontSize": 286,
+              "HV": {
+                "1.25": 0.16818004086776445,
+                "1.5": 0.5440360699386677,
+                "2.0": 2.3458365340416236
+              },
+              "IGDplus": 0.004450307162327421,
+              "objectiveMin": [
+                347.1960860352497,
+                37221.80306167614,
+                45801.77955345181
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.8113929
+            },
+            {
+              "seed": 14230003,
+              "method": "TYPED",
+              "frontSize": 341,
+              "HV": {
+                "1.25": 0.16921860443459102,
+                "1.5": 0.546224053907872,
+                "2.0": 2.3512789931106246
+              },
+              "IGDplus": 0.004053214735861454,
+              "objectiveMin": [
+                350.12370437281885,
+                36967.57922542194,
+                45780.34489451354
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.6105626
+            },
+            {
+              "seed": 14230003,
+              "method": "SHAM_BLOCK",
+              "frontSize": 322,
+              "HV": {
+                "1.25": 0.17058182667207322,
+                "1.5": 0.5496060326694004,
+                "2.0": 2.3615219817292985
+              },
+              "IGDplus": 0.0032049116566944154,
+              "objectiveMin": [
+                344.5037797110277,
+                37132.78757237346,
+                45506.31842693585
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.7378104
+            },
+            {
+              "seed": 14230003,
+              "method": "TYPED_RELABEL",
+              "frontSize": 235,
+              "HV": {
+                "1.25": 0.16806893805977763,
+                "1.5": 0.5433811578276933,
+                "2.0": 2.3429089641197525
+              },
+              "IGDplus": 0.0029804698855499575,
+              "objectiveMin": [
+                352.30995792484134,
+                37078.74677066545,
+                45854.83154277467
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.7130128
+            },
+            {
+              "seed": 14230003,
+              "method": "NSGA2_PLAIN",
+              "frontSize": 179,
+              "HV": {
+                "1.25": 0.16261292572883942,
+                "1.5": 0.5323609217162392,
+                "2.0": 2.3159939426580882
+              },
+              "IGDplus": 0.00909952186092455,
+              "objectiveMin": [
+                344.5710185096432,
+                37815.91970615597,
+                46152.67605891223
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 4.3080824
+            },
+            {
+              "seed": 14230003,
+              "method": "NSGA2_DEEP",
+              "frontSize": 137,
+              "HV": {
+                "1.25": 0.1535033157452467,
+                "1.5": 0.5124866864438248,
+                "2.0": 2.2642833956123174
+              },
+              "IGDplus": 0.020255937288517406,
+              "objectiveMin": [
+                337.41829779952394,
+                39207.87337288457,
+                46527.328833221734
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.1959216
+            },
+            {
+              "seed": 14230003,
+              "method": "FULL_SHARED_DEEP",
+              "frontSize": 165,
+              "HV": {
+                "1.25": 0.15185219838116243,
+                "1.5": 0.5077185768865499,
+                "2.0": 2.247862666574966
+              },
+              "IGDplus": 0.022500812534556793,
+              "objectiveMin": [
+                364.7491950956527,
+                38344.308331499036,
+                46784.383304990086
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.3685223
+            },
+            {
+              "seed": 14230003,
+              "method": "LI_RECON_DEEP",
+              "frontSize": 119,
+              "HV": {
+                "1.25": 0.14531185147854309,
+                "1.5": 0.4944819240118053,
+                "2.0": 2.2159894620276925
+              },
+              "IGDplus": 0.03403052629346844,
+              "objectiveMin": [
+                351.4384571014592,
+                39505.1667232757,
+                46999.66040238652
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.063421
+            },
+            {
+              "seed": 14230037,
+              "method": "ATOM",
+              "frontSize": 264,
+              "HV": {
+                "1.25": 0.16886452854861192,
+                "1.5": 0.5460581859562419,
+                "2.0": 2.3525269919804033
+              },
+              "IGDplus": 0.0036681672262941158,
+              "objectiveMin": [
+                342.88498266053557,
+                37192.2860059996,
+                45770.57369029943
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.0559738
+            },
+            {
+              "seed": 14230037,
+              "method": "TYPED",
+              "frontSize": 291,
+              "HV": {
+                "1.25": 0.16772274159745273,
+                "1.5": 0.5430310382726806,
+                "2.0": 2.3432247356406917
+              },
+              "IGDplus": 0.005509883439904415,
+              "objectiveMin": [
+                349.6322183919763,
+                37251.13771528122,
+                45722.8333867287
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.7377833
+            },
+            {
+              "seed": 14230037,
+              "method": "SHAM_BLOCK",
+              "frontSize": 369,
+              "HV": {
+                "1.25": 0.1699666411299511,
+                "1.5": 0.5479890999960726,
+                "2.0": 2.356337943684518
+              },
+              "IGDplus": 0.004475675751127287,
+              "objectiveMin": [
+                348.2659471807503,
+                37037.52584111873,
+                45629.9109541331
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.7610877
+            },
+            {
+              "seed": 14230037,
+              "method": "TYPED_RELABEL",
+              "frontSize": 335,
+              "HV": {
+                "1.25": 0.17028390629324922,
+                "1.5": 0.5494814501837113,
+                "2.0": 2.362228488016121
+              },
+              "IGDplus": 0.005640412141173427,
+              "objectiveMin": [
+                342.9259578979714,
+                36927.527841249845,
+                45721.75727418441
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.6091321
+            },
+            {
+              "seed": 14230037,
+              "method": "NSGA2_PLAIN",
+              "frontSize": 202,
+              "HV": {
+                "1.25": 0.16397596297443606,
+                "1.5": 0.5344502387912959,
+                "2.0": 2.3191255630999827
+              },
+              "IGDplus": 0.007207804909139796,
+              "objectiveMin": [
+                354.642468726563,
+                37401.50993219379,
+                46126.36430381208
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 4.4223986
+            },
+            {
+              "seed": 14230037,
+              "method": "NSGA2_DEEP",
+              "frontSize": 105,
+              "HV": {
+                "1.25": 0.1579982634331105,
+                "1.5": 0.5219069414933186,
+                "2.0": 2.288302135416809
+              },
+              "IGDplus": 0.011413229795761919,
+              "objectiveMin": [
+                337.66309146285494,
+                38635.642577480074,
+                46435.914464125955
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.3763569
+            },
+            {
+              "seed": 14230037,
+              "method": "FULL_SHARED_DEEP",
+              "frontSize": 164,
+              "HV": {
+                "1.25": 0.14980384273166952,
+                "1.5": 0.5026736226553403,
+                "2.0": 2.2327441005572655
+              },
+              "IGDplus": 0.02688674212281803,
+              "objectiveMin": [
+                375.26194550064344,
+                38577.58417204864,
+                46593.55879788237
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.5659485
+            },
+            {
+              "seed": 14230037,
+              "method": "LI_RECON_DEEP",
+              "frontSize": 104,
+              "HV": {
+                "1.25": 0.14033967928995808,
+                "1.5": 0.48160913872587574,
+                "2.0": 2.1767616584720355
+              },
+              "IGDplus": 0.03604279267970855,
+              "objectiveMin": [
+                374.0919524222872,
+                39839.29344902283,
+                46996.62433081263
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 2.2111921
+            }
+          ],
+          "comparisons": [
+            {
+              "A": "TYPED",
+              "B": "ATOM",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 0.6175308089282572,
+                    "1.5": 0.4021762692041575,
+                    "2.0": 0.2320050434044596
+                  },
+                  "IGDplusSymmetricWorseningPct": -9.33948148120939,
+                  "coverage": {
+                    "C_A_B": 0.4230769230769231,
+                    "C_B_A": 0.3870967741935484,
+                    "coveredB": 121,
+                    "totalB": 286,
+                    "coveredA": 132,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": -0.6761555910959061,
+                    "1.5": -0.5543635754237775,
+                    "2.0": -0.3954154987986236
+                  },
+                  "IGDplusSymmetricWorseningPct": 40.13305832780115,
+                  "coverage": {
+                    "C_A_B": 0.18181818181818182,
+                    "C_B_A": 0.3848797250859107,
+                    "coveredB": 48,
+                    "totalB": 264,
+                    "coveredA": 112,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": -0.02931239108382444,
+                "1.5": -0.07609365310980998,
+                "2.0": -0.081705227697082
+              },
+              "medianIGDplusSymmetricWorseningPct": 15.396788423295881,
+              "medianC_A_B": 0.30244755244755245,
+              "medianC_B_A": 0.38598824963972955,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "SHAM_BLOCK",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": -0.7991602998265845,
+                    "1.5": -0.615346004319206,
+                    "2.0": -0.4337452159210109
+                  },
+                  "IGDplusSymmetricWorseningPct": 23.375263347220873,
+                  "coverage": {
+                    "C_A_B": 0.3167701863354037,
+                    "C_B_A": 0.3812316715542522,
+                    "coveredB": 102,
+                    "totalB": 322,
+                    "coveredA": 130,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": -1.3201999625225058,
+                    "1.5": -0.9047737853595139,
+                    "2.0": -0.5565079524765371
+                  },
+                  "IGDplusSymmetricWorseningPct": 20.71406656336237,
+                  "coverage": {
+                    "C_A_B": 0.1951219512195122,
+                    "C_B_A": 0.5979381443298969,
+                    "coveredB": 72,
+                    "totalB": 369,
+                    "coveredA": 174,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": -1.0596801311745452,
+                "1.5": -0.76005989483936,
+                "2.0": -0.495126584198774
+              },
+              "medianIGDplusSymmetricWorseningPct": 22.044664955291623,
+              "medianC_A_B": 0.25594606877745796,
+              "medianC_B_A": 0.48958490794207454,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "TYPED_RELABEL",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 0.684044528444927,
+                    "1.5": 0.5231863562483285,
+                    "2.0": 0.3572494330362108
+                  },
+                  "IGDplusSymmetricWorseningPct": 30.503069388295497,
+                  "coverage": {
+                    "C_A_B": 0.26382978723404255,
+                    "C_B_A": 0.5513196480938416,
+                    "coveredB": 62,
+                    "totalB": 235,
+                    "coveredA": 188,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": -1.5040556395187754,
+                    "1.5": -1.1739089479497644,
+                    "2.0": -0.8044840908420836
+                  },
+                  "IGDplusSymmetricWorseningPct": -2.3412599301945045,
+                  "coverage": {
+                    "C_A_B": 0.3283582089552239,
+                    "C_B_A": 0.46048109965635736,
+                    "coveredB": 110,
+                    "totalB": 335,
+                    "coveredA": 134,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": -0.4100055555369242,
+                "1.5": -0.32536129585071794,
+                "2.0": -0.2236173289029364
+              },
+              "medianIGDplusSymmetricWorseningPct": 14.080904729050497,
+              "medianC_A_B": 0.2960939980946332,
+              "medianC_B_A": 0.5059003738750995,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "NSGA2_PLAIN",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 4.06221010792629,
+                    "1.5": 2.604085241069254,
+                    "2.0": 1.523538114786227
+                  },
+                  "IGDplusSymmetricWorseningPct": -76.73394943978745,
+                  "coverage": {
+                    "C_A_B": 0.8100558659217877,
+                    "C_B_A": 0.020527859237536656,
+                    "coveredB": 145,
+                    "totalB": 179,
+                    "coveredA": 7,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 2.2849560112665923,
+                    "1.5": 1.6055375895781987,
+                    "2.0": 1.0391491053419077
+                  },
+                  "IGDplusSymmetricWorseningPct": -26.70173104789106,
+                  "coverage": {
+                    "C_A_B": 0.5841584158415841,
+                    "C_B_A": 0.23367697594501718,
+                    "coveredB": 118,
+                    "totalB": 202,
+                    "coveredA": 68,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 3.173583059596441,
+                "1.5": 2.1048114153237263,
+                "2.0": 1.2813436100640674
+              },
+              "medianIGDplusSymmetricWorseningPct": -51.717840243839255,
+              "medianC_A_B": 0.6971071408816859,
+              "medianC_B_A": 0.1271024175912769,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "NSGA2_DEEP",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 10.237751942391494,
+                    "1.5": 6.583071981469946,
+                    "2.0": 3.8420807954907765
+                  },
+                  "IGDplusSymmetricWorseningPct": -133.30553477477756,
+                  "coverage": {
+                    "C_A_B": 0.5912408759124088,
+                    "C_B_A": 0.04105571847507331,
+                    "coveredB": 81,
+                    "totalB": 137,
+                    "coveredA": 14,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 6.1548006623877605,
+                    "1.5": 4.047483392138873,
+                    "2.0": 2.400146351909882
+                  },
+                  "IGDplusSymmetricWorseningPct": -69.76667086781524,
+                  "coverage": {
+                    "C_A_B": 0.3047619047619048,
+                    "C_B_A": 0.3539518900343643,
+                    "coveredB": 32,
+                    "totalB": 105,
+                    "coveredA": 103,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 8.196276302389627,
+                "1.5": 5.315277686804409,
+                "2.0": 3.1211135737003293
+              },
+              "medianIGDplusSymmetricWorseningPct": -101.5361028212964,
+              "medianC_A_B": 0.4480013903371568,
+              "medianC_B_A": 0.1975038042547188,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "FULL_SHARED_DEEP",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 11.436387644410239,
+                    "1.5": 7.58401972554299,
+                    "2.0": 4.600651457645877
+                  },
+                  "IGDplusSymmetricWorseningPct": -138.94387929055384,
+                  "coverage": {
+                    "C_A_B": 1.0,
+                    "C_B_A": 0.0,
+                    "coveredB": 165,
+                    "totalB": 165,
+                    "coveredA": 0,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 11.961574909583428,
+                    "1.5": 8.028552483847262,
+                    "2.0": 4.9481996192869415
+                  },
+                  "IGDplusSymmetricWorseningPct": -131.96966234354448,
+                  "coverage": {
+                    "C_A_B": 1.0,
+                    "C_B_A": 0.0,
+                    "coveredB": 164,
+                    "totalB": 164,
+                    "coveredA": 0,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 11.698981276996832,
+                "1.5": 7.8062861046951255,
+                "2.0": 4.774425538466409
+              },
+              "medianIGDplusSymmetricWorseningPct": -135.45677081704918,
+              "medianC_A_B": 1.0,
+              "medianC_B_A": 0.0,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "LI_RECON_DEEP",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 16.452032448005816,
+                    "1.5": 10.46390724988997,
+                    "2.0": 6.105152276272041
+                  },
+                  "IGDplusSymmetricWorseningPct": -157.4283972497355,
+                  "coverage": {
+                    "C_A_B": 1.0,
+                    "C_B_A": 0.0,
+                    "coveredB": 119,
+                    "totalB": 119,
+                    "coveredA": 0,
+                    "totalA": 341,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 19.511988659257273,
+                    "1.5": 12.75347467643575,
+                    "2.0": 7.647280836685799
+                  },
+                  "IGDplusSymmetricWorseningPct": -146.9600136073668,
+                  "coverage": {
+                    "C_A_B": 1.0,
+                    "C_B_A": 0.0,
+                    "coveredB": 104,
+                    "totalB": 104,
+                    "coveredA": 0,
+                    "totalA": 291,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 17.982010553631547,
+                "1.5": 11.60869096316286,
+                "2.0": 6.87621655647892
+              },
+              "medianIGDplusSymmetricWorseningPct": -152.19420542855113,
+              "medianC_A_B": 1.0,
+              "medianC_B_A": 0.0,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ]
+        },
+        {
+          "stem": "100_2_3_1",
+          "feLimit": 100000,
+          "empiricalReferenceSize": 690,
+          "observations": [
+            {
+              "seed": 14230003,
+              "method": "ATOM",
+              "frontSize": 611,
+              "HV": {
+                "1.25": 0.2823314389409072,
+                "1.5": 0.7808782025881784,
+                "2.0": 2.952690063331194
+              },
+              "IGDplus": 0.01849840031517773,
+              "objectiveMin": [
+                877.7754246109099,
+                53727.657018668,
+                61294.72433490204
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 5.4964166
+            },
+            {
+              "seed": 14230003,
+              "method": "TYPED",
+              "frontSize": 408,
+              "HV": {
+                "1.25": 0.26019018492474777,
+                "1.5": 0.7370011450793317,
+                "2.0": 2.8447198185873988
+              },
+              "IGDplus": 0.026169591740937057,
+              "objectiveMin": [
+                859.9588381993802,
+                56764.94707328222,
+                63515.35050118455
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 4.7158195
+            },
+            {
+              "seed": 14230003,
+              "method": "SHAM_BLOCK",
+              "frontSize": 490,
+              "HV": {
+                "1.25": 0.27142787470194435,
+                "1.5": 0.7588670690560468,
+                "2.0": 2.897585944911281
+              },
+              "IGDplus": 0.019952508563761705,
+              "objectiveMin": [
+                858.8740025059833,
+                55437.49849029136,
+                62599.03338963669
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 4.9003554
+            },
+            {
+              "seed": 14230003,
+              "method": "TYPED_RELABEL",
+              "frontSize": 426,
+              "HV": {
+                "1.25": 0.2626466559796705,
+                "1.5": 0.7411228849737757,
+                "2.0": 2.852843618404039
+              },
+              "IGDplus": 0.022409553535633533,
+              "objectiveMin": [
+                879.9506997212941,
+                56279.48349428081,
+                63303.19390614433
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 4.811075
+            },
+            {
+              "seed": 14230003,
+              "method": "NSGA2_PLAIN",
+              "frontSize": 426,
+              "HV": {
+                "1.25": 0.22614058250110164,
+                "1.5": 0.6683123968658817,
+                "2.0": 2.672356002847533
+              },
+              "IGDplus": 0.07424626766732734,
+              "objectiveMin": [
+                939.5658678776495,
+                61320.3978915777,
+                65114.705793386216
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 6.8450067
+            },
+            {
+              "seed": 14230003,
+              "method": "NSGA2_DEEP",
+              "frontSize": 224,
+              "HV": {
+                "1.25": 0.2420363494068644,
+                "1.5": 0.697363166113586,
+                "2.0": 2.7381401577955966
+              },
+              "IGDplus": 0.02064378323074733,
+              "objectiveMin": [
+                932.3275402337861,
+                58374.22220755182,
+                65480.181239018064
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.4952085
+            },
+            {
+              "seed": 14230003,
+              "method": "FULL_SHARED_DEEP",
+              "frontSize": 243,
+              "HV": {
+                "1.25": 0.23364058156890335,
+                "1.5": 0.6804672051349736,
+                "2.0": 2.696240053057264
+              },
+              "IGDplus": 0.032340390775895296,
+              "objectiveMin": [
+                957.836628752069,
+                59463.636006876535,
+                65668.81639603431
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.7756814
+            },
+            {
+              "seed": 14230003,
+              "method": "LI_RECON_DEEP",
+              "frontSize": 182,
+              "HV": {
+                "1.25": 0.2546518942523555,
+                "1.5": 0.7176931077512037,
+                "2.0": 2.7781619001786777
+              },
+              "IGDplus": 0.03127729421218779,
+              "objectiveMin": [
+                1055.0318537241128,
+                56065.87528805347,
+                63618.552846268365
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.3839181
+            },
+            {
+              "seed": 14230037,
+              "method": "ATOM",
+              "frontSize": 462,
+              "HV": {
+                "1.25": 0.27365283644888594,
+                "1.5": 0.7636988683492142,
+                "2.0": 2.9098593361606193
+              },
+              "IGDplus": 0.023475607251410714,
+              "objectiveMin": [
+                881.8187794052343,
+                54333.02052296772,
+                62490.45903596117
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 5.3747431
+            },
+            {
+              "seed": 14230037,
+              "method": "TYPED",
+              "frontSize": 438,
+              "HV": {
+                "1.25": 0.2704287494374976,
+                "1.5": 0.7571292700271931,
+                "2.0": 2.8934784891265117
+              },
+              "IGDplus": 0.019788054388488133,
+              "objectiveMin": [
+                872.9152922337078,
+                55307.53894849159,
+                62561.87054246325
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 5.05944
+            },
+            {
+              "seed": 14230037,
+              "method": "SHAM_BLOCK",
+              "frontSize": 402,
+              "HV": {
+                "1.25": 0.27912134357800333,
+                "1.5": 0.772858068878726,
+                "2.0": 2.9296694958473353
+              },
+              "IGDplus": 0.011792849140305279,
+              "objectiveMin": [
+                863.1071635430861,
+                54682.75832199522,
+                61975.443117370385
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 5.0108605
+            },
+            {
+              "seed": 14230037,
+              "method": "TYPED_RELABEL",
+              "frontSize": 335,
+              "HV": {
+                "1.25": 0.27004137712125864,
+                "1.5": 0.7567219646905311,
+                "2.0": 2.893418381236654
+              },
+              "IGDplus": 0.016299799971745795,
+              "objectiveMin": [
+                867.8636491133847,
+                55417.25598375558,
+                62511.98601445447
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 4.7092381
+            },
+            {
+              "seed": 14230037,
+              "method": "NSGA2_PLAIN",
+              "frontSize": 285,
+              "HV": {
+                "1.25": 0.23016642599592435,
+                "1.5": 0.6757853351075377,
+                "2.0": 2.6890430403628036
+              },
+              "IGDplus": 0.045469340067558976,
+              "objectiveMin": [
+                920.3759728782433,
+                60684.29994248376,
+                65583.86397958385
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 6.7124321
+            },
+            {
+              "seed": 14230037,
+              "method": "NSGA2_DEEP",
+              "frontSize": 211,
+              "HV": {
+                "1.25": 0.23364640106965417,
+                "1.5": 0.6813013707978656,
+                "2.0": 2.6997579987334093
+              },
+              "IGDplus": 0.02635581426930988,
+              "objectiveMin": [
+                941.2198894306689,
+                58942.92340919485,
+                66251.83000370869
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.4849196
+            },
+            {
+              "seed": 14230037,
+              "method": "FULL_SHARED_DEEP",
+              "frontSize": 225,
+              "HV": {
+                "1.25": 0.26315468449688134,
+                "1.5": 0.7376935502965685,
+                "2.0": 2.835400234332951
+              },
+              "IGDplus": 0.012211634170457713,
+              "objectiveMin": [
+                914.2951278648753,
+                56587.10893590709,
+                63526.176861621105
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.8584761
+            },
+            {
+              "seed": 14230037,
+              "method": "LI_RECON_DEEP",
+              "frontSize": 171,
+              "HV": {
+                "1.25": 0.24859036624213032,
+                "1.5": 0.7092454018505652,
+                "2.0": 2.766820636709268
+              },
+              "IGDplus": 0.034621682423008254,
+              "objectiveMin": [
+                969.3289642181327,
+                57580.40337303563,
+                64004.02850423298
+              ],
+              "specialistOnlyCandidates": null,
+              "blockedCandidates": null,
+              "successfulFE": 100000,
+              "searchSeconds": 3.4260592
+            }
+          ],
+          "comparisons": [
+            {
+              "A": "TYPED",
+              "B": "ATOM",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": -7.8422913506255405,
+                    "1.5": -5.618937417310232,
+                    "2.0": -3.6566738271874177
+                  },
+                  "IGDplusSymmetricWorseningPct": 34.34759913148676,
+                  "coverage": {
+                    "C_A_B": 0.18985270049099837,
+                    "C_B_A": 0.44607843137254904,
+                    "coveredB": 116,
+                    "totalB": 611,
+                    "coveredA": 182,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": -1.1781668530194578,
+                    "1.5": -0.8602341307931582,
+                    "2.0": -0.5629429172243516
+                  },
+                  "IGDplusSymmetricWorseningPct": -17.04688287189185,
+                  "coverage": {
+                    "C_A_B": 0.6212121212121212,
+                    "C_B_A": 0.3150684931506849,
+                    "coveredB": 287,
+                    "totalB": 462,
+                    "coveredA": 138,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": -4.5102291018225,
+                "1.5": -3.2395857740516956,
+                "2.0": -2.109808372205885
+              },
+              "medianIGDplusSymmetricWorseningPct": 8.650358129797455,
+              "medianC_A_B": 0.4055324108515598,
+              "medianC_B_A": 0.380573462261617,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "SHAM_BLOCK",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": -4.140212124320952,
+                    "1.5": -2.881390544975704,
+                    "2.0": -1.8244886374026437
+                  },
+                  "IGDplusSymmetricWorseningPct": 26.95923705166556,
+                  "coverage": {
+                    "C_A_B": 0.25918367346938775,
+                    "C_B_A": 0.4852941176470588,
+                    "coveredB": 127,
+                    "totalB": 490,
+                    "coveredA": 198,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": -3.1142706713420787,
+                    "1.5": -2.0351471356639173,
+                    "2.0": -1.2353272876726384
+                  },
+                  "IGDplusSymmetricWorseningPct": 50.63316342987684,
+                  "coverage": {
+                    "C_A_B": 0.1691542288557214,
+                    "C_B_A": 0.7146118721461188,
+                    "coveredB": 68,
+                    "totalB": 402,
+                    "coveredA": 313,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": -3.627241397831515,
+                "1.5": -2.4582688403198105,
+                "2.0": -1.529907962537641
+              },
+              "medianIGDplusSymmetricWorseningPct": 38.7962002407712,
+              "medianC_A_B": 0.21416895116255458,
+              "medianC_B_A": 0.5999529948965888,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "TYPED_RELABEL",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": -0.9352759683004974,
+                    "1.5": -0.5561479719506712,
+                    "2.0": -0.28476148374319
+                  },
+                  "IGDplusSymmetricWorseningPct": 15.480050889725993,
+                  "coverage": {
+                    "C_A_B": 0.3075117370892019,
+                    "C_B_A": 0.5049019607843137,
+                    "coveredB": 131,
+                    "totalB": 426,
+                    "coveredA": 206,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": -1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "ALIGNED_TOWARD_B",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 0.14344924484110955,
+                    "1.5": 0.05382496553123506,
+                    "2.0": 0.002077400567013221
+                  },
+                  "IGDplusSymmetricWorseningPct": 19.33201338002588,
+                  "coverage": {
+                    "C_A_B": 0.22686567164179106,
+                    "C_B_A": 0.5205479452054794,
+                    "coveredB": 76,
+                    "totalB": 335,
+                    "coveredA": 228,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": -0.39591336172969394,
+                "1.5": -0.2511615032097181,
+                "2.0": -0.14134204158808839
+              },
+              "medianIGDplusSymmetricWorseningPct": 17.406032134875936,
+              "medianC_A_B": 0.26718870436549647,
+              "medianC_B_A": 0.5127249529948965,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": -1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "ALIGNED_TOWARD_B",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "NSGA2_PLAIN",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 15.056829714976194,
+                    "1.5": 10.277940157263687,
+                    "2.0": 6.4498822595568495
+                  },
+                  "IGDplusSymmetricWorseningPct": -95.75514507309687,
+                  "coverage": {
+                    "C_A_B": 0.9295774647887324,
+                    "C_B_A": 0.07352941176470588,
+                    "coveredB": 396,
+                    "totalB": 426,
+                    "coveredA": 30,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 17.49270045244835,
+                    "1.5": 12.036948819954961,
+                    "2.0": 7.602535388802334
+                  },
+                  "IGDplusSymmetricWorseningPct": -78.70766491104081,
+                  "coverage": {
+                    "C_A_B": 0.8631578947368421,
+                    "C_B_A": 0.0730593607305936,
+                    "coveredB": 246,
+                    "totalB": 285,
+                    "coveredA": 32,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 16.27476508371227,
+                "1.5": 11.157444488609325,
+                "2.0": 7.026208824179592
+              },
+              "medianIGDplusSymmetricWorseningPct": -87.23140499206883,
+              "medianC_A_B": 0.8963676797627873,
+              "medianC_B_A": 0.07329438624764975,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "NSGA2_DEEP",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 7.500458324698456,
+                    "1.5": 5.683979437378195,
+                    "2.0": 3.892410711276617
+                  },
+                  "IGDplusSymmetricWorseningPct": 23.60781940431373,
+                  "coverage": {
+                    "C_A_B": 0.125,
+                    "C_B_A": 0.6470588235294118,
+                    "coveredB": 28,
+                    "totalB": 224,
+                    "coveredA": 264,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 15.742741253214486,
+                    "1.5": 11.129861538444619,
+                    "2.0": 7.1754761161550995
+                  },
+                  "IGDplusSymmetricWorseningPct": -28.466446667175312,
+                  "coverage": {
+                    "C_A_B": 0.4265402843601896,
+                    "C_B_A": 0.2785388127853881,
+                    "coveredB": 90,
+                    "totalB": 211,
+                    "coveredA": 122,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 11.621599788956471,
+                "1.5": 8.406920487911407,
+                "2.0": 5.533943413715859
+              },
+              "medianIGDplusSymmetricWorseningPct": -2.429313631430791,
+              "medianC_A_B": 0.27577014218009477,
+              "medianC_B_A": 0.4627988181574,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "FULL_SHARED_DEEP",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 11.363438310914598,
+                    "1.5": 8.308106477099697,
+                    "2.0": 5.506919362086249
+                  },
+                  "IGDplusSymmetricWorseningPct": -21.09314947473451,
+                  "coverage": {
+                    "C_A_B": 0.32098765432098764,
+                    "C_B_A": 0.30392156862745096,
+                    "coveredB": 78,
+                    "totalB": 243,
+                    "coveredA": 124,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 2.7641783974027945,
+                    "1.5": 2.6346603847642536,
+                    "2.0": 2.0483265145537333
+                  },
+                  "IGDplusSymmetricWorseningPct": 47.353087228171496,
+                  "coverage": {
+                    "C_A_B": 0.18666666666666668,
+                    "C_B_A": 0.5570776255707762,
+                    "coveredB": 42,
+                    "totalB": 225,
+                    "coveredA": 244,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": -1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 7.063808354158696,
+                "1.5": 5.471383430931976,
+                "2.0": 3.777622938319991
+              },
+              "medianIGDplusSymmetricWorseningPct": 13.129968876718493,
+              "medianC_A_B": 0.25382716049382714,
+              "medianC_B_A": 0.43049959709911356,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": -1,
+                  "coverageAsymmetry": -1
+                },
+                "label": "MIXED_DIRECTIONS",
+                "coverageUninformative": false
+              }
+            },
+            {
+              "A": "TYPED",
+              "B": "LI_RECON_DEEP",
+              "pairs": [
+                {
+                  "seed": 14230003,
+                  "HVEffectPct": {
+                    "1.25": 2.1748476243039105,
+                    "1.5": 2.69029159115477,
+                    "2.0": 2.395753768145781
+                  },
+                  "IGDplusSymmetricWorseningPct": -17.782347594675493,
+                  "coverage": {
+                    "C_A_B": 0.31868131868131866,
+                    "C_B_A": 0.3602941176470588,
+                    "coveredB": 58,
+                    "totalB": 182,
+                    "coveredA": 147,
+                    "totalA": 408,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": -1
+                    },
+                    "label": "MIXED_DIRECTIONS",
+                    "coverageUninformative": false
+                  }
+                },
+                {
+                  "seed": 14230037,
+                  "HVEffectPct": {
+                    "1.25": 8.78488717221504,
+                    "1.5": 6.751382251007798,
+                    "2.0": 4.577739906114209
+                  },
+                  "IGDplusSymmetricWorseningPct": -54.52563788687867,
+                  "coverage": {
+                    "C_A_B": 0.4444444444444444,
+                    "C_B_A": 0.24885844748858446,
+                    "coveredB": 76,
+                    "totalB": 171,
+                    "coveredA": 109,
+                    "totalA": 438,
+                    "sharedObjectiveVectors": 0
+                  },
+                  "directions": {
+                    "signsFavouringA": {
+                      "HV": 1,
+                      "IGDplus": 1,
+                      "coverageAsymmetry": 1
+                    },
+                    "label": "ALIGNED_TOWARD_A",
+                    "coverageUninformative": false
+                  }
+                }
+              ],
+              "medianHVEffectPct": {
+                "1.25": 5.479867398259476,
+                "1.5": 4.720836921081284,
+                "2.0": 3.486746837129995
+              },
+              "medianIGDplusSymmetricWorseningPct": -36.153992740777085,
+              "medianC_A_B": 0.38156288156288154,
+              "medianC_B_A": 0.30457628256782165,
+              "medianDirections": {
+                "signsFavouringA": {
+                  "HV": 1,
+                  "IGDplus": 1,
+                  "coverageAsymmetry": 1
+                },
+                "label": "ALIGNED_TOWARD_A",
+                "coverageUninformative": false
+              }
+            }
+          ]
+        }
+      ],
+      "sameTimeProved": false,
+      "finalAlgorithmQualified": false,
+      "scope": "Fixed ordinary typed-variable basis,2developmentinstances and2freshseeds; no novelty/oldgate revival",
+      "oldLearningOrQualificationDecisionReopened": false,
+      "goalAchieved": false
+    }
+  ],
+  "readiness": [
+    {
+      "instances": [
+        {
+          "stem": "20_8_5_1",
+          "componentBeyondMoreVisits": false,
+          "preservesOriginal": false,
+          "classicNoninferiority": {
+            "NSGA2_PLAIN": true,
+            "NSGA2_DEEP": true
+          },
+          "oldControlsImproved": {
+            "FULL_SHARED_DEEP": true,
+            "LI_RECON_DEEP": true
+          },
+          "pass": false
+        },
+        {
+          "stem": "100_2_3_1",
+          "componentBeyondMoreVisits": false,
+          "preservesOriginal": false,
+          "classicNoninferiority": {
+            "NSGA2_PLAIN": true,
+            "NSGA2_DEEP": false
+          },
+          "oldControlsImproved": {
+            "FULL_SHARED_DEEP": false,
+            "LI_RECON_DEEP": true
+          },
+          "pass": false
+        }
+      ],
+      "pass": false,
+      "scope": "Allocation of further study budget for this fixed ordinary basis only; no novel-method/paper qualification"
+    }
+  ],
+  "decision": "STOP_FIXED_TYPED_BASIS_PILOT",
+  "successfulFE": 3535400,
+  "attemptedFE": 3535400,
+  "failedAttempts": 0,
+  "timeInterruptedAttempts": 0,
+  "offlineFullDecoderQA": 21456,
+  "defaultMainlineChanged": false,
+  "finalResearchAlgorithmProved": false,
+  "goalAchieved": false
+}

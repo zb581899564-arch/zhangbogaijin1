@@ -1,0 +1,5 @@
+{
+  "status": "INCOMPLETE_RETAINED",
+  "completedReplays": [],
+  "error": "RuntimeError('Command failed (1); see G:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\critical-slot-audit-20261105-070510-841587\\\\20_8_5_1\\\\STRICT_FULL\\\\run.log\\nException in thread \"main\" java.lang.AssertionError: M slot physical accounting mismatch\\n\\tat org.uma.jmetal.util.research.search.CriticalSlotAudit.end(CriticalSlotAudit.java:53)\\n\\tat org.uma.jmetal.util.research.search.LocalSearch.improveIntra(LocalSearch.java:64)\\n\\tat org.uma.jmetal.util.research.search.LocalSearch.improve(LocalSearch.java:22)\\n\\tat org.uma.jmetal.util.research.search.CanonicalHmopso.run(CanonicalHmopso.java:117)\\n\\tat org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)\\n\\tat research.dynamic.PddrIsolationRun.main(PddrIsolationRun.java:59)\\n')"
+}

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "instance": "20_8_5_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "POST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "POST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "FULL_SHARED_DEEP",
+      "originalControlWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "20_8_5_1",
+      "arm": "LI_RECON_DEEP",
+      "originalControlWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "POST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "SHARE_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "POST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "UNIFORM_CTX_GOM",
+      "mode": "PRE_FIRST",
+      "heavyLightWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "FULL_SHARED_DEEP",
+      "originalControlWholePaidTraceAndFrontEqual": true
+    },
+    {
+      "instance": "100_2_3_1",
+      "arm": "LI_RECON_DEEP",
+      "originalControlWholePaidTraceAndFrontEqual": true
+    }
+  ],
+  "runs": 16,
+  "successfulFE": 311064,
+  "attemptedFE": 311064,
+  "failedFE": 0,
+  "timeInterruptedAttempts": 0,
+  "extraCheckpointQA": 3274
+}

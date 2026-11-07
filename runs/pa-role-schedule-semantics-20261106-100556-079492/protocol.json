@@ -1,0 +1,45 @@
+{
+  "contract": {
+    "version": "PA_ROLE_SCHEDULE_SEMANTICS-v1",
+    "registered": "2026-11-06",
+    "status": "READY_NOT_EXECUTED",
+    "diagnosticOnly": true,
+    "sourcePilot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-first-local-fork-pilot-20261106-094125-457253",
+    "pilotAuditSHA256": "98e7c6fe6e9dfb430207170eeabd3446cbad4f43edff046e2a3f5d1d6466984e",
+    "sourceEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339",
+    "sourceGeometry": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-neutral-geometry-20261106-084031-147741",
+    "modes": [
+      "NATIVE",
+      "TASK_ONLY",
+      "ORDER_ONLY",
+      "FULL",
+      "RANDOM",
+      "CENTER_MATCHED"
+    ],
+    "privateSeed": 15530003,
+    "populations": "Eightpaid100pointcohorts: latestPAinitials2instancesx2seeds15410003/15410037 plusnativePAengineeringmodelinputs1/2 perinstance. Generation2inputsevolved. Addtwoexplicitmathematicalrankingfixtures(allobjectivestied,antichain),notrealunpaidobjectiveclaims.",
+    "semantics": "Keep100physicalstorageslots,modelrows,reencodingorder,donorindicesUNCHANGED. TASKfactorchangesrolemetadataatgenerationstart; ORDERfactorchangesonlyreceiverprogramtraversal. ObjectivepartitionusesoriginalMthenEthenWexclusivebest15,remaining55CENTERPDDRstableorder; visitM,C,E,W. FULLboth; CENTERsamevisitallCENTER; RANDOMprivatepermutationwithsamequotasandvisitgroups.",
+    "nativeReference": "ActualCanonicalHmopso.decompose withsupportnull viaread-onlyreflection on100knownpoints plusactualParetoTools.order. Thisisgeneric100memberrolepartition,notoriginal80/familyquota transplant. Noalgorithm.run orobjectivebackend permitted.",
+    "proof": "All60plansindependentlychecked; FULLpartition/orderexactnative; NATIVEoldlabels/identityvisit; TASK_ONLYidentityvisit; ORDER_ONLYoldroles; CENTER_MATCHEDsameFULLvisit. Allroles/quotas/ties/IDs/FE/genome/keybits/objectivebitsandstorageslotsretainedexceptintentionalrolemetadata. SerializedmainJavaRandomSHA before/afterallplans/nativeinvocationequal; RANDOMprivateRNGrepeatable.",
+    "acceptance": "Allmathematical/native/invariantchecks exact. Bothevolvedengineeringgeneration2inputs mustshowatleastoneFULLrolechangeandonevisitpositionchange. Reportmagnitudeswithoutdeclaringquality. Nocohort/seed/thresholdreplacement.",
+    "bounds": {
+      "maximumRealKnownCarriers": 800,
+      "maximumMathematicalCarriers": 200,
+      "maximumPlans": 60,
+      "maximumNativePartitions": 10,
+      "maximumSearchFE": 0,
+      "maximumObjectiveQueries": 0,
+      "maximumDecoderCalls": 0
+    },
+    "progression": "Passonlypermitsseparatefullprogramengineeringandthenprospectivenewseedmetrics. NoPA_roleperformanceororiginalQGS/sharedcontributionclaim, nooldFOUR/CENTERfailureoverturn. No productionPaPopulationedit.",
+    "defaultMainlineChanged": false,
+    "externalTransfers": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "ae6332329f4553fa3dc4ef12fc045aa5f7a02d2e071c1e8dd6c06bebce92906f",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "runs": [
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 1,
+      "neutralFullQA": 0,
+      "programs": 0,
+      "generations": 0,
+      "modelChecks": [],
+      "duplicates": 0,
+      "currentGenerationDonorReads": 0,
+      "changedCurrentGenerationDonorReads": 0,
+      "prefixPaidSHA256": {
+        "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1"
+      },
+      "paidSHA256": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "20_8_5_1",
+      "name": "cut1"
+    },
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 2,
+      "neutralFullQA": 0,
+      "programs": 0,
+      "generations": 0,
+      "modelChecks": [],
+      "duplicates": 0,
+      "currentGenerationDonorReads": 0,
+      "changedCurrentGenerationDonorReads": 0,
+      "prefixPaidSHA256": {
+        "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+        "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a"
+      },
+      "paidSHA256": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "20_8_5_1",
+      "name": "cut2"
+    },
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 101,
+      "neutralFullQA": 100,
+      "programs": 0,
+      "generations": 0,
+      "modelChecks": [
+        {
+          "pairs": 190,
+          "maximumModelError": 9.020562075079397e-15,
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        }
+      ],
+      "duplicates": 0,
+      "currentGenerationDonorReads": 0,
+      "changedCurrentGenerationDonorReads": 0,
+      "prefixPaidSHA256": {
+        "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+        "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+        "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc"
+      },
+      "paidSHA256": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "20_8_5_1",
+      "name": "cut101"
+    },
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 139,
+      "neutralFullQA": 100,
+      "programs": 1,
+      "generations": 0,
+      "modelChecks": [
+        {
+          "pairs": 190,
+          "maximumModelError": 9.020562075079397e-15,
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        }
+      ],
+      "duplicates": 0,
+      "currentGenerationDonorReads": 0,
+      "changedCurrentGenerationDonorReads": 0,
+      "prefixPaidSHA256": {
+        "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+        "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+        "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+        "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96"
+      },
+      "paidSHA256": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "20_8_5_1",
+      "name": "cut139"
+    },
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 7900,
+      "neutralFullQA": 200,
+      "programs": 200,
+      "generations": 2,
+      "modelChecks": [
+        {
+          "pairs": 190,
+          "maximumModelError": 9.020562075079397e-15,
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        },
+        {
+          "pairs": 190,
+          "maximumModelError": 8.520961713998076e-15,
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        }
+      ],
+      "duplicates": 250,
+      "currentGenerationDonorReads": 3460,
+      "changedCurrentGenerationDonorReads": 3440,
+      "prefixPaidSHA256": {
+        "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+        "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+        "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+        "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+        "4000": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b"
+      },
+      "paidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "20_8_5_1",
+      "name": "main"
+    },
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 4000,
+      "neutralFullQA": 100,
+      "programs": 100,
+      "generations": 1,
+      "modelChecks": [
+        {
+          "pairs": 190,
+          "maximumModelError": 9.020562075079397e-15,
+          "merges": 19,
+          "maximumChosenMeanDeficit": 0.0
+        }
+      ],
+      "duplicates": 118,
+      "currentGenerationDonorReads": 1833,
+      "changedCurrentGenerationDonorReads": 1813,
+      "prefixPaidSHA256": {
+        "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+        "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+        "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+        "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+        "4000": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b"
+      },
+      "paidSHA256": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "20_8_5_1",
+      "name": "cut4000"
+    },
+    {
+      "allPaidStatesAndAcceptanceReconstructed": true,
+      "successfulFE": 39900,
+      "neutralFullQA": 200,
+      "programs": 200,
+      "generations": 2,
+      "modelChecks": [
+        {
+          "pairs": 4950,
+          "maximumModelError": 3.552713678800501e-15,
+          "merges": 99,
+          "maximumChosenMeanDeficit": 0.0
+        },
+        {
+          "pairs": 4950,
+          "maximumModelError": 3.1086244689504383e-15,
+          "merges": 99,
+          "maximumChosenMeanDeficit": 0.0
+        }
+      ],
+      "duplicates": 409,
+      "currentGenerationDonorReads": 19795,
+      "changedCurrentGenerationDonorReads": 19477,
+      "prefixPaidSHA256": {
+        "1": "bfec59558dd167fb497c8761c96b8b73288339c7a60481978a3b75b2d7d322f9",
+        "2": "db882b1440a4ac7f705e0340cf84007454846fec0b5088dbb1ffd715504f0fbb",
+        "101": "180cc78d1de28bd211cb5011cc7fd44a77977dd504effcc42ad694baae164834",
+        "139": "7a7530707ff9f536929b7c9e37a3d3cedd1023dbac6c046665c238027781ad36",
+        "4000": "689d0b1596a00c2336be88961f6d851aaca579e04f71b68bf32063231ab4a586"
+      },
+      "paidSHA256": "91214103c563ae12044c75bccdc8a9efbc51f5f0c644ae0757c32c4a751a0be0",
+      "defaultMainlineChanged": false,
+      "performanceEvidence": false,
+      "goalAchieved": false,
+      "stem": "100_2_3_1",
+      "name": "main"
+    }
+  ],
+  "successfulFE": 52043,
+  "attemptedFE": 52043,
+  "failedFE": 0,
+  "paidFullTimelineQA": 52043,
+  "reencodingFullTimelineQA": 700,
+  "fullDecoderQA": 52743,
+  "accepted": 6075,
+  "fallbacks": 23,
+  "completeRawDuplicates": 777,
+  "currentGenerationDonorReads": 25088,
+  "changedCurrentGenerationDonorReads": 24730,
+  "engineeringPass": true,
+  "allCutoffsMatchMainPaidPrefix": true,
+  "newCompleteOrdinaryAdaptedLifecycleImplemented": true,
+  "sameBudgetPerformanceProved": false,
+  "goalAchieved": false
+}

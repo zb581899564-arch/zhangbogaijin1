@@ -1,0 +1,9 @@
+CLASSIC_SCALE_PASS initial-paid-mean-frozen zero-to-1 SPEA-density+truncation-unit-invariance
+CLASSIC_PREEMPTION_PASS NSGA-objective-sort SPEA-dominated-fill-sort MOEAD-neighbor-sort preserve-exception-identity
+CLASSIC_MATH_PASS NSGA-fronts+crowding+elitism SPEA-strength+raw+density+lex-truncation MOEAD-weights+neighbors+frozen-scale+ideal+Tchebycheff
+CLASSIC_ENTRY_GUARD_PASS four-modes-reject-bare-Problem
+CLASSIC_RUNTIME_PASS NSGA2_4V FE-boundaries=0,1,99,100,101,149,150,151,251,351 seed=7319 replayFE=333 failure-at=102 time-limit=0.02s
+CLASSIC_RUNTIME_PASS SPEA2_4V FE-boundaries=0,1,99,100,101,149,150,151,251,351 seed=7319 replayFE=333 failure-at=102 time-limit=0.02s
+CLASSIC_RUNTIME_PASS MOEAD_4V FE-boundaries=0,1,99,100,101,149,150,151,251,351 seed=7319 replayFE=333 failure-at=102 time-limit=0.02s
+CLASSIC_RUNTIME_PASS NSGA2_VNS_4V FE-boundaries=0,1,99,100,101,149,150,151,251,351 seed=7319 replayFE=333 failure-at=102 time-limit=0.02s
+CLASSIC_CHECKS_PASS mathematical-selection,job-aligned-variation,legal-genomes,parent-independence,paid-FE,interruptions,seed-replay

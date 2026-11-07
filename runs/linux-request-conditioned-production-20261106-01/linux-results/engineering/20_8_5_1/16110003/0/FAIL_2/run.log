@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.IllegalStateException: Preserved request-production failure
+	at research.dynamic.RequestProductionRun.main(RequestProductionRun.java:70)
+Caused by: java.lang.IllegalStateException: EXPECTED_PAID_FAILURE
+	at research.dynamic.PilotPhysics$1.evaluate(PilotPhysics.java:38)
+	at research.dynamic.PilotPhysics$1.evaluate(PilotPhysics.java:36)
+	at org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate(BudgetedProblem.java:40)
+	at org.uma.jmetal.util.research.search.RequestProductionReplay.proposal(RequestProductionReplay.java:117)
+	at org.uma.jmetal.util.research.search.RequestProductionReplay.run(RequestProductionReplay.java:79)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.RequestProductionRun.main(RequestProductionRun.java:52)

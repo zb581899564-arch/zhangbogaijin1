@@ -1,0 +1,16 @@
+{
+  "kind": "audit",
+  "root": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01",
+  "library": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload",
+  "platform": "linux",
+  "argv": [
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/analysis-code/audit.py",
+    "--root",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01",
+    "--library",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload",
+    "--analysis",
+    "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-mature-donor-20261106-01/report/analyze-20261106T080443.357319Z-219133/analysis.json"
+  ],
+  "evaluationModule": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/research/pilot_evaluation/__init__.py"
+}

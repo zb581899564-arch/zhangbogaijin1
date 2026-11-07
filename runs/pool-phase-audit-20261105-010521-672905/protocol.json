@@ -1,0 +1,60 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9940003,
+  "replayFE": 1000000,
+  "newPerformanceArms": 0,
+  "phases": "First-generation GLOBAL_END, MAKESPAN/CENTER/ENERGY/WORKER_COST_LOCAL_END and second-generation CENTER entry.",
+  "receivers": "Eight protected CENTER particles at first global end and eight at second-generation decomposition. Two per family, no benefit-based resampling.",
+  "sourceMetadata": "Only paidFE/stage/role fields added to FactoryRecord; same/dominance/truncation/choice ignore them. All snapshots read retained records and paid archives only.",
+  "equivalence": "Each500k must match frozen full paid genome/objective SHA256, original final/initial genes, complete ledger including restarts, checkpoint fronts and search/group counters.",
+  "policies": "Exactly original cap factors0.9/1/1.1 and eta0/1/4, per-factory energy/worker score with frozen initialization scales and first-in tie. No new selection rule.",
+  "score": "For each snapshot, receiver and policy score single-candidate HV gain versus own-phase archive, and versus the identical archive at G2_CENTER_ENTRY. Common-background comparison isolates pool changes. Best-of-nine is diagnostic upper opportunity, never a free implemented decision.",
+  "gate": "Each instance needs at least two families with >=0.1% common-archive single-candidate HV gain and >=0.1 percentage-point advantage over GLOBAL_END pool for the identical later receiver in MAKESPAN/CENTER/ENERGY_LOCAL_END. Worker-end and G2 opportunities are secondary because they are already near next global sharing. If either instance fails, no earlier-composition integration or phase/eta/cap scans.",
+  "QA": "Every unique assembled four-vector genome from all predefined nine-policy cases receives offline full decoding and timeline validation. Count these diagnostic calls separately; none enter search.",
+  "limits": "Later receivers paired with earlier pools are offline conditioning, not available early to an online policy. No claims of specialization-only supply, generalization, novelty or same-time superiority. Exact replay fees, return QA and new-assembly diagnostic decodes all reported."
+}

@@ -1,0 +1,21 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\paid-archive-capture-20261105-101720-096912",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "sourceSeeds": [
+    11730007,
+    11730037
+  ],
+  "scope": "Necessary encoded compatibility capacity only; zero new search FE and decoder calls. All six original first-generation CENTER windows. First-role absence retained as UNKNOWN.",
+  "hypotheses": {
+    "localContext": "A factory record needs its own factory/job set/physical input, not the complete sourceFApartition. Does pooling identical local job sets across different fullFAcontexts supply additional distinct ordered job/MA/WA blocks?",
+    "novelAssignment": "Can complete paid factory job sets from different observed assignments form a disjoint full cover whose wholeFAassignment has never appeared?"
+  },
+  "inputs": "All100initial+100current+allacceptedpersonalhistory+actualpaidNDgenomes. FullFAcanonicalized by job identity; local order/MA/WA retained. No objective filtering or genotype reconstruction from objective absence. Protected/free points all retained for an explicit compatibility upper bound, not silently injected into original pools.",
+  "computation": "LocalContext exact set difference for every observedFA. NovelAssignment deterministic bitmask exact cover ordered by factory pool size then mask; last factory complement lookup. Max250000candidate nodes and256novel witnesses per context. Hitting a cap does not prove absence/exhaustiveness. Source indices and paid FE retained.",
+  "necessaryGates": "Each hypothesis separately: each instance>=4of6windows covering both source seeds. LocalContext window needs>=20%observed assignments enriched by at least one distinct compatible block from another completeFAcontext. NovelAssignment window needs>=16different novel complete assignments found within fixed node budget. Pass permits only bounded full-decoder/objective-potential QA, not online composition or another selector. No quality, same-time, role credit or novelty claim.",
+  "failure": "Stop the failing compatibility hypothesis; no changing node caps, windows, seeds, compatibility definitions or gates to rescue it. Old fixed-family pool/teacher failures unchanged.",
+  "limits": "First CENTER windows do not contain newly generated E/W supply. Complete family-free upper bound changes supply/context scope, not proof of existing-rule omission. No search, resource policy, model, old evidence or default mainline change; no download/transfer."
+}

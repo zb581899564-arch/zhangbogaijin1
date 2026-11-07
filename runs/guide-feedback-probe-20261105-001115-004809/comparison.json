@@ -1,0 +1,158 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "cells": [
+        {
+          "seed": 9760003,
+          "mode": "GEN",
+          "HV": 0.46622803974932525,
+          "newGuideFraction": 0.0,
+          "crossRoleNewGuides": 0,
+          "meanFirstDiscoveryAgeFE": 3392.9767441860463,
+          "searchSeconds": 0.8583392,
+          "refreshSeconds": 0.0
+        },
+        {
+          "seed": 9760003,
+          "mode": "ROLE_END",
+          "HV": 0.4667961654923637,
+          "newGuideFraction": 0.717391304347826,
+          "crossRoleNewGuides": 33,
+          "meanFirstDiscoveryAgeFE": 1730.2391304347825,
+          "searchSeconds": 0.9002842,
+          "refreshSeconds": 0.0009831
+        },
+        {
+          "seed": 9760003,
+          "mode": "BATCH",
+          "HV": 0.4707795266430866,
+          "newGuideFraction": 0.9464285714285714,
+          "crossRoleNewGuides": 39,
+          "meanFirstDiscoveryAgeFE": 1389.2142857142858,
+          "searchSeconds": 0.7652322,
+          "refreshSeconds": 0.0038738
+        },
+        {
+          "seed": 9760033,
+          "mode": "GEN",
+          "HV": 0.4711238672421365,
+          "newGuideFraction": 0.0,
+          "crossRoleNewGuides": 0,
+          "meanFirstDiscoveryAgeFE": 3839.8,
+          "searchSeconds": 0.7810532,
+          "refreshSeconds": 0.0
+        },
+        {
+          "seed": 9760033,
+          "mode": "ROLE_END",
+          "HV": 0.4552516842487174,
+          "newGuideFraction": 0.9069767441860465,
+          "crossRoleNewGuides": 39,
+          "meanFirstDiscoveryAgeFE": 1938.6279069767443,
+          "searchSeconds": 0.8047598,
+          "refreshSeconds": 0.0014248
+        },
+        {
+          "seed": 9760033,
+          "mode": "BATCH",
+          "HV": 0.47579200076025396,
+          "newGuideFraction": 0.9473684210526315,
+          "crossRoleNewGuides": 31,
+          "meanFirstDiscoveryAgeFE": 782.8070175438596,
+          "searchSeconds": 0.7676687,
+          "refreshSeconds": 0.0029092
+        }
+      ],
+      "batchEffectsPct": {
+        "GEN": [
+          0.9762361989657409,
+          0.9908505687567404
+        ],
+        "ROLE_END": [
+          0.8533405895743362,
+          4.5118595322570565
+        ]
+      },
+      "eligible": true
+    },
+    {
+      "stem": "100_2_3_1",
+      "cells": [
+        {
+          "seed": 9760003,
+          "mode": "GEN",
+          "HV": 0.5264653387693674,
+          "newGuideFraction": 0.0,
+          "crossRoleNewGuides": 0,
+          "meanFirstDiscoveryAgeFE": 3782.3571428571427,
+          "searchSeconds": 1.0637061,
+          "refreshSeconds": 0.0
+        },
+        {
+          "seed": 9760003,
+          "mode": "ROLE_END",
+          "HV": 0.5318621308616011,
+          "newGuideFraction": 0.9574468085106383,
+          "crossRoleNewGuides": 45,
+          "meanFirstDiscoveryAgeFE": 1966.0212765957447,
+          "searchSeconds": 1.1050477,
+          "refreshSeconds": 0.0031221
+        },
+        {
+          "seed": 9760003,
+          "mode": "BATCH",
+          "HV": 0.5288010349577297,
+          "newGuideFraction": 0.9464285714285714,
+          "crossRoleNewGuides": 43,
+          "meanFirstDiscoveryAgeFE": 1315.7857142857142,
+          "searchSeconds": 1.0656099,
+          "refreshSeconds": 0.003863
+        },
+        {
+          "seed": 9760033,
+          "mode": "GEN",
+          "HV": 0.5168179748368407,
+          "newGuideFraction": 0.0,
+          "crossRoleNewGuides": 0,
+          "meanFirstDiscoveryAgeFE": 3755.9473684210525,
+          "searchSeconds": 1.1748554,
+          "refreshSeconds": 0.0
+        },
+        {
+          "seed": 9760033,
+          "mode": "ROLE_END",
+          "HV": 0.516050492498421,
+          "newGuideFraction": 0.8431372549019608,
+          "crossRoleNewGuides": 43,
+          "meanFirstDiscoveryAgeFE": 1856.5882352941176,
+          "searchSeconds": 1.2062783,
+          "refreshSeconds": 0.0021877
+        },
+        {
+          "seed": 9760033,
+          "mode": "BATCH",
+          "HV": 0.5413996722514849,
+          "newGuideFraction": 1.0,
+          "crossRoleNewGuides": 30,
+          "meanFirstDiscoveryAgeFE": 948.0222222222222,
+          "searchSeconds": 1.1899926,
+          "refreshSeconds": 0.0038774
+        }
+      ],
+      "batchEffectsPct": {
+        "GEN": [
+          0.44365621368769315,
+          4.756354966640752
+        ],
+        "ROLE_END": [
+          -0.5755431203406935,
+          4.912151063036019
+        ]
+      },
+      "eligible": true
+    }
+  ],
+  "positivePairedCells": 4,
+  "worthFullGate": true
+}

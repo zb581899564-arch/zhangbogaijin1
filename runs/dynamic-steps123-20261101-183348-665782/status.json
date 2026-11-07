@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "scope": "correctness/integration, not performance evidence",
+  "checks": [],
+  "error": "RuntimeError('Command failed (1); see G:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\runs\\\\dynamic-steps123-20261101-183348-665782\\\\compile-dynamic.log\\nG:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\src\\\\algorithms\\\\joint\\\\JointFeatures.java:45: 错误: 无法将类 DynamicParameters中的方法 mu应用到给定类型;\\n            double fatigue = prefix.workerFatigue(f, w) * Math.exp(-parameters.mu() * (start - prefix.workerEnd(f, w)));\\n                                                                              ^\\n  需要: int,int,int\\n  找到:    没有参数\\n  原因: 实际参数列表和形式参数列表长度不同\\nG:\\\\ai\\\\limingzhegaijin\\\\张博改进\\\\src\\\\algorithms\\\\joint\\\\JointFeatures.java:47: 错误: 无法将类 DynamicParameters中的方法 beta应用到给定类型;\\n            double completion = start + base * (1 + parameters.beta() * fatigue);\\n                                                              ^\\n  需要: int,int,int\\n  找到:    没有参数\\n  原因: 实际参数列表和形式参数列表长度不同\\n2 个错误\\n')"
+}

@@ -1,0 +1,72 @@
+"""Record the evidence-based stop decision after the complete registered batch."""
+import argparse
+from pathlib import Path
+from common import linux, read, write
+
+
+def report(root):
+    linux();analysis=read(root/'report/analysis.json')
+    assert read(root/'science-independent-audit.json')['passed']
+    comparisons=[x for c in analysis['instances'] for x in c['comparisons'] if x['candidate']=='REQUEST']
+    assert all(x['summary']['HV']['median']<1 and x['summary']['IGDplus']['median']<5 for x in comparisons)
+    for case in analysis['instances']:
+        for row in case['observations']:
+            if case['instance']=='20_8_5_1':
+                assert set(map(tuple,row['final']['front']))==set(map(tuple,row['A0']['front']))
+            assert row['supply']['initialFeasible']==row['supply']['finalFeasible']
+    assert sum(o['supply']['acceptanceChanges'] for c in analysis['instances']
+               for o in c['observations'] if o['arm']=='REQUEST')==373
+    decision=dict(status='STOP_CAP_FIRST_REQUEST_PRODUCTION',engineering='PASSED',
+        scientificResult='No material receiver-conditioned quality benefit in this frozen mature-state probe',
+        keep=['Original four objective roles','Original QGS','Fixed FA families','Original sharing rules and earlier positive evidence'],
+        removeFromActiveCandidates=['Cap-violation-first production acceptance tested here'],
+        scope='Two existing Linux instances, three source seeds, three real request cycles per source, 512FE perarm',
+        sourceCaptureAdditionalFE=1618320,engineeringAttemptedFE=7176,scienceFE=36864,
+        matchedRequestsImproveFeasibility=False,requestMatchingIndependentBenefit=False,
+        broaderReceiverConditioningRefuted=False,originalFourGroupsRefuted=False,
+        defaultMainlineChanged=False,expanded=False,newSelector=False,goalResumed=False,
+        future='No cap/ratio/seed/window/budget tuning or automatic control promotion. Discuss a different, falsifiable supply hypothesis before any new experiment')
+    write(root/'decision.json',decision)
+    lines=['# 真实共享请求约束供体生产：结果与停止决定','',
+        '**工程验收通过，但当前 cap 可行性优先的生产接受规则没有显示独立质量收益；停止该具体分支。** 原四职责、QGS、固定 FA 家族和共享规则保留，默认主线未修改。','',
+        '旧 DEMAND 只改工期群选择哪个工厂。本轮共同使用原家族 GOM 模型、候选内核和池，仅改变生产接受规则；普通约束对照统一使用请求加权目标，错配对照使用同源同家族其他真实 cap，末尾仍使用真实原请求选组合。','',
+        '## 样本与工程边界','',
+        '- 六条旧 Linux 源前缀补录 600 个真实请求，新增 1,618,320 成功 FE；原有可观测轨迹、初始化和成熟四向量窗口核对一致。历史未保存的逐候选四向量不作等价证明。',
+        '- 原首四采样落在周期5–8。在探针FE=0时保留原协议并追加 amendment-01，改为首次周期0/4/8，仅按字段取样。18请求×4臂×512FE=36,864成功FE，零失败；实例和seed没有更换。',
+        '- 工程20条7,176次尝试，7,174成功并做完整时间轴QA，2次预设注入失败。独立核对精确RNG、GOM混合、接受、原池更新/截断、全付费档案、实际类与依赖身份，以及重复、观察开关和截止。',
+        '- 四臂在共同POST_GLOBAL截止点开展条件批次重放，不是即时在线反馈或完整500k算法。进口恢复和离线QA均另计，未将QA组合当作免费搜索解。','',
+        '## 主终点','',
+        '先在每个源seed内取三个请求的配对效应中位，再汇总三个seed。HV变化为相对百分比；IGD+为对称改善百分比，正数较好；C差为覆盖率百分点。相同共同参考集与冻结尺度，辅助HV参考点1.25/2.0结论不变。','',
+        '| 实例 | 比较 | HV中位变化 | IGD+中位改善 | 双向C差中位 |',
+        '| --- | --- | ---: | ---: | ---: |']
+    for case in analysis['instances']:
+        for x in case['comparisons'][:3]:
+            s=x['summary'];lines.append(f"| {case['instance']} | REQUEST / {x['control']} | {s['HV']['median']:+.6f}% | {s['IGDplus']['median']:+.6f}% | {s['CgapPP']['median']:+.6f} |")
+    lines+=['','中位数为零不表示全部个体完全相同。20例的9个请求中四臂末档案均与各自A0相同；100例差异仅出现在seed16110037。下面保留全部9请求的范围，逐seed、逐请求覆盖数/分母见pairs.csv。','',
+            '| 实例 | 比较 | 单请求HV变化范围 | IGD+改善范围 | C差范围 |','| --- | --- | ---: | ---: | ---: |']
+    for case in analysis['instances']:
+        for x in case['comparisons'][:3]:
+            ranges=[]
+            for key in ('HV','IGDplus','CgapPP'):
+                values=[p[key] for p in x['pairs']];ranges.append(f'{min(values):+.9f} 至 {max(values):+.9f}')
+            lines.append('| '+case['instance']+' | REQUEST / '+x['control']+' | '+' | '.join(ranges)+' |')
+    lines+=['','## 供给与触发','',
+        '| 实例 | 方法 | 改写原职责接受次数 | 初始/最终可组装请求 | 最终选择中的新增生产厂记录 |',
+        '| --- | --- | ---: | ---: | ---: |']
+    for case in analysis['instances']:
+        for arm in ('ROLE','REQUEST','ORDINARY','SHUFFLED'):
+            obs=[o['supply'] for o in case['observations'] if o['arm']==arm]
+            lines.append(f"| {case['instance']} | {arm} | {sum(o['acceptanceChanges'] for o in obs)} | {sum(o['initialFeasible'] for o in obs)}/9 → {sum(o['finalFeasible'] for o in obs)}/9 | {sum(o['chosenNewFactories'] for o in obs)} |")
+    lines+=['','REQUEST实际改写373次接受，不能归为完全未触发。原本不可组装的4个请求均未被任何一臂修复。新供体计数仅包含生产FE1–511，排除末次组装/父代回退，也不把重新选择的旧记录算成新生产。','',
+        '生产重复诊断见production-diagnostics.json。20例ROLE/REQUEST分别产生1205/1148个超出初始五受体的物理编码（按请求去重后求和），却都没有生产档案新增准入；100例相应为3630/3462个，生产准入34/25次。这说明实际产生了变化，但本轮接收约束没有把它转化为更多有用供给。这里的准入次数是直接产出记录，不是因果贡献，也不等于末前沿新增点数。','',
+        '## 费用、取舍与限制','',
+        '本轮总新增尝试1,662,360次，成功1,662,358次；唯一失败为两次预设工程注入。源重放、工程、科学、导入恢复、完整时间轴和离线检查在actual-fees.json分别列出。观察和导入耗时不冒充同时间质量优势。','',
+        '停止当前接受规则实现，不增加seed、不改cap/比例/窗口/局搜长度追正，也不把普通对照自动晋升。当前推断是：仅给原成熟家族GOM加请求可行性优先，未扩大有用供给；尚未证明该供体域不存在更好的可达解，也没有否定其他接收条件化机制、四职责或已有共享收益。','',
+        '本轮没有新NSGA-II/Li完整算法比较，没有独立验证实例和真实TIME_LIMIT，没有ESWA级创新或泛化结论。三seed不绘制五seed门槛的经验达成面。','',
+        '完整数据：analysis.json（包括每个目标极值对应的完整三目标向量与末前沿）、metrics.csv、pairs.csv、summary.json；独立HV复算216次。']
+    with (root/'report/RESULTS.md').open('x',encoding='utf-8') as stream:stream.write('\n'.join(lines)+'\n')
+
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',type=Path,required=True)
+    report(p.parse_args().root)

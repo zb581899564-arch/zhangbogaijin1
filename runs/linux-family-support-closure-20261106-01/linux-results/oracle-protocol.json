@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "seed": 16110003,
+      "count": 502,
+      "path": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-family-support-closure-20261106-01/contexts/20_8_5_1/16110003/cases.tsv",
+      "sha256": "6cfc422b0460c685f2d592ed97d55a9f40c3a055ed703b78513de4043ff261b6"
+    },
+    {
+      "seed": 16110037,
+      "count": 956,
+      "path": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-family-support-closure-20261106-01/contexts/20_8_5_1/16110037/cases.tsv",
+      "sha256": "858e8bb2cbe4a4aaf1133f83e4b0d685e0a9922360187f28cf9fa385e0a49bb3"
+    },
+    {
+      "seed": 16110069,
+      "count": 2122,
+      "path": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-family-support-closure-20261106-01/contexts/20_8_5_1/16110069/cases.tsv",
+      "sha256": "70397140dd3a14593945f55af7bbf53f131cd9be3b086b843ebc605cdcb5f727"
+    }
+  ],
+  "scienceFE": 3580,
+  "engineeringAttemptFE": 7,
+  "expectedEngineeringSuccess": 6,
+  "expectedEngineeringFailure": 1,
+  "engineering": "Prefix1/prefix2 with full timeline QA; prefix2 without observation; failure at evaluation2",
+  "paidTotalAttemptLimit": 3587,
+  "physicsQA": "One independent full timeline per successful observed evaluation",
+  "witnessQA": "At most60 deterministic complete assemblies; extra decodes reported separately; no search feedback",
+  "closure": "Exact dyadic arithmetic of rounded local objectives; retain Pareto witnesses. Not exact real arithmetic of decoder global sums",
+  "floatingPolicy": "Witness full decode relative tolerance1e-9; report absolute errors and do not claim bit equality for algebraic sums",
+  "commonReference": "ND union of all three A0s, finite-support closures, and existing request-pool closures; fixed before metric computation",
+  "claimScope": "Conditional capacity only. Not a fair algorithm competitor; oracle expenditure cannot be ignored",
+  "timeComparison": false
+}

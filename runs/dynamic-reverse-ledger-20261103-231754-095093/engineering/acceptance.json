@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "org.uma.jmetal.util.research.modelchecks.DynamicCoreChecks",
+    "research.RuntimeChecks",
+    "research.dynamic.DynamicRuntimeChecks",
+    "org.uma.jmetal.util.research.runtime.AnytimeChecks"
+  ],
+  "recordReplayBoundaries": {
+    "global": 1,
+    "cross-factory": 2,
+    "intra-factory": 5
+  },
+  "fixtureFENotFormal": 80
+}

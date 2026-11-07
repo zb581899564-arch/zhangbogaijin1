@@ -1,0 +1,3554 @@
+{
+  "stem": "20_8_5_1",
+  "parents": 64,
+  "laterMaterialParents": 0,
+  "channelCandidates": {
+    "FIRST": 822,
+    "LATER": 525
+  },
+  "meanSingleGains": {
+    "1.25": {
+      "FIRST": {
+        "bestSingleGain": 2.847950825440789e-05,
+        "meanSingleGain": 5.91406177492739e-06
+      },
+      "LATER": {
+        "bestSingleGain": 6.200650269316522e-06,
+        "meanSingleGain": 2.2499161883646952e-06
+      }
+    },
+    "1.5": {
+      "FIRST": {
+        "bestSingleGain": 6.445510162554471e-05,
+        "meanSingleGain": 1.2612193248821544e-05
+      },
+      "LATER": {
+        "bestSingleGain": 1.4017213138048404e-05,
+        "meanSingleGain": 5.020562525033602e-06
+      }
+    },
+    "2.0": {
+      "FIRST": {
+        "bestSingleGain": 0.0001736096999861398,
+        "meanSingleGain": 3.2641778593155194e-05
+      },
+      "LATER": {
+        "bestSingleGain": 3.784117920004688e-05,
+        "meanSingleGain": 1.3427869510477453e-05
+      }
+    }
+  },
+  "grouped": [
+    {
+      "sourceFE": 5100,
+      "origin": "FULL_NAT",
+      "parents": 16,
+      "laterMaterialParents": 0,
+      "firstBestMean": 0.00010757454410108213,
+      "laterBestMean": 2.51075274705739e-05
+    },
+    {
+      "sourceFE": 5100,
+      "origin": "NSGA_NAT",
+      "parents": 16,
+      "laterMaterialParents": 0,
+      "firstBestMean": 0.0001496307061897365,
+      "laterBestMean": 3.081930532893442e-05
+    },
+    {
+      "sourceFE": 500000,
+      "origin": "FULL_NAT",
+      "parents": 16,
+      "laterMaterialParents": 0,
+      "firstBestMean": 0.0,
+      "laterBestMean": 4.251768913235603e-08
+    },
+    {
+      "sourceFE": 500000,
+      "origin": "NSGA_NAT",
+      "parents": 16,
+      "laterMaterialParents": 0,
+      "firstBestMean": 6.15156211360196e-07,
+      "laterBestMean": 9.950206355293877e-08
+    }
+  ],
+  "backgroundHV": {
+    "5100": {
+      "1.25": 0.14177476695800695,
+      "1.5": 0.4855317931112131,
+      "2.0": 2.1885626899628496
+    },
+    "500000": {
+      "1.25": 0.17006547804021332,
+      "1.5": 0.5488448277492255,
+      "2.0": 2.360367123513325
+    }
+  },
+  "coverageGate": false,
+  "qualityGate": false,
+  "checkpointGate": false,
+  "sensitivityGate": false,
+  "medianLaterVsFirstCallCost": 1.123444375910309,
+  "costGate": true,
+  "worthRepresentationSearchDesign": false,
+  "maxIndependentHVError": 1.7763568394002505e-15,
+  "cases": [
+    {
+      "id": "p0",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 3.4796305802775996e-08,
+            "meanSingleGain": 3.6627690318711576e-09,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 3.4796305802775996e-08,
+            "meanSingleGain": 3.6627690318711576e-09,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 3.4796305802775996e-08,
+            "meanSingleGain": 3.6627690318711576e-09,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.001404505263157895
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00021070909090909092
+        }
+      }
+    },
+    {
+      "id": "p1",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0004140052631578947
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00017507368421052633
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00030931578947368424
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.00019866666666666668
+        }
+      }
+    },
+    {
+      "id": "p3",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00029675999999999997
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00037619473684210523
+        }
+      }
+    },
+    {
+      "id": "p4",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00014622631578947368
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00018513684210526315
+        }
+      }
+    },
+    {
+      "id": "p5",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0001517684210526316
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00018048421052631577
+        }
+      }
+    },
+    {
+      "id": "p6",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 1.5325739180861096e-06,
+            "meanSingleGain": 1.3165029971007774e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 2.8508607182978656e-06,
+            "meanSingleGain": 2.449673282520141e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 5.487434318721377e-06,
+            "meanSingleGain": 4.7160138533588674e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00022672631578947366
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p7",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 1.1546098684250116e-06,
+            "meanSingleGain": 9.965910438426928e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.187644778120775e-06,
+            "meanSingleGain": 1.0286539874462469e-06,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 1.4739885547355274e-06,
+            "meanSingleGain": 1.2491227405446032e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 5.347408223281621e-06,
+            "meanSingleGain": 1.3136277999261125e-06,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 2.112745927356559e-06,
+            "meanSingleGain": 1.7541861339484239e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 7.666935113603315e-06,
+            "meanSingleGain": 1.8835754248858438e-06,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00026147894736842106
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0003009090909090909
+        }
+      }
+    },
+    {
+      "id": "p8",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.41360158698953e-08,
+            "meanSingleGain": 4.698676456571463e-09,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.41360158698953e-08,
+            "meanSingleGain": 4.698676456571463e-09,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.41360158698953e-08,
+            "meanSingleGain": 4.698676456571463e-09,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00035078
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0003940818181818182
+        }
+      }
+    },
+    {
+      "id": "p9",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 4.2802351064038424e-07,
+            "meanSingleGain": 1.4267450354679476e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.120355826415463e-06,
+            "meanSingleGain": 1.314847717939126e-06,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 5.460973217878553e-07,
+            "meanSingleGain": 1.8203244059595177e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 5.353026817090931e-06,
+            "meanSingleGain": 1.7051576583973636e-06,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 7.822449440827978e-07,
+            "meanSingleGain": 2.607483146942659e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 7.818368798441868e-06,
+            "meanSingleGain": 2.485777539313839e-06,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.00045493333333333324
+        },
+        "LATER": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00079408
+        }
+      }
+    },
+    {
+      "id": "p10",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 5.272483401925007e-07,
+            "meanSingleGain": 4.13770827729622e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 6.773283546855655e-07,
+            "meanSingleGain": 5.30829818677381e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 9.774883836716953e-07,
+            "meanSingleGain": 7.64947800572899e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0004408947368421053
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0003938545454545455
+        }
+      }
+    },
+    {
+      "id": "p11",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0007042233019556707,
+            "meanSingleGain": 0.0001934402223071802,
+            "material": true
+          },
+          "LATER": {
+            "bestSingleGain": 0.00016381256548498926,
+            "meanSingleGain": 0.00010098394489149578,
+            "material": true
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0016822280467049752,
+            "meanSingleGain": 0.00046199858340762666,
+            "material": true
+          },
+          "LATER": {
+            "bestSingleGain": 0.00039098586847294,
+            "meanSingleGain": 0.00024090014367961093,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0046898546174118675,
+            "meanSingleGain": 0.001287663871102088,
+            "material": true
+          },
+          "LATER": {
+            "bestSingleGain": 0.0010886627887776404,
+            "meanSingleGain": 0.0006703883637566989,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0004522315789473685
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 5.410000000000001e-05
+        }
+      }
+    },
+    {
+      "id": "p12",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0005356894736842106
+        },
+        "LATER": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00020094
+        }
+      }
+    },
+    {
+      "id": "p13",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.0719999999999996e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00011582727272727275
+        }
+      }
+    },
+    {
+      "id": "p14",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 1.1014500847281347e-06,
+            "meanSingleGain": 3.685881891461774e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 1.760964762992768e-06,
+            "meanSingleGain": 5.884264152343885e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 3.0799941195220346e-06,
+            "meanSingleGain": 1.0281028674108106e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.0004996333333333334
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p15",
+      "origin": "FULL_NAT",
+      "sourceFE": 5100,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 2.3774724429304596e-05,
+            "meanSingleGain": 1.0427155922182375e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 3.162062289403639e-05,
+            "meanSingleGain": 1.3868222374272588e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 4.731241982349998e-05,
+            "meanSingleGain": 2.075035527845302e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0004059631578947368
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 5.363684210526316e-05
+        }
+      }
+    },
+    {
+      "id": "p32",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 3.4400961783293833e-07,
+            "meanSingleGain": 1.8105769359628335e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 2.1404709274329666e-06,
+            "meanSingleGain": 1.3712641922163227e-06,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 4.4204846056582536e-07,
+            "meanSingleGain": 2.3265708450832913e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 2.7725301849721697e-06,
+            "meanSingleGain": 1.7759165819400295e-06,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 6.381261460315993e-07,
+            "meanSingleGain": 3.3585586633242064e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.036648700050577e-06,
+            "meanSingleGain": 2.585221361387443e-06,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 5.853157894736842e-05
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 4.513333333333333e-05
+        }
+      }
+    },
+    {
+      "id": "p33",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 2.7075298094258696e-05,
+            "meanSingleGain": 1.5077406710817864e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.511820399421963e-09,
+            "meanSingleGain": 2.719592062417581e-10,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 4.3675149977396846e-05,
+            "meanSingleGain": 2.4248982412793614e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.511820399421963e-09,
+            "meanSingleGain": 2.719592062417581e-10,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 7.687485374367315e-05,
+            "meanSingleGain": 4.259213381674515e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.511820399421963e-09,
+            "meanSingleGain": 2.719592062417581e-10,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.792105263157894e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 5.9057894736842105e-05
+        }
+      }
+    },
+    {
+      "id": "p34",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 6.233605037339121e-08,
+            "meanSingleGain": 7.878248720738881e-09,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.23892322110607e-08,
+            "meanSingleGain": 8.198244481129453e-09,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 6.524328097274166e-08,
+            "meanSingleGain": 8.184272994354716e-09,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.23892322110607e-08,
+            "meanSingleGain": 8.198244481129453e-09,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 7.105774217144256e-08,
+            "meanSingleGain": 8.796321541586391e-09,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.23892322110607e-08,
+            "meanSingleGain": 8.198244481129453e-09,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 5.893684210526316e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 5.9818181818181817e-05
+        }
+      }
+    },
+    {
+      "id": "p35",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 7.114763283307797e-06,
+            "meanSingleGain": 1.064518354928588e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.272767237646236e-06,
+            "meanSingleGain": 9.267753912163711e-07,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 1.1311236391417931e-05,
+            "meanSingleGain": 1.6983409437290617e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 5.227854434511083e-06,
+            "meanSingleGain": 1.4790205323338001e-06,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 1.9704182607638195e-05,
+            "meanSingleGain": 2.9659861213300087e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 9.138028828240777e-06,
+            "meanSingleGain": 2.5835108145686577e-06,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.346842105263158e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 4.3681818181818185e-05
+        }
+      }
+    },
+    {
+      "id": "p36",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 8.572774827142217e-07,
+            "meanSingleGain": 7.8359834305872e-08,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.1786617687886347e-06,
+            "meanSingleGain": 9.871207035685002e-08,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.8214303409374611e-06,
+            "meanSingleGain": 1.3941654245880605e-07,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 5.27e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.702105263157894e-05
+        }
+      }
+    },
+    {
+      "id": "p37",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 7.765987637233031e-10,
+            "meanSingleGain": 8.74768719092213e-11,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 9.768075715874555e-09,
+            "meanSingleGain": 3.767469682698988e-09,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 7.765987637233031e-10,
+            "meanSingleGain": 8.74768719092213e-11,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 9.768075715874555e-09,
+            "meanSingleGain": 3.767469682698988e-09,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 7.765987637233031e-10,
+            "meanSingleGain": 8.74768719092213e-11,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 9.768075715874555e-09,
+            "meanSingleGain": 3.767469682698988e-09,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.264736842105263e-05
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 4.273333333333333e-05
+        }
+      }
+    },
+    {
+      "id": "p38",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.361578947368421e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.509473684210526e-05
+        }
+      }
+    },
+    {
+      "id": "p39",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 4.383333333333333e-05
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 5.736666666666667e-05
+        }
+      }
+    },
+    {
+      "id": "p40",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.6540000000000005e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p41",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 8.044080043923378e-06,
+            "meanSingleGain": 9.609626548796097e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.168417653213083e-07,
+            "meanSingleGain": 1.541841066183883e-07,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 1.2382618051535675e-05,
+            "meanSingleGain": 1.4698432226517948e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.168417653213083e-07,
+            "meanSingleGain": 1.541841066183883e-07,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 2.105969406676027e-05,
+            "meanSingleGain": 2.487604358196165e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.168417653213083e-07,
+            "meanSingleGain": 1.541841066183883e-07,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.297368421052632e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 4.535454545454545e-05
+        }
+      }
+    },
+    {
+      "id": "p42",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 6.053801458759945e-05,
+            "meanSingleGain": 2.1468091636479514e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 9.213075084545295e-05,
+            "meanSingleGain": 3.243385146793097e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.00015531622336115996,
+            "meanSingleGain": 5.43653711308339e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.0001249
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p43",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 3.698e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 4.3327272727272725e-05
+        }
+      }
+    },
+    {
+      "id": "p44",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 8.244285744537029e-05,
+            "meanSingleGain": 5.205849038047093e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.8871316155278683e-05,
+            "meanSingleGain": 1.2580877436852456e-05,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.00010921494212804244,
+            "meanSingleGain": 6.805772092539275e-05,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 2.444109128766348e-05,
+            "meanSingleGain": 1.629406085844232e-05,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0001627591114933867,
+            "meanSingleGain": 0.00010005618201523637,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.558064155243307e-05,
+            "meanSingleGain": 2.3720427701622044e-05,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.5021052631578954e-05
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 4.2833333333333335e-05
+        }
+      }
+    },
+    {
+      "id": "p45",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0008848252132997993,
+            "meanSingleGain": 9.269425789273275e-05,
+            "material": true
+          },
+          "LATER": {
+            "bestSingleGain": 0.00018927771619628114,
+            "meanSingleGain": 2.294726669347749e-05,
+            "material": true
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0021071230343504155,
+            "meanSingleGain": 0.000218321322390504,
+            "material": true
+          },
+          "LATER": {
+            "bestSingleGain": 0.0004481946260617235,
+            "meanSingleGain": 5.4129373433299e-05,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.005881119938815938,
+            "meanSingleGain": 0.0006055595192713803,
+            "material": true
+          },
+          "LATER": {
+            "bestSingleGain": 0.0012469119122340304,
+            "meanSingleGain": 0.00015026268038687091,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 3.884736842105263e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 7.923684210526315e-05
+        }
+      }
+    },
+    {
+      "id": "p46",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 5.1437052142806255e-06,
+            "meanSingleGain": 1.5101277352232163e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 2.62947711871254e-06,
+            "meanSingleGain": 3.046258947974966e-07,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 6.991997713103613e-06,
+            "meanSingleGain": 2.0527633741257797e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 3.5743296388083616e-06,
+            "meanSingleGain": 4.140874080152981e-07,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 1.0688582710749587e-05,
+            "meanSingleGain": 3.138034651930908e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 5.464034679000006e-06,
+            "meanSingleGain": 6.330104344509012e-07,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.088947368421052e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.333157894736843e-05
+        }
+      }
+    },
+    {
+      "id": "p47",
+      "origin": "NSGA_NAT",
+      "sourceFE": 5100,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 8.224471301582459e-06,
+            "meanSingleGain": 1.5081932416527657e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 5.626216110665523e-06,
+            "meanSingleGain": 1.978053046890663e-06,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 1.075350123811687e-05,
+            "meanSingleGain": 1.9709310968323392e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 7.356280992835828e-06,
+            "meanSingleGain": 2.586305564067914e-06,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 1.5811561111185695e-05,
+            "meanSingleGain": 2.8964068071914863e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.0816410757176434e-05,
+            "meanSingleGain": 3.8028105984224144e-06,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.467368421052632e-05
+        },
+        "LATER": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 3.534e-05
+        }
+      }
+    },
+    {
+      "id": "p16",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00019130526315789477
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 5.543333333333334e-05
+        }
+      }
+    },
+    {
+      "id": "p17",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 5.233327769384581e-07,
+            "meanSingleGain": 4.829714322743074e-08,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 6.802830261176965e-07,
+            "meanSingleGain": 6.278176370700953e-08,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 9.941835244761728e-07,
+            "meanSingleGain": 9.17510046661671e-08,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00021551578947368415
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0006489090909090908
+        }
+      }
+    },
+    {
+      "id": "p18",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 7.308947368421053e-05
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.0003906666666666666
+        }
+      }
+    },
+    {
+      "id": "p19",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 5.599999999999999e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p20",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00017916315789473684
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0002979545454545454
+        }
+      }
+    },
+    {
+      "id": "p21",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.55e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p22",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.8360000000000005e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00020944545454545452
+        }
+      }
+    },
+    {
+      "id": "p23",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0002879157894736842
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 4.76e-05
+        }
+      }
+    },
+    {
+      "id": "p24",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00011229999999999999
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p25",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 3.990000000000001e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p26",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.334e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p27",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0003309000000000001
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0002727181818181818
+        }
+      }
+    },
+    {
+      "id": "p28",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0001818105263157895
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00026794545454545456
+        }
+      }
+    },
+    {
+      "id": "p29",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00030743999999999997
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0002805
+        }
+      }
+    },
+    {
+      "id": "p30",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.138947368421053e-05
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.0005605666666666666
+        }
+      }
+    },
+    {
+      "id": "p31",
+      "origin": "FULL_NAT",
+      "sourceFE": 500000,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.614736842105262e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0003273421052631579
+        }
+      }
+    },
+    {
+      "id": "p48",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 9.662008067410582e-07,
+            "meanSingleGain": 3.244290330685499e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 2.409949774647524e-07,
+            "meanSingleGain": 8.031918608328226e-08,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 1.7892894873352963e-06,
+            "meanSingleGain": 5.987919265999626e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 4.4629416232091e-07,
+            "meanSingleGain": 1.487416221218906e-07,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 3.435466848523772e-06,
+            "meanSingleGain": 1.1475177136627878e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 8.56892532033225e-07,
+            "meanSingleGain": 2.855864941991073e-07,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.0006165666666666667
+        },
+        "LATER": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.158e-05
+        }
+      }
+    },
+    {
+      "id": "p49",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 8.807894736842106e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00011207272727272728
+        }
+      }
+    },
+    {
+      "id": "p50",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 2.0972541930069176e-07,
+            "meanSingleGain": 6.990847310023059e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 2.0972541930069176e-07,
+            "meanSingleGain": 6.990847310023059e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 2.0972541930069176e-07,
+            "meanSingleGain": 6.990847310023059e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.00027739999999999997
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0003667052631578948
+        }
+      }
+    },
+    {
+      "id": "p51",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.18e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p52",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 2.1232888166302945e-07,
+            "meanSingleGain": 2.95509575839686e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 2.773239628712015e-07,
+            "meanSingleGain": 3.545960133016606e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 4.0731412528754566e-07,
+            "meanSingleGain": 4.727688882256098e-08,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00017792727272727274
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p53",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 2.8248824704351293e-06,
+            "meanSingleGain": 3.2531474339244915e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.521247737068175e-09,
+            "meanSingleGain": 5.07082579022725e-10,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 5.126692652519264e-06,
+            "meanSingleGain": 5.659609104643289e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.521247737068175e-09,
+            "meanSingleGain": 5.07082579022725e-10,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 9.73031301668753e-06,
+            "meanSingleGain": 1.0472532446080885e-06,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.521247737068175e-09,
+            "meanSingleGain": 5.07082579022725e-10,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.00021555263157894738
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 0.00015603333333333335
+        }
+      }
+    },
+    {
+      "id": "p54",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.484e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p55",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.3173639964981255e-07,
+            "meanSingleGain": 6.222140856306921e-08,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.7950183123164076e-07,
+            "meanSingleGain": 8.478185838213706e-08,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 2.7503269439529723e-07,
+            "meanSingleGain": 1.2990275802027275e-07,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 3.4366666666666664e-05
+        },
+        "LATER": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00036283999999999996
+        }
+      }
+    },
+    {
+      "id": "p56",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 0.00019176
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p57",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 2,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.0667587827053714e-07,
+            "meanSingleGain": 2.3853592904314955e-08,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.3260972224174904e-07,
+            "meanSingleGain": 3.020004396661722e-08,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.8447741018417278e-07,
+            "meanSingleGain": 4.289294609122177e-08,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 4.344210526315789e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0003110315789473685
+        }
+      }
+    },
+    {
+      "id": "p58",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 3,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 3.456e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p59",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 4,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 7.635992511019259e-09,
+            "meanSingleGain": 1.4039216584048351e-09,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 7.635992511019259e-09,
+            "meanSingleGain": 1.4039216584048351e-09,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 7.635992511019259e-09,
+            "meanSingleGain": 1.4039216584048351e-09,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 5.055999999999999e-05
+        },
+        "LATER": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0003151578947368421
+        }
+      }
+    },
+    {
+      "id": "p60",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 5,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 2.967264442012303e-10,
+            "meanSingleGain": 1.5617181273748963e-11,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 2.967264442012303e-10,
+            "meanSingleGain": 1.5617181273748963e-11,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 2.967264442012303e-10,
+            "meanSingleGain": 1.5617181273748963e-11,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 0.0001931
+        },
+        "LATER": {
+          "candidates": 3,
+          "meanFormationEvaluationSeconds": 4.333333333333334e-05
+        }
+      }
+    },
+    {
+      "id": "p61",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 6,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.696e-05
+        },
+        "LATER": {
+          "candidates": 0,
+          "meanFormationEvaluationSeconds": null
+        }
+      }
+    },
+    {
+      "id": "p62",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 7,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 6.362657359113772e-07,
+            "meanSingleGain": 9.224417724211429e-08,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 8.24470060804633e-07,
+            "meanSingleGain": 1.2005926690075436e-07,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 1.200878710591145e-06,
+            "meanSingleGain": 1.7568944621803447e-07,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 5,
+          "meanFormationEvaluationSeconds": 4.1939999999999995e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.0001405636363636364
+        }
+      }
+    },
+    {
+      "id": "p63",
+      "origin": "NSGA_NAT",
+      "sourceFE": 500000,
+      "stage": 1,
+      "references": {
+        "1.25": {
+          "FIRST": {
+            "bestSingleGain": 1.8828400275789451e-06,
+            "meanSingleGain": 2.9729053067035977e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "1.5": {
+          "FIRST": {
+            "bestSingleGain": 2.4391711332924823e-06,
+            "meanSingleGain": 3.8513228420407616e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        },
+        "2.0": {
+          "FIRST": {
+            "bestSingleGain": 3.5518333447195556e-06,
+            "meanSingleGain": 5.608157912715088e-07,
+            "material": false
+          },
+          "LATER": {
+            "bestSingleGain": 0.0,
+            "meanSingleGain": 0.0,
+            "material": false
+          }
+        }
+      },
+      "channels": {
+        "FIRST": {
+          "candidates": 19,
+          "meanFormationEvaluationSeconds": 6.49421052631579e-05
+        },
+        "LATER": {
+          "candidates": 11,
+          "meanFormationEvaluationSeconds": 0.00013348181818181816
+        }
+      }
+    }
+  ],
+  "limits": "Paid one-operation coverage and uniform one-candidate expectation. Oracle best not a one-FE selector. Different candidate counts recorded. No complete algorithm, role cooperation, fatigue specificity, same-time advantage or independent confirmation."
+}

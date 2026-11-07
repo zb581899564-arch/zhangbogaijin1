@@ -1,0 +1,80 @@
+{
+  "version": "QPA_NEUTRAL_GEOMETRY-v1",
+  "registered": "2026-11-06",
+  "status": "READY_NOT_EXECUTED",
+  "diagnosticOnly": true,
+  "sourcePilot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-completed-donor-pilot-20261106-081125-188445",
+  "sourceEngineering": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-complete-engineering-20261106-024925-292174",
+  "sourceQpa": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+  "sourcePilotAuditSHA256": "40402716951608340a02f397ae7009b713ae0f0b62fc29a2dabddbe991806971",
+  "hypothesis": "Physical schedule is per-factory ordered(job,m,w). Global interleavings are neutral for commondecoder. QPA global-position learning/mixing may depend on neutralview; PA factoryreencoding may remove this dependence. This is an adaptation gap candidate, not a bug or performance explanation proved.",
+  "formal": "ForphysicalkeyK andinterleavingT: K(Tx)=K(x) impliesexactD(Tx)=D(x). Test PhiPA(Tx;omega)=PhiPA(x;omega) and whether QPAmatrix/FOS/proposalphysicalkeys vary.",
+  "physical": "Samejobsto factories, same per-factory firststage order and eachjobM/W; no resource rebinding,positionwithinfactory,rest,wait,late-stage or objective/model change. Known source objectives only attached to physicallyidentical model carriers; no novelproposal receives an objective.",
+  "populations": "Eight100point populations: currentpilot SYNC initial100 for eachof2instances x2seeds15290003/15290037 (4); originalSYNC engineering model inputs generation1and2, seed14670003, bothinstances (4). Generation2inputs are actual evolvedcohorts, not terminalfront-selected individuals. Allinputs used, no quality-based replacement.",
+  "variants": [
+    "ORIGINAL",
+    "FACTORY_CONCAT",
+    "FACTORY_ROUND_ROBIN",
+    "UNIFORM_INTERLEAVING_15350003",
+    "UNIFORM_INTERLEAVING_15350004",
+    "UNIFORM_INTERLEAVING_15350005",
+    "UNIFORM_INTERLEAVING_15350006",
+    "UNIFORM_INTERLEAVING_15350007",
+    "UNIFORM_INTERLEAVING_15350008",
+    "UNIFORM_INTERLEAVING_15350009",
+    "UNIFORM_INTERLEAVING_15350010"
+  ],
+  "variantRules": "Concatenate inascendingfactoryid; roundrobin onejob per nonemptyfactory inascendingid; uniform interleaving by FisherYates shuffleofNfactorylabels preservingcounts then nextjobofthatfactory. Same physicalchains verified before anymodel. Eight privateviewseeds are structural RNG, not new optimizationreplications.",
+  "paControl": "ActualFactoryKeyReencoder with identical explicitRandom stream perpopulation acrossallviews, plusactualPaDependencyModel/LinkageHierarchy. Require identical per-jobresources, keybits, affinity and FOS. ActualPaMixingMove uses the same fixed originalQPA masks for proposal-view invariance control.",
+  "qpaModel": "ActualfrozenQpaLinkageModel/LinkageHierarchy, originalmeanposition affinity/filter unchanged. A positivecheckpointguard may be constructed solely to satisfy modelAPI; backend objectiveevaluation forbidden and attempted/success/delegate counters mustremainzero.",
+  "fixedPairs": [
+    [
+      0,
+      15
+    ],
+    [
+      14,
+      69
+    ],
+    [
+      15,
+      70
+    ],
+    [
+      69,
+      84
+    ],
+    [
+      70,
+      85
+    ],
+    [
+      84,
+      99
+    ],
+    [
+      85,
+      0
+    ],
+    [
+      99,
+      14
+    ]
+  ],
+  "proposals": "EveryactiveORIGINALQPA mask for all8fixed pairs, bothPOSITION andORDER, fixedper-maskreferencejob drawn once fromindependentstructuralRNG and sharedacrossviews. SameFMW/physicalparent/donor ineachview. Count all unscoredintegercompleteproposals andfallbacks, do not feed search. PAone jointkeycopy permask/pair/view. Originalproposalkeys cached once, no duplicate hidden scoring.",
+  "maximumModelBuilds": 176,
+  "maximumUnscoredCompleteProposalConstructions": 260000,
+  "maximumSearchFE": 0,
+  "maximumDynamicDecoderCalls": 0,
+  "maximumCompleteObjectiveQueries": 0,
+  "observations": "Perpopulation/view: exactmatrixchange, non-singleton activeFOS Jaccard, same-masks/reference physicalproposalchange, fallback flags, PAinvariance, RNG/proxy/model/proposal counts andwalltime. Save first predetermined witnesses and complete compact hash/flag stream for independent reconstruction.",
+  "primaryPrecondition": "Both evolvedgeneration2-input populations: at least8of10alternativeviews nonSingletonFOSJaccard<=0.8, aggregate fixedmaskphysicalproposalchange>=20%; PAinvariance exact inall8populations/allviews. Initial populations descriptive only, not independent or sufficient forpositive.",
+  "boundaries": "Noninvariance may be useful hiddenstrategy ratherthan harmful noise. This study cannot prove performance causality, unique dynamicfatigue advantage, objective-specific sharing or superiority. No source roles, thresholds,loss,operator,FOS ordefaultmainline modified.",
+  "progression": "Ifpreconditionfails stopthisspecific neutral-coordinate gap explanation, no viewseed/source/window/threshold rescue. Ifpasses only separateprospective equivalent-encoding causalprogram test or rigorousquotientrepresentation contract, withunchanged/neutral-randomization controls. Not immediate canonicalizer/newoptimizer, not restoring any stoppedALL/QPAqualification.",
+  "existingEvidence": "Direct representation explicitlyretains across-factoryinterleavings; priorrawchanged-but-physicalsame statistics do not measure model/proposal sensitivity. Prior2021/2022 linkage/representation papers are ordinarysources, no novelty by namingquotient/invariance alone.",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "externalTransfers": false,
+  "goalAchieved": false
+}

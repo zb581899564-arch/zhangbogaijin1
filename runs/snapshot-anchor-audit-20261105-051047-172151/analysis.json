@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "mode": "SERIAL",
+      "metrics": {
+        "enabled": true,
+        "mode": "SERIAL",
+        "copyAttempts": 2501,
+        "searchCopyAttempts": 2302,
+        "serializedBytes": 113792422,
+        "searchSerializedBytes": 104738320,
+        "immutableAnchors": 0,
+        "copySeconds": 0.9570551,
+        "searchCopySeconds": 0.8962219
+      },
+      "qa": 199
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "STRICT_FULL",
+      "mode": "ANCHOR",
+      "metrics": {
+        "enabled": true,
+        "mode": "ANCHOR",
+        "copyAttempts": 2501,
+        "searchCopyAttempts": 2302,
+        "serializedBytes": 23926490,
+        "searchSerializedBytes": 22022856,
+        "immutableAnchors": 7503,
+        "copySeconds": 0.4569058,
+        "searchCopySeconds": 0.4224694
+      },
+      "qa": 199
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "mode": "SERIAL",
+      "metrics": {
+        "enabled": true,
+        "mode": "SERIAL",
+        "copyAttempts": 3490,
+        "searchCopyAttempts": 3052,
+        "serializedBytes": 158788020,
+        "searchSerializedBytes": 138859896,
+        "immutableAnchors": 0,
+        "copySeconds": 1.4602827,
+        "searchCopySeconds": 1.3121748
+      },
+      "qa": 438
+    },
+    {
+      "stem": "20_8_5_1",
+      "method": "NSGA_STRICT",
+      "mode": "ANCHOR",
+      "metrics": {
+        "enabled": true,
+        "mode": "ANCHOR",
+        "copyAttempts": 3490,
+        "searchCopyAttempts": 3052,
+        "serializedBytes": 33385340,
+        "searchSerializedBytes": 29195432,
+        "immutableAnchors": 10470,
+        "copySeconds": 0.5799859,
+        "searchCopySeconds": 0.5124829
+      },
+      "qa": 438
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "mode": "SERIAL",
+      "metrics": {
+        "enabled": true,
+        "mode": "SERIAL",
+        "copyAttempts": 8166,
+        "searchCopyAttempts": 7399,
+        "serializedBytes": 340200642,
+        "searchSerializedBytes": 308262541,
+        "immutableAnchors": 0,
+        "copySeconds": 2.658583,
+        "searchCopySeconds": 2.4181266
+      },
+      "qa": 767
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "STRICT_FULL",
+      "mode": "ANCHOR",
+      "metrics": {
+        "enabled": true,
+        "mode": "ANCHOR",
+        "copyAttempts": 8166,
+        "searchCopyAttempts": 7399,
+        "serializedBytes": 66280338,
+        "searchSerializedBytes": 60070485,
+        "immutableAnchors": 24498,
+        "copySeconds": 1.2005119,
+        "searchCopySeconds": 1.0626905
+      },
+      "qa": 767
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "mode": "SERIAL",
+      "metrics": {
+        "enabled": true,
+        "mode": "SERIAL",
+        "copyAttempts": 7016,
+        "searchCopyAttempts": 6458,
+        "serializedBytes": 291690200,
+        "searchSerializedBytes": 268491350,
+        "immutableAnchors": 0,
+        "copySeconds": 2.4016492,
+        "searchCopySeconds": 2.2300732
+      },
+      "qa": 558
+    },
+    {
+      "stem": "100_2_3_1",
+      "method": "NSGA_STRICT",
+      "mode": "ANCHOR",
+      "metrics": {
+        "enabled": true,
+        "mode": "ANCHOR",
+        "copyAttempts": 7016,
+        "searchCopyAttempts": 6458,
+        "serializedBytes": 56345496,
+        "searchSerializedBytes": 51864198,
+        "immutableAnchors": 21048,
+        "copySeconds": 1.0535938,
+        "searchCopySeconds": 0.9428257
+      },
+      "qa": 558
+    }
+  ],
+  "wholeTraceEngineeringAccepted": true,
+  "scope": "Observation-on equivalence and serialization-volume diagnostics only."
+}

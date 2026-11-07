@@ -1,0 +1,679 @@
+{
+  "passed": true,
+  "newFE": 0,
+  "newDecodes": 0,
+  "results": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "sourceSHA256": "b2d4471ef9dbdff63515d143b0633658b38431e217cce3e31cc0c223ef4fa377",
+      "beforeSHA256": "9cf4b73aa28caecb77ffceb89ce3c2d529b0665249d84776c2fa3fea3f16c0e8",
+      "count": 0,
+      "inside": 0,
+      "witnessesDominatingAnyMature": 0,
+      "witnesses": []
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "sourceSHA256": "8991f1ee42dbeb5071606aba89809c3850392cd3895db880f6a851976d685f6e",
+      "beforeSHA256": "43f5a24595041654a7caf2b1304f5bcc3154d8bb219f6992fd4f28770002962e",
+      "count": 0,
+      "inside": 0,
+      "witnessesDominatingAnyMature": 0,
+      "witnesses": []
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "sourceSHA256": "b43f072416adff41dd5e5cb5fdde56d6127873732ef5aaa900fe58e9b0538381",
+      "beforeSHA256": "e9b5ec9d2e61ab24473b8fd6a777831b5965992ba6ea063abac39ec22a9925d3",
+      "count": 0,
+      "inside": 0,
+      "witnessesDominatingAnyMature": 0,
+      "witnesses": []
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "sourceSHA256": "43a966101c224c7ece28357c0cf99bd4bc2f9390199c35b849ade8b53a6c9c30",
+      "beforeSHA256": "ca389d25209d6413599597ad9159709bf67e7311c9556565816f0698fe2c693d",
+      "count": 0,
+      "inside": 0,
+      "witnessesDominatingAnyMature": 0,
+      "witnesses": []
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "sourceSHA256": "8252ee8d677b0ed0c114bf079a76e31db4188433a8e0572f172cb53b16851c8c",
+      "beforeSHA256": "3cd30ed5820b087ecf9a516dd2fdb6530cf91c2b809213d74f98f60d5fa00e07",
+      "count": 38,
+      "inside": 5,
+      "witnessesDominatingAnyMature": 0,
+      "witnesses": [
+        {
+          "objectives": [
+            1509.2518445572848,
+            66384.38176981838,
+            65516.20858604031
+          ],
+          "bornFE": 158414,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1509.2518445572848,
+            66352.84932374401,
+            65533.86788415635
+          ],
+          "bornFE": 158418,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1504.0729230321901,
+            67062.0929012821,
+            65232.89430621315
+          ],
+          "bornFE": 173707,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1506.838143289645,
+            66480.86829821806,
+            65507.430395074516
+          ],
+          "bornFE": 183193,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "OUTSIDE_RESOURCE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1498.7889764254273,
+            67071.55117854847,
+            65389.23875260291
+          ],
+          "bornFE": 183241,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_KEY_ORDER"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1517.383791189537,
+            67035.79728072735,
+            65220.322160807955
+          ],
+          "bornFE": 183248,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_KEY_ORDER"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1571.7285824892208,
+            66659.82650577361,
+            65196.75379912006
+          ],
+          "bornFE": 208380,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "OUTSIDE_RESOURCE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1549.1554396896374,
+            66045.98181564154,
+            65506.176964578066
+          ],
+          "bornFE": 208640,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1506.358846530862,
+            65893.65463652839,
+            65586.58605261866
+          ],
+          "bornFE": 220467,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1489.1135275299162,
+            66826.7232303488,
+            65426.57405335233
+          ],
+          "bornFE": 223315,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_KEY_ORDER"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1565.6696749542048,
+            67217.15421742313,
+            65034.194050876096
+          ],
+          "bornFE": 223416,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1385.435177226848,
+            66478.18406926027,
+            65825.10434006038
+          ],
+          "bornFE": 225203,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1369.2949991138812,
+            65991.35963473002,
+            66007.06962510062
+          ],
+          "bornFE": 233384,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1361.090544688706,
+            65695.1123306136,
+            66031.79994049709
+          ],
+          "bornFE": 233387,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1354.9464146758585,
+            65928.89027231089,
+            66216.57911400353
+          ],
+          "bornFE": 233391,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1565.6696749542048,
+            67028.22047146955,
+            65120.74030106052
+          ],
+          "bornFE": 233397,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1385.435177226848,
+            66424.34046297437,
+            65862.61354469361
+          ],
+          "bornFE": 233806,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1464.6113006373007,
+            66845.20913110842,
+            65504.013242137815
+          ],
+          "bornFE": 233829,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1477.6194469820475,
+            66771.4905786861,
+            65528.895460515116
+          ],
+          "bornFE": 233846,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1464.6113006373007,
+            66840.23299904527,
+            65535.921105668305
+          ],
+          "bornFE": 233877,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1464.6113006373007,
+            66766.19888753694,
+            65548.38790045887
+          ],
+          "bornFE": 233885,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_KEY_ORDER"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1585.5619928736276,
+            67297.20755376204,
+            64978.805471419604
+          ],
+          "bornFE": 233908,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "OUTSIDE_KEY_ORDER"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1584.2522076779044,
+            67176.41524000232,
+            65058.82295756951
+          ],
+          "bornFE": 233911,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "OUTSIDE_KEY_ORDER"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1584.2522076779044,
+            67388.32503797385,
+            65026.143466927395
+          ],
+          "bornFE": 233915,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": true,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1524.4316414840723,
+            66975.85330930736,
+            65154.6162073875
+          ],
+          "bornFE": 233992,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": true,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1385.398005289055,
+            65062.203973258656,
+            66358.64147603944
+          ],
+          "bornFE": 245029,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "OUTSIDE_RESOURCE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1524.4316414840723,
+            66854.79020999368,
+            65214.84661103781
+          ],
+          "bornFE": 248111,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "OUTSIDE_KEY_ORDER",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1565.6696749542048,
+            67567.89831117481,
+            64908.260504977865
+          ],
+          "bornFE": 248156,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": true,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1557.2818065386584,
+            67508.00258370927,
+            64984.65087614026
+          ],
+          "bornFE": 248157,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1565.603476581718,
+            67605.6451321256,
+            64920.34616442759
+          ],
+          "bornFE": 248179,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1537.0593372834926,
+            67485.59318777698,
+            65067.48700734226
+          ],
+          "bornFE": 248197,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1464.6113006373007,
+            66905.86848091753,
+            65464.95501598091
+          ],
+          "bornFE": 248209,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1518.2937763567552,
+            67291.42696152882,
+            65207.75743121561
+          ],
+          "bornFE": 248213,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1513.9896452387438,
+            67399.49754208516,
+            65139.93766553207
+          ],
+          "bornFE": 248220,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1538.9930095835218,
+            67702.39835230939,
+            65058.6820432623
+          ],
+          "bornFE": 248221,
+          "factoryMembership": {
+            "0": "OUTSIDE_RESOURCE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1557.4815746515603,
+            67423.97536283222,
+            64927.50861532931
+          ],
+          "bornFE": 248226,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": true,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1524.4316414840723,
+            67055.42072796682,
+            65088.913065139575
+          ],
+          "bornFE": 248255,
+          "factoryMembership": {
+            "0": "INSIDE",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": true,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        },
+        {
+          "objectives": [
+            1585.1904293264158,
+            67515.47570492954,
+            64885.36856064859
+          ],
+          "bornFE": 249624,
+          "factoryMembership": {
+            "0": "OUTSIDE_KEY_ORDER",
+            "1": "INSIDE",
+            "2": "INSIDE"
+          },
+          "allFactoriesInside": false,
+          "matureDonorsStrictlyDominated": 0,
+          "strictlyDominatedByMatureDonor": false
+        }
+      ]
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "sourceSHA256": "64c286662ab8356b711adb6c0408824efd50b03fb21d89eeb564b1abaebc8040",
+      "beforeSHA256": "7a84e15bdd256d461dff40932dcdb6b3aa7fa11949ca3d58a21fb2ebb8f86179",
+      "count": 0,
+      "inside": 0,
+      "witnessesDominatingAnyMature": 0,
+      "witnesses": []
+    }
+  ],
+  "stage": "Exploratory follow-up to the domain-boundary audit, not a preregistered performance endpoint",
+  "selection": "All same-FA points at the latest already-paid FE checkpoint preceding each of six source states",
+  "limitation": "Existing archive points are not new archive improvements; membership evidence cannot establish a useful history donor mechanism"
+}

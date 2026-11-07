@@ -1,0 +1,60 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "gates": {
+        "originalGain": false,
+        "beyondOwnershipAndTargets": false,
+        "matchedClassic": false,
+        "referenceRobustness": false,
+        "igdAndTail": false,
+        "necessaryCost": true
+      },
+      "pass": false,
+      "medianHVgainPct": {
+        "OFF": 0.0553571556830057,
+        "OWNER_PDDR": 0.7375270993612126,
+        "EQUAL": -0.11335981366866754,
+        "PERMUTE": 0.62328065245979,
+        "NSGA": -0.7827894601002805
+      },
+      "medianSearchCostRatio": {
+        "OFF": 1.0681903516380862,
+        "OWNER_PDDR": 1.0930746696399547,
+        "EQUAL": 1.0799576592053461,
+        "PERMUTE": 0.9076579482982754,
+        "NSGA": 1.0198311004710063
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "gates": {
+        "originalGain": false,
+        "beyondOwnershipAndTargets": false,
+        "matchedClassic": true,
+        "referenceRobustness": false,
+        "igdAndTail": false,
+        "necessaryCost": true
+      },
+      "pass": false,
+      "medianHVgainPct": {
+        "OFF": -1.0545337373069341,
+        "OWNER_PDDR": -0.36311926662160876,
+        "EQUAL": 0.05591142630793633,
+        "PERMUTE": -1.6833169129389924,
+        "NSGA": 2.397316587726861
+      },
+      "medianSearchCostRatio": {
+        "OFF": 0.9681149496719346,
+        "OWNER_PDDR": 1.0472664017747195,
+        "EQUAL": 0.9389171853401554,
+        "PERMUTE": 0.9544322468743136,
+        "NSGA": 1.1680012692488777
+      }
+    }
+  ],
+  "worthFullRegimeDesign": false,
+  "decision": "STOP_FIXED_GENERATION_TASK_ARCHITECTURE",
+  "goalAchieved": false,
+  "noWeightIdealOwnershipLedgerOrSeedRescue": true
+}

@@ -1,0 +1,56 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "naturalSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\natural-regime-bench-20261105-073626-086353",
+  "populationSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\center-population-probe-20261105-080512-453517",
+  "selection": "All paid objective representatives: NAT FULL/NSGA seed12390003 atFE100/5100/500000 andactualT4/5; POP5arms*2seeds atFE5100. Exact4vector dedup perinstance, all references retained, no gain/fatigue-based sampling.",
+  "question": "Which stages and physical cost components dominate the actually reached fronts, and how much can fatigue change later deterministic decoder events?",
+  "physics": "Full dynamic decode must bit-match saved paid objectives and pass validator. Perstage E=baseProcessing+fatigueProcessing+idle, W=baseLabor+fatigueLabor, verify closure. Beta0 changes only beta, keeping alpha/mu/h0 and current append/FIFO/earliest-resource model. Full beta0 decode/validation separately counted; this is samegenome counterfactual, not a beta0 algorithm rerun.",
+  "metrics": "Perstage work/exposure/positivefatigue/inflation>=0.1%; firststage shares, fatiguework E/W andidleE; later dispatchposition/machine/worker changes perjobstage vsbeta0. Medians/quartiles overuniquegenomes andeachsavedcohort. Beta0 effects include downstream reordering/reassignment; directcomponent sums condition on actual dynamic bindings and do not equal counterfactual effects.",
+  "decision": "No automatic new algorithm or paid mechanism promotion. Physical firststage binding/order must be exactly unchanged; decomposition and everypaid record must validate before interpretation. Descriptive patterns can motivate a distinct separately preregistered hypothesis, never relax old gates, filter failed instances, tune beta or resurrect adjoint/delay/commonpool/parentpressure variants.",
+  "cost": "0 newsearchFE. Dynamic fullQA andbeta0 fullcounterfactual calls both counted, all operations inspected. No offline candidate feedback, model changes, production edits, downloads or transfer."
+}

@@ -1,0 +1,210 @@
+{
+  "contract": {
+    "version": "PA_ROLE_SCHEDULE_PILOT-v1",
+    "registered": "2026-11-06",
+    "status": "READY_NOT_EXECUTED",
+    "base": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-first-local-fork-pilot-20261106-094125-457253",
+    "controlSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-capability-20261106-051509-678987",
+    "qpaSource": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+    "engineeringRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-role-schedule-engineering-20261106-101649-310055",
+    "engineeringAuditSHA256": "c39300bc391f5fc3a2ad0717951741d2a61a0a10d4c9d0fb6aced35059f5f348",
+    "instances": [
+      {
+        "stem": "20_8_5_1",
+        "fixedFE": 100000,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1043.2162866718015,
+            51501.80947978115,
+            51219.63655822692
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        },
+        "engineeringFE": 7900
+      },
+      {
+        "stem": "100_2_3_1",
+        "fixedFE": 100000,
+        "normalization": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3338.756452430862,
+            96917.87950306736,
+            76604.02464302634
+          ],
+          "reference": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "source": "max of128 random parents, seeds880000..880127"
+        },
+        "engineeringFE": 39900
+      }
+    ],
+    "seeds": [
+      15610003,
+      15610037
+    ],
+    "privateSeed": 15530003,
+    "modes": [
+      "NATIVE",
+      "TASK_ONLY",
+      "ORDER_ONLY",
+      "FULL",
+      "RANDOM",
+      "CENTER_MATCHED"
+    ],
+    "controls": [
+      "PA_EQUAL",
+      "QPA_DIRECT",
+      "NSGA2_DEEP",
+      "NSGA_CTX_GOM",
+      "FULL_SHARED_DEEP",
+      "LI_RECON_DEEP"
+    ],
+    "arms": [
+      "NATIVE",
+      "TASK_ONLY",
+      "ORDER_ONLY",
+      "FULL",
+      "RANDOM",
+      "CENTER_MATCHED",
+      "PA_EQUAL",
+      "QPA_DIRECT",
+      "NSGA2_DEEP",
+      "NSGA_CTX_GOM",
+      "FULL_SHARED_DEEP",
+      "LI_RECON_DEEP"
+    ],
+    "primary": "FULL",
+    "armDefinitions": {
+      "NATIVE": [
+        "PA_JOINT",
+        "NATIVE"
+      ],
+      "TASK_ONLY": [
+        "PA_JOINT",
+        "TASK_ONLY"
+      ],
+      "ORDER_ONLY": [
+        "PA_JOINT",
+        "ORDER_ONLY"
+      ],
+      "FULL": [
+        "PA_JOINT",
+        "FULL"
+      ],
+      "RANDOM": [
+        "PA_JOINT",
+        "RANDOM"
+      ],
+      "CENTER_MATCHED": [
+        "PA_JOINT",
+        "CENTER_MATCHED"
+      ],
+      "PA_EQUAL": [
+        "PA_EQUAL",
+        "NATIVE"
+      ],
+      "QPA_DIRECT": [
+        "QPA_DIRECT",
+        "NATIVE"
+      ],
+      "NSGA2_DEEP": [
+        "NSGA2_DEEP",
+        "NATIVE"
+      ],
+      "NSGA_CTX_GOM": [
+        "NSGA_CTX_GOM",
+        "NATIVE"
+      ],
+      "FULL_SHARED_DEEP": [
+        "FULL_SHARED_DEEP",
+        "NATIVE"
+      ],
+      "LI_RECON_DEEP": [
+        "LI_RECON_DEEP",
+        "NATIVE"
+      ]
+    },
+    "plannedBridgeFE": 409248,
+    "plannedScientificFE": 4800000,
+    "plannedTotalAttemptedFE": 5209248,
+    "maximumTotalAttemptedFE": 5300000,
+    "criterionByControl": {
+      "TASK_ONLY": "mechanism",
+      "ORDER_ONLY": "mechanism",
+      "RANDOM": "mechanism",
+      "CENTER_MATCHED": "mechanism",
+      "NATIVE": "improvement",
+      "PA_EQUAL": "noninferiority",
+      "QPA_DIRECT": "noninferiority",
+      "NSGA2_DEEP": "noninferiority",
+      "NSGA_CTX_GOM": "noninferiority",
+      "FULL_SHARED_DEEP": "improvement",
+      "LI_RECON_DEEP": "improvement"
+    },
+    "criteria": {
+      "improvement": {
+        "medianHVEffectPct": 1.0,
+        "medianIGDSymmetricWorseningPct": 0.0,
+        "medianCdelta": 0.0,
+        "referenceHVEffectFloor": 0.0,
+        "seedHVEffectFloor": -1.0,
+        "seedIGDWorseningCeiling": 5.0,
+        "seedCdeltaFloor": -0.02
+      },
+      "mechanism": {
+        "medianHVEffectPct": 0.5,
+        "medianIGDSymmetricWorseningPct": 0.0,
+        "medianCdelta": 0.0,
+        "referenceHVEffectFloor": 0.0,
+        "seedHVEffectFloor": -1.0,
+        "seedIGDWorseningCeiling": 5.0,
+        "seedCdeltaFloor": -0.02
+      },
+      "noninferiority": {
+        "medianHVEffectPct": -1.0,
+        "medianIGDSymmetricWorseningPct": 5.0,
+        "medianCdelta": -0.02,
+        "referenceHVEffectFloor": -1.0,
+        "seedHVEffectFloor": -3.0,
+        "seedIGDWorseningCeiling": 10.0,
+        "seedCdeltaFloor": -0.05
+      }
+    },
+    "hypothesis": "Current objective-ranked responsibilities plus grouped receiver traversal improve complete ordinary PA beyond fixed-lineage roles, either factor alone, random grouping, and matched-traversal CENTER. Test this specific semantic transfer, not rescue stopped first-local PRE fork or claim the original framework never regrouped.",
+    "intervention": "Only two accepted hooks: before each original PA REENCODING replace role metadata according to native stable objective partition; during MIXING use that partition visit order. Population storage, physical genome/point/id/paidFE, reencoder/model row order, donor index space/live donors, full FOS, accept, physics, archive unchanged. Original four-role quotas M/C/E/W=15/55/15/15. Random grouping uses private Fisher-Yates stream15530003 continuous per JVM, not main RNG.",
+    "bridges": "Twelve role light runs reproduce accepted two-generation engineering paidSHA/front and supplied initial vectors; six controls x two instances x old/new wrappers x5102FE reproduce full paidSHA/front and canonical random initial vectors. All409248FE charged before science; no quality inspection until whole48-run science matrix complete.",
+    "metricContext": "Same128-parent frozen scales, HV reference1.25/1.5/2.0; IGD+ empirical ND union all12 arms and both seeds per instance endpoint; exact weak bidirectional C on deduplicated objective vectors, both covered counts and denominators. All joint thresholds and seed floors required; no HV voting.",
+    "qualification": "All registered comparisons on both instances required; FULL is the only primary. Other arms remain descriptive controls, not substitute winners. 100k-only prospective pilot, not500k or sameTIME. Fixed FULL failure stops this version: no regroup frequency/quota/score/weight/seed/horizon rescue. All previous stops retained.",
+    "fees": "Every initialization/global/local/noop/fallback attempted evaluation charged; attempted=successful=actual DynamicEvaluation count=100000 and0fail. All arms auditPaid=true, constructors/model/copy/archive/helper observation inside real search clock. Checkpoint full-timeline QA after search counted separately; science does not claim every paid candidate full QA. No sameTIME inference from FE-only elapsed times.",
+    "resourceProfile": "Single sequential JVM Xms32m Xmx2g, one-thread numerical postprocessing; no parallel search, no remote transfer. Engineering uses existing supplied vectors/seed13630003 and is not new-seed performance.",
+    "scope": "Ordinary complete-PA foundation only; original QGS/fixed-FA families/conditional sharing not integrated in candidate. Mature objective grouping is not novel by name. A positive pilot would only permit a separate architecture/integration protocol and subsequent full-budget/TIME/held-out and independent role/sharing tests.",
+    "failure": "Retain failures, real used FE and last valid front. Only documented mechanical corrections within remaining cap, no overwrite/reseed or outcome-driven rerun.",
+    "defaultMainlineChanged": false,
+    "externalTransfers": false,
+    "goalAchieved": false
+  },
+  "contractSHA256": "c6e554d5a8df6c81d85fa2b64290f61e8c2580cdd2954e2398a94a52fd0627c4",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

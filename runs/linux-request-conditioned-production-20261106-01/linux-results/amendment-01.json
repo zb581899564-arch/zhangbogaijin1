@@ -1,0 +1,25 @@
+{
+  "version": "REQUEST_PRODUCTION_AMENDMENT-01",
+  "probeFEAtAmendment": 0,
+  "reason": "Every source starts mature phase at the same request cycle; first-four policy unintentionally excludes all tight0.9 requests",
+  "evidence": "request-audit.json preserves all 600 real requests and the 24 original selected contexts; inputs/ preserved",
+  "selectionBasis": "Actual cycle metadata only, not feasibility, gains, fronts, or candidate outcomes",
+  "requestCycles": [
+    0,
+    4,
+    8
+  ],
+  "selection": "First occurrence of each cycle in original selected family; no replacement if absent",
+  "inputDirectory": "inputs-v2",
+  "requestsPerSource": 3,
+  "scienceRuns": 72,
+  "scienceFE": 36864,
+  "effectiveShuffle": "Cyclic next among these three historical requests, all known at common POST_GLOBAL barrier",
+  "sourceNewFEChange": 0,
+  "instancesChanged": false,
+  "seedsChanged": false,
+  "unchanged": "Original cap values, eta values, algorithm, acceptance, selector, FE512 perarm, metrics and thresholds",
+  "aggregation": "Median request-paired effects within each source seed, then median/range/signs across three seeds",
+  "costReduction": 12288,
+  "limitation": "Three sampled request regimes per source; not complete nine-grid or general online evidence"
+}

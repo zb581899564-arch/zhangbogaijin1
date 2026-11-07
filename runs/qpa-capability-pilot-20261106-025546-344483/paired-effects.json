@@ -1,0 +1,442 @@
+[
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_JOINT",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 2.2344887996876395,
+      "1.5": 1.2327418326668171,
+      "2.0": 0.6243110893441983
+    },
+    "IGDplusSymmetricWorseningPct": -121.96256600544817,
+    "coverage": {
+      "C_A_B": 0.9287211740041929,
+      "C_B_A": 0.006514657980456026,
+      "coveredB": 443,
+      "totalB": 477,
+      "coveredA": 2,
+      "totalA": 307,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_JOINT",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 2.2733240504161145,
+      "1.5": 1.6016495445644097,
+      "2.0": 1.0253654992368633
+    },
+    "IGDplusSymmetricWorseningPct": -47.008864140230756,
+    "coverage": {
+      "C_A_B": 0.7674943566591422,
+      "C_B_A": 0.10914454277286136,
+      "coveredB": 340,
+      "totalB": 443,
+      "coveredA": 37,
+      "totalA": 339,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_EQUAL",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 1.8156573730022885,
+      "1.5": 1.1828222967604773,
+      "2.0": 0.7100007885206816
+    },
+    "IGDplusSymmetricWorseningPct": -108.40150818418105,
+    "coverage": {
+      "C_A_B": 0.8149038461538461,
+      "C_B_A": 0.05537459283387622,
+      "coveredB": 339,
+      "totalB": 416,
+      "coveredA": 17,
+      "totalA": 307,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_EQUAL",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 1.7990360907216951,
+      "1.5": 1.2517414916041192,
+      "2.0": 0.7858901084645264
+    },
+    "IGDplusSymmetricWorseningPct": -39.11397036322572,
+    "coverage": {
+      "C_A_B": 0.6548323471400395,
+      "C_B_A": 0.1710914454277286,
+      "coveredB": 332,
+      "totalB": 507,
+      "coveredA": 58,
+      "totalA": 339,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "NSGA2_DEEP",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 3.6059244402989465,
+      "1.5": 2.630130934987851,
+      "2.0": 1.7061609342255313
+    },
+    "IGDplusSymmetricWorseningPct": -121.08275815260382,
+    "coverage": {
+      "C_A_B": 0.48,
+      "C_B_A": 0.2768729641693811,
+      "coveredB": 144,
+      "totalB": 300,
+      "coveredA": 85,
+      "totalA": 307,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "NSGA2_DEEP",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 3.6703641090722883,
+      "1.5": 2.455989262019931,
+      "2.0": 1.5075334526256645
+    },
+    "IGDplusSymmetricWorseningPct": -72.43072111030592,
+    "coverage": {
+      "C_A_B": 0.5714285714285714,
+      "C_B_A": 0.1592920353982301,
+      "coveredB": 204,
+      "totalB": 357,
+      "coveredA": 54,
+      "totalA": 339,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "FULL_SHARED_DEEP",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 8.817179825601439,
+      "1.5": 6.146690057620896,
+      "2.0": 3.8719581520642254
+    },
+    "IGDplusSymmetricWorseningPct": -161.6327284555705,
+    "coverage": {
+      "C_A_B": 0.8817733990147784,
+      "C_B_A": 0.016286644951140065,
+      "coveredB": 179,
+      "totalB": 203,
+      "coveredA": 5,
+      "totalA": 307,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "FULL_SHARED_DEEP",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 5.942852982061941,
+      "1.5": 3.823751724234614,
+      "2.0": 2.270661254599471
+    },
+    "IGDplusSymmetricWorseningPct": -132.5205965738152,
+    "coverage": {
+      "C_A_B": 0.8953168044077136,
+      "C_B_A": 0.0,
+      "coveredB": 325,
+      "totalB": 363,
+      "coveredA": 0,
+      "totalA": 339,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "LI_RECON_DEEP",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 12.485969410484676,
+      "1.5": 8.267808759828842,
+      "2.0": 5.003508353875641
+    },
+    "IGDplusSymmetricWorseningPct": -176.04947443963823,
+    "coverage": {
+      "C_A_B": 1.0,
+      "C_B_A": 0.0,
+      "coveredB": 127,
+      "totalB": 127,
+      "coveredA": 0,
+      "totalA": 307,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "20_8_5_1",
+    "A": "QPA_DIRECT",
+    "B": "LI_RECON_DEEP",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 10.93263280749024,
+      "1.5": 7.607857830510811,
+      "2.0": 4.823596766679561
+    },
+    "IGDplusSymmetricWorseningPct": -151.75383634959087,
+    "coverage": {
+      "C_A_B": 0.9935275080906149,
+      "C_B_A": 0.0,
+      "coveredB": 307,
+      "totalB": 309,
+      "coveredA": 0,
+      "totalA": 339,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_JOINT",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": -3.689765817164803,
+      "1.5": -2.4205138510760893,
+      "2.0": -1.4399430987125483
+    },
+    "IGDplusSymmetricWorseningPct": 109.5659580399635,
+    "coverage": {
+      "C_A_B": 0.04708798017348203,
+      "C_B_A": 0.8547105561861521,
+      "coveredB": 76,
+      "totalB": 1614,
+      "coveredA": 753,
+      "totalA": 881,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_JOINT",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": -5.682259062876693,
+      "1.5": -3.6956226532474323,
+      "2.0": -2.1879129977600664
+    },
+    "IGDplusSymmetricWorseningPct": 152.00790753084655,
+    "coverage": {
+      "C_A_B": 0.0057273768613974796,
+      "C_B_A": 0.936965811965812,
+      "coveredB": 10,
+      "totalB": 1746,
+      "coveredA": 877,
+      "totalA": 936,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_EQUAL",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": -5.770007033118363,
+      "1.5": -3.8767894087114674,
+      "2.0": -2.3700839203516177
+    },
+    "IGDplusSymmetricWorseningPct": 178.46923461041808,
+    "coverage": {
+      "C_A_B": 0.0,
+      "C_B_A": 0.9875141884222475,
+      "coveredB": 0,
+      "totalB": 1599,
+      "coveredA": 870,
+      "totalA": 881,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "PA_EQUAL",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": -6.1103118920671,
+      "1.5": -4.1853095528151645,
+      "2.0": -2.619636383700119
+    },
+    "IGDplusSymmetricWorseningPct": 162.40754755447082,
+    "coverage": {
+      "C_A_B": 0.0,
+      "C_B_A": 0.9839743589743589,
+      "coveredB": 0,
+      "totalB": 1827,
+      "coveredA": 921,
+      "totalA": 936,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "NSGA2_DEEP",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 17.06452941939989,
+      "1.5": 12.282393593950026,
+      "2.0": 8.07478558595034
+    },
+    "IGDplusSymmetricWorseningPct": -62.98206581699549,
+    "coverage": {
+      "C_A_B": 0.5203836930455635,
+      "C_B_A": 0.13393870601589103,
+      "coveredB": 217,
+      "totalB": 417,
+      "coveredA": 118,
+      "totalA": 881,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "NSGA2_DEEP",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 12.971784322059676,
+      "1.5": 9.658547183881394,
+      "2.0": 6.55139444943682
+    },
+    "IGDplusSymmetricWorseningPct": -35.356370860035774,
+    "coverage": {
+      "C_A_B": 0.25206611570247933,
+      "C_B_A": 0.21047008547008547,
+      "coveredB": 122,
+      "totalB": 484,
+      "coveredA": 197,
+      "totalA": 936,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "FULL_SHARED_DEEP",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 13.674479925571049,
+      "1.5": 10.115948840777511,
+      "2.0": 6.801336684680237
+    },
+    "IGDplusSymmetricWorseningPct": -50.36651716150588,
+    "coverage": {
+      "C_A_B": 0.35845896147403683,
+      "C_B_A": 0.16685584562996594,
+      "coveredB": 214,
+      "totalB": 597,
+      "coveredA": 147,
+      "totalA": 881,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "FULL_SHARED_DEEP",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 15.345276588545609,
+      "1.5": 11.133552683168556,
+      "2.0": 7.376076767509887
+    },
+    "IGDplusSymmetricWorseningPct": -32.22446787661606,
+    "coverage": {
+      "C_A_B": 0.3045267489711934,
+      "C_B_A": 0.16666666666666666,
+      "coveredB": 148,
+      "totalB": 486,
+      "coveredA": 156,
+      "totalA": 936,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "LI_RECON_DEEP",
+    "seed": 14730003,
+    "HVEffectPct": {
+      "1.25": 10.914604645702642,
+      "1.5": 8.756985021077735,
+      "2.0": 6.255301923362744
+    },
+    "IGDplusSymmetricWorseningPct": -51.87158944091331,
+    "coverage": {
+      "C_A_B": 0.184070796460177,
+      "C_B_A": 0.28036322360953464,
+      "coveredB": 104,
+      "totalB": 565,
+      "coveredA": 247,
+      "totalA": 881,
+      "sharedObjectiveVectors": 0
+    }
+  },
+  {
+    "phase": "FE500K",
+    "instance": "100_2_3_1",
+    "A": "QPA_DIRECT",
+    "B": "LI_RECON_DEEP",
+    "seed": 14730037,
+    "HVEffectPct": {
+      "1.25": 11.99010357347401,
+      "1.5": 9.56336941151128,
+      "2.0": 6.80927916040952
+    },
+    "IGDplusSymmetricWorseningPct": -41.32051492493308,
+    "coverage": {
+      "C_A_B": 0.4013761467889908,
+      "C_B_A": 0.202991452991453,
+      "coveredB": 175,
+      "totalB": 436,
+      "coveredA": 190,
+      "totalA": 936,
+      "sharedObjectiveVectors": 0
+    }
+  }
+]

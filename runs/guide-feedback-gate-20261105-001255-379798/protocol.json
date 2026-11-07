@@ -1,0 +1,176 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9850003,
+  "methods": {
+    "GEN": [
+      "GEN",
+      "SHARE_JOB_ALIGNED"
+    ],
+    "BATCH": [
+      "BATCH",
+      "SHARE_JOB_ALIGNED"
+    ],
+    "ROLE_END": [
+      "ROLE_END",
+      "SHARE_JOB_ALIGNED"
+    ],
+    "BATCH_SYNC": [
+      "BATCH",
+      "SYNC_JOB_ALIGNED"
+    ],
+    "BATCH_UNIFORM": [
+      "BATCH",
+      "SHARE_JOB_ALIGNED_UNIFORM"
+    ],
+    "FORCE": [
+      "GEN",
+      "SHARE_JOB_ALIGNED"
+    ],
+    "NSGA": [
+      "GEN",
+      "NSGA2_4V"
+    ],
+    "LI_MATCHED_DEEP": [
+      "GEN",
+      "BASELINE"
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "GEN"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "BATCH"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "ROLE_END"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "BATCH_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "BATCH_UNIFORM"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9850003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "BATCH"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "ROLE_END"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "BATCH_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "BATCH_UNIFORM"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "FORCE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9850003,
+      "arm": "GEN"
+    }
+  ],
+  "candidate": "BATCH",
+  "basis": "guide-feedback-probe-20261105-001115-004809 passed pre-fixed global-stage gate, four paired HV wins; new seed here.",
+  "changed": "Only earlier internal Pareto offers of accepted current states after each QGS batch. Original generation-end history offers remain. No rejected child is promoted by the new rule. Original Q actions/feedback, proposals, fixed families, cap/eta, shared pool and local ledger unchanged.",
+  "controls": "GEN original timing with ROLE_CROWD; ROLE_END refresh at each role end; BATCH_SYNC no composition; BATCH_UNIFORM all four preferences CENTER but Q table retained; FORCE original global current survival; correct Li v2 and NSGA-II both with matched deep local search.",
+  "recording": "Full-genome guide provenance disabled for performance. Trace-disabled observer only tracks current FE; refresh cost remains in search clock.",
+  "gate": "Both instances BATCH >=1% vs GEN, >0 vs ROLE_END/SYNC/UNIFORM/FORCE/Li, >=-1% vs matched NSGA-II. Direction vs GEN unchanged at references1.25/2. Failure ends this timing variant without scanning intervals or seeds to rescue it.",
+  "actualFEPerCell": 500000,
+  "searchFE": 8000000,
+  "engineeringFE": 500000,
+  "timeScope": "Shared time cuts exploratory; genuine independent TIME_LIMIT runs still required for a same-time superiority claim.",
+  "scope": "Fresh-seed development gate, not independent confirmation, paper originality or original-author score reproduction."
+}

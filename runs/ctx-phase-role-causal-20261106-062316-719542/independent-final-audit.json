@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "seed": 14910003,
+      "arm": "NATIVE",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910003,
+      "arm": "RR",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910003,
+      "arm": "RC",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910003,
+      "arm": "CR",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910003,
+      "arm": "CC",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910037,
+      "arm": "NATIVE",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910037,
+      "arm": "RR",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910037,
+      "arm": "RC",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910037,
+      "arm": "CR",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    },
+    {
+      "seed": 14910037,
+      "arm": "CC",
+      "tenCyclesPhysicalViewsAndSurvivalExact": true,
+      "firstNineCohortsEqual": true,
+      "effectivePhaseRoleCountsExact": true
+    }
+  ],
+  "maximumIndependentHVError": 1.3322676295501878e-15,
+  "allScalarIGDAndCoveredCountsAgree": true,
+  "defaultProtectedSourcesUnchanged": true,
+  "newSearchFE": 0,
+  "newDecoderCalls": 0
+}

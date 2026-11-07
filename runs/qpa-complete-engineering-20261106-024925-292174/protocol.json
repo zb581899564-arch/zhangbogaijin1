@@ -1,0 +1,69 @@
+{
+  "prospectiveContract": {
+    "version": "QPA_CANONICAL_FIXED100_NOFI_ENGINEERING-v1",
+    "registered": "2026-11-06",
+    "status": "READY_TO_IMPLEMENT_NOT_EXECUTED",
+    "scope": "Complete ordinary direct-permutation/assignment optimizer engineering only; no performance, contribution or mainline promotion",
+    "sourceCommit": "5eda0bad76d1cb109a45d61d40aad5b93c367496",
+    "sourcePresets": [
+      "src/problems/PFS/run_single_taillard_per_cat_eval_limit_focusrrg.jl:100,112",
+      "src/problems/PFS/run_exp_taillard_total_flow_per_cat_eval_limit_qgom_3.jl:91,103"
+    ],
+    "sourceMeaning": "These available PFS scripts explicitly use qGOMEA forced_improvement=:none; not proof of the exact final published campaign. Do not impose function-default FI as mandatory in this selected preset",
+    "protected": "Original four-role/QGS/families/conditional-sharing default, all raw materials and stopped runs remain unchanged",
+    "problem": "Same qualified dynamic-fatigue chapter4 decoder, Cmax/TEC/TWC, SUT/standby/first-stage controls; no waiting or later-stage freedom",
+    "representation": "DirectScheduleGenome: by-job complete legal FMW and exact global inverse permutation. Preserve original global interleaving; non-redundant in the permutation only, not a physically unique schedule",
+    "population": 100,
+    "initialization": "Same PaInitialBridge and guarded create/evaluate order as the common PA/NSGA controls; all100 actual evaluations charged. Use fresh canonical shared initialization for engineering, compare oldPA first100",
+    "roles": "15makespan/55CENTER/15energy/15labor, fixed owner roles. Boundary ordinary accepts <= own objective as native non-worse SO rule; CENTER weakPareto OR not dominated by exact old internal archive. This differs from oldPA strict boundaries and must be separately controlled before causal/performance claims",
+    "model": "Author default mean absolute direct-position distance. Normalize to affinity=1-sumAbs/(population*(N-1)); use mathematically correct existing canonical average-linkage and deterministic lex ties, not the native UPGMA typo/global-RNG behavior. Explicit reconstruction, not author runtime equivalence",
+    "activeFOS": "All canonical hierarchy masks with size < rint((N/12.0)*10.0), matching active source threshold and ties-to-even rounding; current qualified N>=20. No root or large-mask hidden addition",
+    "donors": "Snapshot all100 parents at generation start, including possible self-donor. One uniform parent donor per mask, retained for its two phases; offspring cannot become current-generation donors. Commit all100 program exits synchronously",
+    "program": "For each working receiver, shuffle activeFOS using common seeded RNG; per mask, phase1 differential-position/OX with uniform selected reference, then phase2 selected relative order. Both phases copy the selected jobs' complete FMW; leave other tuples attached to owners. The second phase uses the first phase result only if accepted",
+    "jointExtension": "Both mask phases copy full FMW, including singleton order masks which may change resources. This extends permutation-only native behavior; it is not a bug fix or claimed original qGOMEA",
+    "nativeSkipAdaptation": "Do not import native pre/post no-op evaluation skips into this strict attempt contract. Each generated phase attempt, including duplicate, equal, rootless singleton identity and missing-factory fallback, is evaluated/charged once. No free repair, resampling or latent full evaluations",
+    "failureHandling": "Missing-factory candidate falls back to unchanged actual working parent, remains a paid phase attempt. All other illegal representations fail engineering with retained receipts/logs",
+    "FI": "Disabled in this selected available author PFS preset; no extra elitist copy, stagnation trigger or multi-pbest. A later FI experiment would require its own protocol",
+    "IMS": "Original IMS replaced by fixed common100 to match shared initial/budget conditions; explicit adaptation, not source reproduction",
+    "output": "Common exact unbounded all-successful-evaluation result archive, including rejected/duplicate paid attempts; internal working archive separately observed. No free public-pool import",
+    "engineering": {
+      "instances": [
+        "20_8_5_1",
+        "100_2_3_1"
+      ],
+      "seed": 14670003,
+      "main": "Exactly2 complete generations per instance; full timeline QA of every paid point, independent integer child and acceptance/archive/source-id reconstruction",
+      "cutoffs": [
+        1,
+        2,
+        100,
+        101,
+        102,
+        "actualTwoGenerationLastFE-1"
+      ],
+      "cutoffChecks": "Every cutoff paid digest is the exact full-run prefix, 1/2/last accounting exact; stop before constructing a next unpaid candidate. Cover initialization, phase1, phase2 and final-program cutoff",
+      "initialParity": "OldPA common entry stops at100 per instance; raw initial fourvectors/objectives and paid digest match new100 initialization",
+      "maximumMainFE": {
+        "20_8_5_1": 15300,
+        "100_2_3_1": 79300
+      },
+      "upperBoundDerivation": "At most2N-2active masks, 2phases*100owners*2generations plus100initial. Main+sixcutoffs <=2*main+305 perinstance. Add2*100oldPAparity",
+      "maximumActualSearchFE": 190010,
+      "zeroFailuresRequired": true,
+      "QACharges": "All full QA decodes separate, never enter result/model/acceptance or advance working RNG"
+    },
+    "implementation": "New direct-kernel/evaluator/population/evidence modules and isolated entry; leave legacy PaPopulation and common default Java sources unchanged. Split responsibilities, no large combined class",
+    "acceptance": "All engineering checks and declared class identities must pass; any failure retains full log, spent FE and last valid front, no seed swap. No scientific comparisons until accepted",
+    "futureComparison": "Only after engineering, separately freeze complete-method three-indicator same-FE/real-time comparison with oldPA, a PA equal-boundary control, strong deep NSGA, old sharing and Li sourced reconstruction. Any four-role/shared contribution still needs ablations; old negative decisions remain",
+    "goalAchieved": false
+  },
+  "contractSHA256": "cecd0620ebe654d73e2a22820f8fce875ac94fe5c24689da65125f1948098ff4",
+  "observerCost": "Every paid full QA and evidence included; engineering timings are not performance",
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  },
+  "externalTransfers": false,
+  "goalAchieved": false
+}

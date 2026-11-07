@@ -1,0 +1,35 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "windows": 6,
+      "gates": {
+        "localContextCapacity": false,
+        "novelAssignmentCapacity": false
+      },
+      "passedWindows": {
+        "localContextCapacity": 2,
+        "novelAssignmentCapacity": 0
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "windows": 6,
+      "gates": {
+        "localContextCapacity": false,
+        "novelAssignmentCapacity": false
+      },
+      "passedWindows": {
+        "localContextCapacity": 0,
+        "novelAssignmentCapacity": 0
+      }
+    }
+  ],
+  "worthObjectivePotentialQA": {
+    "localContextCapacity": false,
+    "novelAssignmentCapacity": false
+  },
+  "searchFE": 0,
+  "decoderCalls": 0,
+  "algorithmImplemented": false
+}

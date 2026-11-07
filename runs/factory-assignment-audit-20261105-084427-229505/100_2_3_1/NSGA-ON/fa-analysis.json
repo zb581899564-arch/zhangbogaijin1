@@ -1,0 +1,158 @@
+{
+  "stem": "100_2_3_1",
+  "method": "NSGA",
+  "successfulFE": 500000,
+  "actualFAChangedFE": 5002,
+  "FAChangedPctOfPostInitialFE": 1.000600120024005,
+  "FAChangedSequentialHVIncrement": 0.10575144780656914,
+  "initialHV": 0.43659854972733225,
+  "finalHV": 0.749950949880419,
+  "postInitialHVIncrement": 0.31335240015308674,
+  "FAChangedShareOfPostInitialHVIncrementPct": 33.74840842288261,
+  "interAcceptedFAChanges": 51,
+  "counters": {
+    "initialization/NONE/FREE/INITIAL": {
+      "successfulFE": 100,
+      "admissions": 28,
+      "novelFA": 84
+    },
+    "global/NONE/FREE/FA_CHANGED": {
+      "successfulFE": 4774,
+      "novelFA": 4761,
+      "rawFAIntentFE": 4774,
+      "changedJobsTotal": 102885,
+      "admissions": 295
+    },
+    "global/NONE/FREE/FA_SAME": {
+      "successfulFE": 226,
+      "admissions": 72
+    },
+    "inter/MAKESPAN/FREE/FA_CHANGED": {
+      "successfulFE": 43,
+      "novelFA": 42,
+      "rawFAIntentFE": 43,
+      "changedJobsTotal": 68,
+      "interAccepted": 10
+    },
+    "intra/MAKESPAN/FREE/FA_SAME": {
+      "successfulFE": 56675,
+      "admissions": 1078
+    },
+    "inter/CENTER/FREE/FA_CHANGED": {
+      "successfulFE": 152,
+      "admissions": 3,
+      "novelFA": 151,
+      "rawFAIntentFE": 152,
+      "changedJobsTotal": 236,
+      "interAccepted": 29
+    },
+    "intra/CENTER/FREE/FA_SAME": {
+      "successfulFE": 355152,
+      "admissions": 5465
+    },
+    "inter/ENERGY/FREE/FA_CHANGED": {
+      "successfulFE": 33,
+      "novelFA": 33,
+      "rawFAIntentFE": 33,
+      "changedJobsTotal": 55,
+      "interAccepted": 12
+    },
+    "intra/ENERGY/FREE/FA_SAME": {
+      "successfulFE": 82845,
+      "admissions": 2387
+    }
+  },
+  "sequentialHVCredits": {
+    "initialization/NONE/FREE/INITIAL": 0.43659854972733225,
+    "global/NONE/FREE/FA_CHANGED": 0.10574973703282381,
+    "global/NONE/FREE/FA_SAME": 0.005329196831565131,
+    "intra/MAKESPAN/FREE/FA_SAME": 0.013452715515090752,
+    "inter/CENTER/FREE/FA_CHANGED": 1.7107737453336824e-06,
+    "intra/CENTER/FREE/FA_SAME": 0.160951567171555,
+    "intra/ENERGY/FREE/FA_SAME": 0.027867472828306705
+  },
+  "independentRealFrontHVChecks": [
+    {
+      "admissionOrdinal": 0,
+      "frontSize": 1,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 257,
+      "frontSize": 54,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 514,
+      "frontSize": 109,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 771,
+      "frontSize": 145,
+      "maxAbsoluteError": 3.3306690738754696e-16
+    },
+    {
+      "admissionOrdinal": 1028,
+      "frontSize": 147,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 1285,
+      "frontSize": 202,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 1542,
+      "frontSize": 159,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 1799,
+      "frontSize": 152,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 2056,
+      "frontSize": 150,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 2313,
+      "frontSize": 222,
+      "maxAbsoluteError": 5.551115123125783e-16
+    },
+    {
+      "admissionOrdinal": 2570,
+      "frontSize": 209,
+      "maxAbsoluteError": 4.440892098500626e-16
+    },
+    {
+      "admissionOrdinal": 2827,
+      "frontSize": 150,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 3084,
+      "frontSize": 142,
+      "maxAbsoluteError": 3.3306690738754696e-16
+    },
+    {
+      "admissionOrdinal": 3341,
+      "frontSize": 152,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 3598,
+      "frontSize": 205,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 3855,
+      "frontSize": 200,
+      "maxAbsoluteError": 2.220446049250313e-16
+    }
+  ],
+  "uniquePaidAssignments": 5071,
+  "scope": "Sequential successful-admission attribution, conditional on actual history. FA_CHANGED may also alter JS/resources; no isolated causal payoff, same-time comparison or budget intervention."
+}

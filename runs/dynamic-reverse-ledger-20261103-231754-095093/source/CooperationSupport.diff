@@ -1,0 +1,23 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\algorithms\cooperation\CooperationSupport.java
++++ CooperationSupport.java
+@@ -118,7 +118,9 @@
+     }
+     private FactoryRecord factoryRecord(DynamicSchedule schedule, int factory, PermutationSolution<Integer> value,
+             String stage, Direction direction) {
+-        if (timing == null && nightSuccessful == null) return new FactoryRecord(schedule, factory);
++        if (timing == null && nightSuccessful == null)
++            return new FactoryRecord(schedule, factory, org.uma.jmetal.util.research.search.ReverseAudit.run().fe(), generation, stage,
++                    direction == null ? "INITIALIZATION" : direction.name());
+         long fee = timing == null ? nightSuccessful.getAsLong() : SemanticAudit.paidSnapshotFE(value);
+         long gen = timing == null ? generation : timing.generation();
+         String producer = direction != null ? direction.name() : stage.equals("initialization") ? "INITIALIZATION" : "CONTEXT_RENEWAL";
+@@ -186,6 +188,9 @@
+         count("assembliesProposed"); nanos += System.nanoTime() - start; return child;
+     }
+     private void observeRequest(PermutationSolution<Integer> parent, int family, int cycle, double cap, double eta, String outcome) {
++        ReversePoolSnapshots.capture(pools[family], parent,
++                (DynamicSchedule) parent.getAttribute(DynamicEvaluation.KEY),
++                family, cycle, cap, eta, energyScale, wageScale, outcome);
+         if (evidence == null) return;
+         evidence.request(pools[family], parent, (DynamicSchedule) parent.getAttribute(DynamicEvaluation.KEY),
+                 family, cycle, cap, eta, energyScale, wageScale, timing.generation(), timing.currentFE(), outcome);

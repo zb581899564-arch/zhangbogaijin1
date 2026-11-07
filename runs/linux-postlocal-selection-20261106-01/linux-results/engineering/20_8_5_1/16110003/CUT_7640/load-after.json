@@ -1,0 +1,25 @@
+{
+  "epoch": 1793956114.6176655,
+  "load": [
+    0.66,
+    0.36,
+    0.26
+  ],
+  "memory": "MemTotal:       131643232 kB\nMemFree:        115286868 kB\nMemAvailable:   123811560 kB\nBuffers:          250844 kB\nCached:          9128164 kB\nSwapCached:            0 kB\nActive:          4932256 kB\nInactive:        6788236 kB\nActive(anon):       3612 kB\nInactive(anon):  2513496 kB\nActive(file):    4928644 kB\nInactive(file):  4274740 kB\nUnevictable:           4 kB\nMlocked:               4 kB\nSwapTotal:      134217724 kB\nSwapFree:       134217724 kB\nDirty:             48124 kB\nWriteback:             0 kB\nAnonPages:       2341668 kB\nMapped:           975024 kB\nShmem:            175612 kB\nKReclaimable:     322136 kB\nSlab:             793772 kB\nSReclaimable:     322136 kB\nSUnreclaim:       471636 kB\nKernelStack:       25200 kB\nPageTables:        33112 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    200039340 kB\nCommitted_AS:   11491512 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      301020 kB\nVmallocChunk:          0 kB\nPercpu:            62976 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      779112 kB\nDirectMap2M:    13545472 kB\nDirectMap1G:    121634816 kB\n",
+  "processes": [
+    "    PID USER     %CPU %MEM COMMAND",
+    "   2757 whoopsie  7.5  0.0 whoopsie",
+    " 262782 inspur    5.0  0.0 python",
+    "   1187 root      2.8  0.0 polkitd",
+    " 262783 inspur    2.0  0.0 curl",
+    "   2753 root      1.8  0.0 ToDesk_Service",
+    " 262677 root      1.5  0.0 sshd",
+    "   1164 message+  1.0  0.0 dbus-daemon",
+    "   1623 inspur    1.0  0.0 easytier-core",
+    " 262003 inspur    1.0  0.0 python",
+    "   3775 systemd+  0.9  0.0 mongod",
+    " 262588 root      0.8  0.0 sshd",
+    "   1312 root      0.7  0.4 devpi-server",
+    "   1166 root      0.6  0.0 NetworkManager"
+  ]
+}

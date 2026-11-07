@@ -1,0 +1,32 @@
+{
+  "instance": "20_2_3_1",
+  "seed": 8111009,
+  "actualFEPerArm": 500000,
+  "order": [
+    "FORCE",
+    "ROLE_GREEDY",
+    "DOM_GUARD",
+    "NSGA"
+  ],
+  "evidence": "Forced global steps include parent-dominated children. Prior local-launch quality improvements did not survive to the endpoint. Test global transition instead of local restart.",
+  "scope": "All four roles, Q settings, proposals, family guards, sharing and fixed deep-LS ledger retained. DOM_GUARD only rejects child current when parent dominates; ROLE_GREEDY uses existing strict role comparison against the original batch reference; all successful children remain in paid result archive.",
+  "gate": "DOM_GUARD >=1% terminal HV over FORCE, positive vs ROLE_GREEDY, no worse than -1% vs matched NSGA. Otherwise end the safeguard rule, without changing rates or seeds to rescue.",
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      695.2261449928639,
+      17774.143805827265,
+      16014.26252051863
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  }
+}

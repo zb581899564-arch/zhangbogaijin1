@@ -1,0 +1,432 @@
+{
+  "passed": true,
+  "contexts": [
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110003,
+      "family": 0,
+      "requestCount": 100,
+      "categories": {
+        "no-cap-gap": 70,
+        "multiple-factory-cap-gap": 9,
+        "single-factory-cap-gap": 21
+      },
+      "sampled": [
+        {
+          "request": 2915,
+          "family": 0,
+          "cycle": 8,
+          "paidFE": 257068,
+          "outcome": "PROPOSED",
+          "cap": 802.7087894659707,
+          "eta": 4.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            729.7352631508824,
+            44803.30035533813,
+            47884.00454147075
+          ]
+        },
+        {
+          "request": 2920,
+          "family": 0,
+          "cycle": 0,
+          "paidFE": 257179,
+          "outcome": "INFEASIBLE",
+          "cap": 656.7617368357942,
+          "eta": 0.0,
+          "missingFactories": [
+            4
+          ],
+          "missingCount": 1,
+          "category": "single-factory-cap-gap",
+          "combinedObjectives": null
+        },
+        {
+          "request": 2936,
+          "family": 0,
+          "cycle": 4,
+          "paidFE": 257619,
+          "outcome": "PROPOSED",
+          "cap": 728.4441297959006,
+          "eta": 1.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            726.9229943647748,
+            44382.54186197863,
+            48234.652722086124
+          ]
+        }
+      ],
+      "contexts": [
+        "inputs-v2/20_8_5_1/16110003/0",
+        "inputs-v2/20_8_5_1/16110003/1",
+        "inputs-v2/20_8_5_1/16110003/2"
+      ],
+      "allRequestTimeArchivesExact": true,
+      "independentNewSearchFE": 0,
+      "independentNewDecodes": 0
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110037,
+      "family": 1,
+      "requestCount": 100,
+      "categories": {
+        "no-cap-gap": 66,
+        "single-factory-cap-gap": 34
+      },
+      "sampled": [
+        {
+          "request": 2916,
+          "family": 1,
+          "cycle": 8,
+          "paidFE": 257069,
+          "outcome": "PROPOSED",
+          "cap": 870.1135213983041,
+          "eta": 4.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            806.8699559419001,
+            45012.98550007621,
+            48481.264007473284
+          ]
+        },
+        {
+          "request": 2920,
+          "family": 1,
+          "cycle": 0,
+          "paidFE": 257179,
+          "outcome": "INFEASIBLE",
+          "cap": 726.1829603477102,
+          "eta": 0.0,
+          "missingFactories": [
+            4
+          ],
+          "missingCount": 1,
+          "category": "single-factory-cap-gap",
+          "combinedObjectives": null
+        },
+        {
+          "request": 2936,
+          "family": 1,
+          "cycle": 4,
+          "paidFE": 257619,
+          "outcome": "PROPOSED",
+          "cap": 796.3369485331486,
+          "eta": 1.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            796.3369485331486,
+            44033.96639862379,
+            48977.50211405923
+          ]
+        }
+      ],
+      "contexts": [
+        "inputs-v2/20_8_5_1/16110037/0",
+        "inputs-v2/20_8_5_1/16110037/1",
+        "inputs-v2/20_8_5_1/16110037/2"
+      ],
+      "allRequestTimeArchivesExact": true,
+      "independentNewSearchFE": 0,
+      "independentNewDecodes": 0
+    },
+    {
+      "instance": "20_8_5_1",
+      "seed": 16110069,
+      "family": 2,
+      "requestCount": 100,
+      "categories": {
+        "no-cap-gap": 80,
+        "multiple-factory-cap-gap": 9,
+        "single-factory-cap-gap": 11
+      },
+      "sampled": [
+        {
+          "request": 2914,
+          "family": 2,
+          "cycle": 8,
+          "paidFE": 257066,
+          "outcome": "PROPOSED",
+          "cap": 452.809309232982,
+          "eta": 4.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            446.50634516264006,
+            42108.4037939331,
+            47956.61573842944
+          ]
+        },
+        {
+          "request": 2917,
+          "family": 2,
+          "cycle": 0,
+          "paidFE": 257175,
+          "outcome": "INFEASIBLE",
+          "cap": 370.48034391789434,
+          "eta": 0.0,
+          "missingFactories": [
+            3,
+            4
+          ],
+          "missingCount": 2,
+          "category": "multiple-factory-cap-gap",
+          "combinedObjectives": null
+        },
+        {
+          "request": 2933,
+          "family": 2,
+          "cycle": 4,
+          "paidFE": 257614,
+          "outcome": "PROPOSED",
+          "cap": 411.6448265754382,
+          "eta": 1.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            411.6448265754382,
+            41383.7916298095,
+            49263.725412618434
+          ]
+        }
+      ],
+      "contexts": [
+        "inputs-v2/20_8_5_1/16110069/0",
+        "inputs-v2/20_8_5_1/16110069/1",
+        "inputs-v2/20_8_5_1/16110069/2"
+      ],
+      "allRequestTimeArchivesExact": true,
+      "independentNewSearchFE": 0,
+      "independentNewDecodes": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110003,
+      "family": 0,
+      "requestCount": 100,
+      "categories": {
+        "no-cap-gap": 91,
+        "multiple-factory-cap-gap": 9
+      },
+      "sampled": [
+        {
+          "request": 1115,
+          "family": 0,
+          "cycle": 8,
+          "paidFE": 274748,
+          "outcome": "PROPOSED",
+          "cap": 1665.7871606836964,
+          "eta": 4.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1625.1827300162095,
+            67176.79907011784,
+            65771.94187303228
+          ]
+        },
+        {
+          "request": 1119,
+          "family": 0,
+          "cycle": 0,
+          "paidFE": 274858,
+          "outcome": "PROPOSED",
+          "cap": 1362.916767832115,
+          "eta": 0.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1334.5675418032852,
+            60777.07227587703,
+            70152.12426495041
+          ]
+        },
+        {
+          "request": 1135,
+          "family": 0,
+          "cycle": 4,
+          "paidFE": 275298,
+          "outcome": "PROPOSED",
+          "cap": 1514.3519642579056,
+          "eta": 1.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1435.4020181236997,
+            58564.7287999167,
+            72092.58639749992
+          ]
+        }
+      ],
+      "contexts": [
+        "inputs-v2/100_2_3_1/16110003/0",
+        "inputs-v2/100_2_3_1/16110003/1",
+        "inputs-v2/100_2_3_1/16110003/2"
+      ],
+      "allRequestTimeArchivesExact": true,
+      "independentNewSearchFE": 0,
+      "independentNewDecodes": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110037,
+      "family": 1,
+      "requestCount": 100,
+      "categories": {
+        "no-cap-gap": 100
+      },
+      "sampled": [
+        {
+          "request": 1115,
+          "family": 1,
+          "cycle": 8,
+          "paidFE": 274703,
+          "outcome": "PROPOSED",
+          "cap": 1514.3007201238913,
+          "eta": 4.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1398.1385935349394,
+            67358.83365012615,
+            65232.28790473074
+          ]
+        },
+        {
+          "request": 1119,
+          "family": 1,
+          "cycle": 0,
+          "paidFE": 274813,
+          "outcome": "PROPOSED",
+          "cap": 1238.973316465002,
+          "eta": 0.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1214.9331735046328,
+            66070.72521712135,
+            73299.57327248518
+          ]
+        },
+        {
+          "request": 1135,
+          "family": 1,
+          "cycle": 4,
+          "paidFE": 275253,
+          "outcome": "PROPOSED",
+          "cap": 1376.6370182944465,
+          "eta": 1.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1360.8548849232423,
+            64970.00993175654,
+            68417.68449181931
+          ]
+        }
+      ],
+      "contexts": [
+        "inputs-v2/100_2_3_1/16110037/0",
+        "inputs-v2/100_2_3_1/16110037/1",
+        "inputs-v2/100_2_3_1/16110037/2"
+      ],
+      "allRequestTimeArchivesExact": true,
+      "independentNewSearchFE": 0,
+      "independentNewDecodes": 0
+    },
+    {
+      "instance": "100_2_3_1",
+      "seed": 16110069,
+      "family": 2,
+      "requestCount": 100,
+      "categories": {
+        "no-cap-gap": 74,
+        "multiple-factory-cap-gap": 18,
+        "single-factory-cap-gap": 8
+      },
+      "sampled": [
+        {
+          "request": 1115,
+          "family": 2,
+          "cycle": 8,
+          "paidFE": 274748,
+          "outcome": "PROPOSED",
+          "cap": 1213.4264037019445,
+          "eta": 4.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1207.0033147100899,
+            66618.22391123547,
+            71436.04239988903
+          ]
+        },
+        {
+          "request": 1120,
+          "family": 2,
+          "cycle": 0,
+          "paidFE": 274858,
+          "outcome": "INFEASIBLE",
+          "cap": 992.8034212106818,
+          "eta": 0.0,
+          "missingFactories": [
+            0,
+            2
+          ],
+          "missingCount": 2,
+          "category": "multiple-factory-cap-gap",
+          "combinedObjectives": null
+        },
+        {
+          "request": 1136,
+          "family": 2,
+          "cycle": 4,
+          "paidFE": 275299,
+          "outcome": "PROPOSED",
+          "cap": 1103.114912456313,
+          "eta": 1.0,
+          "missingFactories": [],
+          "missingCount": 0,
+          "category": "no-cap-gap",
+          "combinedObjectives": [
+            1058.9789123808343,
+            67165.69671228928,
+            76744.72198790286
+          ]
+        }
+      ],
+      "contexts": [
+        "inputs-v2/100_2_3_1/16110069/0",
+        "inputs-v2/100_2_3_1/16110069/1",
+        "inputs-v2/100_2_3_1/16110069/2"
+      ],
+      "allRequestTimeArchivesExact": true,
+      "independentNewSearchFE": 0,
+      "independentNewDecodes": 0
+    }
+  ],
+  "totalRealRequests": 600,
+  "sampledRequests": 18,
+  "seconds": 9.402138851997734,
+  "newSearchFE": 0,
+  "newDecodes": 0
+}

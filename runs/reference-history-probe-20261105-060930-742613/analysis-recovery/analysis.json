@@ -1,0 +1,81 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "totalParents": 16,
+      "informativeParents": 15,
+      "candidateWinsVsOldest": 6,
+      "meanSingleAddedHV": {
+        "OLDEST": 1.5405933189691214e-05,
+        "CURRENT": 2.2282933458183465e-05,
+        "RANDOM": 1.416870589183051e-05,
+        "DIR_SUM": 1.5642059908947022e-05,
+        "BALANCED": 1.1122744690482253e-05,
+        "DIR_CHEBY": 1.682959142210101e-05
+      },
+      "candidateEffectsPct": {
+        "OLDEST": 9.240973687737597,
+        "CURRENT": -24.47317830175407,
+        "RANDOM": 18.780018094699336,
+        "DIR_SUM": 7.591912574601123,
+        "BALANCED": 51.30790007705666
+      },
+      "sourceSeedMeans": [
+        {
+          "seed": 10280003,
+          "candidateMean": 6.586225369458075e-07,
+          "oldestMean": 1.4657985107497376e-06
+        },
+        {
+          "seed": 10280033,
+          "candidateMean": 3.3000560307256215e-05,
+          "oldestMean": 2.934606786863269e-05
+        }
+      ],
+      "qualityGate": false,
+      "medianCallCostVsOldest": 0.8409342751312991,
+      "necessaryCostGate": true,
+      "independentHVCheckMaxError": 2.4148909326220103e-17,
+      "scope": "Reused development contexts;55 fixed directions and2 construction samples per actual parent. Directions are not independent instances or tuning trials. All offspring equally averaged; no per-parent direction selection. Call timings interleave shared probe archive and offline QA, not same-time method runs."
+    },
+    {
+      "stem": "100_2_3_1",
+      "totalParents": 16,
+      "informativeParents": 11,
+      "candidateWinsVsOldest": 4,
+      "meanSingleAddedHV": {
+        "OLDEST": 1.1119021521141094e-05,
+        "CURRENT": 4.373490846416787e-06,
+        "RANDOM": 8.472252174653802e-06,
+        "DIR_SUM": 7.858272348784446e-06,
+        "BALANCED": 1.1828449742924842e-05,
+        "DIR_CHEBY": 8.46312099670952e-06
+      },
+      "candidateEffectsPct": {
+        "OLDEST": -23.88609932431366,
+        "CURRENT": 93.5095166288819,
+        "RANDOM": -0.10777745699778185,
+        "DIR_SUM": 7.696967235026353,
+        "BALANCED": -28.451139577511285
+      },
+      "sourceSeedMeans": [
+        {
+          "seed": 10280003,
+          "candidateMean": 1.635912735261075e-07,
+          "oldestMean": 7.945318750771709e-08
+        },
+        {
+          "seed": 10280033,
+          "candidateMean": 1.6762650719892934e-05,
+          "oldestMean": 2.2158589854774467e-05
+        }
+      ],
+      "qualityGate": false,
+      "medianCallCostVsOldest": 0.9733916481259928,
+      "necessaryCostGate": true,
+      "independentHVCheckMaxError": 4.853498787767141e-17,
+      "scope": "Reused development contexts;55 fixed directions and2 construction samples per actual parent. Directions are not independent instances or tuning trials. All offspring equally averaged; no per-parent direction selection. Call timings interleave shared probe archive and offline QA, not same-time method runs."
+    }
+  ],
+  "worthFreshClosedLoop": false
+}

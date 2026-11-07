@@ -1,0 +1,255 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "phaseSummary": [
+        {
+          "cohort": "first",
+          "phase": "GLOBAL_END",
+          "phaseFE": 5100,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [
+            1
+          ],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.32991285150814065
+        },
+        {
+          "cohort": "first",
+          "phase": "MAKESPAN_LOCAL_END",
+          "phaseFE": 70132,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [
+            1
+          ],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.3383241151742489
+        },
+        {
+          "cohort": "first",
+          "phase": "CENTER_LOCAL_END",
+          "phaseFE": 309927,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "first",
+          "phase": "ENERGY_LOCAL_END",
+          "phaseFE": 375879,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "first",
+          "phase": "WORKER_COST_LOCAL_END",
+          "phaseFE": 442916,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "first",
+          "phase": "G2_CENTER_ENTRY",
+          "phaseFE": 443666,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "later",
+          "phase": "GLOBAL_END",
+          "phaseFE": 5100,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [
+            1
+          ],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.32991285150814065
+        },
+        {
+          "cohort": "later",
+          "phase": "MAKESPAN_LOCAL_END",
+          "phaseFE": 70132,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [
+            1
+          ],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.3383241151742489
+        },
+        {
+          "cohort": "later",
+          "phase": "CENTER_LOCAL_END",
+          "phaseFE": 309927,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "later",
+          "phase": "ENERGY_LOCAL_END",
+          "phaseFE": 375879,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "later",
+          "phase": "WORKER_COST_LOCAL_END",
+          "phaseFE": 442916,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        },
+        {
+          "cohort": "later",
+          "phase": "G2_CENTER_ENTRY",
+          "phaseFE": 443666,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.0
+        }
+      ],
+      "earlyMaterialFamilies": [],
+      "supported": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "phaseSummary": [
+        {
+          "cohort": "first",
+          "phase": "GLOBAL_END",
+          "phaseFE": 5100,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.011928647780790058
+        },
+        {
+          "cohort": "first",
+          "phase": "MAKESPAN_LOCAL_END",
+          "phaseFE": 70132,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.013262304830208294
+        },
+        {
+          "cohort": "first",
+          "phase": "CENTER_LOCAL_END",
+          "phaseFE": 309927,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [
+            1,
+            2
+          ],
+          "maxCommonGainPct": 0.05495787760214643,
+          "maxOwnPhaseGainPct": 1.784795491143143
+        },
+        {
+          "cohort": "first",
+          "phase": "ENERGY_LOCAL_END",
+          "phaseFE": 375879,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.08521802762422315,
+          "maxOwnPhaseGainPct": 0.08753994164834022
+        },
+        {
+          "cohort": "first",
+          "phase": "WORKER_COST_LOCAL_END",
+          "phaseFE": 442916,
+          "materialCommonFamilies": [
+            2
+          ],
+          "materialOwnPhaseFamilies": [
+            2
+          ],
+          "maxCommonGainPct": 0.17450607540436813,
+          "maxOwnPhaseGainPct": 0.1746028549586276
+        },
+        {
+          "cohort": "first",
+          "phase": "G2_CENTER_ENTRY",
+          "phaseFE": 443666,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.08521802762422315,
+          "maxOwnPhaseGainPct": 0.08521802762422315
+        },
+        {
+          "cohort": "later",
+          "phase": "GLOBAL_END",
+          "phaseFE": 5100,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.011928647780790058
+        },
+        {
+          "cohort": "later",
+          "phase": "MAKESPAN_LOCAL_END",
+          "phaseFE": 70132,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.0,
+          "maxOwnPhaseGainPct": 0.013262304830208294
+        },
+        {
+          "cohort": "later",
+          "phase": "CENTER_LOCAL_END",
+          "phaseFE": 309927,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [
+            1,
+            2
+          ],
+          "maxCommonGainPct": 0.05495787760214643,
+          "maxOwnPhaseGainPct": 1.784795491143143
+        },
+        {
+          "cohort": "later",
+          "phase": "ENERGY_LOCAL_END",
+          "phaseFE": 375879,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.08521802762422315,
+          "maxOwnPhaseGainPct": 0.08753994164834022
+        },
+        {
+          "cohort": "later",
+          "phase": "WORKER_COST_LOCAL_END",
+          "phaseFE": 442916,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.08521802762422315,
+          "maxOwnPhaseGainPct": 0.08526528880243855
+        },
+        {
+          "cohort": "later",
+          "phase": "G2_CENTER_ENTRY",
+          "phaseFE": 443666,
+          "materialCommonFamilies": [],
+          "materialOwnPhaseFamilies": [],
+          "maxCommonGainPct": 0.08521802762422315,
+          "maxOwnPhaseGainPct": 0.08521802762422315
+        }
+      ],
+      "earlyMaterialFamilies": [],
+      "supported": false
+    }
+  ],
+  "bothInstancesSupported": false,
+  "offlineAssemblyDiagnosticDecodes": 323,
+  "scope": "Best of nine is an offline opportunity bound requiring up to nine paid candidates in a future policy; not an implemented selector or performance gain. Later receivers at earlier phases are offline counterfactual conditioning only. Own-phase and common-background results are separate."
+}

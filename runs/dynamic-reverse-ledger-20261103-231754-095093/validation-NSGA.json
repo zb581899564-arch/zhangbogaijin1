@@ -1,0 +1,39 @@
+{
+  "stage": {
+    "initialization": 100,
+    "global": 10000,
+    "inter": 549,
+    "intra": 489351
+  },
+  "terminal": "intra",
+  "visits": 112,
+  "slots": 3471,
+  "quotaContinuations": 1732,
+  "obs": {
+    "paidFE": 500000,
+    "paidSHA256": "a38906071e1e1184364ef3fe6fdad53a5a66f9f0873ba95fe96c29e9bd5fe0c6",
+    "observationSeconds": 0.524866596,
+    "centerPbestCount": 0,
+    "centerPbestMulti": 0,
+    "centerPbestMissingBirth": 0,
+    "centerPbestAgeSumFE": 0,
+    "centerPbestAgeMaxFE": 0,
+    "pddrComparisons": 239795,
+    "pddrTies": 62463,
+    "pddrRejectedAdmittedComparisons": 989,
+    "pddrTiedAdmittedComparisons": 324,
+    "pddrRejectedAdmittedUniqueFE": 989,
+    "pddrTiedAdmittedUniqueFE": 324
+  },
+  "decoder": {
+    "dynamic.evaluations": 500000,
+    "dynamic.reusedOperations": 15134482,
+    "dynamic.recomputedOperations": 4865518,
+    "dynamic.decodeNanos": 2108043822,
+    "dynamic.preparedChildren": 0
+  },
+  "swarm": {},
+  "searchSeconds": 12.3317375,
+  "offlineReplays": 394,
+  "wallSeconds": 12.844000000040978
+}

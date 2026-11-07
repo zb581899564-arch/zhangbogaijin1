@@ -1,0 +1,43 @@
+{
+  "anchor": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01",
+  "identities": [
+    {
+      "anchorPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/protocol.json",
+      "bytes": 3605,
+      "sha256": "1c613b0fde80cbed574bc6c8e0c4e87ee0dc70855d090b395fb6598674955a56",
+      "identityCopy": "dependency-identity/protocol.json"
+    },
+    {
+      "anchorPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/environment.json",
+      "bytes": 2817,
+      "sha256": "bce66e5ee61c4fca5586981b40a2fe44d604dfe82f2b64e0a355e1c723691c18",
+      "identityCopy": "dependency-identity/environment.json"
+    },
+    {
+      "anchorPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/evidence-manifest.json",
+      "bytes": 429591,
+      "sha256": "1761d33d6410bdef0bdc347f7322fac9c1fba94fd0f822754eec9b537040ad3f",
+      "identityCopy": "dependency-identity/evidence-manifest.json"
+    },
+    {
+      "anchorPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/deployment-manifest.json",
+      "bytes": 5033,
+      "sha256": "439bb02439488dba56f02379bc3731e329cdd1b9582dc0371638d8e4f0ad4f96",
+      "identityCopy": "dependency-identity/payload/deployment-manifest.json"
+    },
+    {
+      "anchorPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/payload/transfer-manifest.json",
+      "bytes": 243405,
+      "sha256": "cf4ba527b26b71f816ba43421ae61bb85aa636528c6be7947dd9dc668a82d8e8",
+      "identityCopy": "dependency-identity/payload/transfer-manifest.json"
+    },
+    {
+      "anchorPath": "/home/inspur/codex-workspace/projects/limingzhegaijin/runs/linux-pilot-evaluation-20261106-01/build-01/classpath.txt",
+      "bytes": 7953,
+      "sha256": "797a0acb898ed12d7adab89acec7a6b397869c2e1a25842bf5d4bede2fd7142e",
+      "identityCopy": "dependency-identity/build-01/classpath.txt"
+    }
+  ],
+  "standaloneRuntimeBundle": false,
+  "requires": "Existing immutable linux-pilot-evaluation-20261106-01 payload/build and JDK17/Python3.11 runtime"
+}

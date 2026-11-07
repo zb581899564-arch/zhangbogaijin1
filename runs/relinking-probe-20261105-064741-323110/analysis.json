@@ -1,0 +1,183 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "totalParents": 48,
+      "informativeParents": 40,
+      "candidateWins": {
+        "CLASSIC": 20,
+        "RANDOM_PATH": 19
+      },
+      "meanUnionAddedHV": {
+        "COVER_PATH": 9.166062519284461e-05,
+        "REPAIR_PATH": 9.696636373349166e-05,
+        "RANDOM_PATH": 1.6229421010507645e-05,
+        "CLASSIC": 3.6021370009325926e-05
+      },
+      "candidateEffectsPct": {
+        "REPAIR_PATH": -5.471730955313192,
+        "RANDOM_PATH": 464.7806236186705,
+        "CLASSIC": 154.4617963423204
+      },
+      "groupedMeans": [
+        {
+          "key": "seed",
+          "value": 11730007,
+          "COVER_PATH": 0.00014306763960811013,
+          "REPAIR_PATH": 0.00015367911668941038,
+          "RANDOM_PATH": 2.3870514874741515e-05,
+          "CLASSIC": 5.23448327432082e-05
+        },
+        {
+          "key": "seed",
+          "value": 11730037,
+          "COVER_PATH": 4.02536107775791e-05,
+          "REPAIR_PATH": 4.025361077757293e-05,
+          "RANDOM_PATH": 8.588327146273767e-06,
+          "CLASSIC": 1.9697907275443665e-05
+        },
+        {
+          "key": "step",
+          "value": 0,
+          "COVER_PATH": 8.682393174611984e-05,
+          "REPAIR_PATH": 0.00010274114736808874,
+          "RANDOM_PATH": 2.6348592893447414e-05,
+          "CLASSIC": 2.6108540608249513e-05
+        },
+        {
+          "key": "step",
+          "value": 24,
+          "COVER_PATH": 8.778298366504678e-05,
+          "REPAIR_PATH": 8.778298366503752e-05,
+          "RANDOM_PATH": 2.7042112549409874e-06,
+          "CLASSIC": 2.9369082334964235e-05
+        },
+        {
+          "key": "step",
+          "value": 49,
+          "COVER_PATH": 0.00010037496016736722,
+          "REPAIR_PATH": 0.00010037496016734872,
+          "RANDOM_PATH": 1.9635458883134525e-05,
+          "CLASSIC": 5.2586487084764023e-05
+        }
+      ],
+      "sensitivity": [
+        {
+          "reference": 1.25,
+          "means": {
+            "COVER_PATH": 3.806793091943841e-05,
+            "REPAIR_PATH": 4.1571736835208095e-05,
+            "RANDOM_PATH": 9.096407422668239e-06,
+            "CLASSIC": 1.882758394521684e-05
+          },
+          "positiveVsClassicAndRandom": true
+        },
+        {
+          "reference": 2.0,
+          "means": {
+            "COVER_PATH": 0.0002683541570508615,
+            "REPAIR_PATH": 0.00027726376084130644,
+            "RANDOM_PATH": 3.578476094020141e-05,
+            "CLASSIC": 8.521786379192233e-05
+          },
+          "positiveVsClassicAndRandom": true
+        }
+      ],
+      "qualityGate": false,
+      "medianCallCostVsClassic": 0.702347888919737,
+      "necessaryCostGate": true,
+      "independentHVCheckMaxError": 8.881784197001252e-16,
+      "limits": "Known endpoints already in pre-batch paid archive. Per-method N evaluated intermediates scored jointly; cluster by48recipients, not144pairs or20/100steps. Ordinary path-relinking preflight, no role specificity, fatigue specificity, whole algorithm, novelty or same-time conclusion."
+    },
+    {
+      "stem": "100_2_3_1",
+      "totalParents": 48,
+      "informativeParents": 46,
+      "candidateWins": {
+        "CLASSIC": 38,
+        "RANDOM_PATH": 32
+      },
+      "meanUnionAddedHV": {
+        "COVER_PATH": 0.0009062278869285431,
+        "REPAIR_PATH": 0.0009062278869285431,
+        "RANDOM_PATH": 0.00024080531480850467,
+        "CLASSIC": 0.00018796785163532586
+      },
+      "candidateEffectsPct": {
+        "REPAIR_PATH": 0.0,
+        "RANDOM_PATH": 276.33217840279053,
+        "CLASSIC": 382.1185532761766
+      },
+      "groupedMeans": [
+        {
+          "key": "seed",
+          "value": 11730007,
+          "COVER_PATH": 0.0013685591099406407,
+          "REPAIR_PATH": 0.0013685591099406407,
+          "RANDOM_PATH": 0.0003228450352060208,
+          "CLASSIC": 0.00023518006189452803
+        },
+        {
+          "key": "seed",
+          "value": 11730037,
+          "COVER_PATH": 0.0004438966639164456,
+          "REPAIR_PATH": 0.0004438966639164456,
+          "RANDOM_PATH": 0.00015876559441098853,
+          "CLASSIC": 0.00014075564137612363
+        },
+        {
+          "key": "step",
+          "value": 0,
+          "COVER_PATH": 0.0005473851519560794,
+          "REPAIR_PATH": 0.0005473851519560794,
+          "RANDOM_PATH": 0.00010557606085397538,
+          "CLASSIC": 5.567279365488916e-05
+        },
+        {
+          "key": "step",
+          "value": 24,
+          "COVER_PATH": 0.0015123061557177075,
+          "REPAIR_PATH": 0.0015123061557177075,
+          "RANDOM_PATH": 0.00047446220000376316,
+          "CLASSIC": 0.00028874142649274826
+        },
+        {
+          "key": "step",
+          "value": 49,
+          "COVER_PATH": 0.0006589923531118425,
+          "REPAIR_PATH": 0.0006589923531118425,
+          "RANDOM_PATH": 0.00014237768356777553,
+          "CLASSIC": 0.00021948933475834004
+        }
+      ],
+      "sensitivity": [
+        {
+          "reference": 1.25,
+          "means": {
+            "COVER_PATH": 0.0003602406439145368,
+            "REPAIR_PATH": 0.0003602406439145368,
+            "RANDOM_PATH": 9.39136680138906e-05,
+            "CLASSIC": 8.95108876284717e-05
+          },
+          "positiveVsClassicAndRandom": true
+        },
+        {
+          "reference": 2.0,
+          "means": {
+            "COVER_PATH": 0.002667782431671114,
+            "REPAIR_PATH": 0.002667782431671114,
+            "RANDOM_PATH": 0.0007281128742270456,
+            "CLASSIC": 0.00048406272905386784
+          },
+          "positiveVsClassicAndRandom": true
+        }
+      ],
+      "qualityGate": true,
+      "medianCallCostVsClassic": 0.6956861352043439,
+      "necessaryCostGate": true,
+      "independentHVCheckMaxError": 1.7763568394002505e-15,
+      "limits": "Known endpoints already in pre-batch paid archive. Per-method N evaluated intermediates scored jointly; cluster by48recipients, not144pairs or20/100steps. Ordinary path-relinking preflight, no role specificity, fatigue specificity, whole algorithm, novelty or same-time conclusion."
+    }
+  ],
+  "worthFreshClosedLoop": false
+}

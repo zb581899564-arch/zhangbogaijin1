@@ -1,0 +1,16 @@
+{
+  "searchJavaAndMetricStatisticsUnchanged": true,
+  "reason": "Analysis responsibility split only; no protocol, formulas, trial search code or statistics change",
+  "regressionEvidence": "../dynamic-step45-analysis-regression-20261101/regression-result.json",
+  "sources": {
+    "analyze.py": "b9966db165a06d19eff0c3e6dd4c398f00a621e4791bcaa7cdfd20334f00cc03",
+    "data.py": "2d682687d10f803f6a11a38c792deec03ca8bac4d6c11e82d76b711134e09822",
+    "inference.py": "7539b12f0f5c019e37f0dc1751944f16df74d12c32510f8bb67770bb91197db6",
+    "io.py": "b9f5db4a80acf0f21270872c5429b7b0cede6becab0ac4746f4075a7cf7f4b50",
+    "metrics.py": "bf7d08afec892743f827be096512102dc24da484de5607a7b66da90610c62094",
+    "protocol.py": "1ea69f72f66b1338783afecaf93653546d202a1ffc3ff587fcaa50410d3fd076",
+    "report.py": "0fb0569c88c0794e73be4ce49de9d1a3173763daeecf54212d72c0fcd6b7c05d",
+    "statistics.py": "94b64c97d51b2a7499e37dcd25b20d32f573e2bfe183eae1b4f735b2cbf68d97",
+    "__init__.py": "dd783a33659dd1f0e00c54b5f46ae1de82c5be0440e4edc4cc653194134336b6"
+  }
+}

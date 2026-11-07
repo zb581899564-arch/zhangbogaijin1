@@ -1,0 +1,647 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "cells": [
+        {
+          "seed": 12450003,
+          "arm": "OFF",
+          "HV": {
+            "1.25": 0.13693805288323302,
+            "1.5": 0.47473270167318105,
+            "2.0": 2.1586942695943336
+          },
+          "IGDplus": 0.0058806327313593604,
+          "searchSeconds": 0.6868959,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "FIXED_EA",
+          "HV": {
+            "1.25": 0.13735264930567623,
+            "1.5": 0.476359061791404,
+            "2.0": 2.1653343124065945
+          },
+          "IGDplus": 0.0038430534104403214,
+          "searchSeconds": 0.6089617,
+          "center": {
+            "mode": "FIXED",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2686,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 2750,
+              "composedPaid": 64
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "UNIFORM_EA",
+          "HV": {
+            "1.25": 0.13519048869836497,
+            "1.5": 0.4706039116391718,
+            "2.0": 2.1476818043056696
+          },
+          "IGDplus": 0.005243334034714113,
+          "searchSeconds": 0.6310827,
+          "center": {
+            "mode": "UNIFORM",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2681,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1789,
+              "composedPaid": 69
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "TOURNAMENT_EA",
+          "HV": {
+            "1.25": 0.13669002027882193,
+            "1.5": 0.4737573182542929,
+            "2.0": 2.1556947614333146
+          },
+          "IGDplus": 0.005664756541163019,
+          "searchSeconds": 0.6993509,
+          "center": {
+            "mode": "TOURNAMENT",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2684,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1574,
+              "composedPaid": 66
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "NSGA",
+          "HV": {
+            "1.25": 0.14041738777346496,
+            "1.5": 0.48322865292832246,
+            "2.0": 2.183579868445875
+          },
+          "IGDplus": 0.0026427292181343555,
+          "searchSeconds": 0.5296047,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "OFF",
+          "HV": {
+            "1.25": 0.13624532374637555,
+            "1.5": 0.4731144401291589,
+            "2.0": 2.154260908454102
+          },
+          "IGDplus": 0.009210268785154126,
+          "searchSeconds": 0.6598463,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "FIXED_EA",
+          "HV": {
+            "1.25": 0.13569377580793,
+            "1.5": 0.4718965809590089,
+            "2.0": 2.1510139797712604
+          },
+          "IGDplus": 0.010937732526847668,
+          "searchSeconds": 0.6317638,
+          "center": {
+            "mode": "FIXED",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2686,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 2750,
+              "composedPaid": 64
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "UNIFORM_EA",
+          "HV": {
+            "1.25": 0.14076208187507938,
+            "1.5": 0.48313811011844315,
+            "2.0": 2.180581327737448
+          },
+          "IGDplus": 0.006811584748695504,
+          "searchSeconds": 0.6430122,
+          "center": {
+            "mode": "UNIFORM",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2684,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1803,
+              "composedPaid": 66
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "TOURNAMENT_EA",
+          "HV": {
+            "1.25": 0.14052017457896027,
+            "1.5": 0.4836051565860944,
+            "2.0": 2.1852747693266616
+          },
+          "IGDplus": 0.007026159557718081,
+          "searchSeconds": 0.67687,
+          "center": {
+            "mode": "TOURNAMENT",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2686,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1595,
+              "composedPaid": 64
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "NSGA",
+          "HV": {
+            "1.25": 0.14281038629744253,
+            "1.5": 0.4879559646145226,
+            "2.0": 2.195402753137053
+          },
+          "IGDplus": 0.0005036059805410409,
+          "searchSeconds": 0.5496998,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        }
+      ],
+      "HVEffectsPct": {
+        "OFF": [
+          -0.2054594965652079,
+          2.217373972790093
+        ],
+        "FIXED_EA": [
+          -0.5461727813735662,
+          2.481174074898118
+        ],
+        "UNIFORM_EA": [
+          0.6700765839657841,
+          0.09666934937853089
+        ],
+        "NSGA": [
+          -1.9600109837515034,
+          -0.891639480596429
+        ]
+      },
+      "searchCostRatios": {
+        "OFF": [
+          1.0181322963203012,
+          1.0257994930031433
+        ],
+        "FIXED_EA": [
+          1.1484316665563696,
+          1.0713972532139384
+        ],
+        "UNIFORM_EA": [
+          1.108176313500592,
+          1.0526549885056613
+        ],
+        "NSGA": [
+          1.3205149047959732,
+          1.231344817662295
+        ]
+      },
+      "IGDplusSymmetricWorseningPct": {
+        "OFF": [
+          -3.7396086888143185,
+          -26.903813835323824
+        ],
+        "FIXED_EA": [
+          38.320141862227615,
+          -43.54928153337483
+        ],
+        "UNIFORM_EA": [
+          7.726787809790781,
+          3.1012974986555366
+        ],
+        "NSGA": [
+          72.75431846865443,
+          173.24718927928404
+        ]
+      },
+      "referenceEffectsPct": {
+        "OFF": [
+          {
+            "1.25": -0.1811275968868764,
+            "2.0": -0.13895011457933926
+          },
+          {
+            "1.25": 3.1376128846392293,
+            "2.0": 1.4396520287236259
+          }
+        ],
+        "FIXED_EA": [
+          {
+            "1.25": -0.48242901043693553,
+            "2.0": -0.4451761059734993
+          },
+          {
+            "1.25": 3.556831359650481,
+            "2.0": 1.5927739139586894
+          }
+        ],
+        "UNIFORM_EA": [
+          {
+            "1.25": 1.1091990234628701,
+            "2.0": 0.37309796598270495
+          },
+          {
+            "1.25": -0.17185544068166747,
+            "2.0": 0.21523808947239154
+          }
+        ],
+        "NSGA": [
+          {
+            "1.25": -2.6544914086112925,
+            "2.0": -1.2770362749500608
+          },
+          {
+            "1.25": -1.6036730785898512,
+            "2.0": -0.46132691579797713
+          }
+        ]
+      },
+      "qualityGate": true,
+      "sensitivityGate": false,
+      "auxiliaryGate": false,
+      "costGate": true,
+      "supported": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "cells": [
+        {
+          "seed": 12450003,
+          "arm": "OFF",
+          "HV": {
+            "1.25": 0.17198448106536782,
+            "1.5": 0.5568737688843106,
+            "2.0": 2.3898730640707257
+          },
+          "IGDplus": 0.008761408474047752,
+          "searchSeconds": 0.9038806,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "FIXED_EA",
+          "HV": {
+            "1.25": 0.17858802747072994,
+            "1.5": 0.5717061500377049,
+            "2.0": 2.429972217613536
+          },
+          "IGDplus": 0.004900929001850838,
+          "searchSeconds": 0.9563286,
+          "center": {
+            "mode": "FIXED",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2673,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 2750,
+              "composedPaid": 77
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "UNIFORM_EA",
+          "HV": {
+            "1.25": 0.17491495706691498,
+            "1.5": 0.563601144621197,
+            "2.0": 2.4083163694932916
+          },
+          "IGDplus": 0.009602641387046085,
+          "searchSeconds": 0.9263589,
+          "center": {
+            "mode": "UNIFORM",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2675,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1786,
+              "composedPaid": 75
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "TOURNAMENT_EA",
+          "HV": {
+            "1.25": 0.18194925473762905,
+            "1.5": 0.5798330873740126,
+            "2.0": 2.4528607986428357
+          },
+          "IGDplus": 0.0032395826423273445,
+          "searchSeconds": 1.0137713,
+          "center": {
+            "mode": "TOURNAMENT",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2674,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1650,
+              "composedPaid": 76
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450003,
+          "arm": "NSGA",
+          "HV": {
+            "1.25": 0.1606520365570313,
+            "1.5": 0.5300178777462718,
+            "2.0": 2.313646226054256
+          },
+          "IGDplus": 0.01776278535649946,
+          "searchSeconds": 0.8052857,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "OFF",
+          "HV": {
+            "1.25": 0.17399376812364772,
+            "1.5": 0.5629827501690995,
+            "2.0": 2.40785289680221
+          },
+          "IGDplus": 0.015415638447697402,
+          "searchSeconds": 1.0803513,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "FIXED_EA",
+          "HV": {
+            "1.25": 0.1728848902928193,
+            "1.5": 0.5589900491022968,
+            "2.0": 2.394170836222514
+          },
+          "IGDplus": 0.0059853143379192935,
+          "searchSeconds": 1.0243145,
+          "center": {
+            "mode": "FIXED",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2675,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 2750,
+              "composedPaid": 75
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "UNIFORM_EA",
+          "HV": {
+            "1.25": 0.17819900478844602,
+            "1.5": 0.5717591829042625,
+            "2.0": 2.430445191073801
+          },
+          "IGDplus": 0.010647975493677771,
+          "searchSeconds": 1.0079567,
+          "center": {
+            "mode": "UNIFORM",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2676,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1790,
+              "composedPaid": 74
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "TOURNAMENT_EA",
+          "HV": {
+            "1.25": 0.1803366900522316,
+            "1.5": 0.5758469684825324,
+            "2.0": 2.4401441725785555
+          },
+          "IGDplus": 0.0053806550038602895,
+          "searchSeconds": 1.1096916,
+          "center": {
+            "mode": "TOURNAMENT",
+            "counts": {
+              "composeCalls": 2750,
+              "ordinaryPaid": 2677,
+              "paid": 2750,
+              "completedBatches": 50,
+              "firstParentsPerBatchTotal": 1635,
+              "composedPaid": 73
+            },
+            "centerReplacementEnabled": true,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        },
+        {
+          "seed": 12450033,
+          "arm": "NSGA",
+          "HV": {
+            "1.25": 0.16572942862313275,
+            "1.5": 0.5406535507961003,
+            "2.0": 2.340935229908833
+          },
+          "IGDplus": 0.01497564720924677,
+          "searchSeconds": 0.8691339,
+          "center": {
+            "mode": "OFF",
+            "counts": {},
+            "centerReplacementEnabled": false,
+            "qPolicy": "Unchanged original path when OFF; no CENTER Q agent in EA modes"
+          }
+        }
+      ],
+      "HVEffectsPct": {
+        "OFF": [
+          4.1228945898638125,
+          2.285011096622225
+        ],
+        "FIXED_EA": [
+          1.421523510945577,
+          3.015602765613945
+        ],
+        "UNIFORM_EA": [
+          2.880040771337544,
+          0.7149488281947391
+        ],
+        "NSGA": [
+          9.398779120350365,
+          6.509421353954026
+        ]
+      },
+      "searchCostRatios": {
+        "OFF": [
+          1.1215765666394433,
+          1.0271581105146075
+        ],
+        "FIXED_EA": [
+          1.0600658602074642,
+          1.083350474878565
+        ],
+        "UNIFORM_EA": [
+          1.0943612675389636,
+          1.1009318158210564
+        ],
+        "NSGA": [
+          1.258896438866355,
+          1.2767786413577928
+        ]
+      },
+      "IGDplusSymmetricWorseningPct": {
+        "OFF": [
+          -92.02283008419188,
+          -96.50742299066249
+        ],
+        "FIXED_EA": [
+          -40.816755313202755,
+          -10.639819902317837
+        ],
+        "UNIFORM_EA": [
+          -99.09590005850713,
+          -65.72389937651283
+        ],
+        "NSGA": [
+          -138.30062129168846,
+          -94.27048296825181
+        ]
+      },
+      "referenceEffectsPct": {
+        "OFF": [
+          {
+            "1.25": 5.793995836446331,
+            "2.0": 2.635610046368808
+          },
+          {
+            "1.25": 3.6454879947632968,
+            "2.0": 1.3410817504354355
+          }
+        ],
+        "FIXED_EA": [
+          {
+            "1.25": 1.8821123199034284,
+            "2.0": 0.941927683921362
+          },
+          {
+            "1.25": 4.3102666443498805,
+            "2.0": 1.920219545760471
+          }
+        ],
+        "UNIFORM_EA": [
+          {
+            "1.25": 4.021552981328536,
+            "2.0": 1.8496087023199603
+          },
+          {
+            "1.25": 1.1996056130186616,
+            "2.0": 0.3990619307267407
+          }
+        ],
+        "NSGA": [
+          {
+            "1.25": 13.256737130149766,
+            "2.0": 6.017107154104506
+          },
+          {
+            "1.25": 8.813921311655303,
+            "2.0": 4.238004597572154
+          }
+        ]
+      },
+      "qualityGate": true,
+      "sensitivityGate": true,
+      "auxiliaryGate": true,
+      "costGate": true,
+      "supported": true
+    }
+  ],
+  "pairedPositiveCounts": {
+    "OFF": 3,
+    "FIXED_EA": 3,
+    "UNIFORM_EA": 4
+  },
+  "worthClosedLoop": false,
+  "scope": "First global stage only, two existing development instances and two new seeds. No local search or same-time superiority claim. No control promotion after primary failure."
+}

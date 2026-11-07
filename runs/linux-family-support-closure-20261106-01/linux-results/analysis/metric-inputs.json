@@ -1,0 +1,26 @@
+{
+  "normalization": {
+    "lower": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1043.2162866718015,
+      51501.80947978115,
+      51219.63655822692
+    ],
+    "reference": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "source": "max of128 random parents, seeds880000..880127"
+  },
+  "referenceSHA256": "dfc3a3e79c66a8db0d1714b01b99e35d4013f90d8d66214795d4fb2b7c90cd16",
+  "rule": "ND union of all three A0s, finite-support closures, and existing request-pool closures; fixed before metric computation",
+  "kernels": {
+    "analysis_metrics.py": "1d8ddee057141aa8576ab615c862606434fa8eaf4ec5c18e9b7431eb71377512",
+    "audit_metrics.py": "b3c80a58ecf82d6988e04340f3ce2181bd7652af8cd4d1145a2bdaa57522d0a4"
+  }
+}

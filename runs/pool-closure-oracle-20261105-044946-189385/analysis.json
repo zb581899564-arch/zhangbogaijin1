@@ -1,0 +1,761 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "phase": "G2_CENTER_ENTRY",
+      "paidSourceFE": 443666,
+      "families": [
+        {
+          "family": 0,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 32768,
+              "frontierCount": 278,
+              "dpSeconds": 0.0,
+              "scoreSecondsIncludingChecks": 0.10899999993853271,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                399.91336728411784,
+                39248.2611551217,
+                46889.84612974511
+              ],
+              "independentHVCheckMaxError": 5.551115123125783e-16,
+              "qaWitnessIndices": [
+                0,
+                39,
+                79,
+                118,
+                158,
+                197,
+                213,
+                237,
+                277
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 16343800,
+              "frontierCount": 2861,
+              "dpSeconds": 0.10999999998603016,
+              "scoreSecondsIncludingChecks": 0.5150000000139698,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                399.91336728411784,
+                39248.2611551217,
+                46889.84612974511
+              ],
+              "independentHVCheckMaxError": 5.551115123125783e-16,
+              "qaWitnessIndices": [
+                0,
+                408,
+                817,
+                1225,
+                1634,
+                2042,
+                2451,
+                2569,
+                2857,
+                2860
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": false,
+          "fullMaterialNinePolicyOmission": false
+        },
+        {
+          "family": 1,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 28672,
+              "frontierCount": 197,
+              "dpSeconds": 0.0,
+              "scoreSecondsIncludingChecks": 0.0940000000409782,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 3.146094083157318e-05,
+                  "bestIndex": 196,
+                  "newPoints": 1
+                },
+                "1.5": {
+                  "bestSingleGainPct": 1.5483534194794205e-05,
+                  "bestIndex": 196,
+                  "newPoints": 1
+                },
+                "2.0": {
+                  "bestSingleGainPct": 6.261851235883108e-06,
+                  "bestIndex": 196,
+                  "newPoints": 1
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                424.4562665358835,
+                39913.427005223144,
+                46640.1850339932
+              ],
+              "independentHVCheckMaxError": 5.690173316169909e-16,
+              "qaWitnessIndices": [
+                0,
+                28,
+                56,
+                84,
+                112,
+                140,
+                160,
+                168,
+                196
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 16556400,
+              "frontierCount": 1805,
+              "dpSeconds": 0.0779999999795109,
+              "scoreSecondsIncludingChecks": 0.35999999998603016,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 3.146094083157318e-05,
+                  "bestIndex": 1804,
+                  "newPoints": 2
+                },
+                "1.5": {
+                  "bestSingleGainPct": 1.5483534194794205e-05,
+                  "bestIndex": 1804,
+                  "newPoints": 2
+                },
+                "2.0": {
+                  "bestSingleGainPct": 6.261851235883108e-06,
+                  "bestIndex": 1804,
+                  "newPoints": 2
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                424.4562665358835,
+                39913.427005223144,
+                46640.1850339932
+              ],
+              "independentHVCheckMaxError": 5.690173316169909e-16,
+              "qaWitnessIndices": [
+                0,
+                257,
+                515,
+                773,
+                1030,
+                1288,
+                1401,
+                1546,
+                1804
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": false,
+          "fullMaterialNinePolicyOmission": false
+        },
+        {
+          "family": 2,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 20480,
+              "frontierCount": 175,
+              "dpSeconds": 0.0,
+              "scoreSecondsIncludingChecks": 0.09299999999348074,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                471.1606772446645,
+                40202.904685752466,
+                46904.84435470434
+              ],
+              "independentHVCheckMaxError": 5.551115123125783e-16,
+              "qaWitnessIndices": [
+                0,
+                24,
+                49,
+                74,
+                99,
+                103,
+                124,
+                149,
+                174
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 1605744,
+              "frontierCount": 1164,
+              "dpSeconds": 0.0940000000409782,
+              "scoreSecondsIncludingChecks": 0.25,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                471.1606772446645,
+                40202.904685752466,
+                46904.84435470434
+              ],
+              "independentHVCheckMaxError": 5.551115123125783e-16,
+              "qaWitnessIndices": [
+                0,
+                166,
+                332,
+                498,
+                664,
+                830,
+                850,
+                996,
+                1162,
+                1163
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": false,
+          "fullMaterialNinePolicyOmission": false
+        },
+        {
+          "family": 3,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 16384,
+              "frontierCount": 49,
+              "dpSeconds": 0.0,
+              "scoreSecondsIncludingChecks": 0.062000000034458935,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                473.66546670831485,
+                39477.230803538616,
+                46851.56058780523
+              ],
+              "independentHVCheckMaxError": 5.551115123125783e-16,
+              "qaWitnessIndices": [
+                0,
+                6,
+                13,
+                15,
+                20,
+                27,
+                34,
+                41,
+                48
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 5742000,
+              "frontierCount": 1027,
+              "dpSeconds": 0.0470000000204891,
+              "scoreSecondsIncludingChecks": 0.25,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.0,
+                  "bestIndex": 0,
+                  "newPoints": 0
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                473.66546670831485,
+                39477.230803538616,
+                46851.56058780523
+              ],
+              "independentHVCheckMaxError": 5.551115123125783e-16,
+              "qaWitnessIndices": [
+                0,
+                146,
+                293,
+                415,
+                439,
+                586,
+                732,
+                879,
+                1026
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": false,
+          "fullMaterialNinePolicyOmission": false
+        }
+      ],
+      "finiteMaterialFamilies": 0,
+      "fullMaterialFamilies": 0,
+      "offlineFullDecoderQA": 64,
+      "maxAbsoluteObjectiveError": [
+        0.0,
+        4.3655745685100555e-11,
+        3.637978807091713e-11
+      ],
+      "worthPairedSupplyDiagnostic": false
+    },
+    {
+      "stem": "100_2_3_1",
+      "phase": "G2_CENTER_ENTRY",
+      "paidSourceFE": 443666,
+      "families": [
+        {
+          "family": 0,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 512,
+              "frontierCount": 40,
+              "dpSeconds": 0.0,
+              "scoreSecondsIncludingChecks": 0.9219999999040738,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.15523697679504914,
+                  "bestIndex": 32,
+                  "newPoints": 17
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.07530475347343375,
+                  "bestIndex": 32,
+                  "newPoints": 17
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.02999363018085531,
+                  "bestIndex": 32,
+                  "newPoints": 17
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                1246.949284347556,
+                52835.99475179949,
+                62220.68698966225
+              ],
+              "independentHVCheckMaxError": 5.120144759562795e-16,
+              "qaWitnessIndices": [
+                0,
+                5,
+                11,
+                16,
+                22,
+                23,
+                27,
+                32,
+                33,
+                39
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 3351600,
+              "frontierCount": 5925,
+              "dpSeconds": 1.922000000020489,
+              "scoreSecondsIncludingChecks": 3.952999999979511,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.27891745114284494,
+                  "bestIndex": 5626,
+                  "newPoints": 3096
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.1337922788303884,
+                  "bestIndex": 5626,
+                  "newPoints": 3096
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.05268944472007128,
+                  "bestIndex": 5626,
+                  "newPoints": 3096
+                }
+              },
+              "bestNineGainPct": 0.0004952828487100406,
+              "objectiveExtremes": [
+                1246.949284347556,
+                52835.99475179949,
+                62220.68698966225
+              ],
+              "independentHVCheckMaxError": 5.120144759562795e-16,
+              "qaWitnessIndices": [
+                0,
+                846,
+                1692,
+                2538,
+                3385,
+                4231,
+                4783,
+                5077,
+                5626,
+                5924
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": false,
+          "fullMaterialNinePolicyOmission": true
+        },
+        {
+          "family": 1,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 512,
+              "frontierCount": 57,
+              "dpSeconds": 0.015000000013969839,
+              "scoreSecondsIncludingChecks": 0.9540000000270084,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.1331183619517114,
+                  "bestIndex": 46,
+                  "newPoints": 20
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.06437081069645795,
+                  "bestIndex": 46,
+                  "newPoints": 20
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.02555751868354223,
+                  "bestIndex": 46,
+                  "newPoints": 20
+                }
+              },
+              "bestNineGainPct": 0.0,
+              "objectiveExtremes": [
+                1133.2370281536193,
+                54348.05595905017,
+                62596.656402879
+              ],
+              "independentHVCheckMaxError": 4.919025256566734e-16,
+              "qaWitnessIndices": [
+                0,
+                8,
+                16,
+                24,
+                32,
+                33,
+                40,
+                46,
+                48,
+                56
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 3044400,
+              "frontierCount": 3657,
+              "dpSeconds": 0.8429999999934807,
+              "scoreSecondsIncludingChecks": 2.9070000000065193,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.18629087133204894,
+                  "bestIndex": 3382,
+                  "newPoints": 2044
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.08982365649523777,
+                  "bestIndex": 3382,
+                  "newPoints": 2044
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.03555988101495075,
+                  "bestIndex": 3382,
+                  "newPoints": 2044
+                }
+              },
+              "bestNineGainPct": 0.04501345604895993,
+              "objectiveExtremes": [
+                1133.2370281536193,
+                54348.05595905017,
+                62596.656402879
+              ],
+              "independentHVCheckMaxError": 4.618328560291457e-16,
+              "qaWitnessIndices": [
+                0,
+                522,
+                1044,
+                1566,
+                2089,
+                2611,
+                3133,
+                3190,
+                3382,
+                3653,
+                3656
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": false,
+          "fullMaterialNinePolicyOmission": false
+        },
+        {
+          "family": 2,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 512,
+              "frontierCount": 66,
+              "dpSeconds": 0.015000000013969839,
+              "scoreSecondsIncludingChecks": 0.8279999999795109,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.6098457034879317,
+                  "bestIndex": 65,
+                  "newPoints": 48
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.35026877315267163,
+                  "bestIndex": 65,
+                  "newPoints": 48
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.1803605223745195,
+                  "bestIndex": 65,
+                  "newPoints": 48
+                }
+              },
+              "bestNineGainPct": 0.08521802762422327,
+              "objectiveExtremes": [
+                1158.6032388492883,
+                54563.83285610679,
+                61666.092931294836
+              ],
+              "independentHVCheckMaxError": 4.440892098500626e-16,
+              "qaWitnessIndices": [
+                0,
+                9,
+                18,
+                27,
+                37,
+                40,
+                46,
+                55,
+                65
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 2421900,
+              "frontierCount": 5386,
+              "dpSeconds": 0.3279999999795109,
+              "scoreSecondsIncludingChecks": 3.4540000000270084,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.6098457034879317,
+                  "bestIndex": 5376,
+                  "newPoints": 5208
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.35026877315267163,
+                  "bestIndex": 5376,
+                  "newPoints": 5208
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.1803605223745195,
+                  "bestIndex": 5376,
+                  "newPoints": 5208
+                }
+              },
+              "bestNineGainPct": 0.09330761400910349,
+              "objectiveExtremes": [
+                1158.6032388492883,
+                54563.83285610679,
+                61666.092931294836
+              ],
+              "independentHVCheckMaxError": 4.76759270625661e-16,
+              "qaWitnessIndices": [
+                0,
+                769,
+                1538,
+                2307,
+                3077,
+                3846,
+                4407,
+                4615,
+                5376,
+                5385
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": true,
+          "fullMaterialNinePolicyOmission": true
+        },
+        {
+          "family": 3,
+          "modes": {
+            "FINITE": {
+              "cartesianCombinations": 512,
+              "frontierCount": 58,
+              "dpSeconds": 0.0,
+              "scoreSecondsIncludingChecks": 0.9209999999729916,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.49981768609350213,
+                  "bestIndex": 56,
+                  "newPoints": 35
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.2452115985973131,
+                  "bestIndex": 56,
+                  "newPoints": 35
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.09876030172003986,
+                  "bestIndex": 56,
+                  "newPoints": 35
+                }
+              },
+              "bestNineGainPct": 0.07031139620738697,
+              "objectiveExtremes": [
+                1115.6822637359521,
+                52531.15900952826,
+                61848.02344684593
+              ],
+              "independentHVCheckMaxError": 4.722784663346857e-16,
+              "qaWitnessIndices": [
+                0,
+                8,
+                16,
+                24,
+                32,
+                39,
+                40,
+                48,
+                56,
+                57
+              ]
+            },
+            "FULL": {
+              "cartesianCombinations": 1939200,
+              "frontierCount": 5642,
+              "dpSeconds": 0.625,
+              "scoreSecondsIncludingChecks": 3.7040000000270084,
+              "referenceResults": {
+                "1.25": {
+                  "bestSingleGainPct": 0.581164278353479,
+                  "bestIndex": 5381,
+                  "newPoints": 4272
+                },
+                "1.5": {
+                  "bestSingleGainPct": 0.28394620201422416,
+                  "bestIndex": 5381,
+                  "newPoints": 4272
+                },
+                "2.0": {
+                  "bestSingleGainPct": 0.11389965932703204,
+                  "bestIndex": 5381,
+                  "newPoints": 4272
+                }
+              },
+              "bestNineGainPct": 0.0892676280092991,
+              "objectiveExtremes": [
+                1115.6822637359521,
+                52531.15900952826,
+                61848.02344684593
+              ],
+              "independentHVCheckMaxError": 5.694229809893869e-16,
+              "qaWitnessIndices": [
+                0,
+                805,
+                1611,
+                2417,
+                3223,
+                4029,
+                4835,
+                5049,
+                5381,
+                5641
+              ]
+            }
+          },
+          "finiteMaterialNinePolicyOmission": true,
+          "fullMaterialNinePolicyOmission": true
+        }
+      ],
+      "finiteMaterialFamilies": 2,
+      "fullMaterialFamilies": 3,
+      "offlineFullDecoderQA": 71,
+      "maxAbsoluteObjectiveError": [
+        0.0,
+        6.548361852765083e-11,
+        6.548361852765083e-11
+      ],
+      "worthPairedSupplyDiagnostic": true
+    }
+  ],
+  "searchFE": 0,
+  "offlineFullDecoderQA": 135,
+  "worthPairedSupplyDiagnostic": false
+}

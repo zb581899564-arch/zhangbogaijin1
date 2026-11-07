@@ -1,0 +1,76 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "sourceSeeds": [
+    10280003,
+    10280033
+  ],
+  "rules": [
+    "OLDEST",
+    "CURRENT",
+    "LATEST",
+    "UNIFORM",
+    "CONTEXT"
+  ],
+  "primary": "CONTEXT",
+  "captureReplayFE": 40800,
+  "plannedProbeFE": 10720,
+  "hypothesis": "CENTER pbest chooses oldest surviving ND insertion because PDDR over its own ND archive ties. Score personal history against current peer-group objectives to recover context, retaining latest insertion only as equal-score tie-break.",
+  "authority": "Controlled research variant; not a claim that original paper mandates a different tie-break or that this is a verified implementation bug.",
+  "inputs": "Fresh source seeds; native first CENTER action2 at/after step24; eight free parents. Capture actual personal ND history and already-paid current peer group. OFF/ON full5100 paid-prefix and endpoint equivalence mandatory.",
+  "rulesDescription": {
+    "OLDEST": "Frozen original ND-history PDDR tie behavior",
+    "CURRENT": "Use current parent",
+    "LATEST": "Latest surviving ND insertion",
+    "UNIFORM": "One pre-fixed uniform ND-history sample",
+    "CONTEXT": "Minimize dominated-by-peers +1/(dominates-peers+1), ties latest. History internally ND, so this equals its PDDR scores in peers union history."
+  },
+  "pairing": "Actual native global guide unchanged. Same per-parent/rep splitmix construction seed for all five personal rules. Existing four actual kernels all evaluated and charged, only JOB_ALIGNED primary.16 reps per rule; all children full QA.",
+  "score": "Mean single-child HV improvement over the actual paid pre-batch archive, summed equally over8 parents per source seed. Known teacher/parent copies earn zero. No free best-of16 selection.",
+  "gate": "Both instances: CONTEXT changes >=25% of oldest choices, improves aggregate mean addition >=10% vs OLDEST, exceeds CURRENT/LATEST/UNIFORM, and both source seeds positive vs OLDEST. Zero OLDEST baseline inconclusive. Failure stops this context rule without tie/weight/seed scans.",
+  "scope": "No mainline edit, closed-loop efficacy, same-time or novelty claim. A pass only permits a separately frozen whole-budget study including Li with the same generic memory enhancement."
+}

@@ -1,0 +1,173 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "fullVsNsgaAtFixedCheckpoints": {
+        "100": {
+          "pairedPct": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "medianPct": 0.0
+        },
+        "5100": {
+          "pairedPct": [
+            -4.317002920930014,
+            -1.3358162274254015,
+            -1.387952870550957
+          ],
+          "medianPct": -1.387952870550957
+        },
+        "50000": {
+          "pairedPct": [
+            -3.3993684615590603,
+            -2.736710175179269,
+            -1.9704386504566074
+          ],
+          "medianPct": -2.736710175179269
+        },
+        "100000": {
+          "pairedPct": [
+            -5.112577467996049,
+            -1.499463523793787,
+            -2.344261250896762
+          ],
+          "medianPct": -2.344261250896762
+        },
+        "T": {
+          "pairedPct": [
+            -5.581384072994533,
+            -2.2048474107073,
+            -0.031399025600420405
+          ],
+          "medianPct": -2.2048474107073
+        }
+      },
+      "gainFrom100000FEToDeadlinePct": {
+        "FULL_SERIAL": [
+          0.8050566679924875,
+          0.4221088847600196,
+          2.633777848606278
+        ],
+        "FULL_ANCHOR": [
+          0.8068839813238915,
+          0.4472599866127469,
+          2.63672752510018
+        ],
+        "NSGA_ANCHOR": [
+          1.30740956704416,
+          1.1717731838744916,
+          0.262135826236376
+        ]
+      },
+      "observedLocalVisitCounts": {
+        "FULL_ANCHOR": [
+          {
+            "local.g1.preference.MAKESPAN": 15,
+            "local.g2.preference.CENTER": 31
+          },
+          {
+            "local.g1.preference.MAKESPAN": 15,
+            "local.g2.preference.CENTER": 33
+          },
+          {
+            "local.g1.preference.MAKESPAN": 15,
+            "local.g2.preference.CENTER": 33
+          }
+        ],
+        "NSGA_ANCHOR": [
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "fullVsNsgaAtFixedCheckpoints": {
+        "100": {
+          "pairedPct": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "medianPct": 0.0
+        },
+        "5100": {
+          "pairedPct": [
+            4.807766569989114,
+            6.039810018476421,
+            0.9912965194428525
+          ],
+          "medianPct": 4.807766569989114
+        },
+        "50000": {
+          "pairedPct": [
+            3.9690506160389605,
+            4.710024944693125,
+            0.16667765664688527
+          ],
+          "medianPct": 3.9690506160389605
+        },
+        "100000": {
+          "pairedPct": [
+            2.557481825401542,
+            6.567328789055882,
+            -2.9165721623425678
+          ],
+          "medianPct": 2.557481825401542
+        },
+        "T": {
+          "pairedPct": [
+            -0.09772688537235119,
+            4.87628964295177,
+            -1.5072880160744706
+          ],
+          "medianPct": -0.09772688537235119
+        }
+      },
+      "gainFrom100000FEToDeadlinePct": {
+        "FULL_SERIAL": [
+          2.22916960343138,
+          0.09967341019836429,
+          0.2961454446588574
+        ],
+        "FULL_ANCHOR": [
+          2.3852712648327223,
+          0.6662235831384367,
+          2.7231702339647335
+        ],
+        "NSGA_ANCHOR": [
+          5.106473251952748,
+          2.2893790680349912,
+          1.253354525278061
+        ]
+      },
+      "observedLocalVisitCounts": {
+        "FULL_ANCHOR": [
+          {
+            "local.g1.preference.MAKESPAN": 15,
+            "local.g2.preference.CENTER": 18
+          },
+          {
+            "local.g1.preference.MAKESPAN": 15,
+            "local.g2.preference.CENTER": 19
+          },
+          {
+            "local.g1.preference.MAKESPAN": 15,
+            "local.g2.preference.CENTER": 21
+          }
+        ],
+        "NSGA_ANCHOR": [
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  ],
+  "searchFE": 0,
+  "status": "DESCRIPTIVE_AFTER_PRIMARY_OUTCOMES",
+  "scope": "Fixed FE100/5100/50000/100000 and actual T, chosen for phase interpretation; no new threshold, causal mediation claim, censored-point replacement, or rescue of the failed primary experiment."
+}

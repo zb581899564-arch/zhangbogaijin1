@@ -1,0 +1,89 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "eventSHA256": "c9576accadfcee1dd0bf4ecfc919c84de6d42905e2d340e7ea238432329751c9",
+      "acceptedSpecialistOnly": 116,
+      "everCrossRoleDonor": 24,
+      "neverCrossRoleDonor": 92,
+      "neitherCrossRoleDonorNorModel": 92,
+      "byRole": [
+        {
+          "role": "MAKESPAN",
+          "acceptedSpecialistOnly": 14,
+          "everAnyDonor": 5,
+          "everCrossRoleDonor": 5,
+          "everEnteredModel": 2,
+          "everProgramEndpoint": 5,
+          "neverCrossRoleDonor": 9,
+          "neitherCrossRoleDonorNorModel": 9
+        },
+        {
+          "role": "ENERGY",
+          "acceptedSpecialistOnly": 50,
+          "everAnyDonor": 11,
+          "everCrossRoleDonor": 11,
+          "everEnteredModel": 9,
+          "everProgramEndpoint": 11,
+          "neverCrossRoleDonor": 39,
+          "neitherCrossRoleDonorNorModel": 39
+        },
+        {
+          "role": "WORKER_COST",
+          "acceptedSpecialistOnly": 52,
+          "everAnyDonor": 10,
+          "everCrossRoleDonor": 8,
+          "everEnteredModel": 8,
+          "everProgramEndpoint": 12,
+          "neverCrossRoleDonor": 44,
+          "neitherCrossRoleDonorNorModel": 44
+        }
+      ],
+      "limits": "No cross-role/model exposure is not no use: all accepted states continue the same-slot trajectory. Engineering fixtures only, no causal value of hidden states."
+    },
+    {
+      "stem": "100_2_3_1",
+      "eventSHA256": "463c233187ffd6cd13771b93e6ab2fb32057ca6f5496b0df47c2ac8562c4b693",
+      "acceptedSpecialistOnly": 934,
+      "everCrossRoleDonor": 27,
+      "neverCrossRoleDonor": 907,
+      "neitherCrossRoleDonorNorModel": 907,
+      "byRole": [
+        {
+          "role": "MAKESPAN",
+          "acceptedSpecialistOnly": 220,
+          "everAnyDonor": 13,
+          "everCrossRoleDonor": 13,
+          "everEnteredModel": 4,
+          "everProgramEndpoint": 13,
+          "neverCrossRoleDonor": 207,
+          "neitherCrossRoleDonorNorModel": 207
+        },
+        {
+          "role": "ENERGY",
+          "acceptedSpecialistOnly": 417,
+          "everAnyDonor": 10,
+          "everCrossRoleDonor": 10,
+          "everEnteredModel": 6,
+          "everProgramEndpoint": 10,
+          "neverCrossRoleDonor": 407,
+          "neitherCrossRoleDonorNorModel": 407
+        },
+        {
+          "role": "WORKER_COST",
+          "acceptedSpecialistOnly": 297,
+          "everAnyDonor": 6,
+          "everCrossRoleDonor": 4,
+          "everEnteredModel": 4,
+          "everProgramEndpoint": 7,
+          "neverCrossRoleDonor": 293,
+          "neitherCrossRoleDonorNorModel": 293
+        }
+      ],
+      "limits": "No cross-role/model exposure is not no use: all accepted states continue the same-slot trajectory. Engineering fixtures only, no causal value of hidden states."
+    }
+  ],
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "hiddenStateValueProved": false
+}

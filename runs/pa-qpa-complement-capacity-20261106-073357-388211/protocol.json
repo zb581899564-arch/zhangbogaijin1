@@ -1,0 +1,40 @@
+{
+  "version": "PA_QPA_FIXED_HALF_BUDGET_CAPACITY-v1",
+  "registeredBeforeCalculation": true,
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\qpa-capability-pilot-20261106-025546-344483",
+  "sourceAnalysisSHA256": "1544ee8732d6ef50b0dc001d1f58a97cc49a10bb2cd863a15edab609c9e5869e",
+  "sourceAuditSHA256": "70afb81614a32afd51e558bee9b7bf83a025897eed8e06966ca8e3daa02939b9",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "seeds": [
+    14730003,
+    14730037
+  ],
+  "parentKernels": [
+    "PA_JOINT",
+    "QPA_DIRECT"
+  ],
+  "basis": "Source report: QPA_DIRECT beats PA_JOINT on20, PA_JOINT beatsQPA on100; representation/program differences may provide complementary regions. This is untested capacity, not four-role novelty.",
+  "distinctFromPriorStop": "Old half-budget source was SHARE_CTX_GOM versusUNIFORM_CTX_GOM, two preference variants of one PA-local framework. Here two standalone ordinary complete representations/programs are pooled; no source-role claim.",
+  "totalSourceFEEveryUnion": 500000,
+  "sourceFEEveryStream": 250000,
+  "primary": "PA_JOINT seed_i250k +QPA_DIRECT seed_other250k, both fixed reciprocal pairings; no same-seed,ratio,checkpoint,instance-dependent or source selection",
+  "controls": "Allsix full500k source methods; same-kernel two-seed250k+250k restart unions forPA_JOINT,QPA_DIRECT,PA_EQUAL",
+  "reference": "Original allsixarms/alltwoseeds full500k empiricalND union, original frozen scales, HV1.25/1.5/2",
+  "criterion": "Bothinstances: original improvementRule vs both parent same-kernel restart unions (medianHV>=1%, IGD+/Cnonworse, original per-seed floors); original noninferiorityRule vs all other full500k/restart controls. Allconditions required, no2of3 voting.",
+  "optimism": "Free final archive merge, source initializations fully counted twice; merge/communication/time ignored makes this an optimistic capacity test. Not an executable algorithm, time claim, causal transfer evidence or independent confirmation.",
+  "dependence": "Two reciprocal mixtures share allfour source trajectories; homogeneous restart pools identical across pairings. Report correlated development cases, not independent repetitions.",
+  "onFailure": "Stop this fixed independent halfbudget PA/QPA pooling; no ratio,switch point,instance-dependent choice,source change or promotingPA_EQUAL after results. Does not stop all possible interaction architectures.",
+  "progression": "Capacitypass only permits separatelyregistered interleaved interaction test with common-kernel ordinary control, role and sharing ablations; not four-role benefit or algorithmqualification",
+  "newSearchFE": 0,
+  "newDecoderCalls": 0,
+  "defaultMainlineChanged": false,
+  "goalAchieved": false,
+  "protectedBefore": {
+    "src/java/search/CanonicalHmopso.java": "9f82b84c48a5e1900df2b840484142496dfab299b0f4688a0ab3ff2eb69c92de",
+    "src/algorithms/model_global/population/PaPopulation.java": "52703a7e3e93b73cf7a3bb600d9e619ec2a26beb7228e2918c74b2df5b1438f2",
+    "src/algorithms/model_global/population/PaPaidEvaluation.java": "b90525e0f905ea2b9899e63939e1ccf7d646b41fe39522590b8ae933756d7cec"
+  }
+}

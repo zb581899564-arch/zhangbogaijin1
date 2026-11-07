@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "G:\ai\limingzhegaijin\张博改进\scripts\run_baseline.py", line 51, in <module>
+    main()
+  File "G:\ai\limingzhegaijin\张博改进\scripts\run_baseline.py", line 42, in main
+    execute(command, output / "run.log")
+  File "G:\ai\limingzhegaijin\张博改进\scripts\baseline_build.py", line 15, in execute
+    raise RuntimeError(f"Command failed ({result.returncode}); see {log}\n"
+RuntimeError: Command failed (1); see G:\ai\limingzhegaijin\张博改进\runs\baseline-20261031-144843-061862\run.log
+Exception in thread "main" java.lang.IllegalArgumentException: Instance violates ESWA Eq(8); only an explicitly diagnostic run is allowed
+	at research.normalized.NormalizedRun.main(NormalizedRun.java:51)
+

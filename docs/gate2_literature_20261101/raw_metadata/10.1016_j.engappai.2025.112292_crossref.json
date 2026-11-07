@@ -1,0 +1,895 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2026-07-08T00:02:54Z",
+      "timestamp": 1783468974696,
+      "version": "3.55.0"
+    },
+    "reference-count": 50,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.engappai.2025.112292",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2025-09-23T00:18:36Z",
+      "timestamp": 1758586716000
+    },
+    "page": "112292",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "special_numbering": "PA",
+    "title": [
+      "A Deep Q-Network-driven multi-objective evolutionary algorithm for distributed heterogeneous hybrid flow shop scheduling with worker fatigue"
+    ],
+    "prefix": "10.1016",
+    "volume": "162",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7754-7889",
+        "authenticated-orcid": false,
+        "given": "Jianlin",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Longbin",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wu",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zuohan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianpeng",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1016/j.ejor.2020.11.016",
+        "article-title": "Performance indicators in multiobjective optimization",
+        "volume": "292",
+        "author": "Audet",
+        "year": "2021",
+        "journal-title": "Eur. J. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1109/TASE.2023.3349167",
+        "article-title": "Scheduling a distributed permutation flowshop with uniform machines and release dates",
+        "volume": "22",
+        "author": "Bai",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "5404",
+        "DOI": "10.1080/00207543.2020.1780333",
+        "article-title": "A shuffled frog-leaping algorithm with memeplex quality for bi-objective distributed scheduling in hybrid flow shop",
+        "volume": "59",
+        "author": "Cai",
+        "year": "2021",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1233",
+        "DOI": "10.1080/00207543.2022.2031331",
+        "article-title": "A novel shuffled frog-leaping algorithm with reinforcement learning for distributed assembly hybrid flow shop scheduling",
+        "volume": "61",
+        "author": "Cai",
+        "year": "2023",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "9521",
+        "DOI": "10.1007/s00500-024-09763-3",
+        "article-title": "An enhanced teaching–learning-based optimization for the flexible job shop scheduling problem considering worker behaviours",
+        "volume": "28",
+        "author": "Cai",
+        "year": "2024",
+        "journal-title": "Soft Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1007/s10710-005-6164-x",
+        "article-title": "Solving multiobjective optimization problems using an artificial immune system",
+        "volume": "6",
+        "author": "Coello",
+        "year": "2005",
+        "journal-title": "Genet. Program. Evolvable Mach."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1016/j.swevo.2016.06.002",
+        "article-title": "A competitive memetic algorithm for multi-objective distributed permutation flow shop scheduling problem",
+        "volume": "32",
+        "author": "Deng",
+        "year": "2017",
+        "journal-title": "Swarm Evol. Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cie.2022.108146",
+        "article-title": "Green scheduling of distributed two-stage reentrant hybrid flow shop considering distributed energy resources and energy storage system",
+        "volume": "169",
+        "author": "Dong",
+        "year": "2022",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2025.111197",
+        "article-title": "A problem-specific knowledge-based multi-objective algorithm for sustainable scheduling of distributed heterogeneous welding permutation flow shop",
+        "volume": "156",
+        "author": "Duan",
+        "year": "2025",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1752",
+        "DOI": "10.1109/TCYB.2021.3120875",
+        "article-title": "A hybrid evolutionary algorithm using two solution representations for hybrid flow-shop scheduling problem",
+        "volume": "53",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Cybern."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2019.112902",
+        "article-title": "Energy-efficient flexible flow shop scheduling with worker flexibility",
+        "volume": "141",
+        "author": "Gong",
+        "year": "2020",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2020.114282",
+        "article-title": "Multi-objective evolutionary algorithms with heuristic decoding for hybrid flow shop scheduling problem with worker constraint",
+        "volume": "168",
+        "author": "Han",
+        "year": "2021",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "4805",
+        "DOI": "10.1007/s40747-023-00984-x",
+        "article-title": "BRCE: bi-roles co-evolution for energy-efficient distributed heterogeneous permutation flow shop scheduling with flexible machine speed",
+        "volume": "9",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "Complex & Intell. Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "2575",
+        "DOI": "10.3390/math12162575",
+        "article-title": "Co-Evolutionary algorithm for two-stage hybrid flow shop scheduling problem with suspension shifts",
+        "volume": "12",
+        "author": "Huang",
+        "year": "2024",
+        "journal-title": "Mathematics"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib15",
+        "first-page": "242",
+        "article-title": "Towards accuracy improvement in solution of inverse kinematic problem in redundant robot: a comparative analysis",
+        "volume": "15",
+        "author": "Khaleel",
+        "year": "2024",
+        "journal-title": "Int. Rev. Appl. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1005",
+        "DOI": "10.18280/jesa.570408",
+        "article-title": "Improved trajectory planning of Mobile robot based on pelican optimization algorithm",
+        "volume": "57",
+        "author": "Khaleel",
+        "year": "2024",
+        "journal-title": "J. Eur. Systèmes Automatisés"
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cor.2023.106360",
+        "article-title": "Multi-objective energy-efficient hybrid flow shop scheduling using Q-learning and GVNS driven NSGA-II",
+        "volume": "159",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "610",
+        "DOI": "10.1109/TEVC.2022.3175832",
+        "article-title": "A learning-based memetic algorithm for energy-efficient flexible job-shop scheduling with Type-2 fuzzy processing time",
+        "volume": "27",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Evol. Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "6550",
+        "DOI": "10.1109/TASE.2023.3327792",
+        "article-title": "Double DQN-based coevolution for green distributed heterogeneous hybrid flowshop scheduling with multiple priorities of jobs",
+        "volume": "21",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.swevo.2023.101409",
+        "article-title": "A collaboration-based multi-objective algorithm for distributed hybrid flowshop scheduling with resource constraints",
+        "volume": "83",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Swarm Evol. Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cie.2020.106638",
+        "article-title": "An improved artificial bee colony algorithm for distributed heterogeneous hybrid flowshop scheduling problem with sequence-dependent setup times",
+        "volume": "147",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cie.2020.106944",
+        "article-title": "Eco-friendly multi-skilled worker assignment and assembly line balancing problem",
+        "volume": "151",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.rcim.2022.102478",
+        "article-title": "Agent-based simulation and optimization of hybrid flow shop considering multi-skilled workers and fatigue factors",
+        "volume": "80",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Robot. Comput. Integrated Manuf."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3844",
+        "DOI": "10.1080/00207543.2021.1933239",
+        "article-title": "Adaptive selection multi-objective optimization method for hybrid flow shop green scheduling under finite variable parameter constraints: case study",
+        "volume": "60",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6687",
+        "DOI": "10.1109/TII.2020.3043734",
+        "article-title": "Energy-efficient scheduling of distributed flow shop with heterogeneous factories: a real-world case from automobile industry in China",
+        "volume": "17",
+        "author": "Lu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Inf."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2024.111508",
+        "article-title": "Modeling and multi-objective optimization for energy-aware scheduling of distributed hybrid flow-shop",
+        "volume": "156",
+        "author": "Lu",
+        "year": "2024",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2025.126523",
+        "article-title": "Scheduling of stochastic distributed hybrid flow-shop by hybrid estimation of distribution algorithm and proximal policy optimization",
+        "volume": "271",
+        "author": "Luo",
+        "year": "2025",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "473",
+        "DOI": "10.31272/jeasd.2454",
+        "article-title": "Implementation and derivation kinematics modeling analysis of WidowX 250 6Degreef of freedom robotic arm",
+        "volume": "29",
+        "author": "Obied",
+        "year": "2025",
+        "journal-title": "J. Eng. Sustain. Develop."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2019.105492",
+        "article-title": "Effective constructive heuristics and meta-heuristics for the distributed assembly permutation flowshop scheduling problem",
+        "volume": "81",
+        "author": "Pan",
+        "year": "2019",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1999",
+        "DOI": "10.1080/00207543.2023.2204967",
+        "article-title": "Impact of learning effect modelling in flowshop scheduling with makespan minimisation based on the nawaz-enscore-ham algorithm",
+        "volume": "62",
+        "author": "Paredes-Astudillo",
+        "year": "2024",
+        "journal-title": "Int. J. Prod. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.ejor.2009.09.024",
+        "article-title": "The hybrid flow shop scheduling problem",
+        "volume": "205",
+        "author": "Ruiz",
+        "year": "2010",
+        "journal-title": "Eur. J. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2021.115453",
+        "article-title": "Multi-objective evolutionary algorithm based on multiple neighborhoods local search for multi-objective distributed hybrid flow shop scheduling problem",
+        "volume": "183",
+        "author": "Shao",
+        "year": "2021",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "3379",
+        "DOI": "10.1109/TASE.2021.3119353",
+        "article-title": "An ant colony optimization behavior-based MOEA/D for distributed heterogeneous hybrid flow shop scheduling problem under nonidentical time-of-use electricity tariffs",
+        "volume": "19",
+        "author": "Shao",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1109/TETCI.2022.3174915",
+        "article-title": "LS-HH: a learning-based selection hyper-heuristic for distributed heterogeneous hybrid blocking flow-shop scheduling",
+        "volume": "7",
+        "author": "Shao",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Emerg. Topics Computat. Intell."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cor.2024.106919",
+        "article-title": "A Q-learning driven multi-objective evolutionary algorithm for worker fatigue dual-resource-constrained distributed hybrid flow shop",
+        "volume": "175",
+        "author": "Song",
+        "year": "2025",
+        "journal-title": "Comput. Oper. Res."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2024.125244",
+        "article-title": "A multi-objective dynamical artificial bee colony for energy-efficient fuzzy hybrid flow shop scheduling with batch processing machines",
+        "volume": "259",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "694",
+        "DOI": "10.1016/j.jmsy.2022.11.001",
+        "article-title": "Independent double DQN-Based multi-agent reinforcement learning approach for online two-stage hybrid flow shop scheduling with batch machines",
+        "volume": "65",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2023.105977",
+        "article-title": "Solving energy-efficient fuzzy hybrid flow-shop scheduling problem at a variable machine speed using an extended NSGA-II",
+        "volume": "121",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2022.119422",
+        "article-title": "Joint optimization of integrated mixed maintenance and distributed two-stage hybrid flow-shop production for multi-site maintenance requirements",
+        "volume": "215",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1109/TEVC.2005.851275",
+        "article-title": "A faster algorithm for calculating hypervolume",
+        "volume": "10",
+        "author": "While",
+        "year": "2006",
+        "journal-title": "IEEE Trans. Evol. Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2023.120893",
+        "article-title": "Improved MOEA/D with local search for solving multi-stage distributed reentrant hybrid flow shop scheduling problem",
+        "volume": "232",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1016/j.jmsy.2025.02.002",
+        "article-title": "A Q-learning-based improved multi-objective genetic algorithm for solving distributed heterogeneous assembly flexible job shop scheduling problems with transfers",
+        "volume": "79",
+        "author": "Yang",
+        "year": "2025",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib43",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.eswa.2017.09.032",
+        "article-title": "Minimizing makespan for the distributed hybrid flowshop scheduling problem with multiprocessor tasks",
+        "volume": "92",
+        "author": "Ying",
+        "year": "2018",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib44",
+        "article-title": "Modeling and optimization algorithm for energy-efficient distributed assembly hybrid flowshop scheduling problem considering worker resources",
+        "volume": "40",
+        "author": "Yu",
+        "year": "2024",
+        "journal-title": "J. Indus. Info. Integr."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2023.122434",
+        "article-title": "Mathematical model and knowledge-based iterated greedy algorithm for distributed assembly hybrid flow shop scheduling problem with dual-resource constraints",
+        "volume": "239",
+        "author": "Yu",
+        "year": "2024",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2024.108930",
+        "article-title": "An artificial bee colony with diversified operators for energy-efficient hybrid flow shop scheduling with batch processing machines",
+        "volume": "136",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib47",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.swevo.2024.101559",
+        "article-title": "An enhanced estimation of distribution algorithm with problem-specific knowledge for distributed no-wait flowshop group scheduling problems",
+        "volume": "87",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Swarm Evol. Comput."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "4899",
+        "DOI": "10.1109/TSMC.2023.3256484",
+        "article-title": "A cooperative scatter search with reinforcement learning mechanism for the distributed permutation flowshop scheduling problem with sequence-dependent setup times",
+        "volume": "53",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Syst. Man Cybernet.-Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2020.105536",
+        "article-title": "A cooperative coevolution algorithm for multi-objective fuzzy distributed hybrid flow shop",
+        "volume": "194",
+        "author": "Zheng",
+        "year": "2020",
+        "journal-title": "Knowl. Base Syst."
+      },
+      {
+        "key": "10.1016/j.engappai.2025.112292_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "12186",
+        "DOI": "10.1007/s11227-024-05909-0",
+        "article-title": "Evolutionary multi-mode slime mold optimization: a hyper-heuristic algorithm inspired by slime mold foraging behaviors",
+        "volume": "80",
+        "author": "Zhong",
+        "year": "2024",
+        "journal-title": "J. Supercomput."
+      }
+    ],
+    "container-title": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0952197625023000?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0952197625023000?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2025-10-26T01:29:37Z",
+      "timestamp": 1761442177000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0952197625023000"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 50,
+    "alternative-id": [
+      "S0952197625023000"
+    ],
+    "URL": "https://doi.org/10.1016/j.engappai.2025.112292",
+    "relation": {},
+    "ISSN": [
+      "0952-1976"
+    ],
+    "issn-type": [
+      {
+        "value": "0952-1976",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A Deep Q-Network-driven multi-objective evolutionary algorithm for distributed heterogeneous hybrid flow shop scheduling with worker fatigue",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Engineering Applications of Artificial Intelligence",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.engappai.2025.112292",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "112292"
+  }
+}

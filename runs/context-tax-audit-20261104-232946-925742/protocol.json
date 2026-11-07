@@ -1,0 +1,180 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seeds": [
+    9490009
+  ],
+  "methods": {
+    "FIXED_FORCE": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "policy": "FORCE"
+    },
+    "FIXED_SHARE": {
+      "mode": "SHARE_JOB_ALIGNED",
+      "policy": "ROLE_CROWD"
+    },
+    "FIXED_SYNC": {
+      "mode": "SYNC_JOB_ALIGNED",
+      "policy": "ROLE_CROWD"
+    },
+    "FREE_JOB": {
+      "mode": "BASELINE_JOB_ALIGNED",
+      "policy": "ROLE_CROWD",
+      "commonInitials": true
+    },
+    "FREE_PAPER_SO": {
+      "mode": "BASELINE",
+      "policy": "ROLE_CROWD",
+      "commonInitials": true
+    },
+    "FREE_PAPER_V2": {
+      "mode": "BASELINE",
+      "policy": "ROLE_CROWD",
+      "commonInitials": true,
+      "liLegacy": true
+    },
+    "LI_MATCHED_DEEP": {
+      "mode": "BASELINE",
+      "policy": "FORCE",
+      "commonInitials": true,
+      "liLegacy": true
+    },
+    "NSGA": {
+      "mode": "NSGA2_4V",
+      "policy": "FORCE"
+    }
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "FIXED_FORCE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "FIXED_SHARE"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "FIXED_SYNC"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "FREE_JOB"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "FREE_PAPER_SO"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "FREE_PAPER_V2"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9490009,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "FIXED_SHARE"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "FIXED_SYNC"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "FREE_JOB"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "FREE_PAPER_SO"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "FREE_PAPER_V2"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9490009,
+      "arm": "FIXED_FORCE"
+    }
+  ],
+  "evidence": "Paid M proposal competitions did not improve the many-stage gap. An accidentally crowd-enhanced unprotected Li control suggested that protected FA contexts or reconstruction semantics may impose a tax.",
+  "question": "Separate original fixed-context sharing gains from family constraints+quota+stratification cost; separate that architecture effect from JOB_ALIGNED vs paper-SO and legacy-v2 proposal/survival differences.",
+  "invariants": "Same paid initial vectors, physical LS ledger, original four objective roles, common linear PDDR and dynamic decoder. FREE variants are explicitly ablations with no protected contexts, not claims to retain the old sharing effect. No candidate is chosen as a winner before this diagnostic.",
+  "identity": "LI_MATCHED_DEEP is reconstructed-v2 plus matched deep LS; FREE_PAPER_V2 adds only the new global batch selection to that enhanced control. SO vs v2 changes two disclosed semantics, not a pure kernel factor.",
+  "actualFEPerCell": 500000,
+  "totalSearchFE": 8000000,
+  "scope": "One-seed architecture attribution, not final efficacy or journal novelty."
+}

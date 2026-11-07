@@ -1,0 +1,14 @@
+{
+"baseline":"A0-sourced-reconstruction-v2",
+"modelProvenance":"benchmark=G:\\ai\\limingzhegaijin\\张博改进\\data\\chapter3\\20_2_3_1.txt; standbyPower=1.0 (EXPLICIT RECONSTRUCTION ASSUMPTION, absent from instance)",
+"seed":271828,
+"searchFeLimit":6500,
+"searchDecoderAttempts":6500,
+"successfulSearchEvaluations":6500,
+"failedSearchEvaluations":0,
+"offlineValidationDecodes":32,
+"archiveSize":32,
+"searchSecondsIncludingArchive":0.2494651,
+"diagnosticOnly":false,
+"searchConfig":"population=100;boundaryEach=15;central=55;Q=40;localProposalCap=40;alpha=1.0;gamma=0.8;exploration=0.9;randScale=0.4;PC_FA_MA_WA=0.2,0.4,0.3;PM_FA_MA_WA=0.06,0.1,0.25;paperProfile=JMS-Table9_or_ESWA-DOE-paragraph;alpha-and-local-cap=EXPLICIT-RECONSTRUCTION"
+}

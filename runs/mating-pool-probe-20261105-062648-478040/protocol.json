@@ -1,0 +1,72 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\global-working-audit-20261105-055724-963327",
+  "sourceSeeds": [
+    11730007,
+    11730037
+  ],
+  "probeSeed": 11950003,
+  "candidate": "SHARED",
+  "methods": [
+    "WITHIN",
+    "SHARED",
+    "RANDOM_SHARED",
+    "INITIAL_SHARED"
+  ],
+  "plannedSourceFE": 20400,
+  "plannedProbeFE": 8064,
+  "plannedChildFE": 6144,
+  "question": "Does a currently evolved cross-role donor pool improve new CENTER offspring beyond within-CENTER, uniform cross-role donors and the equally large initial pool, using the identical classic generation kernel?",
+  "capture": "Observer-only replay4*5100 with original OFF paidSHA and complete observable outputs equal. Mirror exact actual paid archive. Before CENTER step0/24/49 capture current100, roles, family and earliest paid provenance; initial100 separately captured after decomposition. No after-batch archive as pre-batch background.",
+  "sampling": "2development instances,2reused source seeds,3fixed windows. Each8freeCENTER recipients at floor(i*46/7), 16paired construction noises. All outcomes equally included, no gain-based parent/window replacement.",
+  "rules": "WITHIN fresh actual NSGA score/tournament on current47freeCENTER;SHARED same on current80free across roles; RANDOM_SHARED uniform on same80;INITIAL_SHARED same score/tournament on initial80free. Actual setting0 ClassicKernelBridge.child(fixedRecipient,donor) and common repair. Separate paired donor and construction RNG, not claimed identical donor or descendant stream.",
+  "fees": "Percontext160paid input replays, duplicates included, then512paid children. Full timelineQA on every input and child. Actual score recomputed every8-child batch, all score/draw/kernel/repair/evaluation costs retained. No speculative amortization.",
+  "gate": "Both instances>=24/48informative recipients; SHARED mean single-addedHV>=10%overWITHIN andINITIAL_SHARED and>=5%overRANDOM_SHARED,>=27/48parentwins vsWITHIN; eachsource seed positive and eachstep aggregate nonnegative vsWITHIN. Median score-amortized-peractual8child+draw+kernel+evaluation callcost ratio<=1.25 vsWITHIN. Allnecessary. Failure stops this fixed source mechanism without pool size/window/tournament/kernel/seed tuning.",
+  "limits": "OnlyfreeCENTER, conditional one-child value, not originalNSGA inherited union scores or actual CENTER replacement. Reused sources, not independent confirmation, role specificity, sharing contribution, novelty or same-time advantage. A pass only permits another pre-registered closed-loop/role-ablation experiment.",
+  "preserved": "No production/default mainline, original materials, frozen records, Q, duty, family or sharing changes; no network transfer."
+}

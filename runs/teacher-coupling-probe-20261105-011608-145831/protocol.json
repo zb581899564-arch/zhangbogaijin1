@@ -1,0 +1,64 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "sourceSeeds": [
+    10060007,
+    10060031
+  ],
+  "probeSeed": 10170011,
+  "captureReplayFE": 40800,
+  "plannedProbeFE": 22528,
+  "hypothesis": "A single action2 guide shared across a QGS batch correlates offspring and reduces batch HV coverage, even with identical marginal guide quality and offspring set.",
+  "source": "Unchanged FULL_ROLE four duties/fixed families/sharing; first actual QGS action2 batch at/after step24 in each role, eight equally spaced free parents. Four pre-fixed roles, two source seeds, two instances. Missing windows retained, never benefit-resampled.",
+  "engineering": "Capture OFF vs ON entire5100 paid-prefix SHA, initial/final genes, physical ledger and checkpoint fronts must match.",
+  "children": "Per cohort8 parents x16 sampled action2 archive-tournament guides x2 paired construction seeds. Actual four kernels evaluated by existing KernelProbeRun; only pre-fixed JOB_ALIGNED used for primary test. All3 parent/teacher replays and all4-kernel offspring charged; every child full-decoder QA.",
+  "noise": "Same per-parent/rep construction seed across all16 guides, splitmix-derived independent parent streams. Thus repeated identical guides give identical children, without relying on correlated neighboring Java seeds.",
+  "groupings": "COMMON: each batch shares guide index g; LATIN: parent p receives index(g+p)%16; RANDOM: independent fixed permutation of16 indices for each parent. Each grouping uses each identical evaluated child exactly once per parent/rep. All per-parent teacher/noise marginals are exactly equal.",
+  "score": "Mean8-child union HV addition over the actual already-paid archive immediately before the native batch. No new result archive feeds search. Copying a known parent/guide earns no new HV.",
+  "gate": "Both instances: at least6 informative cohorts; median LATIN improvement in mean added batchHV >=10%, RANDOM >=5%; both controls positive in >=6/8 cohorts; both source-seed CENTER cohorts LATIN nonnegative. Zero common-addedHV cohorts inconclusive, not denominator-filled. A pass only authorizes a fresh closed-loop protocol with full guide-selection cost.",
+  "limits": "Conditional action2 candidate dependence, eight free parents only; not all Q actions, complete search, same-time superiority, fatigue specificity or novelty."
+}

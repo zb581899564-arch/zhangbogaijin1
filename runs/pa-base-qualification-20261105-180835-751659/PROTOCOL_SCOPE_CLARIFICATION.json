@@ -1,0 +1,29 @@
+{
+  "kind": "Metadata scope clarification before aggregate500kresults are available",
+  "originalProtocolSHA256": "dbcaad6490fdc76145cb32a147f24f130ed6fd3a563c823b693058242951bada",
+  "reason": "The new protocol dict includes inherited fields from the closed pilot. They are prior-context metadata, not new qualification gates.",
+  "nonOperativeInheritedFields": [
+    "gateSequence",
+    "learningGate",
+    "ordinaryGlobalGate",
+    "strongControlGate",
+    "conditionalLSBranch",
+    "stop",
+    "plannedFE100kSuccessful",
+    "plannedAdditionalFE500kSuccessfulIfAllStrongGatesPass"
+  ],
+  "operativeFields": [
+    "newQuestion",
+    "algorithmOrParametersChanged",
+    "primaryStill",
+    "plannedFixedSuccessfulFE",
+    "phases",
+    "readinessGate",
+    "learningGateNotUsed",
+    "oneFollowupOnly",
+    "qualificationLimit"
+  ],
+  "actualExecution": "Frozen run_pa_base_qualification.py uses500kthenTIMEonlyifreadinesspasses; readinesschecksall4controls andnevercheckslearning. No algorithm,parameter,seed,budget,threshold or execution-order change.",
+  "oldLearningPilotDecisionUnchanged": true,
+  "fullGoalAchieved": false
+}

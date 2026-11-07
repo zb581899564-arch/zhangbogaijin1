@@ -1,0 +1,149 @@
+{
+  "stem": "20_8_5_1",
+  "method": "NSGA",
+  "successfulFE": 500000,
+  "actualFAChangedFE": 9816,
+  "FAChangedPctOfPostInitialFE": 1.9635927185437088,
+  "FAChangedSequentialHVIncrement": 0.057951798711525615,
+  "initialHV": 0.42048150941141305,
+  "finalHV": 0.5488441239183697,
+  "postInitialHVIncrement": 0.12836261450695663,
+  "FAChangedShareOfPostInitialHVIncrementPct": 45.14694479706544,
+  "interAcceptedFAChanges": 42,
+  "counters": {
+    "initialization/NONE/FREE/INITIAL": {
+      "successfulFE": 100,
+      "admissions": 36,
+      "novelFA": 84
+    },
+    "global/NONE/FREE/FA_CHANGED": {
+      "successfulFE": 9532,
+      "admissions": 216,
+      "novelFA": 9168,
+      "rawFAIntentFE": 9532,
+      "changedJobsTotal": 48894
+    },
+    "global/NONE/FREE/FA_SAME": {
+      "successfulFE": 468,
+      "admissions": 51
+    },
+    "inter/MAKESPAN/FREE/FA_CHANGED": {
+      "successfulFE": 65,
+      "admissions": 1,
+      "novelFA": 57,
+      "rawFAIntentFE": 65,
+      "changedJobsTotal": 99,
+      "interAccepted": 4
+    },
+    "intra/MAKESPAN/FREE/FA_SAME": {
+      "successfulFE": 100733,
+      "admissions": 657
+    },
+    "inter/CENTER/FREE/FA_CHANGED": {
+      "successfulFE": 142,
+      "novelFA": 137,
+      "rawFAIntentFE": 142,
+      "changedJobsTotal": 222,
+      "interAccepted": 25
+    },
+    "intra/CENTER/FREE/FA_SAME": {
+      "successfulFE": 257281,
+      "admissions": 1005
+    },
+    "inter/ENERGY/FREE/FA_CHANGED": {
+      "successfulFE": 47,
+      "novelFA": 44,
+      "rawFAIntentFE": 47,
+      "changedJobsTotal": 75,
+      "interAccepted": 13
+    },
+    "intra/ENERGY/FREE/FA_SAME": {
+      "successfulFE": 64494,
+      "admissions": 360
+    },
+    "inter/WORKER_COST/FREE/FA_CHANGED": {
+      "successfulFE": 30,
+      "novelFA": 28,
+      "rawFAIntentFE": 30,
+      "changedJobsTotal": 45
+    },
+    "intra/WORKER_COST/FREE/FA_SAME": {
+      "successfulFE": 67108,
+      "admissions": 661
+    }
+  },
+  "sequentialHVCredits": {
+    "initialization/NONE/FREE/INITIAL": 0.42048150941141305,
+    "global/NONE/FREE/FA_CHANGED": 0.05790726739584401,
+    "global/NONE/FREE/FA_SAME": 0.006756184783498542,
+    "inter/MAKESPAN/FREE/FA_CHANGED": 4.453131568160629e-05,
+    "intra/MAKESPAN/FREE/FA_SAME": 0.018754542336284707,
+    "intra/CENTER/FREE/FA_SAME": 0.022355710766547188,
+    "intra/ENERGY/FREE/FA_SAME": 0.011153317576511723,
+    "intra/WORKER_COST/FREE/FA_SAME": 0.011391060332588854
+  },
+  "independentRealFrontHVChecks": [
+    {
+      "admissionOrdinal": 0,
+      "frontSize": 1,
+      "maxAbsoluteError": 0.0
+    },
+    {
+      "admissionOrdinal": 257,
+      "frontSize": 43,
+      "maxAbsoluteError": 1.1102230246251565e-16
+    },
+    {
+      "admissionOrdinal": 514,
+      "frontSize": 61,
+      "maxAbsoluteError": 2.7755575615628914e-16
+    },
+    {
+      "admissionOrdinal": 771,
+      "frontSize": 81,
+      "maxAbsoluteError": 2.220446049250313e-16
+    },
+    {
+      "admissionOrdinal": 1028,
+      "frontSize": 111,
+      "maxAbsoluteError": 2.220446049250313e-16
+    },
+    {
+      "admissionOrdinal": 1285,
+      "frontSize": 137,
+      "maxAbsoluteError": 2.220446049250313e-16
+    },
+    {
+      "admissionOrdinal": 1542,
+      "frontSize": 182,
+      "maxAbsoluteError": 2.220446049250313e-16
+    },
+    {
+      "admissionOrdinal": 1799,
+      "frontSize": 251,
+      "maxAbsoluteError": 6.661338147750939e-16
+    },
+    {
+      "admissionOrdinal": 2056,
+      "frontSize": 325,
+      "maxAbsoluteError": 5.551115123125783e-16
+    },
+    {
+      "admissionOrdinal": 2313,
+      "frontSize": 376,
+      "maxAbsoluteError": 3.3306690738754696e-16
+    },
+    {
+      "admissionOrdinal": 2570,
+      "frontSize": 427,
+      "maxAbsoluteError": 5.551115123125783e-16
+    },
+    {
+      "admissionOrdinal": 2827,
+      "frontSize": 393,
+      "maxAbsoluteError": 2.220446049250313e-16
+    }
+  ],
+  "uniquePaidAssignments": 9518,
+  "scope": "Sequential successful-admission attribution, conditional on actual history. FA_CHANGED may also alter JS/resources; no isolated causal payoff, same-time comparison or budget intervention."
+}

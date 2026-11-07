@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.IllegalStateException: Preserved domain-production failure
+	at research.dynamic.DomainProductionRun.main(DomainProductionRun.java:75)
+Caused by: java.lang.IllegalStateException: EXPECTED_PAID_FAILURE
+	at research.dynamic.PilotPhysics$1.evaluate(PilotPhysics.java:38)
+	at research.dynamic.PilotPhysics$1.evaluate(PilotPhysics.java:36)
+	at org.uma.jmetal.util.research.runtime.BudgetedProblem.evaluate(BudgetedProblem.java:40)
+	at org.uma.jmetal.util.research.search.DomainProductionReplay.proposal(DomainProductionReplay.java:129)
+	at org.uma.jmetal.util.research.search.DomainProductionReplay.run(DomainProductionReplay.java:83)
+	at org.uma.jmetal.util.research.runtime.RunContext.run(RunContext.java:48)
+	at research.dynamic.DomainProductionRun.main(DomainProductionRun.java:54)

@@ -1,0 +1,10 @@
+--- G:\ai\limingzhegaijin\张博改进\runs\night-research-H1-20261103-010138-848045\source\src\java\search\Direction.java
++++ Direction.java
+@@ -29,6 +29,7 @@
+         List<PermutationSolution<Integer>> pool = new ArrayList<>(reference);
+         pool.add(incumbent); pool.add(candidate);
+         double[] score = ParetoTools.fitness(pool);
++        ReverseAudit.run().pddr(candidate, score[score.length - 1], score[score.length - 2]);
+         return score[score.length - 1] < score[score.length - 2];
+     }
+ 

@@ -1,0 +1,283 @@
+{
+  "bothTemplatesBothEntrantsRetainedSign": false,
+  "referenceGains": {
+    "U": {
+      "1.25": {
+        "X_S": 0.002850638347389356,
+        "X_U": 0.002268374210166957
+      },
+      "1.5": {
+        "X_S": 0.005230695570112243,
+        "X_U": 0.004200130878701969
+      },
+      "2.0": {
+        "X_S": 0.012190951559568841,
+        "X_U": 0.009857146746618195
+      }
+    },
+    "S": {
+      "1.25": {
+        "X_S": -0.00013461539119935528,
+        "X_U": 0.003977230529226938
+      },
+      "1.5": {
+        "X_S": -0.00022291782553096606,
+        "X_U": 0.007124559812400011
+      },
+      "2.0": {
+        "X_S": -0.0003801196218873315,
+        "X_U": 0.016095923492681408
+      }
+    }
+  },
+  "blocks": {
+    "SS": {
+      "MAKESPAN": {
+        "size": 15,
+        "physicalSingleRecovers": 0.0625878384709079,
+        "physicalRestoringCancels": 0.06333739342265529,
+        "mixedSingleRecovers": [
+          0.1090602454792467,
+          0.2257097348449358,
+          0.1963833973578188
+        ],
+        "mixedRestoringCancels": [
+          0.1251756769418158,
+          0.21118710765482995,
+          0.26852806146350605
+        ]
+      },
+      "CENTER": {
+        "size": 55,
+        "physicalSingleRecovers": 0.6014241544083201,
+        "physicalRestoringCancels": 0.6876229738592711,
+        "mixedSingleRecovers": [
+          0.3709360067459946,
+          0.570973484493582,
+          0.5185983322402323
+        ],
+        "mixedRestoringCancels": [
+          0.4441113089103345,
+          0.5831537524594772,
+          0.5461444767169493
+        ]
+      },
+      "ENERGY": {
+        "size": 15,
+        "physicalSingleRecovers": 0.07598613323339268,
+        "physicalRestoringCancels": 0.07748524313688747,
+        "mixedSingleRecovers": [
+          0.23414222805209406,
+          0.18870045910240796,
+          0.08788531809238265
+        ],
+        "mixedRestoringCancels": [
+          0.1978825072613136,
+          0.15543895811861708,
+          0.09125831537524595
+        ]
+      },
+      "WORKER_COST": {
+        "size": 15,
+        "physicalSingleRecovers": 0.22880164902089384,
+        "physicalRestoringCancels": 0.3140635247821606,
+        "mixedSingleRecovers": [
+          0.29288859739529655,
+          0.08760423498547737,
+          0.2110934132858615
+        ],
+        "mixedRestoringCancels": [
+          0.2948561791436335,
+          0.08685468003372997,
+          0.18373465754708143
+        ]
+      }
+    },
+    "SU": {
+      "MAKESPAN": {
+        "size": 15,
+        "physicalSingleRecovers": 0.060191141334313546,
+        "physicalRestoringCancels": 0.07461863628009557,
+        "mixedSingleRecovers": [
+          0.08481896710163572,
+          0.21154199595662562,
+          0.16596213931262635
+        ],
+        "mixedRestoringCancels": [
+          0.10016541077007902,
+          0.32769711450101086,
+          0.16605403418489248
+        ]
+      },
+      "CENTER": {
+        "size": 55,
+        "physicalSingleRecovers": 0.5530233412975556,
+        "physicalRestoringCancels": 0.6064142620841757,
+        "mixedSingleRecovers": [
+          0.4010292225693806,
+          0.4931997794523066,
+          0.5734240029406359
+        ],
+        "mixedRestoringCancels": [
+          0.43218158426759784,
+          0.6206579672854254,
+          0.6788274214298842
+        ]
+      },
+      "ENERGY": {
+        "size": 15,
+        "physicalSingleRecovers": 0.07213747472891013,
+        "physicalRestoringCancels": 0.09832751332475648,
+        "mixedSingleRecovers": [
+          0.14216136739569932,
+          0.13232861606322366,
+          0.08206212093365191
+        ],
+        "mixedRestoringCancels": [
+          0.2792685168167616,
+          0.23258592170556883,
+          0.10062488513140967
+        ]
+      },
+      "WORKER_COST": {
+        "size": 15,
+        "physicalSingleRecovers": 0.30536666054034184,
+        "physicalRestoringCancels": 0.36371990442933283,
+        "mixedSingleRecovers": [
+          0.2827605219628745,
+          0.07709979783128101,
+          0.130398823745635
+        ],
+        "mixedRestoringCancels": [
+          0.38843962506892116,
+          0.1000735158978129,
+          0.2324940268333027
+        ]
+      }
+    },
+    "US": {
+      "MAKESPAN": {
+        "size": 15,
+        "physicalSingleRecovers": 0.05586115326251897,
+        "physicalRestoringCancels": 0.0621206373292868,
+        "mixedSingleRecovers": [
+          0.10773899848254932,
+          0.20125189681335356,
+          0.19271623672230653
+        ],
+        "mixedRestoringCancels": [
+          0.1430197268588771,
+          0.21263277693474963,
+          0.2588201820940819
+        ]
+      },
+      "CENTER": {
+        "size": 55,
+        "physicalSingleRecovers": 0.5703717754172989,
+        "physicalRestoringCancels": 0.6652124430955993,
+        "mixedSingleRecovers": [
+          0.3779400606980273,
+          0.5706562974203339,
+          0.520201062215478
+        ],
+        "mixedRestoringCancels": [
+          0.45267450682852806,
+          0.5947458270106222,
+          0.5674317147192717
+        ]
+      },
+      "ENERGY": {
+        "size": 15,
+        "physicalSingleRecovers": 0.0643019726858877,
+        "physicalRestoringCancels": 0.06733687405159332,
+        "mixedSingleRecovers": [
+          0.2084597875569044,
+          0.17412746585735964,
+          0.09493550834597876
+        ],
+        "mixedRestoringCancels": [
+          0.19338012139605462,
+          0.1416919575113809,
+          0.11191198786039454
+        ]
+      },
+      "WORKER_COST": {
+        "size": 15,
+        "physicalSingleRecovers": 0.26213960546282244,
+        "physicalRestoringCancels": 0.35641122913505313,
+        "mixedSingleRecovers": [
+          0.28196130500758726,
+          0.09948786039453718,
+          0.2101669195751138
+        ],
+        "mixedRestoringCancels": [
+          0.299886191198786,
+          0.10669575113808802,
+          0.17592943854324736
+        ]
+      }
+    },
+    "UU": {
+      "MAKESPAN": {
+        "size": 15,
+        "physicalSingleRecovers": 0.0713121084699219,
+        "physicalRestoringCancels": 0.06556251609027718,
+        "mixedSingleRecovers": [
+          0.07689007122629365,
+          0.18321462284390286,
+          0.15043336479876426
+        ],
+        "mixedRestoringCancels": [
+          0.07594610829829229,
+          0.2944306187247919,
+          0.13799021711147344
+        ]
+      },
+      "CENTER": {
+        "size": 55,
+        "physicalSingleRecovers": 0.5549643868531708,
+        "physicalRestoringCancels": 0.5783060156182958,
+        "mixedSingleRecovers": [
+          0.44486398352355616,
+          0.5111130181069252,
+          0.5816527932721187
+        ],
+        "mixedRestoringCancels": [
+          0.431133613661718,
+          0.5977001630481421,
+          0.6612031236591436
+        ]
+      },
+      "ENERGY": {
+        "size": 15,
+        "physicalSingleRecovers": 0.07929288595211534,
+        "physicalRestoringCancels": 0.09165021882776968,
+        "mixedSingleRecovers": [
+          0.13584484682056122,
+          0.12906547670127863,
+          0.10006007036814554
+        ],
+        "mixedRestoringCancels": [
+          0.2743499528018536,
+          0.2245773620526903,
+          0.10477988500815241
+        ]
+      },
+      "WORKER_COST": {
+        "size": 15,
+        "physicalSingleRecovers": 0.31854458079464515,
+        "physicalRestoringCancels": 0.3546726164936068,
+        "mixedSingleRecovers": [
+          0.2815583969793186,
+          0.12022655110272033,
+          0.12906547670127863
+        ],
+        "mixedRestoringCancels": [
+          0.36883206041362737,
+          0.1160216253325324,
+          0.23478932463743243
+        ]
+      }
+    }
+  }
+}

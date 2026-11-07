@@ -1,0 +1,17 @@
+--- legacy/ParticleOperators.java
+
++++ src/java/search/ParticleOperators.java
+
+@@ -28,6 +28,11 @@
+
+     }
+     private void guide(PermutationSolution<Integer> child, PermutationSolution<Integer> parent) {
+         moveJobSequence(child, parent);
++        if (config.paperResourceOperators && instance.kind() == ModelKind.CHAPTER4_DUAL_RESOURCE) {
++            PaperResourceOperators.apply(child, parent, instance, config, SeededRandom.current());
++            SchedulingEncoding.repair(child, instance);
++            return;
++        }
+         Random random = SeededRandom.current();
+         if (random.nextDouble() < config.factoryCrossover) copySuffix(child.getVariablesid(), parent.getVariablesid());
+         SchedulingEncoding.repair(child, instance);

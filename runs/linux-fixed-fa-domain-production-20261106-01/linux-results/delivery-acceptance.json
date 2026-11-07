@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "engineeringPassed": true,
+  "mechanismCapacityPassed": false,
+  "totals": {
+    "attempted": 77318,
+    "successful": 77317,
+    "failed": 1,
+    "fullQA": 77317,
+    "importQA": 4962,
+    "additionalQADecodes": 82279,
+    "scienceProcessSeconds": 55.846305000999564,
+    "scienceSearchSecondsIncludesQA": 50.65721953999999
+  },
+  "supply": {
+    "GOM": {
+      "inside": 24570,
+      "outsideResource": 0,
+      "outsideOrder": 0,
+      "outsideAccepted": 0,
+      "outsideAdmissions": 0,
+      "physicalNoop": 10323,
+      "outsideFraction": 0.0
+    },
+    "LEGAL": {
+      "inside": 117,
+      "outsideResource": 24346,
+      "outsideOrder": 107,
+      "outsideAccepted": 380,
+      "outsideAdmissions": 70,
+      "physicalNoop": 87,
+      "outsideFraction": 0.9952380952380953
+    },
+    "NOVEL": {
+      "inside": 0,
+      "outsideResource": 24570,
+      "outsideOrder": 0,
+      "outsideAccepted": 332,
+      "outsideAdmissions": 68,
+      "physicalNoop": 14,
+      "outsideFraction": 1.0
+    }
+  },
+  "decision": "STOP_FIXED_TWO_JOB_DOMAIN_PRODUCER",
+  "independentHVChecks": 198,
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "python": "3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]",
+  "mainlineChanged": false,
+  "goalResumed": false
+}

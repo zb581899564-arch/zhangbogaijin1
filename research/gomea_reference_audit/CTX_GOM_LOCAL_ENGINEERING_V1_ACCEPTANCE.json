@@ -1,0 +1,32 @@
+{
+  "version": "CTX_GOM_LOCAL_ENGINEERING_ACCEPTANCE-v1",
+  "contract": "G:\\ai\\limingzhegaijin\\张博改进\\research\\gomea_reference_audit\\CTX_GOM_LOCAL_ENGINEERING_V1.json",
+  "contractSHA256": "872484451278f08a0aaec9a4cd79d8cb9dcbbf1651a2df7e2e7ddc39a994c9d5",
+  "run": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-050127-857497",
+  "status": "ENGINEERING_ACCEPTED",
+  "actual": {
+    "successfulFE": 581598,
+    "attemptedFE": 581598,
+    "failedFE": 0,
+    "timeInterruptedAttempts": 0,
+    "paidFullTimelineQA": 581598,
+    "viewFullTimelineQA": 3316,
+    "checkpointOfflineQA": 7534,
+    "receiptCount": 49
+  },
+  "coveredProtocolCases": {
+    "successfulFE": 521760,
+    "attemptedFE": 521760,
+    "failedFE": 0,
+    "timeInterruptedAttempts": 0,
+    "paidFullTimelineQA": 521760,
+    "viewFullTimelineQA": 3200,
+    "checkpointOfflineQA": 6970,
+    "receiptCount": 40
+  },
+  "report": "G:\\ai\\limingzhegaijin\\张博改进\\docs\\上下文联合局搜完整工程验收-2026-11-06.md",
+  "independentFinalAudit": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\ctx-gom-local-engineering-20261106-050127-857497\\final-acceptance.json",
+  "scope": "Engineering only. Same-FE/time performance jointly using HV, IGD+ and bidirectional C remains unproved.",
+  "defaultMainlineChanged": false,
+  "goalAchieved": false
+}

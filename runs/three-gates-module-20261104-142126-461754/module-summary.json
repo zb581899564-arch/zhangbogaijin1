@@ -1,0 +1,209 @@
+[
+  {
+    "mask": 0,
+    "donorModules": [],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.0,
+    "medianCmaxChange": 0.0,
+    "repairedCases": 0,
+    "meanRepairEdits": 0.0
+  },
+  {
+    "mask": 1,
+    "donorModules": [
+      "JS"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.18136587232448198,
+    "medianCmaxChange": 0.14472597192834424,
+    "repairedCases": 0,
+    "meanRepairEdits": 0.0
+  },
+  {
+    "mask": 2,
+    "donorModules": [
+      "FA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.3625060660935253,
+    "medianCmaxChange": 0.3020641090191565,
+    "repairedCases": 355,
+    "meanRepairEdits": 4.174647887323943
+  },
+  {
+    "mask": 3,
+    "donorModules": [
+      "JS",
+      "FA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.3962587415851373,
+    "medianCmaxChange": 0.36207117367647457,
+    "repairedCases": 355,
+    "meanRepairEdits": 4.174647887323943
+  },
+  {
+    "mask": 4,
+    "donorModules": [
+      "MA"
+    ],
+    "positiveHV": 1,
+    "meanSingleGain": 1.1803034598127549e-08,
+    "meanCmaxChange": 0.08064340661125008,
+    "medianCmaxChange": 0.009754733008737748,
+    "repairedCases": 355,
+    "meanRepairEdits": 2.971830985915493
+  },
+  {
+    "mask": 5,
+    "donorModules": [
+      "JS",
+      "MA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.15921621640409336,
+    "medianCmaxChange": 0.1256246004998698,
+    "repairedCases": 355,
+    "meanRepairEdits": 2.971830985915493
+  },
+  {
+    "mask": 6,
+    "donorModules": [
+      "FA",
+      "MA"
+    ],
+    "positiveHV": 1,
+    "meanSingleGain": 2.4829525777664164e-10,
+    "meanCmaxChange": 0.36249907604273685,
+    "medianCmaxChange": 0.3024282124970661,
+    "repairedCases": 264,
+    "meanRepairEdits": 0.9605633802816902
+  },
+  {
+    "mask": 7,
+    "donorModules": [
+      "JS",
+      "FA",
+      "MA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.3419719197506506,
+    "medianCmaxChange": 0.28521605812485684,
+    "repairedCases": 264,
+    "meanRepairEdits": 0.9605633802816902
+  },
+  {
+    "mask": 8,
+    "donorModules": [
+      "WA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.3393687734301231,
+    "medianCmaxChange": 0.3039349420126074,
+    "repairedCases": 291,
+    "meanRepairEdits": 1.0901408450704226
+  },
+  {
+    "mask": 9,
+    "donorModules": [
+      "JS",
+      "WA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.35471589332595704,
+    "medianCmaxChange": 0.32572710494471413,
+    "repairedCases": 291,
+    "meanRepairEdits": 1.0901408450704226
+  },
+  {
+    "mask": 10,
+    "donorModules": [
+      "FA",
+      "WA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.11985121899585305,
+    "medianCmaxChange": 0.09375763349851574,
+    "repairedCases": 355,
+    "meanRepairEdits": 3.2140845070422537
+  },
+  {
+    "mask": 11,
+    "donorModules": [
+      "JS",
+      "FA",
+      "WA"
+    ],
+    "positiveHV": 3,
+    "meanSingleGain": 5.483307731616915e-07,
+    "meanCmaxChange": 0.04388173861701918,
+    "medianCmaxChange": 0.005890106531665884,
+    "repairedCases": 355,
+    "meanRepairEdits": 3.2140845070422537
+  },
+  {
+    "mask": 12,
+    "donorModules": [
+      "MA",
+      "WA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.37510425895460947,
+    "medianCmaxChange": 0.34535563589588936,
+    "repairedCases": 355,
+    "meanRepairEdits": 4.061971830985915
+  },
+  {
+    "mask": 13,
+    "donorModules": [
+      "JS",
+      "MA",
+      "WA"
+    ],
+    "positiveHV": 0,
+    "meanSingleGain": 0.0,
+    "meanCmaxChange": 0.36832706842108315,
+    "medianCmaxChange": 0.3239406974160337,
+    "repairedCases": 355,
+    "meanRepairEdits": 4.061971830985915
+  },
+  {
+    "mask": 14,
+    "donorModules": [
+      "FA",
+      "MA",
+      "WA"
+    ],
+    "positiveHV": 9,
+    "meanSingleGain": 8.624565454624048e-06,
+    "meanCmaxChange": 0.1389162975402811,
+    "medianCmaxChange": 0.12228079945273795,
+    "repairedCases": 0,
+    "meanRepairEdits": 0.0
+  },
+  {
+    "mask": 15,
+    "donorModules": [
+      "JS",
+      "FA",
+      "MA",
+      "WA"
+    ],
+    "positiveHV": 355,
+    "meanSingleGain": 0.000739250639909595,
+    "meanCmaxChange": -0.018727112365071037,
+    "medianCmaxChange": -0.014875964133510777,
+    "repairedCases": 0,
+    "meanRepairEdits": 0.0
+  }
+]

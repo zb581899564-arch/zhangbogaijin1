@@ -1,0 +1,58 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\fa-reachability-audit-20261105-034607-605907",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "prefix": "First floor(N/2) entries in each paid full JS; only stage0 committed. Later stages can reorder and are entirely relaxed.",
+  "physics": "Export exact DynamicPrefix stage0 state. Full and constructed-prefix decoding must have identical complete timeline and old objectives. Check fatigue floor against every uncommitted stage0 operation in its known full completion.",
+  "bounds": "CHEAP: maximum separated objective/job-chain/uniform-machine/uniform-worker dual bound. TIME_LP: jointly allocate fractional remaining operations with fixed past energy/labor, stage0 resource availability and committed job readiness. FATIGUE_LP: same plus u>=h_last*exp(-mu*(Ctarget-end_last)) for stage0 remaining workers, rounded down with1e-10 allowance. Later-stage fatigue stays relaxed.",
+  "duals": "Nonzero prefix constants contribute priced committed cost/time to the dual bound. Price mass upper enclosure and60-digit downward verification used; target budgets inflate1e-10 and exclusion requires lower>1.000001. Solver multipliers are not true dynamic optimum predictions.",
+  "controls": "All saved MAIN and NSGA representative prefixes; same own/cross target sets and costs. MAIN prefixes are primary for information gate. Never charge a copied paid point as a new discovery. A good Pareto prefix can legitimately fail to dominate other Pareto targets.",
+  "engineering": "Four original closed-form LP cases plus analytic prefix case where separated past/time feasibility lacks future fatigue and exact fatigue makes joint target impossible. All chosen own completions and any known weakly dominating cross completions must not be excluded.",
+  "gates": "Per instance >=2/3 seeds: ordinary joint-only exclusion>=20% of registered MAIN prefix-target pairs over CHEAP_TIME; fatigue-joint-only exclusion>=10% over BOTH TIME_LP and CHEAP_FATIGUE. Both instances required for a common information hypothesis. These are information gates only, not candidate quality, local regret, four-role value or algorithm efficacy.",
+  "cost": "Zero new searchFE. Every offline full/constructed decoding and prefix-append transition counted. LP solves, preparation, separated scoring and Decimal verification timed; no online or same-time performance claim. No new selector, Q changes, model change or public upload.",
+  "scope": "Old two development instances/three seeds and pre-fixed representatives. No new algorithm seed, independent test, uniqueness claim or original-author reproduction."
+}

@@ -1,0 +1,22 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\mating-pool-probe-20261105-062648-478040",
+  "instances": [
+    "20_8_5_1",
+    "100_2_3_1"
+  ],
+  "sourceSeeds": [
+    11730007,
+    11730037
+  ],
+  "steps": [
+    0,
+    24,
+    49
+  ],
+  "searchFE": 0,
+  "decoderCalls": 0,
+  "question": "Does all-paid ND supply exceed the complete100current+100initial objective pool, a different source from prior accepted-personal-history and live-current donor tests?",
+  "primary": "Largest single paid-archive point HV addition to union(current,initial), divided by all-paid archive HV; frozen source normalization/ref1.5,1.25/2sensitivity.",
+  "gate": "Each instance>=2of6snapshots with largest single gain>=0.1%ofpaidHV, covering both source seeds. Pass permits only an observer-only capture of actual genotype/provenance, not a teacher selector or complete algorithm. Failure stops this concrete extra-supply hypothesis without changing windows/thresholds. No future checkpoints in backgrounds.",
+  "limits": "These snapshots contain full100physical groups, unlike the previously filtered80free parent dataset. They do not include all personal history genomes. Numeric absence does not prove unique genotype or causal continuation. First-generationCENTER source does not establish independent supply by all four roles. No new evaluation, download or transfer."
+}

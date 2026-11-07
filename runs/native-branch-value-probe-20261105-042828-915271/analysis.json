@@ -1,0 +1,88 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "informativeCases": 1,
+      "totalCases": 16,
+      "meanSelectedAddedHV": {
+        "GREEDY": 0.0,
+        "TAIL_SUM": 4.7630816988469826e-07,
+        "TAIL_RAY": 0.0,
+        "CHEAP_RAY": 0.0,
+        "LP_TIME": 0.0,
+        "LP_FATIGUE": 0.0,
+        "RANDOM": 1.1907704247117457e-07
+      },
+      "effectsPct": {
+        "LP_TIME": {
+          "GREEDY": null,
+          "TAIL_SUM": -100.0,
+          "TAIL_RAY": null,
+          "CHEAP_RAY": null,
+          "RANDOM": -100.0
+        },
+        "LP_FATIGUE": {
+          "GREEDY": null,
+          "TAIL_SUM": -100.0,
+          "TAIL_RAY": null,
+          "CHEAP_RAY": null,
+          "RANDOM": -100.0,
+          "LP_TIME": null
+        }
+      },
+      "qualityGate": {
+        "LP_TIME": false,
+        "LP_FATIGUE": false
+      },
+      "medianScoreCostVsFullEnumeration": {
+        "LP_TIME": 66.97428098889438,
+        "LP_FATIGUE": 128.0137432485737
+      },
+      "fatigueIndependentQuality": false,
+      "scope": "Same-pool, counterfactual one-evaluation selection with tie expectations. Not an online method run or closed-loop same-FE/time superiority. LP cost omits IO and is already a favorable lower accounting envelope."
+    },
+    {
+      "stem": "100_2_3_1",
+      "informativeCases": 1,
+      "totalCases": 16,
+      "meanSelectedAddedHV": {
+        "GREEDY": 3.6872211506208674e-06,
+        "TAIL_SUM": 3.6872211506208674e-06,
+        "TAIL_RAY": 1.8436105753104337e-06,
+        "CHEAP_RAY": 3.6872211506208674e-06,
+        "LP_TIME": 3.6872211506208674e-06,
+        "LP_FATIGUE": 3.6872211506208674e-06,
+        "RANDOM": 1.2450333819139653e-06
+      },
+      "effectsPct": {
+        "LP_TIME": {
+          "GREEDY": 0.0,
+          "TAIL_SUM": 0.0,
+          "TAIL_RAY": 100.0,
+          "CHEAP_RAY": 0.0,
+          "RANDOM": 196.15440069185738
+        },
+        "LP_FATIGUE": {
+          "GREEDY": 0.0,
+          "TAIL_SUM": 0.0,
+          "TAIL_RAY": 100.0,
+          "CHEAP_RAY": 0.0,
+          "RANDOM": 196.15440069185738,
+          "LP_TIME": 0.0
+        }
+      },
+      "qualityGate": {
+        "LP_TIME": false,
+        "LP_FATIGUE": false
+      },
+      "medianScoreCostVsFullEnumeration": {
+        "LP_TIME": 33.303379959374446,
+        "LP_FATIGUE": 67.52629471357699
+      },
+      "fatigueIndependentQuality": false,
+      "scope": "Same-pool, counterfactual one-evaluation selection with tie expectations. Not an online method run or closed-loop same-FE/time superiority. LP cost omits IO and is already a favorable lower accounting envelope."
+    }
+  ],
+  "worthGeneratorExperiment": false,
+  "worthFatigueExperiment": false
+}

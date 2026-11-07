@@ -1,0 +1,4068 @@
+[
+  {
+    "instance": "20_8_5_1",
+    "comparisons": [
+      {
+        "candidate": "REQUEST",
+        "control": "ROLE",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      },
+      {
+        "candidate": "REQUEST",
+        "control": "ORDINARY",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      },
+      {
+        "candidate": "REQUEST",
+        "control": "SHUFFLED",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      },
+      {
+        "candidate": "ORDINARY",
+        "control": "ROLE",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      }
+    ]
+  },
+  {
+    "instance": "100_2_3_1",
+    "comparisons": [
+      {
+        "candidate": "REQUEST",
+        "control": "ROLE",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.0014298245967103718
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.0014298245967103718,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.002728335768109602
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.002728335768109602,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.0006136519054456002
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.0006136519054456002,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.1157360295893528
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.1157360295893528,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0014298245967103718
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0014298245967103718,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.002728335768109602
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.002728335768109602,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0006136519054456002
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0006136519054456002,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -1.0477299185098987
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -1.0477299185098987,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0029812673378537546
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0029812673378537546,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.005620994072852437
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.005620994072852437,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0012924640258038522
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0012924640258038522,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.003263956132426582
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.003263956132426582
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0004904237983271997
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0004904237983271997
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0009308944850738854
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0009308944850738854
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00021142100059545754
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00021142100059545754
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0521537625712371
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0521537625712371,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.1157360295893528
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.1157360295893528,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      },
+      {
+        "candidate": "REQUEST",
+        "control": "ORDINARY",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.00016469360710757996
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.00016469360710757996
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.00027729417912958354
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.00027729417912958354
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 7.775944306231963e-05
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              7.775944306231963e-05
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.03518674315547208
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.03518674315547208,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00043362757937703833
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00043362757937703833
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0007295901495174562
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0007295901495174562
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00020483270164461942
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00020483270164461942
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.03518674315547208
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.03518674315547208,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.23609282691240407
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.23609282691240407
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00016469360710757996
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00016469360710757996
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00027729417912958354
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00027729417912958354
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 7.775944306231963e-05
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  7.775944306231963e-05
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.04756940773173029
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.04756940773173029,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.6863805940018453
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.6863805940018453,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      },
+      {
+        "candidate": "REQUEST",
+        "control": "SHUFFLED",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0005961030886236784
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0005961030886236784
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0011791465821531233
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0011791465821531233
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.00024785742174238123
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.00024785742174238123
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.6987547971154529
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.6987547971154529
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -6.67228705619749e-07
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -6.67228705619749e-07,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -1.8461497108823721e-06
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -1.8461497108823721e-06,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -1.7668821961080994e-07
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -1.7668821961080994e-07,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.4672897196261627
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.4672897196261627,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0005961030886236784
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0005961030886236784
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0011791465821531233
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0011791465821531233
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00024785742174238123
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00024785742174238123
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.7009345794392496
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.7009345794392496
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0012707864377903277
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0012707864377903277
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00244808279656894
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00244808279656894
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0005409542390699684
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0005409542390699684
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.010884734598470712
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.010884734598470712
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.6987547971154529
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.6987547971154529
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      },
+      {
+        "candidate": "ORDINARY",
+        "control": "ROLE",
+        "summary": {
+          "HV": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.0014298245967103718
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.0014298245967103718,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "HV125": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.002728335768109602
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.002728335768109602,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "HV200": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": -0.0006136519054456002
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              -0.0006136519054456002,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 2,
+            "losses": 1
+          },
+          "IGDplus": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.0
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.0
+            ],
+            "wins": 0,
+            "ties": 3,
+            "losses": 0
+          },
+          "CgapPP": {
+            "perSeed": [
+              {
+                "seed": 16110003,
+                "median": 0.0
+              },
+              {
+                "seed": 16110037,
+                "median": 0.11641443538998875
+              },
+              {
+                "seed": 16110069,
+                "median": 0.0
+              }
+            ],
+            "median": 0.0,
+            "range": [
+              0.0,
+              0.11641443538998875
+            ],
+            "wins": 1,
+            "ties": 2,
+            "losses": 0
+          }
+        },
+        "requestRegimes": {
+          "0": {
+            "capFactor": 0.9,
+            "eta": 0,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0014298245967103718
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0014298245967103718,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.002728335768109602
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.002728335768109602,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0006136519054456002
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0006136519054456002,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 3,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -1.0477299185098987
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -1.0477299185098987,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              }
+            }
+          },
+          "1": {
+            "capFactor": 1,
+            "eta": 1,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0034148801093536463
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0034148801093536463,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.006350537889465713
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.006350537889465713,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.0014972936604906728
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.0014972936604906728,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.03518674315547208
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.03518674315547208
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.11641443538998875
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.11641443538998875
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              }
+            }
+          },
+          "2": {
+            "capFactor": 1.1,
+            "eta": 4,
+            "summary": {
+              "HV": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00032572965475985427
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00032572965475985427
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV125": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.0006535984935496231
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.0006535984935496231
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "HV200": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.00013366145359405834
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.00013366145359405834
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              },
+              "IGDplus": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": -0.004584355123854438
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  -0.004584355123854438,
+                  0.0
+                ],
+                "wins": 0,
+                "ties": 2,
+                "losses": 1
+              },
+              "CgapPP": {
+                "perSeed": [
+                  {
+                    "seed": 16110003,
+                    "median": 0.0
+                  },
+                  {
+                    "seed": 16110037,
+                    "median": 0.8036091163525994
+                  },
+                  {
+                    "seed": 16110069,
+                    "median": 0.0
+                  }
+                ],
+                "median": 0.0,
+                "range": [
+                  0.0,
+                  0.8036091163525994
+                ],
+                "wins": 1,
+                "ties": 2,
+                "losses": 0
+              }
+            }
+          }
+        },
+        "regimeScope": "Descriptive decomposition of fixed sampled cycles; does not replace pooled primary endpoint"
+      }
+    ]
+  }
+]

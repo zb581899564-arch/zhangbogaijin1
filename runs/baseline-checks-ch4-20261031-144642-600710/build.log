@@ -1,0 +1,117 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.uma.jmetal:jmetal-algorithm:jar:5.8
+[WARNING] 'dependencies.dependency.version' for org.testng:testng:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 86, column 22
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 5 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 5 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] org.uma.jmetal:jmetal                                              [pom]
+[INFO] org.uma.jmetal:jmetal-core                                         [jar]
+[INFO] org.uma.jmetal:jmetal-problem                                      [jar]
+[INFO] org.uma.jmetal:jmetal-algorithm                                    [jar]
+[INFO] org.uma.jmetal:jmetal-exec                                         [jar]
+[INFO] 
+[INFO] -----------------------< org.uma.jmetal:jmetal >------------------------
+[INFO] Building org.uma.jmetal:jmetal 5.8                                 [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jmetal ---
+[INFO] argLine set to -javaagent:C:\\Users\\33056\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=G:\\ai\\limingzhegaijin\\张博改进\\baselines\\chapter4\\target\\jacoco.exec
+[INFO] 
+[INFO] ---------------------< org.uma.jmetal:jmetal-core >---------------------
+[INFO] Building org.uma.jmetal:jmetal-core 5.8                            [2/5]
+[INFO]   from jmetal-core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jmetal-core ---
+[INFO] argLine set to -javaagent:C:\\Users\\33056\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=G:\\ai\\limingzhegaijin\\张博改进\\baselines\\chapter4\\jmetal-core\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-core\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmetal-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 305 source files to G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-core\target\classes
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-core/src/main/java/org/uma/jmetal/util/measure/impl/MeasureFactory.java: 某些输入文件使用或覆盖了已过时的 API。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-core/src/main/java/org/uma/jmetal/util/measure/impl/MeasureFactory.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-core/src/main/java/org/uma/jmetal/util/point/impl/ArrayPoint.java: 某些输入文件使用或覆盖了标记为待删除的已过时 API。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-core/src/main/java/org/uma/jmetal/util/point/impl/ArrayPoint.java: 有关详细信息, 请使用 -Xlint:removal 重新编译。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-core/src/main/java/org/uma/jmetal/solution/impl/AbstractGenericSolutionWithid.java: 某些输入文件使用了未经检查或不安全的操作。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-core/src/main/java/org/uma/jmetal/solution/impl/AbstractGenericSolutionWithid.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 
+[INFO] -------------------< org.uma.jmetal:jmetal-problem >--------------------
+[INFO] Building org.uma.jmetal:jmetal-problem 5.8                         [3/5]
+[INFO]   from jmetal-problem\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jmetal-problem ---
+[INFO] argLine set to -javaagent:C:\\Users\\33056\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=G:\\ai\\limingzhegaijin\\张博改进\\baselines\\chapter4\\jmetal-problem\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-problem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-problem\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmetal-problem ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] ------------------< org.uma.jmetal:jmetal-algorithm >-------------------
+[INFO] Building org.uma.jmetal:jmetal-algorithm 5.8                       [4/5]
+[INFO]   from jmetal-algorithm\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jmetal-algorithm ---
+[INFO] argLine set to -javaagent:C:\\Users\\33056\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=G:\\ai\\limingzhegaijin\\张博改进\\baselines\\chapter4\\jmetal-algorithm\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-algorithm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-algorithm\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmetal-algorithm ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 128 source files to G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-algorithm\target\classes
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/moead/AbstractMOEAD.java: 某些输入文件使用或覆盖了标记为待删除的已过时 API。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/moead/AbstractMOEAD.java: 有关详细信息, 请使用 -Xlint:removal 重新编译。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/nsgaii/NSGAII.java: 某些输入文件使用了未经检查或不安全的操作。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/nsgaii/NSGAII.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 
+[INFO] ---------------------< org.uma.jmetal:jmetal-exec >---------------------
+[INFO] Building org.uma.jmetal:jmetal-exec 5.8                            [5/5]
+[INFO]   from jmetal-exec\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default) @ jmetal-exec ---
+[INFO] argLine set to -javaagent:C:\\Users\\33056\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=G:\\ai\\limingzhegaijin\\张博改进\\baselines\\chapter4\\jmetal-exec\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-exec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-exec\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jmetal-exec ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 117 source files to G:\ai\limingzhegaijin\张博改进\baselines\chapter4\jmetal-exec\target\classes
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-exec/src/main/java/org/uma/jmetal/runner/lc_psode/MOHEADERun.java: 某些输入文件使用了未经检查或不安全的操作。
+[WARNING] /G:/ai/limingzhegaijin/张博改进/baselines/chapter4/jmetal-exec/src/main/java/org/uma/jmetal/runner/lc_psode/MOHEADERun.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for org.uma.jmetal:jmetal 5.8:
+[INFO] 
+[INFO] org.uma.jmetal:jmetal .............................. SUCCESS [  0.505 s]
+[INFO] org.uma.jmetal:jmetal-core ......................... SUCCESS [  4.457 s]
+[INFO] org.uma.jmetal:jmetal-problem ...................... SUCCESS [  0.150 s]
+[INFO] org.uma.jmetal:jmetal-algorithm .................... SUCCESS [  2.522 s]
+[INFO] org.uma.jmetal:jmetal-exec ......................... SUCCESS [  1.868 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.068 s
+[INFO] Finished at: 2026-10-31T14:46:53+08:00
+[INFO] ------------------------------------------------------------------------

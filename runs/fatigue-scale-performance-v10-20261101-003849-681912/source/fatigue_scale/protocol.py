@@ -1,0 +1,35 @@
+"""Frozen larger-instance gate, preserving reconstruction and v9 fixed ratio."""
+from copy import deepcopy
+from research.fatigue_expansion.protocol import PROTOCOL as V5, instances
+
+PROTOCOL = {
+    "version": "fatigue-scale-v10",
+    "instances": "all36 eligible in same v5 order, same reconstructed setup/profile mapping",
+    "setup_seed_base": V5["setup_seed_base"], "profile_seed_base": V5["profile_seed_base"],
+    "profiles": [deepcopy(p) for p in V5["profiles"] if p["name"] != "weak"],
+    "models": ["beta0", "strong_fast_recovery", "strong_slow_recovery"],
+    "methods": ["plain", "swap_rebind", "mix_iid", "mix_alternate"],
+    "parent_seeds": [60013, 120041, 240089],
+    "mixture": "v9 fixed50/50, independent branch and proposal streams; no ratio search/adaptation/scoring",
+    "operator_extension": "arbitrary factories/resources, uniform legal N1 using indexed counts; uniform unordered cross-factory job pairs, resource rebind within destination; no v9 resource-id clipping",
+    "immovable_job": "if uniform chosen job is singleton at a1-machine1-worker factory, its N1 is empty: explicit noop for that component, paid full child as usual; record it, no unbounded resampling",
+    "targets": {"TEC": [0., 1., 0.], "balanced": [1/3, 1/3, 1/3]},
+    "main": "all3 models TEC,65FE and .5/2s",
+    "secondary": "strong_fast_recovery balanced .5s, exploratory",
+    "FE": "1 paid minimal parent +64 paid full children=65; alternating32+32; duplicates and noop paid, no partials",
+    "time_seconds": [.5, 2.], "fixed_children": 64,
+    "normalization": "initial parent3 objectives shared among methods per model, fixed throughout each chain",
+    "deadline": "include RNG/dims/parent, branch/generation/full decode/in-memory records/acceptance; late child paid but excluded; record actual elapsed incl overshoot and gain/sec",
+    "recording": "save initial/final genome plus exact edit descriptors, seeds, every child3 objectives and acceptance; no census/oracle available online",
+    "validation": "all36 instances legal walks for each family and3 profiles, canonical vs original physical equality, trace/minimal sampled equality; brute N1 and v9 support bridge before main",
+    "calibration": "record parent/candidate/kernel costs only on representative sizes before main, never select methods/budgets/seeds using gains",
+    "run_order": "fixed seeded permutation of methods per instance/parent/model/target/budget, one process one BLAS thread",
+    "expected_chains": 4320,
+    "statistics": {"primary": "strong_fast_recovery TEC, two mixtures vs two singles x3 budgets=12 contrasts",
+        "unit": "average3 parent seeds within instance,36 paired instance clusters; N/factory/stage descriptive",
+        "bootstrap_samples": 10000, "sign_flip_samples": 100000, "seed": 20261219,
+        "multiplicity": "one-sided paired sign-flip p, Holm across all12 primary contrasts; unadjusted paired bootstrap95 intervals plus wins/ties/losses; all negative/control units preserved",
+        "time": "deadline gain and actual elapsed gain/sec reported separately"},
+    "scope": "scalar local chains only; ordinary mixture generalization, not novel algorithm/HV/physiological validation",
+    "no_tuning": True,
+}

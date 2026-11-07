@@ -1,0 +1,892 @@
+{
+  "status": "ENGINEERING_PASS",
+  "runRoot": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\pa-population-engineering-20261105-164116-698339",
+  "frozenProtocol": {
+    "prospectiveContract": {
+      "version": "PA_MO_FIXED_POP_ADAPTED-v1-engineering",
+      "status": "PROSPECTIVE_ENGINEERING_CONTRACT_NOT_EXECUTED",
+      "purpose": "Implement an explicitly adapted complete joint factory/order population lifecycle before making algorithm-quality claims",
+      "sourceMethod": {
+        "paperDOI": "10.1016/j.cor.2022.106081",
+        "inspectedVersion": "Author2024dissertation Chapter3, sections3.5.1-3.5.7, printed53-65; not assumed identical to final journal typesetting",
+        "paperSHA256": "01f2bd5f5aa1069a67f2123d6ea102d2127b9d13e4bf89f3de8261ea775e1530",
+        "weight": "2/3 from published experiments, no scan",
+        "lifecycle": "Fixed population; per-factory reencoding and model rebuild once per generation; all2N-1FOSsets including root; uniform nonself donors; accepted states immediately replace their receiver in the current donor population",
+        "noImportedMechanisms": "No forced improvement, IMS or pGOMEA interval rescaling; these are not mandatory parts of this paGOMEA lifecycle"
+      },
+      "adaptations": {
+        "encoding": "Separate legal first-stage FMW categorical tuple and global priority per job, not integer-plus-fraction packing",
+        "model": "Original factory/shift and within-factory priority dependency equations3.14-3.19, all jobs eligible for all factories, pi=1/F; MA/WA copied with a selected job but not separately learned",
+        "nullModelLimit": "Independent uniform assignments are a hypothetical heuristic null; not a calibrated model of nonempty initialization or protected families",
+        "hierarchy": "Priority queue weighted-average linkage O(N^2logN), exact double scores then lexicographic cluster ties",
+        "multiobjective": "Three minimization objectives instead of the source scalar fitness. Engineering role labels taken from fixed sources:15M/55CENTER/15E/15W. Boundary acceptance strictly improves its own objective; CENTER accepts exact weak Pareto improvement OR no strict dominator in an exact internal archive of all prior paid candidates",
+        "archive": "Exact unlimited internal nondominated archive, objective duplicates deduplicated. Compute candidate notifications against previous internal archive, then update it even if candidate is rejected. Shared exact external result archive remains under RunContext. Do not call this equivalent to original adaptive box notification",
+        "budget": "Every generated FOS attempt evaluated and charged including identical, duplicate or invalid-allocation fallback. No free pre-evaluation filtering",
+        "emptyFactory": "Explicit paid unchanged-parent fallback; no repair, resampling or implicit machine/worker rebinding",
+        "scope": "Standalone ordinary adapted method engineering only; no QGS, conditional sharing or local-search add-on here. Original four-group/shared mainline remains unchanged. This is not the final proposed research algorithm"
+      },
+      "state": {
+        "population": 100,
+        "generation": "Reencode all immutable genomes preserving physical factory chains and objective values, then learn a pooled population model and freeze that FOS for the generation",
+        "mixing": "For each receiver in stable source order, independently shuffle every FOSset, draw a uniform donor index excluding receiver from the current in-place population, and copy selected jobs' complete FMW and stored keys. Do not recompute ranks after each step",
+        "survival": "Accepted candidate replaces receiver immediately; rejection restores unchanged incumbent. No200to100survival. Next generation uses the resulting population and newly learned model",
+        "interruption": "RunContext owns FE/time termination, retains every successful external archive offer, incomplete current generation and last valid state must be reported"
+      },
+      "engineeringRuns": {
+        "algorithmSeed": 13630003,
+        "sourceRoot": "runs/linkage-mixing-probe-20261105-142116-487815",
+        "sourceSeed": 11730007,
+        "instances": [
+          {
+            "stem": "20_8_5_1",
+            "jobs": 20,
+            "completeGenerations": 2,
+            "expectedSuccessfulFE": 7900
+          },
+          {
+            "stem": "100_2_3_1",
+            "jobs": 100,
+            "completeGenerations": 2,
+            "expectedSuccessfulFE": 39900
+          }
+        ],
+        "initialization": "Replay all100known post-global source genomes and objectives, pay100FE. Ignore source family restrictions only in this explicitly free standalone engineering fixture. These are not fresh algorithm initializations for fair performance comparison",
+        "mainRunsFullTimelineQA": "Every successful paid evaluation, including initialization and fallback, independently compared with full decoding",
+        "cuts": "20job context only, fixed successfulFE limits1,2,101,139,4000 to cover initialization, first mixing attempt, first complete receiver, and first generation. Each cutoff is a separate paid run, not a search-free verifier",
+        "cutExpectedFE": 4243,
+        "expectedTotalSuccessfulFE": 52043,
+        "expectedPaidFullTimelineQA": 52043,
+        "expectedReencodingFullTimelineQA": 700,
+        "expectedTotalFullDecoderQA": 52743,
+        "qaAccountingClarification": "Reencoding checks are search-external full decodes, one per live member at each entered generation; check budget before entering a new generation. Main two runs enter4generations; cuts101/139/4000 enter1each. Logged source arrays/subsets/donor-state events reconstruct all paid candidates without saving duplicate solution graphs",
+        "engineeringOnly": true
+      },
+      "requiredEvidence": [
+        "Actual loaded classes, frozen sources, dependency/input identities and JDK",
+        "Source objective replay, no hidden repair, all complete paid candidates and exact full timeline QA",
+        "Complete acceptance decisions with old archive dominance/equality flags and previous incumbent",
+        "Per-generation before/after genome hashes and physical-neutral reencoding proof; model/FOS refresh identity",
+        "Every donor index and its current state identity, demonstrating accepted earlier states can be read later in the same generation",
+        "Program/role/generation fees, unchanged/duplicate/fallback counts, all failures and interrupted state",
+        "Independent replay of acceptance, in-place population transitions and exact archive notifications"
+      ],
+      "decision": "Engineering pass only permits a separately frozen full-algorithm performance protocol with original shared/Li reconstruction/strong classical controls and later four-role/sharing ablations; no performance or novelty gate can be passed by this artifact",
+      "oldFaMiProgramStopUnchanged": true,
+      "defaultMainlineChanged": false,
+      "goalAchieved": false
+    },
+    "contractSHA256": "264888d973c97848c381cfde1459645400f2adec978a1faa6801b4f739b0c40d",
+    "order": [
+      [
+        "20_8_5_1",
+        "cut1",
+        1
+      ],
+      [
+        "20_8_5_1",
+        "cut2",
+        2
+      ],
+      [
+        "20_8_5_1",
+        "cut101",
+        101
+      ],
+      [
+        "20_8_5_1",
+        "cut139",
+        139
+      ],
+      [
+        "20_8_5_1",
+        "main",
+        7900
+      ],
+      [
+        "20_8_5_1",
+        "cut4000",
+        4000
+      ],
+      [
+        "100_2_3_1",
+        "main",
+        39900
+      ]
+    ],
+    "purpose": "Complete lifecycle engineering only, no performance or novelty comparison",
+    "observerCost": "Every paid timeline QA and evidence I/O enabled, no same-time conclusion",
+    "externalTransfers": false,
+    "defaultMainlineChanged": false,
+    "goalAchieved": false
+  },
+  "results": {
+    "runs": [
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 1,
+        "neutralFullQA": 0,
+        "programs": 0,
+        "generations": 0,
+        "modelChecks": [],
+        "duplicates": 0,
+        "currentGenerationDonorReads": 0,
+        "changedCurrentGenerationDonorReads": 0,
+        "prefixPaidSHA256": {
+          "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1"
+        },
+        "paidSHA256": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "20_8_5_1",
+        "name": "cut1"
+      },
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 2,
+        "neutralFullQA": 0,
+        "programs": 0,
+        "generations": 0,
+        "modelChecks": [],
+        "duplicates": 0,
+        "currentGenerationDonorReads": 0,
+        "changedCurrentGenerationDonorReads": 0,
+        "prefixPaidSHA256": {
+          "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+          "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a"
+        },
+        "paidSHA256": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "20_8_5_1",
+        "name": "cut2"
+      },
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 101,
+        "neutralFullQA": 100,
+        "programs": 0,
+        "generations": 0,
+        "modelChecks": [
+          {
+            "pairs": 190,
+            "maximumModelError": 9.020562075079397e-15,
+            "merges": 19,
+            "maximumChosenMeanDeficit": 0.0
+          }
+        ],
+        "duplicates": 0,
+        "currentGenerationDonorReads": 0,
+        "changedCurrentGenerationDonorReads": 0,
+        "prefixPaidSHA256": {
+          "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+          "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+          "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc"
+        },
+        "paidSHA256": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "20_8_5_1",
+        "name": "cut101"
+      },
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 139,
+        "neutralFullQA": 100,
+        "programs": 1,
+        "generations": 0,
+        "modelChecks": [
+          {
+            "pairs": 190,
+            "maximumModelError": 9.020562075079397e-15,
+            "merges": 19,
+            "maximumChosenMeanDeficit": 0.0
+          }
+        ],
+        "duplicates": 0,
+        "currentGenerationDonorReads": 0,
+        "changedCurrentGenerationDonorReads": 0,
+        "prefixPaidSHA256": {
+          "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+          "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+          "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+          "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96"
+        },
+        "paidSHA256": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "20_8_5_1",
+        "name": "cut139"
+      },
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 7900,
+        "neutralFullQA": 200,
+        "programs": 200,
+        "generations": 2,
+        "modelChecks": [
+          {
+            "pairs": 190,
+            "maximumModelError": 9.020562075079397e-15,
+            "merges": 19,
+            "maximumChosenMeanDeficit": 0.0
+          },
+          {
+            "pairs": 190,
+            "maximumModelError": 8.520961713998076e-15,
+            "merges": 19,
+            "maximumChosenMeanDeficit": 0.0
+          }
+        ],
+        "duplicates": 250,
+        "currentGenerationDonorReads": 3460,
+        "changedCurrentGenerationDonorReads": 3440,
+        "prefixPaidSHA256": {
+          "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+          "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+          "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+          "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+          "4000": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b"
+        },
+        "paidSHA256": "c273eac29c158c8f5487bdb855a3287ea577c5a06ea5f7208de5025e764a7700",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "20_8_5_1",
+        "name": "main"
+      },
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 4000,
+        "neutralFullQA": 100,
+        "programs": 100,
+        "generations": 1,
+        "modelChecks": [
+          {
+            "pairs": 190,
+            "maximumModelError": 9.020562075079397e-15,
+            "merges": 19,
+            "maximumChosenMeanDeficit": 0.0
+          }
+        ],
+        "duplicates": 118,
+        "currentGenerationDonorReads": 1833,
+        "changedCurrentGenerationDonorReads": 1813,
+        "prefixPaidSHA256": {
+          "1": "c2d42bfb06488087b0a7a42f54f4f6e19ab89bc7fc44420bb28ed043622e13b1",
+          "2": "e5f4cb7a817b31404002e9cb3a96cef3e70d91908ad7f97e0f20f9b8c84b099a",
+          "101": "2db4c48f3ca7a6b6f861acbaf17aee02f22d261c73b37ad6ed3bc8c77b1adebc",
+          "139": "156d9653833afabeb7c9a6b009d673105cdc61812d71aa27ae61c612752f4f96",
+          "4000": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b"
+        },
+        "paidSHA256": "54bf7d7d63fba162a0babe18f1d8a2b1265158381b2ab47f2a15cb92e4f3825b",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "20_8_5_1",
+        "name": "cut4000"
+      },
+      {
+        "allPaidStatesAndAcceptanceReconstructed": true,
+        "successfulFE": 39900,
+        "neutralFullQA": 200,
+        "programs": 200,
+        "generations": 2,
+        "modelChecks": [
+          {
+            "pairs": 4950,
+            "maximumModelError": 3.552713678800501e-15,
+            "merges": 99,
+            "maximumChosenMeanDeficit": 0.0
+          },
+          {
+            "pairs": 4950,
+            "maximumModelError": 3.1086244689504383e-15,
+            "merges": 99,
+            "maximumChosenMeanDeficit": 0.0
+          }
+        ],
+        "duplicates": 409,
+        "currentGenerationDonorReads": 19795,
+        "changedCurrentGenerationDonorReads": 19477,
+        "prefixPaidSHA256": {
+          "1": "bfec59558dd167fb497c8761c96b8b73288339c7a60481978a3b75b2d7d322f9",
+          "2": "db882b1440a4ac7f705e0340cf84007454846fec0b5088dbb1ffd715504f0fbb",
+          "101": "180cc78d1de28bd211cb5011cc7fd44a77977dd504effcc42ad694baae164834",
+          "139": "7a7530707ff9f536929b7c9e37a3d3cedd1023dbac6c046665c238027781ad36",
+          "4000": "689d0b1596a00c2336be88961f6d851aaca579e04f71b68bf32063231ab4a586"
+        },
+        "paidSHA256": "91214103c563ae12044c75bccdc8a9efbc51f5f0c644ae0757c32c4a751a0be0",
+        "defaultMainlineChanged": false,
+        "performanceEvidence": false,
+        "goalAchieved": false,
+        "stem": "100_2_3_1",
+        "name": "main"
+      }
+    ],
+    "successfulFE": 52043,
+    "attemptedFE": 52043,
+    "failedFE": 0,
+    "paidFullTimelineQA": 52043,
+    "reencodingFullTimelineQA": 700,
+    "fullDecoderQA": 52743,
+    "accepted": 6075,
+    "fallbacks": 23,
+    "completeRawDuplicates": 777,
+    "currentGenerationDonorReads": 25088,
+    "changedCurrentGenerationDonorReads": 24730,
+    "engineeringPass": true,
+    "allCutoffsMatchMainPaidPrefix": true,
+    "newCompleteOrdinaryAdaptedLifecycleImplemented": true,
+    "sameBudgetPerformanceProved": false,
+    "goalAchieved": false
+  },
+  "actualClassIdentitiesChecked": [
+    {
+      "context": "100_2_3_1\\main",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\cut1",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\cut101",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\cut139",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\cut2",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\cut4000",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    },
+    {
+      "context": "20_8_5_1\\main",
+      "identity": {
+        "javaVersion": "17.0.12",
+        "javaHome": "E:\\javavava",
+        "research.dynamic.PaPopulationRun": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/research/dynamic/PaPopulationRun.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "971a7cc80282fe9669f2e8a3fda02f1c8f3359b25d9442144c2c483ed7fabecd"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPopulation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPopulation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "5b740b21405d16f2aa5c280bd201134975fc06f2d1aa7988cf19c14b93a7effe"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaPaidEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaPaidEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "c30fe6d98f3f392b3afd89b85780240e5832790e57e52d08b508da6532bbe48b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaIndividual": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaIndividual.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "01ee74c614eb4d14623053f1cfbb7aee696fc02384744794c2b3cf4850e7d1aa"
+        },
+        "org.uma.jmetal.util.research.modelglobal.FactoryKeyReencoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/FactoryKeyReencoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "d8f732cff86aee4b334c7cd06f1c161c91887e4d59d10ac84d1dfcc066d9c7f8"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaMixingMove": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaMixingMove.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "f1e2eb3a42ecf8486ad923dcef973e62e461b4dcdc81cc3dd96288a424ec433d"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaInternalArchive": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaInternalArchive.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "834734497cd88cd074c43b038e536250dd53fef087347aa199f302788f6bb454"
+        },
+        "org.uma.jmetal.util.research.modelglobal.PaDependencyModel": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/PaDependencyModel.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "6a885567ff222b2ed5e75a86e4fcf67d16ba13694f44d649ee9d81cc45eee93b"
+        },
+        "org.uma.jmetal.util.research.modelglobal.LinkageHierarchy": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/org/uma/jmetal/util/research/modelglobal/LinkageHierarchy.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/pa-population-engineering-20261105-164116-698339/classes/",
+          "sha256": "14f56fd93f1c51f63f9434abadf695d8bff1fea6270aba2cfeb3060202c61457"
+        },
+        "org.uma.jmetal.util.research.DynamicEvaluation": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/DynamicEvaluation.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "421fe50a576d9ebe5976808dc701bee6cb813a8fbf256094f8f729dd15b40201"
+        },
+        "org.uma.jmetal.util.research.model.DynamicDecoder": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicDecoder.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "7195f73d4346d62099b7a27c50428c12c2344dcdf5aff5c97790f18d4a2c5f3f"
+        },
+        "org.uma.jmetal.util.research.model.DynamicValidator": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/model/DynamicValidator.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "4961c2793af7972a826780b6d12750d562b310bf089b9e47599e453e60bbe104"
+        },
+        "org.uma.jmetal.util.research.runtime.BudgetedProblem": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/org/uma/jmetal/util/research/runtime/BudgetedProblem.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/night-research-H1-20261103-010138-848045/binary/cp-0/",
+          "sha256": "d1ee781716016e66eb05372e6b060b1bd66c18244553c29ac3a7d73d2c79730d"
+        },
+        "org.uma.jmetal.util.research.runtime.SolutionSnapshots": {
+          "resource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/org/uma/jmetal/util/research/runtime/SolutionSnapshots.class",
+          "codeSource": "file:/G:/ai/limingzhegaijin/%e5%bc%a0%e5%8d%9a%e6%94%b9%e8%bf%9b/runs/snapshot-anchor-audit-20261105-051047-172151/classes/",
+          "sha256": "6f36b3724c6120897741f8f4894ae47a12a2e856ecac9b9b3d741c3414e4b613"
+        }
+      }
+    }
+  ],
+  "performanceExperimentExecuted": false,
+  "defaultMainlineChanged": false,
+  "externalTransferThisTurn": false,
+  "goalAchieved": false
+}

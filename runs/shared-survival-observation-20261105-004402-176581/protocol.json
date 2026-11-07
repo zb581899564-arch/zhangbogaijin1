@@ -1,0 +1,62 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\survival-context-factorial-20261105-002440-955879",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9940003,
+  "arms": [
+    "SHARE_PAIR",
+    "SHARE_FULL"
+  ],
+  "replayFE": 4000000,
+  "newPerformanceArms": 0,
+  "scope": "Observation only of the four frozen PAIR/FULL shared trajectories. Eight500k replays: disabled hooks first, enabled second. Both retain all original policies and the exact frozen local ledger.",
+  "engineeringGate": "Zero-decoder provenance fixture; OFF matches original full final-genome and initial bytes, physical ledger with restarts, all FE frontier checkpoints and search/group counters. ON must match OFF paid SHA256 of the entire500k genome/objective sequence, and the same original evidence. Any mismatch stops interpretation.",
+  "observation": "Mark direct composition at the original boolean composed branch. Track the successful paid parent copied into subsequent proposals, last composed ancestor only. Record full2n batch pools, selected indices, lineage multiplicity, actual local entries, generation-end population, subsequent external admissions and final archive points. Noninitial unknown parents are forbidden.",
+  "interpretation": "Parent genealogy is neither gene-level inheritance nor causal credit. Teacher selection, resource donation and mixture provenance are not inferred from parent links. A later novel admission is not necessarily retained at the endpoint.",
+  "diagnosticGate": "Only support the composed-sibling continuation path if FULL in both instances has at least one direct composed child selected alongside a same-lineage sibling AND at least one such root has a later archive-admitted descendant improving a root objective and a final archived descendant. Also report exclusive final-HV association after removal; >=0.1% in each instance is material. These association conditions authorize mechanism discussion, not a selector, efficacy expansion or rescue of old failed gates.",
+  "costs": "Every replay is charged and reported. Digest and observer costs are diagnostic, not a new same-time performance comparison."
+}

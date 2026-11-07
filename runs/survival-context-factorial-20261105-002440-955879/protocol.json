@@ -1,0 +1,176 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9940003,
+  "methods": {
+    "SHARE_PAIR": [
+      "SHARE_JOB_ALIGNED",
+      "PAIR"
+    ],
+    "SHARE_FULL": [
+      "SHARE_JOB_ALIGNED",
+      "FULL_ROLE"
+    ],
+    "SYNC_PAIR": [
+      "SYNC_JOB_ALIGNED",
+      "PAIR"
+    ],
+    "SYNC_FULL": [
+      "SYNC_JOB_ALIGNED",
+      "FULL_ROLE"
+    ],
+    "FREE_PAIR": [
+      "BASELINE_JOB_ALIGNED",
+      "PAIR"
+    ],
+    "FREE_FULL": [
+      "BASELINE_JOB_ALIGNED",
+      "FULL_ROLE"
+    ],
+    "NSGA": [
+      "NSGA2_4V",
+      "PAIR"
+    ],
+    "LI_MATCHED_DEEP": [
+      "BASELINE",
+      "PAIR"
+    ]
+  },
+  "order": [
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "SHARE_PAIR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "SHARE_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "SYNC_PAIR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "SYNC_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "FREE_PAIR"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "FREE_FULL"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "20_8_5_1",
+      "seed": 9940003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "SHARE_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "SYNC_PAIR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "SYNC_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "FREE_PAIR"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "FREE_FULL"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "NSGA"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "LI_MATCHED_DEEP"
+    },
+    {
+      "stem": "100_2_3_1",
+      "seed": 9940003,
+      "arm": "SHARE_PAIR"
+    }
+  ],
+  "question": "Is the previous set-survival benefit suppressed by fixed-family scaffolding? One factorial, no weight/threshold/interval scan.",
+  "identity": "Direct reuse of frozen group-survival-gate classpath. GEN-end guide timing restored; no context-release or early-guide code used.",
+  "factors": "PAIR per-lineage ROLE_CROWD versus FULL_ROLE unrestricted lineage survival plus permutation-invariant group reward. SHARE/SYNC preserve20 protected family members and stratified quotas; FREE removes the scaffold but preserves four target duties and JOB_ALIGNED.",
+  "limits": "Architecture factor includes hardFA, categories and stratified grouping; not FA locking alone. Full factor includes its required group reward. FREE has no composition and cannot be called retained sharing. SHARE minus SYNC separately isolates actual composition within protected architecture. A FREE_FULL pass only supports a performance substrate, and does not establish cooperative originality or fully satisfy the research goal.",
+  "fairness": "All methods use exactly the same100 four-vector initials and objectives, unchanged50 steps per physical role, same500000 successfulFE and original physical local ledger. Search RNG outcomes may differ after initialization.",
+  "gate": "On both instances FREE_FULL >=1% vs FREE_PAIR and SHARE_FULL, >=-1% vs matched NSGA-II, >Li matched-depth; FREE_FULL/FREE_PAIR direction remains positive at references1.25/2. Failure stops this combination without scanning quotas or seeds.",
+  "searchFE": 8000000,
+  "newEngineeringFE": 0,
+  "priorEngineering": "Frozen paired/full classes have exact old-control replay and quota fixtures; this campaign introduces no source edits. All new configurations must still pass full return-genome QA and identical FE/initialization checks.",
+  "timeScope": "Exploratory time checkpoints only, no independent same-time superiority claim.",
+  "scope": "Prospective interaction diagnostic; no final efficacy, original-author replication or journal qualification claim."
+}

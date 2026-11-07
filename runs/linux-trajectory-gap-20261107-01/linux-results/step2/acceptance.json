@@ -1,0 +1,76 @@
+{
+  "arms": [
+    {
+      "arm": "SHARE_CTX_GOM",
+      "paid": 500000,
+      "acceptanceRecords": 397200,
+      "unknownRawParentUses": {},
+      "uniqueScheduleKeys": 484568,
+      "final": {
+        "n": 1042,
+        "HV": 0.8268907019604522,
+        "IGDplus": 0.018079307879875158,
+        "IGD": 0.04311808390592867
+      },
+      "exactFinalFrontRebuilt": true,
+      "hvTelescopePassed": true,
+      "analysisSeconds": 13.191613443996175,
+      "limitations": [
+        "Exact schedule hash reuse is not a causal genealogy",
+        "Neutral reencoding can create a raw key with no paid occurrence; counted as unknown",
+        "After-use counts near the endpoint are horizon censored",
+        "No time ranking from observed runs"
+      ]
+    },
+    {
+      "arm": "NSGA_CTX_GOM",
+      "paid": 500000,
+      "acceptanceRecords": 398000,
+      "unknownRawParentUses": {},
+      "uniqueScheduleKeys": 492372,
+      "final": {
+        "n": 1293,
+        "HV": 0.7963079896169467,
+        "IGDplus": 0.03306337883892346,
+        "IGD": 0.04731812963907041
+      },
+      "exactFinalFrontRebuilt": true,
+      "hvTelescopePassed": true,
+      "analysisSeconds": 55.31684758600022,
+      "limitations": [
+        "Exact schedule hash reuse is not a causal genealogy",
+        "Neutral reencoding can create a raw key with no paid occurrence; counted as unknown",
+        "After-use counts near the endpoint are horizon censored",
+        "No time ranking from observed runs"
+      ]
+    },
+    {
+      "arm": "PA_JOINT",
+      "paid": 500000,
+      "acceptanceRecords": 499900,
+      "unknownRawParentUses": {
+        "parent": 55163,
+        "donor": 190851
+      },
+      "uniqueScheduleKeys": 493974,
+      "final": {
+        "n": 1504,
+        "HV": 0.8672830870570415,
+        "IGDplus": 0.004587315511224333,
+        "IGD": 0.0058085653251013685
+      },
+      "exactFinalFrontRebuilt": true,
+      "hvTelescopePassed": true,
+      "analysisSeconds": 18.091677720003645,
+      "limitations": [
+        "Exact schedule hash reuse is not a causal genealogy",
+        "Neutral reencoding can create a raw key with no paid occurrence; counted as unknown",
+        "After-use counts near the endpoint are horizon censored",
+        "No time ranking from observed runs"
+      ]
+    }
+  ],
+  "newSearchFE": 0,
+  "newDecoderQA": 0,
+  "referenceSet": "step1 fixed historical all-method all-seed final union"
+}

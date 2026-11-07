@@ -1,0 +1,65 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "counts": {
+        "raw.B_dominates": 5,
+        "source.A_dominates": 7,
+        "acceptanceChanged": 1,
+        "actualAccepted": 2,
+        "rollbackAccepted": 1,
+        "raw.incomparable": 16,
+        "source.incomparable": 15,
+        "raw.A_dominates": 3,
+        "source.B_dominates": 2
+      },
+      "maskSizes": {
+        "2": 3,
+        "4": 3,
+        "3": 1,
+        "14": 3,
+        "20": 3,
+        "1": 4,
+        "5": 1,
+        "8": 2,
+        "13": 1,
+        "18": 3
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "counts": {
+        "raw.incomparable": 15,
+        "source.A_dominates": 9,
+        "acceptanceChanged": 1,
+        "actualAccepted": 1,
+        "rollbackAccepted": 0,
+        "source.incomparable": 10,
+        "raw.A_dominates": 6,
+        "source.B_dominates": 5,
+        "raw.B_dominates": 3
+      },
+      "maskSizes": {
+        "65": 2,
+        "18": 1,
+        "5": 1,
+        "1": 4,
+        "30": 1,
+        "45": 1,
+        "3": 2,
+        "20": 1,
+        "88": 1,
+        "100": 2,
+        "57": 2,
+        "14": 1,
+        "89": 1,
+        "33": 2,
+        "15": 1,
+        "12": 1
+      }
+    }
+  ],
+  "newSearchFE": 0,
+  "decoderCalls": 0,
+  "scope": "Descriptive pair outcomes, no future continuation or new gate"
+}

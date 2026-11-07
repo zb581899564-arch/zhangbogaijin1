@@ -1,0 +1,62 @@
+{
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "seed": 9940003,
+  "arms": [
+    "OFF",
+    "ON"
+  ],
+  "successfulReplayFEPlanned": 2000000,
+  "question": "Does first complete-generation global100 union local100 retention lose unique ND objective coverage that a same-quota feasible subset could retain? This differs from the already-tested QGS groupwise global survival.",
+  "engineering": "Resolve original SurvivorSelection in a no-search JVM, capture actual class URL/bytes SHA and JDK. Shadow only frozen source with one post-selection observation. OFF and ON each must reproduce full500k paid-sequence digest, all fronts, final genes, initials, physical ledger including restarts, and search counts. Failed observations retained and not interpreted.",
+  "snapshots": "Every completed whole-generation selection, not outcome-selected. Expect exactly one at this500k ledger. All200 already-paid genomes/objectives, fitness, exact indices/categories/quotas, and contemporaneous external archive. No RNG use or change in search decisions.",
+  "offlineControls": "Reconstruct actual PDDR+stable order exactly. Same quotas for PDDR_LOCAL_FIRST, PDDR_UNIQUE, RANK_CROWD_UNIQUE. These are feasible same-pool retention witnesses, not optimal-subset or new search methods. No effect on search/result archive.",
+  "gate": "Both instances must lose >=2 unique globally ND objective vectors and at least one pre-fixed same-quota witness must increase internally retained HV >=0.5% over actual. A pass only authorizes a fresh retention hypothesis/protocol; no selector implemented in this audit. Duplicate-only explanation is reported separately, not a novel mechanism.",
+  "metric": "Same frozen normalization/reference1.5. Pool/retained HV differs from the official external all-paid archive, which already contains every evaluated pool point. Never count reselection as new official HV.",
+  "cost": "Four500k replays =2000000FE, all successful evaluation attempts including duplicates/incremental reuse. Return full-decoder QA separately. Offline analysis zero searchFE; observer/digest costs preclude timing superiority.",
+  "scope": "Existing development seed only, original oldest/serial/stale/FULL_ROLE/group reward/families/sharing/local ledger preserved. No failed makespan tie, CENTER reward, memory or guide mechanism reintroduced. Default mainline untouched."
+}

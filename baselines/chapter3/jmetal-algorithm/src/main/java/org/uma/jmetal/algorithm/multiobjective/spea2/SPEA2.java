@@ -1,0 +1,466 @@
+package org.uma.jmetal.algorithm.multiobjective.spea2;
+
+import org.uma.jmetal.algorithm.impl.AbstractGeneticAlgorithm;
+import org.uma.jmetal.algorithm.multiobjective.mypso.util.ST;
+import org.uma.jmetal.algorithm.multiobjective.spea2.util.EnvironmentalSelection;
+import org.uma.jmetal.operator.CrossoverOperator;
+import org.uma.jmetal.operator.MutationOperator;
+import org.uma.jmetal.operator.SelectionOperator;
+import org.uma.jmetal.problem.Problem;
+import org.uma.jmetal.problem.multiobjective.dfsp.DHFSP;
+import org.uma.jmetal.solution.PermutationSolution;
+import org.uma.jmetal.solution.Solution;
+import org.uma.jmetal.util.evaluator.SolutionListEvaluator;
+import org.uma.jmetal.util.pseudorandom.JMetalRandom;
+import org.uma.jmetal.util.solutionattribute.impl.StrengthRawFitness;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import static org.uma.jmetal.util.AbstractAlgorithmRunner.printQualityIndicatorstest;
+import static org.uma.jmetal.util.AbstractAlgorithmRunner.printQualityRanktest;
+import static org.uma.jmetal.util.AbstractAlgorithmRunner.printQualityDensitytest;
+
+/**
+ * @author Juan J. Durillo
+ **/
+@SuppressWarnings("serial")
+public class SPEA2<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, List<S>> {
+  protected final int maxIterations;
+  protected final SolutionListEvaluator<S> evaluator;
+  protected int iterations;
+  protected List<S> archive;
+  protected final StrengthRawFitness<S> strenghtRawFitness = new StrengthRawFitness<S>();
+  protected final EnvironmentalSelection<S> environmentalSelection;
+  protected final int k ;
+  private double Mutation_m;
+  private double Cross_c;
+  private double CrossoverRates4worker;
+  private double CrossoverRates4machine;
+  private double mutationRate4worker;
+  private double mutationRate4machine;
+
+  private JMetalRandom randomGenerator;
+
+  public SPEA2(Problem<S> problem, int maxIterations, int populationSize,
+      CrossoverOperator<S> crossoverOperator, MutationOperator<S> mutationOperator,
+      SelectionOperator<List<S>, S> selectionOperator, SolutionListEvaluator<S> evaluator,
+               int k,double crossoverRate, double mutationRate,double CrossoverRates4worker,double CrossoverRates4machine,double mutationRate4worker,double mutationRate4machine) {
+    super(problem);
+    this.maxIterations = maxIterations;
+    this.setMaxPopulationSize(populationSize);
+
+    this.k = k ;
+    this.crossoverOperator = crossoverOperator;
+    this.mutationOperator = mutationOperator;
+    this.selectionOperator = selectionOperator;
+    this.environmentalSelection = new EnvironmentalSelection<S>(populationSize, k);
+
+    this.archive = new ArrayList<>(populationSize);
+
+    this.Mutation_m = mutationRate;
+    this.Cross_c = crossoverRate;
+    this.evaluator = evaluator;
+    this.CrossoverRates4worker=CrossoverRates4worker;
+    this.CrossoverRates4machine=CrossoverRates4machine;
+    this.mutationRate4worker=mutationRate4worker;
+    this.mutationRate4machine=mutationRate4machine ;
+
+    randomGenerator = JMetalRandom.getInstance() ;
+  }
+
+  @Override
+  protected void initProgress() {
+    //iterations = 1;
+    iterations = getMaxPopulationSize();
+  }
+
+  @Override
+  protected void updateProgress() {
+    //iterations++;
+    iterations = iterations + getMaxPopulationSize();     //新加的
+  }
+
+  @Override
+  protected boolean isStoppingConditionReached() {
+    return iterations >= maxIterations;
+  }
+
+  @Override
+  protected List<S> evaluatePopulation(List<S> population) {
+    population = evaluator.evaluate(population, getProblem());
+    return population;
+  }
+
+  @Override
+  protected List<S> selection(List<S> population) {
+    List<S> union = new ArrayList<>(2*getMaxPopulationSize());
+    union.addAll(archive);
+    union.addAll(population);
+    strenghtRawFitness.computeDensityEstimator(union);
+    archive = environmentalSelection.execute(union);
+
+/*
+    //加的测试代码
+    try {
+        printQualityRanktest(population);
+        printQualityDensitytest(population,20,20) ;
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+*/
+    return archive;
+  }
+
+/*
+  @Override
+  protected List<S> selection(List<S> population) {
+    List<S> union = new ArrayList<>(2*getMaxPopulationSize());
+    union.addAll(archive);
+    union.addAll(population);
+    strenghtRawFitness.computeDensityEstimator(union);
+    archive = environmentalSelection.execute(union);
+    return archive;
+  }
+*/
+  @Override
+  protected List<S> reproduction(List<S> population) {
+    List<S> offSpringPopulation= new ArrayList<>(getMaxPopulationSize());
+
+    while (offSpringPopulation.size() < getMaxPopulationSize()){
+      int crossoverflag ;
+      int mutationflag = 0;
+
+      Random random = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+      double c, m;
+      c = random.nextDouble();
+      int[] nw = DHFSP.nw;
+
+      List<S> parents = new ArrayList<>(2);
+      S candidateFirstParent = selectionOperator.execute(population);
+      parents.add(candidateFirstParent);
+      S candidateSecondParent;
+      candidateSecondParent = selectionOperator.execute(population);
+      parents.add(candidateSecondParent);
+
+      List<S> offspring = crossoverOperator.execute(parents);
+
+      //新加对工厂向量的交叉操作
+      if (c < Cross_c) {
+        offspring=(List<S>) getCrossOfFactoryVectorBySingle((List<PermutationSolution<Integer>>) parents);    //单点交叉
+      }
+      double c_worker = random.nextDouble();
+      if (c_worker < CrossoverRates4worker) {
+        offspring = (List<S>) crossover4workersequence((List<PermutationSolution<Integer>>) offspring, nw);//工人向量交叉
+      }
+      double c_machine = random.nextDouble();
+      if (c_machine < CrossoverRates4machine) {
+        offspring= (List<S>) crossover4machinesequence((List<PermutationSolution<Integer>>) offspring);
+      }
+
+
+      crossoverflag = crossoverOperator.getCrossoverProbabilityflag();
+
+      for(int i=0;i<offspring.size();i++){
+        mutationOperator.execute(offspring.get(i));
+
+        //新加对工厂变异操作
+        m = random.nextDouble();
+        ArrayList<ST> listV1 = new ArrayList<>();
+        if (m < Mutation_m) {
+          ST q = new ST(randomGenerator.nextInt(0, offspring.get(i).getNumberOfVariables() - 1));
+          listV1.add(q);
+          addNew4FactoryVectorByRandom((PermutationSolution<Integer>) offspring.get(i), listV1,i);
+        }
+
+        double m_worker = random.nextDouble();
+        if (m_worker < mutationRate4worker){
+          mutation4worker((PermutationSolution<Integer>) offspring.get(i));
+        }
+        double m_machine = random.nextDouble();
+        if (m_machine < mutationRate4machine) {
+          mutation4machine((PermutationSolution<Integer>) offspring.get(i));
+        }
+
+        mutationflag = mutationflag + mutationOperator.getMutationProbabilityflag();
+
+        offSpringPopulation.add(offspring.get(i));
+        if (offSpringPopulation.size() >= getMaxPopulationSize())
+          break;
+      }
+
+      if(crossoverflag == 1){
+        iterations = iterations+2;
+      }
+      else {
+        iterations = iterations+mutationflag;
+      }
+
+    }
+    return offSpringPopulation;
+  }
+
+  private List<PermutationSolution<Integer>> getCrossOfFactoryVectorBySingle(List<PermutationSolution<Integer>> parents) {       //对工厂向量进行单点交叉
+    int index;
+    Random random = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+    List<PermutationSolution<Integer>> offspring = new ArrayList<>(2);
+
+    offspring.add((PermutationSolution<Integer>) parents.get(0).copy()) ;
+    offspring.add((PermutationSolution<Integer>) parents.get(1).copy()) ;
+    int boundflag = random.nextInt(offspring.get(1).getNumberOfVariablesid());          //  随机产生一个单点下标
+    for (int i = boundflag; i < offspring.get(1).getNumberOfVariablesid(); i++) {
+      index = i;
+      cross4FactoryVectorBySingle(offspring.get(0), offspring.get(1), i, index);   //交换下标i与下标index的值
+    }
+    return offspring;
+  }
+
+  private void cross4FactoryVectorBySingle(PermutationSolution<Integer> a,PermutationSolution<Integer> b, int index1, int index2) {     //交换值
+    int temp1 = a.getVariableValueid(index1);    //工厂
+    int temp2 = b.getVariableValueid(index2);
+
+    a.setVariableValueid(index1, temp2);
+    b.setVariableValueid(index2, temp1);
+  }
+
+  private void addNew4FactoryVectorByRandom(PermutationSolution<Integer> arr, ArrayList<ST> list,int i) {
+    ST s;
+    Random random = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+    for (int j = 0; j < list.size(); j++) {
+      s = list.get(j);
+      int r = random.nextInt(3);
+      //工厂序号分别是 0，1，2 所以生成0-3但不包括3的随机整数来进行突变
+      exchangeIndex4FactoryVectorByRandom(arr, s.getX(), r);             //   随机选一位数进行改变
+    }
+  }
+
+  private void exchangeIndex4FactoryVectorByRandom(PermutationSolution<Integer> a, int index1, int value) {     //交换值
+    a.setVariableValueid(index1, value);
+  }
+
+  @Override
+  protected List<S> replacement(List<S> population,
+      List<S> offspringPopulation) {
+
+    double object1 = Double.MAX_VALUE;
+    double object2 = Double.MAX_VALUE;
+    double object3 = Double.MAX_VALUE;
+    for (S integerPermutationSolution : offspringPopulation) {
+      if(object1 > integerPermutationSolution.getObjective(0))object1=integerPermutationSolution.getObjective(0);
+      if(object2 > integerPermutationSolution.getObjective(1))object2=integerPermutationSolution.getObjective(1);
+      if(object3 > integerPermutationSolution.getObjective(2))object3=integerPermutationSolution.getObjective(2);
+    }
+    System.out.println("第"+"代："+"object1="+object1+" "+"object2="+object2+" "+"object3="+object3);
+
+    return offspringPopulation;
+  }
+
+  @Override
+  public List<S> getResult() {
+//    System.out.println(archive.size());
+    return archive;
+  }
+
+  public static List<PermutationSolution<Integer>> crossover4workersequence(List<PermutationSolution<Integer>> parents, int[] nw) {
+    PermutationSolution<Integer> HisOptIndividual = parents.get(0);
+    PermutationSolution<Integer> particle = parents.get(1);
+    List<Integer> a1 = HisOptIndividual.getVariablesworker();
+    List<Integer> a2 = particle.getVariablesworker();
+    if (a1 == null || a2 == null || nw == null || a1.isEmpty() || a2.isEmpty() || nw.length == 0) {
+      throw new IllegalArgumentException("Lists and steps array must not be null or empty");
+    }
+
+    // 确保两个列表长度相同
+    if (a1.size() != a2.size()) {
+      throw new IllegalArgumentException("Lists must have the same length");
+    }
+
+    // 计算分块的起始和结束位置
+    List<int[]> blocks = calculateBlocks(nw, a1.size());
+
+    // 随机选择一个分块
+    Random random = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+    int blockIndex = random.nextInt(blocks.size());
+
+
+    // 获取选中的分块范围
+    int[] selectedBlock = blocks.get(blockIndex);
+    int start = selectedBlock[0];
+    int end = selectedBlock[1];
+
+    // 交换分块内容
+    swapBlocks(a1, a2, start, end);
+    for (int i2 = 0; i2 < a2.size(); i2++) {
+      particle.setVariableValueworker(i2,a2.get(i2));
+    }
+
+    return parents;
+  }
+
+  private static List<int[]> calculateBlocks(int[] nw, int listSize) {
+    List<int[]> blocks = new ArrayList<>();
+    int currentIndex = 0;
+
+    for (int step : nw) {
+      if (currentIndex < listSize) {
+        int endIndex = Math.min(currentIndex + step, listSize);
+        blocks.add(new int[]{currentIndex, endIndex});
+        currentIndex = endIndex;
+      }
+    }
+
+    // 处理剩余部分，如果有的话
+    if (currentIndex < listSize) {
+      blocks.add(new int[]{currentIndex, listSize});
+    }
+
+    return blocks;
+  }
+
+  private static void swapBlocks(List<Integer> a1, List<Integer> a2, int start, int end) {
+    // 创建临时列表来保存 a1 的分块
+    List<Integer> temp = new ArrayList<>(a1.subList(start, end));
+
+    // 用 a2 的分块替换 a1 的分块
+    for (int i = start; i < end; i++) {
+      a1.set(i, a2.get(i));
+    }
+
+    // 用 a1 的分块（现在在 temp 中）替换 a2 的分块
+    for (int i = start; i < end; i++) {
+      a2.set(i, temp.get(i - start));
+    }
+  }
+
+
+  private List<PermutationSolution<Integer>> crossover4machinesequence(List<PermutationSolution<Integer>> offspring) {
+    PermutationSolution<Integer> integerPermutationSolution = offspring.get(0);
+    PermutationSolution<Integer> particle = offspring.get(1);
+
+
+    ArrayList<Integer> machineintegerPermutationSolution = (ArrayList<Integer>) integerPermutationSolution.getAttribute("machine");
+    ArrayList<Integer> machineparticle = (ArrayList<Integer>) particle.getAttribute("machine");;
+
+    List<Integer> integerPermutationSolutionfactory = integerPermutationSolution.getVariablesid();
+    List<Integer> particlefactory = particle.getVariablesid();
+
+    Random r = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+    int max = r.nextInt(machineintegerPermutationSolution.size()-1);
+    int min = r.nextInt(machineintegerPermutationSolution.size()-1);
+    if (max<min){
+      int temp = 0;
+      temp = max;
+      max = min;
+      min = temp;
+    }
+    List<Integer> machinetemp1 = new ArrayList<>(machineintegerPermutationSolution.subList(min, max + 1));
+    List<Integer> machinetemp2 = new ArrayList<>(machineparticle.subList(min, max + 1));
+
+    List<Integer> factorytemp1 = new ArrayList<>(integerPermutationSolutionfactory.subList(min, max + 1));
+    List<Integer> factorytemp2 = new ArrayList<>(particlefactory.subList(min, max + 1));
+
+    int[][] numberOfMachines = DHFSP.numberOfMachines_;
+    for (int i = 0; i < machinetemp1.size(); i++) {
+      if (factorytemp1.get(i)==factorytemp2.get(i)){
+        int temp1 = machinetemp1.get(i);
+        int temp2 = machinetemp2.get(i);
+        machinetemp2.set(i,temp1);
+        machinetemp1.set(i,temp2);
+      }
+      else {
+        int temp1 =numberOfMachines[factorytemp1.get(i)][0];
+        temp1 = r.nextInt(temp1);
+        machinetemp1.set(i,temp1);
+
+        int temp2 =numberOfMachines[factorytemp2.get(i)][0];
+        temp2 = r.nextInt(temp2);
+        machinetemp2.set(i,temp2);
+      }
+    }
+    for (int i = 0; i < machinetemp1.size(); i++) {
+      machineparticle.set(min,machinetemp2.get(i));
+      min++;
+    }
+
+    particle.setAttribute("machine",machineparticle);
+    return offspring;
+  }
+
+  //工人变异
+  private void mutation4worker(PermutationSolution<Integer> particle){
+    List<Integer> variablesworker = particle.getVariablesworker();
+    int[] nw = DHFSP.nw;
+    Random random = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+    List<List<Integer>> blocks = splitIntoBlocks(variablesworker, nw);
+
+    // 2. 随机选择一个分块
+    int selectedBlockIndex = random.nextInt(blocks.size());
+    List<Integer> selectedBlock = blocks.get(selectedBlockIndex);
+
+    // 3. 在选中的分块中随机选择两个位置的元素进行交换
+    if (selectedBlock.size() > 1) {  // 确保分块中有足够的元素可以交换
+      int pos1 = random.nextInt(selectedBlock.size());
+      int pos2 = random.nextInt(selectedBlock.size());
+      while (pos1 == pos2) {  // 确保两个位置不同
+        pos2 = random.nextInt(selectedBlock.size());
+      }
+
+      // 交换两个位置的元素
+      int temp = selectedBlock.get(pos1);
+      selectedBlock.set(pos1, selectedBlock.get(pos2));
+      selectedBlock.set(pos2, temp);
+    }
+
+    // 4. 将所有分块重新合并为一个列表
+    List<Integer> result = new ArrayList<>();
+    for (List<Integer> block : blocks) {
+      result.addAll(block);
+    }
+
+    for (int i = 0; i < result.size(); i++) {
+      particle.setVariableValueworker(i,result.get(i));
+    }
+  }
+
+  // 根据 nw 数组对 variablesworker 列表进行划分
+  private static List<List<Integer>> splitIntoBlocks(List<Integer> variablesworker, int[] nw) {
+    List<List<Integer>> blocks = new ArrayList<>();
+    int currentIndex = 0;
+
+    for (int size : nw) {
+      // 创建一个新的分块
+      List<Integer> block = new ArrayList<>(variablesworker.subList(currentIndex, currentIndex + size));
+      blocks.add(block);
+      currentIndex += size;
+    }
+
+    return blocks;
+  }
+
+
+  //机器变异
+  private void mutation4machine(PermutationSolution<Integer> particle) {
+    ArrayList<Integer> machine = (ArrayList<Integer>) particle.getAttribute("machine");
+    List<Integer> variablesid = particle.getVariablesid();
+    Random r = org.uma.jmetal.util.research.runtime.SeededRandom.current();
+    int i = r.nextInt(machine.size());
+    int tempfactory = variablesid.get(i);
+    int[][] numberOfMachines = DHFSP.numberOfMachines_;
+    int numberOfMachine = numberOfMachines[tempfactory][0];
+
+    int temp = r.nextInt(numberOfMachine);
+    machine.set(numberOfMachine,temp);
+    particle.setAttribute("machine",machine);
+  }
+
+
+  @Override public String getName() {
+    return "SPEA2" ;
+  }
+
+  @Override public String getDescription() {
+    return "Strength Pareto. Evolutionary Algorithm" ;
+  }
+}

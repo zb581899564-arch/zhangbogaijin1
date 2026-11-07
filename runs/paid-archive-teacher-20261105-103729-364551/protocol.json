@@ -1,0 +1,82 @@
+{
+  "source": "G:\\ai\\limingzhegaijin\\张博改进\\runs\\paid-archive-capture-20261105-101720-096912",
+  "sourceSeeds": [
+    11730007,
+    11730037
+  ],
+  "probeSeed": 12990003,
+  "engineeringInputAmendment": "First103618preparation stopped before compilation/FE: current-only non-ND genotypes have paid birth but no first producing role saved by the old observer. Retain all, mark UNKNOWN_CURRENT_ONLY. No pool, source, sampling, seed or gate change; failed directory retained.",
+  "instances": [
+    {
+      "stem": "20_8_5_1",
+      "time_seconds": 4,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1043.2162866718015,
+          51501.80947978115,
+          51219.63655822692
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    },
+    {
+      "stem": "100_2_3_1",
+      "time_seconds": 5,
+      "normalization": {
+        "lower": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          3338.756452430862,
+          96917.87950306736,
+          76604.02464302634
+        ],
+        "reference": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "source": "max of128 random parents, seeds880000..880127"
+      }
+    }
+  ],
+  "methods": [
+    "PAID_ND",
+    "HISTORY_ND",
+    "CURRENT_ND",
+    "INITIAL_ND",
+    "RANDOM_KNOWN"
+  ],
+  "question": "Does the extra paid-archive genotype supply create useful NEW offspring with the unchanged job-aligned kernel, beyond complete pooled accepted histories/current/initial or random known sources?",
+  "sampling": "All six original first-generation CENTER windows per instance (step0/24/49, both source seeds). Eight equally spaced freeCENTER recipients among47; retain their actual oldest personal ND guide by full owner index. No outcome/window/parent replacement.",
+  "sources": {
+    "PAID_ND": "Actual all-paid archive at request; already ND and objective-deduplicated.",
+    "HISTORY_ND": "ND of full100initial+100current+all current personal histories.",
+    "CURRENT_ND": "ND of full100current.",
+    "INITIAL_ND": "ND of full100initial.",
+    "RANDOM_KNOWN": "Uniform over all known encoded inputs from those sources; not a sample of all previously attempted candidates, which were not all saved."
+  },
+  "ndTies": "Chronological first paid occurrence, then full encoding. One genotype for equal objective vector within ND construction; exact source/genome duplicates merged in common input reconstruction, membership/provenance retained. No offspring deduplication before payment.",
+  "kernel": "Actual frozen KernelVariants.JOB_ALIGNED, native six independent paper resource triggers and repairs; unchanged config, parent and actual personal guide. Only global guide source varies. No candidate acceptance/local search/Q update or mainline modification.",
+  "randomness": "Each recipient/rep gets one uniform quantile from an independent selector RNG shared across source methods. Kernel RNG reset to identical starting seed after selection. Different guide/resource/repair paths need not consume subsequent draws identically.",
+  "budget": "Common unique encoded source inputs per context replayed through RunContext once and charged, including across-context repeats; then6contexts*8parents*16draws*5methods=3840charged offspring per instance,7680total. All paid inputs/offspring also full-timeline QA separately. Exact setup+totalFE frozen after deterministic input preparation, before decoding.",
+  "comparison": "Equal128offspring per source per context on fixed parents/pbest. Shared paid source reconstruction is data-generation cost, not five independently executed full optimizers. This is not complete-algorithm sameFE/time evidence.",
+  "cost": "Record every source reconstruction/evaluation and QA separately. Pool construction for current/history/paid/random perrep amortized over exactly8children. INITIAL_ND cached once per context, cost divided by128actual children. Measure guide draw/copy, generation, repair and guarded evaluation. These are necessary frozen-pool costs; live archive snapshot/cache API, maintenance and closed-loop timing remain unvalidated.",
+  "scoring": "Single-candidate HV increase against the complete actual pre-request paid archive. All teacher/personal/parent points must score zero extra HV. Average16draws per recipient,48recipient-context clusters per instance. Never union all16children and call that one candidate. Normalization/source fixed; ref1.5primary,1.25/2sensitivity.",
+  "gate": "Each instance>=24of48informative recipient clusters. PAID_ND mean single gain>=10% overHISTORY_ND andINITIAL_ND,>=5%overCURRENT_ND andRANDOM_KNOWN. >=27of48strict recipient wins vsHISTORY_ND andRANDOM_KNOWN. Each source-seed aggregate positive vsboth; each step aggregate nonnegative vsHISTORY_ND; ref1.25/2 directions vsboth positive. Median necessary per-child pool+draw/copy+kernel+evaluation cost ratio<=1.25 vsHISTORY_ND andINITIAL_ND. Zero controls inconclusive. All necessary. Failure stops this fixed source rule, without teacher rank/pool subset/seed/window/kernel tuning.",
+  "engineering": "Actual classes/JDK/SHA frozen. Every imported source paid no later than request; full source objective replay bit-exact. Every paid offspring complete timeline matches independent full decoder. Source vectors/objectives unchanged. Pool membership and ND objective sets independently recomputed, complete paidFE ledger1..last; failures retain fee receipts and last valid front.",
+  "nextIfPass": "Only a fresh protocol for native archive-read costs and closed loop, including uniform duties and strong classical all-paid-guide feedback. Extra supply mostly MAKESPAN at these windows cannot establish four-role unique cooperation.",
+  "limits": "Reused development sources and conditional single-offspring mechanism; no novel archive method, full algorithm superiority, fatigue specificity, same-time gain, independent confirmation or Li author-result reproduction. Original four roles/QGS/families/shared rules and default decoder untouched. No downloads, transfers or public push."
+}
